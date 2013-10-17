@@ -1,0 +1,4 @@
+This is a proof-of-concept Caja extension which allows you to open a
+terminal in arbitrary local folders.
+
+This is a fork of nautilus-open-terminal.
