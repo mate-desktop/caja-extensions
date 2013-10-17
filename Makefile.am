@@ -2,6 +2,7 @@
 
 SUBDIRS = \
 	po \
+	gksu \
 	open-terminal
 
 EXTRA_DIST = \
