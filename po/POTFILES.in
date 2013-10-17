@@ -1,0 +1,4 @@
+# List of source files containing translatable strings.
+# Please keep this list in alphabetic order.
+open-terminal/caja-open-terminal.c
+open-terminal/org.mate.caja-open-terminal.gschema.xml.in
