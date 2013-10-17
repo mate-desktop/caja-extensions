@@ -19,9 +19,6 @@ GTK_DOC_CHECK(1.9)
 
 MATE_COMMON_INIT
 
-GLIB_GENMARSHAL=`$PKG_CONFIG --variable=glib_genmarshal glib-2.0`
-AC_SUBST(GLIB_GENMARSHAL)
-
 # Check for pkgconfig first
 AC_CHECK_PROG(HAVE_PKGCONFIG, pkg-config, yes, no)
 AC_PATH_PROG(PKG_CONFIG, pkg-config, no)
@@ -31,17 +28,23 @@ if test "x$HAVE_PKGCONFIG" = "xno"; then
   AC_MSG_ERROR([you need to have pkgconfig installed !])
 fi
 
+GLIB_GENMARSHAL=`$PKG_CONFIG --variable=glib_genmarshal glib-2.0`
+AC_SUBST(GLIB_GENMARSHAL)
+
 # Common requirements
-PKG_CHECK_MODULES(CAJA, libcaja-extension >= $CAJA_REQUIRED)
+PKG_CHECK_MODULES(CAJA,
+                  libcaja-extension >= $CAJA_REQUIRED)
 AC_SUBST(CAJA_CFLAGS)
 AC_SUBST(CAJA_LIBS)
 
-# open-terminal
-PKG_CHECK_MODULES(OPENTERMINAL, glib-2.0 >= $GLIB_REQUIRED mate-desktop-2.0 >= $LIBMATE_DESKTOP_REQUIRED)
+# open-terminal extension
+PKG_CHECK_MODULES(OPENTERMINAL,
+                  glib-2.0           >= $GLIB_REQUIRED
+                  mate-desktop-2.0   >= $LIBMATE_DESKTOP_REQUIRED)
 AC_SUBST(OPENTERMINAL_CFLAGS)
 AC_SUBST(OPENTERMINAL_LIBS)
 
-# sendto
+# sendto extension
 GTHREAD_REQUIRED=2.6.0
 GTK_REQUIRED=2.18
 DBUS_REQUIRED=1.0
@@ -66,7 +69,6 @@ AC_SUBST(CAJA_EXTENSION_DIR)
 
 # intltool stuff
 AC_PROG_INTLTOOL(0.18)
-dnl AM_WITH_NLS
 GETTEXT_PACKAGE=caja-extensions
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [gettext package])
