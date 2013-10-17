@@ -1,4 +1,5 @@
 MATE:
+
 Perberos <perberos@gmail.com>
 Steve Zesch <stevezesch2@gmail.com>
 Stefano Karapetsas <stefano@karapetsas.com>
@@ -12,3 +13,9 @@ Allan Douglas <allan_douglas@gmx.net>
 
 nautilus-open-terminal:
 Christian Neumair <chris@gnome-de.org>
+
+nautilus-sendto:
+Roberto Majadas <roberto.majadas@openshine.com>
+This module it's highly influenced by file-roller module
+Thanks Paolo Bacchilega :)
+Bluetooth plugin: Bastien Nocera <hadess@hadess.net>

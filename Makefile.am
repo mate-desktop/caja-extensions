@@ -3,7 +3,8 @@
 SUBDIRS = \
 	po \
 	gksu \
-	open-terminal
+	open-terminal \
+	sendto
 
 EXTRA_DIST = \
 	intltool-extract.in \

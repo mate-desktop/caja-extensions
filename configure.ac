@@ -3,14 +3,24 @@ AC_INIT([caja-extensions], 1.7.0, [https://github.com/mate-desktop/caja-extensio
 AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS(config.h)
 
+AM_DISABLE_STATIC
+AC_PROG_CC
+AM_PROG_LIBTOOL
+AC_PROG_INSTALL
+AC_PROG_MAKE_SET
+
 CAJA_REQUIRED=1.5.0
 LIBMATE_DESKTOP_REQUIRED=1.5.0
-GLIB_REQUIRED=2.14.0
+GLIB_REQUIRED=2.26.0
 
 GLIB_GSETTINGS
 
-AC_PROG_CC
-AM_PROG_LIBTOOL
+GTK_DOC_CHECK(1.9)
+
+MATE_COMMON_INIT
+
+GLIB_GENMARSHAL=`$PKG_CONFIG --variable=glib_genmarshal glib-2.0`
+AC_SUBST(GLIB_GENMARSHAL)
 
 # Check for pkgconfig first
 AC_CHECK_PROG(HAVE_PKGCONFIG, pkg-config, yes, no)
@@ -31,6 +41,25 @@ PKG_CHECK_MODULES(OPENTERMINAL, glib-2.0 >= $GLIB_REQUIRED mate-desktop-2.0 >= $
 AC_SUBST(OPENTERMINAL_CFLAGS)
 AC_SUBST(OPENTERMINAL_LIBS)
 
+# sendto
+GTHREAD_REQUIRED=2.6.0
+GTK_REQUIRED=2.18
+DBUS_REQUIRED=1.0
+DBUS_GLIB_REQUIRED=0.60
+GUPNP_REQUIRED=0.13
+PKG_CHECK_MODULES(SENDTO,
+                  glib-2.0    >= $GLIB_REQUIRED
+                  gio-2.0     >= $GLIB_REQUIRED
+                  gthread-2.0 >= $GTHREAD_REQUIRED
+                  gmodule-2.0 >= $GLIB_REQUIRED
+                  gtk+-2.0    >= $GTK_REQUIRED
+                  dbus-1      >= $DBUS_REQUIRED
+                  dbus-glib-1 >= $DBUS_GLIB_REQUIRED
+                  gupnp-1.0   >= $GUPNP_REQUIRED)
+AC_SUBST(SENDTO_CFLAGS)
+AC_SUBST(SENDTO_LIBS)
+AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$prefix/share/gajim", [path to gajim share dir])
+
 # Get caja extensions directory
 CAJA_EXTENSION_DIR=`$PKG_CONFIG --variable=extensiondir libcaja-extension`
 AC_SUBST(CAJA_EXTENSION_DIR)
@@ -47,6 +76,17 @@ AC_OUTPUT([
   Makefile 
   gksu/Makefile
   open-terminal/Makefile
+  sendto/Makefile
+  sendto/caja-sendto.pc
+  sendto/docs/Makefile
+  sendto/docs/version.xml
+  sendto/plugins/Makefile
+  sendto/plugins/emailclient/Makefile
+  sendto/plugins/gajim/Makefile
+  sendto/plugins/caja-burn/Makefile
+  sendto/plugins/pidgin/Makefile
+  sendto/plugins/removable-devices/Makefile
+  sendto/plugins/upnp/Makefile
   po/Makefile.in 
 ])
 

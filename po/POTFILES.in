@@ -3,3 +3,15 @@
 gksu/libcaja-gksu.c
 open-terminal/caja-open-terminal.c
 open-terminal/org.mate.caja-open-terminal.gschema.xml.in
+sendto/caja-nste.c
+sendto/caja-nste.h
+sendto/caja-sendto-command.c
+sendto/caja-sendto-module.c
+sendto/org.mate.Caja.Sendto.gschema.xml.in
+[type: gettext/glade]sendto/caja-sendto.ui
+sendto/plugins/emailclient/emailclient.c
+sendto/plugins/gajim/gajim.c
+sendto/plugins/caja-burn/caja-burn.c
+sendto/plugins/pidgin/pidgin.c
+sendto/plugins/removable-devices/removable-devices.c
+sendto/plugins/upnp/upnp.c
