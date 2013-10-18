@@ -1,8 +1,8 @@
 
-
 SUBDIRS = \
 	po \
 	gksu \
+	image-converter \
 	open-terminal \
 	sendto
 

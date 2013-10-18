@@ -12,6 +12,7 @@ AC_PROG_MAKE_SET
 CAJA_REQUIRED=1.5.0
 LIBMATE_DESKTOP_REQUIRED=1.5.0
 GLIB_REQUIRED=2.26.0
+GTK_REQUIRED=2.18
 
 GLIB_GSETTINGS
 
@@ -37,6 +38,14 @@ PKG_CHECK_MODULES(CAJA,
 AC_SUBST(CAJA_CFLAGS)
 AC_SUBST(CAJA_LIBS)
 
+# image-converter extension
+PKG_CHECK_MODULES(IMAGE_CONVERTER,
+                  gtk+-2.0  >= $GTK_REQUIRED
+                  glib-2.0  >= $GLIB_REQUIRED
+                  gio-2.0   >= $GLIB_REQUIRED)
+AC_SUBST(IMAGE_CONVERTER_CFLAGS)
+AC_SUBST(IMAGE_CONVERTER_LIBS)
+
 # open-terminal extension
 PKG_CHECK_MODULES(OPENTERMINAL,
                   glib-2.0           >= $GLIB_REQUIRED
@@ -46,7 +55,6 @@ AC_SUBST(OPENTERMINAL_LIBS)
 
 # sendto extension
 GTHREAD_REQUIRED=2.6.0
-GTK_REQUIRED=2.18
 DBUS_REQUIRED=1.0
 DBUS_GLIB_REQUIRED=0.60
 GUPNP_REQUIRED=0.13
@@ -77,6 +85,7 @@ AM_GLIB_GNU_GETTEXT
 AC_OUTPUT([
   Makefile 
   gksu/Makefile
+  image-converter/Makefile
   open-terminal/Makefile
   sendto/Makefile
   sendto/caja-sendto.pc

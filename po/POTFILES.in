@@ -1,6 +1,11 @@
 # List of source files containing translatable strings.
 # Please keep this list in alphabetic order.
 gksu/libcaja-gksu.c
+image-converter/caja-image-converter.c
+[type: gettext/glade]image-converter/caja-image-resize.ui
+image-converter/caja-image-resizer.c
+[type: gettext/glade]image-converter/caja-image-rotate.ui
+image-converter/caja-image-rotator.c
 open-terminal/caja-open-terminal.c
 open-terminal/org.mate.caja-open-terminal.gschema.xml.in
 sendto/caja-nste.c
