@@ -4,7 +4,8 @@ SUBDIRS = \
 	gksu \
 	image-converter \
 	open-terminal \
-	sendto
+	sendto \
+	share
 
 EXTRA_DIST = \
 	intltool-extract.in \

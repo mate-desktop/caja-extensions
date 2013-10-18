@@ -71,6 +71,12 @@ AC_SUBST(SENDTO_CFLAGS)
 AC_SUBST(SENDTO_LIBS)
 AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$prefix/share/gajim", [path to gajim share dir])
 
+# share extension
+PKG_CHECK_MODULES(SHARE,
+                  glib-2.0 >= $GLIB_REQUIRED)
+AC_SUBST(SHARE_CFLAGS)
+AC_SUBST(SHARE_LIBS)
+
 # Get caja extensions directory
 CAJA_EXTENSION_DIR=`$PKG_CONFIG --variable=extensiondir libcaja-extension`
 AC_SUBST(CAJA_EXTENSION_DIR)
@@ -98,6 +104,7 @@ AC_OUTPUT([
   sendto/plugins/pidgin/Makefile
   sendto/plugins/removable-devices/Makefile
   sendto/plugins/upnp/Makefile
+  share/Makefile
   po/Makefile.in 
 ])
 
