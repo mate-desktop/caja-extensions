@@ -1,6 +1,6 @@
 AC_INIT([caja-extensions], 1.7.0, [https://github.com/mate-desktop/caja-extensions])
 
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar])
 AC_CONFIG_HEADERS(config.h)
 
 AM_DISABLE_STATIC
@@ -63,6 +63,7 @@ PKG_CHECK_MODULES(SENDTO,
                   gio-2.0     >= $GLIB_REQUIRED
                   gthread-2.0 >= $GTHREAD_REQUIRED
                   gmodule-2.0 >= $GLIB_REQUIRED
+                  gobject-2.0 >= $GLIB_REQUIRED
                   gtk+-2.0    >= $GTK_REQUIRED
                   dbus-1      >= $DBUS_REQUIRED
                   dbus-glib-1 >= $DBUS_GLIB_REQUIRED
@@ -78,8 +79,15 @@ AC_SUBST(SHARE_CFLAGS)
 AC_SUBST(SHARE_LIBS)
 
 # Get caja extensions directory
-CAJA_EXTENSION_DIR=`$PKG_CONFIG --variable=extensiondir libcaja-extension`
-AC_SUBST(CAJA_EXTENSION_DIR)
+AC_ARG_WITH(cajadir,
+    AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Caja extension @<:@auto@:>@]),
+    [ac_with_cajadir=$withval],
+    [ac_with_cajadir=""])
+if test "${ac_with_cajadir}" = ""; then
+    ac_with_cajadir=`$PKG_CONFIG --variable=extensiondir libcaja-extension`
+fi
+AC_MSG_NOTICE([Installing caja plugins in ${ac_with_cajadir}])
+AC_SUBST([CAJA_EXTENSION_DIR],[${ac_with_cajadir}])
 
 # intltool stuff
 AC_PROG_INTLTOOL(0.18)

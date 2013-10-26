@@ -1,4 +1,4 @@
-SUBDIRS = docs plugins
+SUBDIRS = . docs plugins
 
 AM_CPPFLAGS =					\
 	-DDATADIR=\"$(datadir)\"		\
@@ -79,4 +79,4 @@ gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 man_MANS = caja-sendto.1
 
 EXTRA_DIST = $(ui_DATA) $(man_MANS) caja-sendto.pc.in $(convert_DATA) $(gsettingsschema_in_files)
-CLEANFILES = $(nst_built_headers) $(nst_built_cfiles)
+CLEANFILES = $(nst_built_headers) $(nst_built_cfiles) $(gsettings_SCHEMAS)

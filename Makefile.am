@@ -1,4 +1,6 @@
 
+DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
+
 SUBDIRS = \
 	po \
 	gksu \
