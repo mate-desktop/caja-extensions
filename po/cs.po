@@ -1,0 +1,519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Allconius <sinope@seznam.cz>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2013-10-18 15:13+0200\n"
+"PO-Revision-Date: 2013-10-23 11:26+0000\n"
+"Last-Translator: Allconius <sinope@seznam.cz>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/MATE/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../gksu/libcaja-gksu.c:135
+msgid "Open as administrator"
+msgstr "Otevřít jako správce"
+
+#: ../gksu/libcaja-gksu.c:136
+msgid "Opens the file with administrator privileges"
+msgstr "Otevřete soubor s oprávněními správce"
+
+#: ../gksu/libcaja-gksu.c:223
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the correct application cannot be determined."
+msgstr "<big><b>Nemohu určit program, který se má spustit.</b></big>⏎\n⏎\nVybrané položky nelze otevřít s administrátorským oprávněním, protože nelze určit správnou aplikaci."
+
+#: ../image-converter/caja-image-converter.c:120
+msgid "_Resize Images..."
+msgstr "_Změnit velikost obrázků..."
+
+#: ../image-converter/caja-image-converter.c:121
+msgid "Resize each selected image"
+msgstr "Změnit velikost každého vybraného obrázku"
+
+#: ../image-converter/caja-image-converter.c:130
+msgid "Ro_tate Images..."
+msgstr "_Otočit obrázky..."
+
+#: ../image-converter/caja-image-converter.c:131
+msgid "Rotate each selected image"
+msgstr "Otočit každý vybraný obrázek"
+
+#: ../image-converter/caja-image-resize.ui.h:1
+msgid "Resize Images"
+msgstr "Změnit velikost obrázků"
+
+#: ../image-converter/caja-image-resize.ui.h:2
+msgid "<b>Image Size</b>"
+msgstr "<b>Velikost obrázku</b>"
+
+#: ../image-converter/caja-image-resize.ui.h:3
+msgid "Select a size:"
+msgstr "Vyberte velikost:"
+
+#: ../image-converter/caja-image-resize.ui.h:4
+msgid "96x96"
+msgstr "96x96"
+
+#: ../image-converter/caja-image-resize.ui.h:5
+msgid "128x128"
+msgstr "128x128"
+
+#: ../image-converter/caja-image-resize.ui.h:6
+msgid "640x480"
+msgstr "640x480"
+
+#: ../image-converter/caja-image-resize.ui.h:7
+msgid "800x600"
+msgstr "800x600"
+
+#: ../image-converter/caja-image-resize.ui.h:8
+msgid "1024x768"
+msgstr "1024x768"
+
+#: ../image-converter/caja-image-resize.ui.h:9
+msgid "1280x960"
+msgstr "1280x960"
+
+#: ../image-converter/caja-image-resize.ui.h:10
+msgid "pixels"
+msgstr "bodů"
+
+#: ../image-converter/caja-image-resize.ui.h:11
+msgid "Scale:"
+msgstr "Měřítko:"
+
+#: ../image-converter/caja-image-resize.ui.h:12
+msgid "percent"
+msgstr "procent"
+
+#: ../image-converter/caja-image-resize.ui.h:13
+msgid "Custom size:"
+msgstr "Vlastní velikost:"
+
+#: ../image-converter/caja-image-resize.ui.h:14
+msgid "Width:"
+msgstr "Šířka:"
+
+#: ../image-converter/caja-image-resize.ui.h:15
+msgid "Height:"
+msgstr "Výška:"
+
+#: ../image-converter/caja-image-resize.ui.h:16
+#: ../image-converter/caja-image-rotate.ui.h:6
+msgid "<b>Filename</b>"
+msgstr "<b>Jméno souboru</b>"
+
+#: ../image-converter/caja-image-resize.ui.h:17
+#: ../image-converter/caja-image-rotate.ui.h:7
+msgid "Append"
+msgstr "Připojit"
+
+#: ../image-converter/caja-image-resize.ui.h:18
+msgid ".resized"
+msgstr ".změněna velikost"
+
+#: ../image-converter/caja-image-resize.ui.h:19
+#: ../image-converter/caja-image-rotate.ui.h:9
+msgid "to file title"
+msgstr "k názvu souboru"
+
+#: ../image-converter/caja-image-resize.ui.h:20
+msgid "Resize in place"
+msgstr "Změnit velikost v místě"
+
+#: ../image-converter/caja-image-resize.ui.h:21
+msgid "_Resize"
+msgstr "_Změnit velikost"
+
+#: ../image-converter/caja-image-resizer.c:211
+#: ../image-converter/caja-image-rotator.c:208
+msgid "_Skip"
+msgstr "Pře_skočit"
+
+#: ../image-converter/caja-image-resizer.c:213
+#: ../image-converter/caja-image-rotator.c:210
+msgid "_Retry"
+msgstr "_Znovu"
+
+#: ../image-converter/caja-image-resizer.c:291
+#, c-format
+msgid "Resizing image: %d of %d"
+msgstr "Mění se velikost obrázku: %d z %d"
+
+#: ../image-converter/caja-image-resizer.c:296
+#, c-format
+msgid "<i>Resizing \"%s\"</i>"
+msgstr "<i>Mění se velikost u \"%s\"</i>"
+
+#: ../image-converter/caja-image-resizer.c:314
+#: ../image-converter/caja-image-rotator.c:313
+msgid "Please enter a valid filename suffix!"
+msgstr "Prosím vložte správnou příponu souboru!"
+
+#: ../image-converter/caja-image-rotate.ui.h:1
+msgid "Rotate Images"
+msgstr "Otočit obrázky"
+
+#: ../image-converter/caja-image-rotate.ui.h:2
+msgid "<b>Image Rotation</b>"
+msgstr "<b>Otočení obrázku</b>"
+
+#: ../image-converter/caja-image-rotate.ui.h:3
+msgid "Select an angle:"
+msgstr "Zvolte úhel:"
+
+#: ../image-converter/caja-image-rotate.ui.h:4
+msgid "Custom angle:"
+msgstr "Vlastní úhel:"
+
+#: ../image-converter/caja-image-rotate.ui.h:5
+msgid "degrees clockwise"
+msgstr "stupňů doprava"
+
+#: ../image-converter/caja-image-rotate.ui.h:8
+msgid ".rotated"
+msgstr ".otočené"
+
+#: ../image-converter/caja-image-rotate.ui.h:10
+msgid "Rotate in place"
+msgstr "Otočit na místě"
+
+#: ../image-converter/caja-image-rotate.ui.h:11
+msgid "_Rotate"
+msgstr "_Otočit"
+
+#: ../image-converter/caja-image-rotator.c:290
+#, c-format
+msgid "Rotating image: %d of %d"
+msgstr "Otočit obrázek: %d z %d"
+
+#: ../image-converter/caja-image-rotator.c:295
+#, c-format
+msgid "<i>Rotating \"%s\"</i>"
+msgstr "<i>Otáčí se \"%s\"</i>"
+
+#: ../open-terminal/caja-open-terminal.c:423
+#: ../open-terminal/caja-open-terminal.c:436
+msgid "Open In _Terminal"
+msgstr "Otevřít v _terminálu"
+
+#: ../open-terminal/caja-open-terminal.c:425
+msgid "Open the currently selected folder in a terminal"
+msgstr "Otevřít aktuálně označený adresář v terminálu"
+
+#: ../open-terminal/caja-open-terminal.c:427
+#: ../open-terminal/caja-open-terminal.c:437
+msgid "Open the currently open folder in a terminal"
+msgstr "Otevřít aktuálně otevřený adresář v terminálu"
+
+#: ../open-terminal/caja-open-terminal.c:433
+msgid "Open _Terminal"
+msgstr "Otevřít _terminál"
+
+#: ../open-terminal/caja-open-terminal.c:434
+msgid "Open a terminal"
+msgstr "Otevřít terminál"
+
+#: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
+msgid ""
+"Whether opening a terminal on the desktop opens a terminal in the home "
+"directory"
+msgstr "Otevření terminálu na ploše otevře terminál v domovském adresáři"
+
+#: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
+msgid ""
+"If set to true, then opening a terminal on the desktop will open a terminal "
+"in the home directory. Otherwise, it will be opened in the desktop "
+"directory. Note that this key is irrelevant if the desktop directory is "
+"identical to the home directory."
+msgstr "Pokud je nastaveno, pak otevření terminálu na ploše bude otevírat terminál v domovském adresáři. V opačném případě bude otevřen v adresáři plochy. Všimněte si, že tento klíč je irelevantní pokud je adresář plochy totožný s domovským adresářem."
+
+#: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Odeslat..."
+
+#: ../sendto/caja-nste.c:79
+msgid "Send file by mail, instant message..."
+msgstr "Odeslat soubor e-mailem, rychlou zprávou..."
+
+#: ../sendto/caja-nste.c:84
+msgid "Send files by mail, instant message..."
+msgstr "Odeslat soubory e-mailem, rychlou zprávou..."
+
+#: ../sendto/caja-sendto-command.c:576
+msgid "Files"
+msgstr "Soubory"
+
+#: ../sendto/caja-sendto-command.c:788
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Jako možnosti očekává zadané URI tzn. jednotné identifikátory zdroje nebo názvy souborů⏎\n"
+
+#: ../sendto/caja-sendto-command.c:809
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Nelze zpracovat volby příkazové řádky: %s⏎\n"
+
+#: ../sendto/caja-sendto-command.c:824
+msgid "Could not load any plugins."
+msgstr "Nelze nahrát žádné zásuvné moduly."
+
+#: ../sendto/caja-sendto-command.c:827
+msgid "Please verify your installation"
+msgstr "Prosím zkontrolujte svoji instalaci"
+
+#: ../sendto/caja-sendto.ui.h:2
+msgid "_Send"
+msgstr "_Odeslat"
+
+#: ../sendto/caja-sendto.ui.h:3
+msgid "<b>Destination</b>"
+msgstr "<b>Umístění</b>"
+
+#: ../sendto/caja-sendto.ui.h:4
+msgid "Send _as:"
+msgstr "Odeslat j_ako:"
+
+#: ../sendto/caja-sendto.ui.h:5
+msgid "Send t_o:"
+msgstr "Odeslat d_o"
+
+#: ../sendto/caja-sendto.ui.h:6
+msgid "<b>Compression</b>"
+msgstr "<b>Komprese</b>"
+
+#: ../sendto/caja-sendto.ui.h:7
+msgid "Send _packed in:"
+msgstr "Odeslat za_baleno v:"
+
+#: ../sendto/plugins/emailclient/emailclient.c:263
+msgid "Email"
+msgstr "E-mail"
+
+#: ../sendto/plugins/gajim/gajim.c:417
+msgid "Unable to send file"
+msgstr "Nelze odeslat soubor"
+
+#: ../sendto/plugins/gajim/gajim.c:418
+msgid "There is no connection to gajim remote service."
+msgstr "Neexistuje spojení ke vzdálené službě gajim."
+
+#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+msgid "Sending file failed"
+msgstr "Odesílání souboru selhalo"
+
+#: ../sendto/plugins/gajim/gajim.c:443
+msgid "Recipient is missing."
+msgstr "Chybí příjemce."
+
+#: ../sendto/plugins/gajim/gajim.c:482
+msgid "Unknown recipient."
+msgstr "Neznámý příjemce."
+
+#: ../sendto/plugins/gajim/gajim.c:505
+msgid "Instant Message (Gajim)"
+msgstr "Rychlá zpráva (Gajim)"
+
+#: ../sendto/plugins/caja-burn/caja-burn.c:92
+msgid "New CD/DVD"
+msgstr "Nové CD/DVD"
+
+#: ../sendto/plugins/caja-burn/caja-burn.c:99
+msgid "Existing CD/DVD"
+msgstr "Existující CD/DVD"
+
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
+msgid "CD/DVD Creator"
+msgstr "Tvůrce CD/DVD"
+
+#: ../sendto/plugins/pidgin/pidgin.c:464
+msgid "Instant Message (Pidgin)"
+msgstr "Rychlá zpráva (Pidgin)"
+
+#: ../sendto/plugins/removable-devices/removable-devices.c:248
+msgid "Removable disks and shares"
+msgstr "Výměnné disky a sdílené složky"
+
+#: ../sendto/plugins/upnp/upnp.c:309
+msgid "UPnP Media Server"
+msgstr "Multimediální server UPnP"
+
+#: ../share/mate-file-manager-share.c:123
+#, c-format
+msgid ""
+"Caja needs to add some permissions to your folder \"%s\" in order to share "
+"it"
+msgstr "Caja potřebuje přidat k vaší složce \"%s\" nějaké oprávnění, aby mohlo být sdíleno"
+
+#: ../share/mate-file-manager-share.c:131
+#, c-format
+msgid ""
+"The folder \"%s\" needs the following extra permissions for sharing to work:\n"
+"%s%s%sDo you want Caja to add these permissions to the folder automatically?"
+msgstr "Složka \"%s\" potřebuje speciální oprávnění pro sdílení práce:⏎\n%s%s%sChcete aby Caja přidala tato oprávnění ke složce automaticky?"
+
+#: ../share/mate-file-manager-share.c:135
+msgid "  - read permission by others\n"
+msgstr "- oprávnění pro čtení pro ostatní⏎\n"
+
+#: ../share/mate-file-manager-share.c:136
+msgid "  - write permission by others\n"
+msgstr "- oprávnění pro zápis pro ostatní⏎\n"
+
+#: ../share/mate-file-manager-share.c:137
+msgid "  - execute permission by others\n"
+msgstr "- oprávnění pro spuštění pro ostatní⏎\n"
+
+#: ../share/mate-file-manager-share.c:141
+msgid "Add the permissions automatically"
+msgstr "Přidat oprávnění automaticky"
+
+#: ../share/mate-file-manager-share.c:167
+#, c-format
+msgid "Could not change the permissions of folder \"%s\""
+msgstr "Nelze změnit oprávnění u složky \"%s\""
+
+#: ../share/mate-file-manager-share.c:446
+msgid "Share name is too long"
+msgstr "Sdílené jméno je příliš dlouhé"
+
+#: ../share/mate-file-manager-share.c:480
+msgid "The share name cannot be empty"
+msgstr "Sdílené jméno nemůže být prázdné"
+
+#: ../share/mate-file-manager-share.c:493
+#, c-format
+msgid "Error while getting share information: %s"
+msgstr "Chyba při získávání sdílené informace: %s"
+
+#: ../share/mate-file-manager-share.c:503
+msgid "Another share has the same name"
+msgstr "Další sdílené má stejný název"
+
+#: ../share/mate-file-manager-share.c:550
+#: ../share/mate-file-manager-share.c:786
+msgid "Modify _Share"
+msgstr "Upravit _Sdílení"
+
+#: ../share/mate-file-manager-share.c:550
+#: ../share/mate-file-manager-share.c:788
+msgid "Create _Share"
+msgstr "Vytvořit _Sdílení"
+
+#: ../share/mate-file-manager-share.c:678
+msgid "There was an error while getting the sharing information"
+msgstr "Došlo k chybě při získávání sdílení informací"
+
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Sdílet"
+
+#: ../share/mate-file-manager-share.c:1110
+msgid "Folder Sharing"
+msgstr "Sdílená složka"
+
+#: ../share/mate-file-manager-share.c:1151
+msgid "Sharing Options"
+msgstr "Možnosti sdílení"
+
+#: ../share/mate-file-manager-share.c:1152
+msgid "Share this Folder"
+msgstr "Sdílet složku"
+
+#: ../share/share-dialog.ui.h:1
+msgid "<big><b>Folder Sharing</b></big>"
+msgstr "<big><b>Sdílená složka</b></big>"
+
+#: ../share/share-dialog.ui.h:2
+msgid "Share _name:"
+msgstr "Sdílený _název:"
+
+#: ../share/share-dialog.ui.h:3
+msgid "Share this _folder"
+msgstr "Sdílet _složku"
+
+#: ../share/share-dialog.ui.h:4
+msgid "Co_mment:"
+msgstr "Ko_mentář:"
+
+#: ../share/share-dialog.ui.h:5
+msgid "_Allow others to create and delete files in this folder"
+msgstr "_Umožnit ostatním vytvářet a mazat soubory v této složce"
+
+#: ../share/share-dialog.ui.h:6
+msgid "_Guest access (for people without a user account)"
+msgstr "_Přístup pro hosta (pro lidi bez uživatelského účtu)"
+
+#: ../share/shares.c:125
+#, c-format
+msgid "%s %s %s returned with signal %d"
+msgstr "%s %s %s se vrátil se signálem %d"
+
+#: ../share/shares.c:134
+#, c-format
+msgid "%s %s %s failed for an unknown reason"
+msgstr "%s %s %s selhal z neznámého důvodu"
+
+#: ../share/shares.c:154
+#, c-format
+msgid "'net usershare' returned error %d: %s"
+msgstr "'net usershare' vrátil chybu %d: %s"
+
+#: ../share/shares.c:156
+#, c-format
+msgid "'net usershare' returned error %d"
+msgstr "'net usershare' vrátil chybu %d"
+
+#: ../share/shares.c:187
+#, c-format
+msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
+msgstr "výstup z 'net usershare' není v kódování UTF-8"
+
+#: ../share/shares.c:442 ../share/shares.c:616
+#, c-format
+msgid "Failed"
+msgstr "Selhalo"
+
+#: ../share/shares.c:550
+#, c-format
+msgid "Samba's testparm returned with signal %d"
+msgstr "Samba's testparm vrátil signál %d"
+
+#: ../share/shares.c:556
+#, c-format
+msgid "Samba's testparm failed for an unknown reason"
+msgstr "Samba's testparm z neznámého důvodu selhal"
+
+#: ../share/shares.c:571
+#, c-format
+msgid "Samba's testparm returned error %d: %s"
+msgstr "Samba's testparm vrátil chybu %d: %s"
+
+#: ../share/shares.c:573
+#, c-format
+msgid "Samba's testparm returned error %d"
+msgstr "Samba's testparm vrátil chybu %d"
+
+#: ../share/shares.c:684
+#, c-format
+msgid "Cannot remove the share for path %s: that path is not shared"
+msgstr "Nelze odstranit sdílení pro cestu %s: tato cesta není sdílena"
+
+#: ../share/shares.c:730
+#, c-format
+msgid ""
+"Cannot change the path of an existing share; please remove the old share "
+"first and add a new one"
+msgstr "Nelze změnit cestu stávajícího sdílení; prosím odstraňte nejprve původní sdílení a pak přidejte nové"

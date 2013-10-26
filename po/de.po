@@ -1,0 +1,519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Almin <GermannenMarkus@googlemail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2013-10-18 15:13+0200\n"
+"PO-Revision-Date: 2013-10-25 22:22+0000\n"
+"Last-Translator: Almin <GermannenMarkus@googlemail.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../gksu/libcaja-gksu.c:135
+msgid "Open as administrator"
+msgstr "Öffne als Administrator"
+
+#: ../gksu/libcaja-gksu.c:136
+msgid "Opens the file with administrator privileges"
+msgstr "Öffnet die Datei mit Administratoren-Rechte"
+
+#: ../gksu/libcaja-gksu.c:223
+msgid ""
+"<big><b>Unable to determine the program to run.</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the correct application cannot be determined."
+msgstr "<big><b>Konnte Programm zum Ausführen nicht ermitteln.</b></big>\n\nDer selektierte Eintrag kann nicht mir Administratoren-Rechte geöffnet werden da die entsprechende Applikation nicht ermittelt werden konnte."
+
+#: ../image-converter/caja-image-converter.c:120
+msgid "_Resize Images..."
+msgstr "Bildgröße anpassen..."
+
+#: ../image-converter/caja-image-converter.c:121
+msgid "Resize each selected image"
+msgstr "Jedes ausgewählte Bild anpassen"
+
+#: ../image-converter/caja-image-converter.c:130
+msgid "Ro_tate Images..."
+msgstr "Bilder drehen..."
+
+#: ../image-converter/caja-image-converter.c:131
+msgid "Rotate each selected image"
+msgstr "Jedes ausgewählte Bild drehen"
+
+#: ../image-converter/caja-image-resize.ui.h:1
+msgid "Resize Images"
+msgstr "Bildgröße anpassen"
+
+#: ../image-converter/caja-image-resize.ui.h:2
+msgid "<b>Image Size</b>"
+msgstr "<b>Bildgröße</b>"
+
+#: ../image-converter/caja-image-resize.ui.h:3
+msgid "Select a size:"
+msgstr "Eine Größe wählen:"
+
+#: ../image-converter/caja-image-resize.ui.h:4
+msgid "96x96"
+msgstr "96x96"
+
+#: ../image-converter/caja-image-resize.ui.h:5
+msgid "128x128"
+msgstr "128x128"
+
+#: ../image-converter/caja-image-resize.ui.h:6
+msgid "640x480"
+msgstr "640x480"
+
+#: ../image-converter/caja-image-resize.ui.h:7
+msgid "800x600"
+msgstr "800x600"
+
+#: ../image-converter/caja-image-resize.ui.h:8
+msgid "1024x768"
+msgstr "1024x768"
+
+#: ../image-converter/caja-image-resize.ui.h:9
+msgid "1280x960"
+msgstr "1280x960"
+
+#: ../image-converter/caja-image-resize.ui.h:10
+msgid "pixels"
+msgstr "Pixel"
+
+#: ../image-converter/caja-image-resize.ui.h:11
+msgid "Scale:"
+msgstr "Skalieren:"
+
+#: ../image-converter/caja-image-resize.ui.h:12
+msgid "percent"
+msgstr "Prozent"
+
+#: ../image-converter/caja-image-resize.ui.h:13
+msgid "Custom size:"
+msgstr "Eigene Größe:"
+
+#: ../image-converter/caja-image-resize.ui.h:14
+msgid "Width:"
+msgstr "Breite:"
+
+#: ../image-converter/caja-image-resize.ui.h:15
+msgid "Height:"
+msgstr "Höhe:"
+
+#: ../image-converter/caja-image-resize.ui.h:16
+#: ../image-converter/caja-image-rotate.ui.h:6
+msgid "<b>Filename</b>"
+msgstr "<b>Dateiname</b>"
+
+#: ../image-converter/caja-image-resize.ui.h:17
+#: ../image-converter/caja-image-rotate.ui.h:7
+msgid "Append"
+msgstr "Anhängen"
+
+#: ../image-converter/caja-image-resize.ui.h:18
+msgid ".resized"
+msgstr ".geaendert"
+
+#: ../image-converter/caja-image-resize.ui.h:19
+#: ../image-converter/caja-image-rotate.ui.h:9
+msgid "to file title"
+msgstr "zum Dateinamen"
+
+#: ../image-converter/caja-image-resize.ui.h:20
+msgid "Resize in place"
+msgstr "Bilder überschreiben"
+
+#: ../image-converter/caja-image-resize.ui.h:21
+msgid "_Resize"
+msgstr "_Größe ändern"
+
+#: ../image-converter/caja-image-resizer.c:211
+#: ../image-converter/caja-image-rotator.c:208
+msgid "_Skip"
+msgstr "Ü_berspringen"
+
+#: ../image-converter/caja-image-resizer.c:213
+#: ../image-converter/caja-image-rotator.c:210
+msgid "_Retry"
+msgstr "_Wiederholen"
+
+#: ../image-converter/caja-image-resizer.c:291
+#, c-format
+msgid "Resizing image: %d of %d"
+msgstr "Bildgröße anpassen: %d von %d"
+
+#: ../image-converter/caja-image-resizer.c:296
+#, c-format
+msgid "<i>Resizing \"%s\"</i>"
+msgstr "<i>Bildgröße anpassen \"%s\"</i>"
+
+#: ../image-converter/caja-image-resizer.c:314
+#: ../image-converter/caja-image-rotator.c:313
+msgid "Please enter a valid filename suffix!"
+msgstr "Bitte geben Sie eine gültige Dateiendung an!"
+
+#: ../image-converter/caja-image-rotate.ui.h:1
+msgid "Rotate Images"
+msgstr "Bilder drehen"
+
+#: ../image-converter/caja-image-rotate.ui.h:2
+msgid "<b>Image Rotation</b>"
+msgstr "<b>Bilder drehen</b>"
+
+#: ../image-converter/caja-image-rotate.ui.h:3
+msgid "Select an angle:"
+msgstr "Wählen Sie einen Winkel:"
+
+#: ../image-converter/caja-image-rotate.ui.h:4
+msgid "Custom angle:"
+msgstr "Eigener Winkel:"
+
+#: ../image-converter/caja-image-rotate.ui.h:5
+msgid "degrees clockwise"
+msgstr "Grad im Uhrzeigersinn"
+
+#: ../image-converter/caja-image-rotate.ui.h:8
+msgid ".rotated"
+msgstr ".gedreht"
+
+#: ../image-converter/caja-image-rotate.ui.h:10
+msgid "Rotate in place"
+msgstr "Bilder überschreiben"
+
+#: ../image-converter/caja-image-rotate.ui.h:11
+msgid "_Rotate"
+msgstr "_Drehen"
+
+#: ../image-converter/caja-image-rotator.c:290
+#, c-format
+msgid "Rotating image: %d of %d"
+msgstr "Drehe Bilder: %d von %d"
+
+#: ../image-converter/caja-image-rotator.c:295
+#, c-format
+msgid "<i>Rotating \"%s\"</i>"
+msgstr "<i>Drehe \"%s\"</i>"
+
+#: ../open-terminal/caja-open-terminal.c:423
+#: ../open-terminal/caja-open-terminal.c:436
+msgid "Open In _Terminal"
+msgstr "Im _Terminal öffnen"
+
+#: ../open-terminal/caja-open-terminal.c:425
+msgid "Open the currently selected folder in a terminal"
+msgstr "Den momentan gewählten Ordner in einem Terminal öffnen."
+
+#: ../open-terminal/caja-open-terminal.c:427
+#: ../open-terminal/caja-open-terminal.c:437
+msgid "Open the currently open folder in a terminal"
+msgstr "Den momentan geöffneten Ordner in einem Terminal öffnen."
+
+#: ../open-terminal/caja-open-terminal.c:433
+msgid "Open _Terminal"
+msgstr "Neues _Terminal"
+
+#: ../open-terminal/caja-open-terminal.c:434
+msgid "Open a terminal"
+msgstr "Ein Terminal öffnen"
+
+#: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
+msgid ""
+"Whether opening a terminal on the desktop opens a terminal in the home "
+"directory"
+msgstr "Ob das Öffnen eines Terminals auf dem Desktop ein Terminal im Heim-Verzeichnis öffnet"
+
+#: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
+msgid ""
+"If set to true, then opening a terminal on the desktop will open a terminal "
+"in the home directory. Otherwise, it will be opened in the desktop "
+"directory. Note that this key is irrelevant if the desktop directory is "
+"identical to the home directory."
+msgstr "Falls dieser Schlüssel wahr ist, führt das Öffnen eines Terminals auf dem Desktop dazu, dass ein Terminal im Heim-Verzeichnis geöffnet wird. Andernfalls wird es im Desktop-Verzeichnis geöffnet. Hinweis: Dieser Schlüssel wird ignoriert, falls das Desktop- mit dem Heim-Verzeichnis übereinstimmt."
+
+#: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Senden an …"
+
+#: ../sendto/caja-nste.c:79
+msgid "Send file by mail, instant message..."
+msgstr "Datei per E-Mail, Sofortnachricht versenden …"
+
+#: ../sendto/caja-nste.c:84
+msgid "Send files by mail, instant message..."
+msgstr "Dateien per E-Mail, Sofortnachricht versenden …"
+
+#: ../sendto/caja-sendto-command.c:576
+msgid "Files"
+msgstr "Dateien"
+
+#: ../sendto/caja-sendto-command.c:788
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "URLs oder Dateinamen sollten als Optionen gesetzt werden\n"
+
+#: ../sendto/caja-sendto-command.c:809
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Eingabe-Optionen konnten nicht eingelesen werden: %s\n"
+
+#: ../sendto/caja-sendto-command.c:824
+msgid "Could not load any plugins."
+msgstr "Kein Plugin konnte geladen werden."
+
+#: ../sendto/caja-sendto-command.c:827
+msgid "Please verify your installation"
+msgstr "Bitte überprüfen Sie Ihre Installation"
+
+#: ../sendto/caja-sendto.ui.h:2
+msgid "_Send"
+msgstr "_Senden"
+
+#: ../sendto/caja-sendto.ui.h:3
+msgid "<b>Destination</b>"
+msgstr "<b>Zielort</b>"
+
+#: ../sendto/caja-sendto.ui.h:4
+msgid "Send _as:"
+msgstr "Senden _als:"
+
+#: ../sendto/caja-sendto.ui.h:5
+msgid "Send t_o:"
+msgstr "Senden a_n:"
+
+#: ../sendto/caja-sendto.ui.h:6
+msgid "<b>Compression</b>"
+msgstr "<b>Archiv anlegen</b>"
+
+#: ../sendto/caja-sendto.ui.h:7
+msgid "Send _packed in:"
+msgstr "Ge_packt senden in:"
+
+#: ../sendto/plugins/emailclient/emailclient.c:263
+msgid "Email"
+msgstr "E-Mail"
+
+#: ../sendto/plugins/gajim/gajim.c:417
+msgid "Unable to send file"
+msgstr "Datei kann nicht gesendet werden."
+
+#: ../sendto/plugins/gajim/gajim.c:418
+msgid "There is no connection to gajim remote service."
+msgstr "Keine Verbindung zu Gajim Remote Service."
+
+#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+msgid "Sending file failed"
+msgstr "Senden der Datei fehlgeschlagen"
+
+#: ../sendto/plugins/gajim/gajim.c:443
+msgid "Recipient is missing."
+msgstr "Empfänger fehlt."
+
+#: ../sendto/plugins/gajim/gajim.c:482
+msgid "Unknown recipient."
+msgstr "Unbekannter Empfänger."
+
+#: ../sendto/plugins/gajim/gajim.c:505
+msgid "Instant Message (Gajim)"
+msgstr "Sofortnachricht (Gajim)"
+
+#: ../sendto/plugins/caja-burn/caja-burn.c:92
+msgid "New CD/DVD"
+msgstr "Neue CD/DVD"
+
+#: ../sendto/plugins/caja-burn/caja-burn.c:99
+msgid "Existing CD/DVD"
+msgstr "Vorhandene CD/DVD"
+
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
+msgid "CD/DVD Creator"
+msgstr "CD/DVD-Ersteller"
+
+#: ../sendto/plugins/pidgin/pidgin.c:464
+msgid "Instant Message (Pidgin)"
+msgstr "Sofortnachricht (Pidgin)"
+
+#: ../sendto/plugins/removable-devices/removable-devices.c:248
+msgid "Removable disks and shares"
+msgstr "Entfernbare Medien und Freigaben"
+
+#: ../sendto/plugins/upnp/upnp.c:309
+msgid "UPnP Media Server"
+msgstr "UPnP-Media-Server"
+
+#: ../share/mate-file-manager-share.c:123
+#, c-format
+msgid ""
+"Caja needs to add some permissions to your folder \"%s\" in order to share "
+"it"
+msgstr "Caja muss dem Ordner \"%s\" einige Zugriffsrechte hinzufügen um ihn zu teilen."
+
+#: ../share/mate-file-manager-share.c:131
+#, c-format
+msgid ""
+"The folder \"%s\" needs the following extra permissions for sharing to work:\n"
+"%s%s%sDo you want Caja to add these permissions to the folder automatically?"
+msgstr "Der Ordner \"%s\" benötigt folgende zusätzliche Zugriffsrechte, damit er geteilt werden kann: %s%s%sMöchten Sie, dass Caja dem Ordner die Zugriffsrechte automatisch zuweist?"
+
+#: ../share/mate-file-manager-share.c:135
+msgid "  - read permission by others\n"
+msgstr "- Leseberechtigung für Andere\n"
+
+#: ../share/mate-file-manager-share.c:136
+msgid "  - write permission by others\n"
+msgstr "- Schreibberechtigung für Andere\n"
+
+#: ../share/mate-file-manager-share.c:137
+msgid "  - execute permission by others\n"
+msgstr "- Ausführungsberechtigung für Andere\n"
+
+#: ../share/mate-file-manager-share.c:141
+msgid "Add the permissions automatically"
+msgstr "Ergänze die Berechtigungen automatisch"
+
+#: ../share/mate-file-manager-share.c:167
+#, c-format
+msgid "Could not change the permissions of folder \"%s\""
+msgstr "Die Zugriffsrechte von folgendem Ordner nicht geändert werden: %s"
+
+#: ../share/mate-file-manager-share.c:446
+msgid "Share name is too long"
+msgstr "Teilungsname ist zu lang"
+
+#: ../share/mate-file-manager-share.c:480
+msgid "The share name cannot be empty"
+msgstr "Der Teilungsname kann nicht leer sein"
+
+#: ../share/mate-file-manager-share.c:493
+#, c-format
+msgid "Error while getting share information: %s"
+msgstr "Fehler beim Erhalten der Teilungsinformation: %s"
+
+#: ../share/mate-file-manager-share.c:503
+msgid "Another share has the same name"
+msgstr ""
+
+#: ../share/mate-file-manager-share.c:550
+#: ../share/mate-file-manager-share.c:786
+msgid "Modify _Share"
+msgstr ""
+
+#: ../share/mate-file-manager-share.c:550
+#: ../share/mate-file-manager-share.c:788
+msgid "Create _Share"
+msgstr ""
+
+#: ../share/mate-file-manager-share.c:678
+msgid "There was an error while getting the sharing information"
+msgstr ""
+
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr ""
+
+#: ../share/mate-file-manager-share.c:1110
+msgid "Folder Sharing"
+msgstr ""
+
+#: ../share/mate-file-manager-share.c:1151
+msgid "Sharing Options"
+msgstr ""
+
+#: ../share/mate-file-manager-share.c:1152
+msgid "Share this Folder"
+msgstr ""
+
+#: ../share/share-dialog.ui.h:1
+msgid "<big><b>Folder Sharing</b></big>"
+msgstr ""
+
+#: ../share/share-dialog.ui.h:2
+msgid "Share _name:"
+msgstr ""
+
+#: ../share/share-dialog.ui.h:3
+msgid "Share this _folder"
+msgstr ""
+
+#: ../share/share-dialog.ui.h:4
+msgid "Co_mment:"
+msgstr ""
+
+#: ../share/share-dialog.ui.h:5
+msgid "_Allow others to create and delete files in this folder"
+msgstr ""
+
+#: ../share/share-dialog.ui.h:6
+msgid "_Guest access (for people without a user account)"
+msgstr ""
+
+#: ../share/shares.c:125
+#, c-format
+msgid "%s %s %s returned with signal %d"
+msgstr ""
+
+#: ../share/shares.c:134
+#, c-format
+msgid "%s %s %s failed for an unknown reason"
+msgstr ""
+
+#: ../share/shares.c:154
+#, c-format
+msgid "'net usershare' returned error %d: %s"
+msgstr ""
+
+#: ../share/shares.c:156
+#, c-format
+msgid "'net usershare' returned error %d"
+msgstr ""
+
+#: ../share/shares.c:187
+#, c-format
+msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
+msgstr ""
+
+#: ../share/shares.c:442 ../share/shares.c:616
+#, c-format
+msgid "Failed"
+msgstr ""
+
+#: ../share/shares.c:550
+#, c-format
+msgid "Samba's testparm returned with signal %d"
+msgstr ""
+
+#: ../share/shares.c:556
+#, c-format
+msgid "Samba's testparm failed for an unknown reason"
+msgstr ""
+
+#: ../share/shares.c:571
+#, c-format
+msgid "Samba's testparm returned error %d: %s"
+msgstr ""
+
+#: ../share/shares.c:573
+#, c-format
+msgid "Samba's testparm returned error %d"
+msgstr ""
+
+#: ../share/shares.c:684
+#, c-format
+msgid "Cannot remove the share for path %s: that path is not shared"
+msgstr ""
+
+#: ../share/shares.c:730
+#, c-format
+msgid ""
+"Cannot change the path of an existing share; please remove the old share "
+"first and add a new one"
+msgstr ""
