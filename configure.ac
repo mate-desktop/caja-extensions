@@ -12,7 +12,6 @@ AC_PROG_MAKE_SET
 CAJA_REQUIRED=1.5.0
 LIBMATE_DESKTOP_REQUIRED=1.5.0
 GLIB_REQUIRED=2.26.0
-GTK_REQUIRED=2.18
 
 GLIB_GSETTINGS
 
@@ -32,6 +31,25 @@ fi
 GLIB_GENMARSHAL=`$PKG_CONFIG --variable=glib_genmarshal glib-2.0`
 AC_SUBST(GLIB_GENMARSHAL)
 
+AC_MSG_CHECKING([GTK+ version])
+AC_ARG_WITH([gtk],
+  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
+  [case "$with_gtk" in
+     2.0|3.0) ;;
+     *) AC_MSG_ERROR([invalid gtk version specified]) ;;
+   esac],
+  [with_gtk=2.0])
+AC_MSG_RESULT([$with_gtk])
+
+case "$with_gtk" in
+  2.0) GTK_API_VERSION=2.0
+       GTK_REQUIRED=2.18.0
+       ;;
+  3.0) GTK_API_VERSION=3.0
+       GTK_REQUIRED=3.0.0
+       ;;
+esac
+
 # Common requirements
 PKG_CHECK_MODULES(CAJA,
                   libcaja-extension >= $CAJA_REQUIRED)
@@ -40,7 +58,7 @@ AC_SUBST(CAJA_LIBS)
 
 # image-converter extension
 PKG_CHECK_MODULES(IMAGE_CONVERTER,
-                  gtk+-2.0  >= $GTK_REQUIRED
+                  gtk+-$GTK_API_VERSION  >= $GTK_REQUIRED
                   glib-2.0  >= $GLIB_REQUIRED
                   gio-2.0   >= $GLIB_REQUIRED)
 AC_SUBST(IMAGE_CONVERTER_CFLAGS)
@@ -64,7 +82,7 @@ PKG_CHECK_MODULES(SENDTO,
                   gthread-2.0 >= $GTHREAD_REQUIRED
                   gmodule-2.0 >= $GLIB_REQUIRED
                   gobject-2.0 >= $GLIB_REQUIRED
-                  gtk+-2.0    >= $GTK_REQUIRED
+                  gtk+-$GTK_API_VERSION >= $GTK_REQUIRED
                   dbus-1      >= $DBUS_REQUIRED
                   dbus-glib-1 >= $DBUS_GLIB_REQUIRED
                   gupnp-1.0   >= $GUPNP_REQUIRED)
