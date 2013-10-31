@@ -1,6 +1,5 @@
 AM_CFLAGS = -g -O2 -Wall
-INCLUDES = ${CAJA_CFLAGS}
-AM_CPPFLAGS = -DLOCALEDIR=\"$(datadir)/locale\" -DDATA_DIR=\"$(datadir)\" -DPREFIX=\"$(prefix)\"
+AM_CPPFLAGS = -DLOCALEDIR=\"$(datadir)/locale\" -DDATA_DIR=\"$(datadir)\" -DPREFIX=\"$(prefix)\" $(CAJA_CFLAGS)
 
 caja_extensiondir=$(libdir)/caja/extensions-2.0
 caja_extension_LTLIBRARIES = libcaja-gksu.la
