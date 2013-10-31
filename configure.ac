@@ -79,7 +79,7 @@ AC_ARG_ENABLE([open-terminal],
         [enable_open_terminal=$enableval],
         [enable_open_terminal=yes])
 
-if test "x$enable_open-terminal" = "xyes"; then
+if test "x$enable_open_terminal" = "xyes"; then
         PKG_CHECK_MODULES(OPENTERMINAL,
                 glib-2.0           >= $GLIB_REQUIRED
                 mate-desktop-2.0   >= $LIBMATE_DESKTOP_REQUIRED)
