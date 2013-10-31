@@ -79,7 +79,7 @@ AC_ARG_ENABLE([open-terminal],
         [enable_open_terminal=$enableval],
         [enable_open_terminal=yes])
 
-if test "x$enable_open-terminal" = "xyes"; then
+if test "x$enable_open_terminal" = "xyes"; then
         PKG_CHECK_MODULES(OPENTERMINAL,
                 glib-2.0           >= $GLIB_REQUIRED
                 mate-desktop-2.0   >= $LIBMATE_DESKTOP_REQUIRED)
@@ -179,6 +179,12 @@ AC_OUTPUT([
 ])
 
 echo "
+caja-extensions-$VERSION:
+        prefix:                 ${prefix}
+        compiler:               ${CC}
+        caja-extension dir      ${ac_with_cajadir}
+        Gtk+ version:           ${GTK_API_VERSION}
+
 Plugins to be build:
         Image Converter:        $enable_image_converter
         Open Terminal:          $enable_open_terminal
