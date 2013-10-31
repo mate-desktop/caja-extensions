@@ -20,7 +20,6 @@ sendto/plugins/caja-burn/caja-burn.c
 sendto/plugins/pidgin/pidgin.c
 sendto/plugins/removable-devices/removable-devices.c
 sendto/plugins/upnp/upnp.c
-share/caja-share.c
 share/mate-file-manager-share.c
 [type: gettext/glade]share/share-dialog.ui
 share/shares.c

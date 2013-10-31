@@ -34,8 +34,6 @@ static gboolean throw_error_on_add;
 static gboolean throw_error_on_modify;
 static gboolean throw_error_on_remove;
 
-
-
 /* Interface to "net usershare" */
 
 static gboolean
