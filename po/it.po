@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2013-10-18 15:13+0200\n"
-"PO-Revision-Date: 2013-10-18 14:08+0000\n"
+"POT-Creation-Date: 2013-10-31 01:16+0100\n"
+"PO-Revision-Date: 2013-10-31 00:23+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/MATE/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -350,85 +350,87 @@ msgstr "Condivisioni e dischi rimovibili"
 msgid "UPnP Media Server"
 msgstr "Server multimediale UPnP"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123 ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131 ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135 ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136 ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137 ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141 ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167 ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446 ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480 ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493 ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503 ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
 msgstr ""
 
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
 msgstr ""
 
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678 ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/caja-share.c:1050 ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr ""
+msgstr "Condivisione"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110 ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151 ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152 ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
 msgstr ""
 
@@ -446,7 +448,7 @@ msgstr ""
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "Co_mmento:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -484,7 +486,7 @@ msgstr ""
 #: ../share/shares.c:442 ../share/shares.c:616
 #, c-format
 msgid "Failed"
-msgstr ""
+msgstr "Non riuscito"
 
 #: ../share/shares.c:550
 #, c-format
