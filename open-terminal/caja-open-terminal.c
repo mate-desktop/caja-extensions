@@ -34,7 +34,7 @@
 #include <gtk/gtkwidget.h>
 #include <gtk/gtkmain.h>
 
-#include <libmate/mate-desktop-item.h>
+#include <libmate-desktop/mate-desktop-item.h>
 #include <gio/gio.h>
 
 #include <errno.h>
