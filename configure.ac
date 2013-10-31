@@ -178,3 +178,11 @@ AC_OUTPUT([
   po/Makefile.in 
 ])
 
+echo "
+Plugins to be build:
+        Image Converter:        $enable_image_converter
+        Open Terminal:          $enable_open_terminal
+        Sendto:                 $enable_sendto
+        Share:                  $enable_share
+        Gksu:                   $enable_gksu
+"
