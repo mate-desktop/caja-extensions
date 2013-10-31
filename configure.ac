@@ -179,6 +179,12 @@ AC_OUTPUT([
 ])
 
 echo "
+caja-extensions-$VERSION:
+        prefix:                 ${prefix}
+        compiler:               ${CC}
+        caja-extension dir      ${ac_with_cajadir}
+        Gtk+ version:           ${GTK_API_VERSION}
+
 Plugins to be build:
         Image Converter:        $enable_image_converter
         Open Terminal:          $enable_open_terminal
