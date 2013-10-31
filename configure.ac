@@ -57,44 +57,88 @@ AC_SUBST(CAJA_CFLAGS)
 AC_SUBST(CAJA_LIBS)
 
 # image-converter extension
-PKG_CHECK_MODULES(IMAGE_CONVERTER,
-                  gtk+-$GTK_API_VERSION  >= $GTK_REQUIRED
-                  glib-2.0  >= $GLIB_REQUIRED
-                  gio-2.0   >= $GLIB_REQUIRED)
-AC_SUBST(IMAGE_CONVERTER_CFLAGS)
-AC_SUBST(IMAGE_CONVERTER_LIBS)
+AC_ARG_ENABLE([image-converter],
+        AS_HELP_STRING([--enable-image-convert], [Enable image-converter plugin]),
+        [enable_image_converter=$enableval],
+        [enable_image_converter=yes])
+
+if test "x$enable_image-converter" = "xyes"; then
+        PKG_CHECK_MODULES(IMAGE_CONVERTER,
+                gtk+-$GTK_API_VERSION  >= $GTK_REQUIRED
+                glib-2.0  >= $GLIB_REQUIRED
+                gio-2.0   >= $GLIB_REQUIRED)
+        AC_SUBST(IMAGE_CONVERTER_CFLAGS)
+        AC_SUBST(IMAGE_CONVERTER_LIBS)
+fi
+
+AM_CONDITIONAL(ENABLE_IMAGE_CONVERTER, test x"$enable_image_converter" = "xyes")
 
 # open-terminal extension
-PKG_CHECK_MODULES(OPENTERMINAL,
-                  glib-2.0           >= $GLIB_REQUIRED
-                  mate-desktop-2.0   >= $LIBMATE_DESKTOP_REQUIRED)
-AC_SUBST(OPENTERMINAL_CFLAGS)
-AC_SUBST(OPENTERMINAL_LIBS)
+AC_ARG_ENABLE([open-terminal],
+        AS_HELP_STRING([--enable-open-terminal], [Enable open-terminal plugin]),
+        [enable_open_terminal=$enableval],
+        [enable_open_terminal=yes])
+
+if test "x$enable_open-terminal" = "xyes"; then
+        PKG_CHECK_MODULES(OPENTERMINAL,
+                glib-2.0           >= $GLIB_REQUIRED
+                mate-desktop-2.0   >= $LIBMATE_DESKTOP_REQUIRED)
+        AC_SUBST(OPENTERMINAL_CFLAGS)
+        AC_SUBST(OPENTERMINAL_LIBS)
+fi
+
+AM_CONDITIONAL(ENABLE_OPEN_TERMINAL, test x"$enable_open_terminal" = "xyes")
 
 # sendto extension
-GTHREAD_REQUIRED=2.6.0
-DBUS_REQUIRED=1.0
-DBUS_GLIB_REQUIRED=0.60
-GUPNP_REQUIRED=0.13
-PKG_CHECK_MODULES(SENDTO,
-                  glib-2.0    >= $GLIB_REQUIRED
-                  gio-2.0     >= $GLIB_REQUIRED
-                  gthread-2.0 >= $GTHREAD_REQUIRED
-                  gmodule-2.0 >= $GLIB_REQUIRED
-                  gobject-2.0 >= $GLIB_REQUIRED
-                  gtk+-$GTK_API_VERSION >= $GTK_REQUIRED
-                  dbus-1      >= $DBUS_REQUIRED
-                  dbus-glib-1 >= $DBUS_GLIB_REQUIRED
-                  gupnp-1.0   >= $GUPNP_REQUIRED)
-AC_SUBST(SENDTO_CFLAGS)
-AC_SUBST(SENDTO_LIBS)
-AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$prefix/share/gajim", [path to gajim share dir])
+AC_ARG_ENABLE([sendto],
+        AS_HELP_STRING([--enable-sendto], [Enable sendto plugin]),
+        [enable_sendto=$enableval],
+        [enable_sendto=yes])
+
+if test "x$enable_sendto" = "xyes"; then
+        GTHREAD_REQUIRED=2.6.0
+        DBUS_REQUIRED=1.0
+        DBUS_GLIB_REQUIRED=0.60
+        GUPNP_REQUIRED=0.13
+        PKG_CHECK_MODULES(SENDTO,
+                glib-2.0    >= $GLIB_REQUIRED
+                gio-2.0     >= $GLIB_REQUIRED
+                gthread-2.0 >= $GTHREAD_REQUIRED
+                gmodule-2.0 >= $GLIB_REQUIRED
+                gobject-2.0 >= $GLIB_REQUIRED
+                gtk+-$GTK_API_VERSION >= $GTK_REQUIRED
+                dbus-1      >= $DBUS_REQUIRED
+                dbus-glib-1 >= $DBUS_GLIB_REQUIRED
+                gupnp-1.0   >= $GUPNP_REQUIRED)
+        AC_SUBST(SENDTO_CFLAGS)
+        AC_SUBST(SENDTO_LIBS)
+        AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$prefix/share/gajim", [path to gajim share dir])
+fi
+
+AM_CONDITIONAL(ENABLE_SENDTO, test x"$enable_sendto" = "xyes")
 
 # share extension
-PKG_CHECK_MODULES(SHARE,
-                  glib-2.0 >= $GLIB_REQUIRED)
-AC_SUBST(SHARE_CFLAGS)
-AC_SUBST(SHARE_LIBS)
+AC_ARG_ENABLE([share],
+        AS_HELP_STRING([--enable-share], [Enable share plugin]),
+        [enable_share=$enableval],
+        [enable_share=yes])
+
+if test "x$enable_share" = "xyes"; then
+        PKG_CHECK_MODULES(SHARE,
+                glib-2.0 >= $GLIB_REQUIRED)
+        AC_SUBST(SHARE_CFLAGS)
+        AC_SUBST(SHARE_LIBS)
+fi
+
+AM_CONDITIONAL(ENABLE_SHARE, test x"$enable_share" = "xyes")
+
+# gksu extenstion
+AC_ARG_ENABLE([gksu],
+        AS_HELP_STRING([--enable-gksu], [Enable gksu plugin]),
+        [enable_gksu=$enableval],
+        [enable_gksu=yes])
+
+AM_CONDITIONAL(ENABLE_GKSU, test x"$enable_gksu" = "xyes")
 
 # Get caja extensions directory
 AC_ARG_WITH(cajadir,
@@ -134,3 +178,11 @@ AC_OUTPUT([
   po/Makefile.in 
 ])
 
+echo "
+Plugins to be build:
+        Image Converter:        $enable_image_converter
+        Open Terminal:          $enable_open_terminal
+        Sendto:                 $enable_sendto
+        Share:                  $enable_share
+        Gksu:                   $enable_gksu
+"
