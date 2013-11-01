@@ -58,7 +58,7 @@ AC_SUBST(CAJA_LIBS)
 
 # image-converter extension
 AC_ARG_ENABLE([image-converter],
-        AS_HELP_STRING([--enable-image-convert], [Enable image-converter plugin]),
+        AS_HELP_STRING([--enable-image-converter], [Enable image-converter plugin]),
         [enable_image_converter=$enableval],
         [enable_image_converter=yes])
 
