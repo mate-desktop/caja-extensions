@@ -22,7 +22,7 @@ libcaja_image_converter_la_SOURCES =				\
 libcaja_image_converter_la_LDFLAGS = -module -avoid-version
 libcaja_image_converter_la_LIBADD  = $(CAJA_LIBS) $(IMAGE_CONVERTER_LIBS)
 
-builderdir = $(datadir)/caja-image-converter
+builderdir = $(datadir)/caja-extensions
 builder_DATA = 				\
 	caja-image-resize.ui	\
 	caja-image-rotate.ui
