@@ -19,7 +19,7 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = caja-sendto.pc
 
 ui_DATA = caja-sendto.ui
-uidir = $(datadir)/caja-sendto/ui
+uidir = $(datadir)/caja-extensions
 
 noinst_LTLIBRARIES = libnstplugin.la
 libnstplugin_la_SOURCES =			\

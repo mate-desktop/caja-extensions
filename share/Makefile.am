@@ -1,4 +1,4 @@
-interfacesdir = $(datadir)/caja-share
+interfacesdir = $(datadir)/caja-extensions
 interfaces_DATA = share-dialog.ui
 EXTRA_DIST = share-dialog.ui
 
