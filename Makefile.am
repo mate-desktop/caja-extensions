@@ -19,6 +19,10 @@ if ENABLE_GKSU
 SUBDIRS += gksu
 endif
 
+if ENABLE_BEESU
+SUBDIRS += beesu
+endif
+
 if ENABLE_SHARE
 SUBDIRS += share
 endif

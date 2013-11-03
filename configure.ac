@@ -140,6 +140,14 @@ AC_ARG_ENABLE([gksu],
 
 AM_CONDITIONAL(ENABLE_GKSU, test x"$enable_gksu" = "xyes")
 
+# gksu extenstion
+AC_ARG_ENABLE([gksu],
+        AS_HELP_STRING([--enable-gksu], [Enable gksu plugin]),
+        [enable_gksu=$enableval],
+        [enable_gksu=yes])
+
+AM_CONDITIONAL(ENABLE_GKSU, test x"$enable_gksu" = "xyes")
+
 # Get caja extensions directory
 AC_ARG_WITH(cajadir,
     AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Caja extension @<:@auto@:>@]),
@@ -161,6 +169,7 @@ AM_GLIB_GNU_GETTEXT
 AC_OUTPUT([
   Makefile 
   gksu/Makefile
+  beesu/Makefile
   image-converter/Makefile
   open-terminal/Makefile
   sendto/Makefile
@@ -191,4 +200,5 @@ Plugins to be build:
         Sendto:                 $enable_sendto
         Share:                  $enable_share
         Gksu:                   $enable_gksu
+        Beesu:                  $enable_beesu
 "
