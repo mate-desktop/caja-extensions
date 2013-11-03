@@ -140,13 +140,13 @@ AC_ARG_ENABLE([gksu],
 
 AM_CONDITIONAL(ENABLE_GKSU, test x"$enable_gksu" = "xyes")
 
-# gksu extenstion
-AC_ARG_ENABLE([gksu],
-        AS_HELP_STRING([--enable-gksu], [Enable gksu plugin]),
-        [enable_gksu=$enableval],
-        [enable_gksu=yes])
+# beesu extenstion
+AC_ARG_ENABLE([beesu],
+        AS_HELP_STRING([--enable-beesu], [Enable beesu plugin]),
+        [enable_beesu=$enableval],
+        [enable_beesu=yes])
 
-AM_CONDITIONAL(ENABLE_GKSU, test x"$enable_gksu" = "xyes")
+AM_CONDITIONAL(ENABLE_BEESU, test x"$enable_beesu" = "xyes")
 
 # Get caja extensions directory
 AC_ARG_WITH(cajadir,
