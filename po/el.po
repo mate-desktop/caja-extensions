@@ -3,64 +3,63 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# luca123 <l_moscato1@hotmail.it>, 2014
-# Stefano Karapetsas <stefano@karapetsas.com>, 2013-2014
+# Efstathios Iosifidis <iefstathios@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-01-15 10:27+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/MATE/language/it/)\n"
+"PO-Revision-Date: 2013-12-10 15:37+0000\n"
+"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Apri come amministratore"
+msgstr "Άνοιγμα ως διαχειριστής"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Apre il file con i privilegi di amministratore"
+msgstr "Άνοιγμα του αρχείου με δικαιώματα διαχειριστή"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Impossibile determinare il programma da eseguire.</b></big>\n\nL'elemento selezionato non può essere aperto con i privilegi di amministratore perché non può essere determinata l'applicazione corretta."
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Ridimensionare le Immagini.."
+msgstr "_Αλλαγή μεγέθους εικόνων..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Ridimensionare tutte le immagini selezionate"
+msgstr "Αλλαγή μεγέθους κάθε επιλεγμένης εικόνας"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ruo_ta immagini..."
+msgstr "_Περιστροφή εικόνων..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Ruota ogni immagine selezionata"
+msgstr "Περιστροφή κάθε επιλεγμένης εικόνας"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Ridimensiona immagini"
+msgstr "Αλλαγή μεγέθους εικόνων"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Dimensione immagine</b>"
+msgstr "<b>Μέγεθος εικόνας</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Seleziona una dimensione:"
+msgstr "Επιλέξτε ένα μέγεθος:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -88,149 +87,149 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "pixel"
+msgstr "εικονοστοιχεία"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Scala:"
+msgstr "Κλίμακα:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "percentuale"
+msgstr "ποσοστό"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Dimensione personalizzata:"
+msgstr "Προσαρμοσμένο μέγεθος:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Larghezza:"
+msgstr "Πλάτος:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Altezza:"
+msgstr "Ύψος:"
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Nome file</b>"
+msgstr "<b>Όνομα αρχείου</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Appendi"
+msgstr "Προσάρτηση"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".ridimensionato"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "al nome file"
+msgstr "στον τίτλο του αρχείου"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Ridimensiona sul posto"
+msgstr "Αλλαγή μεγέθους στην τοποθεσία"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Ridimensiona"
+msgstr "Αλλαγή με_γέθους"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Ign_ora"
+msgstr "Πα_ράβλεψη"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "_Riprova"
+msgstr "_Επαναπροσπάθεια"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Ridimensionamento immagine: %d di %d"
+msgstr "Αλλαγή μεγέθους εικόνας: %d από %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Ridimensionamento di \"%s\"</i>"
+msgstr "<i>Γίνεται αλλαγή μεγέθους \"%s\"</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Inserire un suffisso valido al nome file!"
+msgstr "Παρακαλώ δώστε μια έγκυρη κατάληξη αρχείου!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Ruota immagini"
+msgstr "Περιστροφή εικόνων"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotazione immagine</b>"
+msgstr "<b>Περιστροφή εικόνας</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Seleziona un angolo:"
+msgstr "Επιλέξτε μια γωνία:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Angolo personalizzato:"
+msgstr "Προσαρμοσμένη γωνία:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "gradi orari"
+msgstr "Μοίρες δεξιόστροφα"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".ruotata"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Ruota sul posto"
+msgstr "Περιστροφή στην τοποθεσία"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Ruota"
+msgstr "_Περιστροφή"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Rotazione immagine: %d di %d"
+msgstr "Περιστροφή εικόνας: %d από %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Rotazione di \"%s\"</i>"
+msgstr "<i>Περιστροφή \"%s\"</i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
-msgstr "Apri nel _terminale"
+msgstr "Άνοιγμα σε _τερματικό"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "Apri la cartella selezionata in un terminale"
+msgstr "Άνοιγμα του τρέχοντος επιλεγμένου φακέλου σε τερματικό"
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "Apri l'attuale cartella aperta in un terminale"
+msgstr "Άνοιγμα του τρέχοντος ανοικτού φακέλου σε τερματικό"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr "Apri _terminale"
+msgstr "Άνοιγμα _τερματικού"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
-msgstr "Apri un terminale"
+msgstr "Άνοιγμα ενός τερματικού"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Determina se l'apertura di un terminale sul desktop apre un terminale nella home"
+msgstr "Όποτε ανοίγετε ένα τερματικό στην επιφάνεια εργασίας, ανοίγετε ένα τερματικό στον προσωπικό φάκελο"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -238,125 +237,125 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Se impostato su vero, aprire un terminale sul desktop aprirà un terminale sulla cartella home. Altrimenti, aprirà il terminale nella cartella del desktop. Nota che questa chiave non è rilevante se la cartella destkop corrisponde alla cartella home."
+msgstr ""
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Invia a..."
+msgstr "Αποστολή προς…"
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
-msgstr "File"
+msgstr "Αρχεία"
 
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Attesi degli URI o nomi file da essere passati come opzioni\n"
+msgstr "Αναμένει URIs ή ονόματα αρχείων ως επιλογές\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Impossibile analizzare le opzioni della riga di comando: %s\n"
+msgstr "Δεν μπορούν να αναλυθούν οι επιλογές γραμμής εντολών: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
-msgstr "Impossibile caricare alcun plugin."
+msgstr "Δεν είναι δυνατή η φόρτωση των προσθέτων."
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr "Verificare l'installazione"
+msgstr "Παρακαλώ ελέγξτε την εγκατάσταση σας"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "_Invia"
+msgstr "Απο_στολή"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Destinazione</b>"
+msgstr "<b>Προορισμός</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Invia _come:"
+msgstr "Αποστολή _ως:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Invia _a:"
+msgstr "Αποστολή _προς:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Compressione</b>"
+msgstr "<b>Συμπίεση</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Invia _archiviato in:"
+msgstr "Αποστολή με _συμπίεση ως:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Email"
+msgstr "Ηλεκτρονικό ταχυδρομείο"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr "Impossibile inviare file"
+msgstr "Δεν είναι δυνατή η αποστολή του αρχείου"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Nessuna connessione al servizio remoto di gajim."
+msgstr "Δεν υπάρχει σύνδεση με την απομακρυσμένη υπηρεσία gajim."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
-msgstr "Invio del file non riuscito"
+msgstr "Απέτυχε η αποστολή του αρχείου"
 
 #: ../sendto/plugins/gajim/gajim.c:443
 msgid "Recipient is missing."
-msgstr "Manca Il destinatario."
+msgstr "Ο παραλήπτης απουσιάζει."
 
 #: ../sendto/plugins/gajim/gajim.c:482
 msgid "Unknown recipient."
-msgstr "Destinatario sconosciuto."
+msgstr "Άγνωστος παραλήπτης."
 
 #: ../sendto/plugins/gajim/gajim.c:505
 msgid "Instant Message (Gajim)"
-msgstr "Messaggio istantaneo (Gajim)"
+msgstr "Άμεσο μήνυμα (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Nuovo CD/DVD"
+msgstr "Νέο CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr "CD/DVD esistente"
+msgstr "Υπάρχον CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "Creazione CD/DVD"
+msgstr "Δημιουργός CD/DVD"
 
 #: ../sendto/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr "Messaggio istantaneo (Pidgin)"
+msgstr "Άμεσο μήνυμα (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Condivisioni e dischi rimovibili"
+msgstr "Αφαιρούμενοι δίσκοι και κοινόχρηστοι φάκελοι"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "Server multimediale UPnP"
+msgstr "Εξυπηρετητής πολυμέσων UPnP"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja deve aggiungere alcuni permessi alla cartella \"%s\" per poterla condividere"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
@@ -379,75 +378,75 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Aggiungi i permessi automaticamente"
+msgstr "Αυτόματη προσθήκη δικαιωμάτων"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Impossibile cambiare i permessi per la cartella \"%s\""
+msgstr "Αδυναμία αλλαγής δικαιωμάτων του φακέλου \"%s\""
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr "Il nome della condivisione è troppo corto"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Il nome della condivisione non può essere vuoto"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Errore nel recupero delle informazioni di condivisione: %s"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr "Esiste un'altra condivisione con lo stesso nome"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr "Modifica _condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr "Crea _condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr "Si è verificato un errore nel recupero delle informazioni di condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr "Condivisione"
+msgstr "Κοινή χρήση"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Condivisione cartella"
+msgstr "Κοινή Χρήση Φακέλων"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Opzioni condivisione"
+msgstr "Επιλογές Κοινόχρηστου"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr "Condividi questa cartella"
+msgstr "Κοινή χρήση φακέλου"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Condivisione cartella</b></big>"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "_Nome condivisione:"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Condividi questa _cartella"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Co_mmento:"
+msgstr "_Σχόλιο:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -485,7 +484,7 @@ msgstr ""
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr "Non riuscito"
+msgstr "Αποτυχία"
 
 #: ../share/shares.c:548
 #, c-format
@@ -510,11 +509,11 @@ msgstr ""
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Impossibile rimuovere la condivisione per il percorso %s: il percorso non è condiviso"
+msgstr ""
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Impossibile modificare il percorso della condivisione; rimuovere prima il percorso della vecchia condivisione quindi aggiungerlo nuovamente"
+msgstr ""

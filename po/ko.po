@@ -3,234 +3,233 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# luca123 <l_moscato1@hotmail.it>, 2014
-# Stefano Karapetsas <stefano@karapetsas.com>, 2013-2014
+# sukso96100 <sukso96100@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-01-15 10:27+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/MATE/language/it/)\n"
+"PO-Revision-Date: 2014-01-11 13:32+0000\n"
+"Last-Translator: sukso96100 <sukso96100@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/projects/p/MATE/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Apri come amministratore"
+msgstr "관리자 권한으로 열기"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Apre il file con i privilegi di amministratore"
+msgstr "파일을 관리자 권한으로 열기."
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Impossibile determinare il programma da eseguire.</b></big>\n\nL'elemento selezionato non può essere aperto con i privilegi di amministratore perché non può essere determinata l'applicazione corretta."
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Ridimensionare le Immagini.."
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Ridimensionare tutte le immagini selezionate"
+msgstr "선택한 각각의 이미지 크기 조절하기"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ruo_ta immagini..."
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Ruota ogni immagine selezionata"
+msgstr "선택한 각각의 이미지 회전하기"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Ridimensiona immagini"
+msgstr "이미지 크기 조절하기"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Dimensione immagine</b>"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Seleziona una dimensione:"
+msgstr "크기 선택 :"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
-msgstr "96x96"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:5
 msgid "128x128"
-msgstr "128x128"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:6
 msgid "640x480"
-msgstr "640x480"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:7
 msgid "800x600"
-msgstr "800x600"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:8
 msgid "1024x768"
-msgstr "1024x768"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:9
 msgid "1280x960"
-msgstr "1280x960"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "pixel"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Scala:"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "percentuale"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Dimensione personalizzata:"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Larghezza:"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Altezza:"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Nome file</b>"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Appendi"
+msgstr "추가"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".ridimensionato"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "al nome file"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Ridimensiona sul posto"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Ridimensiona"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Ign_ora"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "_Riprova"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Ridimensionamento immagine: %d di %d"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Ridimensionamento di \"%s\"</i>"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Inserire un suffisso valido al nome file!"
+msgstr "올바른 파일 이름 접미사를 입력해 주세요!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Ruota immagini"
+msgstr "이미지 회전하기"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotazione immagine</b>"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Seleziona un angolo:"
+msgstr "각도 선택 :"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Angolo personalizzato:"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "gradi orari"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".ruotata"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Ruota sul posto"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Ruota"
+msgstr ""
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Rotazione immagine: %d di %d"
+msgstr ""
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Rotazione di \"%s\"</i>"
+msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
-msgstr "Apri nel _terminale"
+msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "Apri la cartella selezionata in un terminale"
+msgstr "현재 선택한 폴더를 터미널에서 열기."
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "Apri l'attuale cartella aperta in un terminale"
+msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr "Apri _terminale"
+msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
-msgstr "Apri un terminale"
+msgstr "터미널 하나 열기"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Determina se l'apertura di un terminale sul desktop apre un terminale nella home"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -238,132 +237,132 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Se impostato su vero, aprire un terminale sul desktop aprirà un terminale sulla cartella home. Altrimenti, aprirà il terminale nella cartella del desktop. Nota che questa chiave non è rilevante se la cartella destkop corrisponde alla cartella home."
+msgstr ""
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Invia a..."
+msgstr "보내기..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
-msgstr "File"
+msgstr "파일"
 
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Attesi degli URI o nomi file da essere passati come opzioni\n"
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Impossibile analizzare le opzioni della riga di comando: %s\n"
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
-msgstr "Impossibile caricare alcun plugin."
+msgstr "아무 플러그인도 불러올 수 없습니다."
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr "Verificare l'installazione"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "_Invia"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Destinazione</b>"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Invia _come:"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Invia _a:"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Compressione</b>"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Invia _archiviato in:"
+msgstr ""
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Email"
+msgstr "이메"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr "Impossibile inviare file"
+msgstr "파일을 보낼 수 없습니다."
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Nessuna connessione al servizio remoto di gajim."
+msgstr "gajim 원격 서비스와 연결되어 있지 않습니다."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
-msgstr "Invio del file non riuscito"
+msgstr "파일 보내기 실패"
 
 #: ../sendto/plugins/gajim/gajim.c:443
 msgid "Recipient is missing."
-msgstr "Manca Il destinatario."
+msgstr "받는 사람이 없습니다."
 
 #: ../sendto/plugins/gajim/gajim.c:482
 msgid "Unknown recipient."
-msgstr "Destinatario sconosciuto."
+msgstr "받는 사람을 알 수 없습니다."
 
 #: ../sendto/plugins/gajim/gajim.c:505
 msgid "Instant Message (Gajim)"
-msgstr "Messaggio istantaneo (Gajim)"
+msgstr ""
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Nuovo CD/DVD"
+msgstr "새 CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr "CD/DVD esistente"
+msgstr "기존 CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "Creazione CD/DVD"
+msgstr ""
 
 #: ../sendto/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr "Messaggio istantaneo (Pidgin)"
+msgstr ""
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Condivisioni e dischi rimovibili"
+msgstr ""
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "Server multimediale UPnP"
+msgstr "UPnP 미디어 서버"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja deve aggiungere alcuni permessi alla cartella \"%s\" per poterla condividere"
+msgstr "공유하려면, Caja 가 \"%s\" 폴더에 몇몇 권한을 추가해야 합니다"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "공유를 하기위해서 \"%s\" 폴더에 여분의 권한이 필요합니다.\n다음과 같은 권한을 Caja 가 자동으로 해당 폴더에 추가하는것을 원하십니까?\n%s%s%s"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
@@ -379,75 +378,75 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Aggiungi i permessi automaticamente"
+msgstr "권한 자동으로 추가하기"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Impossibile cambiare i permessi per la cartella \"%s\""
+msgstr "\"%s\"폴더의 권한을 바꿀 수 없습니다."
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr "Il nome della condivisione è troppo corto"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Il nome della condivisione non può essere vuoto"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Errore nel recupero delle informazioni di condivisione: %s"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr "Esiste un'altra condivisione con lo stesso nome"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr "Modifica _condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr "Crea _condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr "Si è verificato un errore nel recupero delle informazioni di condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr "Condivisione"
+msgstr "공유"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Condivisione cartella"
+msgstr "폴더 공유"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Opzioni condivisione"
+msgstr "공유 옵션"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr "Condividi questa cartella"
+msgstr "이 폴더 공유하기"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Condivisione cartella</b></big>"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "_Nome condivisione:"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Condividi questa _cartella"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Co_mmento:"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -485,7 +484,7 @@ msgstr ""
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr "Non riuscito"
+msgstr "실패"
 
 #: ../share/shares.c:548
 #, c-format
@@ -510,11 +509,11 @@ msgstr ""
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Impossibile rimuovere la condivisione per il percorso %s: il percorso non è condiviso"
+msgstr ""
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Impossibile modificare il percorso della condivisione; rimuovere prima il percorso della vecchia condivisione quindi aggiungerlo nuovamente"
+msgstr ""

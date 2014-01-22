@@ -3,64 +3,63 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# luca123 <l_moscato1@hotmail.it>, 2014
-# Stefano Karapetsas <stefano@karapetsas.com>, 2013-2014
+# Matriks404 <marcink96@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-01-15 10:27+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/MATE/language/it/)\n"
+"PO-Revision-Date: 2013-10-27 14:05+0000\n"
+"Last-Translator: Matriks404 <marcink96@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Apri come amministratore"
+msgstr "Otwórz jako administrator"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Apre il file con i privilegi di amministratore"
+msgstr "Otwiera plik z uprawnieniami administratora"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Impossibile determinare il programma da eseguire.</b></big>\n\nL'elemento selezionato non può essere aperto con i privilegi di amministratore perché non può essere determinata l'applicazione corretta."
+msgstr "<big><b>Nie można określić programu do uruchomienia.</b></big>\n\nWybrany element nie może zostać otwarty z uprawnieniami administratora ponieważ nie można odnaleźć właściwej aplikacji."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Ridimensionare le Immagini.."
+msgstr "_Zmień rozmiar obrazków…"
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Ridimensionare tutte le immagini selezionate"
+msgstr "Zmień rozmiar każdego z wybranych obrazków"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ruo_ta immagini..."
+msgstr "_Obróć obrazki..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Ruota ogni immagine selezionata"
+msgstr "Obróć każdy zaznaczony obrazek"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Ridimensiona immagini"
+msgstr "Zmień rozmiar obrazków"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Dimensione immagine</b>"
+msgstr "<b>Wielkość obrazka</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Seleziona una dimensione:"
+msgstr "Wybierz rozmiar:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -88,149 +87,149 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "pixel"
+msgstr "pikseli"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Scala:"
+msgstr "Skala:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "percentuale"
+msgstr "procent"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Dimensione personalizzata:"
+msgstr "Własny rozmiar:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Larghezza:"
+msgstr "Szerokość:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Altezza:"
+msgstr "Wysokość:"
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Nome file</b>"
+msgstr "<b>Nazwa pliku</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Appendi"
+msgstr "Dołącz"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".ridimensionato"
+msgstr ".resized"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "al nome file"
+msgstr "do nazwy pliku"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Ridimensiona sul posto"
+msgstr "Zmień rozmiar oryginału"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Ridimensiona"
+msgstr "Zmień _rozmiar"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Ign_ora"
+msgstr "_Pomiń"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "_Riprova"
+msgstr "_Ponów"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Ridimensionamento immagine: %d di %d"
+msgstr "Zmienianie rozmiaru: %d z %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Ridimensionamento di \"%s\"</i>"
+msgstr "<i>Zmiana rozmiaru \"%s\"</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Inserire un suffisso valido al nome file!"
+msgstr "Wprowadź poprawne rozszerzenie pliku!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Ruota immagini"
+msgstr "Obróć obrazki"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotazione immagine</b>"
+msgstr "<b>Obrót Obrazka</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Seleziona un angolo:"
+msgstr "Wybierz kąt:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Angolo personalizzato:"
+msgstr "Dostosuj kąt:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "gradi orari"
+msgstr "stopni w kierunku ruchu wskazówek zegara"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".ruotata"
+msgstr ".rotated"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Ruota sul posto"
+msgstr "Obracaj w miejscu"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Ruota"
+msgstr "_Obróć"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Rotazione immagine: %d di %d"
+msgstr "Obracanie obrazu: %d z %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Rotazione di \"%s\"</i>"
+msgstr "<i>Obracanie \"%s\"</i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
-msgstr "Apri nel _terminale"
+msgstr "Otwórz w _Terminalu"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "Apri la cartella selezionata in un terminale"
+msgstr "Otwórz obecnie wskazany folder w terminalu"
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "Apri l'attuale cartella aperta in un terminale"
+msgstr "Otwórz obecnie otwarty folder w terminalu"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr "Apri _terminale"
+msgstr "Otwórz _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
-msgstr "Apri un terminale"
+msgstr "Otwiera terminal"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Determina se l'apertura di un terminale sul desktop apre un terminale nella home"
+msgstr "Przy otwarciu terminala na pulpicie otwierany jest terminal w katalogu domowym uzytkownika"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -238,283 +237,283 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Se impostato su vero, aprire un terminale sul desktop aprirà un terminale sulla cartella home. Altrimenti, aprirà il terminale nella cartella del desktop. Nota che questa chiave non è rilevante se la cartella destkop corrisponde alla cartella home."
+msgstr "Przy ustawieniu terminal otwierany na pulpicie będzie otworzony w katalogu domowym użytkownika. W przeciwnym przypadku terminal zostanie otworzony w folderze pulpitu. Zauważ, że opcja ta nie ma zastosowania, jeżeli folder pulpitu jest tożsamy z folderem domowym użytkownika."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Invia a..."
+msgstr "Wyślij do..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr "Wysyła plik poprzez e-mail, komunikator..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr "Wysyła pliki poprzez e-mail, komunikator..."
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
-msgstr "File"
+msgstr "Pliki"
 
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Attesi degli URI o nomi file da essere passati come opzioni\n"
+msgstr "Oczekiwane adresy URI lub nazwy plików wywoływanych jako opcje\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Impossibile analizzare le opzioni della riga di comando: %s\n"
+msgstr "Nie można przetworzyć opcji z wiersza poleceń: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
-msgstr "Impossibile caricare alcun plugin."
+msgstr "Nie można wczytać żadnych wtyczek."
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr "Verificare l'installazione"
+msgstr "Proszę sprawdzić poprawność instalacji"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "_Invia"
+msgstr "_Wyślij"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Destinazione</b>"
+msgstr "<b>Miejsce docelowe</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Invia _come:"
+msgstr "Wyślij ja_ko:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Invia _a:"
+msgstr "Wyślij d_o:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Compressione</b>"
+msgstr "<b>Kompresja</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Invia _archiviato in:"
+msgstr "Wyślij _spakowane:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr "Impossibile inviare file"
+msgstr "Nie można wysłać pliku"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Nessuna connessione al servizio remoto di gajim."
+msgstr "Brak połączenia ze zdalną usługą gajim."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
-msgstr "Invio del file non riuscito"
+msgstr "Wysyłanie pliku nie powiodło się"
 
 #: ../sendto/plugins/gajim/gajim.c:443
 msgid "Recipient is missing."
-msgstr "Manca Il destinatario."
+msgstr "Brak odbiorcy."
 
 #: ../sendto/plugins/gajim/gajim.c:482
 msgid "Unknown recipient."
-msgstr "Destinatario sconosciuto."
+msgstr "Nieznany odbiorca."
 
 #: ../sendto/plugins/gajim/gajim.c:505
 msgid "Instant Message (Gajim)"
-msgstr "Messaggio istantaneo (Gajim)"
+msgstr "Wiadomość (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Nuovo CD/DVD"
+msgstr "Nowa płyta CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr "CD/DVD esistente"
+msgstr "Istniejąca płyta CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "Creazione CD/DVD"
+msgstr "Asystent CD/DVD"
 
 #: ../sendto/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr "Messaggio istantaneo (Pidgin)"
+msgstr "Wiadomość (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Condivisioni e dischi rimovibili"
+msgstr "Dyski wymienne i zasoby sieciowe"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "Server multimediale UPnP"
+msgstr "Serwer multimediów UPnP"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja deve aggiungere alcuni permessi alla cartella \"%s\" per poterla condividere"
+msgstr "Caja potrzebuje dodać kilka uprawnień do twojego folderu \"%s\" aby umożliwić udostępnianie go"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "Folder \"%s\" potrzebuje następujących dodatkowych uprawnień dla udostępniania aby funkcjonować:\n%s%s%sCzy chcesz aby Caja dodała te uprawnienia do folderu automatycznie?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "- czytaj uprawnienia jako inni\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "- zapisuj uprawnienia jako inni\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "- wykonuj uprawnienia jako inni\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Aggiungi i permessi automaticamente"
+msgstr "Dodawaj uprawnienia automatycznie"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Impossibile cambiare i permessi per la cartella \"%s\""
+msgstr "Nie można zmienić uprawnień folderu \"%s\""
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr "Il nome della condivisione è troppo corto"
+msgstr "Nazwa udziału jest zbyt długa"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Il nome della condivisione non può essere vuoto"
+msgstr "Nazwa udziału nie może być pusta"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Errore nel recupero delle informazioni di condivisione: %s"
+msgstr "Błąd podczas otrzymywania informacji o udziale: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr "Esiste un'altra condivisione con lo stesso nome"
+msgstr "Inny udział posiada taką samą nazwe"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr "Modifica _condivisione"
+msgstr "Modyfikuj _Udział"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr "Crea _condivisione"
+msgstr "Utwórz _Udział"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr "Si è verificato un errore nel recupero delle informazioni di condivisione"
+msgstr "Wystąpił błąd podczas otrzymywania informacji o udziałach"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr "Condivisione"
+msgstr "Udostępnij"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Condivisione cartella"
+msgstr "Udostępnij Folder"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Opzioni condivisione"
+msgstr "Opcje Udostępniania"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr "Condividi questa cartella"
+msgstr "Udostępnij ten folder"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Condivisione cartella</b></big>"
+msgstr "<big><b>Udostępnianie Folderu</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "_Nome condivisione:"
+msgstr "_Nazwa udziału:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Condividi questa _cartella"
+msgstr "Udostępnij ten _folder"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Co_mmento:"
+msgstr "_Komentarz:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Pozwól innym tworzyć i usuwać pliki w tym folderze"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "Dostęp _Gościa (dla ludzi bez kont użytkowników)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s wrócił z sygnałem %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s nie powiodło się z nieznanej przyczyny"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' zwrócił błąd %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' zwrócił błąd %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "wyjście 'net usershare' nie jest poprawnym kodowaniem UTF-8"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr "Non riuscito"
+msgstr "Niepowodzenie"
 
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Samba's testparm wrócił z sygnałem %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Samba's testparm nie powiódł się z nieznanej przyczyny"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Samba's testparam zwrócił błąd %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Samba's testparam zwrócił błąd %d"
 
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Impossibile rimuovere la condivisione per il percorso %s: il percorso non è condiviso"
+msgstr "Nie można usunąć udziału dla ścieżki %s: ta ścieżka nie jest udostępniana"
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Impossibile modificare il percorso della condivisione; rimuovere prima il percorso della vecchia condivisione quindi aggiungerlo nuovamente"
+msgstr "Nie można zmienić ścieżki istniejącego udziału; proszę najpierw usunąć stary udział i dodać nowy"

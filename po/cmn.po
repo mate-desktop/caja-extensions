@@ -3,64 +3,63 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# luca123 <l_moscato1@hotmail.it>, 2014
-# Stefano Karapetsas <stefano@karapetsas.com>, 2013-2014
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-01-15 10:27+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/MATE/language/it/)\n"
+"PO-Revision-Date: 2013-11-22 06:10+0000\n"
+"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
+"Language-Team: Chinese (Mandarin) (http://www.transifex.com/projects/p/MATE/language/cmn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: cmn\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Apri come amministratore"
+msgstr "以管理員身分開啟"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Apre il file con i privilegi di amministratore"
+msgstr "以管理員權限開啟檔案"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Impossibile determinare il programma da eseguire.</b></big>\n\nL'elemento selezionato non può essere aperto con i privilegi di amministratore perché non può essere determinata l'applicazione corretta."
+msgstr "<big><b>無法決定要運行的程式。</b></big>\n\n您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Ridimensionare le Immagini.."
+msgstr "調整圖像大小(_R)…"
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Ridimensionare tutte le immagini selezionate"
+msgstr "調整每個已選圖像的大小"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ruo_ta immagini..."
+msgstr "旋轉圖像(_T)…"
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Ruota ogni immagine selezionata"
+msgstr "旋轉每個已選圖像"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Ridimensiona immagini"
+msgstr "調整圖像大小"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Dimensione immagine</b>"
+msgstr "<b>圖像大小</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Seleziona una dimensione:"
+msgstr "選取大小："
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -88,149 +87,149 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "pixel"
+msgstr "像素"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Scala:"
+msgstr "尺度："
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "percentuale"
+msgstr "百分比"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Dimensione personalizzata:"
+msgstr "自訂大小："
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Larghezza:"
+msgstr "寬度："
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Altezza:"
+msgstr "高度："
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Nome file</b>"
+msgstr "<b>檔名</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Appendi"
+msgstr "附加"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".ridimensionato"
+msgstr ".resized"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "al nome file"
+msgstr "於檔案名稱"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Ridimensiona sul posto"
+msgstr "適當調整大小"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Ridimensiona"
+msgstr "調整大小(_R)"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Ign_ora"
+msgstr "跳過(_S)"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "_Riprova"
+msgstr "重試(_R)"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Ridimensionamento immagine: %d di %d"
+msgstr "調整圖像大小：%2$d 中的 %1$d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Ridimensionamento di \"%s\"</i>"
+msgstr "<i>正在調整「%s」的大小</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Inserire un suffisso valido al nome file!"
+msgstr "請輸入有效的檔名字尾！"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Ruota immagini"
+msgstr "旋轉圖像"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotazione immagine</b>"
+msgstr "<b>圖像旋轉</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Seleziona un angolo:"
+msgstr "選取角度："
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Angolo personalizzato:"
+msgstr "自訂角度："
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "gradi orari"
+msgstr "順時針度數"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".ruotata"
+msgstr ".rotated"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Ruota sul posto"
+msgstr "適當旋轉"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Ruota"
+msgstr "旋轉(_R)"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Rotazione immagine: %d di %d"
+msgstr "旋轉圖像：%2$d 中的 %1$d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Rotazione di \"%s\"</i>"
+msgstr "<i>正在旋轉「%s」</i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
-msgstr "Apri nel _terminale"
+msgstr "在終端機中開啟(_T)"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "Apri la cartella selezionata in un terminale"
+msgstr "在終端機中開啟目前已選資料夾"
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "Apri l'attuale cartella aperta in un terminale"
+msgstr "在終端機中開啟目前開啟資料夾"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr "Apri _terminale"
+msgstr "開啟終端機(_T)"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
-msgstr "Apri un terminale"
+msgstr "開啟一個終端機視窗"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Determina se l'apertura di un terminale sul desktop apre un terminale nella home"
+msgstr "是否在桌面上開啟終端機時，終端機將於主目錄開啟"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -238,283 +237,283 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Se impostato su vero, aprire un terminale sul desktop aprirà un terminale sulla cartella home. Altrimenti, aprirà il terminale nella cartella del desktop. Nota che questa chiave non è rilevante se la cartella destkop corrisponde alla cartella home."
+msgstr "如果設定為真，那麼在桌面上開啟終端機時，終端機將於使用者家目錄開啟；否則，它將於桌面目錄開啟。要注意的是，如果桌面目錄與主目錄相同，這個鍵值則是無關緊要的。"
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Invia a..."
+msgstr "發送到…"
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr "藉由郵件、即時訊息…發送檔案"
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr "藉由郵件、即時訊息…發送多個檔案"
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
-msgstr "File"
+msgstr "檔案"
 
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Attesi degli URI o nomi file da essere passati come opzioni\n"
+msgstr "預期是 URIs 或檔名以做為傳遞選項\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Impossibile analizzare le opzioni della riga di comando: %s\n"
+msgstr "無法剖析命令列選項：%s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
-msgstr "Impossibile caricare alcun plugin."
+msgstr "無法載入任何外掛程式。"
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr "Verificare l'installazione"
+msgstr "請驗證您的安裝"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "_Invia"
+msgstr "發送(_S)"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Destinazione</b>"
+msgstr "<b>目的地</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Invia _come:"
+msgstr "發送為(_A)："
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Invia _a:"
+msgstr "發送到(_O)："
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Compressione</b>"
+msgstr "<b>壓縮</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Invia _archiviato in:"
+msgstr "發送包裝於(_P)："
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Email"
+msgstr "電子郵件"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr "Impossibile inviare file"
+msgstr "無法發送檔案"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Nessuna connessione al servizio remoto di gajim."
+msgstr "沒有任何連線到 gajim 遠端服務。"
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
-msgstr "Invio del file non riuscito"
+msgstr "發送檔案失敗"
 
 #: ../sendto/plugins/gajim/gajim.c:443
 msgid "Recipient is missing."
-msgstr "Manca Il destinatario."
+msgstr "缺少收件者。"
 
 #: ../sendto/plugins/gajim/gajim.c:482
 msgid "Unknown recipient."
-msgstr "Destinatario sconosciuto."
+msgstr "不明收件者。"
 
 #: ../sendto/plugins/gajim/gajim.c:505
 msgid "Instant Message (Gajim)"
-msgstr "Messaggio istantaneo (Gajim)"
+msgstr "即時訊息 (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Nuovo CD/DVD"
+msgstr "新的光碟"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr "CD/DVD esistente"
+msgstr "現有光碟"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "Creazione CD/DVD"
+msgstr "光碟建立者"
 
 #: ../sendto/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr "Messaggio istantaneo (Pidgin)"
+msgstr "即時訊息 (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Condivisioni e dischi rimovibili"
+msgstr "抽取式磁碟與共享資料"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "Server multimediale UPnP"
+msgstr "UPnP 媒體伺服器"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja deve aggiungere alcuni permessi alla cartella \"%s\" per poterla condividere"
+msgstr "Caja 需要加入某些權限到您的資料夾「%s」以便共享它"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "資料夾「%s」需要下列額外權限才能啟用共享：\n%s%s%s 您想要 Caja 自動加入這些權限到資料夾嗎？"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "  - 其他人的讀取權限\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - 其他人的寫入權限\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - 其他人的執行權限\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Aggiungi i permessi automaticamente"
+msgstr "自動加入權限"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Impossibile cambiare i permessi per la cartella \"%s\""
+msgstr "無法變更資料夾「%s」的權限"
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr "Il nome della condivisione è troppo corto"
+msgstr "共享名稱太長"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Il nome della condivisione non può essere vuoto"
+msgstr "共享名稱不可為空"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Errore nel recupero delle informazioni di condivisione: %s"
+msgstr "提取共享資訊時發生錯誤：%s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr "Esiste un'altra condivisione con lo stesso nome"
+msgstr "與另一個共享同名"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr "Modifica _condivisione"
+msgstr "修改共享(_S)"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr "Crea _condivisione"
+msgstr "建立共享(_S)"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr "Si è verificato un errore nel recupero delle informazioni di condivisione"
+msgstr "提取共享資訊時出現了錯誤"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr "Condivisione"
+msgstr "共享"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Condivisione cartella"
+msgstr "資料夾共享"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Opzioni condivisione"
+msgstr "共享選項"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr "Condividi questa cartella"
+msgstr "共享這個資料夾"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Condivisione cartella</b></big>"
+msgstr "<big><b>資料夾共享</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "_Nome condivisione:"
+msgstr "共享名稱(_N)："
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Condividi questa _cartella"
+msgstr "共享這個資料夾(_F)"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Co_mmento:"
+msgstr "評論(_M)："
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "允許其他人在這個資料夾中建立與刪除檔案(_A)"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "訪客存取 (用於不具使用帳號者)(_G)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s 回傳了信號 %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s 由於不明原因而失敗"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "net usershare 回傳了錯誤 %d：%s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "net usershare 回傳了錯誤 %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "net usershare 的輸出不是有效的 UTF-8 編碼"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr "Non riuscito"
+msgstr "失敗"
 
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Samba 的 testparm 回傳了信號 %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Samba 的 testparm 由於不明原因而失敗"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Samba 的 testparm 回傳了錯誤 %d：%s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Samba 的 testparm 回傳了錯誤 %d"
 
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Impossibile rimuovere la condivisione per il percorso %s: il percorso non è condiviso"
+msgstr "無法移除共享路徑 %s：該路徑並未共享"
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Impossibile modificare il percorso della condivisione; rimuovere prima il percorso della vecchia condivisione quindi aggiungerlo nuovamente"
+msgstr "無法變更現有共享的路徑；請先移除舊的共享並加入一個新的"

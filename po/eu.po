@@ -3,64 +3,63 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# luca123 <l_moscato1@hotmail.it>, 2014
-# Stefano Karapetsas <stefano@karapetsas.com>, 2013-2014
+# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-01-15 10:27+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/MATE/language/it/)\n"
+"PO-Revision-Date: 2014-01-03 20:40+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/projects/p/MATE/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
+"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Apri come amministratore"
+msgstr "Ireki administratzaile bezala"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Apre il file con i privilegi di amministratore"
+msgstr "Fitxategia administratzaile baimenekin irekitzen du"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Impossibile determinare il programma da eseguire.</b></big>\n\nL'elemento selezionato non può essere aperto con i privilegi di amministratore perché non può essere determinata l'applicazione corretta."
+msgstr "<big><b>Ezin izan da erabaki exekutatu beharreko programa.</b></big>\n\nHautatu duzun elementua ezin da administratzaile baimenekin ireki aplikazio egokia zein den ezin izan delako erabaki."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Ridimensionare le Immagini.."
+msgstr "_Aldatu tamainaz irudiak..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Ridimensionare tutte le immagini selezionate"
+msgstr "Aldatu tamainaz hautatutako irudi bakoitza"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ruo_ta immagini..."
+msgstr "_Biratu irudiak..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Ruota ogni immagine selezionata"
+msgstr "Biratu hautatutako irudi bakoitza"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Ridimensiona immagini"
+msgstr "Aldatu irudien tamaina"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Dimensione immagine</b>"
+msgstr "<b>Irudiaren tamaina</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Seleziona una dimensione:"
+msgstr "Hautatu tamaina bat:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -92,145 +91,145 @@ msgstr "pixel"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Scala:"
+msgstr "Eskala:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "percentuale"
+msgstr "ehunekoa"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Dimensione personalizzata:"
+msgstr "Tamaina pertsonalizatua:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Larghezza:"
+msgstr "Zabalera:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Altezza:"
+msgstr "Altuera:"
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Nome file</b>"
+msgstr "<b>Fitxategi-izena</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Appendi"
+msgstr "Erantsi"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".ridimensionato"
+msgstr ".tamainaz_aldatua"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "al nome file"
+msgstr "fitxategi-izenari"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Ridimensiona sul posto"
+msgstr "Gainidatzi jatorrizkoa tamainaz aldatutakoarekin"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Ridimensiona"
+msgstr "Aldatu _tamaina"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Ign_ora"
+msgstr "_Saltatu"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "_Riprova"
+msgstr "_Saiatu berriro"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Ridimensionamento immagine: %d di %d"
+msgstr "Irudia tamainaz aldatzen: %d / %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Ridimensionamento di \"%s\"</i>"
+msgstr "<i>\"%s\" tamainaz aldatzen</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Inserire un suffisso valido al nome file!"
+msgstr "Mesedez, sartu baliozko fitxategi-izen atzizki bat!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Ruota immagini"
+msgstr "Biratu irudiak"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotazione immagine</b>"
+msgstr "<b>Irudiaren biraketa</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Seleziona un angolo:"
+msgstr "Hautatu angelu bat:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Angolo personalizzato:"
+msgstr "Angelu pertsonalizatua:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "gradi orari"
+msgstr "graduak erlojuaren noranzkoan"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".ruotata"
+msgstr ".biratua"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Ruota sul posto"
+msgstr "Gainidatzi jatorrizkoa biratutakoarekin"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Ruota"
+msgstr "_Biratu"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Rotazione immagine: %d di %d"
+msgstr "Irudia biratzen: %d / %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Rotazione di \"%s\"</i>"
+msgstr "<i>\"%s\" biratzen</i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
-msgstr "Apri nel _terminale"
+msgstr "Ireki _terminalean"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "Apri la cartella selezionata in un terminale"
+msgstr "Ireki unean hautatutako karpeta terminal batean"
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "Apri l'attuale cartella aperta in un terminale"
+msgstr "Ireki unean irekitako karpeta terminalean"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr "Apri _terminale"
+msgstr "Ireki _terminala"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
-msgstr "Apri un terminale"
+msgstr "Ireki terminal bat"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Determina se l'apertura di un terminale sul desktop apre un terminale nella home"
+msgstr "Mahaigainean terminal bat irekitzeak direktorio nagusian terminal bat irekitzen duen ala ez"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -238,125 +237,125 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Se impostato su vero, aprire un terminale sul desktop aprirà un terminale sulla cartella home. Altrimenti, aprirà il terminale nella cartella del desktop. Nota che questa chiave non è rilevante se la cartella destkop corrisponde alla cartella home."
+msgstr "Egia ezartzen bada, mahaigainean terminal bat irekitzean direktorio nagusian terminal bat irekiko da. Bestela, mahaigaineko direktorioan irekiko da. Kontutan izan honek ez duela zentzurik mahaigaineko direktorioa eta direktorio nagusia bat datozenean."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Invia a..."
+msgstr "Bidali honi..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr "Bidali fitxategia posta elektrikoz, berehalako mezularitzaz..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Invia file via email, messaggio istantaneo..."
+msgstr "Bidali fitxategiak posta elektrikoz, berehalako mezularitzaz..."
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
-msgstr "File"
+msgstr "Fitxategiak"
 
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Attesi degli URI o nomi file da essere passati come opzioni\n"
+msgstr "URIak edo fitxategi-izenak aukera gisa pasatzea espero da\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Impossibile analizzare le opzioni della riga di comando: %s\n"
+msgstr "Ezin izan dira komando-lerroko aukerak analizatu: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
-msgstr "Impossibile caricare alcun plugin."
+msgstr "Ezin izan da pluginik kargatu."
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr "Verificare l'installazione"
+msgstr "Mesedez egiaztatu instalazioa"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "_Invia"
+msgstr "_Bidali"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Destinazione</b>"
+msgstr "<b>Helburua</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Invia _come:"
+msgstr "Bidali _honela:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Invia _a:"
+msgstr "Bidali h_oni:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Compressione</b>"
+msgstr "<b>Konpresioa</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Invia _archiviato in:"
+msgstr "Bidali hemen _paketatua:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Email"
+msgstr "Helb. el."
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr "Impossibile inviare file"
+msgstr "Ezin da fitxategia bidali"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Nessuna connessione al servizio remoto di gajim."
+msgstr "Ez dago konexiorik urruneko gajim zerbitzuarekin."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
-msgstr "Invio del file non riuscito"
+msgstr "Huts egin du fitxategia bidaltzean"
 
 #: ../sendto/plugins/gajim/gajim.c:443
 msgid "Recipient is missing."
-msgstr "Manca Il destinatario."
+msgstr "Hartzailea falta da."
 
 #: ../sendto/plugins/gajim/gajim.c:482
 msgid "Unknown recipient."
-msgstr "Destinatario sconosciuto."
+msgstr "Hartzaile ezezaguna."
 
 #: ../sendto/plugins/gajim/gajim.c:505
 msgid "Instant Message (Gajim)"
-msgstr "Messaggio istantaneo (Gajim)"
+msgstr "Berehalako mezularitza (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Nuovo CD/DVD"
+msgstr "CD/DVD berria"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr "CD/DVD esistente"
+msgstr "Existitzen den CD/DVDa"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "Creazione CD/DVD"
+msgstr "CD/DVD sortzailea"
 
 #: ../sendto/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr "Messaggio istantaneo (Pidgin)"
+msgstr "Berehalako mezularitza (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Condivisioni e dischi rimovibili"
+msgstr "Unitate eta euskarri aldagarriak"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "Server multimediale UPnP"
+msgstr "UPnP multimedia zerbitzaria"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja deve aggiungere alcuni permessi alla cartella \"%s\" per poterla condividere"
+msgstr "Cajak \"%s\" karpetari baimen batzuk gehitu beharra dauka partekatu ahal izateko"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
@@ -379,75 +378,75 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Aggiungi i permessi automaticamente"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Impossibile cambiare i permessi per la cartella \"%s\""
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr "Il nome della condivisione è troppo corto"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Il nome della condivisione non può essere vuoto"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Errore nel recupero delle informazioni di condivisione: %s"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr "Esiste un'altra condivisione con lo stesso nome"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr "Modifica _condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr "Crea _condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr "Si è verificato un errore nel recupero delle informazioni di condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr "Condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Condivisione cartella"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Opzioni condivisione"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr "Condividi questa cartella"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Condivisione cartella</b></big>"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "_Nome condivisione:"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Condividi questa _cartella"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Co_mmento:"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -485,7 +484,7 @@ msgstr ""
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr "Non riuscito"
+msgstr "Huts egin du"
 
 #: ../share/shares.c:548
 #, c-format
@@ -510,11 +509,11 @@ msgstr ""
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Impossibile rimuovere la condivisione per il percorso %s: il percorso non è condiviso"
+msgstr ""
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Impossibile modificare il percorso della condivisione; rimuovere prima il percorso della vecchia condivisione quindi aggiungerlo nuovamente"
+msgstr ""
