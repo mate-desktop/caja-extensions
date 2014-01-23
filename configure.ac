@@ -1,4 +1,4 @@
-AC_INIT([caja-extensions], 1.7.0, [https://github.com/mate-desktop/caja-extensions])
+AC_INIT([caja-extensions], 1.7.1, [https://github.com/mate-desktop/caja-extensions])
 
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar])
 AC_CONFIG_HEADERS(config.h)
@@ -9,7 +9,7 @@ AM_PROG_LIBTOOL
 AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 
-CAJA_REQUIRED=1.5.0
+CAJA_REQUIRED=1.7.0
 LIBMATE_DESKTOP_REQUIRED=1.7.0
 GLIB_REQUIRED=2.26.0
 
