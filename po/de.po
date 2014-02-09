@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Almin <GermannenMarkus@googlemail.com>, 2013
+# kæde <amborsdorfer@gmail.com>, 2014
 # to_ba, 2013
 # to_ba, 2013
 msgid ""
@@ -11,8 +12,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2013-12-22 23:44+0000\n"
-"Last-Translator: to_ba\n"
+"PO-Revision-Date: 2014-01-28 19:56+0000\n"
+"Last-Translator: kæde <amborsdorfer@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -402,21 +403,21 @@ msgstr "Fehler beim Erhalten der Teilungsinformation: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Dieser Name ist bereits in Verwendung"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "_Freigabe ändern"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "_Freigabe erstellen"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Beim Einlesen der Freigabeinformationen ist ein Fehler aufgetreten"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
@@ -436,52 +437,52 @@ msgstr "Diesen Ordner freigeben"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Ordnerfreigabe</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "_name freigeben"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Diesen _Ordner freigeben"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "Ko_mmentar:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "Anderen Benutzern erlauben, Dateien in diesem Ordner zu erstellen und zu löschen"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "Gastzugriff (für Benutzer ohne Benutzerprofil)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s meldet den Fehler %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s ist aus unbekannten Gründen fehlgeschalgen"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' ist fehlgeschlagen, Fehler %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' ist fehlgeschlagen. Fehler %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "Die Ausgabe von 'net usershare' ist nicht oder fehlerhaft UTF-8 kodiert"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format

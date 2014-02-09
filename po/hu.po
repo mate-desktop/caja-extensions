@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# i_sty <szollosi.istv4n@gmail.com>, 2014
 # Rezső Páder <rezso@rezso.net>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2013-10-18 15:13+0200\n"
-"PO-Revision-Date: 2013-10-18 16:54+0000\n"
-"Last-Translator: Rezső Páder <rezso@rezso.net>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-31 09:52+0100\n"
+"PO-Revision-Date: 2014-01-27 16:22+0000\n"
+"Last-Translator: i_sty <szollosi.istv4n@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,12 +122,12 @@ msgstr "Hozzáfűzés"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".átméretezve"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "fájlnévnek"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
@@ -183,7 +184,7 @@ msgstr "fokkal az órajárással megegyezően"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr ".átfordítva"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
@@ -355,7 +356,7 @@ msgstr "UPnP médiakiszolgáló"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "A megosztáshoz a Caja-nak szüksége van néhány jogra a \"%s\" mappához, hogy megtudja osztani azt"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
@@ -366,19 +367,19 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "- olvasási jog másoknak\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "- írási jog másoknak\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "- futtatási jog másoknak\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "Jogok hozzáadása automatikusan"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
@@ -396,11 +397,11 @@ msgstr "A megosztás neve nem lehet üres"
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Hiba a megosztási adatok lekérésekor: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Van már megosztás ezzel a névvel"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
@@ -414,7 +415,7 @@ msgstr "Megosztás _létrehozása"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Volt egy hiba a megosztási adatok lekérésekor"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
@@ -426,23 +427,23 @@ msgstr "Mappamegosztás"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr ""
+msgstr "Megosztási beállítások"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr ""
+msgstr "Mappa megosztása"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Mappa megosztása</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "Megosztás _neve:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "_Mappa megosztása"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
@@ -450,68 +451,68 @@ msgstr "_Megjegyzés:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Endedélyezzük mások számára a fájlok létrehozását és törlésát ebben mappában"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "_Vendég hozzáférése (azoknak a személyeknek, akik nem rendelkeznek felhasználói fiókkal)"
 
-#: ../share/shares.c:125
+#: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s visszatért a %d jellel"
 
-#: ../share/shares.c:134
+#: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr ""
 
-#: ../share/shares.c:154
+#: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr ""
 
-#: ../share/shares.c:156
+#: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr ""
 
-#: ../share/shares.c:187
+#: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr ""
 
-#: ../share/shares.c:442 ../share/shares.c:616
+#: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
 msgstr "Sikertelen"
 
-#: ../share/shares.c:550
+#: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr ""
 
-#: ../share/shares.c:556
+#: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr ""
 
-#: ../share/shares.c:571
+#: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr ""
 
-#: ../share/shares.c:573
+#: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr ""
 
-#: ../share/shares.c:684
+#: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 
-#: ../share/shares.c:730
+#: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-01-15 10:27+0000\n"
+"PO-Revision-Date: 2014-02-09 12:20+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/MATE/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -363,19 +363,19 @@ msgstr "Caja deve aggiungere alcuni permessi alla cartella \"%s\" per poterla co
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "La cartella \"%s\" ha bisogno dei seguenti permessi extra per essere condivisa:\n%s%s%sSi desidera che Caja aggiunga questi permessi automaticamente?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "  - permessi di lettura da altri\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - permessi di scrittura da altri\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - permessi di esecuzione da altri\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
@@ -451,36 +451,36 @@ msgstr "Co_mmento:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Permette agli altri di creare ed eliminare file in questa cartella"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "Accesso _ospite (per persone senza un account utente)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s è ritornato con segnale %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s fallito per un motivo sconosciuto"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' è ritornato con l'errore %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' è ritornato con l'errore %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "l'output di 'net usershare' non è in una codifica UTF-8 valida"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
@@ -490,22 +490,22 @@ msgstr "Non riuscito"
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Testparm di samba è ritornato con il segnale %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Testparm di samba fallito per un motivo sconosciuto"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Testparm di samba è ritornato con l'errore %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Testparm di samba è ritornato con l'errore %d"
 
 #: ../share/shares.c:682
 #, c-format
