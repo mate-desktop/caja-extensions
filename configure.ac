@@ -1,4 +1,4 @@
-AC_INIT([caja-extensions], 1.7.1, [https://github.com/mate-desktop/caja-extensions])
+AC_INIT([caja-extensions], 1.7.2, [https://github.com/mate-desktop/caja-extensions])
 
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar])
 AC_CONFIG_HEADERS(config.h)
