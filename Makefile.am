@@ -24,6 +24,7 @@ SUBDIRS += share
 endif
 
 EXTRA_DIST = \
+	autogen.sh \
 	intltool-extract.in \
 	intltool-update.in \
 	intltool-merge.in
