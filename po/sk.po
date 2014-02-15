@@ -5,13 +5,15 @@
 # Translators:
 # Ján Ďanovský <dagsoftware@yahoo.com>, 2013
 # Michelozzo <michalslovak2@hotmail.com>, 2013
+# Michelozzo <michalslovak2@hotmail.com>, 2013
+# tibbi <tibbbi2@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2013-12-30 23:52+0000\n"
-"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
+"PO-Revision-Date: 2014-02-12 14:05+0000\n"
+"Last-Translator: tibbi <tibbbi2@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,14 +27,14 @@ msgstr "Otvoriť ako správca"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Otvorí súbor s právami administrátora"
+msgstr "Otvorí súbor s právami správcu"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Nepodarilo sa rozhodnúť, ktorý program se má spustiť.</b></big>\n\nPoložka, ktorú ste vybrali sa nedá spustiť s právami administrátora, pretože sa nepodarilo určiť správnu aplikáciu."
+msgstr "<big><b>Nepodarilo sa rozhodnúť, ktorý program sa má spustiť.</b></big>\n\nPoložka, ktorú ste vybrali sa nedá spustiť s právami správcu, pretože sa nepodarilo určiť správnu aplikáciu."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -44,7 +46,7 @@ msgstr "Zmeniť veľkosť každého vybraného obrázku"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "O_točiť obrázky..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
@@ -122,12 +124,12 @@ msgstr "Pripojiť"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".upraveny"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "k názvu súboru"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
@@ -135,27 +137,27 @@ msgstr "Zmeniť veľkosť na mieste"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr ""
+msgstr "_Zmeniť veľkosť"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr ""
+msgstr "Pre_skočiť"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr ""
+msgstr "_Skúsiť znovu"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Mení sa veľkosť obrázku: %d z %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Mení sa veľkosť „%s“</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
@@ -164,7 +166,7 @@ msgstr "Prosím vložte platnú príponu za názov súboru!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Otoči obrázky"
+msgstr "Otočiť obrázky"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
@@ -172,7 +174,7 @@ msgstr "<b>Otočenie obrázku</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr ""
+msgstr "Vyberte uhol:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
@@ -180,7 +182,7 @@ msgstr "Vlastný uhol:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "stupne v smere hodinových ručičiek"
+msgstr "stupňov v smere hodinových ručičiek"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
@@ -197,12 +199,12 @@ msgstr "_Otočiť"
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Otáčam obrázok: %d z %d"
+msgstr "Otáča sa obrázok: %d z %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Otáča sa \"%s\"</i>"
+msgstr "<i>Otáča sa „%s“</i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
@@ -211,12 +213,12 @@ msgstr "Otvoriť v _termináli"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "Otvoriť aktuálne zvolený priečinok v terminále"
+msgstr "Otvoriť aktuálne označený priečinok v termináli"
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "Otvoriť aktuálne otvorený priečinok v terminále"
+msgstr "Otvoriť aktuálne otvorený priečinok v termináli"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
@@ -238,12 +240,12 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Pri nastavení tejto možnosti sa terminál otvorený na ploche otvorí v domovskom priečinku. Inak by sa otvoril v priečinku Plocha. Uvedomte si, že táto možnosť je irelevantná, ak je priečinok plochy zhodný s domovským priečinkom "
+msgstr "Pri nastavení tejto možnosti sa terminál otvorený na ploche otvorí v domovskom priečinku. Inak by sa otvoril v priečinku Plocha. Uvedomte si, že táto možnosť je irelevantná, ak je priečinok plochy zhodný s domovským priečinkom."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr ""
+msgstr "Odoslať do..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -260,12 +262,12 @@ msgstr "Súbory"
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Očakáva, že URI alebo názvy súborov budú odovzdané ako voľby\n"
+msgstr "Ako voľby sú očakávané URI alebo názvy súborov\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Nepodarilo sa analyzovať voľby príkazového riadku: %s\n"
+msgstr "Nepodarilo sa analyzovať voľby príkazového riadka: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
@@ -309,7 +311,7 @@ msgstr "Nepodarilo sa odoslať súbor"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Nie je pripojenie k vzdialenej službe gajim."
+msgstr "Vzdialená služba gajim nie je pripojená."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
@@ -356,35 +358,35 @@ msgstr "UPnP server médií"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja musí pridať isté povolenia do Vášho priečinka \"%s\", aby mohol byť zdieľaný"
+msgstr "Caja musí pridať isté oprávnenia do vášho priečinka „%s“, aby mohol byť zdieľaný"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Priečinok \"%s\" potrebuje tieto dodatočné povolenia, aby zdieľanie fungovalo:\n%s%s%sChcete, aby Caja pridala tieto povolenia do zložky automaticky?"
+msgstr "Priečinok „%s“ potrebuje tieto dodatočné oprávnenia, aby zdieľanie fungovalo:\n%s%s%sChcete, aby Caja pridala tieto povolenia priečinka automaticky?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "  - oprávnenie čítať ostatnými\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - oprávnenie zapisovať ostatnými\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - oprávnenia vykonať ostatnými\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Pridať povolenia automaticky"
+msgstr "Pridať oprávnenia automaticky"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Nie je možné zmeniť povolenia priečinku \"%s\""
+msgstr "Nepodarilo sa zmeniť oprávnenia priečinka „%s“"
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
@@ -397,7 +399,7 @@ msgstr "Zdieľaný názov nesmie zostať prázdny"
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Nastala chyba počas zisťovania zdieľaných informácií: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
@@ -406,16 +408,16 @@ msgstr "Iné zdieľanie má rovnaký názov"
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "Upraviť _zdieľanie"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "Vytvoriť z_dieľanie"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Nastala chyba počas zisťovania zdieľaných informácií"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
@@ -423,7 +425,7 @@ msgstr "Zdieľať"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Zdieľanie priečinku"
+msgstr "Zdieľanie priečinka"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
@@ -439,23 +441,23 @@ msgstr "<big><b>Zdieľanie priečinka</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "_Názov zdieľania:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Zdieľať tento _priečinok"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "Ko_mentár:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Povoliť ostatným vytvárať a odstraňovať súbory v tomto priečinku"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "_Hosťovský prístup (pre ľudí bez používateľského účtu)"
 
 #: ../share/shares.c:123
 #, c-format
@@ -470,42 +472,42 @@ msgstr "%s %s %s zlyhalo z neznámeho dôvodu"
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' vrátilo chybu %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' vrátilo chybu %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "výstup 'net usershare' nie je platným kódovaním UTF-8"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr ""
+msgstr "Zlyhalo"
 
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Test Samba vrátil signál %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Test Samba zlyhalo z neznámeho dôvodu"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Test Samba vrátilo chybu %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Test Samba vrátilo chybu %d"
 
 #: ../share/shares.c:682
 #, c-format
@@ -517,4 +519,4 @@ msgstr "Nemožno odobrať zdieľanie pre cestu %s: táto cesta nie je zdieľaná
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Nemožno zmeniť cestu existujúceho zdieľania: prosím odstránte najskôr staté zdieľanie a pridajte nové"
+msgstr "Nemožno zmeniť cestu existujúceho zdieľania: prosím najskôr odstráňte staré zdieľanie a potom pridajte nové"
