@@ -5,12 +5,13 @@
 # Translators:
 # Filipe Oliveira <contato@fmoliveira.com.br>, 2013
 # Pygmalion, 2014
+# Pygmalion, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-01-13 17:42+0000\n"
+"PO-Revision-Date: 2014-02-19 16:55+0000\n"
 "Last-Translator: Pygmalion\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/MATE/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -118,7 +119,7 @@ msgstr "<b>Nome de arquivo</b>"
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Acrescentar"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
@@ -356,7 +357,7 @@ msgstr "Servidor de mídia uPnP"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "Caja precisa adicionar algumas permissões a sua pasta \"%s\" a fim de compartilhá-la"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
@@ -367,15 +368,15 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "- permissão de leitura por outros\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "- permissão de escrita por outros\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "- permissão de execução por outros\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
@@ -388,34 +389,34 @@ msgstr "Não foi possível alterar as permissões da pasta \"%s\""
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr ""
+msgstr "O nome do compartilhamento é muito longo"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "O nome do compartilhamento não pode ser vazio"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Erro ao obter informação de compartilhamento: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Outro compartilhamento tem o mesmo nome"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "Modificar compartilhamento"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "Criar compartilhamento"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Ouve um erro ao obter a informação de compartilhamento"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
@@ -451,11 +452,11 @@ msgstr "Co_mentário:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "Permitir que outros criem e deletem _arquivos nesta pasta"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "Acesso para convidados (para pessoas sem uma conta de usuário)"
 
 #: ../share/shares.c:123
 #, c-format

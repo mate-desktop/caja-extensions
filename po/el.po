@@ -3,14 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# alexandros_ <alexandros.venn@gmail.com>, 2014
 # Efstathios Iosifidis <iefstathios@gmail.com>, 2013
+# thunk <thunk77@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2013-12-10 15:37+0000\n"
-"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
+"PO-Revision-Date: 2014-02-18 18:26+0000\n"
+"Last-Translator: thunk <thunk77@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +33,7 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr ""
+msgstr "<big><b>Αδύνατος ο προσδιορισμός του προγράμματος που πρέπει να εκτελεστεί.</b></big>\n\nΤο αντικείμενο που επιλέξατε δεν μπορεί να ανοιχτεί με δικαιώματα διαχειριστή, διότι δεν μπόρεσε να προσδιοριστεί η σωστή  εφαρμογή για το άνοιγμα."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -121,7 +123,7 @@ msgstr "Προσάρτηση"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".αλλαγή μεγέθους"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
@@ -183,7 +185,7 @@ msgstr "Μοίρες δεξιόστροφα"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr ".περιστραμένο"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
@@ -237,7 +239,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr ""
+msgstr "Αν ρυθμιστεί σε \"αληθινό\", τότε το άνοιγμα ενός τερματικού στην επιφάνεια εργασίας θα ανοίγει ένα τερματικό στο φάκελο home.  Διαφορετικά θα ανοίγει ένα τερματικό στον φάκελο της επιφάνειας εργασίας.  Σημειώστε ότι αυτό το κλειδί είναι ανεξάρτητο με το αν ο φάκελος της επιφάνειας εργασίας είναι ίδιος με τον φάκελο home."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
@@ -246,11 +248,11 @@ msgstr "Αποστολή προς…"
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "Αποστολή αρχείου μέσω ηλεκτρονικού ταχυδρομείου, άμεσου μηνύματος…"
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "Αποστολή αρχείων μέσω ηλεκτρονικού ταχυδρομείου, άμεσου μηνύματος…"
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
@@ -355,26 +357,26 @@ msgstr "Εξυπηρετητής πολυμέσων UPnP"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "Ο Caja χρειάζεται να προσθέσει κάποιες ρυθμίσεις πρόσβασης στον φάκελο \"%s\" για να μπορεί να τον μοιραστεί"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "Ο φάκελος \"%s\" χρειάζεται τις ακόλουθες επιπλέον ρυθμίσεις πρόσβασης για να λειτουργήσει ο διαμοιρασμός:\n%s%s%sΘέλετε ο Caja να προσθέσει τις ρυθμίσεις αυτές στον φάκελο αυτόματα;"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "- Δικαιώματα ανάγνωσης από άλλους\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "- Δικαιώματα εγγραφής σε άλλους\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "- Δικαιώματα εκτέλεσης σε άλλους\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
@@ -387,34 +389,34 @@ msgstr "Αδυναμία αλλαγής δικαιωμάτων του φακέλ
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr ""
+msgstr "Υπερβολικά μεγάλο όνομα κοινόχρηστου αρχείου"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "Το κοινόχρηστο όνομα δεν μπορεί να είναι κενό"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Σφάλμα κατά τη λήψη πληροφοριών διαμοιρασμού: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Κάποιο άλλο κοινόχρηστο αρχείο έχει το ίδιο όνομα"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "Τροποποίηση_Κοινόχρηστου Φακέλου"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "Δημιουργία_Κοινόχρηστου Φακέλου"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Παρουσιάστηκε σφάλμα κατά τη λήψη πληροφοριών διαμοιρασμού"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
@@ -434,15 +436,15 @@ msgstr "Κοινή χρήση φακέλου"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Διαμοιρασμός Φακέλων</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "Κοινόχρηστο _όνομα:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Κοινοποίηση αυτού του _φακέλου"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
@@ -450,36 +452,36 @@ msgstr "_Σχόλιο:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Επιτρέπεται σε άλλους να δημιουργούν και να διαγράφουν αρχεία σε αυτόν το φάκελο"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "_Πρόσβαση επισκέπτη (για άτομα χωρίς λογαριασμό χρήστη)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s επέστρεψε με σήμα %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s Απέτυχε για άγνωστο λόγο"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' επέστρεψε σφάλμα %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' επέστρεψε σφάλμα %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "Το παράγωγο του 'net usershare' δεν είναι σε έγκυρη κωδικοποίηση UTF-8"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
@@ -489,31 +491,31 @@ msgstr "Αποτυχία"
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Το testparm του Samba επέστρεψε με σήμα %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Το testparm του Samba απέτυχε για άγνωστο λόγο"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Το testparm του Samba επέστρεψε σφάλμα %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Το testparm του Samba επέστρεψε σφάλμα %d"
 
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Δεν μπορεί να αφαιρεθεί το κοινόχρηστο για τη διαδρομή %s: αυτή η διαδρομή δεν διαμοιράζεται"
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr ""
+msgstr "Δεν μπορεί να αλλαχθεί η διαδρομή ενός ήδη υπάρχοντος κοινόχρηστου: Παρακαλώ αφαιρέστε το παλιό κοινόχρηστο πρώτα και μετά προσθέστε ένα καινούργιο"
