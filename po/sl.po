@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2013-10-18 15:13+0200\n"
-"PO-Revision-Date: 2013-10-18 14:34+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-31 09:52+0100\n"
+"PO-Revision-Date: 2014-02-19 18:30+0000\n"
 "Last-Translator: jierro <jierro@windowslive.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -456,62 +456,62 @@ msgstr "D_ovoli drugim, da ustvarijo in brišejo datoteke v tej mapi"
 msgid "_Guest access (for people without a user account)"
 msgstr "_Dostop za goste (za ljudi brez uporabniškega računa)"
 
-#: ../share/shares.c:125
+#: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s je vrnilo s signalom %d"
 
-#: ../share/shares.c:134
+#: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s ni uspelo iz neznanega razloga"
 
-#: ../share/shares.c:154
+#: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' je vrnilo napako %d: %s"
 
-#: ../share/shares.c:156
+#: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' je vrnilo napako %d"
 
-#: ../share/shares.c:187
+#: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "izhod 'net usershare' ni veljavno kodiranje UTF-8"
 
-#: ../share/shares.c:442 ../share/shares.c:616
+#: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
 msgstr "Spodletelo"
 
-#: ../share/shares.c:550
+#: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Ukaz testparm programa Samba se je vrnil s signalom %d"
 
-#: ../share/shares.c:556
+#: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Ukaz testparm programa Samba je spodletel iz neznanega razloga"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Ukaz testparm programa Samba je vrnil napako %d: %s"
 
-#: ../share/shares.c:573
+#: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Ukaz testparm programa Samba je vrnil napako %d"
 
-#: ../share/shares.c:684
+#: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Souporabe za pot %s ni mogoče odstraniti: ta pot ni v souporabi"
 
-#: ../share/shares.c:730
+#: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "

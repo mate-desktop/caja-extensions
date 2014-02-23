@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-02-19 16:55+0000\n"
+"PO-Revision-Date: 2014-02-20 23:08+0000\n"
 "Last-Translator: Pygmalion\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/MATE/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -26,14 +26,14 @@ msgstr "Abrir como administrador"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Abre o arquivo sem privilégios administrativos"
+msgstr "Abre o arquivo com privilégios de administrador"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Não foi possível determinar o programa a executar.</b></big>\n\nO item que você selecionou não pode ser aberto com privilégios administrativos porque o aplicativo correto não pode ser determinado."
+msgstr "<big><b>Não foi possível determinar o programa a executar.</b></big>\n\nO item que você selecionou não pode ser aberto com privilégios de administrador porque o aplicativo correto não pode ser determinado."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -208,7 +208,7 @@ msgstr "<i>Rotacionando \"%s\"</i>"
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
-msgstr "Abrir em um _terminal"
+msgstr "Abrir em _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
@@ -221,7 +221,7 @@ msgstr "Abre a pasta aberta atualmente em um terminal"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr "Abrir _terminal"
+msgstr "Abrir _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"

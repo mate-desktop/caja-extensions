@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-02-15 12:18+0000\n"
+"PO-Revision-Date: 2014-02-22 10:23+0000\n"
 "Last-Translator: breaker loc <breaker9loc@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/projects/p/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -35,11 +35,11 @@ msgstr "<big><b>Не може да се установи програмата, �
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr ""
+msgstr "Мащабиране на изображенията..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr ""
+msgstr "Мащабиране на избраните изображения"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
@@ -51,115 +51,115 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr ""
+msgstr "Мащабиране на изображенията"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr ""
+msgstr "<b>Размер на изображението</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr ""
+msgstr "Изберете размер:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
-msgstr ""
+msgstr "96x96"
 
 #: ../image-converter/caja-image-resize.ui.h:5
 msgid "128x128"
-msgstr ""
+msgstr "128x128"
 
 #: ../image-converter/caja-image-resize.ui.h:6
 msgid "640x480"
-msgstr ""
+msgstr "640x480"
 
 #: ../image-converter/caja-image-resize.ui.h:7
 msgid "800x600"
-msgstr ""
+msgstr "800x600"
 
 #: ../image-converter/caja-image-resize.ui.h:8
 msgid "1024x768"
-msgstr ""
+msgstr "1024x768"
 
 #: ../image-converter/caja-image-resize.ui.h:9
 msgid "1280x960"
-msgstr ""
+msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr ""
+msgstr "пиксела"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr ""
+msgstr "Мащабиране:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr ""
+msgstr "процента"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr ""
+msgstr "Потребителски размер:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr ""
+msgstr "Широчина:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr ""
+msgstr "Височина:"
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr ""
+msgstr "<b>Име на файла</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Добавяне на"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".мащабирано"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "към името на файла"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Мащабиране със замяна"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr ""
+msgstr "О_размеряване"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr ""
+msgstr "Пропускане"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr ""
+msgstr "Повторен опит"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Мащабира се изображението: %d из %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Мащабиране \"%s\"</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Моля въведете валиден тип файл!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr ""
+msgstr "градуса по часовниковата стрелка"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
@@ -219,7 +219,7 @@ msgstr "Отваряне на отворената папка в термина�
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr ""
+msgstr "_Отваряне на прозорец"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
@@ -259,12 +259,12 @@ msgstr "Файлове"
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "За опции се очакват адреси или файлове\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "Опциите от командния ред не могат да се анализират: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
@@ -272,7 +272,7 @@ msgstr "Не могат да се заредят никакви приставк
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr ""
+msgstr "Проверете инсталацията си"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -280,7 +280,7 @@ msgstr "_Изпращане"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr ""
+msgstr "<b>Цел</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
@@ -292,63 +292,63 @@ msgstr "Изпращане д_о:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr ""
+msgstr "<b>Компресия</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "Изпращане _пакетирано в:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr ""
+msgstr "Е-писмо"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr ""
+msgstr "Файлът не може да бъде изпратен"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr ""
+msgstr "Няма връзка с отдалечената услуга на Gajim."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
-msgstr ""
+msgstr "Неуспех при изпращането на файла"
 
 #: ../sendto/plugins/gajim/gajim.c:443
 msgid "Recipient is missing."
-msgstr ""
+msgstr "Липсва получател."
 
 #: ../sendto/plugins/gajim/gajim.c:482
 msgid "Unknown recipient."
-msgstr ""
+msgstr "Неизвестен получател."
 
 #: ../sendto/plugins/gajim/gajim.c:505
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "Бързо съобщение (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr ""
+msgstr "Нов CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr ""
+msgstr "Съществуващ CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr ""
+msgstr "Създаване на CD/DVD"
 
 #: ../sendto/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr ""
+msgstr "Бързо съобщение (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr ""
+msgstr "Премахваеми устройства и споделяния"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr ""
+msgstr "Сървър за мултимедия чрез UPnP"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
@@ -418,7 +418,7 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr ""
+msgstr "Споделяне"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
@@ -430,7 +430,7 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr ""
+msgstr "Сподели тази папка"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
@@ -442,11 +442,11 @@ msgstr ""
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Сподели тази _папка"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "Ко_ментар:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -484,7 +484,7 @@ msgstr ""
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr ""
+msgstr "Неуспех"
 
 #: ../share/shares.c:548
 #, c-format
