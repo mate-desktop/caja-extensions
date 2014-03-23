@@ -9,11 +9,12 @@ AM_CPPFLAGS =                                      \
         -I$(srcdir)/../				\
         $(SENDTO_CFLAGS)               \
 	$(WARN_CFLAGS)				\
-	$(DISABLE_DEPRECATED)
+	$(DISABLE_DEPRECATED)                   \
+	$(GIO_CFLAGS)
 
 plugin_LTLIBRARIES = libnstburn.la
 
 libnstburn_la_SOURCES = caja-burn.c
 libnstburn_la_LDFLAGS = -module -avoid-version
-libnstburn_la_LIBADD = $(SENDTO_LIBS) $(builddir)/../libnstcommon.la
+libnstburn_la_LIBADD = $(GIO_LIBS) $(SENDTO_LIBS) $(builddir)/../libnstcommon.la
 

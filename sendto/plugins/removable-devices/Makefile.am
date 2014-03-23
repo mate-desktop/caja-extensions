@@ -15,5 +15,5 @@ plugin_LTLIBRARIES = libnstremovable_devices.la
 
 libnstremovable_devices_la_SOURCES = removable-devices.c
 libnstremovable_devices_la_LDFLAGS = -module -avoid-version
-libnstremovable_devices_la_LIBADD = $(SENDTO_LIBS) $(builddir)/../libnstcommon.la
+libnstremovable_devices_la_LIBADD = $(GIO_LIBS) $(SENDTO_LIBS) $(builddir)/../libnstcommon.la
 

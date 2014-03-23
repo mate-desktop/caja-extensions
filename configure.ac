@@ -102,19 +102,173 @@ if test "x$enable_sendto" = "xyes"; then
         GUPNP_REQUIRED=0.13
         PKG_CHECK_MODULES(SENDTO,
                 glib-2.0    >= $GLIB_REQUIRED
-                gio-2.0     >= $GLIB_REQUIRED
                 gthread-2.0 >= $GTHREAD_REQUIRED
                 gmodule-2.0 >= $GLIB_REQUIRED
                 gobject-2.0 >= $GLIB_REQUIRED
-                gtk+-$GTK_API_VERSION >= $GTK_REQUIRED
-                dbus-1      >= $DBUS_REQUIRED
-                dbus-glib-1 >= $DBUS_GLIB_REQUIRED
-                gupnp-1.0   >= $GUPNP_REQUIRED)
+                gtk+-$GTK_API_VERSION >= $GTK_REQUIRED)
         AC_SUBST(SENDTO_CFLAGS)
         AC_SUBST(SENDTO_LIBS)
-        AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$prefix/share/gajim", [path to gajim share dir])
-fi
 
+    # The full list of plugins
+    allowed_sendto_plugins="emailclient gajim caja-burn pidgin removable-devices upnp"
+
+    sendto_plugin_error_or_ignore()
+    {
+        if test "${error_on_bad_sendto_plugin}" = "1" ; then
+            AC_MSG_ERROR([$1])
+        else
+            AC_MSG_WARN([$1 (disabling sendto plugin)])
+        fi
+    }
+
+    AC_ARG_WITH([sendto-plugins],
+        [AS_HELP_STRING([--with-sendto-plugins],[Which caja-sendto plugins to compile (default: auto; "all", "autodetect" are valid)])],
+        [], [with_sendto_plugins=autodetect])
+
+    used_sendto_plugins=""
+    used_sendto_plugins2=""
+
+    if test "x${with_sendto_plugins}" = "xautodetect" ; then
+        # Default to all plugins and just ignore them if they won't compile
+        with_sendto_plugins="all"
+	    error_on_bad_plugin="0"
+    else
+        # Clean up the plugin list and error if a plugin won't compile
+        with_sendto_plugins=`echo ,"${with_plugins}", | sed -e 's/[[ ,]][[ ,]]*/ /g' -e 's/,$//'`
+        error_on_bad_sendto_plugin="1"
+    fi
+
+    # Iterate through the wanted plugins and weed out bad ones (or error)
+    for wanted_sendto_plugin in ${with_sendto_plugins}; do
+        for allowed_sendto_plugin in ${allowed_sendto_plugins}; do
+            case ${wanted_sendto_plugin} in
+		all)
+                    # List all plugins as being used
+                    used_sendto_plugins=${allowed_sendto_plugins}
+                ;;
+                autodetect)
+                    # List all plugins as being used
+                    used_sendto_plugins=${allowed_sendto_plugins}
+                ;;
+                ${allowed_sendto_plugin}) used_sendto_plugins="${used_sendto_plugins} ${wanted_sendto_plugin}";; # List the plugin
+                *) ;;
+            esac
+        done
+    done
+
+    # Check for plugin-specific requirements and error if necessary
+    for sendto_plugin in ${used_sendto_plugins}; do
+        add_sendto_plugin="1"
+
+        case ${sendto_plugin} in
+            emailclient)
+                PKG_CHECK_MODULES(EMAILCLIENT, gio-2.0,
+                    enable_emailclient=yes, enable_emailclient=no)
+                if test "${enable_emailclient}" != "yes" ; then
+                    sendto_plugin_error_or_ignore "you need gio-2.0 to build the emailclient plugin"
+                    add_sendto_plugin="0"
+                fi
+            ;;
+            gajim)
+                AC_ARG_WITH(sendto_gajim,
+                    [AS_HELP_STRING(--with-sendto-gajim,[Path to Gajim install prefix])],
+                    [GAJIM_PATH="$withval"],[GAJIM_PATH="$prefix"])
+
+                GAJIM_SHARE_DIR="$GAJIM_PATH"/share/gajim
+
+                PKG_CHECK_MODULES(DBUS, dbus-1 >= $DBUS_REQUIRED dbus-glib-1 >= $DBUS_GLIB_REQUIRED,
+                    [AC_SUBST(DBUS_CFLAGS)
+                    AC_SUBST(DBUS_LIBS)
+                    enable_sendto_gajim=yes
+                    AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$GAJIM_SHARE_DIR", [path to gajim share dir])],
+                    [enable_sendto_gajim=no])
+
+                if test "${enable_sendto_gajim}" != "yes" ; then
+                    sendto_plugin_error_or_ignore "you need gajim and dbus-glib installed for the gajim plugin"
+                    add_sendto_plugin="0"
+                fi
+            ;;
+            caja-burn)
+                PKG_CHECK_MODULES(GIO, gio-2.0,
+                    enable_burn=yes, enable_burn=no)
+                if test "${enable_burn}" != "yes" ; then
+                    sendto_plugin_error_or_ignore "you need gio installed for the caja-burn plugin"
+                    add_sendto_plugin="0"
+                fi
+            ;;
+            pidgin)
+                PKG_CHECK_MODULES(PIDGIN, dbus-glib-1 >= $DBUS_GLIB_REQUIRED,
+                    enable_pidgin=yes, enable_pidgin=no)
+                if test "${enable_pidgin}" != "yes" ; then
+                    sendto_plugin_error_or_ignore "you need dbus-glib to build the pidgin plugin"
+                    add_sendto_plugin="0"
+                fi
+            ;;
+            removable-devices)
+                PKG_CHECK_MODULES(GIO, gio-2.0,
+                    enable_removable=yes, enable_removable=no)
+                if test "${enable_removable}" != "yes" ; then
+                    sendto_plugin_error_or_ignore "you need gio-2.0 to build the removable-devices plugin"
+                    add_sendto_plugin="0"
+            fi
+            ;;
+            upnp)
+                PKG_CHECK_MODULES(UPNP, gupnp-1.0 >= $GUPNP_REQUIRED,
+                    enable_upnp=yes, enable_upnp=no)
+                if test "${enable_upnp}" != "yes" ; then
+                    sendto_plugin_error_or_ignore "you need gupnp installed for the upnp plugin"
+                    add_sendto_plugin="0"
+                fi
+            ;;
+        esac
+
+        # Add the specified plugin
+        if test "${add_sendto_plugin}" = "1" ; then
+            used_sendto_plugins2="${used_sendto_plugins2} ${sendto_plugin}"
+        fi
+    done
+
+    ALL_SENDTO_PLUGINS=$allowed_sendto_plugins
+    SENDTO_PLUGINS=$used_sendto_plugins2
+
+    dnl Error out if no plugins will be built
+    if test -z "${SENDTO_PLUGINS}" ; then
+        AC_MSG_ERROR([No sendto plugins will be built, and caja-sendto requires at least one])
+    fi
+
+    AC_MSG_CHECKING([which sendto plugins to compile])
+    AC_MSG_RESULT([$SENDTO_PLUGINS])
+
+    AC_SUBST([ALL_SENDTO_PLUGINS])
+    AC_SUBST([SENDTO_PLUGINS])
+
+    dnl For the pidgin sendto plugin
+    AM_CONDITIONAL(HAVE_SENDTO_PIDGIN, test "x$enable_pidgin" = "xyes")
+
+    dnl For the GIO based plugins
+    enable_nst_common=no
+    if test "x$enable_burn" = "xyes" -o "x$enable_removable" = "xyes"; then
+        enable_nst_common=yes
+    fi
+    AM_CONDITIONAL(HAVE_GIO, test "x$enable_nst_common" = "xyes")
+
+    if test "x${SENDTO_PLUGINS}" != "x" ; then
+        for allowed_sendto_plugin in ${ALL_SENDTO_PLUGINS}; do
+            for sendto_plugin in ${SENDTO_PLUGINS}; do
+                case ${allowed_sendto_plugin} in
+                    ${sendto_plugin})
+                        AC_MSG_NOTICE([** ${allowed_sendto_plugin} sendto plugin enabled])
+                        continue 2
+                    ;;
+                    *);;
+                esac
+            done
+            AC_MSG_NOTICE([ ${allowed_sendto_plugin} sendto plugin disabled])
+        done
+    else
+        AC_MSG_NOTICE([ No caja-sendto plugins enabled])
+    fi
+fi
 AM_CONDITIONAL(ENABLE_SENDTO, test x"$enable_sendto" = "xyes")
 
 # share extension
