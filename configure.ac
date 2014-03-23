@@ -131,10 +131,10 @@ if test "x$enable_sendto" = "xyes"; then
     if test "x${with_sendto_plugins}" = "xautodetect" ; then
         # Default to all plugins and just ignore them if they won't compile
         with_sendto_plugins="all"
-	    error_on_bad_plugin="0"
+        error_on_bad_sendto_plugin="0"
     else
         # Clean up the plugin list and error if a plugin won't compile
-        with_sendto_plugins=`echo ,"${with_plugins}", | sed -e 's/[[ ,]][[ ,]]*/ /g' -e 's/,$//'`
+        with_sendto_plugins=`echo ,"${with_sendto_plugins}", | sed -e 's/[[ ,]][[ ,]]*/ /g' -e 's/,$//'`
         error_on_bad_sendto_plugin="1"
     fi
 
@@ -181,9 +181,9 @@ if test "x$enable_sendto" = "xyes"; then
                     AC_SUBST(DBUS_LIBS)
                     enable_sendto_gajim=yes
                     AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$GAJIM_SHARE_DIR", [path to gajim share dir])],
-                    [enable_sendto_gajim=no])
+                    [enable_gajim=no])
 
-                if test "${enable_sendto_gajim}" != "yes" ; then
+                if test "${enable_gajim}" != "yes" ; then
                     sendto_plugin_error_or_ignore "you need gajim and dbus-glib installed for the gajim plugin"
                     add_sendto_plugin="0"
                 fi
