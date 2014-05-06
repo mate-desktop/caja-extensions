@@ -3,65 +3,63 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# i_sty <szollosi.istv4n@gmail.com>, 2014
-# kami911 <kami911@gmail.com>, 2014
-# Rezső Páder <rezso@rezso.net>, 2013
+# willysr <willysr@slackware-id.org>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-05-01 18:49+0000\n"
-"Last-Translator: kami911 <kami911@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/MATE/language/hu/)\n"
+"PO-Revision-Date: 2014-03-10 11:39+0000\n"
+"Last-Translator: willysr <willysr@slackware-id.org>\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/MATE/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Megnyitás rendszergazdaként"
+msgstr "Buka sebagai administrator"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "A fáj megnyitása rendszergazdai jogosultságokkal"
+msgstr "Buka berkas dengan hak akses administrator"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>A futtatandó program nem határozható meg.</b></big>\n\nA kijelölt elem nem nyitható meg rendszergazdai jogosultságokkal, mivel a megfelelő alkalmazás nem határozható meg."
+msgstr "<big><b>Tidak dapat menentukan program untuk dijalankan.</b></big>\n\nEntri yang Anda pilih tidak dapat dibuka dengan hak akses administrator karena aplikasi yang benar tidak dapat ditentukan."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "Képek átmé_retezése..."
+msgstr "_Ubah Ukuran Citra..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Minden kijelölt kép átméretezése"
+msgstr "Mengubah ukuran tiap citra yang dipilih"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Képek elforga_tása..."
+msgstr "Memu_tar citra..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Minden kijelölt kép elforgatása"
+msgstr "Memutar tiap citra yang dipilih"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Képek átméretezése"
+msgstr "Ubah Ukuran Gambar"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Kép mérete</b>"
+msgstr "<b>Ukuran Gambar</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Méret kiválasztása:"
+msgstr "Pilih Ukuran:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -89,149 +87,149 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "képpont"
+msgstr "piksel"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Méretarány:"
+msgstr "Skala:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "százalék"
+msgstr "persen"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Egyéni méret:"
+msgstr "Ukuran kustom:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Szélesség:"
+msgstr "Lebar:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Magasság:"
+msgstr "Tinggi:"
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Fájlnév</b>"
+msgstr "<b>Nama berkas</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Hozzáfűzés"
+msgstr "Tambahkan"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".átméretezve"
+msgstr ".ukuran telah diubah"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "fájlnévnek"
+msgstr "Ke judul file"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Átméretezés helyben"
+msgstr "Ubah ukuran ditempat"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "Át_méretezés"
+msgstr "Ganti Uku_ran"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "_Kihagyás"
+msgstr "_Lewati"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "Új_ra"
+msgstr "_Ulangi"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Kép átméretezése: %d / %d"
+msgstr "Mengubah ukuran citra: %d dari %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>\"%s\" átméretezése</i>"
+msgstr "<i>Mengubah ukuran \"%s\"</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Érvényes fájlnév végződést adjon meg!"
+msgstr "Harap masukkan akhiran nama berkas yang valid!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Képek elforgatása"
+msgstr "Memutar Citra"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Kép elforgatása</b>"
+msgstr "<b>Rotasi Citra</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Szög kiválasztása:"
+msgstr "Pilih sudut:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Egyéni szög:"
+msgstr "Sudut kustom:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "fokkal az órajárással megegyezően"
+msgstr "derajat searah jarum jam"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".átfordítva"
+msgstr ".dirotasi"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Elforgatás helyben"
+msgstr "Memutar ditempat"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Elforgatás"
+msgstr "_Rotasi"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Kép elforgatása: %d / %d"
+msgstr "Memutar citra: %d dari %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>\"%s\" elforgatása</i>"
+msgstr "<i>Memutar \"%s\"<i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
-msgstr "Megnyitás _terminálban"
+msgstr "Buka di _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "A jelenleg kijelölt mappa megnyitása egy terminálban"
+msgstr "Buka folder yang dipilih pada terminal"
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "A jelenleg nyitott mappa megnyitása egy terminálban"
+msgstr "Buka folder yang sedang dibuka pada terminal"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr "_Terminál megnyitása"
+msgstr "Buka _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
-msgstr "Terminál megnyitása"
+msgstr "Buka terminal"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "A terminál megnyitása az asztalon a saját mappában nyitja-e a terminált"
+msgstr "Apakah membuka terminal pada desktop akan membuka terminal pada direktori rumah"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -239,283 +237,283 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Ha ez igaz, akkor egy terminál megnyitása az asztalon a saját könyvtárában nyit meg egy terminált. Ellenkező esetben a munkaasztal mappájában nyílik meg. A kulcsnak nincs jelentősége, ha a munkaasztal könyvtára a saját könyvtár."
+msgstr "Jika diatur benar, maka membuka terminal pada desktop akan membuka terminal di direktori rumah. Jika tidak, terminal akan terbuka di direktori desktop. Perhatikan bahwa kunci ini tidak relevan jika direktori desktop identik dengan direktori rumah."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Küldés…"
+msgstr "Kirim Ke..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Fájl küldése levélben, azonnali üzenetként…"
+msgstr "Kirim berkas melalui email, pesan instan..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Fájlok küldése levélben, azonnali üzenetként…"
+msgstr "Kirim berkas melalui email, pesan instan..."
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
-msgstr "Fájlok"
+msgstr "Berkas"
 
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "URI címekre vagy fájlnevekre számít paraméterekként\n"
+msgstr "Mengharapkan URI atau nama berkas dikirimkan sebagai opsi\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Nem dolgozhatók fel a parancssori kapcsolók: %s\n"
+msgstr "Tidak dapat mengurai opsi perintah baris: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
-msgstr "Nem tölthetők be bővítmények."
+msgstr "Tidak dapat memuat plugin manapun."
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr "Ellenőrizze a telepítést"
+msgstr "Harap verifikasi instalasi Anda"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "_Küldés"
+msgstr "_Kirim"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Cél</b>"
+msgstr "<b>Tujuan</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Küldés _mint:"
+msgstr "Kirim _sebagai:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Küldés _célja:"
+msgstr "Kirim k_e:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Tömörítés</b>"
+msgstr "<b>Kompresi</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Küldés _tömörítve:"
+msgstr "Kirim _paket dalam:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "E-mail"
+msgstr "Email"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr "Nem küldhető el a fájl"
+msgstr "Tidak dapat mengirim file"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Nincs kapcsolat a gajim távoli szolgáltatáshoz."
+msgstr "Tidak ada koneksi ke layanan jarak jauh gaim."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
-msgstr "A fájl küldése meghiúsult"
+msgstr "Pengiriman file gagal"
 
 #: ../sendto/plugins/gajim/gajim.c:443
 msgid "Recipient is missing."
-msgstr "A címzett hiányzik."
+msgstr "Penerima tidak ada."
 
 #: ../sendto/plugins/gajim/gajim.c:482
 msgid "Unknown recipient."
-msgstr "Ismeretlen címzett."
+msgstr "Penerima tidak diketahui."
 
 #: ../sendto/plugins/gajim/gajim.c:505
 msgid "Instant Message (Gajim)"
-msgstr "Azonnali üzenet (Gajim)"
+msgstr "Pesan Instan (Gaim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Új CD/DVD"
+msgstr "CD/DVD baru"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr "Meglévő CD/DVD"
+msgstr "CD/DVD yang sudah ada"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "CD/DVD-készítő"
+msgstr "Pembuat CD/DVD"
 
 #: ../sendto/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr "Azonnali üzenet (Pidgin)"
+msgstr "Pesan Instan (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Cserélhető lemezek és megosztások"
+msgstr "Removeable disk dan share"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "UPnP médiakiszolgáló"
+msgstr "Server Media UPnP"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "A megosztáshoz a Caja-nak szüksége van néhány jogra a \"%s\" mappához, hogy megtudja osztani azt"
+msgstr "Caja perlu menambahkan beberapa hak akses pada folder \"%s\" untuk bisa berbagi"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "A „%s” mappa megosztásához ezekre a további jogosultságokra van szükség:\n%s%s%sSzeretné, hogy a Caja automatikusan hozzáadja a mappához a jogosultságokat?"
+msgstr "Folder \"%s\" perlu hak akses tambahan berikut agar fitur berbagi bisa bekerja:\n%s%s%sApakah Anda ingin Caja untuk menambahkan hak akses ini pada folder secara otomatis?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr "- olvasási jog másoknak\n"
+msgstr "- hak akses baca oleh lainnya\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr "- írási jog másoknak\n"
+msgstr "- hak akses tulis oleh lainnya\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "- futtatási jog másoknak\n"
+msgstr "- hak akses eksekusi oleh lainnya\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Jogok hozzáadása automatikusan"
+msgstr "Tambahkan hak akses secara otomatis"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "„%s” mappa jogosultságai nem változtathatók meg"
+msgstr "Tidak dapat mengubah hak akses dari folder \"%s\""
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr "A megosztás neve túl hosszú"
+msgstr "Nama terlalu panjang"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr "A megosztás neve nem lehet üres"
+msgstr "Nama share tidak boleh kosong"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Hiba a megosztási adatok lekérésekor: %s"
+msgstr "Kesalahan ketika mendapatkan informasi share: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr "Van már megosztás ezzel a névvel"
+msgstr "Terdapat share lain dengan nama yang sama"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr "Megosztás _módosítása"
+msgstr "Modifikasi _Share"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr "Megosztás _létrehozása"
+msgstr "Buat _Share"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr "Volt egy hiba a megosztási adatok lekérésekor"
+msgstr "Terdapat kesalahan ketika mendapatkan informasi share"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr "Megosztás"
+msgstr "Berbagi"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Mappamegosztás"
+msgstr "Berbagi Folder"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Megosztási beállítások"
+msgstr "Opsi Share"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr "Mappa megosztása"
+msgstr "Share Folder ini"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Mappa megosztása</b></big>"
+msgstr "<big><b>Berbagi Folder</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "Megosztás _neve:"
+msgstr "_Nama Share:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "_Mappa megosztása"
+msgstr "Share _folder ini"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "_Megjegyzés:"
+msgstr "Ko_mentar:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_Endedélyezzük mások számára a fájlok létrehozását és törlésát ebben mappában"
+msgstr "_Ijinkan lainnya untuk membuat dan menghapus berkas pada folder ini"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "_Vendég hozzáférése (azoknak a személyeknek, akik nem rendelkeznek felhasználói fiókkal)"
+msgstr "Akses _tamu (untuk orang tanpa akun)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s visszatért a %d jellel"
+msgstr "%s %s %s kembali dengan sinyal %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr "%s %s %s ismeretlen eredetű hibát jelzett"
+msgstr "%s %s %s gagal dengan alasan yang tidak diketahui"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "A „net usershare” parancs %d hibával tért vissza: %s"
+msgstr "'net usershare' mengembalikan kesalahan %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "A „net usershare” parancs %d hibával tért vissza"
+msgstr "'net usershare' mengembalikan kesalahan %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "A „net usershare” parancs kimenete nem érvényes UTF-8 kódulású"
+msgstr "Keluaran dari 'net usershare' bukan enkoding UTF-8 yang valid"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr "Sikertelen"
+msgstr "Gagal"
 
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "A Samba tesztparaméter %d jellel tért vissza"
+msgstr "testparm Samba mengembalikan sinyal %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr "A Samba tesztparaméter ismeretlen okból meghiúsult "
+msgstr "testparm Samba gagal untuk alasan yang tidak diketahui"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "A Samba tesztparaméter%d hibát jelzett: %s"
+msgstr "testparm Samba mengembalikan kesalahan %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "A Samba tesztparaméter%d hibát jelzett"
+msgstr "testparm Samba mengembalikan kesalahan %d"
 
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "A %s megosztás nem távlítható el, mert az nincs megosztva"
+msgstr "Tidak dapat menghapus share untuk path %s: path tersebut tidak dibagikan"
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "A meglévő megosztás elérési útja nem változtatható meg. Távolítsa el a régi megosztást és hozza létre az újat."
+msgstr "Tidak dapat mengubah path dari share yang ada; harap menghapus share lama dahulu dan tambahkan yang baru"

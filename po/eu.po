@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-01-03 20:40+0000\n"
+"PO-Revision-Date: 2014-03-31 21:18+0000\n"
 "Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/projects/p/MATE/language/eu/)\n"
 "MIME-Version: 1.0\n"
@@ -378,7 +378,7 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "Gehitu baimenak automatikoki"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
@@ -430,11 +430,11 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr ""
+msgstr "Partekatu karpeta hau"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Karpetak partekatzea</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
@@ -442,11 +442,11 @@ msgstr ""
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Partekatu _karpeta hau"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "_Iruzkina:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"

@@ -3,65 +3,64 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# i_sty <szollosi.istv4n@gmail.com>, 2014
-# kami911 <kami911@gmail.com>, 2014
-# Rezső Páder <rezso@rezso.net>, 2013
+# shinmili <rmsk.pl.ur.lpt@gmail.com>, 2014
+# Shirayuki/しらゆき Shira <shirayuking@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-05-01 18:49+0000\n"
-"Last-Translator: kami911 <kami911@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/MATE/language/hu/)\n"
+"PO-Revision-Date: 2014-05-03 07:25+0000\n"
+"Last-Translator: shinmili <rmsk.pl.ur.lpt@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/MATE/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Megnyitás rendszergazdaként"
+msgstr "管理者として開く"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "A fáj megnyitása rendszergazdai jogosultságokkal"
+msgstr "管理者権限でファイルを開きます"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>A futtatandó program nem határozható meg.</b></big>\n\nA kijelölt elem nem nyitható meg rendszergazdai jogosultságokkal, mivel a megfelelő alkalmazás nem határozható meg."
+msgstr "<big><b>実行するプログラムを決定できません。</b></big>\n\n適切なアプリケーションを決定できないので、選んだファイルを管理者権限で開くことはできません。"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "Képek átmé_retezése..."
+msgstr "画像サイズの変更(_R)..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Minden kijelölt kép átméretezése"
+msgstr "選択した画像の大きさを変更します"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Képek elforga_tása..."
+msgstr "画像の回転(_T)..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Minden kijelölt kép elforgatása"
+msgstr "選択した画像を回転します"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Képek átméretezése"
+msgstr "画像の大きさの変更"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Kép mérete</b>"
+msgstr "<b>画像の大きさ</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Méret kiválasztása:"
+msgstr "選択する:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -89,149 +88,149 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "képpont"
+msgstr "ピクセル"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Méretarány:"
+msgstr "比率:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "százalék"
+msgstr "パーセント"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Egyéni méret:"
+msgstr "指定する:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Szélesség:"
+msgstr "幅:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Magasság:"
+msgstr "高さ:"
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Fájlnév</b>"
+msgstr "<b>ファイル名</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Hozzáfűzés"
+msgstr "ファイル名に"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".átméretezve"
+msgstr ".resized"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "fájlnévnek"
+msgstr "を追加する"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Átméretezés helyben"
+msgstr "ファイル名を変更しない"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "Át_méretezés"
+msgstr "サイズの変更(_R)"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "_Kihagyás"
+msgstr "スキップ(_S)"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "Új_ra"
+msgstr "再試行(_R)"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Kép átméretezése: %d / %d"
+msgstr "画像の大きさの変更中: %d / %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>\"%s\" átméretezése</i>"
+msgstr "<i>\"%s\" の大きさを変更中</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Érvényes fájlnév végződést adjon meg!"
+msgstr "正しい拡張子を指定して下さい！"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Képek elforgatása"
+msgstr "画像の回転"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Kép elforgatása</b>"
+msgstr "<b>画像の回転</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Szög kiválasztása:"
+msgstr "選択する:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Egyéni szög:"
+msgstr "指定する:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "fokkal az órajárással megegyezően"
+msgstr "°(右回り)"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".átfordítva"
+msgstr ".rotated"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Elforgatás helyben"
+msgstr "ファイル名を変更しない"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Elforgatás"
+msgstr "回転する(_R)"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Kép elforgatása: %d / %d"
+msgstr "画像の回転中: %d / %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>\"%s\" elforgatása</i>"
+msgstr "<i>\"%s\" の回転中</i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
-msgstr "Megnyitás _terminálban"
+msgstr "端末の中に開く(_T)"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "A jelenleg kijelölt mappa megnyitása egy terminálban"
+msgstr "端末の中に現在選択しているフォルダを開きます"
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "A jelenleg nyitott mappa megnyitása egy terminálban"
+msgstr "端末の中に現在表示しているフォルダを開きます"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
-msgstr "_Terminál megnyitása"
+msgstr "端末を開く(_T)"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
-msgstr "Terminál megnyitása"
+msgstr "端末を開きます"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "A terminál megnyitása az asztalon a saját mappában nyitja-e a terminált"
+msgstr "デスクトップから端末を呼び出した際にホーム･ディレクトリを開く"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -239,283 +238,283 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Ha ez igaz, akkor egy terminál megnyitása az asztalon a saját könyvtárában nyit meg egy terminált. Ellenkező esetben a munkaasztal mappájában nyílik meg. A kulcsnak nincs jelentősége, ha a munkaasztal könyvtára a saját könyvtár."
+msgstr "この機能をオンにすると、デスクトップ上で端末を呼び出した際にホーム･ディレクトリを開くようになります。オフにすると、デスクトップを開きます。デスクトップ・ディレクトリにホーム・ディレクトリを指定している場合、この設定は効果がありません。"
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Küldés…"
+msgstr "送る..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Fájl küldése levélben, azonnali üzenetként…"
+msgstr "ファイルをメールやインスタント・メッセンジャーなどを使って送信します..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Fájlok küldése levélben, azonnali üzenetként…"
+msgstr "ファイルをメールやインスタント・メッセンジャーなどを使って送信します..."
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
-msgstr "Fájlok"
+msgstr "ファイル"
 
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "URI címekre vagy fájlnevekre számít paraméterekként\n"
+msgstr "オプションとして URI または ファイル名を指定してください\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Nem dolgozhatók fel a parancssori kapcsolók: %s\n"
+msgstr "コマンドライン・オプションを解析できませんでした: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
-msgstr "Nem tölthetők be bővítmények."
+msgstr "プラグインを読み込めませんでした"
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr "Ellenőrizze a telepítést"
+msgstr "インストールを確認してください"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "_Küldés"
+msgstr "送信(_S)"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Cél</b>"
+msgstr "<b>送信先</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Küldés _mint:"
+msgstr "使用するアプリ(_A):"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Küldés _célja:"
+msgstr "宛先(_O):"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Tömörítés</b>"
+msgstr "<b>圧縮</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Küldés _tömörítve:"
+msgstr "書庫にして送信する(_P):"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "E-mail"
+msgstr "メール"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr "Nem küldhető el a fájl"
+msgstr "ファイルを送信できません"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Nincs kapcsolat a gajim távoli szolgáltatáshoz."
+msgstr "gajim のリモート・サービスへ接続していません。"
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
-msgstr "A fájl küldése meghiúsult"
+msgstr "ファイルの送信に失敗しました"
 
 #: ../sendto/plugins/gajim/gajim.c:443
 msgid "Recipient is missing."
-msgstr "A címzett hiányzik."
+msgstr "応答メッセージがありません。"
 
 #: ../sendto/plugins/gajim/gajim.c:482
 msgid "Unknown recipient."
-msgstr "Ismeretlen címzett."
+msgstr "不明な応答メッセージです"
 
 #: ../sendto/plugins/gajim/gajim.c:505
 msgid "Instant Message (Gajim)"
-msgstr "Azonnali üzenet (Gajim)"
+msgstr "インスタント・メッセージ (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Új CD/DVD"
+msgstr "新しい CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr "Meglévő CD/DVD"
+msgstr "既存の CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "CD/DVD-készítő"
+msgstr "CD/DVD の作成"
 
 #: ../sendto/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr "Azonnali üzenet (Pidgin)"
+msgstr "インスタント・メッセンジャー (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Cserélhető lemezek és megosztások"
+msgstr "リムーバブル・ディスクと共有"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "UPnP médiakiszolgáló"
+msgstr "UPnP メディア・サーバ"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "A megosztáshoz a Caja-nak szüksége van néhány jogra a \"%s\" mappához, hogy megtudja osztani azt"
+msgstr "フォルダ \"%s\" を共有するためにはアクセス権を追加する必要があります"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "A „%s” mappa megosztásához ezekre a további jogosultságokra van szükség:\n%s%s%sSzeretné, hogy a Caja automatikusan hozzáadja a mappához a jogosultságokat?"
+msgstr "共有機能を有効にするにはフォルダ \"%s\" に次の追加アクセス権が必要です:\n%s%s%sこれらのアクセス権を自動で追加してよろしいですか？"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr "- olvasási jog másoknak\n"
+msgstr "- others からの読み込み権\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr "- írási jog másoknak\n"
+msgstr "- others からの書き込み権\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "- futtatási jog másoknak\n"
+msgstr "- others の実行権\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Jogok hozzáadása automatikusan"
+msgstr "アクセス権を自動で追加する"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "„%s” mappa jogosultságai nem változtathatók meg"
+msgstr "フォルダ \"%s\" のアクセス権を変更できません"
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr "A megosztás neve túl hosszú"
+msgstr "共有名が長すぎます"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr "A megosztás neve nem lehet üres"
+msgstr "共有名を入力してください"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Hiba a megosztási adatok lekérésekor: %s"
+msgstr "共有情報の取得中にエラーが発生しました: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr "Van már megosztás ezzel a névvel"
+msgstr "同名の共有があります"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr "Megosztás _módosítása"
+msgstr "共有を変更(_S)"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr "Megosztás _létrehozása"
+msgstr "共有を作成(_S)"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr "Volt egy hiba a megosztási adatok lekérésekor"
+msgstr "共有情報の取得中にエラーが発生しました"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr "Megosztás"
+msgstr ""
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Mappamegosztás"
+msgstr "フォルダの共有"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Megosztási beállítások"
+msgstr "共有オプション"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr "Mappa megosztása"
+msgstr "このフォルダを共有する"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Mappa megosztása</b></big>"
+msgstr "<big><b>フォルダの共有</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "Megosztás _neve:"
+msgstr "共有名(_N):"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "_Mappa megosztása"
+msgstr "このフォルダを共有する(_S)"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "_Megjegyzés:"
+msgstr "コメント(_M):"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_Endedélyezzük mások számára a fájlok létrehozását és törlésát ebben mappában"
+msgstr "このフォルダで他人がファイルを作成・削除するのを許可する(_A)"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "_Vendég hozzáférése (azoknak a személyeknek, akik nem rendelkeznek felhasználói fiókkal)"
+msgstr "ゲスト(ユーザーアカウントを持たない人)のアクセス(_G)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s visszatért a %d jellel"
+msgstr "%s %s %s がシグナル %d を返しました"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr "%s %s %s ismeretlen eredetű hibát jelzett"
+msgstr "%s %s %s が不明な理由で失敗しました"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "A „net usershare” parancs %d hibával tért vissza: %s"
+msgstr "'net usershare' がエラー %d を返しました: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "A „net usershare” parancs %d hibával tért vissza"
+msgstr "'net usershare' がエラー %d を返しました"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "A „net usershare” parancs kimenete nem érvényes UTF-8 kódulású"
+msgstr "'net usershare' の出力が有効な UTF-8 エンコーディングではありません"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr "Sikertelen"
+msgstr "失敗"
 
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "A Samba tesztparaméter %d jellel tért vissza"
+msgstr "Samba の testparm がシグナル %d を返しました"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr "A Samba tesztparaméter ismeretlen okból meghiúsult "
+msgstr "Samba の testparm が不明な理由で失敗しました"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "A Samba tesztparaméter%d hibát jelzett: %s"
+msgstr "Samba の testparm がエラー %d を返しました: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "A Samba tesztparaméter%d hibát jelzett"
+msgstr "Samba の testparm がエラー %d を返しました"
 
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "A %s megosztás nem távlítható el, mert az nincs megosztva"
+msgstr "パス %s の共有を削除できません: パスは共有されていません"
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "A meglévő megosztás elérési útja nem változtatható meg. Távolítsa el a régi megosztást és hozza létre az újat."
+msgstr "既に共有されているパスは変更できません; 古い共有を削除して、新しく追加してください"
