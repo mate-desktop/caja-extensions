@@ -2,6 +2,7 @@ AC_INIT([caja-extensions], 1.9.0, [https://github.com/mate-desktop/caja-extensio
 
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
 AC_CONFIG_HEADERS(config.h)
+AC_CONFIG_MACRO_DIR([m4])
 
 AM_DISABLE_STATIC
 AC_PROG_CC

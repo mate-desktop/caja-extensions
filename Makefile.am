@@ -1,6 +1,8 @@
 
 DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
 
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
+
 SUBDIRS = po
 
 if ENABLE_OPEN_TERMINAL
