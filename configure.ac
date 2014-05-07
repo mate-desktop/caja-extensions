@@ -306,7 +306,7 @@ AC_MSG_NOTICE([Installing caja plugins in ${ac_with_cajadir}])
 AC_SUBST([CAJA_EXTENSION_DIR],[${ac_with_cajadir}])
 
 # intltool stuff
-AC_PROG_INTLTOOL(0.18)
+IT_PROG_INTLTOOL(0.18)
 GETTEXT_PACKAGE=caja-extensions
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [gettext package])
