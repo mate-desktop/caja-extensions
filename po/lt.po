@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2014
 # brennus <jonas.ska@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-04-15 16:03+0000\n"
-"Last-Translator: brennus <jonas.ska@gmail.com>\n"
+"PO-Revision-Date: 2014-10-07 20:48+0000\n"
+"Last-Translator: Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,59 +32,59 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr ""
+msgstr "<big><b> Paleidimui nepavyko nustatyti programos.</b></big>\n\nPasirinktas elementas negali būti atidarytas administratoriaus teisėmis, nes nepavyksta nustatyti tinkamos programos."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr ""
+msgstr "_Keisti paveikslėlių dydį..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr ""
+msgstr "Keisti kiekvieno pasirinkto paveikslėlio dydį"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "Sukti paveikslėlius..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr ""
+msgstr "Sukti kiekvieną pasirinktą paveikslėlį"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr ""
+msgstr "Keisti paveikslėlių dydį"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr ""
+msgstr "<b>Paveikslėlio dydis</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr ""
+msgstr "Pasirinkite dydį:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
-msgstr ""
+msgstr "96×96"
 
 #: ../image-converter/caja-image-resize.ui.h:5
 msgid "128x128"
-msgstr ""
+msgstr "128×128"
 
 #: ../image-converter/caja-image-resize.ui.h:6
 msgid "640x480"
-msgstr ""
+msgstr "640×480"
 
 #: ../image-converter/caja-image-resize.ui.h:7
 msgid "800x600"
-msgstr ""
+msgstr "800×600"
 
 #: ../image-converter/caja-image-resize.ui.h:8
 msgid "1024x768"
-msgstr ""
+msgstr "1024×768"
 
 #: ../image-converter/caja-image-resize.ui.h:9
 msgid "1280x960"
-msgstr ""
+msgstr "1280×960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
@@ -99,7 +100,7 @@ msgstr "proc."
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr ""
+msgstr "Pasirinktas dydis:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
@@ -112,25 +113,25 @@ msgstr "Aukštis:"
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr ""
+msgstr "<b>Failo vardas</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Papildymas"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".resized"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "į failo pavadinimą"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Pakeisti dydį vietoje"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
@@ -149,59 +150,59 @@ msgstr "_Bandyti dar kartą"
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Keičiamas %d paveikslėlio iš %d dydis"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Keičiamas „%s“ dydis</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Įveskite tinkamą failo pavadinimo pabaigą!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr ""
+msgstr "Paversti paveikslėlius"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr ""
+msgstr "<b>Paveikslėlio sukimas</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr ""
+msgstr "Pasirinkti kampą:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr ""
+msgstr "Pasirinktas kampas:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr ""
+msgstr "laipsnių pagal laikrodžio rodyklę"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr "pasuktas"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "Pasukti vietoje"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr ""
+msgstr "_Pasukti"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr ""
+msgstr "Sukamas paveikslėlis: %d iš %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr ""
+msgstr "<i>Sukama \"%s\"</i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
@@ -229,7 +230,7 @@ msgstr "Atverti terminalą"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Ar atidarant terminalą darbalaukyje atidaryti terminalą naudotojo aplanke"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -237,7 +238,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr ""
+msgstr "Jeigu įjungta, atidaromas iš darbalaukio terminalas atsivers pagrindiniame kataloge. Kitu atveju jis bus atidarytas darbalaukio kataloge. Šis punktas nereikšmingas darbalaukio katalogui esant tapačiam naudotojo pagrindiniam aplankui."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
@@ -355,30 +356,30 @@ msgstr "UPnP medijos serveris"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "Norint dalintis \"%s\" aplanku, „Cajai“ reikia pridėti leidimų."
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "Aplanko \"%s\" bendrinimui reikia šių papildomų leidimų.\n%s%s%sAr norite, kad „Caja“ šiuos leidimus į aplanką pridėtų automatiškai?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "- kitų skaitymo leidimas\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "- kitų rašymo leidimas\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "- kitų vykdymo leidimas\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "Automatiškai pridėti leidimus"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
@@ -387,62 +388,62 @@ msgstr "Nepavyko pakeisti aplanko „%s“ leidimų"
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr ""
+msgstr "Dalijimosi pavadinimas per ilgas"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "Dalijimosi pavadinimas negali būti tuščias"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Nepavyko gauti dalijimosi informaciją: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Kitas bendrinys turi tokį patį pavadinimą"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "Keisti bendrinį"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "Kurti bendrinį"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Gaunant bendrinimo informaciją įvyko klaida"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr ""
+msgstr "Bendrinti"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr ""
+msgstr "Aplankų bendrinimas"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr ""
+msgstr "Bendrinimo pasirinktys"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr ""
+msgstr "Bendrinti šį aplanką"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Aplanko bendrinimas</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "Dalijimosi pavadinimas:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Bendrinti šį _aplanką"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
@@ -450,36 +451,36 @@ msgstr "Ko_mentaras:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Leidžia kitiems šiame aplanke kurti ir šalinti failus"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "_Svečio prieiga (asmenims be naudotojo paskyros)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s grąžino signalą %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s nepavyko dėl nežinomos priežasties"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "„net usershare“ grąžino klaidą %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "„net usershare“ grąžino klaidą %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "„net usershare“ išvestis netinkama UTF-8 koduotei"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
@@ -489,31 +490,31 @@ msgstr "Nepavyko"
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Sambos <i>testparm</i> grįžo su signalu %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Sambos <i>testparm</i> nesuveikė dėl nežinomų priežasčių"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Sambos <i>testparm</i> grąžino klaidą %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Sambos <i>testparm</i> grąžino klaidą %d"
 
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Neapavyko panaikinti %s kelio bendrinio: kelias nebendrinamas"
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr ""
+msgstr "Nepavyko pakeisti esamo bendrinio kelio; pirmiau pašalinkite seną bendrinį ir tada pridėkite naują"

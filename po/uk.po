@@ -3,17 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Koljan1970 <Stuartlittle1970@gmail.com>, 2013
-# Koljan1970 <Stuartlittle1970@gmail.com>, 2013
-# Oleh Tsyupka <aalesshhkka@gmail.com>, 2014
-# Koljan1970 <Stuartlittle1970@gmail.com>, 2014
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2013
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2013
+# Oleh <aalesshhkka@gmail.com>, 2014
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-02-03 19:07+0000\n"
-"Last-Translator: Koljan1970 <Stuartlittle1970@gmail.com>\n"
+"PO-Revision-Date: 2014-10-11 16:53+0000\n"
+"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,7 @@ msgstr "З_міна розміру зображень..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Змінити розмір кожного обраного малюнка"
+msgstr "Змінити розмір кожного обраного малюнку"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
@@ -170,7 +170,7 @@ msgstr "Обертати малюнки"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Обертання малюнка</b>"
+msgstr "<b>Обертання малюнку</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
@@ -178,7 +178,7 @@ msgstr "Обрати кут:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Задати кут:"
+msgstr "Вказати кут:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
@@ -283,7 +283,7 @@ msgstr "_Надіслати"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Ціль</b>"
+msgstr "<b>Мета</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
@@ -519,4 +519,4 @@ msgstr "Не вдається вилучити оголошення шляху %
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Не вдається змінити шлях існуючого оголошення; будь ласкаа, вилучіть спочатку старе оголошення й потім створіть нове"
+msgstr "Не вдається змінити шлях існуючого оголошення; будь ласка, вилучіть спочатку старе оголошення й потім створіть нове"

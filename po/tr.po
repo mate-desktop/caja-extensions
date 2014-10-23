@@ -3,14 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Atilla Öntaş <tarakbumba@gmail.com>, 2014
+# mauron, 2013
 # mauron, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2013-10-18 15:13+0200\n"
-"PO-Revision-Date: 2013-10-20 10:05+0000\n"
-"Last-Translator: mauron\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-31 09:52+0100\n"
+"PO-Revision-Date: 2014-05-26 20:46+0000\n"
+"Last-Translator: Atilla Öntaş <tarakbumba@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/MATE/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -210,12 +212,12 @@ msgstr "_Uçbirimde aç"
 
 #: ../open-terminal/caja-open-terminal.c:425
 msgid "Open the currently selected folder in a terminal"
-msgstr "Şu anda seçili olan klasörü uçbirimde aç"
+msgstr "Şu anda seçili olan dizini uçbirimde aç"
 
 #: ../open-terminal/caja-open-terminal.c:427
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open the currently open folder in a terminal"
-msgstr "Şu anda açılmış olan klasörü uçbirimde aç"
+msgstr "Şu anda açılmış olan dizini uçbirimde aç"
 
 #: ../open-terminal/caja-open-terminal.c:433
 msgid "Open _Terminal"
@@ -229,7 +231,7 @@ msgstr "Terminal aç"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Masaüstünde bir uçbirim açmanın ev klasöründe bir terminal açıp açmadığı"
+msgstr "Masaüstünde bir uçbirim açmanın ev dizininde bir terminal açıp açmadığı"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -237,7 +239,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Doğru olarak ayarlanırsa, masa üstünde bir uçbirim açılması ev klasöründe bir terminal açacaktır. Aksi takdirde terminal masa üstü klasöründe açılacaktır. Masa üstü klasörü ile ev klasörüyle aynı olması durumunda bu anahtarın gereksiz olacağını unutmayınız."
+msgstr "Doğru olarak ayarlanırsa, masa üstünde bir uçbirim açılması ev dizininde bir terminal açacaktır. Aksi takdirde terminal masa üstü dizininde açılacaktır. Masa üstü dizini ile ev diziniyle aynı olması durumunda bu anahtarın gereksiz olacağını unutmayınız."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
@@ -355,14 +357,14 @@ msgstr "UPnP ortam sunucusu"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Paylaşabilmek için Caja'nın \"%s\" klasörünüze bazı izinler eklemesi gerekiyor"
+msgstr "Paylaşabilmek için Caja'nın \"%s\" dizininize bazı izinler eklemesi gerekiyor"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Paylaşımın çalışabilmesi için \"%s\" klasörünün aşağıdaki izinlere ihtiyacı vardır:\n%s%s%s Caja'nın bu izinleri klasöre otomatik olarak eklemesini istiyor musunuz?"
+msgstr "Paylaşımın çalışabilmesi için \"%s\" dizininin aşağıdaki izinlere ihtiyacı vardır:\n%s%s%s Caja'nın bu izinleri dizine otomatik olarak eklemesini istiyor musunuz?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
@@ -383,7 +385,7 @@ msgstr "İzinleri otomatik olarak ekle"
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "\"%s\" klasörünün izinleri değiştirilemedi"
+msgstr "\"%s\" dizininin izinleri değiştirilemedi"
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
@@ -422,7 +424,7 @@ msgstr "Paylaşım"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Klasör paylaşımı"
+msgstr "Dizin paylaşımı"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
@@ -430,11 +432,11 @@ msgstr "Paylaşma seçenekleri"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
-msgstr "Bu klasörü paylaş"
+msgstr "Bu dizini paylaş"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Klasör paylaşımı</b></big>"
+msgstr "<big><b>Dizin paylaşımı</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
@@ -442,7 +444,7 @@ msgstr "Paylaşım _ismi:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Bu klas_örü paylaş"
+msgstr "Bu dizi_ni paylaş"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
@@ -450,68 +452,68 @@ msgstr "Yoru_m"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "Başkalarının bu klasörde dosya oluşturup silmelerine _izin ver"
+msgstr "Başkalarının bu dizinde dosya oluşturup silmelerine _izin ver"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
 msgstr "_Misafir erişimi (hesabı olmayan kullanıcılar için)"
 
-#: ../share/shares.c:125
+#: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s, %d sinyali ile geri geldi"
 
-#: ../share/shares.c:134
+#: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s bilinmeyen bir nedenle başarısız oldu"
 
-#: ../share/shares.c:154
+#: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' %d hatası gönderdi: %s"
 
-#: ../share/shares.c:156
+#: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' %d hatası gönderdi"
 
-#: ../share/shares.c:187
+#: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "'net usershare' çıktısı geçerli UTF-8 değil"
 
-#: ../share/shares.c:442 ../share/shares.c:616
+#: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
 msgstr "Başarısız"
 
-#: ../share/shares.c:550
+#: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba'nın testparm'ı %d sinyali ile geri geldi"
 
-#: ../share/shares.c:556
+#: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba'nın testparm'ı bilinmeyen bir nedenle başarısız oldu"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba'nın testparm'ı %d hatası gönderdi: %s"
 
-#: ../share/shares.c:573
+#: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba'nın tesparm'ı %d hatası gönderdi"
 
-#: ../share/shares.c:684
+#: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "%s yolu için paylaşım izni kaldırılamaz: bu yol paylaşılmamaktadır"
 
-#: ../share/shares.c:730
+#: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "

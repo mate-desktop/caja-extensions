@@ -5,16 +5,17 @@
 # Translators:
 # Almin <GermannenMarkus@googlemail.com>, 2013
 # kæde <amborsdorfer@gmail.com>, 2014
+# Julian Rüger <jr98@gmx.net>, 2014
 # bambuhle <politik@philippoi.de>, 2014
-# to_ba, 2013
-# to_ba, 2013-2014
+# Tobias Bannert, 2013
+# Tobias Bannert, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-04-20 13:16+0000\n"
-"Last-Translator: to_ba\n"
+"PO-Revision-Date: 2014-09-24 15:38+0000\n"
+"Last-Translator: Tobias Bannert\n"
 "Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +36,7 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Konnte Programm zum Ausführen nicht ermitteln.</b></big>\n\nDer selektierte Eintrag kann nicht mir Administratoren-Rechte geöffnet werden da die entsprechende Applikation nicht ermittelt werden konnte."
+msgstr "<big><b>Programm zum Ausführen konnte nicht ermittelt werden.</b></big>\n\nDer gewählte Eintrag kann nicht mit Administrator-Rechten geöffnet werden, da die entsprechende Anwendung nicht ermittelt werden konnte."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -268,7 +269,7 @@ msgstr "URLs oder Dateinamen sollten als Optionen gesetzt werden\n"
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Eingabe-Optionen konnten nicht eingelesen werden: %s\n"
+msgstr "Befehlszeilenoptionen konnten nicht eingelesen werden: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
@@ -308,7 +309,7 @@ msgstr "E-Mail"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
-msgstr "Datei kann nicht gesendet werden."
+msgstr "Datei kann nicht gesendet werden"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
@@ -359,7 +360,7 @@ msgstr "UPnP-Media-Server"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja muss dem Ordner \"%s\" einige Zugriffsrechte hinzufügen um ihn zu teilen."
+msgstr "Caja muss dem Ordner »%s« einige Zugriffsrechte hinzufügen, um ihn zu freizugeben."
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
@@ -382,25 +383,25 @@ msgstr "- Ausführungsberechtigung für Andere\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Ergänze die Berechtigungen automatisch"
+msgstr "Berechtigungen automatisch ergänzen"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Die Zugriffsrechte von folgendem Ordner nicht geändert werden: %s"
+msgstr "Die Zugriffsrechte von folgendem Ordner konnten nicht geändert werden: %s"
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr "Teilungsname ist zu lang"
+msgstr "Freigabename ist zu lang"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Der Teilungsname kann nicht leer sein"
+msgstr "Der Freigabename darf nicht leer sein"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Fehler beim Erhalten der Teilungsinformation: %s"
+msgstr "Fehler beim Holen der Freigabeinformationen: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
@@ -513,11 +514,11 @@ msgstr "Sambas testparm ist fehlgeschlagen, Fehler %d"
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Kann die Freigabe für Pfad %s nicht entfernen: Der Pfad ist nicht freigegeben"
+msgstr "Fehler beim Entfernen der Freigabe für Pfad %s: Der Pfad ist nicht freigegeben"
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Der Pfad der existierenden Freigabe kann nicht verändert werden. Bitte entfernen Sie die alte Freigabe und erstellen Sie eine neue"
+msgstr "Der Pfad der vorhandenen Freigabe kann nicht geändert werden. Bitte entfernen Sie die alte Freigabe und erstellen Sie eine neue"

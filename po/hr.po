@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2013-12-13 10:22+0000\n"
-"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
+"PO-Revision-Date: 2014-06-05 08:55+0000\n"
+"Last-Translator: Mislav E. Lukšić <meluksic@yahoo.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Otvori kao administrator"
+msgstr "Otvori kao upravitelj"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
@@ -31,27 +31,27 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr ""
+msgstr "<big><b>Nije moguće odrediti program za pokretanje.</b></big>\n\nOdabrana stavka ne može biti otvorena s upraviteljskim ovlastima jer ne može biti određen ispravni program."
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Promjeni veličnu slika..."
+msgstr "_Promijeni veličinu slika..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Promjeni veličinu svake odabrane slike"
+msgstr "Promijeni veličinu svake odabrane slike"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ro_tiraj slike..."
+msgstr "Za_okreni slike..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Rotiraj svaku odabranu sliku"
+msgstr "Zaokreni svaku odabranu sliku"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Promjeni veličinu slika"
+msgstr "Promijeni veličinu slika"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
@@ -87,7 +87,7 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "piksela"
+msgstr "slikovnih točaka"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -103,7 +103,7 @@ msgstr "Prilagođena veličina:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Dužina:"
+msgstr "Širina:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
@@ -112,29 +112,29 @@ msgstr "Visina:"
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Ime datoteke</b>"
+msgstr "<b>Datotečno ime</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Pridodaj"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".resized"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "do naslova datoteke"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Promijeni veličinu na mjestu"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Promjeni veličinu"
+msgstr "_Promijeni veličinu"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
@@ -149,29 +149,29 @@ msgstr "_Pokušaj ponovno"
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Mjenjam veličinu slike: %d od %d"
+msgstr "Mijenja se veličina slike: %d od %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Mjenjam veličinu \"%s\"</i>"
+msgstr "<i>Mijenja se veličina \"%s\"</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Molim unesi ispravni dometak datotečnog imena!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Rotiraj slike"
+msgstr "Zaokreni slike"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotacija slike</b>"
+msgstr "<b>Zaokretanje slike</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Odaberite kut:"
+msgstr "Odaberi kut:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
@@ -179,29 +179,29 @@ msgstr "Prilagođeni kut:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "stupnjeva u smjeru kazaljke na satu"
+msgstr "stupnjeva u smjeru satne kazaljke"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr ".rotated"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "Zaokreni na mjestu"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Rotiraj"
+msgstr "_Zaokreni"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Rotiranje slike: %d od %d"
+msgstr "Zaokreće se slika: %d od %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Rotiranje \"%s\"</i>"
+msgstr "<i>Zaokreće se \"%s\"</i>"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
@@ -229,7 +229,7 @@ msgstr "Otvori terminal"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Otvara li otvaranje terminala na radnoj površini i terminal u osobnom direktoriju"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -237,7 +237,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr ""
+msgstr "Ako je postavljeno za istinito, tada će otvaranje terminala na radnoj površini otvoriti terminal u osobnom direktoriju. Inače, bit će otvoren u direktoriju radne površine. Imaj na umu da je ovaj ključ nevažan ako je direktorij radne površine istovjetan osobnom direktoriju."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 #: ../sendto/caja-sendto.ui.h:1
@@ -246,11 +246,11 @@ msgstr "Pošalji na..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "Pošalji datoteku e-poštom, trenutačnom porukom..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "Pošalji datoteke e-poštom, trenutačnom porukom..."
 
 #: ../sendto/caja-sendto-command.c:576
 msgid "Files"
@@ -259,20 +259,20 @@ msgstr "Datoteke"
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "Očekuje da URI-ji ili datotečna imena budu pruženi kao mogućnosti\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "Nije bilo moguće raščlaniti mogućnosti naredbenog retka: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
-msgstr "Ne mogu učitati nijedan priključak."
+msgstr "Nije bilo moguće učitati nijedan priključak."
 
 #: ../sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr "Molim ovjerite svoju instalaciju"
+msgstr "Molim ovjeri svoju ugradnju"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -288,19 +288,19 @@ msgstr "Pošalji _kao:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr ""
+msgstr "Pošalji n_a:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Kompresija</b>"
+msgstr "<b>Sažimanje</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "Pošalji _upakirano u:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Email"
+msgstr "E-pošta"
 
 #: ../sendto/plugins/gajim/gajim.c:417
 msgid "Unable to send file"
@@ -308,7 +308,7 @@ msgstr "Nije moguće poslati datoteku"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Ne postoji veza s udaljenim gajim servisom."
+msgstr "Ne postoji veza do udaljene usluge Gajima."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
@@ -355,66 +355,66 @@ msgstr "UPnP medijski poslužitelj"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja mora dodati neke dozvole vašoj mapi \"%s\" da bi je djelila"
+msgstr "Caja mora dodati neka dopuštenja tvojoj mapi \"%s\" kako bi je dijelila"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "Mapa \"%s\" treba sljedeća dodatna dopuštenja kako bi dijeljenje djelovalo:\n%s%s%s Želiš li da Caja samostalno doda ta dopuštenja u mapu?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "  - učitaj dopuštenje drugih\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - upiši dopuštenje drugih\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - izvrši dopuštenje drugih\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Dodaj dozvole automatski"
+msgstr "Samostalno dodaj dopuštenja"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Ne mogu promjeniti dozvole mape \"%s\""
+msgstr "Nije bilo moguće promijeniti dopuštenja mape \"%s\""
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
-msgstr ""
+msgstr "Naziv dijeljenja je predug"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "Naziv dijeljenja ne može biti prazan"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Neispravnost pri dobivanju obavijesti dijeljenja: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Još jedno dijeljenje ima isti naziv"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "Izmijeni _dijeljenje"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "Stvori _dijeljenje"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Pojavila se neispravnost pri dobivanju obavijesti o dijeljenju"
 
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
@@ -422,11 +422,11 @@ msgstr "Dijeli"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
-msgstr "Djeljenje mapa"
+msgstr "Dijeljenje mape"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Opcije djeljenja"
+msgstr "Mogućnosti dijeljenja"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
@@ -434,11 +434,11 @@ msgstr "Dijeli ovu mapu"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Djeljenje mapa</b></big>"
+msgstr "<big><b>Dijeljenje mape</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "Naziv _dijeljenja:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
@@ -446,40 +446,40 @@ msgstr "Dijeli ovu _mapu"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Ko_mentar:"
+msgstr "Na_pomena:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Dopusti drugima stvaranje i brisanje datoteka u ovoj mapi"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "_Gostujući pristup (za ljude bez korisničkog računa)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s vraćeno sa signalom %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s nije uspjelo iz nepoznatog razloga"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' vraća neispravnost %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' vraća neispravnost %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "izlaz za 'net usershare' nije u ispravnom UTF-8 kodiranju"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
@@ -489,31 +489,31 @@ msgstr "Nije uspjelo"
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Sambin testparm vraćen sa signalom %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Sambin testparm nije uspio zbog nepoznatog razloga"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Sambin testparm vratio je neispravnost %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Sambin testparm vratio je neispravnost %d"
 
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Nije moguće ukloniti dijeljenje za putanju %s: ta putanja nije dijeljena"
 
 #: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr ""
+msgstr "Nije moguće promijeniti putanju postojećeg dijeljenja; molim prije ukloni staro dijeljenje i dodaj novo"

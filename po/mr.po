@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# vaibhav.dlv <vaibhav.dlv@gmail.com>, 2014
+# Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-04-27 08:52+0000\n"
-"Last-Translator: vaibhav.dlv <vaibhav.dlv@gmail.com>\n"
+"PO-Revision-Date: 2014-06-23 17:56+0000\n"
+"Last-Translator: Vaibhav S Dalvi <vaibhav.dlv@gmail.com>\n"
 "Language-Team: Marathi (http://www.transifex.com/projects/p/MATE/language/mr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -355,26 +355,26 @@ msgstr "UPnP मिडीया सर्वर"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "फोल्डर \"%s\" शेअर करण्यासाठी Caja ला फोल्डरला परवानग्या द्याव्या लागत आहेत"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "फोल्डर \"%s\"ला शेअरिंग वापरण्यासाठी खालील ज्यादा परवानग्या पाहिजेत:\n%s%s%s Caja ने फोल्डरला या परवानग्या आपोआप द्यायच्या का?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "  - इतरांसाठी वाचन परवानगी\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - इतरांसाठी लिखाण परवानगी\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - इतरांसाठी आज्ञा चालवण्यास परवानगी\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
@@ -405,7 +405,7 @@ msgstr "समान नावाचा शेअर आधीच अस्त�
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "सहभाग बदला (_S):"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
@@ -434,7 +434,7 @@ msgstr "फोल्डर शेअर करा"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>फोल्डर सहभाग</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
@@ -450,36 +450,36 @@ msgstr "टिप्पणी (_m):"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "या संचयीकेमध्ये इतरांना फ़ाइल बनवू आणि नष्ट करण्यास परवानगी द्या (_A)"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "पाहुण्यांना प्रवेश ( वापरकर्ता खाते नसलेल्या लोकांसाठी ) (_G)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s, %d खुणेबरोबर परत आलेले आहे"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s अनाहूत कारणामुळे अपयशी झालेले आहे"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' मध्ये चूक  झाली %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' मध्ये चूक  झाली %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "'net usershare' चा आउटपुट अवैध UTF-8 एन्कोडिंग आहे"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
@@ -489,7 +489,7 @@ msgstr "अपयशी"
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Samba चे testparm %d खुणेबरोबर परत आले"
 
 #: ../share/shares.c:554
 #, c-format

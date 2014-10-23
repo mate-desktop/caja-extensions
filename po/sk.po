@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2014
-# Michelozzo <michalslovak2@hotmail.com>, 2013
-# Michelozzo <michalslovak2@hotmail.com>, 2013
-# tibbi <tibbbi2@gmail.com>, 2014
+# Michal Slovák <michalslovak2@hotmail.com>, 2013
+# Michal Slovák <michalslovak2@hotmail.com>, 2013
+# Tibor Kaputa <tibbbi2@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-02-20 23:51+0000\n"
+"PO-Revision-Date: 2014-05-14 18:49+0000\n"
 "Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -262,12 +262,12 @@ msgstr "Súbory"
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Ako voľby sú očakávané URI alebo názvy súborov\n"
+msgstr "Ako možnosti sú očakávané URI alebo názvy súborov\n"
 
 #: ../sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Nepodarilo sa analyzovať voľby príkazového riadka: %s\n"
+msgstr "Nepodarilo sa analyzovať možnosti príkazového riadka: %s\n"
 
 #: ../sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
