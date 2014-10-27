@@ -78,5 +78,10 @@ gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 
 man_MANS = caja-sendto.1
 
+extensiondir = $(datadir)/caja/extensions
+extension_in_files = libcaja-sendto.caja-extension.in
+extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
+%.caja-extension: %.caja-extension.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(AM_V_GEN) LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)/po/.intltool-merge-cache $(top_srcdir)/po $< $@
+
 EXTRA_DIST = $(ui_DATA) $(man_MANS) caja-sendto.pc.in $(convert_DATA) $(gsettingsschema_in_files)
 CLEANFILES = $(nst_built_headers) $(nst_built_cfiles) $(gsettings_SCHEMAS)
