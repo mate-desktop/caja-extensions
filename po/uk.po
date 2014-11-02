@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-10-11 16:53+0000\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 18:20+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -35,6 +35,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Неможливо визначити проґраму для запуску.</b></big>\n\nОбраний Вами предмет неможливо відкрити з правами адміністратора через те, що коректний застосунок не визначено."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr "Gksu"
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr "Розширення для підвищення привілеїв"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -206,6 +214,14 @@ msgstr "Обертання зображення: %d з %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Обертання «%s»</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr "Конвертація зображень"
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr "Обертати і змінювати розмір зображень"
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -227,6 +243,14 @@ msgstr "Відкрити _термінал"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Відкрити термінал"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr "Відкрити термінал"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr "Відкрити термінали з тек"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -264,18 +288,26 @@ msgstr "Файли"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Очікується, що URI або назви файлів будуть передані як параметри\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Не вдається розібрати параметри командного рядка: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Не вдається завантажити модулі."
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Перевірте коректність встановлення"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr "Надіслати до"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr "Інтегрує поштові клієнти і Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -353,6 +385,15 @@ msgstr "Змінні диски та теки спільного доступу"
 msgid "UPnP Media Server"
 msgstr "Медія-сервер UPnP"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Оприлюднити"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr "Дозволяє швидко оголосити теку"
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -418,10 +459,6 @@ msgstr "Створити _оголошення"
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Відбулася помилка при отриманні публічної інформації"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Оприлюднити"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"

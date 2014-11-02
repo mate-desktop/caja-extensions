@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# BALLOON a.k.a. Fu-sen., 2014
 # shinmili <rmsk.pl.ur.lpt@gmail.com>, 2014
 # shinmili <rmsk.pl.ur.lpt@gmail.com>, 2014
 # Yuki Shira <shirayuking@gmail.com>, 2013
@@ -10,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-09-21 01:07+0000\n"
-"Last-Translator: AWASHIRO Ikuya <ikunya@gmail.com>\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 23:50+0000\n"
+"Last-Translator: BALLOON a.k.a. Fu-sen.\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/MATE/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +35,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>実行するプログラムを決定できません。</b></big>\n\n適切なアプリケーションを決定できないので、選んだファイルを管理者権限で開くことはできません。"
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr "Gksu"
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -205,6 +214,14 @@ msgstr "画像の回転中: %d / %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>\"%s\" の回転中</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr "画像コンバーター"
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr "画像の回転・サイズ変更"
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -226,6 +243,14 @@ msgstr "端末を開く(_T)"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "端末を開きます"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr "ターミナルを開く"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr "フォルダからターミナルを開く"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -263,18 +288,26 @@ msgstr "ファイル"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "オプションとして URI または ファイル名を指定してください\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "コマンドライン・オプションを解析できませんでした: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "プラグインを読み込めませんでした"
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "インストールを確認してください"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr "送る"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr "メールクライアント・Pidginに統合"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -352,6 +385,15 @@ msgstr "リムーバブル・ディスクと共有"
 msgid "UPnP Media Server"
 msgstr "UPnP メディア・サーバ"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "共有"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr "フォルダのクイック共有を有効"
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -417,10 +459,6 @@ msgstr "共有を作成(_S)"
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "共有情報の取得中にエラーが発生しました"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "共有"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"

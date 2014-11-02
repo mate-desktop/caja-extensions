@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Wei-Lun Chao <bluebat@member.fsf.org>, 2013
+# 趙惟倫 <bluebat@member.fsf.org>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2013-11-22 06:10+0000\n"
-"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 14:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Chinese (Mandarin) (http://www.transifex.com/projects/p/MATE/language/cmn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>無法決定要運行的程式。</b></big>\n\n您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr ""
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -203,6 +211,14 @@ msgstr "旋轉圖像：%2$d 中的 %1$d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>正在旋轉「%s」</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr ""
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr ""
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -224,6 +240,14 @@ msgstr "開啟終端機(_T)"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "開啟一個終端機視窗"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr ""
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -261,18 +285,26 @@ msgstr "檔案"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "預期是 URIs 或檔名以做為傳遞選項\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "無法剖析命令列選項：%s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "無法載入任何外掛程式。"
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "請驗證您的安裝"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr ""
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -350,6 +382,15 @@ msgstr "抽取式磁碟與共享資料"
 msgid "UPnP Media Server"
 msgstr "UPnP 媒體伺服器"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "共享"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr ""
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -415,10 +456,6 @@ msgstr "建立共享(_S)"
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "提取共享資訊時出現了錯誤"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "共享"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"

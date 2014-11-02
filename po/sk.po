@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-05-14 18:49+0000\n"
-"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 14:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +35,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Nepodarilo sa rozhodnúť, ktorý program sa má spustiť.</b></big>\n\nPoložka, ktorú ste vybrali sa nedá spustiť s právami správcu, pretože sa nepodarilo určiť správny program."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr ""
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -206,6 +214,14 @@ msgstr "Otáča sa obrázok: %d z %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Otáča sa „%s“</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr ""
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr ""
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -227,6 +243,14 @@ msgstr "Otvoriť _terminál"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Otvoriť terminál"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr ""
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -264,18 +288,26 @@ msgstr "Súbory"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Ako možnosti sú očakávané URI alebo názvy súborov\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nepodarilo sa analyzovať možnosti príkazového riadka: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Nepodarilo sa načítať žiadne zásuvné moduly."
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Prosím, skontrolujte svoju inštaláciu"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr ""
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -353,6 +385,15 @@ msgstr "Odpojiteľné disky a zdieľania"
 msgid "UPnP Media Server"
 msgstr "UPnP server médií"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Zdieľať"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr ""
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -418,10 +459,6 @@ msgstr "Vytvoriť z_dieľanie"
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Nastala chyba počas zisťovania zdieľaných informácií"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Zdieľať"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"

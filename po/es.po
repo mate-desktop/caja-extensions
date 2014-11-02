@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2014
+# Adolfo Jayme Barrientos <fito@libreoffice.org>, 2014
 # Lluís Tusquellas <lutusq@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-02-16 17:40+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitoschido@ubuntu.com>\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 14:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,6 +33,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Imposible determinar el programa que ejecutar.</b></big>\n\nEl elemento que ha seleccionado no se puede abrir con privilegios de administrador debido a que la aplicación correcta no se puede determinar."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr ""
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -204,6 +212,14 @@ msgstr "Girar la imagen: %d de %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Girar \"%s\"</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr ""
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr ""
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -225,6 +241,14 @@ msgstr "Abrir _terminal"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Abrir un terminal"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr ""
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -262,18 +286,26 @@ msgstr "Archivos"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Espera que se pasen como opciones URI o nombres de archivo\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "No se pudieron analizar las opciones de la línea de órdenes: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "No se pudo cargar ningún complemento."
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Compruebe su instalación"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr ""
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -351,6 +383,15 @@ msgstr "Soportes extraíbles y comparticiones"
 msgid "UPnP Media Server"
 msgstr "Servidor multimedia UPnP"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Compartir"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr ""
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -416,10 +457,6 @@ msgstr "Crear_Compartición"
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Hubo un error mientras se recibía la información compartida"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Compartir"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"

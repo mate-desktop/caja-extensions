@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2013-10-18 15:13+0200\n"
-"PO-Revision-Date: 2013-10-26 05:44+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 14:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/MATE/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Tidak dapat menentukan program untuk dijalankan.</b></big>\n\nItem yang anda pilih tidak boleh dibuka dengan kuasa pentadbir kerana aplikasi yang betul tidak dapat ditentukan."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr ""
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -203,6 +211,14 @@ msgstr "Putarkan imej: %d dari %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Memutar \"%s\"</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr ""
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr ""
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -224,6 +240,14 @@ msgstr "Buka _Terminal"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Buka terminal"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr ""
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -261,18 +285,26 @@ msgstr "Fail"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Jangkakan URI atau nama fail yang dilulus sebagai pilihan \n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Tidak dapat hurai pilihan baris-perintah: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Tidak dapat muat mana-mana pemalam."
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Sila sahkan pemasangan anda"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr ""
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -350,6 +382,15 @@ msgstr "Cakera boleh tanggal dan perkongsian"
 msgid "UPnP Media Server"
 msgstr "Pelayan Media UPnP"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Kongsi"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr ""
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -416,10 +457,6 @@ msgstr "Cipta Pe_rkongsian"
 msgid "There was an error while getting the sharing information"
 msgstr "Terdapat ralat semasa mendapatkan maklumat perkongsian"
 
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Kongsi"
-
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
 msgstr "Perkongsian folder"
@@ -456,62 +493,62 @@ msgstr "_Benarkan orang lain cipta dan padam fail didalam folder ini"
 msgid "_Guest access (for people without a user account)"
 msgstr "Capaian _tetamu (untuk individu tanpa akaun pengguna)"
 
-#: ../share/shares.c:125
+#: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s dikembalikan dengan isyarat %d"
 
-#: ../share/shares.c:134
+#: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s gagal atas sebab tidak diketahui"
 
-#: ../share/shares.c:154
+#: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' kembalikan ralat %d: %s"
 
-#: ../share/shares.c:156
+#: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' kembalikan ralat %d"
 
-#: ../share/shares.c:187
+#: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "output 'net usershare' bukanlah pengekodan UTF-8 yang sah"
 
-#: ../share/shares.c:442 ../share/shares.c:616
+#: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
 msgstr "Gagal"
 
-#: ../share/shares.c:550
+#: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "testparm  Samba kembalikan dengan isyarat %d"
 
-#: ../share/shares.c:556
+#: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "testparm  Samba gagal atas sebab yang tidak diketahui"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "testparm  Samba kembalikan ralat %d: %s"
 
-#: ../share/shares.c:573
+#: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "testparm  Samba kembalikan ralat %d"
 
-#: ../share/shares.c:684
+#: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Tidak dapat buang perkongsian untuk laluan %s: laluan tersebut tidak boleh dikongsi"
 
-#: ../share/shares.c:730
+#: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "

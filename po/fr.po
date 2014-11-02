@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Scoubidou <david.vantyghem@free.fr>, 2014
-# Tubuntu <tubuntu@testimonium.be>, 2013
+# Tubuntu <tubuntu@testimonium.be>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-07-24 06:38+0000\n"
-"Last-Translator: Scoubidou <david.vantyghem@free.fr>\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-28 13:57+0000\n"
+"Last-Translator: Tubuntu <tubuntu@testimonium.be>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/MATE/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,6 +33,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Impossible de déterminer le programme à exécuter.</b></big>\n\nL'élément que vous avez sélectionné ne peut être ouvert avec les pouvoirs d'administrateur car l'application correcte ne peut être déterminée."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr "Gksu"
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr "Extension d'octroi de privilège"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -204,6 +212,14 @@ msgstr "Rotation de l'image: %d sur %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Rotation de \"%s\"</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr "Convertisseur d'images"
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr "Pivoter et redimensionner des images"
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -225,6 +241,14 @@ msgstr "Ouvrir le _terminal"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Ouvrir un terminal"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr "Ouvrir le terminal"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr "Ouvrir des terminaux à partir des répertoires"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -262,18 +286,26 @@ msgstr "Fichiers"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Les options attendues sont des URI ou des noms de fichiers\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Impossible d'analyser les options de la ligne de commande: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Impossible de charger un greffon."
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Veuillez contrôler votre installation"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr "Envoyer à"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr "Intègre les clients e-mails et Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -351,6 +383,15 @@ msgstr "Disques amovibles et partages"
 msgid "UPnP Media Server"
 msgstr "Serveur média UPnP"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Partage"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr "Permet de rapidement partager un répertoire"
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -416,10 +457,6 @@ msgstr "Créer un _partage"
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Une erreur s'est produite lors de la réception des informations de partage"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Partage"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"

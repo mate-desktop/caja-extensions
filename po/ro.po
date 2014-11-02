@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-03-04 20:15+0000\n"
-"Last-Translator: AntonieG <vastinar.antonie@gmail.com>\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 14:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/MATE/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Nu se poate determina programul pentru rulare.</b></big>\n\nElementul selectat nu poate fi deschis cu privilegii de administrator deoarece aplicatia corecta nu poate fi determinata."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr ""
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -203,6 +211,14 @@ msgstr "Rotesc imaginea: %d din %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Rotind \"%s\"</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr ""
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr ""
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -224,6 +240,14 @@ msgstr "Deschide _Terminal"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Deschide un terminal"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr ""
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -261,18 +285,26 @@ msgstr "Fisiere"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nu s-au putut parsa optiunile de consola: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Nu s-a putut incarca niciun plugin"
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Va rugam verificati instalarea"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr ""
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -350,6 +382,15 @@ msgstr "Partajări și discuri amovibile"
 msgid "UPnP Media Server"
 msgstr "Server media UPnP"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr ""
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr ""
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -414,10 +455,6 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
 msgstr ""
 
 #: ../share/mate-file-manager-share.c:1110

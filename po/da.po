@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Joe Hansen <joedalton2@yahoo.dk>, 2013
+# Joe Hansen <joedalton2@yahoo.dk>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2013-11-19 20:58+0000\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 15:04+0000\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish (http://www.transifex.com/projects/p/MATE/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +32,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Det er uklart, hvilket program der skal køres.</b></big>\n\nDet valgte emne kunne ikke åbnes med administratorrettigheder, fordi det ikke er klart, hvilket program der skal bruges til det."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr "Gksu"
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr "Udvidelse til privilegietildeling"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -203,6 +211,14 @@ msgstr "Roterer billede: %d af %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Roterer \"%s\"</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr "Billedkonverteringsprogram"
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr "Roter og ændr størrelse på billeder"
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -224,6 +240,14 @@ msgstr "Åbn _terminal"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Åbn en terminal"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr "Åbn terminal"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr "Åbn terminaler fra mapper"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -261,18 +285,26 @@ msgstr "Filer"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Forventer at URI'er eller filnavne videregives som tilvalg\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Kunne ikke fortolke kommandolinjetilvalg: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Kunne ikke indlæse nogen udvidelsesmoduler."
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Efterprøv venligst din installation"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr "Send til"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr "Integrerer e-postklienter og Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -350,6 +382,15 @@ msgstr "Flytbare diske og delinger"
 msgid "UPnP Media Server"
 msgstr "UPnP-medieserver"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Delt mappe"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr "Tillader hurtig deling af en mappe"
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -415,10 +456,6 @@ msgstr "Opret _deling"
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Der opstod en fejl under indhentning af delingsinformation"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Delt mappe"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"

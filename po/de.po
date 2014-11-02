@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-09-24 15:38+0000\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-28 18:30+0000\n"
 "Last-Translator: Tobias Bannert\n"
 "Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -38,17 +38,25 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Programm zum Ausführen konnte nicht ermittelt werden.</b></big>\n\nDer gewählte Eintrag kann nicht mit Administrator-Rechten geöffnet werden, da die entsprechende Anwendung nicht ermittelt werden konnte."
 
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr "Gksu"
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr "Berechtigung erteilende Erweiterung"
+
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "Bildgröße anpassen..."
+msgstr "Bild_größe ändern …"
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Jedes ausgewählte Bild anpassen"
+msgstr "Jedes ausgewählte Bild ändern"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Bilder drehen..."
+msgstr "Bilder _drehen …"
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
@@ -56,7 +64,7 @@ msgstr "Jedes ausgewählte Bild drehen"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Bildgröße anpassen"
+msgstr "Bildgröße ändern"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
@@ -64,7 +72,7 @@ msgstr "<b>Bildgröße</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Eine Größe wählen:"
+msgstr "Größe auswählen:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -154,17 +162,17 @@ msgstr "_Wiederholen"
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Bildgröße anpassen: %d von %d"
+msgstr "Bildgröße %d von %d wird geändert "
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Bildgröße anpassen \"%s\"</i>"
+msgstr "<i>Größe von »%s« wird geändert</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Bitte geben Sie eine gültige Dateiendung an!"
+msgstr "Bitte eine gültige Dateiendung eingeben!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
@@ -176,7 +184,7 @@ msgstr "<b>Bilder drehen</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Wählen Sie einen Winkel:"
+msgstr "Einen Winkel auswählen:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
@@ -201,12 +209,20 @@ msgstr "_Drehen"
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Drehe Bilder: %d von %d"
+msgstr "Bild %d von %d wird gefreht"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Drehe \"%s\"</i>"
+msgstr "<i>»%s« wird gedreht</i>"
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr "Bildwandler"
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr "Bilder drehen und die Größe ändern"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
@@ -229,6 +245,14 @@ msgstr "_Terminal Öffnen"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Ein Terminal öffnen"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr "Terminal öffnen"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr "Terminal aus Ordnern öffnen"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -264,20 +288,28 @@ msgstr "Dateien"
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "URLs oder Dateinamen sollten als Optionen gesetzt werden\n"
+msgstr "Adressen oder Dateinamen sollten als Optionen eingestellt werden\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Befehlszeilenoptionen konnten nicht eingelesen werden: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
-msgstr "Kein Plugin konnte geladen werden."
+msgstr "Erweiterungen konnte geladen werden."
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Bitte überprüfen Sie Ihre Installation"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr "Senden an"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr "Integriert E-Mail-Programme und Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -313,7 +345,7 @@ msgstr "Datei kann nicht gesendet werden"
 
 #: ../sendto/plugins/gajim/gajim.c:418
 msgid "There is no connection to gajim remote service."
-msgstr "Keine Verbindung zu Gajim Remote Service."
+msgstr "Keine Verbindung zum entfernten Dienst von Gajim."
 
 #: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
 msgid "Sending file failed"
@@ -353,7 +385,16 @@ msgstr "Entfernbare Medien und Freigaben"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "UPnP-Media-Server"
+msgstr "UPnP-Medienserver"
+
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Freigeben"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr "Erlaubt es schnell einen Ordner freizugeben"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
@@ -367,7 +408,7 @@ msgstr "Caja muss dem Ordner »%s« einige Zugriffsrechte hinzufügen, um ihn zu
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Der Ordner \"%s\" benötigt folgende zusätzliche Zugriffsrechte, damit er geteilt werden kann: %s%s%sMöchten Sie, dass Caja dem Ordner die Zugriffsrechte automatisch zuweist?"
+msgstr "Der Ordner »%s« benötigt folgende zusätzliche Zugriffsrechte, damit er freigegeben werden kann:\n%s%s%sMöchten Sie, dass Caja dem Ordner die Zugriffsrechte automatisch zuweist?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
@@ -405,25 +446,21 @@ msgstr "Fehler beim Holen der Freigabeinformationen: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr "Dieser Name ist bereits in Verwendung"
+msgstr "Eine andere Freigabe hat den selben Namen"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr "_Freigabe ändern"
+msgstr "Freigabe _ändern"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr "_Freigabe erstellen"
+msgstr "Freigabe _erstellen"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Beim Einlesen der Freigabeinformationen ist ein Fehler aufgetreten"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Weitergeben"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
@@ -443,48 +480,48 @@ msgstr "<big><b>Ordnerfreigabe</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "_name freigeben"
+msgstr "_Freigabename:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Diesen _Ordner freigeben"
+msgstr "_Diesen Ordner freigeben"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Ko_mmentar:"
+msgstr "_Kommentar:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "Anderen Benutzern erlauben, Dateien in diesem Ordner zu erstellen und zu löschen"
+msgstr "Anderen _Benutzern erlauben, Dateien in diesem Ordner zu erstellen und zu löschen"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "Gastzugriff (für Benutzer ohne Benutzerprofil)"
+msgstr "_Gastzugriff (für Benutzer ohne Benutzerprofil)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s meldet den Fehler %d"
+msgstr "%s %s %s meldet folgendes Signal %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr "%s %s %s ist aus unbekannten Gründen fehlgeschalgen"
+msgstr "%s %s %s ist aus unbekannten Gründen fehlgeschlagen"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "'net usershare' ist fehlgeschlagen, Fehler %d: %s"
+msgstr "»net usershare« meldet folgenden Fehler %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "'net usershare' ist fehlgeschlagen. Fehler %d"
+msgstr "»net usershare« meldet folgenden Fehler %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "Die Ausgabe von 'net usershare' ist nicht oder fehlerhaft UTF-8 kodiert"
+msgstr "Die Ausgabe von »net usershare« ist keine gültiges UTF-8-Kodierung"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
@@ -494,7 +531,7 @@ msgstr "Fehlgeschlagen"
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "Sambas testparm meldet den Fehler %d"
+msgstr "Sambas testparm meldet folgenden Fehler %d"
 
 #: ../share/shares.c:554
 #, c-format
@@ -504,12 +541,12 @@ msgstr "Sambas testparm ist aus unbekannten Gründen fehlgeschlagen"
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "Sambas testparm ist fehlgeschlagen, Fehler %d: %s"
+msgstr "Sambas testparm meldet folgenden Fehler %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "Sambas testparm ist fehlgeschlagen, Fehler %d"
+msgstr "Sambas testparm meldet folgenden Fehler %d"
 
 #: ../share/shares.c:682
 #, c-format

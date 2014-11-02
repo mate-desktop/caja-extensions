@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2013-10-18 15:13+0200\n"
-"PO-Revision-Date: 2013-10-23 12:59+0000\n"
-"Last-Translator: Michael Steenbeek <m.o.steenbeek@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 14:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/MATE/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Kan het te gebruiken programma niet bepalen.</b></big>\n\nHet door u geselecteerde item kan niet worden geopend met beheerdersrechten omdat het juiste programma ervoor niet kan worden bepaald."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr ""
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -203,6 +211,14 @@ msgstr "Bezig met draaien van afbeeldingen %d van %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Bezig met draaien van \"%s\"</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr ""
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr ""
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -224,6 +240,14 @@ msgstr "_Terminal openen"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Een terminal openen"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr ""
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -261,18 +285,26 @@ msgstr "Bestanden"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Verwacht dat URI's of bestandsnamen worden meegegeven als opties\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Kon de volgende opdrachtregelinstructies niet verwerken: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Kon geen plug-ins laden"
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Controleer uw installatie"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr ""
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -350,6 +382,15 @@ msgstr "Verwisselbare en gedeelde schijven"
 msgid "UPnP Media Server"
 msgstr "UPnP-mediaserver"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Gedeelde map"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr ""
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -416,10 +457,6 @@ msgstr "Gedeelde map aanmaken"
 msgid "There was an error while getting the sharing information"
 msgstr "Er is een fout opgetreden bij het ophalen van informatie over de gedeelde map."
 
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Gedeelde map"
-
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
 msgstr "Delen van mappen"
@@ -456,62 +493,62 @@ msgstr "_Anderen toestaan bestanden toe te voegen en te verwijderen in deze map"
 msgid "_Guest access (for people without a user account)"
 msgstr "_Gasttoegang (voor mensen zonder gebruikersaccount)"
 
-#: ../share/shares.c:125
+#: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s gaf het signaal %d terug"
 
-#: ../share/shares.c:134
+#: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s mislukte om een onbekende reden"
 
-#: ../share/shares.c:154
+#: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' gaf de volgende foutmelding terug: %d: %s"
 
-#: ../share/shares.c:156
+#: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' gaf de volgende foutmelding terug: %d"
 
-#: ../share/shares.c:187
+#: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "De uitvoer van 'net usershare' is geen geldige UTF-8"
 
-#: ../share/shares.c:442 ../share/shares.c:616
+#: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
 msgstr "Mislukt"
 
-#: ../share/shares.c:550
+#: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba's testparm gaf het signaal %d terug"
 
-#: ../share/shares.c:556
+#: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba's testparm mislukt om een onbekende reden"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba's testparm gaf de volgende foutmelding terug: %d: %s"
 
-#: ../share/shares.c:573
+#: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba's testparm gaf de volgende foutmelding terug: %d"
 
-#: ../share/shares.c:684
+#: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Kan de gedeelde map van het pad %s niet verwijderen: het  pad is niet gedeeld"
 
-#: ../share/shares.c:730
+#: ../share/shares.c:728
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "

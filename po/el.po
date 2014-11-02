@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-31 09:52+0100\n"
-"PO-Revision-Date: 2014-02-18 18:26+0000\n"
-"Last-Translator: thunk <thunk77@gmail.com>\n"
+"POT-Creation-Date: 2014-10-27 15:46+0100\n"
+"PO-Revision-Date: 2014-10-27 14:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +34,14 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Αδύνατος ο προσδιορισμός του προγράμματος που πρέπει να εκτελεστεί.</b></big>\n\nΤο αντικείμενο που επιλέξατε δεν μπορεί να ανοιχτεί με δικαιώματα διαχειριστή, διότι δεν μπόρεσε να προσδιοριστεί η σωστή  εφαρμογή για το άνοιγμα."
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+msgid "Gksu"
+msgstr ""
+
+#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+msgid "Privilege granting extension"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -205,6 +213,14 @@ msgstr "Περιστροφή εικόνας: %d από %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Περιστροφή \"%s\"</i>"
 
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+msgid "Image Converter"
+msgstr ""
+
+#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+msgid "Rotate and resize images"
+msgstr ""
+
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open In _Terminal"
@@ -226,6 +242,14 @@ msgstr "Άνοιγμα _τερματικού"
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open a terminal"
 msgstr "Άνοιγμα ενός τερματικού"
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+msgid "Open terminal"
+msgstr ""
+
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+msgid "Open terminals from folders"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -263,18 +287,26 @@ msgstr "Αρχεία"
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Αναμένει URIs ή ονόματα αρχείων ως επιλογές\n"
 
-#: ../sendto/caja-sendto-command.c:809
+#: ../sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Δεν μπορούν να αναλυθούν οι επιλογές γραμμής εντολών: %s\n"
 
-#: ../sendto/caja-sendto-command.c:824
+#: ../sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Δεν είναι δυνατή η φόρτωση των προσθέτων."
 
-#: ../sendto/caja-sendto-command.c:827
+#: ../sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Παρακαλώ ελέγξτε την εγκατάσταση σας"
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+msgid "Send To"
+msgstr ""
+
+#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+msgid "Integrates email clients and Pidgin"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -352,6 +384,15 @@ msgstr "Αφαιρούμενοι δίσκοι και κοινόχρηστοι φ
 msgid "UPnP Media Server"
 msgstr "Εξυπηρετητής πολυμέσων UPnP"
 
+#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/mate-file-manager-share.c:1050
+msgid "Share"
+msgstr "Κοινή χρήση"
+
+#: ../share/libcaja-share.caja-extension.in.h:2
+msgid "Allows to quickly share a folder"
+msgstr ""
+
 #: ../share/mate-file-manager-share.c:123
 #, c-format
 msgid ""
@@ -417,10 +458,6 @@ msgstr "Δημιουργία_Κοινόχρηστου Φακέλου"
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Παρουσιάστηκε σφάλμα κατά τη λήψη πληροφοριών διαμοιρασμού"
-
-#: ../share/mate-file-manager-share.c:1050
-msgid "Share"
-msgstr "Κοινή χρήση"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
