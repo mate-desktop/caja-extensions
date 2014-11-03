@@ -323,9 +323,13 @@ AM_GLIB_GNU_GETTEXT
 
 AC_OUTPUT([
   Makefile 
+  gksu/libcaja-gksu.caja-extension.in
   gksu/Makefile
+  image-converter/libcaja-image-converter.caja-extension.in
   image-converter/Makefile
+  open-terminal/libcaja-open-terminal.caja-extension.in
   open-terminal/Makefile
+  sendto/libcaja-sendto.caja-extension.in
   sendto/Makefile
   sendto/caja-sendto.pc
   sendto/docs/Makefile
@@ -337,7 +341,9 @@ AC_OUTPUT([
   sendto/plugins/pidgin/Makefile
   sendto/plugins/removable-devices/Makefile
   sendto/plugins/upnp/Makefile
+  share/libcaja-share.caja-extension.in
   share/Makefile
+  wallpaper/libcaja-wallpaper.caja-extension.in
   wallpaper/Makefile
   po/Makefile.in 
 ])
