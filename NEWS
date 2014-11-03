@@ -1,3 +1,7 @@
+1.9.1
+
+  * wallpaper: Added new 'Set as wallpaper' extension
+
 1.9.0
 
   * sendto: re-introduce the option to select plugins to build
