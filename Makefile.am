@@ -25,6 +25,10 @@ if ENABLE_SHARE
 SUBDIRS += share
 endif
 
+if ENABLE_WALLPAPER
+SUBDIRS += wallpaper
+endif
+
 EXTRA_DIST = \
 	autogen.sh \
 	intltool-extract.in \

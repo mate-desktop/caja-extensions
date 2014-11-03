@@ -295,6 +295,14 @@ AC_ARG_ENABLE([gksu],
 
 AM_CONDITIONAL(ENABLE_GKSU, test x"$enable_gksu" = "xyes")
 
+# gksu extenstion
+AC_ARG_ENABLE([wallpaper],
+        AS_HELP_STRING([--enable-wallpaper], [Enable set as wallpaper plugin]),
+        [enable_wallpaper=$enableval],
+        [enable_wallpaper=yes])
+
+AM_CONDITIONAL(ENABLE_WALLPAPER, test x"$enable_wallpaper" = "xyes")
+
 # Get caja extensions directory
 AC_ARG_WITH(cajadir,
     AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Caja extension @<:@auto@:>@]),
@@ -330,6 +338,7 @@ AC_OUTPUT([
   sendto/plugins/removable-devices/Makefile
   sendto/plugins/upnp/Makefile
   share/Makefile
+  wallpaper/Makefile
   po/Makefile.in 
 ])
 
@@ -346,4 +355,5 @@ Plugins to be build:
         Sendto:                 $enable_sendto
         Share:                  $enable_share
         Gksu:                   $enable_gksu
+        Wallpaper:              $enable_wallpaper
 "

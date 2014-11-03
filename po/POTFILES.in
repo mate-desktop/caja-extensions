@@ -28,3 +28,5 @@ sendto/plugins/upnp/upnp.c
 share/mate-file-manager-share.c
 [type: gettext/glade]share/share-dialog.ui
 share/shares.c
+wallpaper/caja-wallpaper-extension.c
+[type: gettext/ini]wallpaper/libcaja-wallpaper.caja-extension.in
