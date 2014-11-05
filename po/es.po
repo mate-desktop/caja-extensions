@@ -4,14 +4,15 @@
 # 
 # Translators:
 # Adolfo Jayme Barrientos <fito@libreoffice.org>, 2014
+# Andres Sanchez <blackatze93@gmail.com>, 2014
 # Lluís Tusquellas <lutusq@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-10-27 14:48+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-11-02 20:21+0000\n"
+"Last-Translator: Andres Sanchez <blackatze93@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +37,7 @@ msgstr "<big><b>Imposible determinar el programa que ejecutar.</b></big>\n\nEl e
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:2
 msgid "Privilege granting extension"
@@ -214,11 +215,11 @@ msgstr "<i>Girar \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "Conversor de Imágen"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "Rotar y redimensionar imágenes"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
@@ -244,7 +245,7 @@ msgstr "Abrir un terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
 msgid "Open terminal"
-msgstr ""
+msgstr "Abrir terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
 msgid "Open terminals from folders"
@@ -301,7 +302,7 @@ msgstr "Compruebe su instalación"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "Enviar a"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:2
 msgid "Integrates email clients and Pidgin"
