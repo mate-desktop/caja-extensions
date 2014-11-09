@@ -386,16 +386,18 @@ static void
 show_error (const gchar *title, const gchar *message)
 {
 	GtkWidget *dialog;
-	
+
 	dialog = gtk_message_dialog_new_with_markup(NULL,
 								GTK_DIALOG_DESTROY_WITH_PARENT,
 								GTK_MESSAGE_ERROR,
 								GTK_BUTTONS_CLOSE, NULL);
-	gtk_message_dialog_set_markup (GTK_MESSAGE_DIALOG (dialog),
-                                g_markup_printf_escaped("<b>%s</b>\n\n%s", title, message));
+
+	gchar *msg = g_markup_printf_escaped("<b>%s</b>\n\n%s", title, message);
+	gtk_message_dialog_set_markup (GTK_MESSAGE_DIALOG (dialog), msg);
+	g_free (msg);
+
 	gtk_dialog_run (GTK_DIALOG (dialog));
-    gtk_widget_destroy (dialog);
-	
+	gtk_widget_destroy (dialog);
 }
 
 static gboolean
