@@ -225,6 +225,7 @@ pack_files (NS_ui *ui)
 			 engrampa_cmd, tmp_work_dir,
 			 filename,
 			 pack_type);
+	g_free (engrampa_cmd);
 
 	/* engrampa doesn't understand URIs */
 	for (l = file_list ; l; l=l->next){
@@ -241,6 +242,7 @@ pack_files (NS_ui *ui)
 	g_string_printf (tmp,"%s/%s%s", tmp_work_dir,
 			 filename,
 			 pack_type);
+	g_free (pack_type);
 	g_free (tmp_work_dir);
 	packed_file = g_filename_to_uri (tmp->str, NULL, NULL);
 	g_string_free(tmp, TRUE);
