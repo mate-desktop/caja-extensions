@@ -371,7 +371,6 @@ static
 gboolean send_files (NstPlugin *plugin, GtkWidget *contact_widget,
 		     GList *file_list)
 {
-	GError *error;
 	GList *file_iter;
 
 	GFile *file;
@@ -387,7 +386,7 @@ gboolean send_files (NstPlugin *plugin, GtkWidget *contact_widget,
 	GValue val = {0,};
 
 
-	if(proxy == NULL)
+	if (proxy == NULL)
 		return FALSE;
 
 	gtk_combo_box_get_active_iter (GTK_COMBO_BOX (contact_widget), &iter);
@@ -403,25 +402,24 @@ gboolean send_files (NstPlugin *plugin, GtkWidget *contact_widget,
 	alias = g_value_get_string (&val);
 	contacts_group = g_hash_table_lookup (contact_hash, alias);
 	g_value_unset (&val);
-	dat = g_ptr_array_index (contacts_group, (depth == 2)?indices[1]:0);
+	dat = g_ptr_array_index (contacts_group, (depth == 2) ? indices[1] : 0);
 
-	for(file_iter = file_list; file_iter != NULL;
+	for (file_iter = file_list; file_iter != NULL;
 	    file_iter = g_list_next(file_iter)) {
-		error= NULL;
-
 		file = g_file_new_for_uri ((gchar *)file_iter->data);
 		file_path = g_file_get_path (file);
 		g_object_unref (file);
 
-		if(file_path == NULL) {
-			g_warning("[Pidgin] %d Unable to convert URI `%s' to absolute file path",
-				  error->code, (gchar *)file_iter->data);
-			g_error_free(error);
+		if (file_path == NULL) {
+			g_warning("[Pidgin] Unable to convert URI `%s' to absolute file path",
+				  (gchar *)file_iter->data);
 			continue;
 		}
 
-		if(!send_file(dat->account, dat->name, file_path))
+		if (!send_file(dat->account, dat->name, file_path))
 			g_warning("[Pidgin] Failed to send %s file to %s", file_path, dat->name);
+
+		g_free (file_path);
 	}
 	return TRUE;
 }
