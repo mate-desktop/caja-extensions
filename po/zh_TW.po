@@ -32,7 +32,7 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>無法決定讓程式運行。</b></big>\n\n您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
+msgstr "<big><b>無法判斷該執行的程式。</b></big>\n\n您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:1
 msgid "Gksu"
@@ -68,7 +68,7 @@ msgstr "<b>圖片大小</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "選取大小："
+msgstr "選擇大小："
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -100,7 +100,7 @@ msgstr "像素"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "尺度："
+msgstr "比例："
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
@@ -135,11 +135,11 @@ msgstr ".resized"
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "目標檔案名稱"
+msgstr "到檔名後面"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "適當地調整大小"
+msgstr "使用原檔名"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
@@ -158,7 +158,7 @@ msgstr "重試(_R)"
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "調整圖像大小：%d 中的 %d"
+msgstr "調整圖片大小：%d 中的 %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
@@ -180,7 +180,7 @@ msgstr "<b>圖片旋轉</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "選取角度："
+msgstr "選擇角度："
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
@@ -196,7 +196,7 @@ msgstr ".rotated"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "適當地旋轉"
+msgstr "使用原檔名"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
@@ -205,7 +205,7 @@ msgstr "旋轉(_R)"
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "旋轉圖像：%d 在 %d 中"
+msgstr "旋轉圖片：%d 在 %d 中"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
@@ -214,7 +214,7 @@ msgstr "<i>正在旋轉「%s」</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
 msgid "Image Converter"
-msgstr "圖片轉換器"
+msgstr "圖片轉換工具"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
 msgid "Rotate and resize images"
