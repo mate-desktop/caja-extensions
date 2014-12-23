@@ -50,6 +50,7 @@ case "$with_gtk" in
        GTK_REQUIRED=3.0.0
        ;;
 esac
+AC_SUBST(GTK_API_VERSION)
 
 # Common requirements
 PKG_CHECK_MODULES(CAJA,
