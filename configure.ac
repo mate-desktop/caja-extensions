@@ -181,12 +181,12 @@ if test "x$enable_sendto" = "xyes"; then
                 PKG_CHECK_MODULES(DBUS, dbus-1 >= $DBUS_REQUIRED dbus-glib-1 >= $DBUS_GLIB_REQUIRED,
                     [AC_SUBST(DBUS_CFLAGS)
                     AC_SUBST(DBUS_LIBS)
-                    enable_sendto_gajim=yes
+                    enable_gajim=yes
                     AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$GAJIM_SHARE_DIR", [path to gajim share dir])],
                     [enable_gajim=no])
 
                 if test "${enable_gajim}" != "yes" ; then
-                    sendto_plugin_error_or_ignore "you need gajim and dbus-glib installed for the gajim plugin"
+                    sendto_plugin_error_or_ignore "you need dbus-glib installed to build the gajim plugin"
                     add_sendto_plugin="0"
                 fi
             ;;
@@ -194,7 +194,7 @@ if test "x$enable_sendto" = "xyes"; then
                 PKG_CHECK_MODULES(GIO, gio-2.0,
                     enable_burn=yes, enable_burn=no)
                 if test "${enable_burn}" != "yes" ; then
-                    sendto_plugin_error_or_ignore "you need gio installed for the caja-burn plugin"
+                    sendto_plugin_error_or_ignore "you need gio installed to build the caja-burn plugin"
                     add_sendto_plugin="0"
                 fi
             ;;
@@ -202,7 +202,7 @@ if test "x$enable_sendto" = "xyes"; then
                 PKG_CHECK_MODULES(PIDGIN, dbus-glib-1 >= $DBUS_GLIB_REQUIRED,
                     enable_pidgin=yes, enable_pidgin=no)
                 if test "${enable_pidgin}" != "yes" ; then
-                    sendto_plugin_error_or_ignore "you need dbus-glib to build the pidgin plugin"
+                    sendto_plugin_error_or_ignore "you need dbus-glib installed to build the pidgin plugin"
                     add_sendto_plugin="0"
                 fi
             ;;
@@ -210,7 +210,7 @@ if test "x$enable_sendto" = "xyes"; then
                 PKG_CHECK_MODULES(GIO, gio-2.0,
                     enable_removable=yes, enable_removable=no)
                 if test "${enable_removable}" != "yes" ; then
-                    sendto_plugin_error_or_ignore "you need gio-2.0 to build the removable-devices plugin"
+                    sendto_plugin_error_or_ignore "you need gio-2.0 installed to build the removable-devices plugin"
                     add_sendto_plugin="0"
             fi
             ;;
@@ -218,7 +218,7 @@ if test "x$enable_sendto" = "xyes"; then
                 PKG_CHECK_MODULES(UPNP, gupnp-1.0 >= $GUPNP_REQUIRED,
                     enable_upnp=yes, enable_upnp=no)
                 if test "${enable_upnp}" != "yes" ; then
-                    sendto_plugin_error_or_ignore "you need gupnp installed for the upnp plugin"
+                    sendto_plugin_error_or_ignore "you need gupnp installed to build the upnp plugin"
                     add_sendto_plugin="0"
                 fi
             ;;
