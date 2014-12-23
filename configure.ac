@@ -296,7 +296,7 @@ AC_ARG_ENABLE([gksu],
 
 AM_CONDITIONAL(ENABLE_GKSU, test x"$enable_gksu" = "xyes")
 
-# gksu extenstion
+# wallpaper extenstion
 AC_ARG_ENABLE([wallpaper],
         AS_HELP_STRING([--enable-wallpaper], [Enable set as wallpaper plugin]),
         [enable_wallpaper=$enableval],
