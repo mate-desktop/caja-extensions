@@ -375,17 +375,17 @@ toggle_pack_check (GtkWidget *widget, NS_ui *ui)
 static void
 option_changed (GtkComboBox *cb, NS_ui *ui)
 {
-	GList *aux;
+	GtkWidget *w;
 	NstPlugin *p;
 	gboolean supports_dirs = FALSE;
 
-	aux = g_list_nth (ui->contact_widgets, option);
+	w = g_list_nth_data (ui->contact_widgets, option);
 	option = gtk_combo_box_get_active (GTK_COMBO_BOX(cb));
-	gtk_widget_hide ((GtkWidget *) aux->data);
-	aux = g_list_nth (ui->contact_widgets, option);
-	gtk_widget_show ((GtkWidget *) aux->data);
+	gtk_widget_hide (w);
+	w = g_list_nth_data (ui->contact_widgets, option);
+	gtk_widget_show (w);
 
-	gtk_label_set_mnemonic_widget (GTK_LABEL (ui->send_to_label), aux->data);
+	gtk_label_set_mnemonic_widget (GTK_LABEL (ui->send_to_label), w);
 
 	p = (NstPlugin *) g_list_nth_data (plugin_list, option);
 	supports_dirs = (p->info->capabilities & CAJA_CAPS_SEND_DIRECTORIES);
