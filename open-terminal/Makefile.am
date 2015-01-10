@@ -39,6 +39,9 @@ extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
 DISTCLEANFILES = \
 	org.mate.caja-open-terminal.gschema.xml
 
+CLEANFILES = $(extension_DATA)
+
 EXTRA_DIST = \
 	$(convert_DATA) \
+	$(extension_in_files) \
 	$(gsettings_schemas_in_files)
