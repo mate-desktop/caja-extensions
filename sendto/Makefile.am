@@ -88,8 +88,7 @@ EXTRA_DIST = \
 	$(man_MANS) \
 	caja-sendto.pc.in \
 	$(convert_DATA) \
-	$(gsettingsschema_in_files) \
-	$(extension_in_files)
+	$(gsettingsschema_in_files)
 
 CLEANFILES = \
 	$(nst_built_headers) \
