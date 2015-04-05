@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Erik, 2014
+# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-10-27 14:48+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2015-02-06 19:13+0000\n"
+"Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/projects/p/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +36,7 @@ msgstr "<big><b>Kunde inte fastställa vilket program som ska köras.</b></big>\
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:2
 msgid "Privilege granting extension"
@@ -51,7 +52,7 @@ msgstr "Ändra storlek på varje markerad bild"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "Ro_tera bilder..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
@@ -125,11 +126,11 @@ msgstr "<b>Filnamn</b>"
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Fästa"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".storleksförändrad"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
@@ -147,12 +148,12 @@ msgstr ""
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr ""
+msgstr "_Hoppa över"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr ""
+msgstr "_Försök igen"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
@@ -191,7 +192,7 @@ msgstr "grader medsols"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr ".roterad"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
@@ -199,7 +200,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr ""
+msgstr "_Rotera"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
@@ -213,7 +214,7 @@ msgstr "<i>Roterar \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "Bildkonverterare"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
 msgid "Rotate and resize images"

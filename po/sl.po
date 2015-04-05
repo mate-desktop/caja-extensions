@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Damir Jerovšek <jierro@windowslive.com>, 2013
+# worm <thewormhole@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-10-27 14:48+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2015-03-12 17:07+0000\n"
+"Last-Translator: worm <thewormhole@gmail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,11 +36,11 @@ msgstr "<big><b>Programa za zagon ni mogoče določiti.</b></big>\n\nIzbranega p
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "Razširitev za določanje privilegijev"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -213,11 +214,11 @@ msgstr "<i>Vrtenje \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "Pretvornik slik"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "Vrtenje in spreminjanje velikosti slik"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
@@ -243,11 +244,11 @@ msgstr "Odpri terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
 msgid "Open terminal"
-msgstr ""
+msgstr "Odpri terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
 msgid "Open terminals from folders"
-msgstr ""
+msgstr "Odpri terminal iz teh map"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -300,11 +301,11 @@ msgstr "Preverite namestitev."
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "Pošlji na"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Integrira email kliente in Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -389,7 +390,7 @@ msgstr "Souporaba"
 
 #: ../share/libcaja-share.caja-extension.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "Omogoča hitro deljenje map"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format

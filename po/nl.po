@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# infirit <infirit@gmail.com>, 2014
 # Michael Steenbeek <m.o.steenbeek@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-10-27 14:48+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-11-20 11:02+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/MATE/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,11 +36,11 @@ msgstr "<big><b>Kan het te gebruiken programma niet bepalen.</b></big>\n\nHet do
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "Rechten verlenende extensie"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -213,11 +214,11 @@ msgstr "<i>Bezig met draaien van \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "Afbeelding Omvormer"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "Draai en verander grote van afbeeldingen"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
@@ -243,11 +244,11 @@ msgstr "Een terminal openen"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
 msgid "Open terminal"
-msgstr ""
+msgstr "Terminalvenster openen"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
 msgid "Open terminals from folders"
-msgstr ""
+msgstr "Terminalvensters openen vanuit mappen"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -300,11 +301,11 @@ msgstr "Controleer uw installatie"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "Sturen naar"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Integreert met e-mail programma's en Pidgin."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -389,7 +390,7 @@ msgstr "Gedeelde map"
 
 #: ../share/libcaja-share.caja-extension.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "Maakt het mogelijk om een map te snel delen"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format

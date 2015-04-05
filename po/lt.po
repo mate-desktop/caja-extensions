@@ -5,13 +5,14 @@
 # Translators:
 # Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2014
 # brennus <jonas.ska@gmail.com>, 2014
+# Moo, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-11-02 19:14+0000\n"
-"Last-Translator: brennus <jonas.ska@gmail.com>\n"
+"PO-Revision-Date: 2014-12-01 20:29+0000\n"
+"Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +41,7 @@ msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "Privilegijų suteikimo plėtinys"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -214,7 +215,7 @@ msgstr "<i>Sukama \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "Paveikslų Keitiklis"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
 msgid "Rotate and resize images"
@@ -305,7 +306,7 @@ msgstr "Siųsti į"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Integruoja el. pašto programas ir Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -390,7 +391,7 @@ msgstr "Bendrinti"
 
 #: ../share/libcaja-share.caja-extension.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "Leidžia greitai dalintis aplanku"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format

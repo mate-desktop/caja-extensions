@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# samson <sambelet@yahoo.com>, 2013-2014
+# samson <sambelet@yahoo.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-10-27 14:48+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2015-01-25 19:12+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgstr "<big><b>ማስኬድ የሚያስፈልገውን ፕሮግራም መወ�
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:2
 msgid "Privilege granting extension"
@@ -107,7 +107,7 @@ msgstr "ፐርሰንት"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr ""
+msgstr "Custom size:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr ""
+msgstr "ዲግሪዎች ከ ግራ ወደ ቀኝ"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
@@ -213,11 +213,11 @@ msgstr "<i>በ ማዞር ላይ \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "ምስል መቀየሪያ "
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "ምስሎችን ማዞሪያ እና እንደገና መመጠኛ"
 
 #: ../open-terminal/caja-open-terminal.c:423
 #: ../open-terminal/caja-open-terminal.c:436
@@ -243,11 +243,11 @@ msgstr "ተርሚናል _መክፈቻ"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
 msgid "Open terminal"
-msgstr ""
+msgstr "ተርሚናል መክፈቻ "
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
 msgid "Open terminals from folders"
-msgstr ""
+msgstr "ተርሚናል መክፈቻ ከ ፎልደሮች ውስጥ"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -300,7 +300,7 @@ msgstr "እባክዎን አገጣጠሞን ይመርምሩ"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "መላኪያ ወደ "
 
 #: ../sendto/libcaja-sendto.caja-extension.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -389,7 +389,7 @@ msgstr "ማካፈያ"
 
 #: ../share/libcaja-share.caja-extension.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "በፍጥነት ፎልደር ማካፈያ ማስቻያ"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format

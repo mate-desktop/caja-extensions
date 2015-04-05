@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# , 2014
+# , 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-10-28 16:47+0000\n"
+"PO-Revision-Date: 2015-03-20 13:06+0000\n"
 "Last-Translator: Mihail Varantsou <meequz@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr ""
+msgstr "<big><b>Не выйшла вызначыць праграму для запуску.</b></big>\n\nЭлемент, які вы выбралі, не можа быць запушчаны з-пад адміністратара, бо не знойдзена патрэбная праграма."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:1
 msgid "Gksu"
@@ -39,7 +39,7 @@ msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "Пашырэнне для павышэння прывілеяў"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -138,7 +138,7 @@ msgstr "да загалоўка файла"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Змяніць памер і перазапісаць"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
@@ -187,7 +187,7 @@ msgstr "Іншы вугал:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr ""
+msgstr "градусаў па сонцу"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
@@ -195,7 +195,7 @@ msgstr ".павернута"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "Павярнуць і перазапісаць"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
@@ -253,7 +253,7 @@ msgstr "Адкрыць тэрміналы з каталогаў"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Ці адкрыванне тэрмінала на стале адкрые яго ў хатнім каталогу"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -283,7 +283,7 @@ msgstr "Файлы"
 #: ../sendto/caja-sendto-command.c:788
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "Чакаецца, што URI ці назвы файлаў будуць перададзены як параметры\n"
 
 #: ../sendto/caja-sendto-command.c:808
 #, c-format
@@ -385,11 +385,11 @@ msgstr "Медыя-сервер UPnP"
 #: ../share/libcaja-share.caja-extension.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
-msgstr ""
+msgstr "Зрабіць супольным"
 
 #: ../share/libcaja-share.caja-extension.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr "Дазваляе хутка дзяліцца каталогам"
+msgstr "Дазваляе хутка зрабіць каталог супольным"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
@@ -403,19 +403,19 @@ msgstr "Caja дадасць пэўныя дазволы на каталог \"%s
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "Каталогу \"%s\" трэба наступныя дазволы для супольнага доступу:\n%s%s%sДадаць гэтыя дазволы аўтаматычна?"
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "  - дазвол на чытанне іншымі\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - дазвол на запісванне іншымі\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - дазвол на выкананне іншымі\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
@@ -463,7 +463,7 @@ msgstr "Дзяліцца каталогам"
 
 #: ../share/mate-file-manager-share.c:1151
 msgid "Sharing Options"
-msgstr "Настаўленні супольнага выкарыстання"
+msgstr "Настáўленні супольнага выкарыстання"
 
 #: ../share/mate-file-manager-share.c:1152
 msgid "Share this Folder"
