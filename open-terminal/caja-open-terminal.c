@@ -197,7 +197,7 @@ parse_sftp_uri (GFile *file, char **host, guint *port, char **user,
 	s = strchr(h, ':');
 
 	if (s && (p == NULL || s < p)) {
-		h_end = s-1;
+		h_end = s;
 		*s = '\0';
 		s++;
 	} else {
