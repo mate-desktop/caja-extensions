@@ -44,7 +44,6 @@
 #include <stdlib.h> /* for atoi */
 #include <sys/stat.h>
 
-#define SSH_DEFAULT_PORT 22
 #define COT_SCHEMA "org.mate.caja-open-terminal"
 #define COT_DESKTOP_KEY "desktop-opens-home-dir"
 #define CAJA_SCHEMA "org.mate.caja.preferences"
@@ -226,6 +225,7 @@ append_sftp_info (char **terminal_exec,
 	GFile *vfs_uri;
 	char *host_name, *path, *user_name;
 	char *user_host, *cmd, *quoted_cmd;
+	char *host_port_switch;
 	guint host_port;
 
 	g_assert (terminal_exec != NULL);
@@ -241,7 +241,9 @@ append_sftp_info (char **terminal_exec,
 	parse_sftp_uri (vfs_uri, &host_name, &host_port, &user_name, &path);
 
 	if (host_port == 0) {
-		host_port = SSH_DEFAULT_PORT;
+		host_port_switch = g_strdup ("");
+	} else {
+		host_port_switch = g_strdup_printf ("-p %d", host_port);
 	}
 
 	if (user_name != NULL) {
@@ -250,7 +252,7 @@ append_sftp_info (char **terminal_exec,
 		user_host = g_strdup (host_name);
 	}
 
-	cmd = g_strdup_printf ("ssh %s -p %d -t \"cd \'%s\' && $SHELL -l\"", user_host, host_port, path);
+	cmd = g_strdup_printf ("ssh %s %s -t \"cd \'%s\' && $SHELL -l\"", user_host, host_port_switch, path);
 	quoted_cmd = g_shell_quote (cmd);
 	g_free (cmd);
 
@@ -260,6 +262,7 @@ append_sftp_info (char **terminal_exec,
 
 	g_free (host_name);
 	g_free (user_name);
+	g_free (host_port_switch);
 	g_free (path);
 
 	g_free (quoted_cmd);
