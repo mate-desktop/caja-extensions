@@ -420,7 +420,7 @@ open_terminal_menu_item_new (TerminalFileInfo  terminal_file_info,
 	switch (terminal_file_info) {
 		case FILE_INFO_LOCAL:
 		case FILE_INFO_SFTP:
-			name = _("Open In _Terminal");
+			name = _("Open in _Terminal");
 			if (is_file_item) {
 				tooltip = _("Open the currently selected folder in a terminal");
 			} else {
@@ -433,7 +433,7 @@ open_terminal_menu_item_new (TerminalFileInfo  terminal_file_info,
 				name = _("Open _Terminal");
 				tooltip = _("Open a terminal");
 			} else {
-				name = _("Open In _Terminal");
+				name = _("Open in _Terminal");
 				tooltip = _("Open the currently open folder in a terminal");
 			}
 			break;
