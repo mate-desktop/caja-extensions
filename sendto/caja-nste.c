@@ -75,12 +75,12 @@ caja_nste_get_file_items (CajaMenuProvider *provider,
 	if (one_item && 
 	    !caja_file_info_is_directory ((CajaFileInfo *)files->data)) {
 		item = caja_menu_item_new ("CajaNste::sendto",
-					       _("Send To..."),
+					       _("Send to..."),
 					       _("Send file by mail, instant message..."),
 					       "document-send");
 	} else {
 		item = caja_menu_item_new ("CajaNste::sendto",
-					       _("Send To..."),
+					       _("Send to..."),
 					       _("Send files by mail, instant message..."),
 					       "document-send");
 	}
