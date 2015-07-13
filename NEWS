@@ -1,3 +1,7 @@
+1.10.1
+
+  * open-terminal: fixed bugs with non-standard ssh ports
+
 1.10.0
 
   * wallpaper: Added new 'Set as wallpaper' extension
