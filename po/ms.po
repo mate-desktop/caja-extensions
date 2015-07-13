@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-11-29 03:10+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>\n"
-"Language-Team: Malay (http://www.transifex.com/projects/p/MATE/language/ms/)\n"
+"POT-Creation-Date: 2015-07-13 12:14+0200\n"
+"PO-Revision-Date: 2015-07-13 10:14+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
+"Language-Team: Malay (http://www.transifex.com/p/MATE/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,11 +33,11 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Tidak dapat menentukan program untuk dijalankan.</b></big>\n\nItem yang anda pilih tidak boleh dibuka dengan kuasa pentadbir kerana aplikasi yang betul tidak dapat ditentukan."
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
 msgstr "Gksu"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
 msgstr "Sambungan pemberian kelayakan"
 
@@ -211,41 +211,41 @@ msgstr "Putarkan imej: %d dari %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Memutar \"%s\"</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
 msgstr "Penukar Imej"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
 msgstr "Putar dan saiz semula imej"
 
-#: ../open-terminal/caja-open-terminal.c:423
-#: ../open-terminal/caja-open-terminal.c:436
-msgid "Open In _Terminal"
-msgstr "Buka di dalam _Terminal"
+#: ../open-terminal/caja-open-terminal.c:426
+#: ../open-terminal/caja-open-terminal.c:439
+msgid "Open in _Terminal"
+msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:425
+#: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
 msgstr "Buka folder yang  dipilih di dalam terminal"
 
-#: ../open-terminal/caja-open-terminal.c:427
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:430
+#: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
 msgstr "Buka folder yang dibuka di dalam terminal"
 
-#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
 msgstr "Buka _Terminal"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
 msgstr "Buka terminal"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
 msgstr "Buka terminal"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
 msgstr "Buka terminal dari folder"
 
@@ -264,9 +264,8 @@ msgid ""
 msgstr "Jika ditetapkan kepada benar, maka membuka terminal di desktop akan membuka satu terminal dalam direktori rumah. Jika tidak, ia akan dibuka dalam direktori desktop. Perhatikan bahawa kekunci ini adalah tidak relevan jika direktori desktop adalah serupa dengan direktori rumah."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
-#: ../sendto/caja-sendto.ui.h:1
-msgid "Send To..."
-msgstr "Hantar Ke..."
+msgid "Send to..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -276,35 +275,39 @@ msgstr "Hantar fail melalui mel, mesej segera..."
 msgid "Send files by mail, instant message..."
 msgstr "Hantar fail melalui mel, mesej segera..."
 
-#: ../sendto/caja-sendto-command.c:576
+#: ../sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "Fail"
 
-#: ../sendto/caja-sendto-command.c:788
+#: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Jangkakan URI atau nama fail yang dilulus sebagai pilihan \n"
 
-#: ../sendto/caja-sendto-command.c:808
+#: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Tidak dapat hurai pilihan baris-perintah: %s\n"
 
-#: ../sendto/caja-sendto-command.c:823
+#: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "Tidak dapat muat mana-mana pemalam."
 
-#: ../sendto/caja-sendto-command.c:826
+#: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "Sila sahkan pemasangan anda"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
 msgstr "Hantar Ke"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
 msgstr "Sepadukan klien emel dan Pidgin"
+
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Hantar Ke..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -334,27 +337,27 @@ msgstr "Hantar _dalam paket:"
 msgid "Email"
 msgstr "Emel"
 
-#: ../sendto/plugins/gajim/gajim.c:417
+#: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Tidak boleh hantar fail"
 
-#: ../sendto/plugins/gajim/gajim.c:418
+#: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Tiada sambungan ke perkhidmatan jauh gajim."
 
-#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Penghantaran fail gagal"
 
-#: ../sendto/plugins/gajim/gajim.c:443
+#: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Penerima tiada."
 
-#: ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Penerima tidak diketahui."
 
-#: ../sendto/plugins/gajim/gajim.c:505
+#: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Mesej Segera (Gajim)"
 
@@ -370,7 +373,7 @@ msgstr "CD/DVD Sedia ada"
 msgid "CD/DVD Creator"
 msgstr "Pencipta CD/DVD"
 
-#: ../sendto/plugins/pidgin/pidgin.c:464
+#: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "Mesej Segera (Pidgin)"
 
@@ -382,12 +385,12 @@ msgstr "Cakera boleh tanggal dan perkongsian"
 msgid "UPnP Media Server"
 msgstr "Pelayan Media UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/libcaja-share.caja-extension.in.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "Kongsi"
 
-#: ../share/libcaja-share.caja-extension.in.h:2
+#: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
 msgstr "Membolehkan perkongsian pantas folder"
 
@@ -554,3 +557,19 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "Tidak dapat ubah laluan bagi perkongsian sedia ada; sila buang perkongsian lama dahulu dan tambah yang baharu"
+
+#: ../wallpaper/caja-wallpaper-extension.c:109
+msgid "Set as wallpaper..."
+msgstr ""
+
+#: ../wallpaper/caja-wallpaper-extension.c:110
+msgid "Set image as the current wallpaper..."
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+msgid "Wallpaper"
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+msgid "Allows to quickly set wallpaper"
+msgstr ""

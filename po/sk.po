@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-12-16 22:55+0000\n"
-"Last-Translator: Tibor Kaputa <tibbbi2@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
+"POT-Creation-Date: 2015-07-13 12:14+0200\n"
+"PO-Revision-Date: 2015-07-13 10:14+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
+"Language-Team: Slovak (http://www.transifex.com/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,11 +36,11 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Nepodarilo sa rozhodnúť, ktorý program sa má spustiť.</b></big>\n\nPoložka, ktorú ste vybrali sa nedá spustiť s právami správcu, pretože sa nepodarilo určiť správny program."
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
 msgstr "Gksu"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
 msgstr "Oprávnenie pridávať rozšírenia"
 
@@ -214,41 +214,41 @@ msgstr "Otáča sa obrázok: %d z %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Otáča sa „%s“</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
 msgstr "Konvertor obrázkov"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
 msgstr "Otáčanie a zmena veľkosti obrázkov"
 
-#: ../open-terminal/caja-open-terminal.c:423
-#: ../open-terminal/caja-open-terminal.c:436
-msgid "Open In _Terminal"
-msgstr "Otvoriť v _termináli"
+#: ../open-terminal/caja-open-terminal.c:426
+#: ../open-terminal/caja-open-terminal.c:439
+msgid "Open in _Terminal"
+msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:425
+#: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
 msgstr "Otvoriť aktuálne označený priečinok v termináli"
 
-#: ../open-terminal/caja-open-terminal.c:427
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:430
+#: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
 msgstr "Otvoriť aktuálne otvorený priečinok v termináli"
 
-#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
 msgstr "Otvoriť _terminál"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
 msgstr "Otvoriť terminál"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
 msgstr "Otvoriť terminál"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
 msgstr "Otváranie terminálov z priečinkov"
 
@@ -267,9 +267,8 @@ msgid ""
 msgstr "Pri nastavení tejto možnosti sa terminál otvorený na ploche otvorí v domovskom priečinku. Inak by sa otvoril v priečinku Plocha. Uvedomte si, že táto možnosť je irelevantná, ak je priečinok plochy zhodný s domovským priečinkom."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
-#: ../sendto/caja-sendto.ui.h:1
-msgid "Send To..."
-msgstr "Odoslať do..."
+msgid "Send to..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -279,35 +278,39 @@ msgstr "Odoslať súbor poštou, okamžitou správou..."
 msgid "Send files by mail, instant message..."
 msgstr "Odoslať súbory poštou, okamžitou správou..."
 
-#: ../sendto/caja-sendto-command.c:576
+#: ../sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "Súbory"
 
-#: ../sendto/caja-sendto-command.c:788
+#: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Ako možnosti sú očakávané URI alebo názvy súborov\n"
 
-#: ../sendto/caja-sendto-command.c:808
+#: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nepodarilo sa analyzovať možnosti príkazového riadka: %s\n"
 
-#: ../sendto/caja-sendto-command.c:823
+#: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "Nepodarilo sa načítať žiadne zásuvné moduly."
 
-#: ../sendto/caja-sendto-command.c:826
+#: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "Prosím, skontrolujte svoju inštaláciu"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
 msgstr "Odoslať"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
 msgstr "Integrácia emailových klientov a Pidginu"
+
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Odoslať do..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -337,27 +340,27 @@ msgstr "Odoslať _zabalené v:"
 msgid "Email"
 msgstr "E-mail"
 
-#: ../sendto/plugins/gajim/gajim.c:417
+#: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Nepodarilo sa odoslať súbor"
 
-#: ../sendto/plugins/gajim/gajim.c:418
+#: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Vzdialená služba gajim nie je pripojená."
 
-#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Odosielanie súboru zlyhalo"
 
-#: ../sendto/plugins/gajim/gajim.c:443
+#: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Chýba príjemca."
 
-#: ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Neznámy príjemca."
 
-#: ../sendto/plugins/gajim/gajim.c:505
+#: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Okamžitá správa (Gajim)"
 
@@ -373,7 +376,7 @@ msgstr "Existujúce CD/DVD"
 msgid "CD/DVD Creator"
 msgstr "Tvorca CD/DVD"
 
-#: ../sendto/plugins/pidgin/pidgin.c:464
+#: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "Okamžitá správa (Pidgin)"
 
@@ -385,12 +388,12 @@ msgstr "Odpojiteľné disky a zdieľania"
 msgid "UPnP Media Server"
 msgstr "UPnP server médií"
 
-#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/libcaja-share.caja-extension.in.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "Zdieľať"
 
-#: ../share/libcaja-share.caja-extension.in.h:2
+#: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
 msgstr "Umožňuje rýchle zdieľanie priečinkov"
 
@@ -557,3 +560,19 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "Nemožno zmeniť cestu existujúceho zdieľania: prosím najskôr odstráňte staré zdieľanie a potom pridajte nové"
+
+#: ../wallpaper/caja-wallpaper-extension.c:109
+msgid "Set as wallpaper..."
+msgstr ""
+
+#: ../wallpaper/caja-wallpaper-extension.c:110
+msgid "Set image as the current wallpaper..."
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+msgid "Wallpaper"
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+msgid "Allows to quickly set wallpaper"
+msgstr ""

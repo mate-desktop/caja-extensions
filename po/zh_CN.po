@@ -9,10 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2014-11-03 14:58+0000\n"
-"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/MATE/language/zh_CN/)\n"
+"POT-Creation-Date: 2015-07-13 12:14+0200\n"
+"PO-Revision-Date: 2015-07-13 10:14+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/MATE/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,11 +34,11 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>无法确定待运行的程序。</b></big>\n\n由于无法确定正确的应用程序，您选择的项无法以管理员身份打开。"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
 msgstr "Gksu"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
 msgstr "授权 扩展"
 
@@ -212,41 +212,41 @@ msgstr "正在旋转图像：%d/%d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>图像旋转进度 \"%s\"</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
 msgstr "图像转换工具"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
 msgstr "旋转和调整图像大小"
 
-#: ../open-terminal/caja-open-terminal.c:423
-#: ../open-terminal/caja-open-terminal.c:436
-msgid "Open In _Terminal"
-msgstr "在终端中打开(_T)"
+#: ../open-terminal/caja-open-terminal.c:426
+#: ../open-terminal/caja-open-terminal.c:439
+msgid "Open in _Terminal"
+msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:425
+#: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
 msgstr "在终端中打开目前选中的文件夹"
 
-#: ../open-terminal/caja-open-terminal.c:427
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:430
+#: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
 msgstr "在终端中打开当前文件夹"
 
-#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
 msgstr "打开终端(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
 msgstr "打开终端"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
 msgstr "打开终端"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
 msgstr "从文件夹处打开终端"
 
@@ -265,9 +265,8 @@ msgid ""
 msgstr "如果设置为 true，在桌面上打开终端时将会在主目录中打开终端。否则会在桌面目录打开终端。注意如果桌面目录与主目录相同，则怎么设置没什么关系。"
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
-#: ../sendto/caja-sendto.ui.h:1
-msgid "Send To..."
-msgstr "发送至..."
+msgid "Send to..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -277,35 +276,39 @@ msgstr "通过邮件、即时通讯发送文件..."
 msgid "Send files by mail, instant message..."
 msgstr "通过邮件、即时通讯发送文件..."
 
-#: ../sendto/caja-sendto-command.c:576
+#: ../sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "文件"
 
-#: ../sendto/caja-sendto-command.c:788
+#: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "需要网址或者文件名称来作为选项\n"
 
-#: ../sendto/caja-sendto-command.c:808
+#: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "不能够解析命令行选项：%s\n"
 
-#: ../sendto/caja-sendto-command.c:823
+#: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "不能够加载任何插件。"
 
-#: ../sendto/caja-sendto-command.c:826
+#: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "请确认你的安装。"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
 msgstr "发送给"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
 msgstr "集成电子邮件客户端和  "
+
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "发送至..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -335,27 +338,27 @@ msgstr "打包发送(_P)："
 msgid "Email"
 msgstr "电子邮件"
 
-#: ../sendto/plugins/gajim/gajim.c:417
+#: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "无法发送文件"
 
-#: ../sendto/plugins/gajim/gajim.c:418
+#: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "不存在到 gajim 远程服务的连接。"
 
-#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "发送文件失败"
 
-#: ../sendto/plugins/gajim/gajim.c:443
+#: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "缺少接收者。"
 
-#: ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "未知接收者。"
 
-#: ../sendto/plugins/gajim/gajim.c:505
+#: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "即时消息 (Gajim)"
 
@@ -371,7 +374,7 @@ msgstr "现有的 CD/DVD"
 msgid "CD/DVD Creator"
 msgstr "CD/DVD 创建器"
 
-#: ../sendto/plugins/pidgin/pidgin.c:464
+#: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "及时信息 (Pidgin)"
 
@@ -383,12 +386,12 @@ msgstr "可移动磁盘和共享"
 msgid "UPnP Media Server"
 msgstr "UPnP 媒体服务器"
 
-#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/libcaja-share.caja-extension.in.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "共享"
 
-#: ../share/libcaja-share.caja-extension.in.h:2
+#: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
 msgstr "允许快速分享文件夹"
 
@@ -555,3 +558,19 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "无法更改现有共享的路径；请先移除旧的共享，再添加一个新的"
+
+#: ../wallpaper/caja-wallpaper-extension.c:109
+msgid "Set as wallpaper..."
+msgstr ""
+
+#: ../wallpaper/caja-wallpaper-extension.c:110
+msgid "Set image as the current wallpaper..."
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+msgid "Wallpaper"
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+msgid "Allows to quickly set wallpaper"
+msgstr ""

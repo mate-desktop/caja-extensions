@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Adolfo Jayme Barrientos, 2014
+# Adolfo Jayme Barrientos, 2015
 # Adolfo Jayme Barrientos, 2014
 # Andres Sanchez <blackatze93@gmail.com>, 2014
 # Emiliano Fascetti, 2015
@@ -12,10 +13,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2015-01-04 23:34+0000\n"
-"Last-Translator: Emiliano Fascetti\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
+"POT-Creation-Date: 2015-07-13 12:14+0200\n"
+"PO-Revision-Date: 2015-07-13 10:14+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,11 +38,11 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Imposible determinar el programa que ejecutar.</b></big>\n\nEl elemento que ha seleccionado no se puede abrir con privilegios de administrador debido a que la aplicación correcta no se puede determinar."
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
 msgstr "Gksu"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
 msgstr "Extensión que otorga privilegios"
 
@@ -215,41 +216,41 @@ msgstr "Rotando la imagen: %d de %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Rotando «%s»</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
 msgstr "Conversor de imágenes"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
 msgstr "Rotar y redimensionar imágenes"
 
-#: ../open-terminal/caja-open-terminal.c:423
-#: ../open-terminal/caja-open-terminal.c:436
-msgid "Open In _Terminal"
-msgstr "Abrir en un _terminal"
+#: ../open-terminal/caja-open-terminal.c:426
+#: ../open-terminal/caja-open-terminal.c:439
+msgid "Open in _Terminal"
+msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:425
+#: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
 msgstr "Abre la carpeta actualmente seleccionada en un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:427
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:430
+#: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
 msgstr "Abre la carpeta actualmente abierta en un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
 msgstr "Abrir _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
 msgstr "Abrir un terminal"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
 msgstr "Abrir terminal"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
 msgstr "Abra consolas desde carpetas"
 
@@ -268,9 +269,8 @@ msgid ""
 msgstr "Si está a «true» al abrir un terminal en el escritorio se abrirá en el directorio personal. De otra manera se abrirá en el directorio del escritorio. Note que esta clave es irrelevante si el directorio del escritorio es idéntico al directorio personal."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
-#: ../sendto/caja-sendto.ui.h:1
-msgid "Send To..."
-msgstr "Enviar a..."
+msgid "Send to..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -280,35 +280,39 @@ msgstr "Enviar un archivo por correo, por mensaje instantáneo..."
 msgid "Send files by mail, instant message..."
 msgstr "Enviar archivos por correo, por mensaje instantáneo..."
 
-#: ../sendto/caja-sendto-command.c:576
+#: ../sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "Archivos"
 
-#: ../sendto/caja-sendto-command.c:788
+#: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Espera que se pasen como opciones URI o nombres de archivo\n"
 
-#: ../sendto/caja-sendto-command.c:808
+#: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "No se pudieron analizar las opciones de la línea de comandos: %s\n"
+msgstr "No se pudieron analizar las opciones de la consola: %s\n"
 
-#: ../sendto/caja-sendto-command.c:823
+#: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "No se pudo cargar ningún complemento."
 
-#: ../sendto/caja-sendto-command.c:826
+#: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "Compruebe su instalación"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
 msgstr "Enviar a"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
 msgstr "Integra clientes de correo electrónico con Pidgin"
+
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Enviar a..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -338,27 +342,27 @@ msgstr "Enviar em_paquetado en:"
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: ../sendto/plugins/gajim/gajim.c:417
+#: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "No se puede enviar el archivo"
 
-#: ../sendto/plugins/gajim/gajim.c:418
+#: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "No hay ninguna conexión con el servicio remoto de gajim."
 
-#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Ha fallado el envío del archivo"
 
-#: ../sendto/plugins/gajim/gajim.c:443
+#: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Falta el destinatario."
 
-#: ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Destinatario desconocido."
 
-#: ../sendto/plugins/gajim/gajim.c:505
+#: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Mensaje instantáneo (Gajim)"
 
@@ -374,7 +378,7 @@ msgstr "CD/DVD existente"
 msgid "CD/DVD Creator"
 msgstr "Creador de CD/DVD"
 
-#: ../sendto/plugins/pidgin/pidgin.c:464
+#: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "Mensaje instantáneo (Pidgin)"
 
@@ -386,12 +390,12 @@ msgstr "Soportes extraíbles y comparticiones"
 msgid "UPnP Media Server"
 msgstr "Servidor multimedia UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/libcaja-share.caja-extension.in.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "Compartir"
 
-#: ../share/libcaja-share.caja-extension.in.h:2
+#: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
 msgstr "Permite compartir una carpeta rápidamente"
 
@@ -558,3 +562,19 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "No puedo cambiar el camino de una compartición existente; por favor, borre primero el camino antiguo y añada uno nuevo"
+
+#: ../wallpaper/caja-wallpaper-extension.c:109
+msgid "Set as wallpaper..."
+msgstr ""
+
+#: ../wallpaper/caja-wallpaper-extension.c:110
+msgid "Set image as the current wallpaper..."
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+msgid "Wallpaper"
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+msgid "Allows to quickly set wallpaper"
+msgstr ""

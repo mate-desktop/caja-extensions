@@ -9,10 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2015-03-18 12:32+0000\n"
-"Last-Translator: Daniel <danny34ever@yahoo.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/projects/p/MATE/language/ro/)\n"
+"POT-Creation-Date: 2015-07-13 12:14+0200\n"
+"PO-Revision-Date: 2015-07-13 10:14+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/p/MATE/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,41 +34,41 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Nu se poate determina programul pentru rulare.</b></big>\n\nElementul selectat nu poate fi deschis cu privilegii de administrator deoarece aplicatia corecta nu poate fi determinata."
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
 msgstr ""
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
 msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Redimensioneaza imagini..."
+msgstr "_Redimensionare imagini..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Redimensioneaza fiecare imagine selectata"
+msgstr "Redimensionează fiecare imagine selectată"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ro_teste imaginile..."
+msgstr "Ro_tire imagini..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Roteste fiecare imagine selectata"
+msgstr "Rotește fiecare imagine selectată"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Redimensioneaza imaginile"
+msgstr "Redimensionează imaginile"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Dimensiunea Imaginii</b>"
+msgstr "<b>Dimensiune imagine/b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Selecteaza o dimensiune:"
+msgstr "Selectați o dimensiune:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -100,7 +100,7 @@ msgstr "pixeli"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Scala:"
+msgstr "Scală:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
@@ -108,7 +108,7 @@ msgstr "procent"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Dimensiune personalizata:"
+msgstr "Dimensiune personalizată:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
@@ -121,12 +121,12 @@ msgstr "Înălțime:"
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Nume Fisier</b>"
+msgstr "<b>Nume fișier</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Adaugă"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
@@ -168,19 +168,19 @@ msgstr "<i>Redimensionare \"%s\"</i>"
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Va rugam introduceti un sufix valid in numele fisierului!"
+msgstr "Va rugăm să introduceți un sufix valid în numele fișierului!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Roteste imaginile"
+msgstr "Rotește imaginile"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotarea Imaginii</b>"
+msgstr "<b>Rotirea Imaginii</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Selecteaza un unghi:"
+msgstr "Selectați un unghi:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
@@ -192,7 +192,7 @@ msgstr "grade in sens orar"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".rotat"
+msgstr ".rotit"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
@@ -200,7 +200,7 @@ msgstr "Rotește în loc"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Roteste"
+msgstr "_Rotește"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
@@ -212,41 +212,41 @@ msgstr "Rotesc imaginea: %d din %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Rotind \"%s\"</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
 msgstr "Convertor imagini"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:423
-#: ../open-terminal/caja-open-terminal.c:436
-msgid "Open In _Terminal"
-msgstr "Deschide în _Terminal"
+#: ../open-terminal/caja-open-terminal.c:426
+#: ../open-terminal/caja-open-terminal.c:439
+msgid "Open in _Terminal"
+msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:425
+#: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
 msgstr "Acceseaza folderul selectat intr-un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:427
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:430
+#: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
 msgstr "Acceseaza folderul deschis intr-un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
-msgstr "Deschide _Terminal"
+msgstr "Deschide _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
 msgstr "Deschide un terminal"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
 msgstr "Deschide terminal"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
 msgstr "Deschide terminale din dosare"
 
@@ -265,47 +265,50 @@ msgid ""
 msgstr "Daca setarea este \"true\", deschiderea unui terminal pe desktop va deschide un terminal in directorul home. Altfel, va fi deschis in directorul desktop. Aceasta setare este irelevanta daca folderul desktop este identic cu folderul home."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
-#: ../sendto/caja-sendto.ui.h:1
-msgid "Send To..."
-msgstr "Trimite Catre..."
+msgid "Send to..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Trimite fisierul prin mail, mesagerie instant..."
+msgstr "Trimite fișierul prin mail, mesagerie instantă..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Trimite fisiere prin mail, mesagerie instant..."
+msgstr "Trimite fișiere prin mail, mesagerie instantă..."
 
-#: ../sendto/caja-sendto-command.c:576
+#: ../sendto/caja-sendto-command.c:578
 msgid "Files"
-msgstr "Fisiere"
+msgstr "Fișiere"
 
-#: ../sendto/caja-sendto-command.c:788
+#: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 
-#: ../sendto/caja-sendto-command.c:808
+#: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nu s-au putut parsa optiunile de consola: %s\n"
 
-#: ../sendto/caja-sendto-command.c:823
+#: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr "Nu s-a putut incarca niciun plugin"
+msgstr "Nu s-a putut încărca niciun modul"
 
-#: ../sendto/caja-sendto-command.c:826
+#: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr "Va rugam verificati instalarea"
+msgstr "Va rugăm să verificați instalarea"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
 msgstr "Trimite la"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
 msgstr ""
+
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Trimite către..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -313,7 +316,7 @@ msgstr "_Trimite"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Destinatie</b>"
+msgstr "<b>Destinație</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
@@ -321,47 +324,47 @@ msgstr "Trimite _ca:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Trimite cat_re:"
+msgstr "Trimite căt_re:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Compresie</b>"
+msgstr "<b>Comprimare</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Trimite _impachetat in:"
+msgstr "Trimite îm_pachetat în:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
 msgstr "Email"
 
-#: ../sendto/plugins/gajim/gajim.c:417
+#: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr "Nu s-a putut trimite fisierul"
+msgstr "Nu s-a putut trimite fișierul"
 
-#: ../sendto/plugins/gajim/gajim.c:418
+#: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Nu exista o conexiune pentru obtinerea serviciului remote"
 
-#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr "Trimiterea fisierului a esuat"
+msgstr "Trimiterea fișierului a eșuat"
 
-#: ../sendto/plugins/gajim/gajim.c:443
+#: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr "Destinatarul lipseste."
+msgstr "Destinatarul lipsește."
 
-#: ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Destinatar necunoscut."
 
-#: ../sendto/plugins/gajim/gajim.c:505
+#: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr "Mesaj Instant. (Pidgin)"
+msgstr "Mesaj instant. (Pidgin)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "CD/DVD Nou"
+msgstr "CD/DVD nou"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
@@ -371,9 +374,9 @@ msgstr "CD/DVD existent"
 msgid "CD/DVD Creator"
 msgstr "Creator CD/DVD"
 
-#: ../sendto/plugins/pidgin/pidgin.c:464
+#: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr "Mesaj Instant (Pidgin)"
+msgstr "Mesaj instant (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
@@ -383,12 +386,12 @@ msgstr "Partajări și discuri amovibile"
 msgid "UPnP Media Server"
 msgstr "Server media UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/libcaja-share.caja-extension.in.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "Partajează"
 
-#: ../share/libcaja-share.caja-extension.in.h:2
+#: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
 msgstr "Permite partajarea rapidă a unui dosar"
 
@@ -433,7 +436,7 @@ msgstr "Numele partajării este prea lung"
 
 #: ../share/mate-file-manager-share.c:480
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "Nuele partajării nu poate fi gol"
 
 #: ../share/mate-file-manager-share.c:493
 #, c-format
@@ -476,11 +479,11 @@ msgstr ""
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "_Nume partajare:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Partajează _acest dosar"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
@@ -522,7 +525,7 @@ msgstr ""
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
 msgid "Failed"
-msgstr ""
+msgstr "Eșuat"
 
 #: ../share/shares.c:548
 #, c-format
@@ -554,4 +557,20 @@ msgstr ""
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
+msgstr ""
+
+#: ../wallpaper/caja-wallpaper-extension.c:109
+msgid "Set as wallpaper..."
+msgstr ""
+
+#: ../wallpaper/caja-wallpaper-extension.c:110
+msgid "Set image as the current wallpaper..."
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+msgid "Wallpaper"
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+msgid "Allows to quickly set wallpaper"
 msgstr ""

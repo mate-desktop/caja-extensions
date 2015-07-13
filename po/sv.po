@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Erik, 2014
+# Gaius Anderson <gaius.ankh@gmail.com>, 2015
 # Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2015-02-06 19:13+0000\n"
-"Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/MATE/language/sv/)\n"
+"POT-Creation-Date: 2015-07-13 12:14+0200\n"
+"PO-Revision-Date: 2015-07-13 10:14+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/p/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,17 +35,17 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Kunde inte fastställa vilket program som ska köras.</b></big>\n\nObjektet du valde kan inte öppnas med administratörsrättigheter eftersom det rätt program inte kunde fastställas."
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
 msgstr "Gksu"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
 msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr ""
+msgstr "_Storleksförändra bilder..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
@@ -139,11 +140,11 @@ msgstr "till filens titel"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Storleksförändring pågår"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr ""
+msgstr "_Storleksförändra"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
@@ -196,7 +197,7 @@ msgstr ".roterad"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "Rotera på plats"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
@@ -212,43 +213,43 @@ msgstr "Roterar bild: %d av %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Roterar \"%s\"</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
 msgstr "Bildkonverterare"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
+msgstr "Rotera och storleksförändra bilder"
+
+#: ../open-terminal/caja-open-terminal.c:426
+#: ../open-terminal/caja-open-terminal.c:439
+msgid "Open in _Terminal"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:423
-#: ../open-terminal/caja-open-terminal.c:436
-msgid "Open In _Terminal"
-msgstr "Öppna i _Terminal"
-
-#: ../open-terminal/caja-open-terminal.c:425
+#: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
 msgstr "Öppna den markerade mappen i ett terminalfönster"
 
-#: ../open-terminal/caja-open-terminal.c:427
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:430
+#: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
 msgstr "Öppna den för tillfället öppna mappen i ett terminalfönster"
 
-#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Öppna _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
 msgstr "Öppna ett terminalfönster"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
-msgstr ""
+msgstr "Öppna terminal"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
-msgstr ""
+msgstr "Öppna terminaler från mappar"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -265,9 +266,8 @@ msgid ""
 msgstr ""
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
-#: ../sendto/caja-sendto.ui.h:1
-msgid "Send To..."
-msgstr "Skicka till..."
+msgid "Send to..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -277,35 +277,39 @@ msgstr "Skicka fil med e-post, snabbmeddelande..."
 msgid "Send files by mail, instant message..."
 msgstr "Skicka filer med e-post, snabbmeddelande..."
 
-#: ../sendto/caja-sendto-command.c:576
+#: ../sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "Filer"
 
-#: ../sendto/caja-sendto-command.c:788
+#: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 
-#: ../sendto/caja-sendto-command.c:808
+#: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr ""
 
-#: ../sendto/caja-sendto-command.c:823
+#: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "Kunde inte ladda in några insticksmoduler."
 
-#: ../sendto/caja-sendto-command.c:826
+#: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "Kontrollera din installation"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "Skicka till"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Integrerar e-postklienter och Pidgin"
+
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Skicka till..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -317,11 +321,11 @@ msgstr "<b>Destination</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr ""
+msgstr "Skicka _som:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr ""
+msgstr "Skicka t_ill:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
@@ -329,33 +333,33 @@ msgstr "<b>Komprimering</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "Skicka _paketerat i:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
 msgstr "E-post"
 
-#: ../sendto/plugins/gajim/gajim.c:417
+#: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Kan inte skicka fil"
 
-#: ../sendto/plugins/gajim/gajim.c:418
+#: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Det finns ingen anslutning till gajims fjärrtjänst."
 
-#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Skicka fil misslyckades"
 
-#: ../sendto/plugins/gajim/gajim.c:443
+#: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Mottagare saknas."
 
-#: ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Okänd mottagare."
 
-#: ../sendto/plugins/gajim/gajim.c:505
+#: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Snabbmeddelande (Gajim)"
 
@@ -371,7 +375,7 @@ msgstr "Befintlig cd/dvd"
 msgid "CD/DVD Creator"
 msgstr "Cd/dvd-skapare"
 
-#: ../sendto/plugins/pidgin/pidgin.c:464
+#: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "Snabbmeddelande (Pidgin)"
 
@@ -383,14 +387,14 @@ msgstr "Flyttbara diskar och utdelningar"
 msgid "UPnP Media Server"
 msgstr "UPnP-mediaserver"
 
-#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/libcaja-share.caja-extension.in.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "Dela ut"
 
-#: ../share/libcaja-share.caja-extension.in.h:2
+#: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "Tillåter att snabbt dela en mapp"
 
 #: ../share/mate-file-manager-share.c:123
 #, c-format
@@ -408,15 +412,15 @@ msgstr "Mappen \"%s\" behöver ges följande rättigheter för att den ska kunna
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "- läsrättigheter för övriga\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "skrivrättigheter för övriga\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "- kör rättigheter från andra\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
@@ -438,7 +442,7 @@ msgstr "Utdelningens namn får inte vara tomt"
 #: ../share/mate-file-manager-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Fel medan delningsinformationen togs emot: %s"
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
@@ -447,16 +451,16 @@ msgstr "En annan utdelning har samma namn"
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "Modifiera _utdelning"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "Skapa _utdelning"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Det uppstod ett fel när utdelningsinformationen togs emot"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
@@ -476,28 +480,28 @@ msgstr "<big><b>Dela ut mappar</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "_Namn på utdelning:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Dela ut den här _mappen"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "Ko_mmentera:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Tillåt andra att skapa och radera filer i den här mappen"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "Gäst_behörighet (för personer utan ett användarkonto)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s svarade tillbaka med signalen %d"
 
 #: ../share/shares.c:132
 #, c-format
@@ -507,17 +511,17 @@ msgstr "%s %s %s misslyckades av okänd anledning"
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net userdata' returnerade fel %d %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net userdata' returnerade fel %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "utdata från 'net usershare' är inte giltig UTF-8-kodning"
 
 #: ../share/shares.c:440 ../share/shares.c:614
 #, c-format
@@ -555,3 +559,19 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "Det går inte att ändra sökväg på en befintlig utdelning; ta bort den gamla utdelningen först och lägg sedan till en ny"
+
+#: ../wallpaper/caja-wallpaper-extension.c:109
+msgid "Set as wallpaper..."
+msgstr ""
+
+#: ../wallpaper/caja-wallpaper-extension.c:110
+msgid "Set image as the current wallpaper..."
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+msgid "Wallpaper"
+msgstr ""
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+msgid "Allows to quickly set wallpaper"
+msgstr ""
