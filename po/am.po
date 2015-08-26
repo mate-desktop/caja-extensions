@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2015-07-05 14:50+0000\n"
+"POT-Creation-Date: 2015-07-13 12:14+0200\n"
+"PO-Revision-Date: 2015-08-17 01:30+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
-"Language-Team: Amharic (http://www.transifex.com/p/MATE/language/am/)\n"
+"Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,13 +33,13 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>ማስኬድ የሚያስፈልገውን ፕሮግራም መወሰን አልተቻለም</b></big>\n\nየመረጡትን እቃ በአስተዳዳሪ ሀይል መክፈት አልተቻለም ምክንያቱም ትክክለኛውን መተግበሪያ መወሰን አልተቻለም "
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
 msgstr "Gksu"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "ለ ተጨማሪዎች ቅድሚያ መስጫ"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -183,7 +183,7 @@ msgstr "አንግል ይምረጡ:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr ""
+msgstr "Custom angle:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
@@ -211,41 +211,41 @@ msgstr "ምስል በማዞር ላይ: %d ከ %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>በ ማዞር ላይ \"%s\"</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
 msgstr "ምስል መቀየሪያ "
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
 msgstr "ምስሎችን ማዞሪያ እና እንደገና መመጠኛ"
 
-#: ../open-terminal/caja-open-terminal.c:423
-#: ../open-terminal/caja-open-terminal.c:436
-msgid "Open In _Terminal"
-msgstr "በ ተርሚናል ውስጥ _መክፈቻ"
+#: ../open-terminal/caja-open-terminal.c:426
+#: ../open-terminal/caja-open-terminal.c:439
+msgid "Open in _Terminal"
+msgstr "_በተርሚናል ውስጥ መክፈቻ "
 
-#: ../open-terminal/caja-open-terminal.c:425
+#: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
 msgstr "አሁን የተመረጠውን ፎልደር በ ተርሚናል ውስጥ መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:427
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:430
+#: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
 msgstr "አሁን የተከፈተውን ፎልደር በ ተርሚናል ውስጥ መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
 msgstr "ተርሚናል _መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
 msgstr "ተርሚናል _መክፈቻ"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
 msgstr "ተርሚናል መክፈቻ "
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
 msgstr "ተርሚናል መክፈቻ ከ ፎልደሮች ውስጥ"
 
@@ -264,8 +264,7 @@ msgid ""
 msgstr ""
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
-#: ../sendto/caja-sendto.ui.h:1
-msgid "Send To..."
+msgid "Send to..."
 msgstr "መላኪያ ወደ..."
 
 #: ../sendto/caja-nste.c:79
@@ -276,35 +275,39 @@ msgstr "ፋይል በ ደብዳቤ መላኪያ አስቸኳይ መልእክት.
 msgid "Send files by mail, instant message..."
 msgstr "ፋይል በ ደብዳቤ መላኪያ አስቸኳይ መልእክት..."
 
-#: ../sendto/caja-sendto-command.c:576
+#: ../sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "ፋይሎች"
 
-#: ../sendto/caja-sendto-command.c:788
+#: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 
-#: ../sendto/caja-sendto-command.c:808
+#: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "የትእዛዝ - መስመር ምርጫዎችን መተንተን አልተቻለም : %s\n"
 
-#: ../sendto/caja-sendto-command.c:823
+#: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "ተሰኪዎችን መጫን አልተቻለም"
 
-#: ../sendto/caja-sendto-command.c:826
+#: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "እባክዎን አገጣጠሞን ይመርምሩ"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
 msgstr "መላኪያ ወደ "
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Pidgin እና የ ኢሜይል ደንበኛ ማዋሀጃ"
+
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "መላኪያ ወደ..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -334,27 +337,27 @@ msgstr "እንደታሸግ _መላኪያ:"
 msgid "Email"
 msgstr "ኢሜይል"
 
-#: ../sendto/plugins/gajim/gajim.c:417
+#: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "ፋይሉን መላክ አልተቻለም"
 
-#: ../sendto/plugins/gajim/gajim.c:418
+#: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "ግንኙነት የለም ወደ ጋጂም የርቀት አገልግሎት"
 
-#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "ፋይሉን መላክ አልተዳካም"
 
-#: ../sendto/plugins/gajim/gajim.c:443
+#: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "ተቀባይ አልተገኘም"
 
-#: ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "ያልታወቀ ተቀባይ"
 
-#: ../sendto/plugins/gajim/gajim.c:505
+#: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "  አስቸኳይ መልእክተኛ (ጋጂም)"
 
@@ -370,7 +373,7 @@ msgstr "ነባር ሲዲ/ዲቪዲ"
 msgid "CD/DVD Creator"
 msgstr "ሲዲ/ዲቪዲ መፍጠሪያ"
 
-#: ../sendto/plugins/pidgin/pidgin.c:464
+#: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "አስቸኳይ መልእክተኛ (ፒጂን)"
 
@@ -380,14 +383,14 @@ msgstr "የሚወቁ ዲስኮች እና የሚካፈሉዋቸው"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr ""
+msgstr "UPnP Media Server"
 
-#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/libcaja-share.caja-extension.in.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "ማካፈያ"
 
-#: ../share/libcaja-share.caja-extension.in.h:2
+#: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
 msgstr "በፍጥነት ፎልደር ማካፈያ ማስቻያ"
 
@@ -396,7 +399,7 @@ msgstr "በፍጥነት ፎልደር ማካፈያ ማስቻያ"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "ካጃ ተጨማሪ ፍቃድ ይፈልጋል የ እርስዎን ፎልደር \"%s\" ለማካፈል"
 
 #: ../share/mate-file-manager-share.c:131
 #, c-format
@@ -407,24 +410,24 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "- የማንበብ ፍቃድ በ ሌሎች\n"
 
 #: ../share/mate-file-manager-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - የ መጻፍ ፍቃድ በ ሌሎች\n"
 
 #: ../share/mate-file-manager-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - የ መፈጸም ፍቃድ በ ሌሎች\n"
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "ፍቃድ ራሱ በራሱ መጨመሪያ "
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr ""
+msgstr "የ ፎልደሩን ፍቃድ መቀየር አይቻልም \"%s\""
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
@@ -441,7 +444,7 @@ msgstr "የ ማካፈያ መረጃ በማግኘት ላይ እንዳለ ስህተ
 
 #: ../share/mate-file-manager-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "ሌ ማካፈያ በዚህ ስም አለ"
 
 #: ../share/mate-file-manager-share.c:550
 #: ../share/mate-file-manager-share.c:786
@@ -487,16 +490,16 @@ msgstr "አስ_ተያየት:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "ሌሎች በዚህ ፎልደር ውስጥ ፋይል እንዲፈጥሩ እና እንዲያጠፉ _መፍቀጃ"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "ለ _እንግዳ መድረሻ (የተጠቃሚ መግለጫ ለሌላቸው)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s የተመለሰው በ ምልክት %d"
 
 #: ../share/shares.c:132
 #, c-format
@@ -506,12 +509,12 @@ msgstr "%s %s %s ባልታወቀ ምክንያት ወድቋል"
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' ስህተት መልሷል %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' ስህተት መልሷል %d"
 
 #: ../share/shares.c:185
 #, c-format
@@ -526,22 +529,22 @@ msgstr "ወድቋል"
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Samba's testparm returned with signal %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Samba's testparm failed for an unknown reason"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Samba's testparm returned error %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Samba's testparm returned error %d"
 
 #: ../share/shares.c:682
 #, c-format
@@ -554,3 +557,19 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
+
+#: ../wallpaper/caja-wallpaper-extension.c:109
+msgid "Set as wallpaper..."
+msgstr "እንደ ግድግዳ ወረቀት ማሰናጃ..."
+
+#: ../wallpaper/caja-wallpaper-extension.c:110
+msgid "Set image as the current wallpaper..."
+msgstr "ምስሉን እንደ ግድግዳ ወረቀት አሁን ማሰናጃ..."
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+msgid "Wallpaper"
+msgstr "የ ግድግዳ ወረቀት"
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+msgid "Allows to quickly set wallpaper"
+msgstr "በፍጥነት የ ግድግዳ ወረቀት ማሰናጃ ማስቻያ"

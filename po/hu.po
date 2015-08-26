@@ -5,15 +5,15 @@
 # Translators:
 # István Szőllősi <szollosi.istv4n@gmail.com>, 2014
 # kami911 <kami911@gmail.com>, 2014
-# Rezső Páder <rezso@rezso.net>, 2013-2014
+# Rezső Páder <rezso@rezso.net>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 10:14+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/MATE/language/hu/)\n"
+"PO-Revision-Date: 2015-07-21 13:32+0000\n"
+"Last-Translator: Rezső Páder <rezso@rezso.net>\n"
+"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -224,7 +224,7 @@ msgstr "Képek forgatása és átméretezése"
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Megnyitás _terminálban"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
@@ -267,7 +267,7 @@ msgstr "Ha ez igaz, akkor egy terminál megnyitása az asztalon a saját könyvt
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Küldés..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -562,16 +562,16 @@ msgstr "A meglévő megosztás elérési útja nem változtatható meg. Távolí
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper..."
-msgstr ""
+msgstr "Beállítás háttérképként..."
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper..."
-msgstr ""
+msgstr "A kép beállítása, aktuális háttérképként..."
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Háttérkép"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Háttérkép gyors beállítása"

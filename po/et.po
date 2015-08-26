@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 10:14+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Estonian (http://www.transifex.com/p/MATE/language/et/)\n"
+"PO-Revision-Date: 2015-07-15 08:37+0000\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"Language-Team: Estonian (http://www.transifex.com/mate/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -222,7 +222,7 @@ msgstr "Piltide pööramine ja nende suuruse muutmine"
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Ava _terminalis"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
@@ -265,7 +265,7 @@ msgstr "Kui määratud, siis töölaualt terminali avamine avab terminali koduka
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Saada..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -287,7 +287,7 @@ msgstr ""
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "Käsurea võtmete analüüs pole võimalik: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
@@ -303,7 +303,7 @@ msgstr ""
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "E-posti kliendi ja Pidgini integratsioon"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
@@ -458,7 +458,7 @@ msgstr "Loo _jagatud ressurss"
 
 #: ../share/mate-file-manager-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Jagatud ressursi kohta andmete hankimisel tekkis viga"
 
 #: ../share/mate-file-manager-share.c:1110
 msgid "Folder Sharing"
@@ -499,12 +499,12 @@ msgstr ""
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s lõpetas signaaliga %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s lõpetas teadmata põhjusel veaga"
 
 #: ../share/shares.c:152
 #, c-format
@@ -534,7 +534,7 @@ msgstr "Samba testparm lõpetas signaaliga %d"
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Samba testparm lõpetas teadmata põhjusel veaga"
 
 #: ../share/shares.c:569
 #, c-format
@@ -544,7 +544,7 @@ msgstr "Samba testparm tagastas vea %d: %s"
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Samba testparm tagastas vea %d"
 
 #: ../share/shares.c:682
 #, c-format
@@ -560,7 +560,7 @@ msgstr "Olemasoleva jagatud ressursi kataloogi pole võimalik muuta. Eemalda eel
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper..."
-msgstr ""
+msgstr "Määra tapeediks..."
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper..."
@@ -568,7 +568,7 @@ msgstr ""
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Tapeet"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"

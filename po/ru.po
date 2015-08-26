@@ -5,15 +5,16 @@
 # Translators:
 # Alexei Sorokin <sor.alexei@meowr.ru>, 2013
 # Alexei Sorokin <sor.alexei@meowr.ru>, 2014
+# AlexL <loginov.alex.valer@gmail.com>, 2015
 # Vlad Orlov <monsta@inbox.ru>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 10:14+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/p/MATE/language/ru/)\n"
+"PO-Revision-Date: 2015-08-26 09:28+0000\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/mate/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,14 +27,14 @@ msgstr "Открыть от администратора"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Открывает файл с административными привелегиями"
+msgstr "Открывает файл с административными привилегиями"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Невозможно определить программу для запуска.</b></big>⏎ ⏎ Выбранный вами предмет не может быть открыт с привелегиями администратора из-за того, что корректное приложение не может быть определено."
+msgstr "<big><b>Невозможно определить программу для запуска.</b></big>\n\nВыбранный вами объект не может быть открыт с привилегиями администратора из-за того, что корректное приложение не может быть определено."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -41,7 +42,7 @@ msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr "Расширение для повышения привелегий"
+msgstr "Расширение для повышения привилегий"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -224,7 +225,7 @@ msgstr "Вращать и изменять размер изображений"
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Открыть в _Терминале"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
@@ -267,7 +268,7 @@ msgstr "Если выставлена \"истина\", то при открыт
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Отправить…"
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -506,7 +507,7 @@ msgstr "%s %s %s вернулся с сигналом %d"
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr "%s %s %s провалился без известной причины"
+msgstr "%s %s %s не удался по неизвестной причине"
 
 #: ../share/shares.c:152
 #, c-format
@@ -536,7 +537,7 @@ msgstr "testparm Samba вернулся с сигналом %d"
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr "testparm Samba провалился без известной причины"
+msgstr "testparm Samba не удался по неизвестной причине"
 
 #: ../share/shares.c:569
 #, c-format
@@ -558,20 +559,20 @@ msgstr "Не удаётся удалить публикацию пути %s: э�
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Не удаётся изменить путь существующей публикации; пожалуйста, удалите сначала старую публикацию и затем создаёте новую"
+msgstr "Не удаётся изменить путь существующей публикации; пожалуйста, сначала удалите старую публикацию, а затем создайте новую"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper..."
-msgstr ""
+msgstr "Установить в качестве обоев..."
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper..."
-msgstr ""
+msgstr "Установить изображение в качестве текущих обоев..."
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Обои"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Позволяет быстро установить обои"

@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 15:46+0100\n"
-"PO-Revision-Date: 2015-06-29 00:43+0000\n"
+"POT-Creation-Date: 2015-07-13 12:14+0200\n"
+"PO-Revision-Date: 2015-07-13 11:58+0000\n"
 "Last-Translator: Mehmet <mehmet337402@gmail.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/p/MATE/language/tr/)\n"
+"Language-Team: Turkish (http://www.transifex.com/mate/MATE/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,11 +36,11 @@ msgid ""
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr "<big><b>Çalıştırılacak program tespit edilemedi</b></big>\n\nSeçtiğiniz unsur yönetici yetkileriyle açılamaz çünkü doğru uygulama tespit edilemedi."
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:1
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
 msgstr "Gksu"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.h:2
+#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
 msgstr "Yetki verme eklentisi"
 
@@ -214,41 +214,41 @@ msgstr "Resim döndürülüyor: %d, toplam %d"
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>\"%s\" döndürülüyor</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:1
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
 msgstr "Resim Dönüştürücü"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.h:2
+#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
 msgstr "Resimleri döndür ve boyutlandır"
 
-#: ../open-terminal/caja-open-terminal.c:423
-#: ../open-terminal/caja-open-terminal.c:436
-msgid "Open In _Terminal"
-msgstr "_Uçbirimde aç"
+#: ../open-terminal/caja-open-terminal.c:426
+#: ../open-terminal/caja-open-terminal.c:439
+msgid "Open in _Terminal"
+msgstr "_Uçbirimde Aç"
 
-#: ../open-terminal/caja-open-terminal.c:425
+#: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
 msgstr "Şu anda seçili olan dizini uçbirimde aç"
 
-#: ../open-terminal/caja-open-terminal.c:427
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:430
+#: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
 msgstr "Şu anda açılmış olan dizini uçbirimde aç"
 
-#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
 msgstr "_Uçbirim aç"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
 msgstr "Uçbirim aç"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:1
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
 msgstr "Uçbirim aç"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.h:2
+#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
 msgstr "Klasörlerden uçbirim aç"
 
@@ -267,9 +267,8 @@ msgid ""
 msgstr "Doğru olarak ayarlanırsa, masaüstünde bir uçbirim açılması ev dizininde bir terminal açacaktır. Aksi takdirde terminal masaüstü dizininde açılacaktır. Masaüstü dizini ile ev diziniyle aynı olması durumunda bu anahtarın gereksiz olacağını unutmayınız."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
-#: ../sendto/caja-sendto.ui.h:1
-msgid "Send To..."
-msgstr "Şuna gönder..."
+msgid "Send to..."
+msgstr "Gönder..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -279,35 +278,39 @@ msgstr "Dosyayı e-posta, anlık mesaj ile gönder..."
 msgid "Send files by mail, instant message..."
 msgstr "Dosyaları e-posta, anlık mesaj ile gönder..."
 
-#: ../sendto/caja-sendto-command.c:576
+#: ../sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "Dosyalar"
 
-#: ../sendto/caja-sendto-command.c:788
+#: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "URI ya da dosya isimlerinin seçenek olarak geçilmesini bekler\n"
 
-#: ../sendto/caja-sendto-command.c:808
+#: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Satır komutu seçenekleri ayrıştırılamadı: %s\n"
 
-#: ../sendto/caja-sendto-command.c:823
+#: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "Hiçbir eklenti yüklenemedi."
 
-#: ../sendto/caja-sendto-command.c:826
+#: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "Kurulumunuzu kontrol ediniz"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:1
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
 msgstr "Gönder"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.h:2
+#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
 msgstr "E-posta istemcileri ve Pidgin'i bütünler"
+
+#: ../sendto/caja-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Şuna gönder..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -337,27 +340,27 @@ msgstr "_Paketlenmiş gönder:"
 msgid "Email"
 msgstr "E-posta"
 
-#: ../sendto/plugins/gajim/gajim.c:417
+#: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Dosya gönderilemedi"
 
-#: ../sendto/plugins/gajim/gajim.c:418
+#: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Uzaktaki gajim hizmetine hiçbir bağlantı yok."
 
-#: ../sendto/plugins/gajim/gajim.c:442 ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Dosyanın gönderilmesi başarısız oldu"
 
-#: ../sendto/plugins/gajim/gajim.c:443
+#: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Alıcı eksik."
 
-#: ../sendto/plugins/gajim/gajim.c:482
+#: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Bilinmeyen alıcı."
 
-#: ../sendto/plugins/gajim/gajim.c:505
+#: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Anlık mesaj (Gajim)"
 
@@ -373,7 +376,7 @@ msgstr "Mevcut CD/DVD"
 msgid "CD/DVD Creator"
 msgstr "CD/DVD oluşturucusu"
 
-#: ../sendto/plugins/pidgin/pidgin.c:464
+#: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "Anlık mesaj (Pidgin)"
 
@@ -385,12 +388,12 @@ msgstr "Çıkarılabilir diskler ve paylaşmalar"
 msgid "UPnP Media Server"
 msgstr "UPnP ortam sunucusu"
 
-#: ../share/libcaja-share.caja-extension.in.h:1
+#: ../share/libcaja-share.caja-extension.in.in.h:1
 #: ../share/mate-file-manager-share.c:1050
 msgid "Share"
 msgstr "Paylaşım"
 
-#: ../share/libcaja-share.caja-extension.in.h:2
+#: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
 msgstr "Bir klasörü hızlıca paylaşmaya imkân verir"
 
@@ -557,3 +560,19 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "Mevcut bir paylaşımın yolu değiştirilemez; lütfen eski paylaşımı kaldırıp yenisini ekleyiniz"
+
+#: ../wallpaper/caja-wallpaper-extension.c:109
+msgid "Set as wallpaper..."
+msgstr "Duvar kağıdı olarak ayarla..."
+
+#: ../wallpaper/caja-wallpaper-extension.c:110
+msgid "Set image as the current wallpaper..."
+msgstr "Geçerli duvar kağıdı olarak ayarla..."
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+msgid "Wallpaper"
+msgstr "Duvar kağıdı"
+
+#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+msgid "Allows to quickly set wallpaper"
+msgstr "Duvar kağıdını hızlıca ayarlamaya imkân verir."

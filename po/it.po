@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# dardin88 <linkin88mail@gmail.com>, 2014
+# dardin88 <linkin88mail@gmail.com>, 2014-2015
 # luca123 <l_moscato1@hotmail.it>, 2014
 # Stefano Karapetsas <stefano@karapetsas.com>, 2013-2014
 msgid ""
@@ -11,9 +11,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 10:14+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Italian (http://www.transifex.com/p/MATE/language/it/)\n"
+"PO-Revision-Date: 2015-07-13 13:19+0000\n"
+"Last-Translator: dardin88 <linkin88mail@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/mate/MATE/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -224,7 +224,7 @@ msgstr "Ruota e ridimensiona immagini"
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Apri nel _terminale"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
@@ -267,7 +267,7 @@ msgstr "Se impostato su vero, aprire un terminale sul desktop aprirà un termina
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Invia a..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -562,16 +562,16 @@ msgstr "Impossibile modificare il percorso della condivisione; rimuovere prima i
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper..."
-msgstr ""
+msgstr "Imposta come sfondo"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper..."
-msgstr ""
+msgstr "Imposta come sfondo"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Sfondo"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Permette di impostare rapidamente lo sfondo"

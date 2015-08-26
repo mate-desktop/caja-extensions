@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Joe Hansen <joedalton2@yahoo.dk>, 2013-2014
+# Joe Hansen <joedalton2@yahoo.dk>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 10:14+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Danish (http://www.transifex.com/p/MATE/language/da/)\n"
+"PO-Revision-Date: 2015-07-23 14:48+0000\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish (http://www.transifex.com/mate/MATE/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -222,7 +222,7 @@ msgstr "Roter og ændr størrelse på billeder"
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Åbn i _terminal"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
@@ -265,7 +265,7 @@ msgstr "Hvis angivet som true (sand), så vil åbning af en terminal på skriveb
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Send til ..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -560,16 +560,16 @@ msgstr "Kan ikke ændre stien for en eksisterende deling; fjern venligst den gam
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper..."
-msgstr ""
+msgstr "Angiv som baggrundsbillede ..."
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper..."
-msgstr ""
+msgstr "Angiv billede som baggrundsbillede ..."
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Baggrundsbillede"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Tillader hurtig angivelse af baggrundsbillede"

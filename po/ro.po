@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 10:14+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/p/MATE/language/ro/)\n"
+"PO-Revision-Date: 2015-08-15 11:03+0000\n"
+"Last-Translator: Daniel <danny34ever@yahoo.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/mate/MATE/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "Extensie acordare privilegii"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -218,12 +218,12 @@ msgstr "Convertor imagini"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "Rotește și redimensionează imagini"
 
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Deschide în _terminal"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
@@ -266,7 +266,7 @@ msgstr "Daca setarea este \"true\", deschiderea unui terminal pe desktop va desc
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Trimite la..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -423,12 +423,12 @@ msgstr ""
 
 #: ../share/mate-file-manager-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "Daugă permisiunile automat"
 
 #: ../share/mate-file-manager-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr ""
+msgstr "Nu au putut fi modificate permisiunile dosarului „%s”"
 
 #: ../share/mate-file-manager-share.c:446
 msgid "Share name is too long"
@@ -475,7 +475,7 @@ msgstr "Partajează acest dosar"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Partajare dosar</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
@@ -561,16 +561,16 @@ msgstr ""
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper..."
-msgstr ""
+msgstr "Folosire ca imagine de fundal..."
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper..."
-msgstr ""
+msgstr "Folosește ca imagine de fundal curentă..."
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Imagine de fundal"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Vă permite să definiți rapid o imagine de fundal"

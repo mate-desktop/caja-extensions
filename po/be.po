@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 10:14+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Belarusian (http://www.transifex.com/p/MATE/language/be/)\n"
+"PO-Revision-Date: 2015-07-23 09:52+0000\n"
+"Last-Translator: Mihail Varantsou <meequz@gmail.com>\n"
+"Language-Team: Belarusian (http://www.transifex.com/mate/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -222,7 +222,7 @@ msgstr "Змяненне павароту і памеру выяў"
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Адкрыць у _тэрмінале"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
@@ -261,11 +261,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr ""
+msgstr "Калі ісціна, то пры адкрыванні тэрмінала на стале ён адкрыецца ў хатнім каталогу. Інакш ён адкрыецца ў каталогу стала. Заўважце, гэты ключ бессэнсоўны, калі каталог стала супадае з хатнім."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Даслаць..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -529,27 +529,27 @@ msgstr "Не выйшла"
 #: ../share/shares.c:548
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "testparm Samba вярнуўся з сігналам %d"
 
 #: ../share/shares.c:554
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "testparm Samba зваліўся з невядомай нагоды"
 
 #: ../share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "testparm Samba вярнуў памылку %d: %s"
 
 #: ../share/shares.c:571
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "testparm Samba вярнуў памылку %d"
 
 #: ../share/shares.c:682
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Нельга выдаліць супольны рэсурс для адраса %s: гэты адрас не апублікаваны як супольны"
 
 #: ../share/shares.c:728
 #, c-format
@@ -560,16 +560,16 @@ msgstr "Немагчыма змяніць шлях існага рэсурса; 
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper..."
-msgstr ""
+msgstr "Зрабіць абрусам"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper..."
-msgstr ""
+msgstr "Паставіць выяву на стол ў якасці абруса"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Абрус"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Дазваляе хутка змяніць абрус"
