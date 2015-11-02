@@ -215,7 +215,6 @@ net_usershare_run (int argc, char **argv, GKeyFile **ret_key_file, GError **erro
 	return retval;
 }
 
-
 
 /* Internals */
 
@@ -754,7 +753,6 @@ modify_share (const char *old_path, ShareInfo *info, GError **error)
 	return add_share (info, error);
 }
 
-
 
 /* Public API */
 
