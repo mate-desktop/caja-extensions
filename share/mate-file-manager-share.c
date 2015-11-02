@@ -1205,7 +1205,6 @@ caja_share_register_type (GTypeModule *module)
 					    "CajaShare",
 					    &info, 0);
 
-  /* onglet share propriété */
   static const GInterfaceInfo property_page_provider_iface_info = {
     (GInterfaceInitFunc) caja_share_property_page_provider_iface_init,
     NULL,
@@ -1218,7 +1217,6 @@ caja_share_register_type (GTypeModule *module)
 			       &property_page_provider_iface_info);
 
 
-  /* premier page propriété ? */
   static const GInterfaceInfo info_provider_iface_info = {
     (GInterfaceInitFunc) caja_share_info_provider_iface_init,
     NULL,
