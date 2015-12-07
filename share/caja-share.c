@@ -63,7 +63,7 @@ typedef struct {
   char *path; /* Full path which is being shared */
   CajaFileInfo *fileinfo; /* Caja file to which this page refers */
 
-  GtkBuilder *xml;
+  GtkBuilder *ui;
 
   GtkWidget *main; /* Widget that holds all the rest.  Its "PropertyPage" GObject-data points to this PropertyPage structure */
   
@@ -627,7 +627,7 @@ free_property_page_cb (gpointer data)
 
   g_free (page->path);
   g_object_unref (page->fileinfo);
-  g_object_unref (page->xml);
+  g_object_unref (page->ui);
 
   g_free (page);
 }
@@ -685,12 +685,12 @@ create_property_page (CajaFileInfo *fileinfo)
     }
 
 
-  page->xml = gtk_builder_new ();
-  gtk_builder_set_translation_domain (page->xml, GETTEXT_PACKAGE);
-  g_assert (gtk_builder_add_from_file (page->xml,
+  page->ui = gtk_builder_new ();
+  gtk_builder_set_translation_domain (page->ui, GETTEXT_PACKAGE);
+  g_assert (gtk_builder_add_from_file (page->ui,
               INTERFACES_DIR"/share-dialog.ui", &error));
 
-  page->main = GTK_WIDGET (gtk_builder_get_object (page->xml, "vbox1"));
+  page->main = GTK_WIDGET (gtk_builder_get_object (page->ui, "vbox1"));
   g_assert (page->main != NULL);
 
   g_object_set_data_full (G_OBJECT (page->main),
@@ -698,16 +698,16 @@ create_property_page (CajaFileInfo *fileinfo)
 			  page,
 			  free_property_page_cb);
 
-  page->checkbutton_share_folder = GTK_WIDGET (gtk_builder_get_object (page->xml,"checkbutton_share_folder"));
-  page->hbox_share_comment = GTK_WIDGET (gtk_builder_get_object (page->xml,"hbox_share_comment"));
-  page->hbox_share_name = GTK_WIDGET (gtk_builder_get_object (page->xml,"hbox_share_name"));
-  page->checkbutton_share_rw_ro = GTK_WIDGET (gtk_builder_get_object (page->xml,"checkbutton_share_rw_ro"));
-  page->checkbutton_share_guest_ok = GTK_WIDGET (gtk_builder_get_object (page->xml,"checkbutton_share_guest_ok"));
-  page->entry_share_name = GTK_WIDGET (gtk_builder_get_object (page->xml,"entry_share_name"));
-  page->entry_share_comment = GTK_WIDGET (gtk_builder_get_object (page->xml,"entry_share_comment"));
-  page->label_status = GTK_WIDGET (gtk_builder_get_object (page->xml,"label_status"));
-  page->button_cancel = GTK_WIDGET (gtk_builder_get_object (page->xml,"button_cancel"));
-  page->button_apply = GTK_WIDGET (gtk_builder_get_object (page->xml,"button_apply"));
+  page->checkbutton_share_folder = GTK_WIDGET (gtk_builder_get_object (page->ui,"checkbutton_share_folder"));
+  page->hbox_share_comment = GTK_WIDGET (gtk_builder_get_object (page->ui,"hbox_share_comment"));
+  page->hbox_share_name = GTK_WIDGET (gtk_builder_get_object (page->ui,"hbox_share_name"));
+  page->checkbutton_share_rw_ro = GTK_WIDGET (gtk_builder_get_object (page->ui,"checkbutton_share_rw_ro"));
+  page->checkbutton_share_guest_ok = GTK_WIDGET (gtk_builder_get_object (page->ui,"checkbutton_share_guest_ok"));
+  page->entry_share_name = GTK_WIDGET (gtk_builder_get_object (page->ui,"entry_share_name"));
+  page->entry_share_comment = GTK_WIDGET (gtk_builder_get_object (page->ui,"entry_share_comment"));
+  page->label_status = GTK_WIDGET (gtk_builder_get_object (page->ui,"label_status"));
+  page->button_cancel = GTK_WIDGET (gtk_builder_get_object (page->ui,"button_cancel"));
+  page->button_apply = GTK_WIDGET (gtk_builder_get_object (page->ui,"button_apply"));
 
   /* Sanity check so that we don't screw up the Glade file */
   g_assert (page->checkbutton_share_folder != NULL
