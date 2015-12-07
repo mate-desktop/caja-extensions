@@ -31,12 +31,6 @@
 
 static GType type_list[1];
 
-void caja_module_initialize (GTypeModule  *module);
-void caja_module_shutdown   (void);
-void caja_module_list_types (const GType **types,
-				 int          *num_types);
-
-
 void
 caja_module_initialize (GTypeModule *module)
 {
