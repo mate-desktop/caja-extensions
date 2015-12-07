@@ -18,8 +18,8 @@ caja_extensiondir=$(CAJA_EXTENSION_DIR)
 caja_extension_LTLIBRARIES=libcaja-share.la
 
 libcaja_share_la_SOURCES =  \
-	mate-file-manager-share.c        \
-	mate-file-manager-share.h	\
+	caja-share.c        \
+	caja-share.h	\
 	shares.c		\
 	shares.h
 

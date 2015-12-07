@@ -1,4 +1,4 @@
-/* mate-file-manager-share -- Caja File Sharing Extension
+/* caja-share -- Caja File Sharing Extension
  *
  * Sebastien Estienne <sebastien.estienne@gmail.com>
  *
@@ -31,7 +31,7 @@
 #include <libcaja-extension/caja-menu-provider.h>
 #include <libcaja-extension/caja-property-page-provider.h>
 
-#include "mate-file-manager-share.h"
+#include "caja-share.h"
 
 #include <glib/gi18n-lib.h>
 
@@ -686,7 +686,7 @@ create_property_page (CajaFileInfo *fileinfo)
 
 
   page->xml = gtk_builder_new ();
-  gtk_builder_set_translation_domain (page->xml, "mate-file-manager-share");
+  gtk_builder_set_translation_domain (page->xml, GETTEXT_PACKAGE);
   g_assert (gtk_builder_add_from_file (page->xml,
               INTERFACES_DIR"/share-dialog.ui", &error));
 
@@ -1252,7 +1252,7 @@ caja_share_register_type (GTypeModule *module)
 void
 caja_module_initialize (GTypeModule  *module)
 {
-  /*g_print ("Initializing mate-file-manager-share extension\n");*/
+  /*g_print ("Initializing caja-share extension\n");*/
 
   bindtextdomain(GETTEXT_PACKAGE, MATELOCALEDIR);
   bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
@@ -1264,7 +1264,7 @@ caja_module_initialize (GTypeModule  *module)
 void
 caja_module_shutdown   (void)
 {
-  /*g_print ("Shutting down mate-file-manager-share extension\n");*/
+  /*g_print ("Shutting down caja-share extension\n");*/
   /* FIXME freeing */
 }
 

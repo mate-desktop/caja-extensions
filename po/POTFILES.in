@@ -25,7 +25,7 @@ sendto/plugins/pidgin/pidgin.c
 sendto/plugins/removable-devices/removable-devices.c
 sendto/plugins/upnp/upnp.c
 [type: gettext/ini]share/libcaja-share.caja-extension.in.in
-share/mate-file-manager-share.c
+share/caja-share.c
 [type: gettext/glade]share/share-dialog.ui
 share/shares.c
 wallpaper/caja-wallpaper-extension.c
