@@ -106,8 +106,8 @@ caja_cwe_get_file_items (CajaMenuProvider *provider,
     if (one_item && is_image ((CajaFileInfo *)files->data) &&
         !caja_file_info_is_directory ((CajaFileInfo *)files->data)) {
         item = caja_menu_item_new ("CajaCwe::sendto",
-                           _("Set as wallpaper..."),
-                           _("Set image as the current wallpaper..."),
+                           _("Set as wallpaper"),
+                           _("Set image as the current wallpaper"),
                            NULL);
         g_signal_connect (item, 
                   "activate",
