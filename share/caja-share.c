@@ -263,14 +263,14 @@ remove_from_saved_permissions (const char *path, mode_t remove_mask)
       str = g_key_file_get_string (key_file, path, "need_mask", NULL);
 
       if (str)
-	{
-	  guint i;
+        {
+          guint i;
 
-	  if (sscanf (str, "%o", &i) == 1) /* octal */
-	    need_mask = i;
+          if (sscanf (str, "%o", &i) == 1) /* octal */
+            need_mask = i;
 
-	  g_free (str);
-	}
+          g_free (str);
+        }
 
       remove_from_current_mask = need_mask & remove_mask;
       remove_permissions (path, remove_from_current_mask);
@@ -278,17 +278,17 @@ remove_from_saved_permissions (const char *path, mode_t remove_mask)
       need_mask &= ~remove_mask;
 
       if (need_mask == 0)
-	{
-	  /* NULL GError */
-	  g_key_file_remove_group (key_file, path, NULL);
-	}
+        {
+          /* NULL GError */
+          g_key_file_remove_group (key_file, path, NULL);
+        }
       else
-	{
-	  char buf[50];
+        {
+          char buf[50];
 
-	  g_snprintf (buf, sizeof (buf), "%o", (guint) need_mask); /* octal */
-	  g_key_file_set_string (key_file, path, "need_mask", buf);
-	}
+          g_snprintf (buf, sizeof (buf), "%o", (guint) need_mask); /* octal */
+          g_key_file_set_string (key_file, path, "need_mask", buf);
+        }
 
       save_key_file (key_file_path, key_file);
     }
@@ -341,13 +341,13 @@ confirm_sharing_permissions (GtkWidget *widget, const char *path, gboolean is_sh
       g_assert (mode != new_mode);
 
       if (!message_confirm_missing_permissions (widget, path, need_mask))
-	return CONFIRM_CANCEL_OR_ERROR;
+        return CONFIRM_CANCEL_OR_ERROR;
 
       if (chmod (path, new_mode) != 0)
-	{
-	  error_when_changing_permissions (widget, path);
-	  return CONFIRM_CANCEL_OR_ERROR;
-	}
+        {
+          error_when_changing_permissions (widget, path);
+          return CONFIRM_CANCEL_OR_ERROR;
+        }
 
       save_changed_permissions (path, need_mask);
 
@@ -398,7 +398,7 @@ property_page_commit (PropertyPage *page)
 
       /* Since the operation failed, we restore things to the way they were */
       if (status == CONFIRM_MODIFIED)
-	restore_saved_permissions (page->path);
+        restore_saved_permissions (page->path);
     }
   else
     {
@@ -487,27 +487,27 @@ property_page_share_name_is_valid (PropertyPage *page)
 
       error = NULL;
       if (!shares_get_share_name_exists (newname, &exists, &error))
-	{
-	  char *str;
+        {
+          char *str;
 
-	  str = g_strdup_printf (_("Error while getting share information: %s"), error->message);
-	  property_page_set_error (page, str);
-	  g_free (str);
-	  g_error_free (error);
+          str = g_strdup_printf (_("Error while getting share information: %s"), error->message);
+          property_page_set_error (page, str);
+          g_free (str);
+          g_error_free (error);
 
-	  return FALSE;
-	}
+          return FALSE;
+        }
 
       if (exists)
-	{
-	  property_page_set_error (page, _("Another share has the same name"));
-	  return FALSE;
-	}
+        {
+          property_page_set_error (page, _("Another share has the same name"));
+          return FALSE;
+        }
       else
-	{
-	  property_page_set_normal (page);
-	  return TRUE;
-	}
+        {
+          property_page_set_normal (page);
+          return TRUE;
+        }
     }
 }
 
@@ -904,14 +904,14 @@ get_share_info_for_file_info (CajaFileInfo *file, ShareInfo **share_info, gboole
 
       /* FIXME: NULL GError */
       if (!shares_get_share_info_for_share_name (share_name, share_info, NULL))
-	{
-	  *share_info = NULL;
-	  *is_shareable = TRUE; /* it *has* the prefix, anyway... we are just unsynchronized with what mate-vfs thinks */
-	}
+        {
+          *share_info = NULL;
+          *is_shareable = TRUE; /* it *has* the prefix, anyway... we are just unsynchronized with what mate-vfs thinks */
+        }
       else
-	{
-	  *is_shareable = TRUE;
-	}
+        {
+          *is_shareable = TRUE;
+        }
 
       goto out;
     }
