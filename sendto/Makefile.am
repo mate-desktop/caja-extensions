@@ -68,9 +68,6 @@ nst-enum-types.c: $(nst_headers_to_scan_for_enums) Makefile nst-enum-types.h
 			--vtail "      { 0, NULL, NULL }\n    };\n    etype = g_@type@_register_static (\"@EnumName@\", values);\n  }\n  return etype;\n}\n" \
 		$(nst_headers_to_scan_for_enums)) > $@
 
-convertdir=$(datadir)/MateConf/gsettings
-convert_DATA = caja-sendto-convert
-
 gsettingsschema_in_files = org.mate.Caja.Sendto.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 @INTLTOOL_XML_NOMERGE_RULE@
@@ -87,7 +84,6 @@ EXTRA_DIST = \
 	$(ui_DATA) \
 	$(man_MANS) \
 	caja-sendto.pc.in \
-	$(convert_DATA) \
 	$(gsettingsschema_in_files)
 
 CLEANFILES = \

@@ -28,9 +28,6 @@ gsettings_SCHEMAS = $(gsettings_schemas_in_files:.gschema.xml.in=.gschema.xml)
 
 @GSETTINGS_RULES@
 
-convertdir = $(datadir)/MateConf/gsettings
-convert_DATA = caja-open-terminal.convert
-
 extensiondir = $(datadir)/caja/extensions
 extension_in_files = libcaja-open-terminal.caja-extension.in
 extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
@@ -42,5 +39,4 @@ DISTCLEANFILES = \
 CLEANFILES = $(extension_DATA)
 
 EXTRA_DIST = \
-	$(convert_DATA) \
 	$(gsettings_schemas_in_files)
