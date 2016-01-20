@@ -818,7 +818,7 @@ create_property_page (CajaFileInfo *fileinfo)
 
   gtk_button_set_label (GTK_BUTTON (page->button_apply), apply_button_label);
   gtk_button_set_use_underline (GTK_BUTTON (page->button_apply), TRUE);
-  gtk_button_set_image (GTK_BUTTON (page->button_apply), gtk_image_new_from_stock (GTK_STOCK_SAVE, GTK_ICON_SIZE_BUTTON));
+  gtk_button_set_image (GTK_BUTTON (page->button_apply), gtk_image_new_from_icon_name ("document-save", GTK_ICON_SIZE_BUTTON));
 
   gtk_widget_set_sensitive (page->button_apply, FALSE);
 
