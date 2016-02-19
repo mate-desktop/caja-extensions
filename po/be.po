@@ -4,12 +4,13 @@
 # 
 # Translators:
 # , 2014-2015
+# , 2014-2015, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-23 09:52+0000\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2016-02-12 10:24+0000\n"
 "Last-Translator: Mihail Varantsou <meequz@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/mate/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
@@ -291,7 +292,7 @@ msgstr "Немагчыма распазнаць параметры загадн�
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr "Немагчыма загрузіць ніводнай убудовы."
+msgstr "Немагчыма загрузіць ніводнага плагіна."
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
@@ -385,8 +386,7 @@ msgstr "Рухомыя дыскі і рэсурсы"
 msgid "UPnP Media Server"
 msgstr "Медыя-сервер UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "Зрабіць супольным"
 
@@ -394,81 +394,79 @@ msgstr "Зрабіць супольным"
 msgid "Allows to quickly share a folder"
 msgstr "Дазваляе хутка зрабіць каталог супольным"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "Caja дадасць пэўныя дазволы на каталог \"%s\", каб ім можна было падзяліцца"
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr "Каталогу \"%s\" трэба наступныя дазволы для супольнага доступу:\n%s%s%sДадаць гэтыя дазволы аўтаматычна?"
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "  - дазвол на чытанне іншымі\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "  - дазвол на запісванне іншымі\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "  - дазвол на выкананне іншымі\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Надаць дазволы аўтаматычна"
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Немагчыма змяніць дазволы на каталог \"%s\""
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
 msgstr "Назва рэсурса занадта доўгая"
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
 msgstr "Назва рэсурса не можа быць пустой"
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Узнікла памылка падчас атрымання звестак пра рэсурс: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
 msgstr "Іншы рэсурс мае такую самую назву"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
 msgstr "Змяніць _супольны рэсурс"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
 msgstr "Стварыць _супольны рэсурс"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Падчас атрымання звестак пра супольныя рэсурсы ўзнікла памылка"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
 msgstr "Дзяліцца каталогам"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
 msgstr "Настáўленні супольнага выкарыстання"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "Падзяліцца гэтым каталогам"
 
@@ -521,37 +519,37 @@ msgstr "'net usershare' вярнуў памылку %d"
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "вывад 'net usershare' не ёсць карэктным UTF-8-тэкстам"
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "Не выйшла"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "testparm Samba вярнуўся з сігналам %d"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "testparm Samba зваліўся з невядомай нагоды"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "testparm Samba вярнуў памылку %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "testparm Samba вярнуў памылку %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Нельга выдаліць супольны рэсурс для адраса %s: гэты адрас не апублікаваны як супольны"
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
@@ -559,12 +557,12 @@ msgid ""
 msgstr "Немагчыма змяніць шлях існага рэсурса; спачатку выдаліце стары рэсурс, а затым дадавайце новы"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr "Зрабіць абрусам"
+msgid "Set as wallpaper"
+msgstr "Зрабіць абрусам стала"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
-msgstr "Паставіць выяву на стол ў якасці абруса"
+msgid "Set image as the current wallpaper"
+msgstr "Выставіць выяву ў якасці фона працоўнага стала"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"

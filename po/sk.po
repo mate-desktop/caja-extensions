@@ -3,7 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2014
+# Dušan Kazik <prescott66@gmail.com>, 2015
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2014,2016
 # Michal Slovák <michalslovak2@hotmail.com>, 2013
 # Michal Slovák <michalslovak2@hotmail.com>, 2013
 # Tibor Kaputa <tibbbi2@gmail.com>, 2014
@@ -11,10 +12,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 10:14+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/p/MATE/language/sk/)\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2016-02-13 17:10+0000\n"
+"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
+"Language-Team: Slovak (http://www.transifex.com/mate/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -225,7 +226,7 @@ msgstr "Otáčanie a zmena veľkosti obrázkov"
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Otvoriť v _termináli"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
@@ -264,11 +265,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Pri nastavení tejto možnosti sa terminál otvorený na ploche otvorí v domovskom priečinku. Inak by sa otvoril v priečinku Plocha. Uvedomte si, že táto možnosť je irelevantná, ak je priečinok plochy zhodný s domovským priečinkom."
+msgstr "Ak je táto možnosť vybraná, terminál otvorený na ploche sa otvorí v domovskom priečinku. Inak by sa otvoril v priečinku Plocha. Uvedomte si, že táto možnosť je irelevantná, ak je priečinok plochy zhodný s domovským priečinkom."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Odoslať do..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -388,8 +389,7 @@ msgstr "Odpojiteľné disky a zdieľania"
 msgid "UPnP Media Server"
 msgstr "UPnP server médií"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "Zdieľať"
 
@@ -397,81 +397,79 @@ msgstr "Zdieľať"
 msgid "Allows to quickly share a folder"
 msgstr "Umožňuje rýchle zdieľanie priečinkov"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "Caja musí pridať isté oprávnenia do vášho priečinka „%s“, aby mohol byť zdieľaný"
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr "Priečinok „%s“ potrebuje tieto dodatočné oprávnenia, aby zdieľanie fungovalo:\n%s%s%sChcete, aby Caja pridala tieto povolenia priečinka automaticky?"
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "  - oprávnenie čítať ostatnými\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "  - oprávnenie zapisovať ostatnými\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "  - oprávnenia vykonať ostatnými\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Pridať oprávnenia automaticky"
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nepodarilo sa zmeniť oprávnenia priečinka „%s“"
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
 msgstr "Zdieľaný názov je príliš dlhý"
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
 msgstr "Zdieľaný názov nesmie zostať prázdny"
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Nastala chyba počas zisťovania zdieľaných informácií: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
 msgstr "Iné zdieľanie má rovnaký názov"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
 msgstr "Upraviť _zdieľanie"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
 msgstr "Vytvoriť z_dieľanie"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Nastala chyba počas zisťovania zdieľaných informácií"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
 msgstr "Zdieľanie priečinka"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
 msgstr "Možnosti zdieľania"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "Zdieľať tento priečinok"
 
@@ -512,49 +510,49 @@ msgstr "%s %s %s zlyhalo z neznámeho dôvodu"
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "'net usershare' vrátilo chybu %d: %s"
+msgstr "„net usershare“ vrátilo chybu %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "'net usershare' vrátilo chybu %d"
+msgstr "„net usershare“ vrátilo chybu %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "výstup 'net usershare' nie je platným kódovaním UTF-8"
+msgstr "výstup „net usershare“ nie je platným kódovaním UTF-8"
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "Zlyhalo"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Test Samba vrátil signál %d"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Test Samba zlyhalo z neznámeho dôvodu"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Test Samba vrátilo chybu %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Test Samba vrátilo chybu %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Nemožno odobrať zdieľanie pre cestu %s: táto cesta nie je zdieľaná"
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
@@ -562,17 +560,17 @@ msgid ""
 msgstr "Nemožno zmeniť cestu existujúceho zdieľania: prosím najskôr odstráňte staré zdieľanie a potom pridajte nové"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr ""
+msgid "Set as wallpaper"
+msgstr "Nastaviť ako pozadie plochy"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
-msgstr ""
+msgid "Set image as the current wallpaper"
+msgstr "Nastaví obrázok ako aktuálne pozadie plochy"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Pozadie plochy"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Umožňuje rýchle nastavenie pozadia plochy"

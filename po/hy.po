@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Siranush <ss.m.95@mail.ru>, 2015
+# Siranush <ss.m.95@mail.ru>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-08-07 16:37+0000\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2016-01-18 12:54+0000\n"
 "Last-Translator: Siranush <ss.m.95@mail.ru>\n"
 "Language-Team: Armenian (http://www.transifex.com/mate/MATE/language/hy/)\n"
 "MIME-Version: 1.0\n"
@@ -31,11 +31,11 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr ""
+msgstr "<big><b>Անհնար է որոշել ծրագրի մեկնարկը: </b></big>\n\nՁեր ընտրած տարրը չի կարող բացվել ադմինիստրատորի հզորությամբ, որովհետև ճիշտ կիրառումը չի կարող որոշվել։"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
@@ -134,11 +134,11 @@ msgstr "․չափափոխված"
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "ֆայլի տիտղոս"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Չափափոխել տեղում"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
@@ -157,17 +157,17 @@ msgstr "_Կրկին փորձել"
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Պատկերի չափափոխում։%d %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Չափափոխում \"%s\"</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել վավերական ֆայլի վերջածանցը!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
@@ -175,67 +175,67 @@ msgstr "Պտտել Նկարներ"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr ""
+msgstr "<b>Նկարի պտտում</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr ""
+msgstr "Ընտրել անկյունը"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr ""
+msgstr "Պատվերով անկյունը:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr ""
+msgstr "աստիճան ժամացույցի սլաքի ուղղությամբ"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr "․պտտված"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "Պտտել տեղում"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr ""
+msgstr "_Պտտել"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr ""
+msgstr "Պտտվող նկար: %d of %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr ""
+msgstr "<i>Պտտում \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "Նկարի Փոխակերպիչ"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "Պտտել և չափափոխել նկարներ"
 
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Բացել  _Տերմինալը"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
-msgstr ""
+msgstr "Բացել ներկայումս ընտրված թղթապանակը տերմինալում"
 
 #: ../open-terminal/caja-open-terminal.c:430
 #: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
-msgstr ""
+msgstr "Բացել ներկայումս բաց թղթապանակը տերմինալում"
 
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
-msgstr ""
+msgstr "Բացել _Տերմինալը"
 
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
@@ -247,13 +247,13 @@ msgstr "Բացել տերմինալը"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
-msgstr ""
+msgstr "Բացել տերմինալներ թղթապանակներից"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Արդյոք բացվող տերմինալը աշխատասեղանի վրա բացում է տերմինալ տուն դիրեկտորիայի մեջ"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -261,19 +261,19 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr ""
+msgstr "Եթե ճշգրիտ է, ապա բացելով տերմինալ աշխատասեղանի վրա կբացի տերմինալը գլխավոր թղթապանակի մեջ։ Հակառակ դեպքում, այն կարող է բացել է աշխատասեղանի թղթապանակը։ Նշենք, որ այս ստեղնը անտեղի է, եթե աշխատասեղանի թղթապանակը նույնականանում է գլխավոր թղթապանակի հետ։"
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Ուղարկել դեպի․․․"
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "Ուղարկել ֆայլը փոստով, ակնթարթային հաղորդագրություն..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "Ուղարկել ֆայլերը փոստով, ակնթարթային հաղորդագրություն..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
@@ -282,32 +282,32 @@ msgstr "Ֆայլեր"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "Ակնկալում URI֊ներ կամ ֆայլի անուններ ընդունված, որպես տարբերակ\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "Չհաջողվեց վերլուծել հրամանային տողի տարբերակները: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr ""
+msgstr "Չհաջողվեց բեռնել որևէ կոնտակտներ։"
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr ""
+msgstr "Խնդրում ենք ստուգել Ձեր տեղադրումը"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "Ուղարկել դեպի"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Ինտեգրվել է էլփոստի հաճախորդներին և Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr ""
+msgstr "Ուղարկել դեպի․․․"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -315,23 +315,23 @@ msgstr "_Ուղարկել"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr ""
+msgstr "<b>Նպատակակետ</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr ""
+msgstr "Ուղարկել _որպես:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr ""
+msgstr "Ուղարկել դ_եպի:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr ""
+msgstr "<b>Սեղմում</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "Ուղարկել _փաթեթավորված:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
@@ -339,150 +339,147 @@ msgstr "Էլփոստ"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr ""
+msgstr "Անհնար է ուղարկել ֆայլ"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr ""
+msgstr "gajim հեռավոր ծառայության կապ չկա։"
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr ""
+msgstr "Ֆայլի ուղարկումը ձախողվեց"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr ""
+msgstr "Ստացողը բացակայում է."
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr ""
+msgstr "Անհայտ հասցեատեր."
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "Ակնթարթային Հաղորդագրություն (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr ""
+msgstr "Նոր CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr ""
+msgstr "Գոյություն ունեցող CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr ""
+msgstr "CD/DVD Ստեղծող"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr ""
+msgstr "Ակնթարթային Հաղորդագրություն (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr ""
+msgstr "Շարժական սկավառակներ և բաժնեմասեր"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr ""
+msgstr "UPnP Մեդիա Սերվեր"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "Մասնաբաժին"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "Թույլ է տալիս արագ կիսել թղթապանակը"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "Caja պետք է ավելացնել որոշ թույլտվություններ ձեր \"%s\" թղթապանակներին, որպեսզի կիսեք այն"
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "\"%s\" թղթապանակին անհրաժեշտ հետևյալ է լրացուցիչ թույլտվությունները կիսեվելու աշխատանքի համար․\n%s%s%sՑանկանո՞ւմ եք Caja֊ն թղթապանակում ավելացնի այդ թույլտվություններ ինքնաբերաբար։"
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr " - կարդալ թույլտվություն ուրիշների կողմից\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr " - գրել թույլտվություն ուրիշների կողմից\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "- կատարել թույլտվություն մյուսների կողմից\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "Ավելացնել թույլտվությունները ինքնաբերաբար"
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr ""
+msgstr "Չի հաղոջվում փոխել թղէապանակի թույլտվությունները \"%s\""
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
-msgstr ""
+msgstr "Կիսել անունը չափազանց երկար է"
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "Կիսված անունը չի կարող դատարկ լինել"
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Սխալ, մինչ կիսված տեղեկատվության ստանալը: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Մեկ այլ մասնաբաժինը ունի նույն անունը"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "Փոփոխել _Բաժինը"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "Ստեղծել _Բաժին"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Տեղի է ունեցել սխալ, մինչ բաժանվող ինֆորմացիայի ստացումը"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
-msgstr ""
+msgstr "Թղթապանակի Բաժանում"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
-msgstr ""
+msgstr "Բաժանման Տարբերակներ"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "Կիսել այս թղթապանակը"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Թղթապանակի Թաժանում</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "Բաժանե _անուն․"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Բաժանել այս _թղթապանակը"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
@@ -490,81 +487,81 @@ msgstr "Մե_կնաբանություն։"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Թույլ տալ, որ մյուսները ստեղծեն և ջնջեն ֆայլեր այս թղթապանակում"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "_Հյուրի հնարավորությունները (առանց օգտատիրոջ հաշիվ ունեցող մարդկանց համար)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s վերադարձավ ազդանշանով %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s ձախողվեց անհայտ պատճառներով"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' վերադարձված սխալ %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' վերադարձված սխալ %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "ելքը 'net usershare' անվավեր է UTF-8 կոդավորմանը"
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "Ձախողվեց"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Samba's testparm վերադաձվել է ազդանշանով %d"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Samba's testparm ձախողվեց անհայտ պատճառներով"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Samba's testparm  վերադարձված սխալ %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Samba's testparm վերադարձված սխալ %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Հնարավոր չէ հեռացնել մասնաբաժինը %s ուղղու համար,  որի ճանապարհը կիսաված չէ"
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr ""
+msgstr "Հնարավոր չէ փոխել ուղին գոյություն ունեցող մասնաբաժնի։ Խնդրում ենք հեռացնել հին առաջին մասնաբաժինը և ավելացնել նորը"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr ""
+msgid "Set as wallpaper"
+msgstr "Սահմանել որպես պաստառ"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
-msgstr ""
+msgid "Set image as the current wallpaper"
+msgstr "Սահմանել պատկերը որպես ներկայիս պաստառ"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
@@ -572,4 +569,4 @@ msgstr "Պաստառ"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Թույլ է տալիս արագ ստեղծել պաստառ"

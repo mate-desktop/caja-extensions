@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Audrius Meskauskas <audrius.meskauskas@meska.info>, 2015
 # Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2014
 # brennus <jonas.ska@gmail.com>, 2014
-# Moo, 2014-2015
+# Moo, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-20 11:20+0000\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2016-02-15 19:31+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +34,7 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b> Paleidimui nepavyko nustatyti programos.</b></big>\n\nPasirinktas elementas negali būti atidarytas administratoriaus teisėmis, nes nepavyksta nustatyti tinkamos programos."
+msgstr "<big><b>Paleidimui nepavyko nustatyti programos.</b></big>\n\nPasirinktas elementas negali būti atvertas administratoriaus teisėmis, nes nepavyksta nustatyti tinkamos programos."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -215,7 +216,7 @@ msgstr "<i>Sukama \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
-msgstr "Paveikslų Keitiklis"
+msgstr "Paveikslų keitiklis"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
@@ -255,7 +256,7 @@ msgstr "Atverti terminalą iš aplanko"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Ar atidarant terminalą darbalaukyje atidaryti terminalą naudotojo aplanke"
+msgstr "Ar atveriant terminalą darbalaukyje, atverti jį naudotojo aplanke"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -263,7 +264,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Jeigu įjungta, atidaromas iš darbalaukio terminalas atsivers pagrindiniame kataloge. Kitu atveju jis bus atidarytas darbalaukio kataloge. Šis punktas nereikšmingas darbalaukio katalogui esant tapačiam naudotojo pagrindiniam aplankui."
+msgstr "Jeigu įjungta, atidaromas iš darbalaukio terminalas atsivers pagrindiniame kataloge. Kitu atveju jis bus atvertas darbalaukio kataloge. Šis punktas nereikšmingas darbalaukio katalogui esant tapačiam naudotojo pagrindiniam aplankui."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -345,7 +346,7 @@ msgstr "Nepavyko išsiųsti failo"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr "Nėra ryšio su gajim nutolusia paslauga."
+msgstr "Nėra ryšio su gajim nuotoline paslauga."
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
@@ -387,8 +388,7 @@ msgstr "Išimami diskai ir viešiniai"
 msgid "UPnP Media Server"
 msgstr "UPnP medijos serveris"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "Bendrinti"
 
@@ -396,81 +396,79 @@ msgstr "Bendrinti"
 msgid "Allows to quickly share a folder"
 msgstr "Leidžia greitai dalintis aplanku"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "Norint dalintis \"%s\" aplanku, „Cajai“ reikia pridėti leidimų."
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr "Aplanko \"%s\" bendrinimui reikia šių papildomų leidimų.\n%s%s%sAr norite, kad „Caja“ šiuos leidimus į aplanką pridėtų automatiškai?"
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "- kitų skaitymo leidimas\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "- kitų rašymo leidimas\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "- kitų vykdymo leidimas\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Automatiškai pridėti leidimus"
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nepavyko pakeisti aplanko „%s“ leidimų"
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
 msgstr "Dalijimosi pavadinimas per ilgas"
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
 msgstr "Dalijimosi pavadinimas negali būti tuščias"
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Nepavyko gauti dalijimosi informaciją: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
 msgstr "Kitas bendrinys turi tokį patį pavadinimą"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
 msgstr "Keisti bendrinį"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
 msgstr "Kurti bendrinį"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Gaunant bendrinimo informaciją įvyko klaida"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
 msgstr "Aplankų bendrinimas"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
-msgstr "Bendrinimo pasirinktys"
+msgstr "Bendrinimo parinktys"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "Bendrinti šį aplanką"
 
@@ -523,37 +521,37 @@ msgstr "„net usershare“ grąžino klaidą %d"
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "„net usershare“ išvestis netinkama UTF-8 koduotei"
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "Nepavyko"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Sambos <i>testparm</i> grįžo su signalu %d"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Sambos <i>testparm</i> nesuveikė dėl nežinomų priežasčių"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Sambos <i>testparm</i> grąžino klaidą %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Sambos <i>testparm</i> grąžino klaidą %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Neapavyko panaikinti %s kelio bendrinio: kelias nebendrinamas"
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
@@ -561,17 +559,17 @@ msgid ""
 msgstr "Nepavyko pakeisti esamo bendrinio kelio; pirmiau pašalinkite seną bendrinį ir tada pridėkite naują"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr "Nustatyti kaip darbastalio foną..."
+msgid "Set as wallpaper"
+msgstr "Nustatyti kaip darbalaukio foną"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
-msgstr "Nustatyti paveikslėlį kaip esamą darbastalio foną..."
+msgid "Set image as the current wallpaper"
+msgstr "Nustatyti paveikslėlį kaip esamą darbalaukio foną"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr "Darbastalio fonas"
+msgstr "Darbalaukio fonas"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr "Leidžia greitai nustatyti darbastalio foną"
+msgstr "Leidžia greitai nustatyti darbalaukio foną"

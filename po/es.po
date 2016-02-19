@@ -6,16 +6,17 @@
 # Adolfo Jayme Barrientos, 2014
 # Adolfo Jayme Barrientos, 2015
 # Adolfo Jayme Barrientos, 2014
-# Andres Sanchez <blackatze93@gmail.com>, 2014
+# Andres Sanchez <blackatze93@gmail.com>, 2014,2016
+# Benjamin Perez Carrillo <benperezc@gmail.com>, 2015
 # Emiliano Fascetti, 2015
 # Lluís Tusquellas <lutusq@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-14 10:35+0000\n"
-"Last-Translator: Emiliano Fascetti\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2016-02-12 17:40+0000\n"
+"Last-Translator: Andres Sanchez <blackatze93@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/mate/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +30,7 @@ msgstr "Abrir como administrador"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Abre el archivo con privilegios de administrador"
+msgstr "Abre el archivo con privilegios administrativos"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
@@ -56,11 +57,11 @@ msgstr "Redimensionar cada imagen seleccionada"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ro_tar imagenes..."
+msgstr "_Girar imágenes…"
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Rotar cada imagen seleccionada"
+msgstr "Girar cada imagen seleccionada"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
@@ -76,27 +77,27 @@ msgstr "Seleccione un tamaño:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
-msgstr "96×96"
+msgstr "96 × 96"
 
 #: ../image-converter/caja-image-resize.ui.h:5
 msgid "128x128"
-msgstr "128×128"
+msgstr "128 × 128"
 
 #: ../image-converter/caja-image-resize.ui.h:6
 msgid "640x480"
-msgstr "640×480"
+msgstr "640 × 480"
 
 #: ../image-converter/caja-image-resize.ui.h:7
 msgid "800x600"
-msgstr "800×600"
+msgstr "800 × 600"
 
 #: ../image-converter/caja-image-resize.ui.h:8
 msgid "1024x768"
-msgstr "1024×768"
+msgstr "1024 × 768"
 
 #: ../image-converter/caja-image-resize.ui.h:9
 msgid "1280x960"
-msgstr "1280×960"
+msgstr "1280 × 960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
@@ -139,7 +140,7 @@ msgstr ".redimensionado"
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "al nombre de fichero"
+msgstr "al nombre de archivo"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
@@ -172,15 +173,15 @@ msgstr "<i>Redimensionando «%s»</i>"
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "¡Por favor ingrese un sufijo de archivo válido!"
+msgstr "Escriba un sufijo de nombre de archivo válido."
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Rotar imágenes"
+msgstr "Girar imágenes"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotación de imagen</b>"
+msgstr "<b>Giro de imagen</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
@@ -196,7 +197,7 @@ msgstr "grados a la derecha"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".rotado"
+msgstr ".girada"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
@@ -204,17 +205,17 @@ msgstr "Rotar en el lugar"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Rotar"
+msgstr "_Girar"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Rotando la imagen: %d de %d"
+msgstr "Girando la imagen: %d de %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Rotando «%s»</i>"
+msgstr "<i>Girando «%s»</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
@@ -222,7 +223,7 @@ msgstr "Conversor de imágenes"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
-msgstr "Rotar y redimensionar imágenes"
+msgstr "Girar y redimensionar imágenes"
 
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
@@ -390,8 +391,7 @@ msgstr "Soportes extraíbles y comparticiones"
 msgid "UPnP Media Server"
 msgstr "Servidor multimedia UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "Compartir"
 
@@ -399,99 +399,97 @@ msgstr "Compartir"
 msgid "Allows to quickly share a folder"
 msgstr "Permite compartir una carpeta rápidamente"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "Caja necesita añadir algunos permisos a su carpeta «%s» para poder compartirla"
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr "La carpeta «%s» necesita los siguientes permisos adicionales para poder compartirla:\n%s%s%s¿Quiere que Caja añada automáticamente estos permisos a la carpeta?"
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "  - permisos de lectura por otros\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "  - permisos de escritura por otros\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "  - permisos de ejecución por otros\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Añadir los permisos automáticamente"
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "No se pudo cambiar los permisos de la carpeta «%s»"
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
-msgstr "El nombre compartido es demasiado largo"
+msgstr "El nombre del recurso compartido es demasiado largo"
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
-msgstr "El nombre compartido no puede estar vacío"
+msgstr "El nombre del recurso compartido no puede estar vacío"
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Error mientras se recibía información compartida: %s"
+msgstr "Error al recibir información del recurso compartido: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
-msgstr "Otro compartido tiene el mismo nombre"
+msgstr "Otro recurso compartido tiene el mismo nombre"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
-msgstr "Modificar _Compartición"
+msgstr "Modificar _recurso compartido"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
-msgstr "Crear_Compartición"
+msgstr "Crear _recurso compartido"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr "Hubo un error mientras se recibía la información compartida"
+msgstr "Ocurrió un error al recibir la información del recurso compartido"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
-msgstr "Directorio a compartir"
+msgstr "Compartición de carpetas"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
 msgstr "Opciones de compartición"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "Compartir este directorio"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Compartición de directorio</b></big>"
+msgstr "<big><b>Compartición de carpeta</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "Nombre_compartido:"
+msgstr "_Nombre del recurso compartido:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Compartir este _directorio"
+msgstr "Compartir esta _carpeta"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Co_mentar:"
+msgstr "Co_mentario:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -526,50 +524,50 @@ msgstr "'compartición de red' devolvió error %d"
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "la salida de 'compartición de red' no es válida para código UTF-8"
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "Falló"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "El testparm de Samba devolvió una señal %d"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "El testparm de Samba falló por una razón desconocida"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "El testparm de Samba devolvió error %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "El testparm de Samba devolvió error %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "No puedo borrar la compartición del camino %s: tal camino no está compartido"
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "No puedo cambiar el camino de una compartición existente; por favor, borre primero el camino antiguo y añada uno nuevo"
+msgstr "No se puede cambiar la ruta de un recurso compartido existente; quite el recurso anterior primero y añada uno nuevo"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr "Establecer como fondo de pantalla..."
+msgid "Set as wallpaper"
+msgstr "Establecer como fondo de pantalla"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
-msgstr "Establecer imagen como fondo de pantalla actual..."
+msgid "Set image as the current wallpaper"
+msgstr "Establecer imagen como fondo de pantalla actual"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"

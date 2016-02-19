@@ -6,13 +6,14 @@
 # Микола Ткач <Stuartlittle1970@gmail.com>, 2013
 # Микола Ткач <Stuartlittle1970@gmail.com>, 2013
 # Oleh, 2014
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2014-2015
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2014-2016
+# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 15:34+0000\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2016-02-04 20:07+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Відкрити з правами адміністратора"
+msgstr "Відкрити як адміністратор"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
@@ -34,7 +35,7 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Неможливо визначити проґраму для запуску.</b></big>\n\nОбраний Вами предмет неможливо відкрити з правами адміністратора через те, що коректний застосунок не визначено."
+msgstr "<big><b>Неможливо визначити проґраму для запуску.</b></big>\n\nОбраний Вами елемент неможливо відкрити з правами адміністратора через те, що коректний застосунок не визначено."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -190,7 +191,7 @@ msgstr "Вказати кут:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "ґрадусів за год. стрілкою"
+msgstr "градусів за год. стрілкою"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
@@ -388,8 +389,7 @@ msgstr "Змінні диски та теки спільного доступу"
 msgid "UPnP Media Server"
 msgstr "Медія-сервер UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "Оприлюднити"
 
@@ -397,81 +397,79 @@ msgstr "Оприлюднити"
 msgid "Allows to quickly share a folder"
 msgstr "Дозволяє швидко оприлюднити теку"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "Caja потрібно надати певні права для оприлюднення теки «%s»"
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr "Тека  «%s» потребує такі додаткові права для оприлюднення у мережі:\n%s%s%sЧи бажаєте Ви, аби Caja надав ці права теці автоматично?"
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "- дозволити іншим для перегляду\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "- дозволити іншим писати\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "- дозволити іншим працювати\n\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Додавати права автоматично"
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Неможливо змінити права для теки «%s»"
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
 msgstr "Ім’я оголошення задовге"
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
 msgstr "Ім’я оголошення не може бути порожнім"
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Помилка при отриманні загальної інформації: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
 msgstr "Інше оголошення з тим самим ім’ям"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
 msgstr "Модифікувати _оголошення"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
 msgstr "Створити _оголошення"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Відбулася помилка при отриманні публічної інформації"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
 msgstr "Спільний доступ до теки"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
 msgstr "Параметри оприлюднення"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "Поділитися цією текою"
 
@@ -502,7 +500,7 @@ msgstr "_Гостьовий доступ (для людей без корист�
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s повернувся з сиґналом %d"
+msgstr "%s %s %s повернувся з сигналом %d"
 
 #: ../share/shares.c:132
 #, c-format
@@ -524,37 +522,37 @@ msgstr "'net usershare' повернув помилку %d"
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "вивід 'net usershare' не у коректному UTF-8"
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "Збій"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "testparm Samba повернувся з сигналом %d"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "testparm Samba не вдався без відомої причини"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "testparm Samba повернув помилку %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "testparm Samba повернув помилку %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Не вдається вилучити оголошення шляху %s: цей шлях не оголошено"
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
@@ -562,12 +560,12 @@ msgid ""
 msgstr "Не вдається змінити шлях існуючого оголошення; будь ласка, вилучіть спочатку старе оголошення й потім створіть нове"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr "Встановити у якості шпалер..."
+msgid "Set as wallpaper"
+msgstr "Встановити як шпалери"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
-msgstr "Встановити зображення у якості поточних шпалер..."
+msgid "Set image as the current wallpaper"
+msgstr "Встановити зображення як поточні шпалери"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"

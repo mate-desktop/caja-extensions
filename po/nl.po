@@ -3,16 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# infirit <infirit@gmail.com>, 2014
+# infirit <inactive+infirit@transifex.com>, 2014
+# Kees Lijkendijk <clkndk@gmail.com>, 2016
 # Michael Steenbeek <m.o.steenbeek@gmail.com>, 2013
 # Nathan Follens, 2015
+# Tom van den Brink <tomracing79@hotmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-07-13 11:44+0000\n"
-"Last-Translator: Nathan Follens\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2016-01-22 14:30+0000\n"
+"Last-Translator: Kees Lijkendijk <clkndk@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/mate/MATE/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -387,8 +389,7 @@ msgstr "Verwisselbare en gedeelde schijven"
 msgid "UPnP Media Server"
 msgstr "UPnP-mediaserver"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "Gedeelde map"
 
@@ -396,81 +397,79 @@ msgstr "Gedeelde map"
 msgid "Allows to quickly share a folder"
 msgstr "Maakt het mogelijk om een map te snel delen"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "De rechten voor de map \"%s\" moeten worden verruimd om deze te kunnen delen"
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr "Om te kunnen delen moeten de volgende extra rechten aan de map \"%s\" worden toegevoegd:\n%s%s%sWilt u deze nu automatisch laten toevoegen?"
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "- leesrechten voor anderen\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "- schrijfrechten voor anderen\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "- uitvoerrechten voor anderen\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Voeg de rechten automatisch toe"
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Kon de rechten van de map \"%s\" niet veranderen"
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
 msgstr "De naam van de gedeelde map is te lang"
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
 msgstr "De naam van de gedeelde map mag niet leeg zijn"
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Er is een fout opgetreden bij het ophalen van informatie over de gedeelde map: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
 msgstr "Een andere gedeelde map heeft dezelfde naam"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
 msgstr "Gedeelde map aanpa_ssen"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
 msgstr "Gedeelde map aanmaken"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "Er is een fout opgetreden bij het ophalen van informatie over de gedeelde map."
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
 msgstr "Delen van mappen"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
 msgstr "Deelopties"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "Deze map delen"
 
@@ -523,37 +522,37 @@ msgstr "'net usershare' gaf de volgende foutmelding terug: %d"
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "De uitvoer van 'net usershare' is geen geldige UTF-8"
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "Mislukt"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba's testparm gaf het signaal %d terug"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba's testparm mislukt om een onbekende reden"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba's testparm gaf de volgende foutmelding terug: %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba's testparm gaf de volgende foutmelding terug: %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Kan de gedeelde map van het pad %s niet verwijderen: het  pad is niet gedeeld"
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
@@ -561,12 +560,12 @@ msgid ""
 msgstr "Kan het pad van een bestaande gedeelde map niet wijzigen; verwijder de oude gedeelde map alvorens een nieuwe aan te maken"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr "Instellen als bureaubladachtergrond..."
+msgid "Set as wallpaper"
+msgstr "Instellen als bureaubladachtergrond"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
-msgstr "Afbeelding instellen als de huidige bureaubladachtergrond..."
+msgid "Set image as the current wallpaper"
+msgstr "Afbeelding instellen als de huidige bureaubladachtergrond"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
