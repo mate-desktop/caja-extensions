@@ -1,7 +1,9 @@
 1.13.0
 
-  * drop MateConf migration scripts
-  * Gtk+3: some deprecation fixes
+  * Drop MateConf migration scripts
+  * GTK+3: some deprecation fixes
+  * Some more fixes and cleanups
+  * Translations update
 
 1.12.0
 
