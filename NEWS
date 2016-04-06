@@ -1,9 +1,10 @@
-1.13.0
+1.14.0
 
   * Drop MateConf migration scripts
   * GTK+3: some deprecation fixes
   * Some more fixes and cleanups
   * Translations update
+  * Add Changelog generation
 
 1.12.0
 
