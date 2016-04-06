@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Giuseppe Pignataro <rogepix@gmail.com>, 2015
-# dardin88 <linkin88mail@gmail.com>, 2014-2015
+# Dario Di Nucci <linkin88mail@gmail.com>, 2014-2015
 # luca123 <l_moscato1@hotmail.it>, 2014
 # Marco Bartolucci <nap.84@live.it>, 2016
 # Stefano Karapetsas <stefano@karapetsas.com>, 2013-2014

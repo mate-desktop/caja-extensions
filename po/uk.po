@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-02-04 20:07+0000\n"
+"PO-Revision-Date: 2016-04-01 10:07+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "відсоток"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Інший розмір:"
+msgstr "Иньший розмір:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
@@ -133,7 +133,7 @@ msgstr "Додати"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".масштабоване"
+msgstr ".припасоване"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
@@ -217,7 +217,7 @@ msgstr "<i>Обертання «%s»</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
-msgstr "Конвертація зображень"
+msgstr "Перетворення зображень"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
@@ -295,7 +295,7 @@ msgstr "Не вдається розібрати параметри команд
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr "Не вдається завантажити модулі."
+msgstr "Не вдається завантажити втулки"
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
@@ -413,15 +413,15 @@ msgstr "Тека  «%s» потребує такі додаткові права
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr "- дозволити іншим для перегляду\n"
+msgstr "- дозволити иньшим для перегляду\n"
 
 #: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr "- дозволити іншим писати\n"
+msgstr "- дозволити иньшим писати\n"
 
 #: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "- дозволити іншим працювати\n\n"
+msgstr "- дозволити иньшим працювати\n\n"
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
@@ -447,7 +447,7 @@ msgstr "Помилка при отриманні загальної інформ
 
 #: ../share/caja-share.c:503
 msgid "Another share has the same name"
-msgstr "Інше оголошення з тим самим ім’ям"
+msgstr "Иньше оголошення з тим самим ім’ям"
 
 #: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
@@ -491,7 +491,7 @@ msgstr "Ко_ментар:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_Дозволити іншим створювати та вилучати файли у цій теці"
+msgstr "_Дозволити иньшим створювати та вилучати файли у цій теці"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"

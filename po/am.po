@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-08-17 01:30+0000\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2015-12-29 02:43+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "የተመረጡትን ምስሎችን ማዞሪያ"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "እንደገና መመጠኛ ምስሎች"
+msgstr "ምስሎች እንደገና መመጠኛ"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
@@ -67,7 +67,7 @@ msgstr "<b>የምስል መጠን</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "መጠን ይምረጡኢ:"
+msgstr "መጠን ይምረጡ:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -107,7 +107,7 @@ msgstr "ፐርሰንት"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Custom size:"
+msgstr "መጠን ማስተካከያ:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
@@ -269,11 +269,11 @@ msgstr "መላኪያ ወደ..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "ፋይል በ ደብዳቤ መላኪያ አስቸኳይ መልእክት..."
+msgstr "ፋይል በ ደብዳቤ መላኪያ በ አስቸኳይ መልእክት..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "ፋይል በ ደብዳቤ መላኪያ አስቸኳይ መልእክት..."
+msgstr "ፋይል በ ደብዳቤ መላኪያ በ አስቸኳይ መልእክት..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
@@ -347,7 +347,7 @@ msgstr "ግንኙነት የለም ወደ ጋጂም የርቀት አገልግሎ�
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr "ፋይሉን መላክ አልተዳካም"
+msgstr "ፋይሉን መላክ አልተሳካም"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
@@ -379,14 +379,13 @@ msgstr "አስቸኳይ መልእክተኛ (ፒጂን)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "የሚወቁ ዲስኮች እና የሚካፈሉዋቸው"
+msgstr "የሚወልቁ ዲስኮች እና የሚካፈሉዋቸው"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
 msgstr "UPnP Media Server"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "ማካፈያ"
 
@@ -394,81 +393,79 @@ msgstr "ማካፈያ"
 msgid "Allows to quickly share a folder"
 msgstr "በፍጥነት ፎልደር ማካፈያ ማስቻያ"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "ካጃ ተጨማሪ ፍቃድ ይፈልጋል የ እርስዎን ፎልደር \"%s\" ለማካፈል"
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "- የማንበብ ፍቃድ በ ሌሎች\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "  - የ መጻፍ ፍቃድ በ ሌሎች\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "  - የ መፈጸም ፍቃድ በ ሌሎች\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "ፍቃድ ራሱ በራሱ መጨመሪያ "
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "የ ፎልደሩን ፍቃድ መቀየር አይቻልም \"%s\""
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
 msgstr "የማካፈያው ስም በጣም ረጅም ነው "
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
 msgstr "የማካፈያው ስም ባዶ መሆን የለበትም "
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "የ ማካፈያ መረጃ በማግኘት ላይ እንዳለ ስህተተ ተፈጥሯል: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
 msgstr "ሌ ማካፈያ በዚህ ስም አለ"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
 msgstr "_ማካፈያ ማሻሻያ"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
 msgstr "_ማካፈያ መፍጠሪያ"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
 msgstr "የ ማካፈያ መረጃ በማግኘት ላይ እንዳለ ስህተተ ተፈጥሯል"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
 msgstr "ፎልደር ማካፈያ"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
 msgstr "የማካፈያ ምርጫዎች"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "ይህን ፎልደር ማካፈያ"
 
@@ -521,37 +518,37 @@ msgstr "'net usershare' ስህተት መልሷል %d"
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr ""
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "ወድቋል"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba's testparm returned with signal %d"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba's testparm failed for an unknown reason"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba's testparm returned error %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba's testparm returned error %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
@@ -559,11 +556,11 @@ msgid ""
 msgstr ""
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr "እንደ ግድግዳ ወረቀት ማሰናጃ..."
+msgid "Set as wallpaper"
+msgstr "እንደ ግድግዳ ወረቀት ማሰናጃ"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
+msgid "Set image as the current wallpaper"
 msgstr "ምስሉን እንደ ግድግዳ ወረቀት አሁን ማሰናጃ..."
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1

@@ -5,12 +5,13 @@
 # Translators:
 # Francesc <kiski97@gmail.com>, 2015
 # Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2015-2016
+# xavivars <xavi.ivars@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-01-27 18:34+0000\n"
+"PO-Revision-Date: 2016-03-18 06:42+0000\n"
 "Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -406,7 +407,7 @@ msgstr "Caja necessita afegir alguns permisos a la carpeta «%s» per tal de com
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "La carpeta «%s» necessita permisos addicionals per a compartir la feina:\n%s%s%sVoleu que els permisos s'afegeixin automàticament?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -507,17 +508,17 @@ msgstr "%s %s %s va fallar per un motiu desconegut"
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "'net usershare' va retornar l'error %d: %s"
+msgstr "«net usershare» va retornar l'error %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "'net usershare' va retornar l'error %d"
+msgstr "«net usershare» va retornar l'error %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "la sortida de 'net usershare' no té una codificació vàlida UTF-8"
+msgstr "la sortida de «net usershare» no té una codificació vàlida UTF-8"
 
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format

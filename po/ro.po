@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Daniel <danny34ever@yahoo.com>, 2015
+# Daniel <danny34ever@yahoo.com>, 2015-2016
 # AntonieG <vastinar.antonie@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-13 12:14+0200\n"
-"PO-Revision-Date: 2015-08-15 11:03+0000\n"
+"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"PO-Revision-Date: 2016-03-08 18:02+0000\n"
 "Last-Translator: Daniel <danny34ever@yahoo.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/mate/MATE/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -25,22 +25,22 @@ msgstr "Deschide ca administrator"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Deschide fisierul cu privilegii administrative"
+msgstr "Deschide fișierul cu privilegii de administrator"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Nu se poate determina programul pentru rulare.</b></big>\n\nElementul selectat nu poate fi deschis cu privilegii de administrator deoarece aplicatia corecta nu poate fi determinata."
+msgstr "<big><b>Nu se poate determina programul pentru rulare.</b></big>\n\nElementul selectat nu poate fi deschis cu privilegii de administrator deoarece aplicația corectă nu poate fi determinată."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr "Extensie acordare privilegii"
+msgstr "Extensie de acordare privilegii"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -135,11 +135,11 @@ msgstr ".redimensionat"
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "la titlul fisierului"
+msgstr "la titlul fișierului"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Redimensioneaza in loc"
+msgstr "Redimensionează în loc"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
@@ -210,7 +210,7 @@ msgstr "Rotesc imaginea: %d din %d"
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Rotind \"%s\"</i>"
+msgstr "<i>Se rotește „%s”</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
@@ -227,12 +227,12 @@ msgstr "Deschide în _terminal"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
-msgstr "Acceseaza folderul selectat intr-un terminal"
+msgstr "Deschide dosarul momentan selectat într-un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:430
 #: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
-msgstr "Acceseaza folderul deschis intr-un terminal"
+msgstr "Deschide dosarul momentan deschis într-un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
@@ -254,7 +254,7 @@ msgstr "Deschide terminale din dosare"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Dacă deschiderea unui terminal pe desktop deschide un terminal în dosarul personal"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -262,7 +262,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Daca setarea este \"true\", deschiderea unui terminal pe desktop va deschide un terminal in directorul home. Altfel, va fi deschis in directorul desktop. Aceasta setare este irelevanta daca folderul desktop este identic cu folderul home."
+msgstr "Dacă este definit ca „true”, atunci deschiderea unui terminal pe desktop va deschide un terminal în dosarul „Acasă”. Altfel, va fi deschis în dosarul „Desktop”. Rețineți că această tastă este irelevantă dacă dosarul „Desktop” este identic cu dosarul „Acasă”."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -274,7 +274,7 @@ msgstr "Trimite fișierul prin mail, mesagerie instantă..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Trimite fișiere prin mail, mesagerie instantă..."
+msgstr "Trimitere fișiere prin poștă electronică, mesagerie instantanee..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
@@ -283,7 +283,7 @@ msgstr "Fișiere"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "Așteaptă ca URI-urile sau numele fișierelor să fie trimise ca opțiuni\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
@@ -304,11 +304,11 @@ msgstr "Trimite la"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Integrează clienții de poștă electronică și Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Trimite către..."
+msgstr "Trimitere către..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -386,8 +386,7 @@ msgstr "Partajări și discuri amovibile"
 msgid "UPnP Media Server"
 msgstr "Server media UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1
-#: ../share/mate-file-manager-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
 msgstr "Partajează"
 
@@ -395,81 +394,79 @@ msgstr "Partajează"
 msgid "Allows to quickly share a folder"
 msgstr "Permite partajarea rapidă a unui dosar"
 
-#: ../share/mate-file-manager-share.c:123
+#: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "Caja trebuie să adauge unele permisiuni la dosarul „%s” pentru a-l putea partaja"
 
-#: ../share/mate-file-manager-share.c:131
+#: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "Dosarul „%s” are nevoie de următoare permisini în plus pentru ca partajarea să funcționeze:\n%s%s%s Doriți ca programul Caja să adauge automat aceste permisiuni la dosar?"
 
-#: ../share/mate-file-manager-share.c:135
+#: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "  - permisiune citire pentru alții\n"
 
-#: ../share/mate-file-manager-share.c:136
+#: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - permisiune scriere pentru alții\n"
 
-#: ../share/mate-file-manager-share.c:137
+#: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - permisiune execuție pentru alții\n"
 
-#: ../share/mate-file-manager-share.c:141
+#: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Daugă permisiunile automat"
 
-#: ../share/mate-file-manager-share.c:167
+#: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nu au putut fi modificate permisiunile dosarului „%s”"
 
-#: ../share/mate-file-manager-share.c:446
+#: ../share/caja-share.c:446
 msgid "Share name is too long"
 msgstr "Numele partajării este prea lung"
 
-#: ../share/mate-file-manager-share.c:480
+#: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
-msgstr "Nuele partajării nu poate fi gol"
+msgstr "Numele partajării nu poate fi gol"
 
-#: ../share/mate-file-manager-share.c:493
+#: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Eroare la obținerea informațiilor partajării: %s"
 
-#: ../share/mate-file-manager-share.c:503
+#: ../share/caja-share.c:503
 msgid "Another share has the same name"
 msgstr "O altă partajare are același nume"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:786
+#: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
-msgstr ""
+msgstr "Modificare _Partajare"
 
-#: ../share/mate-file-manager-share.c:550
-#: ../share/mate-file-manager-share.c:788
+#: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "Creare _Partajare"
 
-#: ../share/mate-file-manager-share.c:678
+#: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "S-a produs o eroare la obținerea informațiilor partajării"
 
-#: ../share/mate-file-manager-share.c:1110
+#: ../share/caja-share.c:1110
 msgid "Folder Sharing"
 msgstr "Partajare dosar"
 
-#: ../share/mate-file-manager-share.c:1151
+#: ../share/caja-share.c:1151
 msgid "Sharing Options"
 msgstr "Opțiuni de partajare"
 
-#: ../share/mate-file-manager-share.c:1152
+#: ../share/caja-share.c:1152
 msgid "Share this Folder"
 msgstr "Partajează acest dosar"
 
@@ -491,86 +488,86 @@ msgstr "Co_mentariu:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_Permite altora să creeze și să șteargă fișiere în acest dosar"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "Acces _vizitator (pentru oameni fără un cont de utilizator)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s a revenit cu semnalul %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s a eșuat dintr-un motiv necunoscut"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "„net usershare” a întors eroarea %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "„net usershare” a întors eroarea %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "ieșirea de la 'net usershare' nu are o codare UTF-8 validă"
 
-#: ../share/shares.c:440 ../share/shares.c:614
+#: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
 msgstr "Eșuat"
 
-#: ../share/shares.c:548
+#: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Programul testparm al lui Samba s-a întors cu semnalul %d"
 
-#: ../share/shares.c:554
+#: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Programul testparm al lui Samba a eșuat dintr-un motiv necunoscut"
 
-#: ../share/shares.c:569
+#: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Programul testparm al lui Samba a întors eroarea %d: %s"
 
-#: ../share/shares.c:571
+#: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Programul testparm al lui Samba a întors eroarea %d"
 
-#: ../share/shares.c:682
+#: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Partajarea nu poate fi eliminată pentru calea %s: acea cale nu este partajată"
 
-#: ../share/shares.c:728
+#: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr ""
+msgstr "Nu se poate schimba calea unei partajări existente; vă rugăm să eliminați vechea partajare prima dată și apoi să adăugați una nouă"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
-msgid "Set as wallpaper..."
-msgstr "Folosire ca imagine de fundal..."
+msgid "Set as wallpaper"
+msgstr "Stabilește ca tapet"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
-msgid "Set image as the current wallpaper..."
-msgstr "Folosește ca imagine de fundal curentă..."
+msgid "Set image as the current wallpaper"
+msgstr "Stabilește imaginea ca tapet actual"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr "Imagine de fundal"
+msgstr "Tapet"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr "Vă permite să definiți rapid o imagine de fundal"
+msgstr "Permite stabilirea rapidă a tapetului"
