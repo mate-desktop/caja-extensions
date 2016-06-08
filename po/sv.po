@@ -6,15 +6,16 @@
 # Erik, 2014
 # Gaius Anderson <gaius.ankh@gmail.com>, 2015
 # Henrik Mattsson-Mårn <h@reglage.net>, 2016
-# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015
+# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015-2016
 # Luna Jernberg <bittin@cafe8bitar.se>, 2016
+# Urban Berggren <pudberggren@icloud.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-02-10 17:36+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"PO-Revision-Date: 2016-05-22 20:11+0000\n"
+"Last-Translator: Urban Berggren <pudberggren@icloud.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -561,16 +562,16 @@ msgstr "Det går inte att ändra sökväg på en befintlig utdelning; ta bort de
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "Ange som bakgrundsbild"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr ""
+msgstr "Ange som bakgrundsbild"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Bakgrundsbild"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Gör det möjligt att snabbt byta bakgrundsbild"

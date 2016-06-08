@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Aldo Oliveira <america103@gmail.com>, 2015
-# CLeber Teixeira, 2015
+# Cleber Teixeira, 2015
 # Filipe Oliveira <contato@fmoliveira.com.br>, 2013
 # Leandro Guimarães Faria Corcete DUTRA <l@dutras.org>, 2015
 # Lucas Araújo Mezêncio <lucas.mezencio@gmail.com>, 2015
