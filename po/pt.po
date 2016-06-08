@@ -4,13 +4,14 @@
 # 
 # Translators:
 # crolidge, 2013-2015
+# crolidge, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2015-12-16 14:16+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-05-29 15:22+0000\n"
+"Last-Translator: crolidge\n"
 "Language-Team: Portuguese (http://www.transifex.com/mate/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -557,11 +558,11 @@ msgstr "Não pode mudar o caminho de uma partilha existente; por favor remova a 
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "Definir como papel de parede"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr ""
+msgstr "Guardar imagem como papel de parede atual"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"

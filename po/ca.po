@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Francesc <kiski97@gmail.com>, 2015
+# Francesc Famadas <kiski97@gmail.com>, 2015
 # Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2015-2016
 # xavivars <xavi.ivars@gmail.com>, 2016
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-03-18 06:42+0000\n"
+"PO-Revision-Date: 2016-06-06 20:24+0000\n"
 "Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -228,12 +228,12 @@ msgstr "Obre al _terminal"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
-msgstr "Obre el directori seleccionat actualment en un terminal"
+msgstr "Obre la carpeta seleccionada actualment en un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:430
 #: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
-msgstr "Obre el directori obert actualment en un terminal"
+msgstr "Obre la carpeta oberta actualment en un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
