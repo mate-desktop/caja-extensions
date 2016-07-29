@@ -412,9 +412,10 @@ open_terminal_callback (CajaMenuItem *item,
 }
 
 static CajaMenuItem *
-open_terminal_menu_item_new (TerminalFileInfo  terminal_file_info,
-			     GdkScreen        *screen,
-			     gboolean          is_file_item)
+open_terminal_menu_item_new (CajaFileInfo	  *file_info,
+                             TerminalFileInfo  terminal_file_info,
+                             GdkScreen        *screen,
+                             gboolean          is_file_item)
 {
 	CajaMenuItem *ret;
 	const char *name;
@@ -448,9 +449,17 @@ open_terminal_menu_item_new (TerminalFileInfo  terminal_file_info,
 
 	ret = caja_menu_item_new ("CajaOpenTerminal::open_terminal",
 				      name, tooltip, "terminal");
+
 	g_object_set_data (G_OBJECT (ret),
 			   "CajaOpenTerminal::screen",
 			   screen);
+
+	g_object_set_data_full (G_OBJECT (ret), "file-info",
+				g_object_ref (file_info),
+				(GDestroyNotify) g_object_unref);
+	g_signal_connect (ret, "activate",
+			  G_CALLBACK (open_terminal_callback),
+			  file_info);
 
 	return ret;
 }
@@ -468,14 +477,7 @@ caja_open_terminal_get_background_items (CajaMenuProvider *provider,
 		case FILE_INFO_LOCAL:
 		case FILE_INFO_DESKTOP:
 		case FILE_INFO_SFTP:
-			item = open_terminal_menu_item_new (terminal_file_info, gtk_widget_get_screen (window), FALSE);
-			g_object_set_data_full (G_OBJECT (item), "file-info",
-						g_object_ref (file_info),
-						(GDestroyNotify) g_object_unref);
-			g_signal_connect (item, "activate",
-					  G_CALLBACK (open_terminal_callback),
-					  file_info);
-
+			item = open_terminal_menu_item_new (file_info, terminal_file_info, gtk_widget_get_screen (window), FALSE);
 			return g_list_append (NULL, item);
 
 		case FILE_INFO_OTHER:
@@ -505,14 +507,7 @@ caja_open_terminal_get_file_items (CajaMenuProvider *provider,
 	switch (terminal_file_info) {
 		case FILE_INFO_LOCAL:
 		case FILE_INFO_SFTP:
-			item = open_terminal_menu_item_new (terminal_file_info, gtk_widget_get_screen (window), TRUE);
-			g_object_set_data_full (G_OBJECT (item), "file-info",
-						g_object_ref (files->data),
-						(GDestroyNotify) g_object_unref);
-			g_signal_connect (item, "activate",
-					  G_CALLBACK (open_terminal_callback),
-					  files->data);
-
+			item = open_terminal_menu_item_new (files->data, terminal_file_info, gtk_widget_get_screen (window), TRUE);
 			return g_list_append (NULL, item);
 
 		case FILE_INFO_DESKTOP:
