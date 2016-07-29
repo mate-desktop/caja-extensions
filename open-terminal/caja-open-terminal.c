@@ -67,15 +67,11 @@ static TerminalFileInfo
 get_terminal_file_info (CajaFileInfo *file_info)
 {
 	TerminalFileInfo  ret;
-	char             *uri_scheme, *p;
+	char             *uri;
+	char             *uri_scheme;
 
-	g_assert (file_info);
-
-	uri_scheme = caja_file_info_get_activation_uri (file_info);
-	p = strchr (uri_scheme, ':');
-	if (p) {
-		*p = 0;
-	}
+	uri = caja_file_info_get_activation_uri (file_info);
+	uri_scheme = g_uri_parse_scheme (uri);
 
 	if (strcmp (uri_scheme, "file") == 0) {
 		ret = FILE_INFO_LOCAL;
@@ -89,6 +85,7 @@ get_terminal_file_info (CajaFileInfo *file_info)
 	}
 
 	g_free (uri_scheme);
+	g_free (uri);
 
 	return ret;
 }
