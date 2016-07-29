@@ -164,8 +164,6 @@ default_terminal_application (void)
         return result;
 }
 
-#define get_desktop_dir() g_strdup (g_get_user_special_dir (G_USER_DIRECTORY_DESKTOP))
-
 static void
 parse_sftp_uri (GFile *file, char **host, guint *port, char **user,
 		char **path)
@@ -302,7 +300,7 @@ open_terminal_callback (CajaMenuItem *item,
 			if (desktop_is_home_dir () || desktop_opens_home_dir ()) {
 				working_directory = g_strdup (g_get_home_dir ());
 			} else {
-				working_directory = get_desktop_dir ();
+				working_directory = g_strdup (g_get_user_special_dir (G_USER_DIRECTORY_DESKTOP));
 			}
 			break;
 
