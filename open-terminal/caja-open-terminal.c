@@ -132,36 +132,36 @@ static inline gboolean
 desktop_opens_home_dir (void)
 {
 	gboolean result;
-        GSettings* settings;
+	GSettings* settings;
 
-        settings = g_settings_new (COT_SCHEMA);
+	settings = g_settings_new (COT_SCHEMA);
 	result = g_settings_get_boolean (settings, COT_DESKTOP_KEY);
-        g_object_unref (settings);
-        return result;
+	g_object_unref (settings);
+	return result;
 }
 
 static inline gboolean
 desktop_is_home_dir (void)
 {
 	gboolean result;
-        GSettings* settings;
+	GSettings* settings;
 
-        settings = g_settings_new (CAJA_SCHEMA);
+	settings = g_settings_new (CAJA_SCHEMA);
 	result = g_settings_get_boolean (settings, CAJA_DESKTOP_KEY);
-        g_object_unref (settings);
-        return result;
+	g_object_unref (settings);
+	return result;
 }
 
 static inline gchar*
 default_terminal_application (void)
 {
 	gchar *result;
-        GSettings* settings;
+	GSettings* settings;
 
-        settings = g_settings_new (TERM_SCHEMA);
+	settings = g_settings_new (TERM_SCHEMA);
 	result = g_settings_get_string (settings, TERM_EXEC_KEY);
-        g_object_unref (settings);
-        return result;
+	g_object_unref (settings);
+	return result;
 }
 
 static void
@@ -461,8 +461,8 @@ open_terminal_menu_item_new (CajaFileInfo	  *file_info,
 
 static GList *
 caja_open_terminal_get_background_items (CajaMenuProvider *provider,
-					     GtkWidget		  *window,
-					     CajaFileInfo	  *file_info)
+                                         GtkWidget        *window,
+                                         CajaFileInfo     *file_info)
 {
 	CajaMenuItem *item;
 	TerminalFileInfo  terminal_file_info;
@@ -485,8 +485,8 @@ caja_open_terminal_get_background_items (CajaMenuProvider *provider,
 
 GList *
 caja_open_terminal_get_file_items (CajaMenuProvider *provider,
-				       GtkWidget            *window,
-				       GList                *files)
+                                   GtkWidget        *window,
+                                   GList            *files)
 {
 	CajaMenuItem *item;
 	TerminalFileInfo  terminal_file_info;
