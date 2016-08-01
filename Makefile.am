@@ -1,6 +1,3 @@
-
-DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
-
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 SUBDIRS = po
@@ -42,6 +39,8 @@ DISTCLEANFILES = \
 	po/.intltool-merge-cache
 
 DISTCHECK_CONFIGURE_FLAGS =   \
+	--enable-gtk-doc \
+	--with-cajadir='$${libdir}/caja/extensions-2.0-distcheck' \
 	--with-gtk=$(GTK_API_VERSION)
 
 # Build ChangeLog from GIT  history
