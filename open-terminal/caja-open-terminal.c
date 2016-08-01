@@ -221,6 +221,9 @@ append_sftp_info (char **terminal_exec,
 	char *host_name, *path, *user_name;
 	char *user_host, *cmd, *quoted_cmd;
 	char *host_port_switch;
+	char *quoted_path;
+	char *remote_cmd;
+	char *quoted_remote_cmd;
 	guint host_port;
 
 	g_assert (terminal_exec != NULL);
@@ -247,7 +250,11 @@ append_sftp_info (char **terminal_exec,
 		user_host = g_strdup (host_name);
 	}
 
-	cmd = g_strdup_printf ("ssh %s %s -t \"cd \'%s\' && $SHELL -l\"", user_host, host_port_switch, path);
+	quoted_path = g_shell_quote (path);
+	remote_cmd = g_strdup_printf ("cd %s && $SHELL -l", quoted_path);
+	quoted_remote_cmd = g_shell_quote (remote_cmd);
+
+	cmd = g_strdup_printf ("ssh %s %s -t %s", user_host, host_port_switch, quoted_remote_cmd);
 	quoted_cmd = g_shell_quote (cmd);
 	g_free (cmd);
 
@@ -259,7 +266,10 @@ append_sftp_info (char **terminal_exec,
 	g_free (user_name);
 	g_free (host_port_switch);
 	g_free (path);
+	g_free (quoted_path);
 
+	g_free (remote_cmd);
+	g_free (quoted_remote_cmd);
 	g_free (quoted_cmd);
 	g_free (user_host);
 	g_object_unref (vfs_uri);
