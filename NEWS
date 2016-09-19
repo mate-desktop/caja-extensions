@@ -1,6 +1,14 @@
-1.15.0
+1.16.0
+
+  * open-terminal: fix opening terminal in remote folders with single
+    or double quote in their names
+  * open-terminal: some code cleanups
+  * Translations update
+
+1.14.1
 
   * Translations update
+  * Make distcheck use currently selected GTK+ version
 
 1.14.0
 
