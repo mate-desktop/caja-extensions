@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Aefgh Threenine <aefgh3962@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-01-05 05:57+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-08-28 08:57+0000\n"
+"Last-Translator: Aefgh Threenine <aefgh3962@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/mate/MATE/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,18 +20,18 @@ msgstr ""
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr ""
+msgstr "เปิดในนามผู้ดูแลระบบ"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr ""
+msgstr "เปิดแฟ้มด้วยสิทธิ์พิเศษของผู้ดูแลระบบ"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr ""
+msgstr "<big><b>ไม่สามารถเลือกโปรแกรมที่จะเรียกใช้</b></big>\n\nไม่สามารถเปิดรายการที่คุณเลือกด้วยสิทธิ์พิเศษของผู้ดูแลระบบได้ เพราะไม่สามารถเลือกโปรแกรมที่ถูกต้องสำหรับเปิดได้"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -46,27 +47,27 @@ msgstr ""
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr ""
+msgstr "ปรับขนาดของแต่ละรูปที่เลือก"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "ห_มุนรูป..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr ""
+msgstr "หมุนแต่ละรูปที่เลือก"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr ""
+msgstr "ปรับขนาดรูป"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr ""
+msgstr "<b>ขนาดรูป</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr ""
+msgstr "เลือกขนาด:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -98,19 +99,19 @@ msgstr "พิกเซล"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr ""
+msgstr "มาตราส่วน:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr ""
+msgstr "เปอร์เซ็นต์"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr ""
+msgstr "ขนาดที่กำหนดเอง:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr ""
+msgstr "ความกว้าง:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
@@ -119,7 +120,7 @@ msgstr "ความสูง:"
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr ""
+msgstr "<b>ชื่อแฟ้ม</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
@@ -128,7 +129,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".resized"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
@@ -137,26 +138,26 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "ปรับขนาดในสถานที่"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr ""
+msgstr "_ปรับขนาด"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr ""
+msgstr "_ข้าม"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr ""
+msgstr "_ลองใหม่"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "กำลังปรับขนาดของรูป: %d จาก %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
@@ -170,19 +171,19 @@ msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr ""
+msgstr "หมุนภาพ"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr ""
+msgstr "<b>การหมุนรูป</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr ""
+msgstr "เลือกมุมหนึ่งมุม:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr ""
+msgstr "มุมกำหนดเอง:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
@@ -194,7 +195,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "หมุนในสถานที่"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
@@ -203,7 +204,7 @@ msgstr ""
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr ""
+msgstr "กำลังหมุนรูป: %d จาก %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
@@ -212,41 +213,41 @@ msgstr ""
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "เครื่องมือแปลงรูป"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "หมุนและปรับขนาดรูป"
 
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "เปิดในเ_ทอร์มินัล"
 
 #: ../open-terminal/caja-open-terminal.c:428
 msgid "Open the currently selected folder in a terminal"
-msgstr ""
+msgstr "เปิดโฟลเดอร์ที่เลือกอยู่ในเทอร์มินัล"
 
 #: ../open-terminal/caja-open-terminal.c:430
 #: ../open-terminal/caja-open-terminal.c:440
 msgid "Open the currently open folder in a terminal"
-msgstr ""
+msgstr "เปิดโฟลเดอร์ที่เปิดอยู่ในเทอร์มินัล"
 
 #: ../open-terminal/caja-open-terminal.c:436
 msgid "Open _Terminal"
-msgstr ""
+msgstr "เปิดเ_ทอร์มินัล"
 
 #: ../open-terminal/caja-open-terminal.c:437
 msgid "Open a terminal"
-msgstr ""
+msgstr "เปิดเทอร์มินัล"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
-msgstr ""
+msgstr "เปิดเทอร์มินัล"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
-msgstr ""
+msgstr "เปิดเทอร์มินัลจากโฟลเดอร์ต่างๆ"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -264,41 +265,41 @@ msgstr ""
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "ส่งไปยัง..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "ส่งแฟ้มทางอีเมล, ข้อความด่วน..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "ส่งแฟ้มทางอีเมล, ข้อความด่วน..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
-msgstr ""
+msgstr "Files"
 
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "ต้องส่ง URI หรือชื่อแฟ้มต่างๆ มาในตัวเลือกด้วย\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "ไม่สามารถแจงตัวเลือกในบรรทัดคำสั่ง: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr ""
+msgstr "ไม่สามารถโหลดปลั๊กอินใดๆ"
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr ""
+msgstr "กรุณาตรวจสอบการติดตั้งของคุณ"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "ส่งไปยัง"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -306,87 +307,87 @@ msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr ""
+msgstr "ส่งไปยัง..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr ""
+msgstr "_ส่ง"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr ""
+msgstr "<b>ปลายทาง</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr ""
+msgstr "ส่งเ_ป็น:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr ""
+msgstr "ส่งไปยั_ง:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr ""
+msgstr "<b>การบีบอัด</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "ส่งแบบ_บีบอัดในแฟ้ม:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr ""
+msgstr "อีเมล"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr ""
+msgstr "ไม่สามารถส่งแฟ้มได้"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr ""
+msgstr "ไม่มีการเชื่อมต่อไปยังบริการ gajim ในเครือข่าย"
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr ""
+msgstr "ส่งแฟ้มไม่สำเร็จ"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr ""
+msgstr "ไม่ได้ระบุผู้รับ"
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr ""
+msgstr "ผู้รับผิดพลาด"
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "ข้อความด่วน (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr ""
+msgstr "ซีดี/ดีวีดี แผ่นใหม่"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr ""
+msgstr "ซีดี/ดีวีดี ที่มีอยู่"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr ""
+msgstr "เครื่องมือเขียนซีดี/ดีวีดี"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr ""
+msgstr "ข้อความด่วน (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr ""
+msgstr "ดิสก์ถอดเสียบและแหล่งใช้ร่วม"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr ""
+msgstr "เซิร์ฟเวอร์สื่อ UPnP"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
 msgid "Share"
-msgstr ""
+msgstr "แหล่งใช้ร่วม"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
@@ -420,29 +421,29 @@ msgstr ""
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "เพิ่มสิทธิ์การใช้งานโดยอัตโนมัติ"
 
 #: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr ""
+msgstr "ไม่สามารถเปลี่ยนสิทธิ์ของโฟลเดอร์ \"%s\""
 
 #: ../share/caja-share.c:446
 msgid "Share name is too long"
-msgstr ""
+msgstr "ชื่อที่ใช้ร่วมกันยาวเกินไป"
 
 #: ../share/caja-share.c:480
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "ชื่อที่ใช้ร่วมกันจะว่างไม่ได้"
 
 #: ../share/caja-share.c:493
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะอ่านข้อมูลแหล่งใช้ร่วม: %s"
 
 #: ../share/caja-share.c:503
 msgid "Another share has the same name"
-msgstr ""
+msgstr "แหล่งใช้ร่วมอื่นมีชื่อเดียวกัน"
 
 #: ../share/caja-share.c:550 ../share/caja-share.c:786
 msgid "Modify _Share"
@@ -450,43 +451,43 @@ msgstr ""
 
 #: ../share/caja-share.c:550 ../share/caja-share.c:788
 msgid "Create _Share"
-msgstr ""
+msgstr "ส_ร้างแหล่งใช้ร่วม"
 
 #: ../share/caja-share.c:678
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "มีข้อผิดพลาดเกิดขึ้นขณะอ่านข้อมูลแหล่งใช้ร่วม"
 
 #: ../share/caja-share.c:1110
 msgid "Folder Sharing"
-msgstr ""
+msgstr "โฟลเดอร์ใช้ร่วม"
 
 #: ../share/caja-share.c:1151
 msgid "Sharing Options"
-msgstr ""
+msgstr "ตัวเลือกการใช้ร่วมกัน"
 
 #: ../share/caja-share.c:1152
 msgid "Share this Folder"
-msgstr ""
+msgstr "ใช้โฟลเดอร์นี้ร่วมกัน"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>การใช้โฟลเดอร์ร่วมกัน</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "_ชื่อแหล่งใช้ร่วม:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "ใช้โ_ฟลเดอร์นี้ร่วมกัน"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "คำ_อธิบาย:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "_อนุญาตให้ผู้อื่นในการสร้างและลบแฟ้มในโฟลเดอร์นี้"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
@@ -556,7 +557,7 @@ msgstr ""
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "ตั้งเป็นภาพพื้นหลัง"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
@@ -564,7 +565,7 @@ msgstr ""
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "ภาพพื้นหลัง"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"

@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Francesc Famadas <kiski97@gmail.com>, 2015
-# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2015-2016
-# xavivars <xavi.ivars@gmail.com>, 2016
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015-2016
+# Xavi Ivars <xavi.ivars@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-06-06 20:24+0000\n"
-"Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
+"PO-Revision-Date: 2016-08-23 13:52+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +54,7 @@ msgstr "Redimensiona cadascuna de les imatges seleccionades"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Gira les imatges..."
+msgstr "Gira les ima_tges..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
@@ -301,7 +302,7 @@ msgstr "Si us plau, comproveu la vostra instal·lació"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Envia _a"
+msgstr "Envia a"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -365,7 +366,7 @@ msgstr "Missatge instantani (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Nou CD/DVD"
+msgstr "CD/DVD nou"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
@@ -489,11 +490,11 @@ msgstr "Co_mentari:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "Permet als _altres usuaris que creïn i suprimeixin fitxers en aquesta carpeta."
+msgstr "Permet que _altres usuaris creïn i suprimeixin fitxers en aquesta carpeta."
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "Accés de convidats (per a la gent sense un compte d'usuari)"
+msgstr "Accés de convidats (per a la _gent sense un compte d'usuari)"
 
 #: ../share/shares.c:123
 #, c-format

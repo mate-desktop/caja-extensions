@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-03-17 17:10+0000\n"
+"PO-Revision-Date: 2016-09-07 13:14+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -46,27 +46,27 @@ msgstr "Privilegijų suteikimo plėtinys"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Keisti paveikslėlių dydį..."
+msgstr "_Keisti paveikslų dydį..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Keisti kiekvieno pasirinkto paveikslėlio dydį"
+msgstr "Keisti kiekvieno pasirinkto paveikslo dydį"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Sukti paveikslėlius..."
+msgstr "Sukti paveikslus..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Sukti kiekvieną pasirinktą paveikslėlį"
+msgstr "Sukti kiekvieną pasirinktą paveikslą"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Keisti paveikslėlių dydį"
+msgstr "Keisti paveikslų dydį"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Paveikslėlio dydis</b>"
+msgstr "<b>Paveikslo dydis</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
@@ -160,7 +160,7 @@ msgstr "_Bandyti dar kartą"
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Keičiamas %d paveikslėlio iš %d dydis"
+msgstr "Keičiamas %d paveikslo iš %d dydis"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
@@ -174,11 +174,11 @@ msgstr "Įveskite tinkamą failo pavadinimo pabaigą!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Paversti paveikslėlius"
+msgstr "Paversti paveikslus"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Paveikslėlio sukimas</b>"
+msgstr "<b>Paveikslo sukimas</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
@@ -207,7 +207,7 @@ msgstr "_Pasukti"
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Sukamas paveikslėlis: %d iš %d"
+msgstr "Sukamas paveikslas: %d iš %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
@@ -220,7 +220,7 @@ msgstr "Paveikslų keitiklis"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
-msgstr "Sukioti ir keisti paveikslėlių dydį"
+msgstr "Sukioti ir keisti paveikslų dydį"
 
 #: ../open-terminal/caja-open-terminal.c:426
 #: ../open-terminal/caja-open-terminal.c:439
@@ -382,7 +382,7 @@ msgstr "Žinute (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Išimami diskai ir viešiniai"
+msgstr "Keičiamieji diskai ir viešiniai"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
@@ -564,7 +564,7 @@ msgstr "Nustatyti kaip darbalaukio foną"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr "Nustatyti paveikslėlį kaip esamą darbalaukio foną"
+msgstr "Nustatyti paveikslą kaip esamą darbalaukio foną"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
