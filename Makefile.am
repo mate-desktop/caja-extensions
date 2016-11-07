@@ -26,6 +26,10 @@ if ENABLE_WALLPAPER
 SUBDIRS += wallpaper
 endif
 
+if ENABLE_XATTR_TAGS
+SUBDIRS += xattr-tags
+endif
+
 EXTRA_DIST = \
 	autogen.sh \
 	intltool-extract.in \

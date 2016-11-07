@@ -1,3 +1,7 @@
+1.17.0
+
+  * xattr: added new extension
+
 1.16.0
 
   * open-terminal: fix opening terminal in remote folders with single
