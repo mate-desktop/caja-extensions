@@ -285,6 +285,14 @@ AC_ARG_ENABLE([wallpaper],
 
 AM_CONDITIONAL(ENABLE_WALLPAPER, test x"$enable_wallpaper" = "xyes")
 
+# xattr-tags extension
+AC_ARG_ENABLE([xattr-tags],
+        AS_HELP_STRING([--enable-xattr-tags], [Enable set as xattr tags plugin]),
+        [enable_xattr_tags=$enableval],
+        [enable_xattr_tags=yes])
+
+AM_CONDITIONAL(ENABLE_XATTR_TAGS, test x"$enable_xattr_tags" = "xyes")
+
 # Get caja extensions directory
 AC_ARG_WITH(cajadir,
     AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Caja extension @<:@auto@:>@]),
@@ -327,6 +335,8 @@ AC_OUTPUT([
   share/Makefile
   wallpaper/libcaja-wallpaper.caja-extension.in
   wallpaper/Makefile
+  xattr-tags/libcaja-xattr-tags.caja-extension.in
+  xattr-tags/Makefile
   po/Makefile.in 
 ])
 
@@ -343,4 +353,5 @@ Plugins to be build:
         Share:                  $enable_share
         Gksu:                   $enable_gksu
         Wallpaper:              $enable_wallpaper
+        xattr Tags:             $enable_xattr_tags
 "
