@@ -1,4 +1,4 @@
-AC_INIT([caja-extensions], 1.16.0, [https://github.com/mate-desktop/caja-extensions])
+AC_INIT([caja-extensions], 1.17.0, [https://github.com/mate-desktop/caja-extensions])
 
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
 AC_CONFIG_HEADERS(config.h)
@@ -10,9 +10,10 @@ AM_PROG_LIBTOOL
 AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 
-CAJA_REQUIRED=1.7.0
-LIBMATE_DESKTOP_REQUIRED=1.7.0
+CAJA_REQUIRED=1.17.1
+LIBMATE_DESKTOP_REQUIRED=1.17.0
 GLIB_REQUIRED=2.36.0
+GTK_REQUIRED=3.14.0
 
 GLIB_GSETTINGS
 
@@ -32,26 +33,6 @@ fi
 GLIB_GENMARSHAL=`$PKG_CONFIG --variable=glib_genmarshal glib-2.0`
 AC_SUBST(GLIB_GENMARSHAL)
 
-AC_MSG_CHECKING([GTK+ version])
-AC_ARG_WITH([gtk],
-  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
-  [case "$with_gtk" in
-     2.0|3.0) ;;
-     *) AC_MSG_ERROR([invalid gtk version specified]) ;;
-   esac],
-  [with_gtk=2.0])
-AC_MSG_RESULT([$with_gtk])
-
-case "$with_gtk" in
-  2.0) GTK_API_VERSION=2.0
-       GTK_REQUIRED=2.24.0
-       ;;
-  3.0) GTK_API_VERSION=3.0
-       GTK_REQUIRED=3.0.0
-       ;;
-esac
-AC_SUBST(GTK_API_VERSION)
-
 # Common requirements
 PKG_CHECK_MODULES(CAJA,
                   libcaja-extension >= $CAJA_REQUIRED)
@@ -66,7 +47,7 @@ AC_ARG_ENABLE([image-converter],
 
 if test "x$enable_image-converter" = "xyes"; then
         PKG_CHECK_MODULES(IMAGE_CONVERTER,
-                gtk+-$GTK_API_VERSION  >= $GTK_REQUIRED
+                gtk+-3.0  >= $GTK_REQUIRED
                 glib-2.0  >= $GLIB_REQUIRED
                 gio-2.0   >= $GLIB_REQUIRED)
         AC_SUBST(IMAGE_CONVERTER_CFLAGS)
@@ -107,7 +88,7 @@ if test "x$enable_sendto" = "xyes"; then
                 gthread-2.0 >= $GTHREAD_REQUIRED
                 gmodule-2.0 >= $GLIB_REQUIRED
                 gobject-2.0 >= $GLIB_REQUIRED
-                gtk+-$GTK_API_VERSION >= $GTK_REQUIRED)
+                gtk+-3.0 >= $GTK_REQUIRED)
         AC_SUBST(SENDTO_CFLAGS)
         AC_SUBST(SENDTO_LIBS)
 
@@ -354,7 +335,6 @@ caja-extensions-$VERSION:
         prefix:                 ${prefix}
         compiler:               ${CC}
         caja-extension dir      ${ac_with_cajadir}
-        Gtk+ version:           ${GTK_API_VERSION}
 
 Plugins to be build:
         Image Converter:        $enable_image_converter

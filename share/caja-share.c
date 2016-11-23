@@ -441,18 +441,12 @@ get_fullpath_from_fileinfo(CajaFileInfo *fileinfo)
 static void
 property_page_set_warning (PropertyPage *page)
 {
-#if GTK_CHECK_VERSION (3, 0, 0)
   GtkStyleContext *context = gtk_widget_get_style_context (GTK_WIDGET (page->entry_share_name));
   if (gtk_style_context_has_class (context, GTK_STYLE_CLASS_ERROR))
     {
       gtk_style_context_remove_class (context, GTK_STYLE_CLASS_ERROR);
     }
   gtk_style_context_add_class (context, GTK_STYLE_CLASS_WARNING);
-#else
-  GdkColor colorYellow;
-  gdk_color_parse ("#ECDF62", &colorYellow);
-  gtk_widget_modify_base (page->entry_share_name, GTK_STATE_NORMAL, &colorYellow);
-#endif
 
   gtk_label_set_text (GTK_LABEL (page->label_status), _("Share name is too long"));
 }
@@ -460,18 +454,12 @@ property_page_set_warning (PropertyPage *page)
 static void
 property_page_set_error (PropertyPage *page, const char *message)
 {
-#if GTK_CHECK_VERSION (3, 0, 0)
   GtkStyleContext *context = gtk_widget_get_style_context (GTK_WIDGET (page->entry_share_name));
   if (gtk_style_context_has_class (context, GTK_STYLE_CLASS_WARNING))
     {
       gtk_style_context_remove_class (context, GTK_STYLE_CLASS_WARNING);
     }
   gtk_style_context_add_class (context, GTK_STYLE_CLASS_ERROR);
-#else
-  GdkColor colorRed;
-  gdk_color_parse ("#C1665A", &colorRed);
-  gtk_widget_modify_base (page->entry_share_name, GTK_STATE_NORMAL, &colorRed);
-#endif
 
   gtk_label_set_text (GTK_LABEL (page->label_status), message);
 }
@@ -479,7 +467,6 @@ property_page_set_error (PropertyPage *page, const char *message)
 static void
 property_page_set_normal (PropertyPage *page)
 {
-#if GTK_CHECK_VERSION (3, 0, 0)
   GtkStyleContext *context = gtk_widget_get_style_context (GTK_WIDGET (page->entry_share_name));
   if (gtk_style_context_has_class (context, GTK_STYLE_CLASS_WARNING))
     {
@@ -490,9 +477,6 @@ property_page_set_normal (PropertyPage *page)
     {
       gtk_style_context_remove_class (context, GTK_STYLE_CLASS_ERROR);
     }
-#else
-  gtk_widget_modify_base (page->entry_share_name, GTK_STATE_NORMAL, NULL);
-#endif
 
   gtk_label_set_text (GTK_LABEL (page->label_status), "");
 }
