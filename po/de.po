@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Almin <GermannenMarkus@googlemail.com>, 2013
-# kæde <amborsdorfer@gmail.com>, 2014
+# kæde, 2014
 # Franco Della-Monica <franco.della.monica@gmail.com>, 2015
 # Julian Rüger <jr98@gmx.net>, 2014
 # bambuhle <politik@philippoi.de>, 2014

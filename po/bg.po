@@ -5,13 +5,14 @@
 # Translators:
 # Elusiv_man <breaker9loc@gmail.com>, 2014
 # Замфир Йончев <zamfir.yonchev@gmail.com>, 2016
+# Любомир Василев, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-04-05 10:20+0000\n"
-"Last-Translator: Замфир Йончев <zamfir.yonchev@gmail.com>\n"
+"PO-Revision-Date: 2016-10-17 07:17+0000\n"
+"Last-Translator: Любомир Василев\n"
 "Language-Team: Bulgarian (http://www.transifex.com/mate/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +45,7 @@ msgstr "Разширение за даване на права"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "Мащабиране на изображенията..."
+msgstr "Мащабиране на изображенията…"
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
@@ -52,7 +53,7 @@ msgstr "Мащабиране на избраните изображения"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "_Завъртане на изображенията..."
+msgstr "_Завъртане на изображенията…"
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
@@ -399,14 +400,14 @@ msgstr "Позволява бързо споделяне на папка"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja изисква да се добавят някои права към Вашата папка \"%s\", за да бъде споделена"
+msgstr "Caja изисква да се добавят някои права към Вашата папка „%s“, за да бъде споделена"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Папка \"%s\" изисква следните допълнително права за споделяне на вашата работа:\n%s%s%sИскате ли Caja да добави автоматично тези позволения към папката?"
+msgstr "Папката „%s“ изисква следните допълнително права за споделяне на Вашата работа:\n%s%s%sИскате ли Caja да добави автоматично тези позволения към папката?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"

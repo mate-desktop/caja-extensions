@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-04-01 10:07+0000\n"
+"PO-Revision-Date: 2016-11-07 18:03+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -24,18 +24,18 @@ msgstr ""
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Відкрити як адміністратор"
+msgstr "Відкрити як керманич"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Відкриває файл з адміністративними правами"
+msgstr "Відкриває файл з правами керманича"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Неможливо визначити проґраму для запуску.</b></big>\n\nОбраний Вами елемент неможливо відкрити з правами адміністратора через те, що коректний застосунок не визначено."
+msgstr "<big><b>Неможливо визначити проґраму для запуску.</b></big>\n\nОбраний Вами елемент неможливо відкрити з правами керманича через те, що коректний застосунок не визначено."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -195,7 +195,7 @@ msgstr "градусів за год. стрілкою"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".обернутий"
+msgstr ".обернений"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Christopher Meng <i@cicku.me>, 2013
-# Wylmer Wang <wantinghard@gmail.com>, 2013-2014
+# Wylmer Wang, 2013-2014
 # 玉堂白鹤 <yjwork@qq.com>, 2015
 # Mingcong Bai <jeffbai@aosc.xyz>, 2016
 # Mingcong Bai <jeffbai@aosc.xyz>, 2015

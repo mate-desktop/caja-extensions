@@ -4,8 +4,8 @@
 # 
 # Translators:
 # ABE Tsunehiko, 2015
-# BALLOON a.k.a. Fu-sen., 2014
-# Ikuru Kanum <kanumaiku@gmail.com>, 2015
+# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2014
+# Ikuru K <kanumaiku@gmail.com>, 2015
 # Mika Kobayashi, 2015
 # OKANO Takayoshi <kano@na.rim.or.jp>, 2015
 # shinmili <rmsk.pl.ur.lpt@gmail.com>, 2014

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-03-25 17:20+0000\n"
+"PO-Revision-Date: 2016-11-17 10:23+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -296,7 +296,7 @@ msgstr "Kunne ikke laste inn noen programtillegg."
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr "Vennligst sjekk din installasjon."
+msgstr "Sjekk innstallasjonen din"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
