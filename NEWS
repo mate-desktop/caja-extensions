@@ -1,21 +1,21 @@
-1.17.0
+### caja-extensions 1.17.0
 
   * Translations update
   * move to GTK+3 (>= 3.14), drop GTK+2 code and --with-gtk build option
 
-1.16.0
+### caja-extensions 1.16.0
 
   * open-terminal: fix opening terminal in remote folders with single
     or double quote in their names
   * open-terminal: some code cleanups
   * Translations update
 
-1.14.1
+### caja-extensions 1.14.1
 
   * Translations update
   * Make distcheck use currently selected GTK+ version
 
-1.14.0
+### caja-extensions 1.14.0
 
   * Drop MateConf migration scripts
   * GTK+3: some deprecation fixes
@@ -23,21 +23,21 @@
   * Translations update
   * Add Changelog generation
 
-1.12.0
+### caja-extensions 1.12.0
 
   * Some string fixes
   * Translations update
 
-1.10.1
+### caja-extensions 1.10.1
 
   * open-terminal: fixed bugs with non-standard ssh ports
 
-1.10.0
+### caja-extensions 1.10.0
 
   * wallpaper: Added new 'Set as wallpaper' extension
   * sendto: re-introduce the option to select plugins to build
 
-1.8.0
+### caja-extensions 1.8.0
 
   * New release merging all current official MATE caja extensions in a single
     package.
