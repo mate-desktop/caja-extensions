@@ -43,6 +43,58 @@ typedef struct {
     GClosure *update_complete;
 } CajaXattrTagsHandle;
 
+/* Stolen code: why they didn't expose it!?
+ * file: glocalfileinfo.c
+ * function: hex_unescape_string
+ * GIO - GLib Input, Output and Streaming Library
+ */
+static char *
+hex_unescape_string (const char *str,
+                     int        *out_len,
+                     gboolean   *free_return)
+{
+    int i;
+    char *unescaped_str, *p;
+    unsigned char c;
+    int len;
+
+    len = strlen (str);
+
+    if (strchr (str, '\\') == NULL)
+    {
+        if (out_len)
+            *out_len = len;
+        *free_return = FALSE;
+        return (char *)str;
+    }
+
+    unescaped_str = g_malloc (len + 1);
+
+    p = unescaped_str;
+    for (i = 0; i < len; i++)
+    {
+        if (str[i] == '\\' &&
+            str[i+1] == 'x' &&
+            len - i >= 4)
+        {
+            c =
+                (g_ascii_xdigit_value (str[i+2]) << 4) |
+                g_ascii_xdigit_value (str[i+3]);
+            *p++ = c;
+            i += 3;
+        }
+        else
+            *p++ = str[i];
+    }
+    *p++ = 0;
+
+    if (out_len)
+        *out_len = p - unescaped_str;
+    *free_return = TRUE;
+    return unescaped_str;
+}
+/* End of stolen code */
+
 static gchar *caja_xattr_tags_get_xdg_tags(CajaFileInfo *file)
 {
     gchar *tags = NULL, *uri;
@@ -59,7 +111,17 @@ static gchar *caja_xattr_tags_get_xdg_tags(CajaFileInfo *file)
 
     if (info) {
         if (g_file_info_has_attribute(info, G_FILE_ATTRIBUTE_XATTR_XDG_TAGS)) {
-            tags = g_strdup(g_file_info_get_attribute_string(info, G_FILE_ATTRIBUTE_XATTR_XDG_TAGS));
+            const gchar *escaped_tags =
+                g_file_info_get_attribute_string(info, G_FILE_ATTRIBUTE_XATTR_XDG_TAGS);
+
+            gboolean new_created = FALSE;
+            gchar *un_escaped_tags = hex_unescape_string (escaped_tags, NULL, &new_created);
+            if (new_created) {
+                tags = un_escaped_tags;
+            } else {
+                /* the string didn't contain any escaped character */
+                tags = g_strdup(escaped_tags);
+            }
         }
         g_object_unref (info);
     }
