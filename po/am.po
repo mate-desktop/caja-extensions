@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# samson <sambelet@yahoo.com>, 2013-2015
+# samson <sambelet@yahoo.com>, 2013-2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2015-12-29 02:43+0000\n"
+"POT-Creation-Date: 2016-12-05 23:49+0300\n"
+"PO-Revision-Date: 2017-01-12 18:08+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -219,25 +219,25 @@ msgstr "ምስል መቀየሪያ "
 msgid "Rotate and resize images"
 msgstr "ምስሎችን ማዞሪያ እና እንደገና መመጠኛ"
 
-#: ../open-terminal/caja-open-terminal.c:426
-#: ../open-terminal/caja-open-terminal.c:439
+#: ../open-terminal/caja-open-terminal.c:432
+#: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
 msgstr "_በተርሚናል ውስጥ መክፈቻ "
 
-#: ../open-terminal/caja-open-terminal.c:428
+#: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
 msgstr "አሁን የተመረጠውን ፎልደር በ ተርሚናል ውስጥ መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:430
-#: ../open-terminal/caja-open-terminal.c:440
+#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open the currently open folder in a terminal"
 msgstr "አሁን የተከፈተውን ፎልደር በ ተርሚናል ውስጥ መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
 msgstr "ተርሚናል _መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open a terminal"
 msgstr "ተርሚናል _መክፈቻ"
 
@@ -253,7 +253,7 @@ msgstr "ተርሚናል መክፈቻ ከ ፎልደሮች ውስጥ"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "ተርሚናል በ ዴስክቶፕ ላይ በሚከፈት ጊዘ በ ቤት ዳይሬክቶሪ ውስጥ ይከፈት እንደሆን"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -261,7 +261,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr ""
+msgstr "በ ትክክል ከ ተሰናዳ ተርሚናል በ ዴስክቶፕ ላይ መክፈት ተርሚናል በ ቤት ዳይሬክቶሪ ውስጥ ይከፍታል: ያለ በለዚያ በ ዴስክቶፕ ዳይሬክቶሪ ውስጥ ይከፍታል: ማስታወሻ: ይህ ቁልፍ ዋጋ አይኖረውም የ ዴስክቶፕ ዳይሬክቶሪ ተመሳሳይ ከሆነ ከ ቤት ዳይሬክቶሪ ጋር"
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -282,7 +282,7 @@ msgstr "ፋይሎች"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "ይጠብቃል URIs ወይንም የ ፋይል ስሞች እንደ ምርጫ እስኪያልፉ ድረስ\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
@@ -385,7 +385,7 @@ msgstr "የሚወልቁ ዲስኮች እና የሚካፈሉዋቸው"
 msgid "UPnP Media Server"
 msgstr "UPnP Media Server"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
 msgstr "ማካፈያ"
 
@@ -405,7 +405,7 @@ msgstr "ካጃ ተጨማሪ ፍቃድ ይፈልጋል የ እርስዎን ፎል
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "ይህ ፎልደር \"%s\" ተጨማሪ ፍቃድ ይፈልጋል ለ መስራት:\n%s%s%s እርስዎ ካጃ እነዚህን ፍቃዶች ወደ ፎልደር ውስጥ ራሱ በራሱ እንዲጨምር ይፈልጋሉ?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -428,44 +428,44 @@ msgstr "ፍቃድ ራሱ በራሱ መጨመሪያ "
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "የ ፎልደሩን ፍቃድ መቀየር አይቻልም \"%s\""
 
-#: ../share/caja-share.c:446
+#: ../share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "የማካፈያው ስም በጣም ረጅም ነው "
 
-#: ../share/caja-share.c:480
+#: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "የማካፈያው ስም ባዶ መሆን የለበትም "
 
-#: ../share/caja-share.c:493
+#: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "የ ማካፈያ መረጃ በማግኘት ላይ እንዳለ ስህተተ ተፈጥሯል: %s"
 
-#: ../share/caja-share.c:503
+#: ../share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "ሌ ማካፈያ በዚህ ስም አለ"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:786
+#: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "_ማካፈያ ማሻሻያ"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:788
+#: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
 msgstr "_ማካፈያ መፍጠሪያ"
 
-#: ../share/caja-share.c:678
+#: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "የ ማካፈያ መረጃ በማግኘት ላይ እንዳለ ስህተተ ተፈጥሯል"
 
-#: ../share/caja-share.c:1110
+#: ../share/caja-share.c:1123
 msgid "Folder Sharing"
 msgstr "ፎልደር ማካፈያ"
 
-#: ../share/caja-share.c:1151
+#: ../share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "የማካፈያ ምርጫዎች"
 
-#: ../share/caja-share.c:1152
+#: ../share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "ይህን ፎልደር ማካፈያ"
 
@@ -516,7 +516,7 @@ msgstr "'net usershare' ስህተት መልሷል %d"
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "ውጤቱ የ 'ኔት ተጠቃሚዎች ማካፈያ' ዋጋ ያለው የ UTF-8 encoding አይደለም"
 
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
@@ -546,14 +546,14 @@ msgstr "Samba's testparm returned error %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "ማስወገድ አይቻልም ማካፈያ ለ %s: ይህ መንገድ የሚካፈሉት አይደለም"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr ""
+msgstr "የ ነበረውን ማካፈያ መንገድ መቀየር አይቻልም: እባክዎን አሮጌውን ማካፈያ ያጥፉ በ መጀመሪያ እና አዲስ ይጨምሩ"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

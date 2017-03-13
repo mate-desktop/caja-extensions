@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"POT-Creation-Date: 2016-12-05 23:49+0300\n"
 "PO-Revision-Date: 2015-12-16 14:33+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/mate/MATE/language/zh_TW/)\n"
@@ -220,25 +220,25 @@ msgstr "圖片轉換器"
 msgid "Rotate and resize images"
 msgstr "旋轉及調整圖片大小"
 
-#: ../open-terminal/caja-open-terminal.c:426
-#: ../open-terminal/caja-open-terminal.c:439
+#: ../open-terminal/caja-open-terminal.c:432
+#: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
 msgstr "在終端機中開啟(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:428
+#: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
 msgstr "在終端機中開啟目前已選資料夾"
 
-#: ../open-terminal/caja-open-terminal.c:430
-#: ../open-terminal/caja-open-terminal.c:440
+#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open the currently open folder in a terminal"
 msgstr "開啟終端機並進入目前使用中的資料夾"
 
-#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
 msgstr "開啟終端機(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open a terminal"
 msgstr "開啟終端機"
 
@@ -386,7 +386,7 @@ msgstr "卸除式磁碟與分享"
 msgid "UPnP Media Server"
 msgstr "UPnP 媒體伺服器"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
 msgstr "共用"
 
@@ -429,44 +429,44 @@ msgstr "自動加入權限"
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "無法更改資料夾「%s」的權限"
 
-#: ../share/caja-share.c:446
+#: ../share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "共用名稱太長"
 
-#: ../share/caja-share.c:480
+#: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "共用名稱不能為空"
 
-#: ../share/caja-share.c:493
+#: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "取得共用資訊時發生錯誤： %s"
 
-#: ../share/caja-share.c:503
+#: ../share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "其他共用有同樣的名稱"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:786
+#: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "修改共用(_S)"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:788
+#: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
 msgstr "新增共用(_S)"
 
-#: ../share/caja-share.c:678
+#: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "取得共用資訊時發生一個錯誤"
 
-#: ../share/caja-share.c:1110
+#: ../share/caja-share.c:1123
 msgid "Folder Sharing"
 msgstr "資料夾共用"
 
-#: ../share/caja-share.c:1151
+#: ../share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "共用選項"
 
-#: ../share/caja-share.c:1152
+#: ../share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "共用此資料夾"
 

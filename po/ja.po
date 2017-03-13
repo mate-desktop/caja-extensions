@@ -3,10 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# ABE Tsunehiko, 2015
+# ABE Tsunehiko, 2015,2017
 # ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2014
 # Ikuru K <kanumaiku@gmail.com>, 2015
-# Mika Kobayashi, 2015
+# Mika Kobayashi, 2015,2017
 # OKANO Takayoshi <kano@na.rim.or.jp>, 2015
 # shinmili <rmsk.pl.ur.lpt@gmail.com>, 2014
 # shinmili <rmsk.pl.ur.lpt@gmail.com>, 2014
@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2015-12-16 14:16+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"POT-Creation-Date: 2016-12-05 23:49+0300\n"
+"PO-Revision-Date: 2017-02-23 14:07+0000\n"
+"Last-Translator: ABE Tsunehiko\n"
 "Language-Team: Japanese (http://www.transifex.com/mate/MATE/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +74,7 @@ msgstr "<b>画像の大きさ</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "選択する:"
+msgstr "サイズの選択:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -114,7 +114,7 @@ msgstr "パーセント"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "指定する:"
+msgstr "サイズの指定:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
@@ -186,11 +186,11 @@ msgstr "<b>画像の回転</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "選択する:"
+msgstr "角度を選択:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "指定する:"
+msgstr "角度を指定:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
@@ -220,41 +220,41 @@ msgstr "<i>\"%s\" の回転中</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
-msgstr "画像コンバーター"
+msgstr "画像の変換"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
-msgstr "画像の回転・サイズ変更"
+msgstr "画像の回転とサイズの変更"
 
-#: ../open-terminal/caja-open-terminal.c:426
-#: ../open-terminal/caja-open-terminal.c:439
+#: ../open-terminal/caja-open-terminal.c:432
+#: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
 msgstr "端末の中に開く(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:428
+#: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
 msgstr "端末の中に現在選択しているフォルダを開きます"
 
-#: ../open-terminal/caja-open-terminal.c:430
-#: ../open-terminal/caja-open-terminal.c:440
+#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open the currently open folder in a terminal"
 msgstr "端末の中に現在表示しているフォルダを開きます"
 
-#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
 msgstr "端末を開く(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open a terminal"
 msgstr "端末を開きます"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
-msgstr "ターミナルを開く"
+msgstr "端末を開く"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
-msgstr "フォルダからターミナルを開く"
+msgstr "フォルダーから端末を開く"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -276,11 +276,11 @@ msgstr "送る..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "ファイルをメールやインスタント・メッセンジャーなどを使って送信します..."
+msgstr "ファイルをメールやインスタントメッセージで送信します..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "ファイルをメールやインスタント・メッセンジャーなどを使って送信します..."
+msgstr "ファイルをメールやインスタントメッセージで送信します..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
@@ -289,7 +289,7 @@ msgstr "ファイル"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "オプションとして URI または ファイル名を指定してください\n"
+msgstr "オプションとして URI またはファイル名を指定してください\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
@@ -302,7 +302,7 @@ msgstr "プラグインを読み込めませんでした"
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr "インストールを確認してください"
+msgstr "正しくインストールされているか確認してください"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
@@ -310,7 +310,7 @@ msgstr "送る"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr "メールクライアント・Pidginに統合"
+msgstr "メールクライアントとPidginへの統合"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
@@ -350,7 +350,7 @@ msgstr "ファイルを送信できません"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr "gajim のリモート・サービスへ接続していません。"
+msgstr "gajim のリモートサービスへ接続していません。"
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
@@ -366,7 +366,7 @@ msgstr "不明な応答メッセージです"
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr "インスタント・メッセージ (Gajim)"
+msgstr "インスタントメッセージ (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
@@ -382,37 +382,37 @@ msgstr "CD/DVD の作成"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr "インスタント・メッセンジャー (Pidgin)"
+msgstr "インスタントメッセージ (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "リムーバブル・ディスクと共有"
+msgstr "リムーバブルディスクと共有"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "UPnP メディア・サーバ"
+msgstr "UPnP メディアサーバー"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
 msgstr "共有"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr "フォルダのクイック共有を有効"
+msgstr "フォルダーのクイック共有を有効"
 
 #: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "フォルダ \"%s\" を共有するためにはアクセス権を追加する必要があります"
+msgstr "フォルダー \"%s\" を共有するためにはアクセス権を追加する必要があります"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "共有機能を有効にするにはフォルダ \"%s\" に次の追加アクセス権が必要です:\n%s%s%sこれらのアクセス権を自動で追加してよろしいですか？"
+msgstr "共有機能を有効にするにはフォルダー \"%s\" に次の追加アクセス権が必要です:\n%s%s%sこれらのアクセス権を自動で追加してよろしいですか？"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -433,46 +433,46 @@ msgstr "アクセス権を自動で追加する"
 #: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "フォルダ \"%s\" のアクセス権を変更できません"
+msgstr "フォルダー \"%s\" のアクセス権を変更できません"
 
-#: ../share/caja-share.c:446
+#: ../share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "共有名が長すぎます"
 
-#: ../share/caja-share.c:480
+#: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "共有名を入力してください"
 
-#: ../share/caja-share.c:493
+#: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "共有情報の取得中にエラーが発生しました: %s"
 
-#: ../share/caja-share.c:503
+#: ../share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "同名の共有があります"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:786
+#: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "共有を変更(_S)"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:788
+#: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
 msgstr "共有を作成(_S)"
 
-#: ../share/caja-share.c:678
+#: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "共有情報の取得中にエラーが発生しました"
 
-#: ../share/caja-share.c:1110
+#: ../share/caja-share.c:1123
 msgid "Folder Sharing"
-msgstr "フォルダの共有"
+msgstr "フォルダーの共有"
 
-#: ../share/caja-share.c:1151
+#: ../share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "共有オプション"
 
-#: ../share/caja-share.c:1152
+#: ../share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "このフォルダを共有する"
 
@@ -486,7 +486,7 @@ msgstr "共有名(_N):"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "このフォルダを共有する(_F)"
+msgstr "このフォルダーを共有する(_F)"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
@@ -494,7 +494,7 @@ msgstr "コメント(_M):"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "このフォルダで他人がファイルを作成・削除するのを許可する(_A)"
+msgstr "このフォルダー内で他人がファイルを作成・削除するのを許可する(_A)"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
@@ -564,11 +564,11 @@ msgstr "既に共有されているパスは変更できません; 古い共有�
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "壁紙に設定"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr ""
+msgstr "画像を現在の壁紙として設定"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"

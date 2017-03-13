@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"POT-Creation-Date: 2016-12-05 23:49+0300\n"
 "PO-Revision-Date: 2016-09-07 13:14+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
@@ -222,25 +222,25 @@ msgstr "Paveikslų keitiklis"
 msgid "Rotate and resize images"
 msgstr "Sukioti ir keisti paveikslų dydį"
 
-#: ../open-terminal/caja-open-terminal.c:426
-#: ../open-terminal/caja-open-terminal.c:439
+#: ../open-terminal/caja-open-terminal.c:432
+#: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
 msgstr "Atverti _terminale"
 
-#: ../open-terminal/caja-open-terminal.c:428
+#: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
 msgstr "Atverti šiuo metu pasirinktą aplanką terminale"
 
-#: ../open-terminal/caja-open-terminal.c:430
-#: ../open-terminal/caja-open-terminal.c:440
+#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open the currently open folder in a terminal"
 msgstr "Atverti šiuo metu atvertą aplanką terminale"
 
-#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
 msgstr "Atverti _terminalą"
 
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open a terminal"
 msgstr "Atverti terminalą"
 
@@ -388,7 +388,7 @@ msgstr "Keičiamieji diskai ir viešiniai"
 msgid "UPnP Media Server"
 msgstr "UPnP medijos serveris"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
 msgstr "Bendrinti"
 
@@ -431,44 +431,44 @@ msgstr "Automatiškai pridėti leidimus"
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nepavyko pakeisti aplanko „%s“ leidimų"
 
-#: ../share/caja-share.c:446
+#: ../share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "Dalijimosi pavadinimas per ilgas"
 
-#: ../share/caja-share.c:480
+#: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "Dalijimosi pavadinimas negali būti tuščias"
 
-#: ../share/caja-share.c:493
+#: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Nepavyko gauti dalijimosi informaciją: %s"
 
-#: ../share/caja-share.c:503
+#: ../share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "Kitas bendrinys turi tokį patį pavadinimą"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:786
+#: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "Keisti bendrinį"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:788
+#: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
 msgstr "Kurti bendrinį"
 
-#: ../share/caja-share.c:678
+#: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "Gaunant bendrinimo informaciją įvyko klaida"
 
-#: ../share/caja-share.c:1110
+#: ../share/caja-share.c:1123
 msgid "Folder Sharing"
 msgstr "Aplankų bendrinimas"
 
-#: ../share/caja-share.c:1151
+#: ../share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "Bendrinimo parinktys"
 
-#: ../share/caja-share.c:1152
+#: ../share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "Bendrinti šį aplanką"
 

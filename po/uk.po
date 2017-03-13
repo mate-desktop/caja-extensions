@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2013
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2013
+# Микола Ткач <znadibnyk@gmail.com>, 2013
+# Микола Ткач <znadibnyk@gmail.com>, 2013
 # Oleh, 2014
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2014-2016
+# Микола Ткач <znadibnyk@gmail.com>, 2014-2016
 # Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 17:14+0300\n"
+"POT-Creation-Date: 2016-12-05 23:49+0300\n"
 "PO-Revision-Date: 2016-11-07 18:03+0000\n"
-"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
+"Last-Translator: Микола Ткач <znadibnyk@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -223,25 +223,25 @@ msgstr "Перетворення зображень"
 msgid "Rotate and resize images"
 msgstr "Обертати і змінювати розмір зображень"
 
-#: ../open-terminal/caja-open-terminal.c:426
-#: ../open-terminal/caja-open-terminal.c:439
+#: ../open-terminal/caja-open-terminal.c:432
+#: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
 msgstr "Відкрити у _терміналі"
 
-#: ../open-terminal/caja-open-terminal.c:428
+#: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
 msgstr "Відкрити обрану теку у терміналі"
 
-#: ../open-terminal/caja-open-terminal.c:430
-#: ../open-terminal/caja-open-terminal.c:440
+#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open the currently open folder in a terminal"
 msgstr "Відкрити поточну теку у терміналі"
 
-#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
 msgstr "Відкрити _термінал"
 
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open a terminal"
 msgstr "Відкрити термінал"
 
@@ -389,7 +389,7 @@ msgstr "Змінні диски та теки спільного доступу"
 msgid "UPnP Media Server"
 msgstr "Медія-сервер UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
 msgstr "Оприлюднити"
 
@@ -432,44 +432,44 @@ msgstr "Додавати права автоматично"
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Неможливо змінити права для теки «%s»"
 
-#: ../share/caja-share.c:446
+#: ../share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "Ім’я оголошення задовге"
 
-#: ../share/caja-share.c:480
+#: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "Ім’я оголошення не може бути порожнім"
 
-#: ../share/caja-share.c:493
+#: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Помилка при отриманні загальної інформації: %s"
 
-#: ../share/caja-share.c:503
+#: ../share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "Иньше оголошення з тим самим ім’ям"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:786
+#: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "Модифікувати _оголошення"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:788
+#: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
 msgstr "Створити _оголошення"
 
-#: ../share/caja-share.c:678
+#: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "Відбулася помилка при отриманні публічної інформації"
 
-#: ../share/caja-share.c:1110
+#: ../share/caja-share.c:1123
 msgid "Folder Sharing"
 msgstr "Спільний доступ до теки"
 
-#: ../share/caja-share.c:1151
+#: ../share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "Параметри оприлюднення"
 
-#: ../share/caja-share.c:1152
+#: ../share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "Поділитися цією текою"
 

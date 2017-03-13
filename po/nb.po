@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2016
+# Allan Nordhøy <epost@anotheragency.no>, 2016-2017
 # Kenneth Jenssen <kennethjenssen@yahoo.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-11-17 10:23+0000\n"
+"POT-Creation-Date: 2016-12-05 23:49+0300\n"
+"PO-Revision-Date: 2017-02-02 01:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -220,25 +220,25 @@ msgstr "Bildekonverteringsprogram"
 msgid "Rotate and resize images"
 msgstr "Roter og endre størrelse på bilder"
 
-#: ../open-terminal/caja-open-terminal.c:426
-#: ../open-terminal/caja-open-terminal.c:439
+#: ../open-terminal/caja-open-terminal.c:432
+#: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
 msgstr "Åpne i _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:428
+#: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
 msgstr "Åpne valgt mappe i en terminal"
 
-#: ../open-terminal/caja-open-terminal.c:430
-#: ../open-terminal/caja-open-terminal.c:440
+#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open the currently open folder in a terminal"
 msgstr "Åpne denne mappen i et terminalvindu"
 
-#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
 msgstr "Åpne _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open a terminal"
 msgstr "Åpne en terminal"
 
@@ -336,7 +336,7 @@ msgstr "Send _pakket i:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Epost"
+msgstr "E-post"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
@@ -348,7 +348,7 @@ msgstr "Ingen tilkobling til gajim-tjenesten finnes."
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr "Forsendelse av fil feilet"
+msgstr "Forsendelse av fil mislyktes"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
@@ -386,7 +386,7 @@ msgstr "Flyttbare disker og delingsmapper"
 msgid "UPnP Media Server"
 msgstr "UPnP-mediatjener"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
 msgstr "Del"
 
@@ -429,44 +429,44 @@ msgstr "Legg till rettigheter automatisk"
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Kunne ikke endre rettigheter for mappen \"%s\""
 
-#: ../share/caja-share.c:446
+#: ../share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "Delingsnavnet er for langt"
 
-#: ../share/caja-share.c:480
+#: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "Delingsnavnet kan ikke stå tomt"
 
-#: ../share/caja-share.c:493
+#: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Feil under innhenting av delingsinformasjon: %s"
 
-#: ../share/caja-share.c:503
+#: ../share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "En annen delingsressurs (lager) har samme navn"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:786
+#: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "Endre _delingsområde"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:788
+#: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
 msgstr "Opprett _delingsressurs"
 
-#: ../share/caja-share.c:678
+#: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "Det oppsto en feil under innhenting av delingsinformasjon"
 
-#: ../share/caja-share.c:1110
+#: ../share/caja-share.c:1123
 msgid "Folder Sharing"
 msgstr "Mappe deling"
 
-#: ../share/caja-share.c:1151
+#: ../share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "Delingsvalg"
 
-#: ../share/caja-share.c:1152
+#: ../share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "Del denne mappen"
 
@@ -522,7 +522,7 @@ msgstr "resultatet av 'net usershare' er ikke i gyldig UTF-8-koding"
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Feilet"
+msgstr "Mislyktes"
 
 #: ../share/shares.c:547
 #, c-format

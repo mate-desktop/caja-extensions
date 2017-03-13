@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Francesc Famadas <kiski97@gmail.com>, 2015
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016-2017
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015-2016
 # Xavi Ivars <xavi.ivars@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-16 17:14+0300\n"
-"PO-Revision-Date: 2016-08-23 13:52+0000\n"
+"POT-Creation-Date: 2016-12-05 23:49+0300\n"
+"PO-Revision-Date: 2017-02-15 12:39+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -222,25 +222,25 @@ msgstr "Convertidor d'imatges"
 msgid "Rotate and resize images"
 msgstr "Gira i redimensiona les imatges"
 
-#: ../open-terminal/caja-open-terminal.c:426
-#: ../open-terminal/caja-open-terminal.c:439
+#: ../open-terminal/caja-open-terminal.c:432
+#: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
 msgstr "Obre al _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:428
+#: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
 msgstr "Obre la carpeta seleccionada actualment en un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:430
-#: ../open-terminal/caja-open-terminal.c:440
+#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open the currently open folder in a terminal"
 msgstr "Obre la carpeta oberta actualment en un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:436
+#: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
 msgstr "Obre un _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open a terminal"
 msgstr "Obre un terminal"
 
@@ -264,7 +264,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "En cas que estigués establert a «true», llavors l'obertura d'un terminal a l'escriptori obrirà un terminal al directori de l'usuari. En cas contrari, s'obrirà al directori de l'escriptori. Fixeu-vos que la clau és irrellevant si el directori de l'escriptori és idèntic al directori de l'usuari."
+msgstr "En cas que estigués establert a cert, llavors l'obertura d'un terminal a l'escriptori obrirà un terminal al directori de l'usuari. En cas contrari, s'obrirà al directori de l'escriptori. Fixeu-vos que la clau és irrellevant si el directori de l'escriptori és idèntic al directori de l'usuari."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -388,7 +388,7 @@ msgstr "Discos extraïbles i comparticions"
 msgid "UPnP Media Server"
 msgstr "Servidor de mitjans UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1050
+#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
 msgstr "Comparteix"
 
@@ -408,7 +408,7 @@ msgstr "Caja necessita afegir alguns permisos a la carpeta «%s» per tal de com
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "La carpeta «%s» necessita permisos addicionals per a compartir la feina:\n%s%s%sVoleu que els permisos s'afegeixin automàticament?"
+msgstr "La carpeta «%s» necessita els següents permisos addicionals perquè funcioni la compartició:\n%s%s%sVoleu que Caja afegeixi automàticament aquests permisos a la carpeta?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -431,44 +431,44 @@ msgstr "Afegeix automàticament els permisos"
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "No s'han pogut canviar els permisos de la carpeta «%s»"
 
-#: ../share/caja-share.c:446
+#: ../share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "El nom de la compartició és massa llarg"
 
-#: ../share/caja-share.c:480
+#: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "El nom de la compartició no pot estar buit"
 
-#: ../share/caja-share.c:493
+#: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "S'ha produït un error en obtenir la informació de la compartició: %s"
 
-#: ../share/caja-share.c:503
+#: ../share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "Una altra compartició té el mateix nom"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:786
+#: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "Modifica la _compartició"
 
-#: ../share/caja-share.c:550 ../share/caja-share.c:788
+#: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
 msgstr "Crea la _compartició"
 
-#: ../share/caja-share.c:678
+#: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "S'ha produït un error en obtenir la informació de la compartició"
 
-#: ../share/caja-share.c:1110
+#: ../share/caja-share.c:1123
 msgid "Folder Sharing"
 msgstr "Compartició de carpetes"
 
-#: ../share/caja-share.c:1151
+#: ../share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "Opcions de compartició"
 
-#: ../share/caja-share.c:1152
+#: ../share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "Comparteix aquesta carpeta"
 
@@ -499,7 +499,7 @@ msgstr "Accés de convidats (per a la _gent sense un compte d'usuari)"
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s va retornar amb el senyal %d"
+msgstr "%s %s %s ha tornat amb el senyal %d"
 
 #: ../share/shares.c:132
 #, c-format
@@ -509,12 +509,12 @@ msgstr "%s %s %s va fallar per un motiu desconegut"
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "«net usershare» va retornar l'error %d: %s"
+msgstr "«net usershare» ha presentat l'error %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "«net usershare» va retornar l'error %d"
+msgstr "«net usershare» ha presentat l'error %d"
 
 #: ../share/shares.c:185
 #, c-format
@@ -529,7 +529,7 @@ msgstr "Ha fallat"
 #: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "testparm de Samba va retornar amb el senyal %d"
+msgstr "testparm de Samba ha tornat amb el senyal %d"
 
 #: ../share/shares.c:553
 #, c-format
@@ -539,12 +539,12 @@ msgstr "testparm de Samba va fallar per un motiu desconegut"
 #: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "testparm de Samba va retornar l'error %d: %s"
+msgstr "testparm de Samba ha presentat l'error %d: %s"
 
 #: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "testparm de Samba va retornar l'error %d"
+msgstr "testparm de Samba ha presentat l'error %d"
 
 #: ../share/shares.c:681
 #, c-format
