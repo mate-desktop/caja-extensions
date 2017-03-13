@@ -4,8 +4,8 @@ caja_extensiondir = $(CAJA_EXTENSION_DIR)
 caja_extension_LTLIBRARIES = libcaja-xattr-tags.la
 
 libcaja_xattr_tags_la_SOURCES = \
-	caja-xattr-tags-extension.c\
-	caja-xattr-tag-sextension.h
+	caja-xattr-tags-extension.c \
+	caja-xattr-tags-extension.h
 
 libcaja_xattr_tags_la_LDFLAGS = -module -avoid-version
 libcaja_xattr_tags_la_LIBADD = $(CAJA_LIBS)
