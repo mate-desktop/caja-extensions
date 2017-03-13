@@ -1,7 +1,12 @@
-### caja-extensions 1.17.0
+### caja-extensions 1.18.0
 
+  * NEWS: use consistent, project wide, markdown-like formatting to make
+    generating release announcements easier
+  * Build: require caja >= 1.17.1 and libmate-desktop >= 1.17.0
+  * Move to GTK+3 (require GTK+ >= 3.14), drop GTK+2 code and --with-gtk
+    build option
+  * Add xattr-tags extension to show xattr tags in a new column
   * Translations update
-  * move to GTK+3 (>= 3.14), drop GTK+2 code and --with-gtk build option
 
 ### caja-extensions 1.16.0
 
