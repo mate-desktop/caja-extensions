@@ -114,7 +114,7 @@ static gchar *caja_xattr_tags_get_xdg_tags(CajaFileInfo *file)
             const gchar *escaped_tags =
                 g_file_info_get_attribute_string(info, G_FILE_ATTRIBUTE_XATTR_XDG_TAGS);
 
-            gboolean new_created;
+            gboolean new_created = FALSE;
             gchar *un_escaped_tags = hex_unescape_string (escaped_tags, NULL, &new_created);
             if (new_created) {
                 tags = un_escaped_tags;
