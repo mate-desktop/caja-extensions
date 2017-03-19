@@ -260,7 +260,7 @@ caja_xattr_tags_register_type(GTypeModule *module)
 void
 caja_module_initialize (GTypeModule  *module)
 {
-    g_print ("Initializing caja-xattr-tags extension");
+    g_print ("Initializing caja-xattr-tags extension\n");
 
     caja_xattr_tags_register_type (module);
 }
