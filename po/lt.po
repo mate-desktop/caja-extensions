@@ -6,13 +6,13 @@
 # Audrius Meskauskas, 2015
 # Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2014
 # brennus <jonas.ska@gmail.com>, 2014
-# Moo, 2014-2016
+# Moo, 2014-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2016-09-07 13:14+0000\n"
+"PO-Revision-Date: 2017-03-16 09:17+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -285,12 +285,12 @@ msgstr "Failai"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Tikimasi URI arba failų pavadinimų, nurodytų kaip parinkčių\n"
+msgstr "Tikimasi URI arba failų pavadinimų, nurodytų kaip parametrų\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Nepavyko apdoroti komandų eilutės parinkčių: %s\n"
+msgstr "Nepavyko apdoroti komandų eilutės parametrų: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
@@ -466,7 +466,7 @@ msgstr "Aplankų bendrinimas"
 
 #: ../share/caja-share.c:1164
 msgid "Sharing Options"
-msgstr "Bendrinimo parinktys"
+msgstr "Bendrinimo parametrai"
 
 #: ../share/caja-share.c:1165
 msgid "Share this Folder"

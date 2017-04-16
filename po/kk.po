@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2015-12-16 14:16+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2017-03-21 08:32+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh (http://www.transifex.com/mate/MATE/language/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,78 +20,78 @@ msgstr ""
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr ""
+msgstr "Әкімші ретінде ашу"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr ""
+msgstr "Файлды әкімшілік привилегиялармен ашу"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr ""
+msgstr "<big><b>Жөнелту үшін бағдарламаны анықтау мүмкін емес.</b></big>\n\nСәз тандаған нәрсені әкімші атынан ашу мүмкін емес, өйткені дұрыс дұрыс қолданбаны анықтау мүмкін емес."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "Привилегияларды рұқсат ету кеңейтуі"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr ""
+msgstr "Суреттер ө_лшемдерін өзгерту..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr ""
+msgstr "Әр таңдалған суреттің өлшемін өзгерту"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "Суреттерді _бұру..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr ""
+msgstr "Әр таңдалған суретті бұру"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr ""
+msgstr "Суреттер өлшемдерін өзгерту"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr ""
+msgstr "<b>Сурет өлшемі</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr ""
+msgstr "Өлшемін таңдаңыз:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
-msgstr ""
+msgstr "96x96"
 
 #: ../image-converter/caja-image-resize.ui.h:5
 msgid "128x128"
-msgstr ""
+msgstr "128x128"
 
 #: ../image-converter/caja-image-resize.ui.h:6
 msgid "640x480"
-msgstr ""
+msgstr "640x480"
 
 #: ../image-converter/caja-image-resize.ui.h:7
 msgid "800x600"
-msgstr ""
+msgstr "800x600"
 
 #: ../image-converter/caja-image-resize.ui.h:8
 msgid "1024x768"
-msgstr ""
+msgstr "1024x768"
 
 #: ../image-converter/caja-image-resize.ui.h:9
 msgid "1280x960"
-msgstr ""
+msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
@@ -98,15 +99,15 @@ msgstr "пиксель"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr ""
+msgstr "Масштаб:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr ""
+msgstr "пайыз"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr ""
+msgstr "Таңдауыңызша өлшемі:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
@@ -119,25 +120,25 @@ msgstr "Биіктігі:"
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr ""
+msgstr "<b>Файл аты</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Жалғау"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".resized"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "файл атауына"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Өз орнында өлшемін өзгерту"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
@@ -146,7 +147,7 @@ msgstr "Ө_лшемін өзгерту"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr ""
+msgstr "А_ттап кету"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -156,21 +157,21 @@ msgstr "Қа_йталау"
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Сурет өлшемдерін өзгерту: %d, барлығы %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>\"%s\" өлшемін өзгерту</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Дұрыс файл атының жұрнағын енгізіңіз!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr ""
+msgstr "Суреттерді бұру"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
@@ -198,7 +199,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr ""
+msgstr "Бұру"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
@@ -221,16 +222,16 @@ msgstr ""
 #: ../open-terminal/caja-open-terminal.c:432
 #: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Терминалда а_шу"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
-msgstr ""
+msgstr "Ағымдағы таңдалған буманы терминалда ашу"
 
 #: ../open-terminal/caja-open-terminal.c:436
 #: ../open-terminal/caja-open-terminal.c:446
 msgid "Open the currently open folder in a terminal"
-msgstr ""
+msgstr "Ағымдағы ашық буманы терминалда ашу"
 
 #: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
@@ -242,11 +243,11 @@ msgstr "Терминалды ашу"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
-msgstr ""
+msgstr "Терминалды ашу"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
-msgstr ""
+msgstr "Бумалардан терминалды ашу"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -264,15 +265,15 @@ msgstr ""
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Қайда жіберу..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "Файлды эл. пошта немесе лезде хабарламамен жіберу..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "Файлдарды эл. пошта немесе лезде хабарламамен жіберу..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
@@ -281,12 +282,12 @@ msgstr "Файлдар"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "Опциялар ретінде берілетін URI не файл аттарын күтеді\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "Командалық жол опцияларын талдау мүмкін емес: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
@@ -298,7 +299,7 @@ msgstr ""
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "Қайда жіберу"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -306,7 +307,7 @@ msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr ""
+msgstr "Қайда жіберу…"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -314,23 +315,23 @@ msgstr "_Жіберу"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr ""
+msgstr "<b>Мақсаты</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr ""
+msgstr "Қала_йша жіберу:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr ""
+msgstr "Кім_ге жіберу:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr ""
+msgstr "<b>Сығу</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "С_ығылған түрінде жіберу:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
@@ -338,7 +339,7 @@ msgstr "Эл. пошта"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr ""
+msgstr "Файлды жіберу мүмкін емес"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
@@ -346,27 +347,27 @@ msgstr ""
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr ""
+msgstr "Файлды жіберу сәтсіз аяқталды"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr ""
+msgstr "Алушы көрсетілмеген."
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr ""
+msgstr "Алушы белгісіз."
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "Лезде хабарлама (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr ""
+msgstr "Жаңа CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr ""
+msgstr "Бар болып тұрған CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
@@ -374,15 +375,15 @@ msgstr "CD/DVD жасаушысы"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr ""
+msgstr "Лезде хабарлама (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr ""
+msgstr "Ауыстырмалы дисктер және ортақ бумалар"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr ""
+msgstr "UPnP мультимедиа сервері"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
@@ -390,7 +391,7 @@ msgstr "Бөлісу"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "Бумамен жылдам бөліуді мүмкін етеді"
 
 #: ../share/caja-share.c:123
 #, c-format
@@ -420,7 +421,7 @@ msgstr ""
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "Рұқсаттарды автоматты түрде қосу"
 
 #: ../share/caja-share.c:167
 #, c-format
@@ -429,7 +430,7 @@ msgstr ""
 
 #: ../share/caja-share.c:451
 msgid "Share name is too long"
-msgstr ""
+msgstr "Ортақ бумасының аты тым ұзын"
 
 #: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
@@ -458,31 +459,31 @@ msgstr ""
 
 #: ../share/caja-share.c:1123
 msgid "Folder Sharing"
-msgstr ""
+msgstr "Бумамен бөлісу"
 
 #: ../share/caja-share.c:1164
 msgid "Sharing Options"
-msgstr ""
+msgstr "Бөлісу баптаулары"
 
 #: ../share/caja-share.c:1165
 msgid "Share this Folder"
-msgstr ""
+msgstr "Бұл бумамен бөлісу"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Бумамен бөлісу</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "Бөлісу бумасының _аты:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Бұл б_умамен бөлісу"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "Тү_сіндірме:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -556,16 +557,16 @@ msgstr ""
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "Түсқағаз ретінде орнату"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr ""
+msgstr "Суретті ағымдағы түсқағаз ретінде орнату"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Түсқағаз"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Түсқағазды жылдам орнатуды мүмкін етеді"
