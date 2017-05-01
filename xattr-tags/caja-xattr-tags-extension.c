@@ -101,7 +101,7 @@ static gchar *caja_xattr_tags_get_xdg_tags(CajaFileInfo *file)
     GFile *location;
     GFileInfo *info;
 
-    uri = caja_file_get_activation_uri (file);
+    uri = caja_file_info_get_activation_uri (file);
     location = g_file_new_for_uri (uri);
     info = g_file_query_info (location,
                               G_FILE_ATTRIBUTE_XATTR_XDG_TAGS,
