@@ -45,11 +45,6 @@ struct _CajaXattrTagsClass {
 GType caja_xattr_tags_get_type(void);
 void  caja_xattr_tags_register_type(GTypeModule *module);
 
-//////////////////////////////////////////////////////
-// hack: libcaja-private/caja-file.c
-char *caja_file_get_activation_uri(CajaFile *file);
-//////////////////////////////////////////////////////
-
 G_END_DECLS
 
 #endif /* CAJA_XATTR_TAGS_EXTENSION_H */
