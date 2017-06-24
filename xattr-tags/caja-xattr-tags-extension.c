@@ -144,7 +144,6 @@ caja_xattr_tags_update_file_info(CajaInfoProvider *provider,
     } else {
         caja_file_info_add_string_attribute(file, XATTR_TAGS_ATTRIBUTE, "");
     }
-
     return CAJA_OPERATION_COMPLETE;
 }
 
