@@ -243,6 +243,8 @@ create_property_page_widget (CajaXattrTagsPropertiesPage *page)
   gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scrolled_window),
                                   GTK_POLICY_AUTOMATIC,
                                   GTK_POLICY_AUTOMATIC);
+  gtk_scrolled_window_set_shadow_type(GTK_SCROLLED_WINDOW (scrolled_window),
+                                      GTK_SHADOW_IN);
   gtk_grid_attach (GTK_GRID (grid), scrolled_window, 0, 1, 2, 1);
   gtk_widget_show (scrolled_window);
 
