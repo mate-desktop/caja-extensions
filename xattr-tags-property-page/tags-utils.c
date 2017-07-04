@@ -20,7 +20,7 @@
  *  Authors: Felipe Barriga Richards <spam@felipebarriga.cl>
  */
 
-#include "caja-xattr-tags-property-page-extension.h"
+#include "caja-xattr-tags-property-page.h"
 #include <memory.h>
 
 #include "tags-utils.h"

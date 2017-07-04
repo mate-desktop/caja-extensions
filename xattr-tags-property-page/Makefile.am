@@ -16,8 +16,8 @@ libcaja_xattr_tags_property_page_la_SOURCES =   \
     tags-utils.h                                \
     ui-utils.c                                  \
     ui-utils.h                                  \
-    caja-xattr-tags-property-page-extension.c   \
-    caja-xattr-tags-property-page-extension.h
+    caja-xattr-tags-property-page.c             \
+    caja-xattr-tags-property-page.h
 
 libcaja_xattr_tags_property_page_la_LDFLAGS = -module -avoid-version
 libcaja_xattr_tags_property_page_la_LIBADD = $(CAJA_LIBS)

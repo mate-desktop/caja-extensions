@@ -21,7 +21,7 @@
  */
 
 #include <config.h>
-#include "caja-xattr-tags-property-page-extension.h"
+#include "caja-xattr-tags-property-page.h"
 
 #include "autocomplete.h"
 #include "tags-tree-view.h"
