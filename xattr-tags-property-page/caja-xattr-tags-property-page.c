@@ -604,34 +604,12 @@ caja_xattr_tags_property_page_instance_init (
 }
 
 static void
-property_page_provider_iface_init (CajaPropertyPageProviderIface *iface)
-{
-  g_debug ("property_page_provider_iface_init: called\n");
-}
-
-static void
 caja_xattr_tags_property_page_provider_iface_init (
     CajaPropertyPageProviderIface *iface)
 {
   g_debug ("caja_xattr_tags_property_page_provider_iface_init: called\n");
   iface->get_pages = get_property_pages;
 }
-
-
-static void
-caja_xattr_tags_properties_page_provider_init (
-    CajaXattrTagsPropertiesPageProvider *sidebar)
-{
-  g_debug ("caja_xattr_tags_properties_page_provider_init: called\n");
-}
-
-static void
-caja_xattr_tags_properties_page_provider_class_init (
-    CajaXattrTagsPropertiesPageProviderClass *class)
-{
-  g_debug ("caja_xattr_tags_properties_page_provider_class_init: called\n");
-}
-
 
 void
 caja_xattr_tags_property_page_register_type (GTypeModule *module)
