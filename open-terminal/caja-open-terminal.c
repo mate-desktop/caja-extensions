@@ -279,6 +279,7 @@ static void
 open_terminal_callback (CajaMenuItem *item,
 			CajaFileInfo *file_info)
 {
+	GdkDisplay   *display;
 	gchar *display_str;
 	const gchar *old_display_str;
 	gchar *uri;
@@ -336,8 +337,9 @@ open_terminal_callback (CajaMenuItem *item,
 	old_display_str = g_getenv ("DISPLAY");
 
 	screen = g_object_get_data (G_OBJECT (item), "CajaOpenTerminal::screen");
+	display = gdk_screen_get_display (screen);
 	if (screen != NULL) {
-		display_str = gdk_screen_make_display_name (screen);
+		display_str = g_strdup (gdk_display_get_name (display));
 		g_setenv ("DISPLAY", display_str, TRUE);
 	}
 
