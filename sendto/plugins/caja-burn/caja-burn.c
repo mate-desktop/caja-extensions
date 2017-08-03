@@ -157,7 +157,11 @@ gboolean send_files (NstPlugin *plugin,
 
 	copy_files_to (file_list, burn);
 
+#if GTK_CHECK_VERSION (3, 22, 0)
+	gtk_show_uri_on_window (NULL, "burn:///", GDK_CURRENT_TIME, NULL);
+#else
 	gtk_show_uri (NULL, "burn:///", GDK_CURRENT_TIME, NULL);
+#endif
 
 	return TRUE;
 }
