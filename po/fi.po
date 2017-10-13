@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Lasse Liehu <larso@gmx.com>, 2015
+# nomen omen <vapoursoft@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2016-02-20 09:57+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2017-09-19 20:33+0000\n"
+"Last-Translator: nomen omen <vapoursoft@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/mate/MATE/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,11 +21,11 @@ msgstr ""
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr ""
+msgstr "Avaa ylläpitäjänä"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr ""
+msgstr "Avaa tiedoston ylläpitäjän oikeuksilla"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
@@ -35,7 +36,7 @@ msgstr ""
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
@@ -43,59 +44,59 @@ msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr ""
+msgstr "_Muokkaa Kuvien kokoa"
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr ""
+msgstr "Muuta valittujen kuvien kokoa"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "Kierrä kuvia..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr ""
+msgstr "Käännä jokaista valittua kuvaa"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr ""
+msgstr "Muuta Kuvien kokoa"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr ""
+msgstr "<b>Kuvan Koko</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr ""
+msgstr "Valitse koko:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
-msgstr ""
+msgstr "96x96"
 
 #: ../image-converter/caja-image-resize.ui.h:5
 msgid "128x128"
-msgstr ""
+msgstr "128x128"
 
 #: ../image-converter/caja-image-resize.ui.h:6
 msgid "640x480"
-msgstr ""
+msgstr "640x480"
 
 #: ../image-converter/caja-image-resize.ui.h:7
 msgid "800x600"
-msgstr ""
+msgstr "800x600"
 
 #: ../image-converter/caja-image-resize.ui.h:8
 msgid "1024x768"
-msgstr ""
+msgstr "1024x768"
 
 #: ../image-converter/caja-image-resize.ui.h:9
 msgid "1280x960"
-msgstr ""
+msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr ""
+msgstr "pikseliä"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -103,7 +104,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr ""
+msgstr "prosentti"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
@@ -111,7 +112,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr ""
+msgstr "Leveys:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
@@ -120,7 +121,7 @@ msgstr "Korkeus:"
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr ""
+msgstr "<b>Tiedostonimi</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
@@ -222,7 +223,7 @@ msgstr ""
 #: ../open-terminal/caja-open-terminal.c:432
 #: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Avaa _Päätteessä"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
@@ -265,7 +266,7 @@ msgstr ""
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Lähetä…"
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -277,7 +278,7 @@ msgstr ""
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
-msgstr ""
+msgstr "Tiedostot"
 
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
@@ -291,7 +292,7 @@ msgstr ""
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr ""
+msgstr "Yhtään liitännäistä ei voitu ladata."
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
@@ -299,7 +300,7 @@ msgstr ""
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "Lähetä"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -307,11 +308,11 @@ msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr ""
+msgstr "Lähetä…"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr ""
+msgstr "_Lähetä"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"

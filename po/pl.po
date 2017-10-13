@@ -5,6 +5,7 @@
 # Translators:
 # Jan Bońkowski <bonkowskijan@gmail.com>, 2015
 # Marcin Kralka <marcink96@gmail.com>, 2013-2014
+# Piotr Drąg <piotrdrag@gmail.com>, 2017
 # Piotr Strębski <strebski@gmail.com>, 2015
 # Wiktor Jezioro <wikjezioro@op.pl>, 2015
 msgid ""
@@ -12,14 +13,14 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2015-12-28 09:35+0000\n"
-"Last-Translator: Piotr Strębski <strebski@gmail.com>\n"
+"PO-Revision-Date: 2017-09-23 19:17+0000\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/mate/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
@@ -42,7 +43,7 @@ msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr "Rozszerzenie przyznania przywilejów"
+msgstr "Rozszerzenie przyznawania uprawnień"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -178,7 +179,7 @@ msgstr "Obróć obrazki"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Obrót Obrazka</b>"
+msgstr "<b>Obrót obrazka</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
@@ -216,7 +217,7 @@ msgstr "<i>Obracanie \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
-msgstr "Konwerter Obrazu"
+msgstr "Konwerter obrazów"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
@@ -225,7 +226,7 @@ msgstr "Obróć i zmień rozmiar obrazów"
 #: ../open-terminal/caja-open-terminal.c:432
 #: ../open-terminal/caja-open-terminal.c:445
 msgid "Open in _Terminal"
-msgstr "Otwórz w _Terminal"
+msgstr "Otwórz w _terminalu"
 
 #: ../open-terminal/caja-open-terminal.c:434
 msgid "Open the currently selected folder in a terminal"
@@ -238,7 +239,7 @@ msgstr "Otwórz obecnie otwarty folder w terminalu"
 
 #: ../open-terminal/caja-open-terminal.c:442
 msgid "Open _Terminal"
-msgstr "Otwórz _Terminal"
+msgstr "Otwórz _terminal"
 
 #: ../open-terminal/caja-open-terminal.c:443
 msgid "Open a terminal"
@@ -250,7 +251,7 @@ msgstr "Otwórz terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
-msgstr "Otwórz terminal z folderów"
+msgstr "Otwórz terminal z katalogów"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
@@ -302,11 +303,11 @@ msgstr "Proszę sprawdzić poprawność instalacji"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Wyślij Do"
+msgstr "Wyślij do"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr "Integruj klient e-mail i Pidgin"
+msgstr "Integruje klienta e-mail i Pidgina"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
@@ -394,33 +395,33 @@ msgstr "Udostępnij"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr "Pozwala na szybkie udostępnianie folderu"
+msgstr "Pozwala na szybkie udostępnianie katalogu"
 
 #: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja potrzebuje dodać kilka uprawnień do twojego folderu \"%s\" aby umożliwić udostępnianie go"
+msgstr "Caja potrzebuje dodać kilka uprawnień do twojego folderu \"%s\", aby umożliwić udostępnianie go"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Folder \"%s\" potrzebuje następujących dodatkowych uprawnień dla udostępniania aby funkcjonować:\n%s%s%sCzy chcesz aby Caja dodała te uprawnienia do folderu automatycznie?"
+msgstr "Folder \"%s\" potrzebuje następujących dodatkowych uprawnień dla udostępniania, aby funkcjonować:\n%s%s%sCzy chcesz, aby Caja dodała te uprawnienia do folderu automatycznie?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr "- czytaj uprawnienia jako inni\n"
+msgstr "- uprawnienia odczytu przez innych\n"
 
 #: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr "- zapisuj uprawnienia jako inni\n"
+msgstr "- uprawnienia zapisu przez innych\n"
 
 #: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "- wykonuj uprawnienia jako inni\n"
+msgstr "- uprawnienia wykonywania przez innych\n"
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
@@ -446,15 +447,15 @@ msgstr "Błąd podczas otrzymywania informacji o udziale: %s"
 
 #: ../share/caja-share.c:516
 msgid "Another share has the same name"
-msgstr "Inny udział posiada taką samą nazwe"
+msgstr "Inny udział posiada taką samą nazwę"
 
 #: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
-msgstr "Modyfikuj _Udział"
+msgstr "Modyfikuj _udział"
 
 #: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
-msgstr "Utwórz _Udział"
+msgstr "Utwórz _udział"
 
 #: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
@@ -462,11 +463,11 @@ msgstr "Wystąpił błąd podczas otrzymywania informacji o udziałach"
 
 #: ../share/caja-share.c:1123
 msgid "Folder Sharing"
-msgstr "Udostępnij Folder"
+msgstr "Udostępnij folder"
 
 #: ../share/caja-share.c:1164
 msgid "Sharing Options"
-msgstr "Opcje Udostępniania"
+msgstr "Opcje udostępniania"
 
 #: ../share/caja-share.c:1165
 msgid "Share this Folder"
@@ -474,7 +475,7 @@ msgstr "Udostępnij ten folder"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Udostępnianie Folderu</b></big>"
+msgstr "<big><b>Udostępnianie folderu</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
@@ -494,7 +495,7 @@ msgstr "_Pozwól innym tworzyć i usuwać pliki w tym folderze"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "Dostęp _Gościa (dla ludzi bez kont użytkowników)"
+msgstr "Dostęp _gościa (dla osób bez kont użytkowników)"
 
 #: ../share/shares.c:123
 #, c-format
@@ -529,22 +530,22 @@ msgstr "Niepowodzenie"
 #: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "Samba's testparm wrócił z sygnałem %d"
+msgstr "testparm Samby wrócił z sygnałem %d"
 
 #: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr "Samba's testparm nie powiódł się z nieznanej przyczyny"
+msgstr "testparm Samby nie powiódł się z nieznanej przyczyny"
 
 #: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "Samba's testparam zwrócił błąd %d: %s"
+msgstr "testparam Samby zwrócił błąd %d: %s"
 
 #: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "Samba's testparam zwrócił błąd %d"
+msgstr "testparam Samby zwrócił błąd %d"
 
 #: ../share/shares.c:681
 #, c-format
