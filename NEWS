@@ -1,5 +1,16 @@
 ### caja-extensions 1.19.0
 
+    sync with transifex
+    open-terminal: don't use excessive string duplication
+    avoid deprecated gdk_screen_make_display_name
+    sendto burn: avoid deprecated gtk_show_uri
+    xattr-tags: remove hack, it's not needed now
+    xattr-tags: fix typo causing undefined reference
+    fix the libcaja_gksu_la_LDFLAGS variable declaration
+    xattr-tags: add missing newline to startup message
+    xattr-tags: unescaping stored attributes.
+    README: Added development info.
+
 ### caja-extensions 1.18.0
 
   * NEWS: use consistent, project wide, markdown-like formatting to make
