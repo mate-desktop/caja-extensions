@@ -1,3 +1,9 @@
+### caja-extensions 1.18.2
+
+  * Translations update
+  * xattr-tags: remove hack, it's not needed now
+  * xattr-tags: fix typo causing undefined reference
+
 ### caja-extensions 1.18.1
 
   * Translations update
