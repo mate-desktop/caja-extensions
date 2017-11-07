@@ -7,13 +7,14 @@
 # KAMI KAMI <kami911@gmail.com>, 2014
 # KAMI KAMI <kami911@gmail.com>, 2014-2015
 # KAMI KAMI <kami911@gmail.com>, 2016
+# KAMI KAMI <kami911@gmail.com>, 2014,2016-2017
 # Rezső Páder <rezso@rezso.net>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2017-09-19 20:33+0000\n"
+"PO-Revision-Date: 2017-10-22 17:46+0000\n"
 "Last-Translator: KAMI KAMI <kami911@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -540,12 +541,12 @@ msgstr "A Samba tesztparaméter ismeretlen okból meghiúsult "
 #: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "A Samba tesztparaméter%d hibát jelzett: %s"
+msgstr "A Samba tesztparaméter (%d) hibát jelzett: %s"
 
 #: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "A Samba tesztparaméter%d hibát jelzett"
+msgstr "A Samba tesztparaméter (%d) hibát jelzett"
 
 #: ../share/shares.c:681
 #, c-format
