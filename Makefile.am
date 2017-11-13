@@ -30,6 +30,10 @@ if ENABLE_XATTR_TAGS
 SUBDIRS += xattr-tags
 endif
 
+if ENABLE_XATTR_TAGS_PROPERTY_PAGE
+SUBDIRS += xattr-tags-property-page
+endif
+
 EXTRA_DIST = \
 	autogen.sh \
 	intltool-extract.in \

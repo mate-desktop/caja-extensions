@@ -1,0 +1,8 @@
+[Caja Extension]
+Icon=desktop
+_Name=xattr Tags Property Page
+_Description=View and Edit tags stored on xattrs
+Author=Felipe Barriga Richards
+Copyright=Copyright (C) 2017 Felipe Barriga Richards
+Version=@VERSION@
+Website=http://www.mate-desktop.org/

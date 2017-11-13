@@ -1,0 +1,19 @@
+<schemalist>
+  <schema id="org.mate.caja-xattr-tags-property-page" path="/org/mate/caja-xattr-tags-property-page/">
+    <key name="recent-tags-enabled" type="b">
+      <default>true</default>
+      <_summary>Store last added tags</_summary>
+      <_description>When enabled the added tags will be stored to be used later on the auto-complete feature.</_description>
+    </key>
+    <key name="recent-tags-capacity" type="i">
+      <default>1000</default>
+      <_summary>How many tags to store.</_summary>
+      <_description>How many tags are going to be stored.</_description>
+    </key>
+    <key name="recent-tags-list" type="as">
+      <default>[  ]</default>
+      <_summary>Last added tags</_summary>
+      <_description>List of added tags to allow tags auto-completion.</_description>
+    </key>
+  </schema>
+</schemalist>

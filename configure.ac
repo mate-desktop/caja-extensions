@@ -293,6 +293,14 @@ AC_ARG_ENABLE([xattr-tags],
 
 AM_CONDITIONAL(ENABLE_XATTR_TAGS, test x"$enable_xattr_tags" = "xyes")
 
+# xattr-tags-property-page extension
+AC_ARG_ENABLE([xattr-tags-property-page],
+        AS_HELP_STRING([--enable-xattr-tags-property-page], [Enable set as xattr tags property page plugin]),
+        [enable_xattr_tags_property_page=$enableval],
+        [enable_xattr_tags_property_page=yes])
+
+AM_CONDITIONAL(ENABLE_XATTR_TAGS_PROPERTY_PAGE, test x"$enable_xattr_tags_property_page" = "xyes")
+
 # Get caja extensions directory
 AC_ARG_WITH(cajadir,
     AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Caja extension @<:@auto@:>@]),
@@ -337,21 +345,24 @@ AC_OUTPUT([
   wallpaper/Makefile
   xattr-tags/libcaja-xattr-tags.caja-extension.in
   xattr-tags/Makefile
+  xattr-tags-property-page/libcaja-xattr-tags-property-page.caja-extension.in
+  xattr-tags-property-page/Makefile
   po/Makefile.in 
 ])
 
 echo "
 caja-extensions-$VERSION:
-        prefix:                 ${prefix}
-        compiler:               ${CC}
-        caja-extension dir      ${ac_with_cajadir}
+        prefix:                   ${prefix}
+        compiler:                 ${CC}
+        caja-extension dir        ${ac_with_cajadir}
 
 Plugins to be build:
-        Image Converter:        $enable_image_converter
-        Open Terminal:          $enable_open_terminal
-        Sendto:                 $enable_sendto
-        Share:                  $enable_share
-        Gksu:                   $enable_gksu
-        Wallpaper:              $enable_wallpaper
-        xattr Tags:             $enable_xattr_tags
+        Image Converter:          $enable_image_converter
+        Open Terminal:            $enable_open_terminal
+        Sendto:                   $enable_sendto
+        Share:                    $enable_share
+        Gksu:                     $enable_gksu
+        Wallpaper:                $enable_wallpaper
+        xattr Tags:               $enable_xattr_tags
+        xattr Tags Property Page: $enable_xattr_tags_property_page
 "
