@@ -31,3 +31,4 @@ share/shares.c
 wallpaper/caja-wallpaper-extension.c
 [type: gettext/ini]wallpaper/libcaja-wallpaper.caja-extension.in.in
 xattr-tags/caja-xattr-tags-extension.c
+[type: gettext/ini]xattr-tags/libcaja-xattr-tags.caja-extension.in.in
