@@ -1,7 +1,7 @@
 [Caja Extension]
 Icon=desktop
 _Name=xattr Tags
-_Description=See tags stored on xattrs
+_Description=View tags stored in extended attributes
 Author=Felipe Barriga Richards
 Copyright=Copyright (C) 2016 Felipe Barriga Richards
 Version=@VERSION@

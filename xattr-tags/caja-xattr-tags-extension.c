@@ -175,7 +175,7 @@ caja_xattr_tags_get_columns(CajaColumnProvider *provider)
     column = caja_column_new(XATTR_TAGS_NAME,
                              XATTR_TAGS_ATTRIBUTE,
                              _("Tags"),
-                             _("Tags contained on xattrs"));
+                             _("Tags stored in extended attributes"));
     ret = g_list_append(NULL, column);
 
     return ret;
