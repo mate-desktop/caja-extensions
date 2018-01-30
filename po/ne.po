@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# exoos <mince.lesovski@gmail.com>, 2014
+# chautari <chautari@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
@@ -11,27 +11,27 @@ msgstr ""
 "POT-Creation-Date: 2018-01-13 21:29+0300\n"
 "PO-Revision-Date: 2018-01-13 18:29+0000\n"
 "Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Macedonian (http://www.transifex.com/mate/MATE/language/mk/)\n"
+"Language-Team: Nepali (http://www.transifex.com/mate/MATE/language/ne/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: mk\n"
-"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+"Language: ne\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Отвори како администратор"
+msgstr "प्रशासकको रूपमा खोल्नुहोस्"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Отварање на датотеката со администраторски овластувања"
+msgstr ""
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Не може да се одреди програма за извршување.</b></big>\nПредметот што го одбравте не може да се отвори со администраторски привилегии бидејќи соодветната апликација не може да се одреди."
+msgstr ""
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -43,31 +43,31 @@ msgstr ""
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "Промена на големина на сликите..."
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Промена на големината на сите селектирани слики"
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Сврти ги сликите..."
+msgstr ""
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Сврти ги селектираните слики"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Промена на големина на слики"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Големина на слика</b>"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Одбери големина:"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "пиксели"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -103,29 +103,29 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "процент"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Произволна големина:"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Ширина:"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Висина:"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Име на датотека</b>"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Додади"
+msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
@@ -142,74 +142,74 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Промени големина"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "_Прескокни"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "_Обиди се повторно"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Промена на големина на сликата: %d of %d"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Промена на големина \"%s\"</i>"
+msgstr ""
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Внесете валидна наставка за името на датотеката!"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Сврти ги сликите"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Ротација на сликите</b>"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Избери агол:"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Произволен агол:"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "степени во насока на стрелката на часовникот"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".свртено"
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Сврти во место "
+msgstr ""
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Сврти"
+msgstr ""
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Сврување на сликата: %d of %d"
+msgstr ""
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>Свртување \"%s\"</i>"
+msgstr ""
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
@@ -226,20 +226,20 @@ msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
-msgstr "Отвори ја тековно избраната папка во терминал"
+msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:437
 #: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
-msgstr "Отвори ја тековон отворената папка во терминал"
+msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
-msgstr "Отвори _терминал"
+msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
-msgstr "Отвори терминал"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -253,7 +253,7 @@ msgstr ""
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Дали отварањето терминал на работната површина отвара и терминал во почетниот директориум"
+msgstr ""
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -261,7 +261,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Ако е подесено како точно, тогаш отварањето терминал на работната површина ќе отвори терминал во почетниот директориум. Инаку ќе биде оворен во директориумот на работната површина. Оваа поставка е ирелевантна ако директориумот на работната површина е ист со почетниот директориум. "
+msgstr ""
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -269,33 +269,33 @@ msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Испрати датотека преку пошта, инстант порака..."
+msgstr ""
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Испрати датотеки преку пошта, инстант порака..."
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
-msgstr "Датотеки"
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Очекува адреси или имиња на датотеки да бидат проследени како опции\n"
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Не може да се разложат опциите на командната линија: %s\n"
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr "Не може да се вчитат додатоците."
+msgstr ""
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr "Ве молиме потврдете ја вашата инсталација"
+msgstr ""
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
@@ -307,63 +307,63 @@ msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Испрати до..."
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "_Испрати"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Дестинација</b>"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Испрати _како:"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "Испрати н_а:"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Компресија</b>"
+msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Испрати _спакувано во:"
+msgstr ""
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Е-пошта"
+msgstr ""
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr "Датотеката не е испратена"
+msgstr ""
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr "Нема врска со gajim далечинскиот сервис."
+msgstr ""
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr "Неуспешно испраќање на датотека"
+msgstr ""
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr "Внесете го примачот."
+msgstr ""
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr "Непознат примач."
+msgstr ""
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr "Инстант пораки (Gajim)"
+msgstr ""
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "Ново CD/DVD"
+msgstr ""
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
@@ -371,23 +371,23 @@ msgstr ""
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:182
 msgid "CD/DVD Creator"
-msgstr "CD/DVD Креатор"
+msgstr ""
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr "Инстант порака (Pidgin)"
+msgstr ""
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Надворешни дискови "
+msgstr ""
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "UPnP Медиа сервер"
+msgstr ""
 
 #: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
-msgstr "Сподели"
+msgstr ""
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
@@ -398,110 +398,110 @@ msgstr ""
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja треба да додаде дозволи на твојата папка \"%s\" за да ја сподели"
+msgstr ""
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "На папката \"%s\" и требаат следните додатни дозволи за споделување за да работи:\n%s%s%s Дали сакаш Caja да ги додаде тие дозволи на папката автоматски?"
+msgstr ""
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr "Дозволи за читање од други\n"
+msgstr ""
 
 #: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr "Дозволи за пишување од други\n"
+msgstr ""
 
 #: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "Извршни дозволи од други\n"
+msgstr ""
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Додади ги дозволите автоматски"
+msgstr ""
 
 #: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Не може да се сменат дозволите на папката \"%s\""
+msgstr ""
 
 #: ../share/caja-share.c:451
 msgid "Share name is too long"
-msgstr "Името за споделување е предолго"
+msgstr ""
 
 #: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
-msgstr "Името за споделување не може да биде празно"
+msgstr ""
 
 #: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Грешка при добивање на информации за споделување %s"
+msgstr ""
 
 #: ../share/caja-share.c:516
 msgid "Another share has the same name"
-msgstr "Друго споделување го има истото име "
+msgstr ""
 
 #: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
-msgstr "Измени_Споделување"
+msgstr ""
 
 #: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
-msgstr "Креирај_Споделување"
+msgstr ""
 
 #: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
-msgstr "Појава на грешка при добивање на информации за споделување"
+msgstr ""
 
 #: ../share/caja-share.c:1123
 msgid "Folder Sharing"
-msgstr "Споделување на папки"
+msgstr ""
 
 #: ../share/caja-share.c:1164
 msgid "Sharing Options"
-msgstr "Опции за споделување"
+msgstr ""
 
 #: ../share/caja-share.c:1165
 msgid "Share this Folder"
-msgstr "Сподели ја оваа папка"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr " <big><b>Споделување на папка</b></big> "
+msgstr ""
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "Име на споделување:"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Сподеели ја оваа папка"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Коментар:"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_Дозволи на други да креираат и бришат датотеки во оваа папка"
+msgstr ""
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "_Гостински пристап(за луѓе без корснички налог)"
+msgstr ""
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s вратено со сигнал %d"
+msgstr ""
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr "%s %s %s неуспешно од непозната причина"
+msgstr ""
 
 #: ../share/shares.c:152
 #, c-format
@@ -521,7 +521,7 @@ msgstr ""
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Неуспешно"
+msgstr "असफल"
 
 #: ../share/shares.c:547
 #, c-format

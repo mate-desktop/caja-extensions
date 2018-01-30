@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2014-2015
+# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2014-2015,2018
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2017-09-19 20:33+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"POT-Creation-Date: 2018-01-13 21:29+0300\n"
+"PO-Revision-Date: 2018-01-17 19:22+0000\n"
+"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/mate/MATE/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +39,7 @@ msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "Baimenak emateko hedapena"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -219,25 +219,25 @@ msgstr "Irudi-bihurtzailea"
 msgid "Rotate and resize images"
 msgstr "Biratu eta tamainaz aldatu irudiak"
 
-#: ../open-terminal/caja-open-terminal.c:432
-#: ../open-terminal/caja-open-terminal.c:445
+#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Ireki _terminalean"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
 msgstr "Ireki unean hautatutako karpeta terminal batean"
 
-#: ../open-terminal/caja-open-terminal.c:436
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
 msgstr "Ireki unean irekitako karpeta terminalean"
 
-#: ../open-terminal/caja-open-terminal.c:442
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
 msgstr "Ireki _terminala"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
 msgstr "Ireki terminal bat"
 
@@ -265,7 +265,7 @@ msgstr "Egia ezartzen bada, mahaigainean terminal bat irekitzean direktorio nagu
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Bidali honi..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -369,7 +369,7 @@ msgstr "CD/DVD berria"
 msgid "Existing CD/DVD"
 msgstr "Existitzen den CD/DVDa"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: ../sendto/plugins/caja-burn/caja-burn.c:182
 msgid "CD/DVD Creator"
 msgstr "CD/DVD sortzailea"
 
@@ -405,19 +405,19 @@ msgstr "Cajak \"%s\" karpetari baimen batzuk gehitu beharra dauka partekatu ahal
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr ""
+msgstr "\"%s\" karpetak ondorengo baimen gehigarriak behar ditu partekatu ahal izateko:\n%s%s%sNahi al duzu Cajak karpetari baimen horiek automatikoki gehitzea?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "- besteek irakurtzeko baimena\n"
 
 #: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "- besteek idazteko baimena\n"
 
 #: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "- besteek exekutatzeko baimena\n"
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
@@ -496,27 +496,27 @@ msgstr "_Gonbidatu sarbidea (erabiltzaile konturik ez dutenentzat)"
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s itzuli da %d seinalearekin"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s(e)k huts egin du arrazoi ezezagun batengatik"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare'-k %d errorea itzuli du: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare'-k %d errorea itzuli du"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "'net usershare'-ren irteera ez dago baliozko UTF-8 kodeketan"
 
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
@@ -526,47 +526,63 @@ msgstr "Huts egin du"
 #: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Sambaren testparm %d seinalearekin itzuli da"
 
 #: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Sambaren testparm-ek huts egin du arrazoi ezezagun batengatik"
 
 #: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Sambaren testparm-ek %d errorea itzuli du: %s"
 
 #: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Sambaren testparm-ek %d errorea itzuli du"
 
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Ezin izan da %s partekatzearen bidea kendu: bidea ez dago partekatuta"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr ""
+msgstr "Ezin da existitzen den partekatzearen bidea aldatu; mesedez kendu partekatze zaharra lehenik eta ondoren gehitu berria"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "Ezarri horma-paper bezala"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr ""
+msgstr "Ezarri irudia uneko horma-paper bezala"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Horma-papera"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Baimendu horma-papera azkar ezartzea"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:177
+msgid "Tags"
+msgstr "Etiketak"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:178
+msgid "Tags stored in extended attributes"
+msgstr "Atributu hedatuetan gordetako etiketak"
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+msgid "xattr Tags"
+msgstr "xattr etiketak"
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+msgid "View tags stored in extended attributes"
+msgstr "Ikusi atributu hedatuetan gordetako etiketak"

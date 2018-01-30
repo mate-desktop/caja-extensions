@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2017-09-19 20:33+0000\n"
-"Last-Translator: Tobias Lekare <lekare@linux.com>\n"
+"POT-Creation-Date: 2018-01-13 21:29+0300\n"
+"PO-Revision-Date: 2018-01-13 18:29+0000\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
 "Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -226,25 +226,25 @@ msgstr "Bildkonverterare"
 msgid "Rotate and resize images"
 msgstr "Rotera och storleksförändra bilder"
 
-#: ../open-terminal/caja-open-terminal.c:432
-#: ../open-terminal/caja-open-terminal.c:445
+#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open in _Terminal"
 msgstr "Öppna i _Terminal"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
 msgstr "Öppna den markerade mappen i ett terminalfönster"
 
-#: ../open-terminal/caja-open-terminal.c:436
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
 msgstr "Öppna den för tillfället öppna mappen i ett terminalfönster"
 
-#: ../open-terminal/caja-open-terminal.c:442
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
 msgstr "Öppna _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
 msgstr "Öppna ett terminalfönster"
 
@@ -376,7 +376,7 @@ msgstr "Ny cd/dvd"
 msgid "Existing CD/DVD"
 msgstr "Befintlig cd/dvd"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: ../sendto/plugins/caja-burn/caja-burn.c:182
 msgid "CD/DVD Creator"
 msgstr "Cd/dvd-skapare"
 
@@ -533,22 +533,22 @@ msgstr "Misslyckades"
 #: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Sambas testparm svarade tillbaka med signalen %d"
 
 #: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Sambas testparam misslyckades av okänd anledning"
 
 #: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Sambas testparam svarade tillbaka med felet %d: %s"
 
 #: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Sambas testparam svarade tillbaka med felet %d"
 
 #: ../share/shares.c:681
 #, c-format
@@ -577,3 +577,19 @@ msgstr "Bakgrundsbild"
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
 msgstr "Gör det möjligt att snabbt byta bakgrundsbild"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:177
+msgid "Tags"
+msgstr "Taggar"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:178
+msgid "Tags stored in extended attributes"
+msgstr ""
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+msgid "xattr Tags"
+msgstr ""
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+msgid "View tags stored in extended attributes"
+msgstr ""

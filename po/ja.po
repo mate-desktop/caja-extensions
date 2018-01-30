@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2017-09-19 20:33+0000\n"
-"Last-Translator: ABE Tsunehiko\n"
+"POT-Creation-Date: 2018-01-13 21:29+0300\n"
+"PO-Revision-Date: 2018-01-13 18:29+0000\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
 "Language-Team: Japanese (http://www.transifex.com/mate/MATE/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -226,25 +226,25 @@ msgstr "画像の変換"
 msgid "Rotate and resize images"
 msgstr "画像の回転とサイズの変更"
 
-#: ../open-terminal/caja-open-terminal.c:432
-#: ../open-terminal/caja-open-terminal.c:445
+#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open in _Terminal"
 msgstr "端末の中に開く(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
 msgstr "端末の中に現在選択しているフォルダを開きます"
 
-#: ../open-terminal/caja-open-terminal.c:436
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
 msgstr "端末の中に現在表示しているフォルダを開きます"
 
-#: ../open-terminal/caja-open-terminal.c:442
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
 msgstr "端末を開く(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
 msgstr "端末を開きます"
 
@@ -376,7 +376,7 @@ msgstr "新しい CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "既存の CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: ../sendto/plugins/caja-burn/caja-burn.c:182
 msgid "CD/DVD Creator"
 msgstr "CD/DVD の作成"
 
@@ -577,3 +577,19 @@ msgstr "壁紙"
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
 msgstr "壁紙のクイック設定を許可する"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:177
+msgid "Tags"
+msgstr ""
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:178
+msgid "Tags stored in extended attributes"
+msgstr ""
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+msgid "xattr Tags"
+msgstr ""
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+msgid "View tags stored in extended attributes"
+msgstr ""

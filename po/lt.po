@@ -6,13 +6,13 @@
 # Audrius Meskauskas, 2015
 # Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2014
 # brennus <jonas.ska@gmail.com>, 2014
-# Moo, 2014-2017
+# Moo, 2014-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2017-09-19 20:33+0000\n"
+"POT-Creation-Date: 2018-01-13 21:29+0300\n"
+"PO-Revision-Date: 2018-01-14 18:34+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -222,25 +222,25 @@ msgstr "Paveikslų keitiklis"
 msgid "Rotate and resize images"
 msgstr "Sukioti ir keisti paveikslų dydį"
 
-#: ../open-terminal/caja-open-terminal.c:432
-#: ../open-terminal/caja-open-terminal.c:445
+#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open in _Terminal"
 msgstr "Atverti _terminale"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
 msgstr "Atverti šiuo metu pasirinktą aplanką terminale"
 
-#: ../open-terminal/caja-open-terminal.c:436
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
 msgstr "Atverti šiuo metu atvertą aplanką terminale"
 
-#: ../open-terminal/caja-open-terminal.c:442
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
 msgstr "Atverti _terminalą"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
 msgstr "Atverti terminalą"
 
@@ -372,7 +372,7 @@ msgstr "Naujas CD / DVD"
 msgid "Existing CD/DVD"
 msgstr "Esantis CD / DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: ../sendto/plugins/caja-burn/caja-burn.c:182
 msgid "CD/DVD Creator"
 msgstr "CD / DVD kūrimas"
 
@@ -573,3 +573,19 @@ msgstr "Darbalaukio fonas"
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
 msgstr "Leidžia greitai nustatyti darbalaukio foną"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:177
+msgid "Tags"
+msgstr "Žymės"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:178
+msgid "Tags stored in extended attributes"
+msgstr "Išplėstiniuose atributuose saugomos žymės"
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+msgid "xattr Tags"
+msgstr "xattr žymės"
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+msgid "View tags stored in extended attributes"
+msgstr "Rodyti išplėstiniuose atributuose saugomas žymes"

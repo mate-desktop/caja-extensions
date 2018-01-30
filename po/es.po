@@ -3,20 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme Barrientos, 2014
-# Adolfo Jayme Barrientos, 2015
-# Adolfo Jayme Barrientos, 2014
+# Adolfo Jayme-Barrientos, 2014
+# Adolfo Jayme-Barrientos, 2017
+# Adolfo Jayme-Barrientos, 2015
+# Adolfo Jayme-Barrientos, 2014
 # Andres Sanchez <blackatze93@gmail.com>, 2014,2016
 # Benjamin Perez Carrillo <benperezc@gmail.com>, 2015
 # Emiliano Fascetti, 2015
 # Lluís Tusquellas <lutusq@gmail.com>, 2013
+# elio <micta2003@hotmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2017-09-19 20:33+0000\n"
-"Last-Translator: Andres Sanchez <blackatze93@gmail.com>\n"
+"POT-Creation-Date: 2018-01-13 21:29+0300\n"
+"PO-Revision-Date: 2018-01-13 18:29+0000\n"
+"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
 "Language-Team: Spanish (http://www.transifex.com/mate/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -225,25 +227,25 @@ msgstr "Conversor de imágenes"
 msgid "Rotate and resize images"
 msgstr "Girar y redimensionar imágenes"
 
-#: ../open-terminal/caja-open-terminal.c:432
-#: ../open-terminal/caja-open-terminal.c:445
+#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open in _Terminal"
 msgstr "Abrir en un _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
 msgstr "Abre la carpeta actualmente seleccionada en un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:436
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
 msgstr "Abre la carpeta actualmente abierta en un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:442
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
 msgstr "Abrir _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
 msgstr "Abrir un terminal"
 
@@ -375,7 +377,7 @@ msgstr "CD/DVD nuevo"
 msgid "Existing CD/DVD"
 msgstr "CD/DVD existente"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: ../sendto/plugins/caja-burn/caja-burn.c:182
 msgid "CD/DVD Creator"
 msgstr "Creador de CD/DVD"
 
@@ -576,3 +578,19 @@ msgstr "Fondo de pantalla"
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
 msgstr "Permite establecer fondos de pantalla rápidamente"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:177
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:178
+msgid "Tags stored in extended attributes"
+msgstr ""
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+msgid "xattr Tags"
+msgstr ""
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+msgid "View tags stored in extended attributes"
+msgstr ""

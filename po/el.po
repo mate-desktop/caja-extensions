@@ -8,12 +8,13 @@
 # Anna Apostolou <apostolou.annalbteiath@gmail.com>, 2015
 # Efstathios Iosifidis <iefstathios@gmail.com>, 2013,2015
 # thunk <thunk77@gmail.com>, 2014
+# Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2017-09-23 19:17+0000\n"
+"POT-Creation-Date: 2018-01-13 21:29+0300\n"
+"PO-Revision-Date: 2018-01-14 18:00+0000\n"
 "Last-Translator: Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>\n"
 "Language-Team: Greek (http://www.transifex.com/mate/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -223,25 +224,25 @@ msgstr "Μετατροπέας εικόνας"
 msgid "Rotate and resize images"
 msgstr "Περιστροφή και αλλαγή μεγέθους εικόνων"
 
-#: ../open-terminal/caja-open-terminal.c:432
-#: ../open-terminal/caja-open-terminal.c:445
+#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open in _Terminal"
 msgstr "Άνοιγμα σε _Τερματικό"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
 msgstr "Άνοιγμα του τρέχοντος επιλεγμένου φακέλου σε τερματικό"
 
-#: ../open-terminal/caja-open-terminal.c:436
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
 msgstr "Άνοιγμα του τρέχοντος ανοικτού φακέλου σε τερματικό"
 
-#: ../open-terminal/caja-open-terminal.c:442
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
 msgstr "Άνοιγμα _τερματικού"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
 msgstr "Άνοιγμα ενός τερματικού"
 
@@ -373,7 +374,7 @@ msgstr "Νέο CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Υπάρχον CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: ../sendto/plugins/caja-burn/caja-burn.c:182
 msgid "CD/DVD Creator"
 msgstr "Δημιουργός CD/DVD"
 
@@ -574,3 +575,19 @@ msgstr "Ταπετσαρία"
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
 msgstr "Επιτρέπει το γρήγορο ορισμό ταπετσαρίας"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:177
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:178
+msgid "Tags stored in extended attributes"
+msgstr "Ετικέτες αποθηκευμένες σε διευρυμένα χαρακτηριστικά"
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+msgid "xattr Tags"
+msgstr "ετικέτες xattr"
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+msgid "View tags stored in extended attributes"
+msgstr "Προβολή ετικετών που είναι αποθηκευμένες σε εκτεταμένα χαρακτηριστικά"

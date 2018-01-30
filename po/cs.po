@@ -4,16 +4,20 @@
 # 
 # Translators:
 # huskyviking <husky.viking@seznam.cz>, 2014
-# Martin Kříž <liberte.czech@gmail.com>, 2015
+# huskyviking <husky.viking@seznam.cz>, 2014
+# LiberteCzech <liberte.czech@gmail.com>, 2015
+# LiberteCzech <liberte.czech@gmail.com>, 2015
+# LiberteCzech <liberte.czech@gmail.com>, 2015
 # Michal <sinope@seznam.cz>, 2013
+# Stanislav Kučera <inactive+kacernator@transifex.com>, 2015
 # Stanislav Kučera <inactive+kacernator@transifex.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-05 23:49+0300\n"
-"PO-Revision-Date: 2017-09-19 20:33+0000\n"
-"Last-Translator: Martin Kříž <liberte.czech@gmail.com>\n"
+"POT-Creation-Date: 2018-01-13 21:29+0300\n"
+"PO-Revision-Date: 2018-01-14 13:46+0000\n"
+"Last-Translator: ToMáš Marný\n"
 "Language-Team: Czech (http://www.transifex.com/mate/MATE/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -222,25 +226,25 @@ msgstr "Převaděč obrázků"
 msgid "Rotate and resize images"
 msgstr "Otáčení a změna velikosti obrázků"
 
-#: ../open-terminal/caja-open-terminal.c:432
-#: ../open-terminal/caja-open-terminal.c:445
+#: ../open-terminal/caja-open-terminal.c:433
+#: ../open-terminal/caja-open-terminal.c:446
 msgid "Open in _Terminal"
 msgstr "Otevřít v _Terminálu"
 
-#: ../open-terminal/caja-open-terminal.c:434
+#: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
 msgstr "Otevřít aktuálně označený adresář v terminálu"
 
-#: ../open-terminal/caja-open-terminal.c:436
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:437
+#: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
 msgstr "Otevřít aktuálně otevřený adresář v terminálu"
 
-#: ../open-terminal/caja-open-terminal.c:442
+#: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
 msgstr "Otevřít _terminál"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
 msgstr "Otevřít terminál"
 
@@ -264,7 +268,7 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Pokud je nastaveno, pak otevření terminálu na ploše bude otevírat terminál v domovském adresáři. V opačném případě bude otevřen v adresáři plochy. Všimněte si, že tento klíč je irelevantní pokud je adresář plochy totožný s domovským adresářem."
+msgstr "Pokud je nastavení povoleno, pak otevření terminálu na ploše bude otevírat terminál v domovském adresáři. V opačném případě bude otevřen v adresáři plochy. Všimněte si, že tento klíč je irelevantní pokud je adresář plochy totožný s domovským adresářem."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -372,7 +376,7 @@ msgstr "Nové CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Existující CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: ../sendto/plugins/caja-burn/caja-burn.c:182
 msgid "CD/DVD Creator"
 msgstr "Tvůrce CD/DVD"
 
@@ -573,3 +577,19 @@ msgstr "Pozadí plochy"
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
 msgstr "Umožňuje rychle změnit pozadí plochy"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:177
+msgid "Tags"
+msgstr "Štítky"
+
+#: ../xattr-tags/caja-xattr-tags-extension.c:178
+msgid "Tags stored in extended attributes"
+msgstr "Štítky uložené v rozšířených atributech"
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+msgid "xattr Tags"
+msgstr "xattr štítky"
+
+#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+msgid "View tags stored in extended attributes"
+msgstr "Zobrazit štítky uložené v rozšířených atributech"
