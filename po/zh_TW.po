@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Jeff Huang <s8321414@gmail.com>, 2014-2015,2017-2018
-# Jeff Huang <s8321414@gmail.com>, 2014
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-14 13:31+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/mate/MATE/language/zh_TW/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>, 2018\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/mate/teams/13566/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>無法決定讓程式運行。</b></big>\n\n您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
+msgstr ""
+"<big><b>無法決定讓程式運行。</b></big>\n"
+"\n"
+"您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -370,7 +372,7 @@ msgstr "新的 CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "既存的 CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD 製作程式"
 
@@ -406,7 +408,9 @@ msgstr "為了共用，Caja 需要加入一些權限到您的資料夾「 %s 」
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "資料夾「 %s 」需要下列額外的權限以便共用：\n%s%s%s 您想要讓 Caja 自動新增這些權限到資料夾嗎？"
+msgstr ""
+"資料夾「 %s 」需要下列額外的權限以便共用：\n"
+"%s%s%s 您想要讓 Caja 自動新增這些權限到資料夾嗎？"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"

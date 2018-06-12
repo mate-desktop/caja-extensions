@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Elusiv_man <breaker9loc@gmail.com>, 2014
-# Замфир Йончев <zamfir.yonchev@gmail.com>, 2016
-# Любомир Василев, 2016-2018
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-14 10:55+0000\n"
-"Last-Translator: Любомир Василев\n"
-"Language-Team: Bulgarian (http://www.transifex.com/mate/MATE/language/bg/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Замфир Йончев <zamfir.yonchev@gmail.com>, 2018\n"
+"Language-Team: Bulgarian (https://www.transifex.com/mate/teams/13566/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Не може да се установи програмата, която трябва да се пусне.</b></big>\n\nИзбраният от Вас обект не може да се отвори с права на администратор, защото не може да бъде определено правилното приложение."
+msgstr ""
+"<big><b>Не може да се установи програмата, която трябва да се пусне.</b></big>\n"
+"\n"
+"Избраният от Вас обект не може да се отвори с права на администратор, защото не може да бъде определено правилното приложение."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -149,7 +150,7 @@ msgstr "О_размеряване"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Пропускане"
+msgstr "_Пропускане"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -255,7 +256,9 @@ msgstr "Отваряне на терминали от папките"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Дали да се отваря терминал в домашната папка при отваряне на терминал на работния плот"
+msgstr ""
+"Дали да се отваря терминал в домашната папка при отваряне на терминал на "
+"работния плот"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -263,7 +266,12 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Ако е зададено на „true“ (вярно), то тогава отварянето на терминал на работния плот ще отвори терминал в домашната папка. В противен случай терминалът ще бъде отворен в папката за работния плот. Отбележете, че този ключ е без значение, ако папката за работния плот е идентична с домашната папка."
+msgstr ""
+"Ако е зададено на „true“ (вярно), то тогава отварянето на терминал на "
+"работния плот ще отвори терминал в домашната папка. В противен случай "
+"терминалът ще бъде отворен в папката за работния плот. Отбележете, че този "
+"ключ е без значение, ако папката за работния плот е идентична с домашната "
+"папка."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -371,7 +379,7 @@ msgstr "Нов CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Съществуващ CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Създаване на CD/DVD"
 
@@ -400,14 +408,18 @@ msgstr "Позволява бързо споделяне на папка"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja изисква да се добавят някои права към Вашата папка „%s“, за да бъде споделена"
+msgstr ""
+"Caja изисква да се добавят някои права към Вашата папка „%s“, за да бъде "
+"споделена"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Папката „%s“ изисква следните допълнително права за споделяне на Вашата работа:\n%s%s%sИскате ли Caja да добави автоматично тези позволения към папката?"
+msgstr ""
+"Папката „%s“ изисква следните допълнително права за споделяне на Вашата работа:\n"
+"%s%s%sИскате ли Caja да добави автоматично тези позволения към папката?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -548,14 +560,17 @@ msgstr "testparm на Samba приключи със грешка %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Не може да бъде премахнато споделянето на пътя %s: пътят не е споделен"
+msgstr ""
+"Не може да бъде премахнато споделянето на пътя %s: пътят не е споделен"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Не може да се промени пътя на съществуващо споделяне; моля, първо премахнете старото споделяне и след това добавете новото"
+msgstr ""
+"Не може да се промени пътя на съществуващо споделяне; моля, първо премахнете"
+" старото споделяне и след това добавете новото"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

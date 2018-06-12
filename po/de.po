@@ -1,25 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Almin <GermannenMarkus@googlemail.com>, 2013
-# kæde, 2014
-# Franco Della-Monica <franco.della.monica@gmail.com>, 2015
-# Julian Rüger <jr98@gmx.net>, 2014
-# nautilusx, 2017
-# bambuhle <politik@philippoi.de>, 2014
-# Tim Schulz <timschulz19980312@gmail.com>, 2015
-# Tobias Bannert <tobannert@gmail.com>, 2013
-# Tobias Bannert <tobannert@gmail.com>, 2013-2015,2017
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: German (http://www.transifex.com/mate/MATE/language/de/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: nautilusx, 2018\n"
+"Language-Team: German (https://www.transifex.com/mate/teams/13566/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Programm zum Ausführen konnte nicht ermittelt werden.</b></big>\n\nDer gewählte Eintrag kann nicht mit Systemverwaltungsrechten geöffnet werden, da die entsprechende Anwendung nicht ermittelt werden konnte."
+msgstr ""
+"<big><b>Programm zum Ausführen konnte nicht ermittelt werden.</b></big>\n"
+"\n"
+"Der gewählte Eintrag kann nicht mit Systemverwaltungsrechten geöffnet werden, da die entsprechende Anwendung nicht ermittelt werden konnte."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -150,12 +145,12 @@ msgstr "Bilder überschreiben"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Größe ändern"
+msgstr "Größe _ändern"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Ü_berspringen"
+msgstr "_Überspringen"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -261,7 +256,9 @@ msgstr "Terminal aus Ordnern öffnen"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Ob das Öffnen eines Terminals auf dem Schreibtisch ein Terminal im »Persönlichen Ordner« öffnet"
+msgstr ""
+"Ob das Öffnen eines Terminals auf dem Schreibtisch ein Terminal im "
+"»Persönlichen Ordner« öffnet"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -269,7 +266,12 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Falls dieser Schlüssel wahr ist, führt das Öffnen eines Terminals auf dem Schreibtisch dazu, dass ein Terminal im »Persönlichen Ordner« geöffnet wird. Andernfalls wird es im Schreibtischordner geöffnet. Hinweis: Dieser Schlüssel wird ignoriert, falls der Schreibtischordner mit dem »Persönlichen Ordner« übereinstimmt."
+msgstr ""
+"Falls dieser Schlüssel wahr ist, führt das Öffnen eines Terminals auf dem "
+"Schreibtisch dazu, dass ein Terminal im »Persönlichen Ordner« geöffnet wird."
+" Andernfalls wird es im Schreibtischordner geöffnet. Hinweis: Dieser "
+"Schlüssel wird ignoriert, falls der Schreibtischordner mit dem »Persönlichen"
+" Ordner« übereinstimmt."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -377,7 +379,7 @@ msgstr "Neue CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Vorhandene CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD-Ersteller"
 
@@ -406,14 +408,18 @@ msgstr "Erlaubt es schnell einen Ordner freizugeben"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja muss dem Ordner »%s« einige Zugriffsrechte hinzufügen, um ihn freizugeben."
+msgstr ""
+"Caja muss dem Ordner »%s« einige Zugriffsrechte hinzufügen, um ihn "
+"freizugeben."
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Der Ordner »%s« benötigt folgende zusätzliche Zugriffsrechte, damit er freigegeben werden kann:\n%s%s%sMöchten Sie, dass Caja dem Ordner die Zugriffsrechte automatisch zuweist?"
+msgstr ""
+"Der Ordner »%s« benötigt folgende zusätzliche Zugriffsrechte, damit er freigegeben werden kann:\n"
+"%s%s%sMöchten Sie, dass Caja dem Ordner die Zugriffsrechte automatisch zuweist?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -434,7 +440,8 @@ msgstr "Berechtigungen automatisch ergänzen"
 #: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Die Zugriffsrechte von folgendem Ordner konnten nicht geändert werden: %s"
+msgstr ""
+"Die Zugriffsrechte von folgendem Ordner konnten nicht geändert werden: %s"
 
 #: ../share/caja-share.c:451
 msgid "Share name is too long"
@@ -495,7 +502,9 @@ msgstr "_Kommentar:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "Anderen _Benutzern erlauben, Dateien in diesem Ordner zu erstellen und zu löschen"
+msgstr ""
+"Anderen _Benutzern erlauben, Dateien in diesem Ordner zu erstellen und zu "
+"löschen"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
@@ -554,14 +563,18 @@ msgstr "Sambas testparm meldet folgenden Fehler %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Fehler beim Entfernen der Freigabe für Pfad %s: Der Pfad ist nicht freigegeben"
+msgstr ""
+"Fehler beim Entfernen der Freigabe für Pfad %s: Der Pfad ist nicht "
+"freigegeben"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Der Pfad der vorhandenen Freigabe kann nicht geändert werden. Bitte entfernen Sie die alte Freigabe und erstellen Sie eine neue"
+msgstr ""
+"Der Pfad der vorhandenen Freigabe kann nicht geändert werden. Bitte "
+"entfernen Sie die alte Freigabe und erstellen Sie eine neue"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -585,12 +598,12 @@ msgstr "Schlagwörter"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "Schlagwörter, die in erweiterten Attributen gespeichert sind"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "xattr Schlagwörter"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Schlagwörter anzeigen, die in erweiterten Attributen gespeichert sind"

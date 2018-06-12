@@ -1,22 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Christopher Meng <i@cicku.me>, 2013
-# Mingcong Bai <jeffbai@aosc.xyz>, 2017-2018
-# Wylmer Wang, 2013-2014
-# 玉堂白鹤 <yjwork@qq.com>, 2015
-# Mingcong Bai <jeffbai@aosc.xyz>, 2016
-# Mingcong Bai <jeffbai@aosc.xyz>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-22 18:07+0000\n"
-"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/mate/MATE/language/zh_CN/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: shuyu liu <liushuyu011@gmail.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>无法确定待运行的程序。</b></big>\n\n由于无法确定正确的应用程序，您选择的项无法以管理员身份打开。"
+msgstr ""
+"<big><b>无法确定待运行的程序。</b></big>\n"
+"\n"
+"由于无法确定正确的应用程序，您选择的项无法以管理员身份打开。"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -152,7 +150,7 @@ msgstr "改变大小(_R)"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "跳过(_S)"
+msgstr "跳过 (_S)"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -266,7 +264,8 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "如果设置为 true，在桌面上打开终端时将会在主目录中打开终端。否则会在桌面目录打开终端。注意如果桌面目录与主目录相同，则怎么设置没什么关系。"
+msgstr ""
+"如果设置为 true，在桌面上打开终端时将会在主目录中打开终端。否则会在桌面目录打开终端。注意如果桌面目录与主目录相同，则怎么设置没什么关系。"
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -312,7 +311,7 @@ msgstr "集成电子邮件客户端和  "
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "发送至..."
+msgstr "发送到..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -374,7 +373,7 @@ msgstr "新建 CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "现有的 CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD 创建器"
 
@@ -410,7 +409,9 @@ msgstr "要让 Caja 共享您的文件夹“%s”，您需要给它添加一些�
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "文件夹“%s”需要增加以下权限才能共享：\n%s%s%s您想让 Caja 自动给该文件夹添加这些权限吗？"
+msgstr ""
+"文件夹“%s”需要增加以下权限才能共享：\n"
+"%s%s%s您想让 Caja 自动给该文件夹添加这些权限吗？"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"

@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Ivica  Kolić <ikoli@yahoo.com>, 2013
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Croatian (http://www.transifex.com/mate/MATE/language/hr/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elvis M. Lukšić <meluksic@yahoo.com>, 2018\n"
+"Language-Team: Croatian (https://www.transifex.com/mate/teams/13566/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Nije moguće odrediti program za pokretanje.</b></big>\n\nOdabrana stavka ne može biti otvorena s upraviteljskim ovlastima jer ne može biti određen ispravni program."
+msgstr ""
+"<big><b>Nije moguće odrediti program za pokretanje.</b></big>\n"
+"\n"
+"Odabrana stavka ne može biti otvorena s upraviteljskim ovlastima jer ne može biti određen ispravni program."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -95,7 +98,7 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "slikovnih točaka"
+msgstr "pikseli"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -253,7 +256,9 @@ msgstr "Otvori terminale iz mapa"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Otvara li otvaranje terminala na radnoj površini i terminal u osobnom direktoriju"
+msgstr ""
+"Otvara li otvaranje terminala na radnoj površini i terminal u osobnom "
+"direktoriju"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -261,7 +266,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Ako je postavljeno za istinito, tada će otvaranje terminala na radnoj površini otvoriti terminal u osobnom direktoriju. Inače, bit će otvoren u direktoriju radne površine. Imaj na umu da je ovaj ključ nevažan ako je direktorij radne površine istovjetan osobnom direktoriju."
+msgstr ""
+"Ako je postavljeno za istinito, tada će otvaranje terminala na radnoj "
+"površini otvoriti terminal u osobnom direktoriju. Inače, bit će otvoren u "
+"direktoriju radne površine. Imaj na umu da je ovaj ključ nevažan ako je "
+"direktorij radne površine istovjetan osobnom direktoriju."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -369,7 +378,7 @@ msgstr "Novi CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Postojeći CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Stvaratelj CD/DVD-a"
 
@@ -405,7 +414,9 @@ msgstr "Caja mora dodati neka dopuštenja tvojoj mapi \"%s\" kako bi je dijelila
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Mapa \"%s\" treba sljedeća dodatna dopuštenja kako bi dijeljenje djelovalo:\n%s%s%s Želiš li da Caja samostalno doda ta dopuštenja u mapu?"
+msgstr ""
+"Mapa \"%s\" treba sljedeća dodatna dopuštenja kako bi dijeljenje djelovalo:\n"
+"%s%s%s Želiš li da Caja samostalno doda ta dopuštenja u mapu?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -521,7 +532,7 @@ msgstr "izlaz za 'net usershare' nije u ispravnom UTF-8 kodiranju"
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Nije uspjelo"
+msgstr "Neuspjelo"
 
 #: ../share/shares.c:547
 #, c-format
@@ -546,14 +557,17 @@ msgstr "Sambin testparm uzvratio je neispravnost %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Nije moguće ukloniti dijeljenje za putanju %s: ta putanja nije dijeljena"
+msgstr ""
+"Nije moguće ukloniti dijeljenje za putanju %s: ta putanja nije dijeljena"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Nije moguće promijeniti putanju postojećeg dijeljenja; molim prije ukloni staro dijeljenje i dodaj novo"
+msgstr ""
+"Nije moguće promijeniti putanju postojećeg dijeljenja; molim prije ukloni "
+"staro dijeljenje i dodaj novo"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -573,7 +587,7 @@ msgstr "Dopušta brzo postavljanje pozadine"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Tagovi"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"

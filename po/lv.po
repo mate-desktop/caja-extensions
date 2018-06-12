@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# ciba43 <voiceofwise1@gmail.com>, 2017
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Latvian (http://www.transifex.com/mate/MATE/language/lv/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: ciba43 <voiceofwise1@gmail.com>, 2018\n"
+"Language-Team: Latvian (https://www.transifex.com/mate/teams/13566/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,6 +32,9 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr ""
+"<big><b>Nevar noteikt palaižamo programmu.</b></big>⏎ ⏎ Jūsu izvēlēto "
+"vienību nevar atvērt ar administratora tiesībām, jo nevar noteikt pareizo "
+"programmu."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -43,27 +46,27 @@ msgstr "Privilēģiju nodrošinošs paplašinājums"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr ""
+msgstr "Mainīt Attēlu Izmē_rus"
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr ""
+msgstr "Mainīt katra izvēlētā attēla izmērus"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "Pa_griezt attēlus..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr ""
+msgstr "Pagriezt katru izvēlēto attēlu"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr ""
+msgstr "Mainīt attēlu izmēru"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr ""
+msgstr "<b>Attēla Izmērs</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
@@ -99,7 +102,7 @@ msgstr "pikseļi"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr ""
+msgstr "Mērogs:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
@@ -107,7 +110,7 @@ msgstr "procenti"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr ""
+msgstr "Pielāgots izmērs:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
@@ -125,49 +128,49 @@ msgstr "<b>Faila nosaukums</b>"
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Apvienot"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".izmērs mainīts"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "faila nosaukumā"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Mainīt vietā"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr ""
+msgstr "Mainīt izmē_ru"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr ""
+msgstr "Izlai_st"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr ""
+msgstr "Vēl_reiz"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Izmēra maiņa attēlam: %d of %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Izmēra maiņa \"%s\"</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Lūdzu ievadiet derīgu faila nosaukuma piedēkli!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
@@ -179,37 +182,37 @@ msgstr "<b>Attēlu Rotēšana</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr ""
+msgstr "Izvēlieties leņķi:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr ""
+msgstr "Pielāgots leņķis:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr ""
+msgstr "grādus pulksteņrādītāju kustības virzienā"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr ".pagriezts"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "Rotēt vietā"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr ""
+msgstr "_Pagriezt"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr ""
+msgstr "Attēla rotēšana: %d no %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr ""
+msgstr "<i>Rotēšana \"%s\"</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
@@ -253,7 +256,7 @@ msgstr ""
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Vai termināļa atvēršana uz darbvirsmas atver termināli mājas mapē"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -262,6 +265,10 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
+"Ja iestatīts true, tad termināla atvēršana uz darbvirsmas to atvērs mājas "
+"mapē. Ja citādi, terminālis tiks atvērt darbvirsmas mapē. Ņemiet vērā, ka, "
+"ja darbvirsmas mape ir tā pati, kas mājas mape, tad šis iestatījums nav "
+"būtisks."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -269,11 +276,11 @@ msgstr "Nosūtīt uz..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "Sūtīt failu izmantojot e-pastu, tūlītējo paziņojumu..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "Sūtīt failus izmantojot e-pastu, tūlītējo paziņojumu..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
@@ -282,12 +289,12 @@ msgstr "Faili"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "Sagaida URI vai failu nosaukumus kā opcijas\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "Neizdevās parsēt komandrindas opcijas: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
@@ -307,7 +314,7 @@ msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr ""
+msgstr "Sūtīt _uz..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -319,11 +326,11 @@ msgstr "<b>Mērķis</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr ""
+msgstr "Sūtīt _kā:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr ""
+msgstr "Sūtīt _uz:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
@@ -331,7 +338,7 @@ msgstr "<b>Saspiešana</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "Sūtīt sa_pakotu kā:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
@@ -351,15 +358,15 @@ msgstr "Faila nosūtīšana neizdevās"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr ""
+msgstr "Nav norādīts adresāts."
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr ""
+msgstr "Nezināms adresāts."
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "Tūlītējs ziņojums (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
@@ -369,13 +376,13 @@ msgstr "Jauns CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Eksistējošs CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD veidotājs"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr ""
+msgstr "Tūlītējs ziņojums (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
@@ -483,7 +490,7 @@ msgstr ""
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "Ko_mentārs:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"

@@ -1,21 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Jan Bońkowski <bonkowskijan@gmail.com>, 2015
-# Marcin Kralka <marcink96@gmail.com>, 2013-2014
-# Piotr Drąg <piotrdrag@gmail.com>, 2017
-# Piotr Strębski <strebski@gmail.com>, 2015
-# Wiktor Jezioro <wikjezioro@op.pl>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Polish (http://www.transifex.com/mate/MATE/language/pl/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Piotr Kowalik <pietrasagh@gmail.com>, 2018\n"
+"Language-Team: Polish (https://www.transifex.com/mate/teams/13566/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Nie można określić programu do uruchomienia.</b></big>\n\nWybrany element nie może zostać otwarty z uprawnieniami administratora ponieważ nie można odnaleźć właściwej aplikacji."
+msgstr ""
+"<big><b>Nie można określić programu do uruchomienia.</b></big>\n"
+"\n"
+"Wybrany element nie może zostać otwarty z uprawnieniami administratora ponieważ nie można odnaleźć właściwej aplikacji."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -99,7 +98,7 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "pikseli"
+msgstr "piksele"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -257,7 +256,9 @@ msgstr "Otwórz terminal z katalogów"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Przy otwarciu terminala na pulpicie otwierany jest terminal w katalogu domowym uzytkownika"
+msgstr ""
+"Przy otwarciu terminala na pulpicie otwierany jest terminal w katalogu "
+"domowym uzytkownika"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -265,7 +266,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Przy ustawieniu terminal otwierany na pulpicie będzie otworzony w katalogu domowym użytkownika. W przeciwnym przypadku terminal zostanie otworzony w folderze pulpitu. Zauważ, że opcja ta nie ma zastosowania, jeżeli folder pulpitu jest tożsamy z folderem domowym użytkownika."
+msgstr ""
+"Przy ustawieniu terminal otwierany na pulpicie będzie otworzony w katalogu "
+"domowym użytkownika. W przeciwnym przypadku terminal zostanie otworzony w "
+"folderze pulpitu. Zauważ, że opcja ta nie ma zastosowania, jeżeli folder "
+"pulpitu jest tożsamy z folderem domowym użytkownika."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -373,7 +378,7 @@ msgstr "Nowa płyta CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Istniejąca płyta CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Asystent CD/DVD"
 
@@ -402,14 +407,18 @@ msgstr "Pozwala na szybkie udostępnianie katalogu"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja potrzebuje dodać kilka uprawnień do twojego folderu \"%s\", aby umożliwić udostępnianie go"
+msgstr ""
+"Caja potrzebuje dodać kilka uprawnień do twojego folderu \"%s\", aby "
+"umożliwić udostępnianie go"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Folder \"%s\" potrzebuje następujących dodatkowych uprawnień dla udostępniania, aby funkcjonować:\n%s%s%sCzy chcesz, aby Caja dodała te uprawnienia do folderu automatycznie?"
+msgstr ""
+"Folder \"%s\" potrzebuje następujących dodatkowych uprawnień dla udostępniania, aby funkcjonować:\n"
+"%s%s%sCzy chcesz, aby Caja dodała te uprawnienia do folderu automatycznie?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -525,7 +534,7 @@ msgstr "wyjście 'net usershare' nie jest poprawnym kodowaniem UTF-8"
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Niepowodzenie"
+msgstr "Nieudane"
 
 #: ../share/shares.c:547
 #, c-format
@@ -550,14 +559,17 @@ msgstr "testparam Samby zwrócił błąd %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Nie można usunąć udziału dla ścieżki %s: ta ścieżka nie jest udostępniana"
+msgstr ""
+"Nie można usunąć udziału dla ścieżki %s: ta ścieżka nie jest udostępniana"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Nie można zmienić ścieżki istniejącego udziału; proszę najpierw usunąć stary udział i dodać nowy"
+msgstr ""
+"Nie można zmienić ścieżki istniejącego udziału; proszę najpierw usunąć stary"
+" udział i dodać nowy"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -577,16 +589,16 @@ msgstr "Pozwala na szybkie ustawienie tapety"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Tagi"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "Zakładki zapisane w rozszerzonych atrybutach"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "Zakładki xattr"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Wyświetl zakładki zachowane w rozszerzonych atrybutach"

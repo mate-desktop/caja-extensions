@@ -1,27 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Dušan Kazik <prescott66@gmail.com>, 2015,2018
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2014,2016
-# Michal Slovák <michalslovak2@hotmail.com>, 2013
-# Michal Slovák <michalslovak2@hotmail.com>, 2013
-# peter, 2017
-# Tibor Kaputa <tibbbi2@gmail.com>, 2014
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-29 19:48+0000\n"
-"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/mate/MATE/language/sk/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: peter, 2018\n"
+"Language-Team: Slovak (https://www.transifex.com/mate/teams/13566/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
@@ -36,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Nepodarilo sa rozhodnúť, ktorý program sa má spustiť.</b></big>\n\nPoložka, ktorú ste vybrali sa nedá spustiť s právami správcu, pretože sa nepodarilo určiť správny program."
+msgstr ""
+"<big><b>Nepodarilo sa rozhodnúť, ktorý program sa má spustiť.</b></big>\n"
+"\n"
+"Položka, ktorú ste vybrali sa nedá spustiť s právami správcu, pretože sa nepodarilo určiť správny program."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -172,7 +170,7 @@ msgstr "<i>Mení sa veľkosť „%s“</i>"
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Prosím vložte platnú príponu za názov súboru!"
+msgstr "Prosím, vložte platnú príponu súboru!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
@@ -258,7 +256,9 @@ msgstr "Otváranie terminálov z priečinkov"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Určuje, či otvorenie terminálu na ploche otvorí terminál v domovskom priečinku"
+msgstr ""
+"Určuje, či otvorenie terminálu na ploche otvorí terminál v domovskom "
+"priečinku"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -266,7 +266,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Ak je táto možnosť vybraná, terminál otvorený na ploche sa otvorí v domovskom priečinku. Inak by sa otvoril v priečinku Plocha. Uvedomte si, že táto možnosť je irelevantná, ak je priečinok plochy zhodný s domovským priečinkom."
+msgstr ""
+"Ak je táto možnosť vybraná, terminál otvorený na ploche sa otvorí v "
+"domovskom priečinku. Inak by sa otvoril v priečinku Plocha. Uvedomte si, že "
+"táto možnosť je irelevantná, ak je priečinok plochy zhodný s domovským "
+"priečinkom."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -304,7 +308,7 @@ msgstr "Prosím, skontrolujte svoju inštaláciu"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Odoslať"
+msgstr "Odoslať do"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -312,7 +316,7 @@ msgstr "Integrácia emailových klientov a Pidginu"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Odoslať do..."
+msgstr "Odoslať..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -374,7 +378,7 @@ msgstr "Nové CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Existujúce CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Tvorca CD/DVD"
 
@@ -403,14 +407,18 @@ msgstr "Umožňuje rýchle zdieľanie priečinkov"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja musí pridať isté oprávnenia do vášho priečinka „%s“, aby mohol byť zdieľaný"
+msgstr ""
+"Caja musí pridať isté oprávnenia do vášho priečinka „%s“, aby mohol byť "
+"zdieľaný"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Priečinok „%s“ potrebuje tieto dodatočné oprávnenia, aby zdieľanie fungovalo:\n%s%s%sChcete, aby Caja pridala tieto povolenia priečinka automaticky?"
+msgstr ""
+"Priečinok „%s“ potrebuje tieto dodatočné oprávnenia, aby zdieľanie fungovalo:\n"
+"%s%s%sChcete, aby Caja pridala tieto povolenia priečinka automaticky?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -558,7 +566,9 @@ msgstr "Nemožno odobrať zdieľanie pre cestu %s: táto cesta nie je zdieľaná
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Nemožno zmeniť cestu existujúceho zdieľania: prosím najskôr odstráňte staré zdieľanie a potom pridajte nové"
+msgstr ""
+"Nemožno zmeniť cestu existujúceho zdieľania: prosím najskôr odstráňte staré "
+"zdieľanie a potom pridajte nové"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

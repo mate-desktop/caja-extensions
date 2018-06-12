@@ -1,22 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# tarakbumba <tarakbumba@gmail.com>, 2014
-# Butterfly <gokhanlnx@gmail.com>, 2015
-# mauron, 2013
-# mauron, 2013-2015,2017
-# Mehmet, 2015
-# tarakbumba <tarakbumba@gmail.com>, 2018
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-14 19:55+0000\n"
-"Last-Translator: tarakbumba <tarakbumba@gmail.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/mate/MATE/language/tr/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Mehmet, 2018\n"
+"Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Çalıştırılacak program tespit edilemedi</b></big>\n\nSeçtiğiniz unsur yönetici yetkileriyle açılamaz çünkü doğru uygulama tespit edilemedi."
+msgstr ""
+"<big><b>Çalıştırılacak program tespit edilemedi</b></big>\n"
+"\n"
+"Seçtiğiniz unsur yönetici yetkileriyle açılamaz çünkü doğru uygulama tespit edilemedi."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -152,7 +150,7 @@ msgstr "Yeniden _boyutlandır"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "G_örmezden gel"
+msgstr "_Atla"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -258,7 +256,8 @@ msgstr "Klasörlerden uçbirim aç"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Masaüstünde bir uçbirim açmanın ev dizininde bir terminal açıp açmadığı"
+msgstr ""
+"Masaüstünde bir uçbirim açmanın ev dizininde bir terminal açıp açmadığı"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -266,7 +265,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Doğru olarak ayarlanırsa, masaüstünde bir uçbirim açılması ev dizininde bir terminal açacaktır. Aksi takdirde terminal masaüstü dizininde açılacaktır. Masaüstü dizini ile ev diziniyle aynı olması durumunda bu anahtarın gereksiz olacağını unutmayınız."
+msgstr ""
+"Doğru olarak ayarlanırsa, masaüstünde bir uçbirim açılması ev dizininde bir "
+"terminal açacaktır. Aksi takdirde terminal masaüstü dizininde açılacaktır. "
+"Masaüstü dizini ile ev diziniyle aynı olması durumunda bu anahtarın gereksiz"
+" olacağını unutmayınız."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -304,7 +307,7 @@ msgstr "Kurulumunuzu kontrol ediniz"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Gönder"
+msgstr "Şuna Gönder"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -312,7 +315,7 @@ msgstr "E-posta istemcileri ve Pidgin'i bütünler"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Şuna gönder..."
+msgstr "Gönder..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -374,7 +377,7 @@ msgstr "Yeni CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Mevcut CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD oluşturucusu"
 
@@ -403,14 +406,18 @@ msgstr "Bir klasörü hızlıca paylaşmaya imkân verir"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Paylaşabilmek için Caja'nın \"%s\" dizininize bazı izinler eklemesi gerekiyor"
+msgstr ""
+"Paylaşabilmek için Caja'nın \"%s\" dizininize bazı izinler eklemesi "
+"gerekiyor"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Paylaşımın çalışabilmesi için \"%s\" dizininin aşağıdaki izinlere ihtiyacı vardır:\n%s%s%s Caja'nın bu izinleri dizine otomatik olarak eklemesini istiyor musunuz?"
+msgstr ""
+"Paylaşımın çalışabilmesi için \"%s\" dizininin aşağıdaki izinlere ihtiyacı vardır:\n"
+"%s%s%s Caja'nın bu izinleri dizine otomatik olarak eklemesini istiyor musunuz?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -558,7 +565,9 @@ msgstr "%s yolu için paylaşım izni kaldırılamaz: bu yol paylaşılmamaktad�
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Mevcut bir paylaşımın yolu değiştirilemez; lütfen eski paylaşımı kaldırıp yenisini ekleyiniz"
+msgstr ""
+"Mevcut bir paylaşımın yolu değiştirilemez; lütfen eski paylaşımı kaldırıp "
+"yenisini ekleyiniz"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

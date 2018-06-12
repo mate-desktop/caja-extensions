@@ -1,17 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2014-2015,2018
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-17 19:22+0000\n"
-"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
-"Language-Team: Basque (http://www.transifex.com/mate/MATE/language/eu/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2018\n"
+"Language-Team: Basque (https://www.transifex.com/mate/teams/13566/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Ezin izan da erabaki exekutatu beharreko programa.</b></big>\n\nHautatu duzun elementua ezin da administratzaile baimenekin ireki aplikazio egokia zein den ezin izan delako erabaki."
+msgstr ""
+"<big><b>Ezin izan da erabaki exekutatu beharreko programa.</b></big>\n"
+"\n"
+"Hautatu duzun elementua ezin da administratzaile baimenekin ireki aplikazio egokia zein den ezin izan delako erabaki."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -253,7 +256,9 @@ msgstr "Ireki terminalak karpetetatik"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Mahaigainean terminal bat irekitzeak direktorio nagusian terminal bat irekitzen duen ala ez"
+msgstr ""
+"Mahaigainean terminal bat irekitzeak direktorio nagusian terminal bat "
+"irekitzen duen ala ez"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -261,7 +266,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Egia ezartzen bada, mahaigainean terminal bat irekitzean direktorio nagusian terminal bat irekiko da. Bestela, mahaigaineko direktorioan irekiko da. Kontutan izan honek ez duela zentzurik mahaigaineko direktorioa eta direktorio nagusia bat datozenean."
+msgstr ""
+"Egia ezartzen bada, mahaigainean terminal bat irekitzean direktorio nagusian"
+" terminal bat irekiko da. Bestela, mahaigaineko direktorioan irekiko da. "
+"Kontutan izan honek ez duela zentzurik mahaigaineko direktorioa eta "
+"direktorio nagusia bat datozenean."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -299,7 +308,7 @@ msgstr "Mesedez egiaztatu instalazioa"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Bidali hona"
+msgstr "Bidali honi"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -369,7 +378,7 @@ msgstr "CD/DVD berria"
 msgid "Existing CD/DVD"
 msgstr "Existitzen den CD/DVDa"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD sortzailea"
 
@@ -398,14 +407,18 @@ msgstr "Karpeta bat azkar batean partekatzeko aukera ematen du"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Cajak \"%s\" karpetari baimen batzuk gehitu beharra dauka partekatu ahal izateko"
+msgstr ""
+"Cajak \"%s\" karpetari baimen batzuk gehitu beharra dauka partekatu ahal "
+"izateko"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "\"%s\" karpetak ondorengo baimen gehigarriak behar ditu partekatu ahal izateko:\n%s%s%sNahi al duzu Cajak karpetari baimen horiek automatikoki gehitzea?"
+msgstr ""
+"\"%s\" karpetak ondorengo baimen gehigarriak behar ditu partekatu ahal izateko:\n"
+"%s%s%sNahi al duzu Cajak karpetari baimen horiek automatikoki gehitzea?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -553,7 +566,9 @@ msgstr "Ezin izan da %s partekatzearen bidea kendu: bidea ez dago partekatuta"
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Ezin da existitzen den partekatzearen bidea aldatu; mesedez kendu partekatze zaharra lehenik eta ondoren gehitu berria"
+msgstr ""
+"Ezin da existitzen den partekatzearen bidea aldatu; mesedez kendu partekatze"
+" zaharra lehenik eta ondoren gehitu berria"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

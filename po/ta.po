@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Maurious Paul Vincent <paulmaurious@gmail.com>, 2016
-# Mooglie <mooglietech@gmail.com>, 2017
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Tamil (http://www.transifex.com/mate/MATE/language/ta/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Maurious Paul Vincent <paulmaurious@gmail.com>, 2018\n"
+"Language-Team: Tamil (https://www.transifex.com/mate/teams/13566/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>நிரல் செயல்பாட்டினை உறுதி செய்ய இயலவில்லை.</b></big>\n\nநீங்கள் தெரிவு செய்த உருப்படியை, நிர்வாகி உரிமைகளோடு திறக்க இயலவில்லை; ஏனெனில் சரியான செயலியை உறுதி செய்ய இயலவில்லை."
+msgstr ""
+"<big><b>நிரல் செயல்பாட்டினை உறுதி செய்ய இயலவில்லை.</b></big>\n"
+"\n"
+"நீங்கள் தெரிவு செய்த உருப்படியை, நிர்வாகி உரிமைகளோடு திறக்க இயலவில்லை; ஏனெனில் சரியான செயலியை உறுதி செய்ய இயலவில்லை."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -227,20 +229,20 @@ msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
-msgstr ""
+msgstr "தற்சமயம் தெரிவு செய்த கோப்பினை முனையத்திலிருந்து திற"
 
 #: ../open-terminal/caja-open-terminal.c:437
 #: ../open-terminal/caja-open-terminal.c:447
 msgid "Open the currently open folder in a terminal"
-msgstr ""
+msgstr "தற்சமயம் திறந்துள்ள முனையத்திலிருந்து கோப்பினைத்திற "
 
 #: ../open-terminal/caja-open-terminal.c:443
 msgid "Open _Terminal"
-msgstr ""
+msgstr "முனையத்தைத்திற "
 
 #: ../open-terminal/caja-open-terminal.c:444
 msgid "Open a terminal"
-msgstr ""
+msgstr "முனையத்தைத்திற"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -255,6 +257,7 @@ msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
 msgstr ""
+" திரையில் இருந்து முனையத்தை திறந்தால் முனையம் இல்ல அடைவில் இருந்து திறக்குமா"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -263,6 +266,10 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
+"நிபந்தனை சரி என்றால், திரையில் இருந்து முனையத்தை திறந்தால் முனையம், இல்ல "
+"அடைவில் இருந்து திறக்கும்,  தவறு என்றால் முனையம் திரையில் உள்ள அடைவில் "
+"இருந்து திறக்கும்குறிப்பு செய்க, சாவி தொடர்பு சரியில்லை என்றால், இல்ல "
+"அடைவும் திரை அடைவும் ஒன்றே "
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -270,33 +277,33 @@ msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "கோப்பினை மின்னஞ்சலில், துரித செய்தியில் அனுப்பவும்..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "கோப்புகளை மின்னஞ்சலில், துரித செய்தியில் அனுப்பவும்..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
-msgstr ""
+msgstr "கோப்புகள்"
 
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "URIகள் மற்றும் கோப்பு பெயர்கள் தவிர விருப்பங்களாக அனுப்பப்பட வேண்டும்\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "கட்டளைவரி வாய்ப்புகளை பகுக்க முடியவில்லை: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr ""
+msgstr "கூடுதல் இணைப்புகள் எதையும் ஏற்ற முடியவில்லை."
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr ""
+msgstr "உங்களது நிறுவலை சரிபார்க்கவும்"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
@@ -308,87 +315,87 @@ msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr ""
+msgstr "இதற்கு அனுப்பு..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr ""
+msgstr "அனுப்பு (_S)"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr ""
+msgstr "<b>இலக்கு</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr ""
+msgstr "இதுவாக அனுப்பு (_a):"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr ""
+msgstr "இதற்கு அனுப்பு (_o):"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr ""
+msgstr "<b>Compression</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "தொகுப்பிற்குள் அனுப்பு (_p):"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr ""
+msgstr "மின்னஞ்சல்"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr ""
+msgstr "கோப்பினை அனுப்ப முடியவில்லை"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr ""
+msgstr "gajim தொலை சேவையுடன் இணைப்பு இல்லை."
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr ""
+msgstr "கோப்பை அனுப்புவது தோல்வியுற்றது"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr ""
+msgstr "பெறுநர் விடுபட்டுவிட்டார்."
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr ""
+msgstr "தெரியாத பெறுநர்."
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "துரித செய்தி (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr ""
+msgstr "புதிய CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr ""
+msgstr "இருக்கும் CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr ""
+msgstr "குறுவட்டு/DVD உருவாக்கி"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr ""
+msgstr "துரித செய்தி (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr ""
+msgstr "நீக்ககூடிய வட்டுகள்  மற்றும் பகிர்வுகள்"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr ""
+msgstr "UPnP ஊடக சேவையம்"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
-msgstr ""
+msgstr "பகிர்க"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
@@ -484,7 +491,7 @@ msgstr ""
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "குறிப்புரை _m:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -522,7 +529,7 @@ msgstr ""
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr ""
+msgstr "தோல்வியடைந்தது"
 
 #: ../share/shares.c:547
 #, c-format
@@ -574,7 +581,7 @@ msgstr ""
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "ஒட்டுகள் (Tags)"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"

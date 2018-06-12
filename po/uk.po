@@ -1,27 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Bohdan Kovalchuk <neostanniy@gmail.com>, 2017
-# Микола Ткач <znadibnyk@gmail.com>, 2013
-# Микола Ткач <znadibnyk@gmail.com>, 2013
-# Oleh, 2014
-# Микола Ткач <znadibnyk@gmail.com>, 2014-2016
-# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Bohdan Kovalchuk <neostanniy@gmail.com>, 2018\n"
+"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
@@ -36,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Неможливо визначити проґраму для запуску.</b></big>\n\nОбраний Вами елемент неможливо відкрити з правами керманича через те, що коректний застосунок не визначено."
+msgstr ""
+"<big><b>Неможливо визначити проґраму для запуску.</b></big>\n"
+"\n"
+"Обраний Вами елемент неможливо відкрити з правами керманича через те, що коректний застосунок не визначено."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -258,7 +256,9 @@ msgstr "Відкрити термінали з тек"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "При відкритті терміналу на стільниці відкривається термінал у домашньому каталозі"
+msgstr ""
+"При відкритті терміналу на стільниці відкривається термінал у домашньому "
+"каталозі"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -266,7 +266,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Якщо виставлена \"істина\", тоді при відкритті терміналу на стільниці буде відкриватися термінал у домашньому каталозі. У протилежному випадку, він буде відкритий у каталозі стільниці. Зверніть увагу, що цьому ключу не важливо, збігається каталог стільниці з домашнім каталогом чи ні."
+msgstr ""
+"Якщо виставлена \"істина\", тоді при відкритті терміналу на стільниці буде "
+"відкриватися термінал у домашньому каталозі. У протилежному випадку, він "
+"буде відкритий у каталозі стільниці. Зверніть увагу, що цьому ключу не "
+"важливо, збігається каталог стільниці з домашнім каталогом чи ні."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -374,7 +378,7 @@ msgstr "Новий КД/DVD"
 msgid "Existing CD/DVD"
 msgstr "Існуючий КД/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Створювач КД/DVD"
 
@@ -410,7 +414,9 @@ msgstr "Caja потрібно надати певні права для опри
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Тека  «%s» потребує такі додаткові права для оприлюднення у мережі:\n%s%s%sЧи бажаєте Ви, аби Caja надав ці права теці автоматично?"
+msgstr ""
+"Тека  «%s» потребує такі додаткові права для оприлюднення у мережі:\n"
+"%s%s%sЧи бажаєте Ви, аби Caja надав ці права теці автоматично?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -422,7 +428,9 @@ msgstr "- дозволити иньшим писати\n"
 
 #: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "- дозволити иньшим працювати\n\n"
+msgstr ""
+"- дозволити иньшим працювати\n"
+"\n"
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
@@ -526,7 +534,7 @@ msgstr "вивід 'net usershare' не у коректному UTF-8"
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Збій"
+msgstr "Невдало"
 
 #: ../share/shares.c:547
 #, c-format
@@ -558,7 +566,9 @@ msgstr "Не вдається вилучити оголошення шляху %
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Не вдається змінити шлях існуючого оголошення; будь ласка, вилучіть спочатку старе оголошення й потім створіть нове"
+msgstr ""
+"Не вдається змінити шлях існуючого оголошення; будь ласка, вилучіть спочатку"
+" старе оголошення й потім створіть нове"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

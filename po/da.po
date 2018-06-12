@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2016
-# Joe Hansen <joedalton2@yahoo.dk>, 2013-2018
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-16 08:34+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
-"Language-Team: Danish (http://www.transifex.com/mate/MATE/language/da/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2018\n"
+"Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Det er uklart, hvilket program der skal køres.</b></big>\n\nDet valgte emne kunne ikke åbnes med administratorrettigheder, fordi det ikke er klart, hvilket program der skal bruges til det."
+msgstr ""
+"<big><b>Det er uklart, hvilket program der skal køres.</b></big>\n"
+"\n"
+"Det valgte emne kunne ikke åbnes med administratorrettigheder, fordi det ikke er klart, hvilket program der skal bruges til det."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -254,7 +256,9 @@ msgstr "Åbn terminaler fra mapper"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Hvorvidt åbning af en terminal på skrivebordet åbner en terminal i hjemmemappen"
+msgstr ""
+"Hvorvidt åbning af en terminal på skrivebordet åbner en terminal i "
+"hjemmemappen"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -262,7 +266,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Hvis angivet som true (sand), så vil åbning af en terminal på skrivebordet åbne en terminal i hjemmemappen. Ellers vil den blive åbnet i skrivebordsmappen. Bemærk at denne nøgle er irrelevant hvis skrivebordsmappen er identisk med hjemmemappen."
+msgstr ""
+"Hvis angivet som true (sand), så vil åbning af en terminal på skrivebordet "
+"åbne en terminal i hjemmemappen. Ellers vil den blive åbnet i "
+"skrivebordsmappen. Bemærk at denne nøgle er irrelevant hvis "
+"skrivebordsmappen er identisk med hjemmemappen."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -308,7 +316,7 @@ msgstr "Integrerer e-postklienter og Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Send til…"
+msgstr "Send til …"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -370,7 +378,7 @@ msgstr "Ny cd/dvd"
 msgid "Existing CD/DVD"
 msgstr "Eksisterende cd/dvd"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Cd/dvd-brænder"
 
@@ -399,14 +407,17 @@ msgstr "Tillader hurtig deling af en mappe"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja skal tilføje nogle rettigheder til din mappe »%s« for at kunne dele den"
+msgstr ""
+"Caja skal tilføje nogle rettigheder til din mappe »%s« for at kunne dele den"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Mappen »%s« skal bruge de følgende rettigheder for at deling fungerer:\n%s%s%sØnsker du at Caja tilføjer disse rettigheder til mappen automatisk?"
+msgstr ""
+"Mappen »%s« skal bruge de følgende rettigheder for at deling fungerer:\n"
+"%s%s%sØnsker du at Caja tilføjer disse rettigheder til mappen automatisk?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -522,7 +533,7 @@ msgstr "resultatet af »net usershare« er ikke en gyldig UTF-8-kodning"
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Fejlede"
+msgstr "Mislykkedes"
 
 #: ../share/shares.c:547
 #, c-format
@@ -554,7 +565,9 @@ msgstr "Kan ikke fjerne delingen for stien %s: den sti er ikke delt"
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Kan ikke ændre stien for en eksisterende deling; fjern venligst den gamle deling først og tilføj en ny"
+msgstr ""
+"Kan ikke ændre stien for en eksisterende deling; fjern venligst den gamle "
+"deling først og tilføj en ny"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

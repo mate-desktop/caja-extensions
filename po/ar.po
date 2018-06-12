@@ -1,21 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# alibacha19 <alibacha19@gmail.com>, 2015
-# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2014
-# Mosaab Alzoubi <moceap@hotmail.com>, 2013
-# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2014-2015
-# وجدي أبو سلطان, 2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Arabic (http://www.transifex.com/mate/MATE/language/ar/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: وجدي أبو سلطان, 2018\n"
+"Language-Team: Arabic (https://www.transifex.com/mate/teams/13566/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>لم أستطع تحديد برنامج لتشغيله.</b></big>\n\nالعنصر الذي اخترته لا يمكن فتحه بصلاحيات المدير لعدم إمكانية تحديد البرنامج الصحيح"
+msgstr ""
+"<big><b>لم أستطع تحديد برنامج لتشغيله.</b></big>\n"
+"\n"
+"العنصر الذي اخترته لا يمكن فتحه بصلاحيات المدير لعدم إمكانية تحديد البرنامج الصحيح"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -151,7 +150,7 @@ msgstr "_حجّم"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "_تخطَّ"
+msgstr "_تخطى"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -265,7 +264,10 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "في حال ضبطه كصحيح، فإن فتح الطّرفية في مجلد سطح المكتب يؤدّي لفتحها في المجلد المنزل . و في حال ضبطه غير ذلك فإن الطّرفية ستفتح مجلد سطح المكتب . لاحظ أن هذا المفتاح لا يتأثر فلي حال تطابق مجلدي المنزل و سطح المكتب."
+msgstr ""
+"في حال ضبطه كصحيح، فإن فتح الطّرفية في مجلد سطح المكتب يؤدّي لفتحها في "
+"المجلد المنزل . و في حال ضبطه غير ذلك فإن الطّرفية ستفتح مجلد سطح المكتب . "
+"لاحظ أن هذا المفتاح لا يتأثر فلي حال تطابق مجلدي المنزل و سطح المكتب."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -311,7 +313,7 @@ msgstr "دمج عملاء البريد الإلكتروني وPidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "أرسل إلى..."
+msgstr "إرسال إلى..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -373,7 +375,7 @@ msgstr "اسطوانة\\دي‌ڤي‌دي جديدة"
 msgid "Existing CD/DVD"
 msgstr "اسطوانة\\دي‌ڤي‌دي موجودة"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "مُنشئ اسطوانات/دي‌في‌دي"
 
@@ -409,7 +411,9 @@ msgstr "  يحتاج Caja إلى إضافة بعض الأذونات إلى ال�
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "المجلد \"%s\" يحتاج للأذونات التالية كي تعمل المُشاركة:\n%s%s%s هل تريد من كاجا أن يضيف هذه الصلاحيات للمجلد تلقائيا؟"
+msgstr ""
+"المجلد \"%s\" يحتاج للأذونات التالية كي تعمل المُشاركة:\n"
+"%s%s%s هل تريد من كاجا أن يضيف هذه الصلاحيات للمجلد تلقائيا؟"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -510,12 +514,12 @@ msgstr "%s %s %s فشلت لسبب مجهول"
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'مشاركة المستخدم الانترنت' إرجاع الخطأ %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'مشاركة المستخدم الانترنت' إرجاع الخطأ  %d"
 
 #: ../share/shares.c:185
 #, c-format
@@ -557,7 +561,9 @@ msgstr "لا يمكن إزالة المشاركة من المسار %s: هذا �
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "لا يمكن تغيير مسار مُشاركة موجودة؛ رجاء أزل المُشاركة القديمة و أضف أخرى جديدة"
+msgstr ""
+"لا يمكن تغيير مسار مُشاركة موجودة؛ رجاء أزل المُشاركة القديمة و أضف أخرى "
+"جديدة"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -577,7 +583,7 @@ msgstr "يسمح بضبط سريع للخلفية"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "وسوم"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"

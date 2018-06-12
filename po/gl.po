@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2013
-# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Galician (http://www.transifex.com/mate/MATE/language/gl/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Tasio Leiva <leiva.tasio@gmail.com>, 2018\n"
+"Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Non é posíbel determinar o programa a executar.</b></big>\n\nO elemento que seleccionou non se pode abrir con dereitos de administrador porque non se determinou o aplicativo correcto."
+msgstr ""
+"<big><b>Non é posíbel determinar o programa a executar.</b></big>\n"
+"\n"
+"O elemento que seleccionou non se pode abrir con dereitos de administrador porque non se determinou o aplicativo correcto."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -223,7 +225,7 @@ msgstr "Rotar e redimensionar imaxes"
 #: ../open-terminal/caja-open-terminal.c:433
 #: ../open-terminal/caja-open-terminal.c:446
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Abrir nun _terminal"
 
 #: ../open-terminal/caja-open-terminal.c:435
 msgid "Open the currently selected folder in a terminal"
@@ -254,7 +256,9 @@ msgstr "Terminais abertos desde cartafoles"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Indica se ao abrir un terminal no escritorio abre un terminal no cartafol persoal"
+msgstr ""
+"Indica se ao abrir un terminal no escritorio abre un terminal no cartafol "
+"persoal"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -262,11 +266,15 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Se é verdadeiro, ao abrir un terminal no escritorio abrirase no directorio persoal. Doutra maneira abrirase no directorio do escritorio. Observe que esta clave é irrelevante se o directorio do escritorio é o mesmo que o cartafol persoal."
+msgstr ""
+"Se é verdadeiro, ao abrir un terminal no escritorio abrirase no directorio "
+"persoal. Doutra maneira abrirase no directorio do escritorio. Observe que "
+"esta clave é irrelevante se o directorio do escritorio é o mesmo que o "
+"cartafol persoal."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "Enviar a...."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
@@ -370,7 +378,7 @@ msgstr "Novo CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "CD/DVD existente"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Creador de CD/DVD"
 
@@ -399,14 +407,17 @@ msgstr "Permite compartir rapidamente un cartafol"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja precisa engadir algúns permisos ao cartafol «%s» a fin de compartilo"
+msgstr ""
+"Caja precisa engadir algúns permisos ao cartafol «%s» a fin de compartilo"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "O cartafol «%s» necesita os seguintes permisos adicionais para compartir o traballo:\n%s%s%s Quere que o Caja engada estes permisos ao cartafol de forma automática?"
+msgstr ""
+"O cartafol «%s» necesita os seguintes permisos adicionais para compartir o traballo:\n"
+"%s%s%s Quere que o Caja engada estes permisos ao cartafol de forma automática?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -522,7 +533,7 @@ msgstr "a saída de «net usershare red» non está codificada en UTF-8"
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Fallo"
+msgstr "Produciuse un fallo"
 
 #: ../share/shares.c:547
 #, c-format
@@ -547,43 +558,46 @@ msgstr "A proba de parámetros de Samba devolveu o erro %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Non é posíbel retirar o compartido na ruta %s: esta ruta non está compartida"
+msgstr ""
+"Non é posíbel retirar o compartido na ruta %s: esta ruta non está compartida"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Non é posíbel cambiar a ruta do compartido existente; retire antes o compartido anterior e cree un novo"
+msgstr ""
+"Non é posíbel cambiar a ruta do compartido existente; retire antes o "
+"compartido anterior e cree un novo"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "Estabelecer como fondo de pantalla"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr ""
+msgstr "Estabelecer a imaxe como fondo de pantalla actual"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Fondo de pantalla"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Permite estabelecer fondos de pantalla rapidamente"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "Etiquetas almacenadas en atributos extendidos"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "Etiquetas xattr"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Ver as etiquetas almacenadas en atributos estendidos"

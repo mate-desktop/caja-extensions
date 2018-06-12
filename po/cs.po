@@ -1,29 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# huskyviking <husky.viking@seznam.cz>, 2014
-# huskyviking <husky.viking@seznam.cz>, 2014
-# LiberteCzech <liberte.czech@gmail.com>, 2015
-# LiberteCzech <liberte.czech@gmail.com>, 2015
-# LiberteCzech <liberte.czech@gmail.com>, 2015
-# Michal <sinope@seznam.cz>, 2013
-# Stanislav Kučera <inactive+kacernator@transifex.com>, 2015
-# Stanislav Kučera <inactive+kacernator@transifex.com>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-14 13:46+0000\n"
-"Last-Translator: ToMáš Marný\n"
-"Language-Team: Czech (http://www.transifex.com/mate/MATE/language/cs/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Roman Horník <roman.hornik@debian-linux.cz>, 2018\n"
+"Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
@@ -38,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Nemohu určit program, který se má spustit.</b></big>⏎\n⏎\nVybrané položky nelze otevřít s administrátorským oprávněním, protože nelze určit správnou aplikaci."
+msgstr ""
+"<big><b>Nemohu určit program, který se má spustit.</b></big>⏎\n"
+"⏎\n"
+"Vybrané položky nelze otevřít s administrátorským oprávněním, protože nelze určit správnou aplikaci."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -102,7 +98,7 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "bodů"
+msgstr "pixelů"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -154,7 +150,7 @@ msgstr "_Změnit velikost"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Pře_skočit"
+msgstr "_Přeskočit"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -268,7 +264,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Pokud je nastavení povoleno, pak otevření terminálu na ploše bude otevírat terminál v domovském adresáři. V opačném případě bude otevřen v adresáři plochy. Všimněte si, že tento klíč je irelevantní pokud je adresář plochy totožný s domovským adresářem."
+msgstr ""
+"Pokud je nastavení povoleno, pak otevření terminálu na ploše bude otevírat "
+"terminál v domovském adresáři. V opačném případě bude otevřen v adresáři "
+"plochy. Všimněte si, že tento klíč je irelevantní pokud je adresář plochy "
+"totožný s domovským adresářem."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -289,7 +289,9 @@ msgstr "Soubory"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Jako možnosti očekává zadané URI tzn. jednotné identifikátory zdroje nebo názvy souborů⏎\n"
+msgstr ""
+"Jako možnosti očekává zadané URI tzn. jednotné identifikátory zdroje nebo "
+"názvy souborů⏎\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
@@ -306,7 +308,7 @@ msgstr "Prosím zkontrolujte svoji instalaci"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Poslat do"
+msgstr "Odeslat do"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -314,7 +316,7 @@ msgstr "Zabudovaní emailoví klienti a Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Odeslat..."
+msgstr "Odeslat do..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -376,7 +378,7 @@ msgstr "Nové CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Existující CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Tvůrce CD/DVD"
 
@@ -405,14 +407,18 @@ msgstr "Umožňuje rychlé sdílení složek"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja potřebuje přidat k vaší složce \"%s\" nějaké oprávnění, aby mohlo být sdíleno"
+msgstr ""
+"Caja potřebuje přidat k vaší složce \"%s\" nějaké oprávnění, aby mohlo být "
+"sdíleno"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Složka \"%s\" potřebuje speciální oprávnění pro sdílení práce:⏎\n%s%s%sChcete aby Caja přidala tato oprávnění ke složce automaticky?"
+msgstr ""
+"Složka \"%s\" potřebuje speciální oprávnění pro sdílení práce:⏎\n"
+"%s%s%sChcete aby Caja přidala tato oprávnění ke složce automaticky?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -528,7 +534,7 @@ msgstr "výstup z 'net usershare' není v kódování UTF-8"
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Selhalo"
+msgstr "Nepodařilo se"
 
 #: ../share/shares.c:547
 #, c-format
@@ -560,7 +566,9 @@ msgstr "Nelze odstranit sdílení pro cestu %s: tato cesta není sdílena"
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Nelze změnit cestu stávajícího sdílení; prosím odstraňte nejprve původní sdílení a pak přidejte nové"
+msgstr ""
+"Nelze změnit cestu stávajícího sdílení; prosím odstraňte nejprve původní "
+"sdílení a pak přidejte nové"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

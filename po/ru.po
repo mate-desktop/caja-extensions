@@ -1,21 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Alexei Sorokin <sor.alexei@meowr.ru>, 2013
-# Alexei Sorokin <sor.alexei@meowr.ru>, 2014
-# AlexL <loginov.alex.valer@gmail.com>, 2015
-# Дмитрий Михирев, 2015
-# Vlad Orlov <monsta@inbox.ru>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/mate/MATE/language/ru/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MightyYuri <terrorizmo@yandex.ru>, 2018\n"
+"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Невозможно определить программу для запуска.</b></big>\n\nВыбранный вами объект не может быть открыт с привилегиями администратора из-за того, что корректное приложение не может быть определено."
+msgstr ""
+"<big><b>Невозможно определить программу для запуска.</b></big>\n"
+"\n"
+"Выбранный вами объект не может быть открыт с привилегиями администратора из-за того, что корректное приложение не может быть определено."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -257,7 +256,9 @@ msgstr "Открыть терминалы из папок"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "При открытии терминала на рабочем столе открывается терминал в домашнем каталоге"
+msgstr ""
+"При открытии терминала на рабочем столе открывается терминал в домашнем "
+"каталоге"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -265,7 +266,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Если выставлена \"истина\", то при открытии терминала на рабочем столе будет открываться терминал в домашнем каталоге. В противном случае, он будет открыт в каталоге рабочего стола. Обратите внимание, что этому ключу не важно, совпадает каталог рабочего стола с домашним каталогом или нет."
+msgstr ""
+"Если выставлена \"истина\", то при открытии терминала на рабочем столе будет"
+" открываться терминал в домашнем каталоге. В противном случае, он будет "
+"открыт в каталоге рабочего стола. Обратите внимание, что этому ключу не "
+"важно, совпадает каталог рабочего стола с домашним каталогом или нет."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -303,7 +308,7 @@ msgstr "Пожалуйста, проверьте вашу установку"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Отправить…"
+msgstr "Отправить"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -311,7 +316,7 @@ msgstr "Интегрирует почтовые клиенты и Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Отправить..."
+msgstr "Отправить…"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -373,7 +378,7 @@ msgstr "Новый CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Существующий CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Создаватель CD/DVD"
 
@@ -409,7 +414,9 @@ msgstr "Caja нужно добавить некоторые права для п
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Папка  «%s» нуждается в следующих дополнительных правах для опубликования в сети:\n%s%s%sХотите ли вы, чтобы Caja добавил эти права папке автоматически?"
+msgstr ""
+"Папка  «%s» нуждается в следующих дополнительных правах для опубликования в сети:\n"
+"%s%s%sХотите ли вы, чтобы Caja добавил эти права папке автоматически?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -525,7 +532,7 @@ msgstr "вывод 'net usershare' не в корректном UTF-8"
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Сбой"
+msgstr "Неудачно"
 
 #: ../share/shares.c:547
 #, c-format
@@ -557,7 +564,9 @@ msgstr "Не удаётся удалить публикацию пути %s: э�
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Не удаётся изменить путь существующей публикации; пожалуйста, сначала удалите старую публикацию, а затем создайте новую"
+msgstr ""
+"Не удаётся изменить путь существующей публикации; пожалуйста, сначала "
+"удалите старую публикацию, а затем создайте новую"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -577,7 +586,7 @@ msgstr "Позволяет быстро установить обои"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Метки"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"

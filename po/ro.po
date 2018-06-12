@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# corneliu.e <corneliueva@yahoo.com>, 2017
-# Daniel <danny3@tutanota.com>, 2015-2016
-# AntonieG <vastinar.antonie@gmail.com>, 2014
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Romanian (http://www.transifex.com/mate/MATE/language/ro/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: sorinn <nemes.sorin@gmail.com>, 2018\n"
+"Language-Team: Romanian (https://www.transifex.com/mate/teams/13566/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Nu se poate determina programul pentru rulare.</b></big>\n\nElementul selectat nu poate fi deschis cu privilegii de administrator deoarece aplicația corectă nu poate fi determinată."
+msgstr ""
+"<big><b>Nu se poate determina programul pentru rulare.</b></big>\n"
+"\n"
+"Elementul selectat nu poate fi deschis cu privilegii de administrator deoarece aplicația corectă nu poate fi determinată."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -149,7 +150,7 @@ msgstr "_Redimensionează"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "_Sari"
+msgstr "_Omite"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -255,7 +256,9 @@ msgstr "Deschide terminale din dosare"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Dacă deschiderea unui terminal pe desktop deschide un terminal în dosarul personal"
+msgstr ""
+"Dacă deschiderea unui terminal pe desktop deschide un terminal în dosarul "
+"personal"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -263,7 +266,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Dacă este definit ca „true”, atunci deschiderea unui terminal pe desktop va deschide un terminal în dosarul „Acasă”. Altfel, va fi deschis în dosarul „Desktop”. Rețineți că această tastă este irelevantă dacă dosarul „Desktop” este identic cu dosarul „Acasă”."
+msgstr ""
+"Dacă este definit ca „true”, atunci deschiderea unui terminal pe desktop va "
+"deschide un terminal în dosarul „Acasă”. Altfel, va fi deschis în dosarul "
+"„Desktop”. Rețineți că această tastă este irelevantă dacă dosarul „Desktop” "
+"este identic cu dosarul „Acasă”."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -301,7 +308,7 @@ msgstr "Va rugăm să verificați instalarea"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Trimite la"
+msgstr "Trimite Catre"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -371,7 +378,7 @@ msgstr "CD/DVD nou"
 msgid "Existing CD/DVD"
 msgstr "CD/DVD existent"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Creator CD/DVD"
 
@@ -400,14 +407,18 @@ msgstr "Permite partajarea rapidă a unui dosar"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja trebuie să adauge unele permisiuni la dosarul „%s” pentru a-l putea partaja"
+msgstr ""
+"Caja trebuie să adauge unele permisiuni la dosarul „%s” pentru a-l putea "
+"partaja"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Dosarul „%s” are nevoie de următoare permisini în plus pentru ca partajarea să funcționeze:\n%s%s%s Doriți ca programul Caja să adauge automat aceste permisiuni la dosar?"
+msgstr ""
+"Dosarul „%s” are nevoie de următoare permisini în plus pentru ca partajarea să funcționeze:\n"
+"%s%s%s Doriți ca programul Caja să adauge automat aceste permisiuni la dosar?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -548,14 +559,18 @@ msgstr "Programul testparm al lui Samba a întors eroarea %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Partajarea nu poate fi eliminată pentru calea %s: acea cale nu este partajată"
+msgstr ""
+"Partajarea nu poate fi eliminată pentru calea %s: acea cale nu este "
+"partajată"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Nu se poate schimba calea unei partajări existente; vă rugăm să eliminați vechea partajare prima dată și apoi să adăugați una nouă"
+msgstr ""
+"Nu se poate schimba calea unei partajări existente; vă rugăm să eliminați "
+"vechea partajare prima dată și apoi să adăugați una nouă"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

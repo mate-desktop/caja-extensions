@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# , 2014-2015
-# , 2014-2015, 2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Belarusian (http://www.transifex.com/mate/MATE/language/be/)\n"
+"POT-Creation-Date: 2018-03-14 08:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Mihail Varantsou <meequz@gmail.com>, 2018\n"
+"Language-Team: Belarusian (https://www.transifex.com/mate/teams/13566/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +31,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Не выйшла вызначыць праграму для запуску.</b></big>\n\nЭлемент, які вы выбралі, не можа быць запушчаны з-пад адміністратара, бо не знойдзена патрэбная праграма."
+msgstr ""
+"<big><b>Не выйшла вызначыць праграму для запуску.</b></big>\n"
+"\n"
+"Элемент, які вы выбралі, не можа быць запушчаны з-пад адміністратара, бо не знойдзена патрэбная праграма."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -96,7 +98,7 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "піксэляў"
+msgstr "пікселяў"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -148,7 +150,7 @@ msgstr "_Змяніць памер"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "_Абмінуць"
+msgstr "_Прапусціць"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -262,7 +264,10 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Калі ісціна, то пры адкрыванні тэрмінала на стале ён адкрыецца ў хатнім каталогу. Інакш ён адкрыецца ў каталогу стала. Заўважце, гэты ключ бессэнсоўны, калі каталог стала супадае з хатнім."
+msgstr ""
+"Калі ісціна, то пры адкрыванні тэрмінала на стале ён адкрыецца ў хатнім "
+"каталогу. Інакш ён адкрыецца ў каталогу стала. Заўважце, гэты ключ "
+"бессэнсоўны, калі каталог стала супадае з хатнім."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -370,7 +375,7 @@ msgstr "Новы CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Існы CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Стваральнік CD/DVD"
 
@@ -399,14 +404,17 @@ msgstr "Дазваляе хутка зрабіць каталог супольн
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja дадасць пэўныя дазволы на каталог \"%s\", каб ім можна было падзяліцца"
+msgstr ""
+"Caja дадасць пэўныя дазволы на каталог \"%s\", каб ім можна было падзяліцца"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Каталогу \"%s\" трэба наступныя дазволы для супольнага доступу:\n%s%s%sДадаць гэтыя дазволы аўтаматычна?"
+msgstr ""
+"Каталогу \"%s\" трэба наступныя дазволы для супольнага доступу:\n"
+"%s%s%sДадаць гэтыя дазволы аўтаматычна?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -547,14 +555,18 @@ msgstr "testparm Samba вярнуў памылку %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Нельга выдаліць супольны рэсурс для адраса %s: гэты адрас не апублікаваны як супольны"
+msgstr ""
+"Нельга выдаліць супольны рэсурс для адраса %s: гэты адрас не апублікаваны як"
+" супольны"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Немагчыма змяніць шлях існага рэсурса; спачатку выдаліце стары рэсурс, а затым дадавайце новы"
+msgstr ""
+"Немагчыма змяніць шлях існага рэсурса; спачатку выдаліце стары рэсурс, а "
+"затым дадавайце новы"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -574,7 +586,7 @@ msgstr "Дазваляе хутка змяніць абрус"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Цэтлікі"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
