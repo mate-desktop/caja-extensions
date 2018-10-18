@@ -28,6 +28,7 @@
 #include "caja-open-terminal.h"
 
 #include <libcaja-extension/caja-menu-provider.h>
+#include <libcaja-extension/caja-configurable.h>
 
 #include <glib/gi18n-lib.h>
 #include <gtk/gtkicontheme.h>
@@ -141,6 +142,18 @@ desktop_opens_home_dir (void)
 }
 
 static inline gboolean
+set_desktop_opens_home_dir (gboolean val)
+{
+	gboolean result;
+	GSettings* settings;
+
+	settings = g_settings_new (COT_SCHEMA);
+	result = g_settings_set_boolean (settings, COT_DESKTOP_KEY, val);
+	g_object_unref (settings);
+	return result;
+}
+
+static inline gboolean
 desktop_is_home_dir (void)
 {
 	gboolean result;
@@ -160,6 +173,24 @@ default_terminal_application (void)
 
 	settings = g_settings_new (TERM_SCHEMA);
 	result = g_settings_get_string (settings, TERM_EXEC_KEY);
+	g_object_unref (settings);
+
+	if (result == NULL || strlen (result) == 0) {
+		g_free (result);
+		result = g_strdup ("mate-terminal");
+	}
+
+	return result;
+}
+
+static inline gboolean
+set_default_terminal_application (const gchar* exec)
+{
+	gboolean result;
+	GSettings* settings;
+
+	settings = g_settings_new (TERM_SCHEMA);
+	result = g_settings_set_string (settings, TERM_EXEC_KEY, exec);
 	g_object_unref (settings);
 	return result;
 }
@@ -290,11 +321,6 @@ open_terminal_callback (CajaMenuItem *item,
 	GdkScreen *screen;
 
 	terminal_exec = default_terminal_application();
-
-	if (terminal_exec == NULL || strlen (terminal_exec) == 0) {
-		g_free (terminal_exec);
-		terminal_exec = g_strdup ("mate-terminal");
-	}
 
 	switch (get_terminal_file_info (file_info)) {
 		case FILE_INFO_LOCAL:
@@ -526,10 +552,63 @@ caja_open_terminal_get_file_items (CajaMenuProvider *provider,
 }
 
 static void
+caja_open_terminal_run_config (CajaConfigurable *provider)
+{
+	GtkWidget *extconf_dialog, *extconf_content, *extconf_desktophomedir, *extconf_inform1, *extconf_inform2, *extconf_exec;
+	gchar * terminal;
+
+	extconf_dialog = gtk_dialog_new ();
+	extconf_content = gtk_dialog_get_content_area (GTK_DIALOG (extconf_dialog));
+
+	extconf_desktophomedir = gtk_check_button_new_with_label (_("Open at Home if trying to open on desktop"));
+	extconf_exec = gtk_entry_new ();
+	extconf_inform1 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
+	extconf_inform2 = gtk_label_new (_("Terminal application:"));
+
+	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (extconf_desktophomedir), desktop_opens_home_dir ());
+
+	terminal = default_terminal_application();
+	gtk_entry_set_text (GTK_ENTRY (extconf_exec), terminal);
+	g_free (terminal);
+
+	gtk_container_add (GTK_CONTAINER (extconf_inform1), extconf_inform2);
+	gtk_widget_show (extconf_inform2);
+	gtk_container_add (GTK_CONTAINER (extconf_inform1), extconf_exec);
+	gtk_widget_show (extconf_exec);
+	gtk_box_set_child_packing (GTK_BOX (extconf_inform1), extconf_exec, FALSE, FALSE, 0, GTK_PACK_END);
+
+	gtk_container_add (GTK_CONTAINER (extconf_content), extconf_desktophomedir);
+	gtk_widget_show (extconf_desktophomedir);
+	gtk_container_add (GTK_CONTAINER (extconf_content), extconf_inform1);
+	gtk_widget_show (extconf_inform1);
+	gtk_container_add (GTK_CONTAINER (extconf_content), extconf_exec);
+	gtk_widget_show (extconf_exec);
+	gtk_dialog_add_buttons (GTK_DIALOG (extconf_dialog), _("Close"), GTK_RESPONSE_OK, NULL);
+
+	gtk_container_set_border_width (GTK_CONTAINER (extconf_inform1), 6);
+	gtk_container_set_border_width (GTK_CONTAINER (extconf_dialog), 6);
+	gtk_container_set_border_width (GTK_CONTAINER (extconf_content), 6);
+
+	gtk_window_set_title (GTK_WINDOW (extconf_dialog), _("open-terminal Configuration"));
+	gtk_dialog_run (GTK_DIALOG (extconf_dialog));
+
+	set_default_terminal_application (gtk_entry_get_text (GTK_ENTRY (extconf_exec)));
+	set_desktop_opens_home_dir (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (extconf_desktophomedir)));
+
+	gtk_widget_destroy (GTK_WIDGET (extconf_dialog));
+}
+
+static void
 caja_open_terminal_menu_provider_iface_init (CajaMenuProviderIface *iface)
 {
 	iface->get_background_items = caja_open_terminal_get_background_items;
 	iface->get_file_items = caja_open_terminal_get_file_items;
+}
+
+static void
+caja_open_terminal_configurable_iface_init (CajaConfigurableIface *iface)
+{
+	iface->run_config = caja_open_terminal_run_config;
 }
 
 static void 
@@ -569,6 +648,12 @@ caja_open_terminal_register_type (GTypeModule *module)
 		NULL
 	};
 
+	static const GInterfaceInfo configurable_iface_info = {
+		(GInterfaceInitFunc) caja_open_terminal_configurable_iface_init,
+		NULL,
+		NULL
+	};
+
 	terminal_type = g_type_module_register_type (module,
 						     G_TYPE_OBJECT,
 						     "CajaOpenTerminal",
@@ -578,4 +663,9 @@ caja_open_terminal_register_type (GTypeModule *module)
 				     terminal_type,
 				     CAJA_TYPE_MENU_PROVIDER,
 				     &menu_provider_iface_info);
+
+	g_type_module_add_interface (module,
+				     terminal_type,
+				     CAJA_TYPE_CONFIGURABLE,
+				     &configurable_iface_info);
 }
