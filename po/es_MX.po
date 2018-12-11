@@ -5,6 +5,7 @@
 # 
 # Translators:
 # jorge becerril <jrbecster@gmail.com>, 2018
+# Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Luis Medina <luis.medina@sacc.com.mx>, 2018
 # 
 #, fuzzy
@@ -36,8 +37,8 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr ""
-"<big><b>No se puede determinar el programa a ejecutar.</b></big>\\n\n"
-"\\n\n"
+"<big><b>No se puede determinar el programa a ejecutar.</b></big>\n"
+"\n"
 "El elemento que seleccionó no se puede abrir con privilegios de administrador porque la aplicación correcta no se puede determinar."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
@@ -295,12 +296,12 @@ msgstr "Archivos"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Espera que URIs o nombres de archivos se pasen como opciones\\n"
+msgstr "Espera que URIs o nombres de archivos se pasen como opciones\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "No se pudieron analizar las opciones de linea de comandos: %s\\n"
+msgstr "No se pudieron analizar las opciones de linea de comandos: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
