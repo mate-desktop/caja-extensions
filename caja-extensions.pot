@@ -6,15 +6,15 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-14 08:18+0100\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../gksu/libcaja-gksu.c:135
@@ -219,26 +219,42 @@ msgstr ""
 msgid "Rotate and resize images"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
 msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
