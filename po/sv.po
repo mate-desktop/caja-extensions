@@ -3,14 +3,26 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kristoffer Grundström <hamnisdude@gmail.com>, 2018
+# Luna Jernberg <bittin@cafe8bitar.se>, 2018
+# Erik, 2018
+# Henrik Mattsson-Mårn <h@reglage.net>, 2018
+# Marcus Larborg, 2018
+# Gaius Anderson, 2018
+# Jonatan Nyberg, 2018
+# Urban Berggren <pudberggren@icloud.com>, 2018
+# Tobias Lekare <lekare@linux.com>, 2018
+# Philip Andersen <renegadevi@codeofmagi.net>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 08:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Tobias Lekare <lekare@linux.com>, 2018\n"
+"PO-Revision-Date: 2018-03-11 15:01+0000\n"
+"Last-Translator: Philip Andersen <renegadevi@codeofmagi.net>, 2018\n"
 "Language-Team: Swedish (https://www.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -593,12 +605,12 @@ msgstr "Taggar"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "Tags lagrade i utökade attribut"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "xattr Taggar"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Visa taggar lagrade i utökade attribut"

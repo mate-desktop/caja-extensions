@@ -3,14 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Alexei Sorokin <sor.alexei@meowr.ru>, 2018
+# Aleksey Kabanov <ak099@mail.ru>, 2018
+# Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2018
+# AlexL <loginov.alex.valer@gmail.com>, 2018
+# monsta <monsta@inbox.ru>, 2018
+# MightyYuri <terrorizmo@yandex.ru>, 2018
+# Alex Putz, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 08:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: MightyYuri <terrorizmo@yandex.ru>, 2018\n"
+"PO-Revision-Date: 2018-03-11 15:01+0000\n"
+"Last-Translator: Alex Putz, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -590,12 +600,12 @@ msgstr "Метки"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "Теги, хранящиеся в расширенных аттрибутах"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "xattr Теги"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Просмотреть теги, хранящиеся в расширенных аттрибутах"

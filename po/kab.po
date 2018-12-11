@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Fabrizio Pedes <utalabi@gmail.com>, 2018
+# Slimane AMIRI, 2018
 # 
 #, fuzzy
 msgid ""
@@ -13,21 +13,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-14 08:23+0100\n"
 "PO-Revision-Date: 2018-03-11 15:01+0000\n"
-"Last-Translator: Fabrizio Pedes <utalabi@gmail.com>, 2018\n"
-"Language-Team: Sardinian (https://www.transifex.com/mate/teams/13566/sc/)\n"
+"Last-Translator: Slimane AMIRI, 2018\n"
+"Language-Team: Kabyle (https://www.transifex.com/mate/teams/13566/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sc\n"
+"Language: kab\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Aberi che amministradore"
+msgstr ""
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Aberi su file cun sos permissos de amministradore"
+msgstr ""
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
@@ -35,9 +35,6 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr ""
-"<big><b>Non si podet agatare su programma de incarrerare.</b></big>⏎\n"
-"⏎\n"
-"Su chi as seberadu non si podet abèrrere cun sos permissos de amministradore ca su programma giustu non si podet agatare."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -77,27 +74,27 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
-msgstr ""
+msgstr "96x96"
 
 #: ../image-converter/caja-image-resize.ui.h:5
 msgid "128x128"
-msgstr ""
+msgstr "128x128"
 
 #: ../image-converter/caja-image-resize.ui.h:6
 msgid "640x480"
-msgstr ""
+msgstr "640x480"
 
 #: ../image-converter/caja-image-resize.ui.h:7
 msgid "800x600"
-msgstr ""
+msgstr "800x600"
 
 #: ../image-converter/caja-image-resize.ui.h:8
 msgid "1024x768"
-msgstr ""
+msgstr "1024x768"
 
 #: ../image-converter/caja-image-resize.ui.h:9
 msgid "1280x960"
-msgstr ""
+msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
