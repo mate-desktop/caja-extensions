@@ -44,7 +44,8 @@ DISTCLEANFILES = \
 
 DISTCHECK_CONFIGURE_FLAGS =   \
 	--enable-gtk-doc \
-	--with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
+	--with-cajadir='$${libdir}/caja/extensions-2.0-distcheck' \
+	CFLAGS='-Wno-deprecated-declarations'
 
 # Build ChangeLog from GIT  history
 ChangeLog:
