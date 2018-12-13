@@ -1,17 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Cédric Valmary <cvalmary@yahoo.fr>, 2015
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Cédric Valmary <cvalmary@yahoo.fr>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Occitan (post 1500) (http://www.transifex.com/mate/MATE/language/oc/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Cédric Valmary <cvalmary@yahoo.fr>, 2018\n"
+"Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -219,27 +223,43 @@ msgstr ""
 msgid "Rotate and resize images"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
-msgstr ""
+msgstr "Dobrir lo repertòri seleccionat dins un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
-msgstr ""
+msgstr "Dobrir lo repertòri dobèrt dins un terminal"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
-msgstr "Dobrir dins un _terminal"
+msgstr "Dobrir un _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Dobrir un terminal"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Tampar"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -269,11 +289,11 @@ msgstr "Mandar a..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "Enviar lo fichièr per corrièl, messatge instantanèu..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "Enviar los fichièrs per corriel, messatge instantanèu..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
@@ -282,20 +302,20 @@ msgstr "Fichièrs"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "Las opcions esperadas son d'URI o de noms de fichièrs\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "Impossible d'analizar las opcions de la linha de comandas : %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr ""
+msgstr "Impossible de cargar d'ajuston."
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr ""
+msgstr "Verificatz vòstra installacion"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
@@ -319,7 +339,7 @@ msgstr "<b>Destinacion</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr ""
+msgstr "Enviar _coma :"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
@@ -331,7 +351,7 @@ msgstr "<b>Compression</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr ""
+msgstr "Mandar una còpia _compressada dins :"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
@@ -339,27 +359,27 @@ msgstr "Adreça electronica"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr ""
+msgstr "Impossible d'enviar lo fichièr"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr ""
+msgstr "I a pas de connexion al servici distant gajim."
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr ""
+msgstr "Lo mandadís de fichièr a pas capitat"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr ""
+msgstr "Manca lo destinatari."
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr ""
+msgstr "Destinatari desconegut."
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "Messatge instantanèu (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
@@ -369,21 +389,21 @@ msgstr "CD/DVD novèl"
 msgid "Existing CD/DVD"
 msgstr "CD/DVD existent"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Creator de CD/DVD"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr ""
+msgstr "Messatge instantanèu (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr ""
+msgstr "Partiments e disques amovibles"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr ""
+msgstr "Servidor mèdia UPnP"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
@@ -521,7 +541,7 @@ msgstr ""
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Fracàs"
+msgstr "fracassat"
 
 #: ../share/shares.c:547
 #, c-format

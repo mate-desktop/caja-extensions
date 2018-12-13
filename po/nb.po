@@ -1,18 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2016-2017
-# Kenneth Jenssen <kennethjenssen@yahoo.com>, 2016
+# Allan Nordhøy <epost@anotheragency.no>, 2018
+# Kenneth Jenssen <kennethjenssen@yahoo.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Kenneth Jenssen <kennethjenssen@yahoo.com>, 2018\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +35,9 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Kunne ikke fastsette hvilket program som skal kjøres..</b></big>\nElementet du valgte kan ikke åpnes med administratorrettigheter fordi det rette programmet ikke kunne fastsettes."
+msgstr ""
+"<big><b>Kunne ikke fastsette hvilket program som skal kjøres..</b></big>\n"
+"Elementet du valgte kan ikke åpnes med administratorrettigheter fordi det rette programmet ikke kunne fastsettes."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -220,27 +225,43 @@ msgstr "Bildekonverteringsprogram"
 msgid "Rotate and resize images"
 msgstr "Roter og endre størrelse på bilder"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Åpne i _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Åpne valgt mappe i en terminal"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Åpne denne mappen i et terminalvindu"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Åpne _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Åpne en terminal"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Lukk"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -254,7 +275,9 @@ msgstr "Åpne terminaler fra mapper"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Hvorvidt åpning av en terminal på skrivebordet åpner en terminal i hjemmemappen"
+msgstr ""
+"Hvorvidt åpning av en terminal på skrivebordet åpner en terminal i "
+"hjemmemappen"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -262,7 +285,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Hvis satt til sann, vil åpning av en terminal på skrivebordet åpne en terminal i hjemmemappen. I annet fall vil den bli åpnet i skrivebordsmappen. Merk at denne nøkkelen er irrelevant hvis skrivebordsmappen er den samme som hjemmemappen."
+msgstr ""
+"Hvis satt til sann, vil åpning av en terminal på skrivebordet åpne en "
+"terminal i hjemmemappen. I annet fall vil den bli åpnet i skrivebordsmappen."
+" Merk at denne nøkkelen er irrelevant hvis skrivebordsmappen er den samme "
+"som hjemmemappen."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -370,7 +397,7 @@ msgstr "Ny CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Eksisterende CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD lager"
 
@@ -399,14 +426,18 @@ msgstr "Tillater rask deling av en mappe"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja skal legge til noen rettigheter til din mappe \"%s\" for å kunne dele den"
+msgstr ""
+"Caja skal legge til noen rettigheter til din mappe \"%s\" for å kunne dele "
+"den"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Mappen \"%s\" trenger følgende ekstra rettigheter for at deling skal fungere:\n%s%s%sØnsker du at Caja endrer disse rettighetene for mappa automatisk?"
+msgstr ""
+"Mappen \"%s\" trenger følgende ekstra rettigheter for at deling skal fungere:\n"
+"%s%s%sØnsker du at Caja endrer disse rettighetene for mappa automatisk?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -554,7 +585,9 @@ msgstr "Kan ikke fjerne delingsområdet for stien %s: stien er ikke delt"
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Kan ikke endre stien til eksisterende delingsområde; fjern det gamle delingsområdet først og legg til ett nytt."
+msgstr ""
+"Kan ikke endre stien til eksisterende delingsområde; fjern det gamle "
+"delingsområdet først og legg til ett nytt."
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

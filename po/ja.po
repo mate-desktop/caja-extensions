@@ -1,24 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# ABE Tsunehiko, 2015,2017
-# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2014
-# Ikuru K <kanumaiku@gmail.com>, 2015
-# Mika Kobayashi, 2015,2017
-# OKANO Takayoshi <kano@na.rim.or.jp>, 2015
-# shinmili <rmsk.pl.ur.lpt@gmail.com>, 2014
-# shinmili <rmsk.pl.ur.lpt@gmail.com>, 2014
-# Yuki Shira <shirayuking@gmail.com>, 2013
+# Yuki Shira <shirayuking@gmail.com>, 2018
+# あわしろいくや <ikunya@gmail.com>, 2018
+# Mika Kobayashi, 2018
+# shinmili <rmsk.pl.ur.lpt@gmail.com>, 2018
+# Rockers <sumorock@hotmail.com>, 2018
+# ABE Tsunehiko, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Japanese (http://www.transifex.com/mate/MATE/language/ja/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: ABE Tsunehiko, 2018\n"
+"Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,7 +39,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>実行するプログラムを決定できません。</b></big>\n\n適切なアプリケーションを決定できないので、選んだファイルを管理者権限で開くことはできません。"
+msgstr ""
+"<big><b>実行するプログラムを決定できません。</b></big>\n"
+"\n"
+"適切なアプリケーションを決定できないので、選んだファイルを管理者権限で開くことはできません。"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -226,27 +230,43 @@ msgstr "画像の変換"
 msgid "Rotate and resize images"
 msgstr "画像の回転とサイズの変更"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "端末の中に開く(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "端末の中に現在選択しているフォルダを開きます"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "端末の中に現在表示しているフォルダを開きます"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "端末を開く(_T)"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "端末を開きます"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "閉じる"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -268,7 +288,8 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "この機能をオンにすると、デスクトップ上で端末を呼び出した際にホーム･ディレクトリを開くようになります。オフにすると、デスクトップを開きます。デスクトップ・ディレクトリにホーム・ディレクトリを指定している場合、この設定は効果がありません。"
+msgstr ""
+"この機能をオンにすると、デスクトップ上で端末を呼び出した際にホーム･ディレクトリを開くようになります。オフにすると、デスクトップを開きます。デスクトップ・ディレクトリにホーム・ディレクトリを指定している場合、この設定は効果がありません。"
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -376,7 +397,7 @@ msgstr "新しい CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "既存の CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD の作成"
 
@@ -412,7 +433,9 @@ msgstr "フォルダー \"%s\" を共有するためにはアクセス権を追�
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "共有機能を有効にするにはフォルダー \"%s\" に次の追加アクセス権が必要です:\n%s%s%sこれらのアクセス権を自動で追加してよろしいですか？"
+msgstr ""
+"共有機能を有効にするにはフォルダー \"%s\" に次の追加アクセス権が必要です:\n"
+"%s%s%sこれらのアクセス権を自動で追加してよろしいですか？"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -580,16 +603,16 @@ msgstr "壁紙のクイック設定を許可する"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "タグ"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "拡張属性に格納されたタグ"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "xattr タグ"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "拡張属性に格納されたタグを閲覧します。"

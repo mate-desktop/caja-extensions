@@ -1,25 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Audrius Meskauskas, 2015
-# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2014
-# brennus <jonas.ska@gmail.com>, 2014
-# Moo, 2014-2018
+# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2018
+# brennus <jonas.ska@gmail.com>, 2018
+# Moo, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-14 18:34+0000\n"
-"Last-Translator: Moo\n"
-"Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Moo, 2018\n"
+"Language-Team: Lithuanian (https://www.transifex.com/mate/teams/13566/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
@@ -34,7 +36,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Paleidimui nepavyko nustatyti programos.</b></big>\n\nPasirinktas elementas negali būti atvertas administratoriaus teisėmis, nes nepavyksta nustatyti tinkamos programos."
+msgstr ""
+"<big><b>Paleidimui nepavyko nustatyti programos.</b></big>\n"
+"\n"
+"Pasirinktas elementas negali būti atvertas administratoriaus teisėmis, nes nepavyksta nustatyti tinkamos programos."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -150,7 +155,7 @@ msgstr "_Keisti dydį"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "_Praleisti"
+msgstr "Pralei_sti"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -222,27 +227,43 @@ msgstr "Paveikslų keitiklis"
 msgid "Rotate and resize images"
 msgstr "Sukioti ir keisti paveikslų dydį"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Atverti _terminale"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Atverti šiuo metu pasirinktą aplanką terminale"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Atverti šiuo metu atvertą aplanką terminale"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Atverti _terminalą"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Atverti terminalą"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr "Terminalo programa:"
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Užverti"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr "open-terminal konfigūracija"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -264,7 +285,10 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Jeigu įjungta, atveriamas iš darbalaukio terminalas atsivers namų kataloge. Kitu atveju jis bus atvertas darbalaukio kataloge. Šis punktas nereikšmingas darbalaukio katalogui esant tapačiam naudotojo namų aplankui."
+msgstr ""
+"Jeigu įjungta, atveriamas iš darbalaukio terminalas atsivers namų kataloge. "
+"Kitu atveju jis bus atvertas darbalaukio kataloge. Šis punktas nereikšmingas"
+" darbalaukio katalogui esant tapačiam naudotojo namų aplankui."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -302,7 +326,7 @@ msgstr "Patikrinkite, ar programa gerai įdiegta."
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Siųsti į"
+msgstr "Siųsti"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -372,7 +396,7 @@ msgstr "Naujas CD / DVD"
 msgid "Existing CD/DVD"
 msgstr "Esantis CD / DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD / DVD kūrimas"
 
@@ -408,7 +432,9 @@ msgstr "Norint dalintis \"%s\" aplanku, „Cajai“ reikia pridėti leidimų."
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Aplanko \"%s\" bendrinimui reikia šių papildomų leidimų.\n%s%s%sAr norite, kad „Caja“ šiuos leidimus į aplanką pridėtų automatiškai?"
+msgstr ""
+"Aplanko \"%s\" bendrinimui reikia šių papildomų leidimų.\n"
+"%s%s%sAr norite, kad „Caja“ šiuos leidimus į aplanką pridėtų automatiškai?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -556,7 +582,9 @@ msgstr "Neapavyko panaikinti %s kelio bendrinio: kelias nebendrinamas"
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Nepavyko pakeisti esamo bendrinio kelio; pirmiau pašalinkite seną bendrinį ir tada pridėkite naują"
+msgstr ""
+"Nepavyko pakeisti esamo bendrinio kelio; pirmiau pašalinkite seną bendrinį "
+"ir tada pridėkite naują"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

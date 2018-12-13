@@ -1,17 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# samson <sambelet@yahoo.com>, 2013-2015,2017
+# samson <sambelet@yahoo.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>, 2018\n"
+"Language-Team: Amharic (https://www.transifex.com/mate/teams/13566/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +34,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>ማስኬድ የሚያስፈልገውን ፕሮግራም መወሰን አልተቻለም</b></big>\n\nየመረጡትን እቃ በአስተዳዳሪ ሀይል መክፈት አልተቻለም ምክንያቱም ትክክለኛውን መተግበሪያ መወሰን አልተቻለም "
+msgstr ""
+"<big><b>ማስኬድ የሚያስፈልገውን ፕሮግራም መወሰን አልተቻለም</b></big>\n"
+"\n"
+"የመረጡትን እቃ በአስተዳዳሪ ሀይል መክፈት አልተቻለም ምክንያቱም ትክክለኛውን መተግበሪያ መወሰን አልተቻለም "
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -219,27 +225,43 @@ msgstr "ምስል መቀየሪያ "
 msgid "Rotate and resize images"
 msgstr "ምስሎችን ማዞሪያ እና እንደገና መመጠኛ"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "_በተርሚናል ውስጥ መክፈቻ "
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "አሁን የተመረጠውን ፎልደር በ ተርሚናል ውስጥ መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "አሁን የተከፈተውን ፎልደር በ ተርሚናል ውስጥ መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "ተርሚናል _መክፈቻ"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "ተርሚናል _መክፈቻ"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "መዝጊያ"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -261,7 +283,10 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "በ ትክክል ከ ተሰናዳ ተርሚናል በ ዴስክቶፕ ላይ መክፈት ተርሚናል በ ቤት ዳይሬክቶሪ ውስጥ ይከፍታል: ያለ በለዚያ በ ዴስክቶፕ ዳይሬክቶሪ ውስጥ ይከፍታል: ማስታወሻ: ይህ ቁልፍ ዋጋ አይኖረውም የ ዴስክቶፕ ዳይሬክቶሪ ተመሳሳይ ከሆነ ከ ቤት ዳይሬክቶሪ ጋር"
+msgstr ""
+"በ ትክክል ከ ተሰናዳ ተርሚናል በ ዴስክቶፕ ላይ መክፈት ተርሚናል በ ቤት ዳይሬክቶሪ ውስጥ ይከፍታል: ያለ በለዚያ በ "
+"ዴስክቶፕ ዳይሬክቶሪ ውስጥ ይከፍታል: ማስታወሻ: ይህ ቁልፍ ዋጋ አይኖረውም የ ዴስክቶፕ ዳይሬክቶሪ ተመሳሳይ ከሆነ ከ "
+"ቤት ዳይሬክቶሪ ጋር"
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -299,7 +324,7 @@ msgstr "እባክዎን አገጣጠሞን ይመርምሩ"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "መላኪያ ወደ "
+msgstr "መላኪያ ወደ."
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -307,7 +332,7 @@ msgstr "Pidgin እና የ ኢሜይል ደንበኛ ማዋሀጃ"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "መላኪያ ወደ..."
+msgstr "መላኪያ_ወደ... "
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -369,7 +394,7 @@ msgstr "አዲስ ሲዲ/ዲቪዲ"
 msgid "Existing CD/DVD"
 msgstr "ነባር ሲዲ/ዲቪዲ"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "ሲዲ/ዲቪዲ መፍጠሪያ"
 
@@ -405,7 +430,9 @@ msgstr "ካጃ ተጨማሪ ፍቃድ ይፈልጋል የ እርስዎን ፎል
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "ይህ ፎልደር \"%s\" ተጨማሪ ፍቃድ ይፈልጋል ለ መስራት:\n%s%s%s እርስዎ ካጃ እነዚህን ፍቃዶች ወደ ፎልደር ውስጥ ራሱ በራሱ እንዲጨምር ይፈልጋሉ?"
+msgstr ""
+"ይህ ፎልደር \"%s\" ተጨማሪ ፍቃድ ይፈልጋል ለ መስራት:\n"
+"%s%s%s እርስዎ ካጃ እነዚህን ፍቃዶች ወደ ፎልደር ውስጥ ራሱ በራሱ እንዲጨምር ይፈልጋሉ?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -521,7 +548,7 @@ msgstr "ውጤቱ የ 'ኔት ተጠቃሚዎች ማካፈያ' ዋጋ ያለው 
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "ወድቋል"
+msgstr "አልተሳካም"
 
 #: ../share/shares.c:547
 #, c-format
@@ -553,7 +580,8 @@ msgstr "ማስወገድ አይቻልም ማካፈያ ለ %s: ይህ መንገድ
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "የ ነበረውን ማካፈያ መንገድ መቀየር አይቻልም: እባክዎን አሮጌውን ማካፈያ ያጥፉ በ መጀመሪያ እና አዲስ ይጨምሩ"
+msgstr ""
+"የ ነበረውን ማካፈያ መንገድ መቀየር አይቻልም: እባክዎን አሮጌውን ማካፈያ ያጥፉ በ መጀመሪያ እና አዲስ ይጨምሩ"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -577,11 +605,11 @@ msgstr "Tags"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "በ ተስፋፋ መለያዎች ውስጥ የ ተቀመጡ Tags"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "xattr Tags"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"

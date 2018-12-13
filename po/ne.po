@@ -1,17 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# chautari <chautari@gmail.com>, 2017
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Sven Keeter <sven.keeter@gmail.com>, 2018
+# chautari <chautari@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Nepali (http://www.transifex.com/mate/MATE/language/ne/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: chautari <chautari@gmail.com>, 2018\n"
+"Language-Team: Nepali (https://www.transifex.com/mate/teams/13566/ne/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -95,7 +100,7 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr ""
+msgstr "पिक्सेलस्"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -142,17 +147,17 @@ msgstr ""
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr ""
+msgstr "रिसाइज गर्नुहोस्"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr ""
+msgstr "फड्काउनुहोस्"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr ""
+msgstr "पुन: प्रयास गर्नुहोस्"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
@@ -219,26 +224,42 @@ msgstr ""
 msgid "Rotate and resize images"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
-msgstr ""
+msgstr "टर्मिनलमा चयन गरिएको हालको फोल्डर खोल्नुहोस्"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
-msgstr ""
+msgstr "हालै खोलिएको फोल्डर टर्मिनलमा खोल्नुहोस्"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
+msgstr "टर्मिनल खोल्नुहोस्"
+
+#: ../open-terminal/caja-open-terminal.c:470
+msgid "Open a terminal"
+msgstr "टर्मिनल खोल्नुहोस्"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:444
-msgid "Open a terminal"
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "बन्दगर्नुहोस्"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
 msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
@@ -269,37 +290,37 @@ msgstr ""
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr ""
+msgstr "फाइल मेल, शीघ्र सन्देश मार्फत पठाउनुहोस्..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr ""
+msgstr "फाइलहरू मेल, शीघ्र सन्देश मार्फत पठाउनुहोस्..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
-msgstr ""
+msgstr "फाइल"
 
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "विकल्पको रूपमा पास गर्न यूआरआईहरू वा फाइलनामहरू अपेक्षा गर्दछ\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "आदेश-रेखा विकल्प पद वर्णन गर्न सकेन: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr ""
+msgstr "कुनै प्लगइनहरू लोड गर्न सकेन ।"
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr ""
+msgstr "कृपया तपाईँको स्थापना रूजु गर्नुहोस्"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "यसलाई पठाउनुहोस्"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -307,27 +328,27 @@ msgstr ""
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr ""
+msgstr "यसलाई पठाउनुहोस्..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr ""
+msgstr "पठाउनुहोस्"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr ""
+msgstr "<b>गन्तब्य</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr ""
+msgstr "यस रूपमा पठाउनुहोस्:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr ""
+msgstr "यसलाई पठाउनुहोस्:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr ""
+msgstr "<b>सङ्कुचन</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
@@ -335,31 +356,31 @@ msgstr ""
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr ""
+msgstr "इमेल"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr ""
+msgstr "फाइल पठाउन असक्षम भयो"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr ""
+msgstr "त्यहाँ गाजिम टाढाको सेवामा जडान छैन ।"
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr ""
+msgstr "पठाइरहेको फाइल असफल भयो"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr ""
+msgstr "प्रापक हराइरहेको छ ।"
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr ""
+msgstr "अज्ञात प्रापक ।"
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "शीघ्र सन्देश (गाजिम)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
@@ -369,7 +390,7 @@ msgstr ""
 msgid "Existing CD/DVD"
 msgstr ""
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr ""
 
@@ -483,7 +504,7 @@ msgstr ""
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr ""
+msgstr "टिप्पणी:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
@@ -573,7 +594,7 @@ msgstr ""
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "ट्यागहरू"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"

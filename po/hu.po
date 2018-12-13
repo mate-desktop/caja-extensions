@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# KAMI KAMI <kami911@gmail.com>, 2018
+# Rezső Páder <rezso@rezso.net>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# István Szőllősi <szollosi.istv4n@gmail.com>, 2018
+# Falu <info@falu.me>, 2018
 # Balázs Meskó <meskobalazs@gmail.com>, 2018
-# István Szőllősi <szollosi.istv4n@gmail.com>, 2014
-# KAMI KAMI <kami911@gmail.com>, 2014
-# KAMI KAMI <kami911@gmail.com>, 2014-2015
-# KAMI KAMI <kami911@gmail.com>, 2016
-# KAMI KAMI <kami911@gmail.com>, 2014,2016-2017
-# Rezső Páder <rezso@rezso.net>, 2013-2015,2017
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-20 18:38+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2018\n"
+"Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,7 +39,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>A futtatandó program nem határozható meg.</b></big>\n\nA kijelölt elem nem nyitható meg rendszergazdai jogosultságokkal, mivel a megfelelő alkalmazás nem határozható meg."
+msgstr ""
+"<big><b>A futtatandó program nem határozható meg.</b></big>\n"
+"\n"
+"A kijelölt elem nem nyitható meg rendszergazdai jogosultságokkal, mivel a megfelelő alkalmazás nem határozható meg."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -225,27 +230,43 @@ msgstr "Kép átalakító"
 msgid "Rotate and resize images"
 msgstr "Képek forgatása és átméretezése"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Megnyitás _terminálban"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "A jelenleg kijelölt mappa megnyitása egy terminálban"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "A jelenleg nyitott mappa megnyitása egy terminálban"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "_Terminál megnyitása"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Terminál megnyitása"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Bezárás"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -259,7 +280,8 @@ msgstr "Terminálok megnyitása mappákból"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "A terminál megnyitása az asztalon a saját mappában nyitja-e a terminált"
+msgstr ""
+"A terminál megnyitása az asztalon a saját mappában nyitja-e a terminált"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -267,7 +289,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Ha ez igaz, akkor egy terminál megnyitása az asztalon a saját könyvtárában nyit meg egy terminált. Ellenkező esetben a munkaasztal mappájában nyílik meg. A kulcsnak nincs jelentősége, ha a munkaasztal könyvtára a saját könyvtár."
+msgstr ""
+"Ha ez igaz, akkor egy terminál megnyitása az asztalon a saját könyvtárában "
+"nyit meg egy terminált. Ellenkező esetben a munkaasztal mappájában nyílik "
+"meg. A kulcsnak nincs jelentősége, ha a munkaasztal könyvtára a saját "
+"könyvtár."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -313,7 +339,7 @@ msgstr "E-mail kliensek és a Pidgin integrálása"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Küldés…"
+msgstr "Küldés..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -375,7 +401,7 @@ msgstr "Új CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Meglévő CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD-készítő"
 
@@ -404,14 +430,18 @@ msgstr "Mappa gyors megosztása"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "A megosztáshoz a Caja-nak szüksége van néhány jogra a \"%s\" mappához, hogy megtudja osztani azt"
+msgstr ""
+"A megosztáshoz a Caja-nak szüksége van néhány jogra a \"%s\" mappához, hogy "
+"megtudja osztani azt"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "A „%s” mappa megosztásához ezekre a további jogosultságokra van szükség:\n%s%s%sSzeretné, hogy a Caja automatikusan hozzáadja a mappához a jogosultságokat?"
+msgstr ""
+"A „%s” mappa megosztásához ezekre a további jogosultságokra van szükség:\n"
+"%s%s%sSzeretné, hogy a Caja automatikusan hozzáadja a mappához a jogosultságokat?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -493,11 +523,15 @@ msgstr "_Megjegyzés:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_Engedélyezzük mások számára a fájlok létrehozását és törlését ebben mappában"
+msgstr ""
+"_Engedélyezzük mások számára a fájlok létrehozását és törlését ebben "
+"mappában"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "_Vendég hozzáférése (azoknak a személyeknek, akik nem rendelkeznek felhasználói fiókkal)"
+msgstr ""
+"_Vendég hozzáférése (azoknak a személyeknek, akik nem rendelkeznek "
+"felhasználói fiókkal)"
 
 #: ../share/shares.c:123
 #, c-format
@@ -559,7 +593,9 @@ msgstr "A %s megosztás nem távolítható el, mert az nincs megosztva"
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "A meglévő megosztás elérési útja nem változtatható meg. Távolítsa el a régi megosztást és hozza létre az újat."
+msgstr ""
+"A meglévő megosztás elérési útja nem változtatható meg. Távolítsa el a régi "
+"megosztást és hozza létre az újat."
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

@@ -1,24 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Erik, 2014
-# Gaius Anderson, 2015
-# Henrik Mattsson-Mårn <h@reglage.net>, 2016
-# Jonatan Nyberg, 2016
-# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015-2016
-# Luna Jernberg <bittin@cafe8bitar.se>, 2016
-# Tobias Lekare <lekare@linux.com>, 2017
-# Urban Berggren <pudberggren@icloud.com>, 2016
+# Kristoffer Grundström <hamnisdude@gmail.com>, 2018
+# Luna Jernberg <bittin@cafe8bitar.se>, 2018
+# Erik, 2018
+# Henrik Mattsson-Mårn <h@reglage.net>, 2018
+# Marcus Larborg, 2018
+# Gaius Anderson, 2018
+# Jonatan Nyberg, 2018
+# Urban Berggren <pudberggren@icloud.com>, 2018
+# Tobias Lekare <lekare@linux.com>, 2018
+# Philip Andersen <renegadevi@codeofmagi.net>, 2018
+# Patrik Nilsson <asavartzeth@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Patrik Nilsson <asavartzeth@gmail.com>, 2018\n"
+"Language-Team: Swedish (https://www.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,7 +44,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Kunde inte fastställa vilket program som ska köras.</b></big>\n\nObjektet du valde kan inte öppnas med administratörsrättigheter eftersom det rätt program inte kunde fastställas."
+msgstr ""
+"<big><b>Kunde inte fastställa vilket program som ska köras.</b></big>\n"
+"\n"
+"Objektet du valde kan inte öppnas med administratörsrättigheter eftersom det rätt program inte kunde fastställas."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -102,7 +111,7 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "bildpunkter"
+msgstr "pixlar"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
@@ -226,27 +235,43 @@ msgstr "Bildkonverterare"
 msgid "Rotate and resize images"
 msgstr "Rotera och storleksförändra bilder"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Öppna i _Terminal"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Öppna den markerade mappen i ett terminalfönster"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Öppna den för tillfället öppna mappen i ett terminalfönster"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Öppna _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Öppna ett terminalfönster"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Stäng"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -260,7 +285,9 @@ msgstr "Öppna terminaler från mappar"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Huruvida öppnandet av terminalfönster på skrivbordet öppnar en terminal i hemkatalogen"
+msgstr ""
+"Huruvida öppnandet av terminalfönster på skrivbordet öppnar en terminal i "
+"hemkatalogen"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -268,7 +295,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Om inställd till sant kommer öppnandet av ett terminalfönster på skrivbordet att öppna en terminal i hemkatalogen. Om inte kommer det att öppnas i skrivbordskatalogen. Observera att den här nyckeln är irrelevant om skrivbordskatalogen är identisk med hemkatalogen."
+msgstr ""
+"Om inställd till sant kommer öppnandet av ett terminalfönster på skrivbordet"
+" att öppna en terminal i hemkatalogen. Om inte kommer det att öppnas i "
+"skrivbordskatalogen. Observera att den här nyckeln är irrelevant om "
+"skrivbordskatalogen är identisk med hemkatalogen."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -376,7 +407,7 @@ msgstr "Ny cd/dvd"
 msgid "Existing CD/DVD"
 msgstr "Befintlig cd/dvd"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Cd/dvd-skapare"
 
@@ -405,14 +436,18 @@ msgstr "Tillåter att snabbt dela en mapp"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Caja måste lägga till några rättigheter till din mapp \"%s\" för att kunna dela ut den"
+msgstr ""
+"Caja måste lägga till några rättigheter till din mapp \"%s\" för att kunna "
+"dela ut den"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Mappen \"%s\" behöver ges följande rättigheter för att den ska kunna delas ut:\n%s%s%sVill du att Caja ska lägga till dessa behörigheter automatiskt?"
+msgstr ""
+"Mappen \"%s\" behöver ges följande rättigheter för att den ska kunna delas ut:\n"
+"%s%s%sVill du att Caja ska lägga till dessa behörigheter automatiskt?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -553,14 +588,17 @@ msgstr "Sambas testparam svarade tillbaka med felet %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Det går inte att ta bort utdelningen för sökväg %s: sökvägen är inte utdelad"
+msgstr ""
+"Det går inte att ta bort utdelningen för sökväg %s: sökvägen är inte utdelad"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Det går inte att ändra sökväg på en befintlig utdelning; ta bort den gamla utdelningen först och lägg sedan till en ny"
+msgstr ""
+"Det går inte att ändra sökväg på en befintlig utdelning; ta bort den gamla "
+"utdelningen först och lägg sedan till en ny"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -584,12 +622,12 @@ msgstr "Taggar"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "Tags lagrade i utökade attribut"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "xattr Taggar"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Visa taggar lagrade i utökade attribut"

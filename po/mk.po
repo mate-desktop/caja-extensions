@@ -1,17 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# exoos <mince.lesovski@gmail.com>, 2014
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# exoos <mince.lesovski@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Macedonian (http://www.transifex.com/mate/MATE/language/mk/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: exoos <mince.lesovski@gmail.com>, 2018\n"
+"Language-Team: Macedonian (https://www.transifex.com/mate/teams/13566/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +35,9 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Не може да се одреди програма за извршување.</b></big>\nПредметот што го одбравте не може да се отвори со администраторски привилегии бидејќи соодветната апликација не може да се одреди."
+msgstr ""
+"<big><b>Не може да се одреди програма за извршување.</b></big>\n"
+"Предметот што го одбравте не може да се отвори со администраторски привилегии бидејќи соодветната апликација не може да се одреди."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -219,27 +225,43 @@ msgstr ""
 msgid "Rotate and resize images"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Отвори ја тековно избраната папка во терминал"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Отвори ја тековон отворената папка во терминал"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Отвори _терминал"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Отвори терминал"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Затвори"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -253,7 +275,9 @@ msgstr ""
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Дали отварањето терминал на работната површина отвара и терминал во почетниот директориум"
+msgstr ""
+"Дали отварањето терминал на работната површина отвара и терминал во "
+"почетниот директориум"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -261,7 +285,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Ако е подесено како точно, тогаш отварањето терминал на работната површина ќе отвори терминал во почетниот директориум. Инаку ќе биде оворен во директориумот на работната површина. Оваа поставка е ирелевантна ако директориумот на работната површина е ист со почетниот директориум. "
+msgstr ""
+"Ако е подесено како точно, тогаш отварањето терминал на работната површина "
+"ќе отвори терминал во почетниот директориум. Инаку ќе биде оворен во "
+"директориумот на работната површина. Оваа поставка е ирелевантна ако "
+"директориумот на работната површина е ист со почетниот директориум. "
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -369,7 +397,7 @@ msgstr "Ново CD/DVD"
 msgid "Existing CD/DVD"
 msgstr ""
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD Креатор"
 
@@ -405,7 +433,9 @@ msgstr "Caja треба да додаде дозволи на твојата п�
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "На папката \"%s\" и требаат следните додатни дозволи за споделување за да работи:\n%s%s%s Дали сакаш Caja да ги додаде тие дозволи на папката автоматски?"
+msgstr ""
+"На папката \"%s\" и требаат следните додатни дозволи за споделување за да работи:\n"
+"%s%s%s Дали сакаш Caja да ги додаде тие дозволи на папката автоматски?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -573,7 +603,7 @@ msgstr ""
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Тагови"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"

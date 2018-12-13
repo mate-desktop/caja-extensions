@@ -1,19 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Damir Jerovšek <jierro@windowslive.com>, 2013
-# Helena S <ele@tutamail.com>, 2017
-# worm <thewormhole@gmail.com>, 2015
+# Damir Jerovšek <jierro@windowslive.com>, 2018
+# worm <thewormhole@gmail.com>, 2018
+# Helena S <ele@tutamail.com>, 2018
+# jetomit <timotej.lazar@araneo.si>, 2018
+# Damir Mevkić <damir.mevkic@gmail.com>, 2018
+# Marko Šterman <marko.chamillionaire@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Slovenian (http://www.transifex.com/mate/MATE/language/sl/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Marko Šterman <marko.chamillionaire@gmail.com>, 2018\n"
+"Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +39,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Programa za zagon ni mogoče določiti.</b></big>\n\nIzbranega predmeta ni mogoče zagnati s skrbiškimi pooblastili, ker pravilnega programa ni mogoče določiti."
+msgstr ""
+"<big><b>Programa za zagon ni mogoče določiti.</b></big>\n"
+"\n"
+"Izbranega predmeta ni mogoče zagnati s skrbiškimi pooblastili, ker pravilnega programa ni mogoče določiti."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -221,27 +230,43 @@ msgstr "Pretvornik slik"
 msgid "Rotate and resize images"
 msgstr "Vrtenje in spreminjanje velikosti slik"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Odpri v _Terminalu"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Odpri trenutno izbrano mapo v terminalu"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Odpri trenutno odprto mapo v terminalu"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Odpri _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Odpri terminal"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Zapri"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -255,7 +280,8 @@ msgstr "Odpri terminal iz teh map"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Ali odpiranje terminala na namizju odpre terminal v domači mapi uporabnika"
+msgstr ""
+"Ali odpiranje terminala na namizju odpre terminal v domači mapi uporabnika"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -263,7 +289,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Izbrana možnost omogoča, da se pri odpiranju terminala na namizju le-ta odpre v domači mapi uporabnika. Druga možnost je, da se terminal odpre v mapi namizja. Nastavitev je nepotrebna, če je imenik namizja enak domačemu imeniku."
+msgstr ""
+"Izbrana možnost omogoča, da se pri odpiranju terminala na namizju le-ta "
+"odpre v domači mapi uporabnika. Druga možnost je, da se terminal odpre v "
+"mapi namizja. Nastavitev je nepotrebna, če je imenik namizja enak domačemu "
+"imeniku."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -284,7 +314,8 @@ msgstr "Datoteke"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Pričakuje se, da se naslovi URI ali imena datotek prenesejo kot možnosti\n"
+msgstr ""
+"Pričakuje se, da se naslovi URI ali imena datotek prenesejo kot možnosti\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
@@ -301,7 +332,7 @@ msgstr "Preverite namestitev."
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Pošlji na"
+msgstr "Pošlji"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -309,7 +340,7 @@ msgstr "Integrira email kliente in Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Pošlji ..."
+msgstr "Pošlji na ..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -371,7 +402,7 @@ msgstr "Nov CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Obstoječi CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Ustvarjalnik CD-jev/DVD-jev"
 
@@ -407,7 +438,9 @@ msgstr "Caja mora v primeru souporabe mape \"%s\" dodati nekatera dovoljenja"
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Mapa \"%s\" potrebuje naslednja dodatna dovoljenja za souporabo:\n%s%s%sAli želite, da Caja samodejno doda ta dodatna dovoljenja v mapo?"
+msgstr ""
+"Mapa \"%s\" potrebuje naslednja dodatna dovoljenja za souporabo:\n"
+"%s%s%sAli želite, da Caja samodejno doda ta dodatna dovoljenja v mapo?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -555,7 +588,9 @@ msgstr "Souporabe za pot %s ni mogoče odstraniti: ta pot ni v souporabi"
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Poti za obstoječo souporabo ni mogoče spremeniti: najprej odstranite staro souporabo in dodajte novo"
+msgstr ""
+"Poti za obstoječo souporabo ni mogoče spremeniti: najprej odstranite staro "
+"souporabo in dodajte novo"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -575,7 +610,7 @@ msgstr "Omogoča hitro nastavitev slike ozadja"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Oznake"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
@@ -583,8 +618,8 @@ msgstr ""
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "xattr Oznake"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Pokaži oznake shranjene v razširjenih lastnostih"

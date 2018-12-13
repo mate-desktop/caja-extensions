@@ -1,22 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# infirit <inactive+infirit@transifex.com>, 2014
-# Kees Lijkendijk <clkndk@gmail.com>, 2016
-# Michael Steenbeek <m.o.steenbeek@gmail.com>, 2013
-# Nathan Follens, 2015
-# Pjotr <pjotrvertaalt@gmail.com>, 2017-2018
-# Tom van den Brink <tomracing79@hotmail.com>, 2015
+# Michael Steenbeek <m.o.steenbeek@gmail.com>, 2018
+# infirit <inactive+infirit@transifex.com>, 2018
+# Nathan Follens, 2018
+# Kees Lijkendijk <clkndk@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Pjotr <pjotrvertaalt@gmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-14 16:53+0000\n"
-"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/mate/MATE/language/nl/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>, 2018\n"
+"Language-Team: Dutch (https://www.transifex.com/mate/teams/13566/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,7 +39,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Kan het te gebruiken programma niet bepalen.</b></big>\n\nHet door u geselecteerde element kan niet worden geopend met beheerdersrechten omdat het juiste programma ervoor niet kan worden bepaald."
+msgstr ""
+"<big><b>Kan het te gebruiken programma niet bepalen.</b></big>\n"
+"\n"
+"Het door u geselecteerde element kan niet worden geopend met beheerdersrechten omdat het juiste programma ervoor niet kan worden bepaald."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -152,12 +158,12 @@ msgstr "He_rschalen"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "Over_slaan"
+msgstr "_Overslaan"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "Opnieuw p_roberen"
+msgstr "Opnieu_w proberen"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
@@ -224,27 +230,43 @@ msgstr "Omzetter van afbeeldingen"
 msgid "Rotate and resize images"
 msgstr "Draai en herschaal afbeeldingen"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "In _terminalvenster openen"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Open de thans geselecteerde map in een terminalvenster"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Open de thans geopende map in een terminalvenster"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "_Terminalvenster openen"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Een terminalvenster openen"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr "Open in thuismap indien getracht wordt om te openen op bureaublad"
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr "Terminalvenster:"
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Sluiten"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr "Instellingen van open-terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -258,7 +280,9 @@ msgstr "Terminalvensters openen vanuit mappen"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Of het openen van een terminalvenster in de grafische werkomgeving, dat terminalvenster opent in de thuismap van de gebruiker"
+msgstr ""
+"Of het openen van een terminalvenster in de grafische werkomgeving, dat "
+"terminalvenster opent in de thuismap van de gebruiker"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -266,7 +290,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Als dit aan staat zal het starten van een terminalvenster in de grafische werkomgeving, een terminalvenster openen dat begint in de thuismap van de gebruiker. Zo niet, dan begint het venster in de bureaubladmap. Deze sleutel heeft geen effect als de bureaubladmap en de gebruikersmap dezelfde zijn."
+msgstr ""
+"Als dit aan staat zal het starten van een terminalvenster in de grafische "
+"werkomgeving, een terminalvenster openen dat begint in de thuismap van de "
+"gebruiker. Zo niet, dan begint het venster in de bureaubladmap. Deze sleutel"
+" heeft geen effect als de bureaubladmap en de gebruikersmap dezelfde zijn."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -304,7 +332,7 @@ msgstr "Controleer a.u.b. uw installatie"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Sturen naar"
+msgstr "Verzend naar"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
@@ -312,7 +340,7 @@ msgstr "Integreert met e-mailprogramma's en Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Versturen naar..."
+msgstr "Sturen naar…"
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
@@ -374,7 +402,7 @@ msgstr "Nieuwe CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Bestaande CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD maken"
 
@@ -403,14 +431,17 @@ msgstr "Maakt het mogelijk om een map snel te delen"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "De rechten voor de map '%s' moeten worden verruimd om deze te kunnen delen"
+msgstr ""
+"De rechten voor de map '%s' moeten worden verruimd om deze te kunnen delen"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Om te kunnen delen moeten de volgende extra rechten aan de map '%s' worden toegevoegd:\n%s%s%sWilt u deze rechten nu automatisch laten toevoegen?"
+msgstr ""
+"Om te kunnen delen moeten de volgende extra rechten aan de map '%s' worden toegevoegd:\n"
+"%s%s%sWilt u deze rechten nu automatisch laten toevoegen?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -444,7 +475,9 @@ msgstr "De naam van de gedeelde map mag niet leeg zijn"
 #: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Er is een fout opgetreden bij het ophalen van informatie over de gedeelde map: %s"
+msgstr ""
+"Er is een fout opgetreden bij het ophalen van informatie over de gedeelde "
+"map: %s"
 
 #: ../share/caja-share.c:516
 msgid "Another share has the same name"
@@ -460,7 +493,9 @@ msgstr "Gedeelde map aanmaken"
 
 #: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
-msgstr "Er is een fout opgetreden bij het ophalen van informatie over de gedeelde map"
+msgstr ""
+"Er is een fout opgetreden bij het ophalen van informatie over de gedeelde "
+"map"
 
 #: ../share/caja-share.c:1123
 msgid "Folder Sharing"
@@ -492,7 +527,8 @@ msgstr "Co_mmentaar:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_Anderen toestaan bestanden toe te voegen en te verwijderen in deze map"
+msgstr ""
+"_Anderen toestaan bestanden toe te voegen en te verwijderen in deze map"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
@@ -551,14 +587,18 @@ msgstr "Samba's testparm gaf de volgende foutmelding terug: %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Kan de gedeelde map van het pad %s niet verwijderen: het  pad is niet gedeeld"
+msgstr ""
+"Kan de gedeelde map van het pad %s niet verwijderen: het  pad is niet "
+"gedeeld"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Kan het pad van een bestaande gedeelde map niet wijzigen; verwijder a.u.b. eerst de oude gedeelde map alvorens een nieuwe aan te maken"
+msgstr ""
+"Kan het pad van een bestaande gedeelde map niet wijzigen; verwijder a.u.b. "
+"eerst de oude gedeelde map alvorens een nieuwe aan te maken"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

@@ -1,17 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ivar Smolin <okul@linux.ee>, 2014-2015,2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Ivar Smolin <okul@linux.ee>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-17 08:43+0000\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
-"Language-Team: Estonian (http://www.transifex.com/mate/MATE/language/et/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>, 2018\n"
+"Language-Team: Estonian (https://www.transifex.com/mate/teams/13566/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +35,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Käivitatavat programmi pole võimalik kindlaks teha.</b></big>\n\nSinu poolt valitud kirjet pole võimalik halduri õigustes avada, kuna selle jaoks vajalikku rakendust pole võimalik kindlaks teha."
+msgstr ""
+"<big><b>Käivitatavat programmi pole võimalik kindlaks teha.</b></big>\n"
+"\n"
+"Sinu poolt valitud kirjet pole võimalik halduri õigustes avada, kuna selle jaoks vajalikku rakendust pole võimalik kindlaks teha."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -147,7 +154,7 @@ msgstr "Muuda s_uurust"
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr ""
+msgstr "_Jäta vahele"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
@@ -162,12 +169,12 @@ msgstr "Pildi suuruse muutmine: %d. %d-st"
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Pildi \"%s\" suuruse muutmine<i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Palun sisesta paikapidav faili nime laiend"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
@@ -219,27 +226,43 @@ msgstr "Pilditeisendaja"
 msgid "Rotate and resize images"
 msgstr "Piltide pööramine ja nende suuruse muutmine"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Ava _terminalis"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Hetkel valitud kausta avamine terminalis"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Hetkel avatud kausta avamine terminalis"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Ava _terminal"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Terminali avamine"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Suletud"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -261,7 +284,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Kui määratud, siis töölaualt terminali avamine avab terminali kodukataloogis. Kui määramata, siis avatakse see terminal töölaua kataloogis. Kui töölaud ja kodukataloog on samas kataloogis, siis ei oma see väärtus tähendust."
+msgstr ""
+"Kui määratud, siis töölaualt terminali avamine avab terminali "
+"kodukataloogis. Kui määramata, siis avatakse see terminal töölaua "
+"kataloogis. Kui töölaud ja kodukataloog on samas kataloogis, siis ei oma see"
+" väärtus tähendust."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -282,7 +309,7 @@ msgstr "Failid"
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr ""
+msgstr "Ootab, et URId või failinimed edastatakse võtmetena\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
@@ -369,7 +396,7 @@ msgstr "Uus CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Olemasolev CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD looja"
 
@@ -546,14 +573,17 @@ msgstr "Samba testparm tagastas vea %d"
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Kataloogi %s jagamist pole võimalik lõpetada: see kataloog pole jagatud"
+msgstr ""
+"Kataloogi %s jagamist pole võimalik lõpetada: see kataloog pole jagatud"
 
 #: ../share/shares.c:727
 #, c-format
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Olemasoleva jagatud ressursi kataloogi pole võimalik muuta. Eemalda eelmine jagamine ja lisa uus"
+msgstr ""
+"Olemasoleva jagatud ressursi kataloogi pole võimalik muuta. Eemalda eelmine "
+"jagamine ja lisa uus"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"

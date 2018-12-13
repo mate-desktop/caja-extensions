@@ -1,17 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2014
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 21:29+0300\n"
-"PO-Revision-Date: 2018-01-13 18:29+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Serbian (http://www.transifex.com/mate/MATE/language/sr/)\n"
+"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2018\n"
+"Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +34,10 @@ msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
-msgstr "<big><b>Не могу да одредим програм за покретање</b></big>\n\nСтавка коју сте изабрали не може бити отворена са администраторским овлашћењима зато што одговарајући програм не може бити одређен."
+msgstr ""
+"<big><b>Не могу да одредим програм за покретање</b></big>\n"
+"\n"
+"Ставка коју сте изабрали не може бити отворена са администраторским овлашћењима зато што одговарајући програм не може бити одређен."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -219,27 +225,43 @@ msgstr "Претварач слика"
 msgid "Rotate and resize images"
 msgstr "Окрените и промените величину сликама"
 
-#: ../open-terminal/caja-open-terminal.c:433
-#: ../open-terminal/caja-open-terminal.c:446
+#: ../open-terminal/caja-open-terminal.c:459
+#: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Отвори у _терминалу"
 
-#: ../open-terminal/caja-open-terminal.c:435
+#: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Отворите тренутно изабрану фасциклу у терминалу"
 
-#: ../open-terminal/caja-open-terminal.c:437
-#: ../open-terminal/caja-open-terminal.c:447
+#: ../open-terminal/caja-open-terminal.c:463
+#: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Отворите тренутно отворену фасциклу у терминалу"
 
-#: ../open-terminal/caja-open-terminal.c:443
+#: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Отвори _терминал"
 
-#: ../open-terminal/caja-open-terminal.c:444
+#: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Отворите терминал"
+
+#: ../open-terminal/caja-open-terminal.c:563
+msgid "Open at Home if trying to open on desktop"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:566
+msgid "Terminal application:"
+msgstr ""
+
+#: ../open-terminal/caja-open-terminal.c:586
+msgid "Close"
+msgstr "Затвори"
+
+#: ../open-terminal/caja-open-terminal.c:592
+msgid "open-terminal Configuration"
+msgstr ""
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
@@ -253,7 +275,9 @@ msgstr "Отворите терминале из фасцикли"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "Да ли отварање терминала на радној површи отвара терминал у личном директоријуму"
+msgstr ""
+"Да ли отварање терминала на радној површи отвара терминал у личном "
+"директоријуму"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -261,7 +285,11 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "Уколико је изабрано, отварање терминала са радне површи ће отворити терминал у личном директоријуму. У супротном, биће отворен у директоријуму радне површи. Знајте да је овај кључ небитан ако је директоријум радне површи исти као и лични директоријум."
+msgstr ""
+"Уколико је изабрано, отварање терминала са радне површи ће отворити терминал"
+" у личном директоријуму. У супротном, биће отворен у директоријуму радне "
+"површи. Знајте да је овај кључ небитан ако је директоријум радне површи исти"
+" као и лични директоријум."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
@@ -369,7 +397,7 @@ msgstr "Нови ЦД/ДВД"
 msgid "Existing CD/DVD"
 msgstr "Постојећи ЦД/ДВД"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:182
+#: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "ЦД/ДВД Творац"
 
@@ -398,14 +426,17 @@ msgstr "Допушта брзо дељење фасцикле"
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr "Цаја мора да дода нека овлашћења вашој фасцикли „%s“ да би могао да је дели"
+msgstr ""
+"Цаја мора да дода нека овлашћења вашој фасцикли „%s“ да би могао да је дели"
 
 #: ../share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
-msgstr "Фасцикли „%s“ су потребна следећа посебна овлашћења да би дељење радило:\n%s%s%sДа ли желите да Цаја самостално дода та овлашћења фасцикли?"
+msgstr ""
+"Фасцикли „%s“ су потребна следећа посебна овлашћења да би дељење радило:\n"
+"%s%s%sДа ли желите да Цаја самостално дода та овлашћења фасцикли?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
@@ -521,7 +552,7 @@ msgstr "излаз „мрежног корисничког дељења“ ни
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Неуспех"
+msgstr "Није успело"
 
 #: ../share/shares.c:547
 #, c-format
@@ -553,7 +584,9 @@ msgstr "Не могу да уклоним дељење за путању „%s�
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
-msgstr "Не могу да изменим путању постојећег дељења; прво уклоните старо дељење а затим додајте ново"
+msgstr ""
+"Не могу да изменим путању постојећег дељења; прво уклоните старо дељење а "
+"затим додајте ново"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -573,16 +606,16 @@ msgstr "Омогућава брзо постављање позадине"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Ознаке"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "Ознаке смештене у проширеним атрибутима"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr ""
+msgstr "„xattr“ ознаке"
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Прегледајте ознаке смештене у проширеним атрибутима"
