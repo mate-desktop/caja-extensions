@@ -269,7 +269,7 @@ fi
 
 AM_CONDITIONAL(ENABLE_SHARE, test x"$enable_share" = "xyes")
 
-# gksu extenstion
+# gksu extension
 AC_ARG_ENABLE([gksu],
         AS_HELP_STRING([--enable-gksu], [Enable gksu plugin]),
         [enable_gksu=$enableval],
@@ -277,7 +277,7 @@ AC_ARG_ENABLE([gksu],
 
 AM_CONDITIONAL(ENABLE_GKSU, test x"$enable_gksu" = "xyes")
 
-# wallpaper extenstion
+# wallpaper extension
 AC_ARG_ENABLE([wallpaper],
         AS_HELP_STRING([--enable-wallpaper], [Enable set as wallpaper plugin]),
         [enable_wallpaper=$enableval],
@@ -287,7 +287,7 @@ AM_CONDITIONAL(ENABLE_WALLPAPER, test x"$enable_wallpaper" = "xyes")
 
 # xattr-tags extension
 AC_ARG_ENABLE([xattr-tags],
-        AS_HELP_STRING([--enable-xattr-tags], [Enable set as xattr tags plugin]),
+        AS_HELP_STRING([--enable-xattr-tags], [Enable xattr tags plugin]),
         [enable_xattr_tags=$enableval],
         [enable_xattr_tags=yes])
 
@@ -346,7 +346,7 @@ caja-extensions-$VERSION:
         compiler:               ${CC}
         caja-extension dir      ${ac_with_cajadir}
 
-Plugins to be build:
+Plugins to be built:
         Image Converter:        $enable_image_converter
         Open Terminal:          $enable_open_terminal
         Sendto:                 $enable_sendto
