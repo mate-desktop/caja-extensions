@@ -1,3 +1,9 @@
+### caja-extensions 1.22.0
+
+  * Translations update
+  * Initialize Travis CI support
+  * require caja >= 1.21.3
+
 ### caja-extensions 1.21.0
 
   * Translations update
