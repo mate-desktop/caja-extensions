@@ -251,7 +251,7 @@ msgstr "Atverti terminalą"
 
 #: ../open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
-msgstr ""
+msgstr "Atverti namų kataloge, jei bandoma atverti darbalaukyje"
 
 #: ../open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
