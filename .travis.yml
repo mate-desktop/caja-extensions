@@ -5,9 +5,14 @@ language: bash
 services:
   - docker
 
+branches:
+  except:
+  - gh-pages
+
 before_install:
   - curl -Ls -o docker-build https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/docker-build
-  - chmod +x docker-build
+  - curl -Ls -o gen-index https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/gen-index.sh
+  - chmod +x docker-build gen-index
 
 install:
   - sudo apt-get install -y python3-pip python3-setuptools
@@ -16,7 +21,30 @@ install:
   - ./docker-build --name ${DISTRO} --config .travis.yml --install
 
 script:
-  - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build autotools
+  - ./docker-build --name ${DISTRO} --verbose --config .travis.yml --build scripts
+
+deploy:
+  provider: pages
+  github-token: $GITHUB_TOKEN
+  #keep-history: true
+  skip_cleanup: true
+  committer-from-gh: true
+  target-branch: gh-pages
+  local-dir: html-report
+  on:
+    all_branches: true
+    condition: ${DISTRO} =~ ^fedora.*$
+
+after_success:
+  - 'if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_PULL_REQUEST" != "false" && ${DISTRO} =~ ^fedora.*$ ]]; then
+        REPO_SLUG_ARRAY=(${TRAVIS_REPO_SLUG//\// });
+        REPO_NAME=${REPO_SLUG_ARRAY[1]};
+        URL="https://${REPO_NAME}.mate-desktop.dev";
+        COMMENT="Code analysis completed";
+        curl -H "Authorization: token $GITHUB_TOKEN" -X POST
+           -d "{\"state\": \"success\", \"description\": \"$COMMENT\", \"context\":\"scan-build\", \"target_url\": \"$URL\"}"
+           https://api.github.com/repos/${TRAVIS_REPO_SLUG}/statuses/${TRAVIS_PULL_REQUEST_SHA};
+     fi'
 
 env:
   - DISTRO="archlinux/base"
@@ -31,6 +59,7 @@ requires:
   archlinux:
     # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/caja-extensions
     - caja
+    - clang
     - dbus-glib
     - gcc
     - git
@@ -46,6 +75,8 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/caja-extensions
+    - clang
+    - clang-tools
     - git
     - libcaja-extension-dev
     - libdbus-1-dev
@@ -64,6 +95,8 @@ requires:
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/caja-extensions.git
     - caja-devel
+    - clang
+    - clang-analyzer
     - dbus-glib-devel
     - dbus-glib-devel
     - gajim
@@ -79,6 +112,8 @@ requires:
     - redhat-rpm-config
 
   ubuntu:
+    - clang
+    - clang-tools
     - git
     - libcaja-extension-dev
     - libdbus-1-dev
@@ -96,14 +131,29 @@ requires:
 
 variables:
   - CFLAGS="-Wall -Werror=format-security"
+  - 'CHECKERS="
+    -enable-checker deadcode.DeadStores
+    -enable-checker alpha.core.CastSize
+    -enable-checker alpha.core.CastToStruct
+    -enable-checker alpha.core.IdenticalExpr
+    -enable-checker alpha.core.SizeofPtr
+    -enable-checker alpha.security.ArrayBoundV2
+    -enable-checker alpha.security.MallocOverflow
+    -enable-checker alpha.security.ReturnPtrRange
+    -enable-checker alpha.unix.SimpleStream
+    -enable-checker alpha.unix.cstring.BufferOverlap
+    -enable-checker alpha.unix.cstring.NotNullTerminated
+    -enable-checker alpha.unix.cstring.OutOfBounds
+    -enable-checker alpha.core.FixedAddr
+    -enable-checker security.insecureAPI.strcpy"'
 
 before_scripts:
   - cd ${START_DIR}
-  - if [ ! -f caja-1.21.4.tar.xz ];then
-  -     curl -Ls -o caja-1.21.4.tar.xz http://pub.mate-desktop.org/releases/1.21/caja-1.21.4.tar.xz
+  - if [ ! -f caja-1.22.0.tar.xz ];then
+  -     curl -Ls -o caja-1.22.0.tar.xz http://pub.mate-desktop.org/releases/1.22/caja-1.22.0.tar.xz
   - fi
-  - tar xf caja-1.21.4.tar.xz
-  - cd caja-1.21.4
+  - tar xf caja-1.22.0.tar.xz
+  - cd caja-1.22.0
   - if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
   -     ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
   - else
@@ -115,5 +165,17 @@ before_scripts:
   - make
   - make install
 
+build_scripts:
+  - ./autogen.sh
+  - scan-build $CHECKERS ./configure
+  - if [ $CPU_COUNT -gt 1 ]; then
+  -     scan-build $CHECKERS --keep-cc -o html-report make -j $CPU_COUNT
+  - else
+  -     scan-build $CHECKERS --keep-cc -o html-report make
+  - fi
+
 after_scripts:
+  - if [ ${DISTRO_NAME} == "fedora" ];then
+  -   ./gen-index -i https://github.com/${OWNER_NAME}/mate-icon-theme/raw/master/mate/16x16/apps/system-file-manager.png
+  - fi
   - make distcheck
