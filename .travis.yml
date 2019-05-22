@@ -56,7 +56,7 @@ env:
   - DISTRO="archlinux/base"
   - DISTRO="debian:sid"
   - DISTRO="fedora:30"
-  - DISTRO="ubuntu:19.04"
+  - DISTRO="ubuntu:19.10"
 
 ##########################################################
 # THE FOLLOWING LINES IS USED BY docker-build
@@ -129,7 +129,7 @@ requires:
     - libdconf-dev
     - libgail-3-dev # for caja build
     - libgtk-3-dev
-    - libgupnp-1.0-dev
+    - libgupnp-1.2-dev
     - libmate-desktop-dev
     - libnotify-dev # for caja build
     - libstartup-notification0-dev
