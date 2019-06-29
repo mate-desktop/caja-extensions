@@ -1,6 +1,6 @@
 /*
- *  Caja-sendto 
- * 
+ *  Caja-sendto
+ *
  *  Copyright (C) 2004 Free Software Foundation, Inc.
  *
  *  This library is free software; you can redistribute it and/or
@@ -17,8 +17,8 @@
  *  License along with this library; if not, write to the Free
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- *  Author: Roberto Majadas <roberto.majadas@openshine.com> 
- * 
+ *  Author: Roberto Majadas <roberto.majadas@openshine.com>
+ *
  */
 
 #include <config.h>
@@ -72,7 +72,7 @@ caja_nste_get_file_items (CajaMenuProvider *provider,
 		return NULL;
 
 	one_item = (files != NULL) && (files->next == NULL);
-	if (one_item && 
+	if (one_item &&
 	    !caja_file_info_is_directory ((CajaFileInfo *)files->data)) {
 		item = caja_menu_item_new ("CajaNste::sendto",
 					       _("Send to..."),
@@ -84,11 +84,11 @@ caja_nste_get_file_items (CajaMenuProvider *provider,
 					       _("Send files by mail, instant message..."),
 					       "document-send");
 	}
-  g_signal_connect (item, 
+  g_signal_connect (item,
       "activate",
       G_CALLBACK (sendto_callback),
       provider);
-  g_object_set_data_full (G_OBJECT (item), 
+  g_object_set_data_full (G_OBJECT (item),
       "files",
       caja_file_info_list_copy (files),
       (GDestroyNotify) caja_file_info_list_free);
@@ -99,14 +99,14 @@ caja_nste_get_file_items (CajaMenuProvider *provider,
 }
 
 
-static void 
+static void
 caja_nste_menu_provider_iface_init (CajaMenuProviderIface *iface)
 {
 	iface->get_file_items = caja_nste_get_file_items;
 }
 
 
-static void 
+static void
 caja_nste_instance_init (CajaNste *nste)
 {
 }
@@ -123,7 +123,7 @@ static GType nste_type = 0;
 
 
 GType
-caja_nste_get_type (void) 
+caja_nste_get_type (void)
 {
 	return nste_type;
 }
@@ -137,7 +137,7 @@ caja_nste_register_type (GTypeModule *module)
 		(GBaseInitFunc) NULL,
 		(GBaseFinalizeFunc) NULL,
 		(GClassInitFunc) caja_nste_class_init,
-		NULL, 
+		NULL,
 		NULL,
 		sizeof (CajaNste),
 		0,

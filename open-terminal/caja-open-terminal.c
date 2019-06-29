@@ -1,6 +1,6 @@
 /*
  *  caja-open-terminal.c
- * 
+ *
  *  Copyright (C) 2004, 2005 Free Software Foundation, Inc.
  *
  *  This library is free software; you can redistribute it and/or
@@ -18,7 +18,7 @@
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
  *  Author: Christian Neumair <chris@gnome-de.org>
- * 
+ *
  */
 
 #ifdef HAVE_CONFIG_H
@@ -260,7 +260,7 @@ append_sftp_info (char **terminal_exec,
 	g_assert (terminal_exec != NULL);
 	g_assert (file_info != NULL);
 
-	
+
 	vfs_uri = g_file_new_for_uri (caja_file_info_get_activation_uri (file_info));
 	g_assert (vfs_uri != NULL);
 
@@ -425,7 +425,7 @@ open_terminal_callback (CajaMenuItem *item,
 				g_message ("CajaOpenTerminal: Failed to close Caja working directory.");
 			}
 		}
-	} else {	
+	} else {
 		g_spawn_async (working_directory,
 			       argv,
 			       NULL,
@@ -611,7 +611,7 @@ caja_open_terminal_configurable_iface_init (CajaConfigurableIface *iface)
 	iface->run_config = caja_open_terminal_run_config;
 }
 
-static void 
+static void
 caja_open_terminal_instance_init (CajaOpenTerminal *cvs)
 {
 }
@@ -622,7 +622,7 @@ caja_open_terminal_class_init (CajaOpenTerminalClass *class)
 }
 
 GType
-caja_open_terminal_get_type (void) 
+caja_open_terminal_get_type (void)
 {
 	return terminal_type;
 }
@@ -635,7 +635,7 @@ caja_open_terminal_register_type (GTypeModule *module)
 		(GBaseInitFunc) NULL,
 		(GBaseFinalizeFunc) NULL,
 		(GClassInitFunc) caja_open_terminal_class_init,
-		NULL, 
+		NULL,
 		NULL,
 		sizeof (CajaOpenTerminal),
 		0,

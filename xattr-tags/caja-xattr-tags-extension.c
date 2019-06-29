@@ -19,7 +19,7 @@
  *
  *  Authors: Felipe Barriga Richards <spam@felipebarriga.cl>
  */
- 
+
 #include <config.h>
 #include <string.h>
 #include <gio/gio.h>
@@ -188,7 +188,7 @@ caja_xattr_tags_column_provider_iface_init(CajaColumnProviderIface *iface)
 }
 
 
-static void 
+static void
 caja_xattr_tags_instance_init(CajaXattrTags *cajaXattrTags)
 {
 }
@@ -219,7 +219,7 @@ caja_xattr_tags_register_type(GTypeModule *module)
         (GBaseInitFunc) NULL,
         (GBaseFinalizeFunc) NULL,
         (GClassInitFunc) caja_xattr_tags_class_init,
-        NULL, 
+        NULL,
         NULL,
         sizeof (CajaXattrTags),
         0,

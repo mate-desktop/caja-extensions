@@ -1,9 +1,9 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
-/* 
+/*
  * Copyright (C) 2004 Roberto Majadas
  * Copyright (C) 2009 Bastien Nocera <hadess@hadess.net>
- * 
+ *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
  * published by the Free Software Foundation; either version 2 of the
@@ -110,7 +110,7 @@ struct _NstPlugin
         G_MODULE_EXPORT gboolean nst_init_plugin(NstPlugin *plugin) {	\
 		plugin->info = &(plugininfo);				\
                 return TRUE;						\
-        }	
+        }
 
 #endif /* _CAJA_SENDTO_PLUGIN_H_ */
 

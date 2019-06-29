@@ -103,7 +103,7 @@ init (NstPlugin *plugin)
 				DBUS_TYPE_G_INT_ARRAY, &accounts, G_TYPE_INVALID)) {
 		g_object_unref(proxy);
 		g_error_free(error);
-		return FALSE;		
+		return FALSE;
 	}
 	g_array_free(accounts, TRUE);
 

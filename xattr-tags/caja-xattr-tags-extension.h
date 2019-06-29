@@ -19,7 +19,7 @@
  *
  *  Authors: Felipe Barriga Richards <spam@felipebarriga.cl>
  */
- 
+
 #ifndef CAJA_XATTR_TAGS_EXTENSION_H
 #define CAJA_XATTR_TAGS_EXTENSION_H
 

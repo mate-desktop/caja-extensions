@@ -66,7 +66,7 @@ typedef struct {
   GtkBuilder *ui;
 
   GtkWidget *main; /* Widget that holds all the rest.  Its "PropertyPage" GObject-data points to this PropertyPage structure */
-  
+
   GtkWidget *checkbutton_share_folder;
   GtkWidget *hbox_share_name;
   GtkWidget *hbox_share_comment;
@@ -95,7 +95,7 @@ property_page_validate_fields (PropertyPage *page)
   const char *name;
 
   name = gtk_entry_get_text (GTK_ENTRY (page->entry_share_name));
-  
+
   if (g_utf8_strlen (name, -1) <= 12)
     property_page_set_normal (page);
   else
@@ -427,7 +427,7 @@ get_fullpath_from_fileinfo(CajaFileInfo *fileinfo)
   gchar *fullpath;
 
   g_assert (fileinfo != NULL);
-  
+
   file = caja_file_info_get_location(fileinfo);
   fullpath = g_file_get_path(file);
   g_assert (fullpath != NULL && g_file_is_native(file)); /* In the beginning we checked that this was a local URI */
@@ -843,24 +843,24 @@ create_property_page (CajaFileInfo *fileinfo)
 
 /* Implementation of the CajaInfoProvider interface */
 
-/* caja_info_provider_update_file_info 
- * This function is called by Caja when it wants the extension to 
+/* caja_info_provider_update_file_info
+ * This function is called by Caja when it wants the extension to
  * fill in data about the file.  It passes a CajaFileInfo object,
  * which the extension can use to read data from the file, and which
  * the extension should add data to.
  *
- * If the data can be added immediately (without doing blocking IO), 
- * the extension can do so, and return CAJA_OPERATION_COMPLETE.  
- * In this case the 'update_complete' and 'handle' parameters can be 
+ * If the data can be added immediately (without doing blocking IO),
+ * the extension can do so, and return CAJA_OPERATION_COMPLETE.
+ * In this case the 'update_complete' and 'handle' parameters can be
  * ignored.
- * 
+ *
  * If waiting for the deata would block the UI, the extension should
- * perform the task asynchronously, and return 
- * CAJA_OPERATION_IN_PROGRESS.  The function must also set the 
+ * perform the task asynchronously, and return
+ * CAJA_OPERATION_IN_PROGRESS.  The function must also set the
  * 'handle' pointer to a value unique to the object, and invoke the
  * 'update_complete' closure when the update is done.
- * 
- * If the extension encounters an error, it should return 
+ *
+ * If the extension encounters an error, it should return
  * CAJA_OPERATION_FAILED.
  */
 typedef struct {
@@ -870,7 +870,7 @@ typedef struct {
   GClosure *update_complete;
 } CajaShareHandle;
 
-static CajaShareStatus 
+static CajaShareStatus
 get_share_status_and_free_share_info (ShareInfo *share_info)
 {
   CajaShareStatus result;
@@ -950,7 +950,7 @@ get_share_info_for_file_info (CajaFileInfo *file, ShareInfo **share_info, gboole
 }
 
 /*--------------------------------------------------------------------------*/
-static CajaShareStatus 
+static CajaShareStatus
 file_get_share_status_file(CajaFileInfo *file)
 {
   ShareInfo *share_info;
@@ -971,7 +971,7 @@ caja_share_update_file_info (CajaInfoProvider *provider,
 				 CajaOperationHandle **handle)
 {
 /*   gchar *share_status = NULL; */
-  
+
   switch (file_get_share_status_file (file)) {
 
   case CAJA_SHARE_SHARED_RO:
@@ -1005,12 +1005,12 @@ caja_share_cancel_update (CajaInfoProvider *provider,
 			      CajaOperationHandle *handle)
 {
   CajaShareHandle *share_handle;
-	
+
   share_handle = (CajaShareHandle*)handle;
   share_handle->cancelled = TRUE;
 }
 
-static void 
+static void
 caja_share_info_provider_iface_init (CajaInfoProviderIface *iface)
 {
   iface->update_file_info = caja_share_update_file_info;
@@ -1019,13 +1019,13 @@ caja_share_info_provider_iface_init (CajaInfoProviderIface *iface)
 
 /*--------------------------------------------------------------------------*/
 /* caja_property_page_provider_get_pages
- *  
+ *
  * This function is called by Caja when it wants property page
  * items from the extension.
  *
  * This function is called in the main thread before a property page
  * is shown, so it should return quickly.
- * 
+ *
  * The function should return a GList of allocated CajaPropertyPage
  * items.
  */
@@ -1053,7 +1053,7 @@ caja_share_get_property_pages (CajaPropertyPageProvider *provider,
 
   page = create_property_page (fileinfo);
   gtk_widget_hide (page->button_cancel);
-  
+
   if (share_info)
     shares_free_share_info (share_info);
 
@@ -1068,7 +1068,7 @@ caja_share_get_property_pages (CajaPropertyPageProvider *provider,
 }
 
 /*--------------------------------------------------------------------------*/
-static void 
+static void
 caja_share_property_page_provider_iface_init (CajaPropertyPageProviderIface *iface)
 {
   iface->get_pages = caja_share_get_property_pages;
@@ -1088,13 +1088,13 @@ caja_share_class_init (CajaShareClass *class)
 }
 
 /* caja_menu_provider_get_file_items
- *  
+ *
  * This function is called by Caja when it wants context menu
  * items from the extension.
  *
  * This function is called in the main thread before a context menu
  * is shown, so it should return quickly.
- * 
+ *
  * The function should return a GList of allocated CajaMenuItem
  * items.
  */
@@ -1158,7 +1158,7 @@ caja_share_get_file_items (CajaMenuProvider *provider,
 
   /* We don't own a reference to the file info to keep it around, so acquire one */
   g_object_ref (fileinfo);
-  
+
   /* FMQ: change the label to "Share with Windows users"? */
   item = caja_menu_item_new ("CajaShare::share",
 				 _("Sharing Options"),
@@ -1167,7 +1167,7 @@ caja_share_get_file_items (CajaMenuProvider *provider,
   g_signal_connect (item, "activate",
 		    G_CALLBACK (share_this_folder_callback),
 		    fileinfo);
-  g_object_set_data_full (G_OBJECT (item), 
+  g_object_set_data_full (G_OBJECT (item),
 			  "files",
 			  fileinfo,
 			  g_object_unref); /* Release our reference when the menu item goes away */
@@ -1177,7 +1177,7 @@ caja_share_get_file_items (CajaMenuProvider *provider,
 }
 
 /*--------------------------------------------------------------------------*/
-static void 
+static void
 caja_share_menu_provider_iface_init (CajaMenuProviderIface *iface)
 {
 	iface->get_file_items = caja_share_get_file_items;
@@ -1193,7 +1193,7 @@ static GType share_type = 0;
 #define CAJA_TYPE_SHARE  (caja_share_get_type ())
 
 static GType
-caja_share_get_type (void) 
+caja_share_get_type (void)
 {
   return share_type;
 }
@@ -1206,7 +1206,7 @@ caja_share_register_type (GTypeModule *module)
     (GBaseInitFunc) NULL,
     (GBaseFinalizeFunc) NULL,
     (GClassInitFunc) caja_share_class_init,
-    NULL, 
+    NULL,
     NULL,
     sizeof (CajaShare),
     0,
@@ -1223,7 +1223,7 @@ caja_share_register_type (GTypeModule *module)
     NULL,
     NULL
   };
-	
+
   g_type_module_add_interface (module,
 			       share_type,
 			       CAJA_TYPE_PROPERTY_PAGE_PROVIDER,
@@ -1247,20 +1247,20 @@ caja_share_register_type (GTypeModule *module)
     NULL,
     NULL
   };
-  
+
   g_type_module_add_interface (module,
 			       share_type,
 			       CAJA_TYPE_MENU_PROVIDER,
 			       &menu_provider_iface_info);
-  
+
 }
 
-/* Extension module functions.  These functions are defined in 
- * caja-extensions-types.h, and must be implemented by all 
+/* Extension module functions.  These functions are defined in
+ * caja-extensions-types.h, and must be implemented by all
  * extensions. */
 
-/* Initialization function.  In addition to any module-specific 
- * initialization, any types implemented by the module should 
+/* Initialization function.  In addition to any module-specific
+ * initialization, any types implemented by the module should
  * be registered here. */
 void
 caja_module_initialize (GTypeModule  *module)
@@ -1282,12 +1282,12 @@ caja_module_shutdown   (void)
 }
 
 /* List all the extension types.  */
-void 
+void
 caja_module_list_types (const GType **types,
 			    int          *num_types)
 {
   static GType type_list[1];
-	
+
   type_list[0] = CAJA_TYPE_SHARE;
 
   *types = type_list;

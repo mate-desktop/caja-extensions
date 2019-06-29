@@ -1,7 +1,7 @@
 /*
- *  Caja SendTo 
- * 
- *  Copyright (C) 2005 Roberto Majadas 
+ *  Caja SendTo
+ *
+ *  Copyright (C) 2005 Roberto Majadas
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU General Public
@@ -18,7 +18,7 @@
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
  *  Author: Roberto Majadas <roberto.majadas@openshine.com>
- * 
+ *
  */
 
 #include <config.h>
@@ -44,12 +44,12 @@ caja_module_shutdown (void)
 }
 
 
-void 
+void
 caja_module_list_types (const GType **types,
 			    int          *num_types)
 {
 	static GType type_list[1];
-	
+
 	type_list[0] = CAJA_TYPE_NSTE;
 	*types = type_list;
 

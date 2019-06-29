@@ -1,6 +1,6 @@
 /*
  *  caja-image-rotator.c
- * 
+ *
  *  Copyright (C) 2004-2008 Jürg Billeter
  *
  *  This library is free software; you can redistribute it and/or
@@ -18,7 +18,7 @@
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
  *  Author: Jürg Billeter <j@bitron.ch>
- * 
+ *
  */
 
 #ifdef HAVE_CONFIG_H
@@ -34,18 +34,18 @@
 #include <gtk/gtk.h>
 
 #include <libcaja-extension/caja-file-info.h>
- 
+
 typedef struct _CajaImageRotatorPrivate CajaImageRotatorPrivate;
 
 struct _CajaImageRotatorPrivate {
 	GList *files;
-	
+
 	gchar *suffix;
-	
+
 	int images_rotated;
 	int images_total;
 	gboolean cancelled;
-	
+
 	gchar *angle;
 
 	GtkDialog *rotate_dialog;
@@ -81,9 +81,9 @@ caja_image_rotator_finalize(GObject *object)
 {
 	CajaImageRotator *dialog = CAJA_IMAGE_ROTATOR (object);
 	CajaImageRotatorPrivate *priv = CAJA_IMAGE_ROTATOR_GET_PRIVATE (dialog);
-	
+
 	g_free (priv->suffix);
-		
+
 	G_OBJECT_CLASS(caja_image_rotator_parent_class)->finalize(object);
 }
 
@@ -159,17 +159,17 @@ caja_image_rotator_transform_filename (CajaImageRotator *rotator, GFile *orig_fi
 
 	GFile *parent_file, *new_file;
 	char *basename, *extension, *new_basename;
-	
+
 	g_return_val_if_fail (G_IS_FILE (orig_file), NULL);
 
 	parent_file = g_file_get_parent (orig_file);
 
 	basename = g_strdup (g_file_get_basename (orig_file));
-	
+
 	extension = g_strdup (strrchr (basename, '.'));
 	if (extension != NULL)
 		basename[strlen (basename) - strlen (extension)] = '\0';
-		
+
 	new_basename = g_strdup_printf ("%s%s%s", basename,
 		priv->suffix == NULL ? ".tmp" : priv->suffix,
 		extension == NULL ? "" : extension);
@@ -189,11 +189,11 @@ op_finished (GPid pid, gint status, gpointer data)
 {
 	CajaImageRotator *rotator = CAJA_IMAGE_ROTATOR (data);
 	CajaImageRotatorPrivate *priv = CAJA_IMAGE_ROTATOR_GET_PRIVATE (rotator);
-	
+
 	gboolean retry = TRUE;
-	
+
 	CajaFileInfo *file = CAJA_FILE_INFO (priv->files->data);
-	
+
 	if (status != 0) {
 		/* rotating failed */
 		char *name = caja_file_info_get_name (file);
@@ -204,12 +204,12 @@ op_finished (GPid pid, gint status, gpointer data)
 			"'%s' cannot be rotated. Check whether you have permission to write to this folder.",
 			name);
 		g_free (name);
-		
+
 		gtk_dialog_add_button (GTK_DIALOG (msg_dialog), _("_Skip"), 1);
 		gtk_dialog_add_button (GTK_DIALOG (msg_dialog), GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL);
 		gtk_dialog_add_button (GTK_DIALOG (msg_dialog), _("_Retry"), 0);
 		gtk_dialog_set_default_response (GTK_DIALOG (msg_dialog), 0);
-		
+
 		int response_id = gtk_dialog_run (GTK_DIALOG (msg_dialog));
 		gtk_widget_destroy (msg_dialog);
 		if (response_id == 0) {
@@ -219,7 +219,7 @@ op_finished (GPid pid, gint status, gpointer data)
 		} else if (response_id == 1) {
 			retry = FALSE;
 		}
-		
+
 	} else if (priv->suffix == NULL) {
 		/* rotate image in place */
 		GFile *orig_location = caja_file_info_get_location (file);
@@ -234,7 +234,7 @@ op_finished (GPid pid, gint status, gpointer data)
 		priv->images_rotated++;
 		priv->files = priv->files->next;
 	}
-	
+
 	if (!priv->cancelled && priv->files != NULL) {
 		/* process next image */
 		run_op (rotator);
@@ -248,9 +248,9 @@ static void
 run_op (CajaImageRotator *rotator)
 {
 	CajaImageRotatorPrivate *priv = CAJA_IMAGE_ROTATOR_GET_PRIVATE (rotator);
-	
+
 	g_return_if_fail (priv->files != NULL);
-	
+
 	CajaFileInfo *file = CAJA_FILE_INFO (priv->files->data);
 
 	GFile *orig_location = caja_file_info_get_location (file);
@@ -261,7 +261,7 @@ run_op (CajaImageRotator *rotator)
 	g_object_unref (new_location);
 
 	/* FIXME: check whether new_uri already exists and provide "Replace _All", "_Skip", and "_Replace" options */
-	
+
 	gchar *argv[8];
 	argv[0] = "/usr/bin/convert";
 	argv[1] = filename;
@@ -271,32 +271,32 @@ run_op (CajaImageRotator *rotator)
 	argv[5] = "TopLeft";
 	argv[6] = new_filename;
 	argv[7] = NULL;
-	
+
 	pid_t pid;
 
 	if (!g_spawn_async (NULL, argv, NULL, G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL)) {
 		// FIXME: error handling
 		return;
 	}
-	
+
 	g_free (filename);
 	g_free (new_filename);
-	
+
 	g_child_watch_add (pid, op_finished, rotator);
-	
+
 	char *tmp;
 
 	gtk_progress_bar_set_fraction (GTK_PROGRESS_BAR (priv->progress_bar), (double) (priv->images_rotated + 1) / priv->images_total);
 	tmp = g_strdup_printf (_("Rotating image: %d of %d"), priv->images_rotated + 1, priv->images_total);
 	gtk_progress_bar_set_text (GTK_PROGRESS_BAR (priv->progress_bar), tmp);
 	g_free (tmp);
-	
+
 	char *name = caja_file_info_get_name (file);
 	tmp = g_strdup_printf (_("<i>Rotating \"%s\"</i>"), name);
 	g_free (name);
 	gtk_label_set_markup (GTK_LABEL (priv->progress_label), tmp);
 	g_free (tmp);
-	
+
 }
 
 static void
@@ -336,7 +336,7 @@ caja_image_rotator_response_cb (GtkDialog *dialog, gint response_id, gpointer us
 		} else {
 			g_assert_not_reached ();
 		}
-		
+
 		run_op (rotator);
 	}
 

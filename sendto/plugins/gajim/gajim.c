@@ -48,28 +48,28 @@ static void
 _foreach_contact(gpointer contact, gpointer user_data)
 {
 	const gchar *show;
-	
+
 	GValue *value;
 	GHashTable *contact_table;
-	
+
 	/* holds contact props of already exisiting jid/nick */
 	GHashTable *existing_contact;
-	
+
 	/* name of the contact in completion list
 	   it may be jid, nick, jid (account), or nick(account) */
 	GString *contact_str;
-	
+
 	gchar *jid;
 	gchar *account;
 	gint i;
-	
+
 	if (contact == NULL) {
 		g_warning("Null contact in the list");
 		return;
 	}
 	contact_table = (GHashTable *) contact;
 	account = (gchar *) user_data;
-	
+
 	value = g_hash_table_lookup(contact_table, "show");
 	if (value == NULL || !G_VALUE_HOLDS_STRING(value)) {
 		g_warning("String expected (contact - show)");
@@ -85,10 +85,10 @@ _foreach_contact(gpointer contact, gpointer user_data)
 	   to contact properties */
 	g_hash_table_insert(contact_table, "account", account);
 	g_hash_table_remove(contact_table, "resource");
-	
+
 	/* add nick the same way as jid */
 	for(i=0;i<2;i++) {
-		value = g_hash_table_lookup(contact_table, COMPLETION_PROPS[i]);	
+		value = g_hash_table_lookup(contact_table, COMPLETION_PROPS[i]);
 		if(value == NULL || !G_VALUE_HOLDS_STRING(value)) {
 			g_warning("String expected (contact - name)");
 			return;
@@ -105,7 +105,7 @@ _foreach_contact(gpointer contact, gpointer user_data)
 			g_hash_table_insert(jid_table, contact_str->str,
 													existing_contact);
 			g_string_free(contact_str, FALSE);
-			
+
 			/* add current contact as nick (account) */
 			contact_str = g_string_new(jid);
 			g_string_append(contact_str, " (");
@@ -120,7 +120,7 @@ _foreach_contact(gpointer contact, gpointer user_data)
 			g_hash_table_insert(jid_table, jid, contact_table);
 		}
 	}
-	
+
 }
 
 /*
@@ -155,7 +155,7 @@ init_dbus (void)
 	{
 		g_object_unref(proxy);
 		g_error_free(error);
-		return FALSE;		
+		return FALSE;
 	}
 	g_strfreev(accounts);
 	return TRUE;
@@ -198,7 +198,7 @@ _get_contacts (void)
 	gchar **accounts;
 	gchar **account_iter;
 	gchar *account;
-	
+
 	error = NULL;
 
 	if (proxy == NULL) {
@@ -232,7 +232,7 @@ _get_contacts (void)
 	}
 	for(account_iter = accounts; *account_iter ; account_iter++) {
 		account = g_strdup(*account_iter);
-		error = NULL;	
+		error = NULL;
 		/* query gajim remote object and put results in 'contacts_list' */
 		if (!dbus_g_proxy_call (proxy, "list_contacts", &error,
 				G_TYPE_STRING, account, /* call arguments */
@@ -261,7 +261,7 @@ init (NstPlugin *plugin)
 
 	bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-	
+
 	/* connect to gajim dbus service */
 	jid_table = g_hash_table_new (g_str_hash, g_str_equal);
 	if (!init_dbus()) {
@@ -276,7 +276,7 @@ _set_pixbuf_from_status (const gchar *show, GdkPixbuf **pixbuf)
 {
 	GString *pixbuf_path;
 	GError *error;
-	
+
 	pixbuf_path = g_string_new(GAJIM_SHARE_DIR);
 	g_string_append_c(pixbuf_path, '/');
 	g_string_append(pixbuf_path, "data");
@@ -309,7 +309,7 @@ _add_contact_to_model(gpointer key, gpointer value, gpointer user_data)
 	GValue *val;
 	GHashTable *contact_props;
 	const gchar *show;
-	
+
 	contact_props = (GHashTable *) value;
 	pixbuf = NULL;
 	val = g_hash_table_lookup(contact_props, "show");
@@ -320,7 +320,7 @@ _add_contact_to_model(gpointer key, gpointer value, gpointer user_data)
 		show = g_value_get_string ((GValue *)val);
 		_set_pixbuf_from_status(show, &pixbuf);
 	}
-	
+
 	store = (GtkListStore *) user_data;
 	iter = g_malloc (sizeof(GtkTreeIter));
 	gtk_list_store_append (store, iter);
@@ -336,7 +336,7 @@ static gboolean
 add_gajim_contacts_to_model (GtkListStore *store)
 {
 	if(!_get_contacts()) {
-		return FALSE;	
+		return FALSE;
 	}
 	if(g_hash_table_size(jid_table) == 0) {
 		return FALSE;
@@ -357,18 +357,18 @@ get_contacts_widget (NstPlugin *plugin)
 	GtkListStore *store;
 	GtkCellRenderer *renderer;
 	GtkTreeModel *completion_model;
-	
+
 	entry = gtk_entry_new ();
 	completion = gtk_entry_completion_new ();
-	
+
 	renderer = gtk_cell_renderer_pixbuf_new ();
 	gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (completion),
 					renderer,
 					FALSE);
 	gtk_cell_layout_set_attributes (GTK_CELL_LAYOUT (completion), renderer,
 					"pixbuf", 0, NULL);
-	
-	
+
+
 	store = gtk_list_store_new (2, GDK_TYPE_PIXBUF, G_TYPE_STRING);
 	if(!add_gajim_contacts_to_model (store)) {
 		gtk_widget_set_sensitive(entry, FALSE);
@@ -409,7 +409,7 @@ send_files (NstPlugin *plugin,
 	GValue *value;
 	GList *file_iter;
 	GHashTable *contact_props;
-	
+
 	gchar *send_to;
 	gchar *jid;
 	gchar *account;
@@ -429,14 +429,14 @@ send_files (NstPlugin *plugin,
 			account = NULL;
 		}
 		else {
-			value = g_hash_table_lookup(contact_props, "jid");	
+			value = g_hash_table_lookup(contact_props, "jid");
 			if(value == NULL || !G_VALUE_HOLDS_STRING(value)) {
 				g_warning("[Gajim] string expected (contact - jid)");
 				return FALSE;
 			}
-			
+
 			jid = g_value_dup_string((GValue *)value);
-			account = g_hash_table_lookup(contact_props, "account");	
+			account = g_hash_table_lookup(contact_props, "account");
 		}
 	}
 	else {
@@ -445,7 +445,7 @@ send_files (NstPlugin *plugin,
 						_("Recipient is missing."));
 		return FALSE;
 	}
-	
+
 	error= NULL;
 	for(file_iter = file_list; file_iter != NULL; file_iter = file_iter->next) {
 		char *uri = file_iter->data;

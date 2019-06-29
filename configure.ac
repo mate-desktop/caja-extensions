@@ -312,7 +312,7 @@ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [gettext package])
 AM_GLIB_GNU_GETTEXT
 
 AC_OUTPUT([
-  Makefile 
+  Makefile
   gksu/libcaja-gksu.caja-extension.in
   gksu/Makefile
   image-converter/libcaja-image-converter.caja-extension.in
@@ -337,7 +337,7 @@ AC_OUTPUT([
   wallpaper/Makefile
   xattr-tags/libcaja-xattr-tags.caja-extension.in
   xattr-tags/Makefile
-  po/Makefile.in 
+  po/Makefile.in
 ])
 
 echo "

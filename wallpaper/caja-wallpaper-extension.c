@@ -21,7 +21,7 @@
  *  Authors: Adam Israel <adam@battleaxe.net>
  *           Stefano Karapetsas <stefano@karapetsas.com>
  */
- 
+
 #include <config.h>
 #include <string.h>
 #include <gio/gio.h>
@@ -60,7 +60,7 @@ set_wallpaper_callback (CajaMenuItem *item,
     g_object_unref (settings);
     g_free (filename);
     g_free (uri);
-    
+
 }
 
 static gboolean
@@ -68,14 +68,14 @@ is_image (CajaFileInfo *file)
 {
     gchar *mimeType;
     gboolean isImage;
-    
+
     mimeType = caja_file_info_get_mime_type (file);
-    
+
     isImage = g_str_has_prefix (caja_file_info_get_mime_type (file), "image/");
-    
+
     g_free (mimeType);
-    
-    return isImage; 
+
+    return isImage;
 }
 
 
@@ -109,11 +109,11 @@ caja_cwe_get_file_items (CajaMenuProvider *provider,
                            _("Set as wallpaper"),
                            _("Set image as the current wallpaper"),
                            NULL);
-        g_signal_connect (item, 
+        g_signal_connect (item,
                   "activate",
                   G_CALLBACK (set_wallpaper_callback),
                 provider);
-        g_object_set_data_full (G_OBJECT (item), 
+        g_object_set_data_full (G_OBJECT (item),
                     "files",
                     caja_file_info_list_copy (files),
                     (GDestroyNotify) caja_file_info_list_free);
@@ -123,14 +123,14 @@ caja_cwe_get_file_items (CajaMenuProvider *provider,
 }
 
 
-static void 
+static void
 caja_cwe_menu_provider_iface_init (CajaMenuProviderIface *iface)
 {
     iface->get_file_items = caja_cwe_get_file_items;
 }
 
 
-static void 
+static void
 caja_cwe_instance_init (CajaCwe *cwe)
 {
 }
@@ -147,7 +147,7 @@ static GType cwe_type = 0;
 
 
 GType
-caja_cwe_get_type (void) 
+caja_cwe_get_type (void)
 {
     return cwe_type;
 }
@@ -161,7 +161,7 @@ caja_cwe_register_type (GTypeModule *module)
         (GBaseInitFunc) NULL,
         (GBaseFinalizeFunc) NULL,
         (GClassInitFunc) caja_cwe_class_init,
-        NULL, 
+        NULL,
         NULL,
         sizeof (CajaCwe),
         0,

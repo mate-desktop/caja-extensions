@@ -1,6 +1,6 @@
 /*
  *  caja-image-converter.c
- * 
+ *
  *  Copyright (C) 2004-2005 Jürg Billeter
  *
  *  This library is free software; you can redistribute it and/or
@@ -18,7 +18,7 @@
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
  *  Author: Jürg Billeter <j@bitron.ch>
- * 
+ *
  */
 
 #ifdef HAVE_CONFIG_H
@@ -50,7 +50,7 @@ image_converter_file_is_image (CajaFileInfo *file_info)
 	gchar            *uri_scheme;
 	gchar            *mime_type;
 	gboolean	maybe_image;
-	
+
 	maybe_image = TRUE;
 	uri_scheme = caja_file_info_get_uri_scheme (file_info);
 	if (strcmp (uri_scheme, "file") != 0)
@@ -61,7 +61,7 @@ image_converter_file_is_image (CajaFileInfo *file_info)
 	if (strncmp (mime_type, "image/", 6) != 0)
 		maybe_image = FALSE;
 	g_free (mime_type);
-	
+
 	return maybe_image;
 }
 
@@ -70,14 +70,14 @@ image_converter_filter_images (GList *files)
 {
 	GList *images;
 	GList *file;
-	
+
 	images = NULL;
-	
+
 	for (file = files; file != NULL; file = file->next) {
 		if (image_converter_file_is_image (file->data))
 			images = g_list_prepend (images, file->data);
 	}
-	
+
 	return images;
 }
 
@@ -113,7 +113,7 @@ caja_image_converter_get_file_items (CajaMenuProvider *provider,
 	CajaMenuItem *item;
 	GList *file;
 	GList *items = NULL;
-	
+
 	for (file = files; file != NULL; file = file->next) {
 		if (image_converter_file_is_image (file->data)) {
 			item = caja_menu_item_new ("CajaImageConverter::resize",
@@ -123,7 +123,7 @@ caja_image_converter_get_file_items (CajaMenuProvider *provider,
 			g_signal_connect (item, "activate",
 					  G_CALLBACK (image_resize_callback),
 					  caja_file_info_list_copy (files));
-					
+
 			items = g_list_prepend (items, item);
 
 			item = caja_menu_item_new ("CajaImageConverter::rotate",
@@ -135,13 +135,13 @@ caja_image_converter_get_file_items (CajaMenuProvider *provider,
 					  caja_file_info_list_copy (files));
 
 			items = g_list_prepend (items, item);
-			
+
 			items = g_list_reverse (items);
 
 			return items;
 		}
 	}
-	
+
 	return NULL;
 }
 
@@ -152,7 +152,7 @@ caja_image_converter_menu_provider_iface_init (CajaMenuProviderIface *iface)
 	iface->get_file_items = caja_image_converter_get_file_items;
 }
 
-static void 
+static void
 caja_image_converter_instance_init (CajaImageConverter *img)
 {
 }
@@ -163,7 +163,7 @@ caja_image_converter_class_init (CajaImageConverterClass *class)
 }
 
 GType
-caja_image_converter_get_type (void) 
+caja_image_converter_get_type (void)
 {
 	return image_converter_type;
 }
@@ -176,7 +176,7 @@ caja_image_converter_register_type (GTypeModule *module)
 		(GBaseInitFunc) NULL,
 		(GBaseFinalizeFunc) NULL,
 		(GClassInitFunc) caja_image_converter_class_init,
-		NULL, 
+		NULL,
 		NULL,
 		sizeof (CajaImageConverter),
 		0,

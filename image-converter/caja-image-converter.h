@@ -1,6 +1,6 @@
 /*
  *  caja-image-converter.h
- * 
+ *
  *  Copyright (C) 2004-2005 Jürg Billeter
  *
  *  This library is free software; you can redistribute it and/or
@@ -18,7 +18,7 @@
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
  *  Author: Jürg Billeter <j@bitron.ch>
- * 
+ *
  */
 
 #ifndef CAJA_IMAGE_CONVERTER_H
@@ -29,7 +29,7 @@
 G_BEGIN_DECLS
 
 /* Declarations for the open terminal extension object.  This object will be
- * instantiated by caja.  It implements the GInterfaces 
+ * instantiated by caja.  It implements the GInterfaces
  * exported by libcaja. */
 
 
