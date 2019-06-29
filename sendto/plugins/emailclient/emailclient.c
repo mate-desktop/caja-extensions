@@ -1,9 +1,9 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
-/* 
+/*
  * Copyright (C) 2004 Roberto Majadas <roberto.majadas@openshine.com>
  * Copyright (C) 2012 Stefano Karapetsas <stefano@karapetsas.com>
- * 
+ *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
  * published by the Free Software Foundation; either version 2 of the
@@ -56,7 +56,7 @@ get_evo_cmd (void)
 		NULL};
 	guint i;
 
-	
+
 	for (i = 0; cmds[i] != NULL; i++) {
 		tmp = g_find_program_in_path (cmds[i]);
 		if (tmp != NULL)
@@ -77,7 +77,7 @@ init (NstPlugin *plugin)
 	GAppInfo *app_info = NULL;
 
 	g_print ("Init email client plugin\n");
-	
+
 	bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 
@@ -249,14 +249,14 @@ send_files (NstPlugin *plugin,
 	return TRUE;
 }
 
-static 
+static
 gboolean destroy (NstPlugin *plugin){
 	g_free (mail_cmd);
 	mail_cmd = NULL;
 	return TRUE;
 }
 
-static 
+static
 NstPluginInfo plugin_info = {
 	"emblem-mail",
 	"emailclient",
@@ -268,7 +268,7 @@ NstPluginInfo plugin_info = {
 	NULL,
 	send_files,
 	destroy
-}; 
+};
 
 NST_INIT_PLUGIN (plugin_info)
 

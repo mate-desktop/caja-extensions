@@ -18,7 +18,7 @@
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- *  Authors: Adam Israel <adam@battleaxe.net> 
+ *  Authors: Adam Israel <adam@battleaxe.net>
  *           Stefano Karapetsas <stefano@karapetsas.com>
  */
 
@@ -39,11 +39,11 @@ caja_module_shutdown (void)
 {
 }
 
-void 
+void
 caja_module_list_types (const GType **types, int *num_types)
 {
     static GType type_list[1];
-    
+
     type_list[0] = CAJA_TYPE_CWE;
     *types = type_list;
     *num_types = 1;

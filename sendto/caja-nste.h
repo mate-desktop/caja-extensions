@@ -1,7 +1,7 @@
 /*
- *  Caja SendTo extension 
- * 
- *  Copyright (C) 2005 Roberto Majadas 
+ *  Caja SendTo extension
+ *
+ *  Copyright (C) 2005 Roberto Majadas
  *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU General Public
@@ -17,8 +17,8 @@
  *  License along with this library; if not, write to the Free
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
- *  Author: Roberto Majadas <roberto.majadas@openshine.com> 
- * 
+ *  Author: Roberto Majadas <roberto.majadas@openshine.com>
+ *
  */
 
 #ifndef CAJA_NSTE_H

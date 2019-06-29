@@ -21,7 +21,7 @@
  *  Authors: Adam Israel <adam@battleaxe.net>
  *           Stefano Karapetsas <stefano@karapetsas.com>
  */
- 
+
 #ifndef CAJA_WALLPAPER_EXTENSION_H
 #define CAJA_WALLPAPER_EXTENSION_H
 

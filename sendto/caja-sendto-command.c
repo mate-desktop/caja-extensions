@@ -1,8 +1,8 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
-/* 
+/*
  * Copyright (C) 2004 Roberto Majadas
- * 
+ *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
  * published by the Free Software Foundation; either version 2 of the
@@ -81,7 +81,7 @@ static const GOptionEntry entries[] = {
 	{ NULL }
 };
 
-static void 
+static void
 destroy_dialog (GtkWidget *widget, gpointer data )
 {
         gtk_main_quit ();
@@ -190,9 +190,9 @@ pack_files (NS_ui *ui)
 	filename = gtk_entry_get_text(GTK_ENTRY(ui->pack_entry));
 
 	g_assert (filename != NULL && *filename != '\0');
-	
-	tmp_dir = g_strdup_printf ("%s/caja-sendto-%s", 
-				   g_get_tmp_dir(), g_get_user_name());	
+
+	tmp_dir = g_strdup_printf ("%s/caja-sendto-%s",
+				   g_get_tmp_dir(), g_get_user_name());
 	g_mkdir (tmp_dir, 0700);
 	tmp_work_dir = g_strdup_printf ("%s/caja-sendto-%s/%li",
 					g_get_tmp_dir(), g_get_user_name(),
@@ -208,7 +208,7 @@ pack_files (NS_ui *ui)
 	case 1:
 		pack_type = g_strdup (".tar.gz");
 		break;
-	case 2: 
+	case 2:
 		pack_type = g_strdup (".tar.bz2");
 		break;
 	default:
@@ -449,7 +449,7 @@ set_model_for_options_combobox (NS_ui *ui)
 
 	for (aux = plugin_list; aux; aux = aux->next) {
 		p = (NstPlugin *) aux->data;
-		pixbuf = gtk_icon_theme_load_icon (it, p->info->icon, 16, 
+		pixbuf = gtk_icon_theme_load_icon (it, p->info->icon, 16,
 						   GTK_ICON_LOOKUP_USE_BUILTIN, NULL);
 		gtk_list_store_append (model, &iter);
 		gtk_list_store_set (model, &iter,
@@ -470,16 +470,16 @@ set_model_for_options_combobox (NS_ui *ui)
         gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (ui->options_combobox),
                                     renderer,
                                     FALSE);
-        gtk_cell_layout_set_attributes (GTK_CELL_LAYOUT (ui->options_combobox), 
+        gtk_cell_layout_set_attributes (GTK_CELL_LAYOUT (ui->options_combobox),
 					renderer,
                                         "pixbuf", COLUMN_ICON,
-                                        NULL);		
+                                        NULL);
         renderer = gtk_cell_renderer_text_new ();
         g_object_set (G_OBJECT (renderer), "ellipsize", PANGO_ELLIPSIZE_END, NULL);
         gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (ui->options_combobox),
                                     renderer,
                                     TRUE);
-        gtk_cell_layout_set_attributes (GTK_CELL_LAYOUT (ui->options_combobox), 
+        gtk_cell_layout_set_attributes (GTK_CELL_LAYOUT (ui->options_combobox),
 					renderer,
                                         "text", COLUMN_DESCRIPTION,
                                         NULL);
@@ -553,7 +553,7 @@ caja_sendto_create_ui (void)
 	ui->dialog = GTK_WIDGET (gtk_builder_get_object (app, "caja_sendto_dialog"));
 	ui->cancel_button = GTK_WIDGET (gtk_builder_get_object (app, "cancel_button"));
 	ui->send_button = GTK_WIDGET (gtk_builder_get_object (app, "send_button"));
-	ui->pack_combobox = GTK_WIDGET (gtk_builder_get_object (app, "pack_combobox"));	
+	ui->pack_combobox = GTK_WIDGET (gtk_builder_get_object (app, "pack_combobox"));
 	ui->pack_entry = GTK_WIDGET (gtk_builder_get_object (app, "pack_entry"));
 	ui->pack_checkbutton = GTK_WIDGET (gtk_builder_get_object (app, "pack_checkbutton"));
 	ui->status_box = GTK_WIDGET (gtk_builder_get_object (app, "status_box"));
@@ -574,7 +574,7 @@ caja_sendto_create_ui (void)
 		one_file = FALSE;
 	else if (file_list != NULL)
 		one_file = TRUE;
-	
+
 	gtk_entry_set_text (GTK_ENTRY (ui->pack_entry), _("Files"));
 
 	if (one_file) {

@@ -1,6 +1,6 @@
 /*
  *  open-terminal.c
- * 
+ *
  *  Copyright (C) 2004, 2005 Free Software Foundation, Inc.
  *
  *  This library is free software; you can redistribute it and/or
@@ -18,7 +18,7 @@
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
  *  Author: Christian Neumair <chris@gnome-de.org>
- * 
+ *
  */
 
 #ifdef HAVE_CONFIG_H
@@ -49,7 +49,7 @@ caja_module_shutdown (void)
 	g_print ("Shutting down caja-open-terminal extension\n");
 }
 
-void 
+void
 caja_module_list_types (const GType **types,
 			    int          *num_types)
 {

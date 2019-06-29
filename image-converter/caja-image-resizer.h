@@ -1,6 +1,6 @@
 /*
  *  caja-image-resize-dialog.h
- * 
+ *
  *  Copyright (C) 2004-2005 Jürg Billeter
  *
  *  This library is free software; you can redistribute it and/or
@@ -18,7 +18,7 @@
  *  Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
  *
  *  Author: Jürg Billeter <j@bitron.ch>
- * 
+ *
  */
 
 #ifndef CAJA_IMAGE_RESIZER_H
