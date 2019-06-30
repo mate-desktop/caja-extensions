@@ -1,3 +1,12 @@
+### caja-extensions 1.23.0
+
+  * Translations update
+  * Remove trailing whitespaces
+  * Strings resistance
+  * Change url project's website
+  * [ci] Add cppcheck html report
+  * [ci] Enable Clang Static Analyzer
+
 ### caja-extensions 1.22.0
 
   * Translations update
