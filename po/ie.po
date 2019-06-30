@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pilar Embid <embid.mar@gmail.com>, 2018
-# Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2018
+# Ольга Смирнова, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,21 +13,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-11 14:12+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2018\n"
-"Language-Team: Catalan (Valencian) (https://www.transifex.com/mate/teams/13566/ca@valencia/)\n"
+"Last-Translator: Ольга Смирнова, 2019\n"
+"Language-Team: Interlingue (https://www.transifex.com/mate/teams/13566/ie/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca@valencia\n"
+"Language: ie\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "Obri com a administrador"
+msgstr "Aperter quam un administrator"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Obri el fitxer amb privilegis d'administrador"
+msgstr "Aperter un file con privilegies administrativ"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
@@ -36,9 +35,9 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr ""
-"<big><b>No es pot determinar el programa que s'ha d'executar.</b></big>\n"
+"<big><b>Ne successat determinar quel programma lansar.</b></big>\n"
 "\n"
-"L'element que heu seleccionat no es pot obrir amb privilegis d'administrador perquè no es pot determinar quina és l'aplicació correcta."
+"Li selectet element ne posset esser apertet con privilegies del administrator pro que li apt application ne posse esser determinat."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -46,35 +45,35 @@ msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr "Extensió de concessió de privilegis"
+msgstr "Extension de dar privilegies"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Redimensiona les imatges..."
+msgstr "_Redimensionar images..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Redimensiona cadascuna de les imatges seleccionades"
+msgstr "Redimensionar chascun selectet image"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Gira les ima_tges..."
+msgstr "Ro_tar images..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Gira cadascuna de les imatges seleccionades"
+msgstr "Rotar chascun selectet image"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr "Redimensiona les imatges"
+msgstr "Redimensionar images"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr "<b>Mida de la imatge</b>"
+msgstr "<b>Dimension del image</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr "Selecciona una mida:"
+msgstr "Selecter un dimension:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
@@ -102,151 +101,151 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "píxels"
+msgstr "pixeles"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr "Escala:"
+msgstr "Scale:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr "percentatge"
+msgstr "percent"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr "Mida personalitzada:"
+msgstr "Personal dimension:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr "Amplària:"
+msgstr "Largore:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "Alçària:"
+msgstr "Altore:"
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr "<b>Nom del fitxer</b>"
+msgstr "<b>Fil-nómine</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr "Annexa"
+msgstr "Apender"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ".redimensionada"
+msgstr ".redim"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr "al títol del fitxer"
+msgstr "al nómine"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr "Sobreescriu els fitxers existents amb la seua versió redimensionada"
+msgstr "Redimensionar in li loco"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "_Redimensiona"
+msgstr "_Redimensionar"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "_Omet"
+msgstr "_Omisser"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "_Torna-ho a intentar"
+msgstr "_Repenar"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "S'està redimensionant la imatge %d de %d"
+msgstr "Redimensionante image: %d de %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>S'està redimensionant «%s»</i>"
+msgstr "<i>Redimensionante «%s»</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr "Introduïu un sufix vàlid per al nom del fitxer."
+msgstr "Ples provide un valid suffixe de fil-nómine!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr "Gira les imatges"
+msgstr "Rotar images"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotació de la imatge</b>"
+msgstr "<b>Rotation del image</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr "Selecciona un angle:"
+msgstr "Selecter un angul:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr "Angle personalitzat:"
+msgstr "Angul personal:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr "graus en sentit horari"
+msgstr "gradus a dextri"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ".girada"
+msgstr ".rotat"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr "Sobreescriu els fitxers existents amb la seua versió girada"
+msgstr "Rotar in li loco"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr "_Gira"
+msgstr "_Rotar"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "S'està girant la imatge %d de %d"
+msgstr "Rotante image: %d de %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>S'està girant «%s»</i>"
+msgstr "<i>Rotante «%s»</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
-msgstr "Convertidor d'imatges"
+msgstr "Convertor de images"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
-msgstr "Gira i redimensiona les imatges"
+msgstr "Rotar e redimensionar images"
 
 #: ../open-terminal/caja-open-terminal.c:459
 #: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
-msgstr "Obri al _terminal"
+msgstr "Aperter in li _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
-msgstr "Obri la carpeta seleccionada actualment en un terminal"
+msgstr "Aperter li selectet fólder in un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:463
 #: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
-msgstr "Obri la carpeta oberta actualment en un terminal"
+msgstr "Aperter li actual apertet fólder in un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
-msgstr "Obri un _terminal"
+msgstr "Aperter li _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
-msgstr "Obri un terminal"
+msgstr "Aperter un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
@@ -254,31 +253,29 @@ msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr ""
+msgstr "Application del terminal:"
 
 #: ../open-terminal/caja-open-terminal.c:586
 msgid "Close"
-msgstr "Tanca"
+msgstr "Cluder"
 
 #: ../open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
-msgstr ""
+msgstr "Configuration de open-terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
-msgstr "Obri un terminal"
+msgstr "Aperter un terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
-msgstr "Obri els terminals des de les carpetes"
+msgstr "Aperter terminales ex fólders"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
-"Si l'obertura d'un terminal a l'escriptori obri un terminal al directori de "
-"l'usuari"
+msgstr "Ca aperter un terminal in li hem-fólder in vice del fólder de Pupitre"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -287,112 +284,111 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
-"Si s'estableix a «true», llavors l'obertura d'un terminal a l'escriptori "
-"obrirà un terminal al directori de l'usuari. En cas contrari, s'obrirà al "
-"directori de l'escriptori. Fixeu-vos que la clau és irrellevant si el "
-"directori de l'escriptori és idèntic al directori de l'usuari."
+"Si terminal es apertet sur li Pupitre, in vice de to aperter it in li hem-"
+"fólder. Altrimen, aperter it in li fólder del Pupitre. Remarca que ti-ci "
+"clave ne es efectiv si li fólder del Pupitre es identic al hem-fólder."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr "Envia a..."
+msgstr "In_viar a..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "Envia el fitxer per correu electrònic, missatgeria instantània..."
+msgstr "Inviar per li e-post, missage ínmediat..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "Envia els fitxers per correu electrònic, missatgeria instantània..."
+msgstr "Inviar per li e-post, missage ínmediat..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
-msgstr "Fitxers"
+msgstr "Files"
 
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Espera que es passen com a opcions els URI o els noms dels fitxers\n"
+msgstr "Expecta URIs o fil-nómines a esser passat quam optiones\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "No s'han pogut analitzar les opcions de línia d'ordres: %s\n"
+msgstr "Ne successat analisar parametres de linea de comandes: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr "No s'ha pogut carregar cap connector."
+msgstr "Ne posset chargear quelcunc plugin."
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr "Comproveu la vostra instal·lació"
+msgstr "Ples controlar vor installation"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr "Envia a"
+msgstr "Inviar a"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr "Integra els clients de correu electrònic i del Pidgin"
+msgstr "Integra clientes de e-post e Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "Envia a..."
+msgstr "Inviar a..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "En_via"
+msgstr "_Inviar"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>Destinació</b>"
+msgstr "<b>Destination</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "Envia com _a:"
+msgstr "Inviar _quam:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "E_nvia a:"
+msgstr "Invi_ar a:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>Compressió</b>"
+msgstr "<b>Compression</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "Envia em_paquetat a:"
+msgstr "Inviar _paccat a:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "Correu electrònic"
+msgstr "Post electronic"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr "No s'ha pogut enviar el fitxer"
+msgstr "Ne successat inviar un file"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr "No hi ha connexió amb el servei remot de gajim."
+msgstr "Ne es conexet al servicie lontan de gajim."
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr "No s'ha pogut enviar el fitxer"
+msgstr "Ne posset inviar un file"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr "Falta el destinatari."
+msgstr "Recipiente es mancant."
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr "Destinatari desconegut."
+msgstr "Ínconosset recipiente."
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr "Missatge instantani (Gajim)"
+msgstr "Missage ínmediat (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "CD/DVD nou"
+msgstr "Nov CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
@@ -400,36 +396,34 @@ msgstr "CD/DVD existent"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "Creador de CD o DVD"
+msgstr "Creator de CD/DVD"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr "Missatge instantani (Pidgin)"
+msgstr "Missage ínmediat (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "Discos extraïbles i comparticions"
+msgstr "Removibil discos e partes"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "Servidor de mitjans UPnP"
+msgstr "Medie-servitore UPnP"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
-msgstr "Comparteix"
+msgstr "Partite"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr "Permet compartir ràpidament una carpeta"
+msgstr "Permisse partir un fólder rapidmen"
 
 #: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
-"El Caja necessita afegir alguns permisos a la carpeta «%s» per tal de "
-"compartir-la"
+msgstr "Caja deve adjunter alcun permissiones al fólder «%s» por partir it"
 
 #: ../share/caja-share.c:131
 #, c-format
@@ -437,152 +431,149 @@ msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
-"La carpeta «%s» necessita permisos addicionals per a compartir la faena:\n"
-"%s%s%sVoleu que els permisos s'afigen automàticament?"
+"Li fólder «%s» besona li sequent extra permissiones por esser partit:\n"
+"%s%s%sEsque vu vole que Caja adjunte ti permissiones al fólder automaticmen?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr "  - permisos de lectura per als altres\n"
+msgstr " - permission de letion del altris\n"
 
 #: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr "  - permisos d'escriptura per als altres\n"
+msgstr " - permission de scrition del altris\n"
 
 #: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "  - permisos d'execució per als altres\n"
+msgstr " - permission de execution del altris\n"
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
-msgstr "Afig automàticament els permisos"
+msgstr "Adjunter li permissiones automaticmen"
 
 #: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "No s'han pogut canviar els permisos de la carpeta «%s»"
+msgstr "Ne successat alterar li permissiones del fólder «%s»"
 
 #: ../share/caja-share.c:451
 msgid "Share name is too long"
-msgstr "El nom de la compartició és massa llarg"
+msgstr "Li nómine del partite es tro long"
 
 #: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
-msgstr "El nom de la compartició no pot estar buit"
+msgstr "Li nómine del partite ne posse esser vacui"
 
 #: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "S'ha produït un error en obtindre la informació de la compartició: %s"
+msgstr "Errore evenit obtenente li information pri partite: %s"
 
 #: ../share/caja-share.c:516
 msgid "Another share has the same name"
-msgstr "Una altra compartició té el mateix nom"
+msgstr "Un altri partite have li sam nómine"
 
 #: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
-msgstr "Modifica la _compartició"
+msgstr "Modificar li p_artite"
 
 #: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
-msgstr "Crea la _compartició"
+msgstr "Crear un p_artite"
 
 #: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
-msgstr "S'ha produït un error en obtindre la informació de la compartició"
+msgstr "Un errore evenit obtenente li information pri partition"
 
 #: ../share/caja-share.c:1123
 msgid "Folder Sharing"
-msgstr "Compartició de carpetes"
+msgstr "Partition del fólder"
 
 #: ../share/caja-share.c:1164
 msgid "Sharing Options"
-msgstr "Opcions de compartició"
+msgstr "Partition del fólder"
 
 #: ../share/caja-share.c:1165
 msgid "Share this Folder"
-msgstr "Comparteix aquesta carpeta"
+msgstr "Partir ti-ci folder"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Compartició de carpetes</b></big>"
+msgstr "<big><b>Partition del fólder</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr "_Nom de la compartició:"
+msgstr "_Nómine de partite:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr "Co_mparteix aquesta carpeta"
+msgstr "Partir ti-ci _folder"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "Co_mentari:"
+msgstr "N_ota:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
-"Permet que _altres usuaris creen i suprimisquen fitxers en aquesta carpeta."
+msgstr "Per_misser altris crear e deleter files in ti-ci fólder"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr "Accés de convidats (per a la _gent sense un compte d'usuari)"
+msgstr "Acesse _gast (por tis sin un conto existent)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s va retornar amb el senyal %d"
+msgstr "%s %s %s retornat con signal %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr "%s %s %s va fallar per un motiu desconegut"
+msgstr "%s %s %s ne successat por un ínconosset cause"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "«net usershare» va retornar l'error %d: %s"
+msgstr "'net usershare' retrodat un errore %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "«net usershare» va retornar l'error %d"
+msgstr "'net usershare' retrodat un errore %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "l'eixida de «net usershare» no té una codificació vàlida UTF-8"
+msgstr "li production de 'net usershare' ne es in un codification UTF-8 valid"
 
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "Ha fallat"
+msgstr "Ne successat"
 
 #: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "testparm de Samba va retornar amb el senyal %d"
+msgstr "testparm de Samba retornat con signal %d"
 
 #: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr "testparm de Samba va fallar per un motiu desconegut"
+msgstr "testparm de Samba ne successat por un ínconosset cause"
 
 #: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "testparm de Samba va retornar l'error %d: %s"
+msgstr "testparm de Samba retrodat un errore %d: %s"
 
 #: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "testparm de Samba va retornar l'error %d"
+msgstr "testparm de Samba retrodat un errore %d"
 
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
-"No es pot eliminar la compartició per al camí %s: aquest camí no està "
-"compartit"
+msgstr "Ne successat remover li partite con rute %s: ta rute ne es partit"
 
 #: ../share/shares.c:727
 #, c-format
@@ -590,37 +581,37 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
-"No es pot canviar el camí a una compartició existent; primer elimineu la "
-"compartició antiga i afegiu-ne un de nou"
+"Ne posse modificar li rute de un existent partite; ples remover li anteyan "
+"partite e crear un nov"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr "Estableix com a fons de pantalla"
+msgstr "Assignar quam li Tapete"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr "Estableix la imatge com a l'actual fons de pantalla"
+msgstr "Assignar un image quam li Tapete"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr "Fons de pantalla"
+msgstr "Tapete"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr "Permet establir ràpidament el fons de pantalla"
+msgstr "Permisse plazzar li tapete rapidmen"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr "Etiquetes"
+msgstr "Tags"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr "Etiquetes emmagatzemades als atributs ampliats"
+msgstr ""
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
 msgid "xattr Tags"
-msgstr "Etiquetes xattr"
+msgstr ""
 
 #: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
 msgid "View tags stored in extended attributes"
-msgstr "Visualitza les etiquetes emmagatzemades als atributs ampliats"
+msgstr ""

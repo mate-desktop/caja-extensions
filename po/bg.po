@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Любомир Василев, 2018
-# Elusiv_man <breaker9loc@gmail.com>, 2018
+# breaker loc <breaker9loc@gmail.com>, 2018
 # Замфир Йончев <zamfir.yonchev@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # 

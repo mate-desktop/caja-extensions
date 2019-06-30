@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:586
 msgid "Close"
-msgstr ""
+msgstr "Sluten"
 
 #: ../open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
