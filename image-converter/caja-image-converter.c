@@ -119,7 +119,7 @@ caja_image_converter_get_file_items (CajaMenuProvider *provider,
 			item = caja_menu_item_new ("CajaImageConverter::resize",
 				        _("_Resize Images..."),
 				        _("Resize each selected image"),
-				       "stock_position-size");
+				       NULL);
 			g_signal_connect (item, "activate",
 					  G_CALLBACK (image_resize_callback),
 					  caja_file_info_list_copy (files));
@@ -129,7 +129,7 @@ caja_image_converter_get_file_items (CajaMenuProvider *provider,
 			item = caja_menu_item_new ("CajaImageConverter::rotate",
 				        _("Ro_tate Images..."),
 				        _("Rotate each selected image"),
-				       "stock_rotate");
+				       NULL);
 			g_signal_connect (item, "activate",
 					  G_CALLBACK (image_rotate_callback),
 					  caja_file_info_list_copy (files));
