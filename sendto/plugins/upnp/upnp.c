@@ -206,7 +206,11 @@ init (NstPlugin *plugin)
 		return FALSE;
 	g_free (upload_cmd);
 
+#ifdef HAS_GUPNP_VERSION_1_2
+	context_manager = gupnp_context_manager_create (0);
+#else
 	context_manager = gupnp_context_manager_new (NULL, 0);
+#endif
 	g_assert (context_manager != NULL);
 	g_signal_connect (context_manager, "context-available",
 			  G_CALLBACK (on_context_available), NULL);
