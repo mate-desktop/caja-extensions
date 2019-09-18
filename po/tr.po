@@ -4,10 +4,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# tarakbumba <tarakbumba@gmail.com>, 2018
-# mauron, 2018
-# Mehmet, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# tarakbumba <tarakbumba@gmail.com>, 2019
+# mauron, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Mehmet, 2019
+# Sabri Ünal <yakushabb@gmail.com>, 2019
+# Cenk Yıldızlı <goncagul@national.shitposting.agency>, 2019
+# Butterfly <gokhanlnx@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,8 +18,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-11 14:12+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"PO-Revision-Date: 2019-03-11 12:39+0000\n"
+"Last-Translator: Butterfly <gokhanlnx@gmail.com>, 2019\n"
 "Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +43,7 @@ msgid ""
 msgstr ""
 "<big><b>Çalıştırılacak program tespit edilemedi</b></big>\n"
 "\n"
-"Seçtiğiniz unsur yönetici yetkileriyle açılamaz çünkü doğru uygulama tespit edilemedi."
+"Seçtiğiniz öğe yönetici yetkileriyle açılamaz çünkü doğru uygulama tespit edilemedi."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
@@ -252,11 +255,11 @@ msgstr "Uçbirim aç"
 
 #: ../open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
-msgstr ""
+msgstr " Masaüstünde açmaya çalışırken Ev'de açın. "
 
 #: ../open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr ""
+msgstr "Uçbirim uygulaması:"
 
 #: ../open-terminal/caja-open-terminal.c:586
 msgid "Close"
@@ -264,7 +267,7 @@ msgstr "Kapat"
 
 #: ../open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
-msgstr ""
+msgstr "open-terminal Yapılandırması"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"

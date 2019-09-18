@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kristoffer Grundström <hamnisdude@gmail.com>, 2018
-# Luna Jernberg <bittin@cafe8bitar.se>, 2018
-# Erik, 2018
-# Henrik Mattsson-Mårn <h@reglage.net>, 2018
-# Marcus Larborg, 2018
-# Gaius Anderson, 2018
-# Jonatan Nyberg, 2018
-# Urban Berggren <pudberggren@icloud.com>, 2018
-# Tobias Lekare <lekare@linux.com>, 2018
-# Patrik Nilsson <asavartzeth@gmail.com>, 2018
+# Kristoffer Grundström <hamnisdude@gmail.com>, 2019
+# Luna Jernberg <bittin@cafe8bitar.se>, 2019
+# 6a42dd6e7ca9a813693714b0d9aa1ad8, 2019
+# Henrik Mattsson-Mårn <h@reglage.net>, 2019
+# Patrik Nilsson <asavartzeth@gmail.com>, 2019
+# Marcus Larborg, 2019
+# cb445fb3dfd1fe3c2b9f58ac5638f478, 2019
+# Jonatan Nyberg, 2019
+# 8385e6e60a22e18cd347a1f6e4685fb9, 2019
+# Tobias Lekare <lekare@linux.com>, 2019
 # Philip Andersen <renegadevi@codeofmagi.net>, 2019
 # 
 #, fuzzy
@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-11 14:12+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2019-03-11 12:39+0000\n"
 "Last-Translator: Philip Andersen <renegadevi@codeofmagi.net>, 2019\n"
 "Language-Team: Swedish (https://www.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "pixlar"
+msgstr "bildpunkter"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"

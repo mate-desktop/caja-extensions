@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Jay Patel <jetslimited@gmail.com>, 2019
+# Ольга Смирнова, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,21 +13,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-11 14:12+0100\n"
 "PO-Revision-Date: 2019-03-11 12:39+0000\n"
-"Last-Translator: Jay Patel <jetslimited@gmail.com>, 2019\n"
-"Language-Team: Gujarati (https://www.transifex.com/mate/teams/13566/gu/)\n"
+"Last-Translator: Ольга Смирнова, 2019\n"
+"Language-Team: Interlingue (https://www.transifex.com/mate/teams/13566/ie/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gu\n"
+"Language: ie\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr ""
+msgstr "Aperter quam un administrator"
 
 #: ../gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr ""
+msgstr "Aperter un file con privilegies administrativ"
 
 #: ../gksu/libcaja-gksu.c:223
 msgid ""
@@ -36,214 +35,217 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr ""
+"<big><b>Ne successat determinar quel programma lansar.</b></big>\n"
+"\n"
+"Li selectet element ne posset esser apertet con privilegies del administrator pro que li apt application ne posse esser determinat."
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
 msgid "Gksu"
-msgstr ""
+msgstr "Gksu"
 
 #: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "Extension de dar privilegies"
 
 #: ../image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr ""
+msgstr "_Redimensionar images..."
 
 #: ../image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr ""
+msgstr "Redimensionar chascun selectet image"
 
 #: ../image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "Ro_tar images..."
 
 #: ../image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr ""
+msgstr "Rotar chascun selectet image"
 
 #: ../image-converter/caja-image-resize.ui.h:1
 msgid "Resize Images"
-msgstr ""
+msgstr "Redimensionar images"
 
 #: ../image-converter/caja-image-resize.ui.h:2
 msgid "<b>Image Size</b>"
-msgstr ""
+msgstr "<b>Dimension del image</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:3
 msgid "Select a size:"
-msgstr ""
+msgstr "Selecter un dimension:"
 
 #: ../image-converter/caja-image-resize.ui.h:4
 msgid "96x96"
-msgstr ""
+msgstr "96x96"
 
 #: ../image-converter/caja-image-resize.ui.h:5
 msgid "128x128"
-msgstr ""
+msgstr "128x128"
 
 #: ../image-converter/caja-image-resize.ui.h:6
 msgid "640x480"
-msgstr ""
+msgstr "640x480"
 
 #: ../image-converter/caja-image-resize.ui.h:7
 msgid "800x600"
-msgstr ""
+msgstr "800x600"
 
 #: ../image-converter/caja-image-resize.ui.h:8
 msgid "1024x768"
-msgstr ""
+msgstr "1024x768"
 
 #: ../image-converter/caja-image-resize.ui.h:9
 msgid "1280x960"
-msgstr ""
+msgstr "1280x960"
 
 #: ../image-converter/caja-image-resize.ui.h:10
 msgid "pixels"
-msgstr "પિક્સેલો"
+msgstr "pixeles"
 
 #: ../image-converter/caja-image-resize.ui.h:11
 msgid "Scale:"
-msgstr ""
+msgstr "Scale:"
 
 #: ../image-converter/caja-image-resize.ui.h:12
 msgid "percent"
-msgstr ""
+msgstr "percent"
 
 #: ../image-converter/caja-image-resize.ui.h:13
 msgid "Custom size:"
-msgstr ""
+msgstr "Personal dimension:"
 
 #: ../image-converter/caja-image-resize.ui.h:14
 msgid "Width:"
-msgstr ""
+msgstr "Largore:"
 
 #: ../image-converter/caja-image-resize.ui.h:15
 msgid "Height:"
-msgstr "ઊંચાઈ:"
+msgstr "Altore:"
 
 #: ../image-converter/caja-image-resize.ui.h:16
 #: ../image-converter/caja-image-rotate.ui.h:6
 msgid "<b>Filename</b>"
-msgstr ""
+msgstr "<b>Fil-nómine</b>"
 
 #: ../image-converter/caja-image-resize.ui.h:17
 #: ../image-converter/caja-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "Apender"
 
 #: ../image-converter/caja-image-resize.ui.h:18
 msgid ".resized"
-msgstr ""
+msgstr ".redim"
 
 #: ../image-converter/caja-image-resize.ui.h:19
 #: ../image-converter/caja-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "al nómine"
 
 #: ../image-converter/caja-image-resize.ui.h:20
 msgid "Resize in place"
-msgstr ""
+msgstr "Redimensionar in li loco"
 
 #: ../image-converter/caja-image-resize.ui.h:21
 msgid "_Resize"
-msgstr "માપ બદલો (_R)"
+msgstr "_Redimensionar"
 
 #: ../image-converter/caja-image-resizer.c:211
 #: ../image-converter/caja-image-rotator.c:208
 msgid "_Skip"
-msgstr "છોડી દો (_S)"
+msgstr "_Omisser"
 
 #: ../image-converter/caja-image-resizer.c:213
 #: ../image-converter/caja-image-rotator.c:210
 msgid "_Retry"
-msgstr "પુનઃપ્રયાસ કરો (_R)"
+msgstr "_Repenar"
 
 #: ../image-converter/caja-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Redimensionante image: %d de %d"
 
 #: ../image-converter/caja-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Redimensionante «%s»</i>"
 
 #: ../image-converter/caja-image-resizer.c:314
 #: ../image-converter/caja-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Ples provide un valid suffixe de fil-nómine!"
 
 #: ../image-converter/caja-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr ""
+msgstr "Rotar images"
 
 #: ../image-converter/caja-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr ""
+msgstr "<b>Rotation del image</b>"
 
 #: ../image-converter/caja-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr ""
+msgstr "Selecter un angul:"
 
 #: ../image-converter/caja-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr ""
+msgstr "Angul personal:"
 
 #: ../image-converter/caja-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr ""
+msgstr "gradus a dextri"
 
 #: ../image-converter/caja-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr ".rotat"
 
 #: ../image-converter/caja-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "Rotar in li loco"
 
 #: ../image-converter/caja-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr ""
+msgstr "_Rotar"
 
 #: ../image-converter/caja-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr ""
+msgstr "Rotante image: %d de %d"
 
 #: ../image-converter/caja-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr ""
+msgstr "<i>Rotante «%s»</i>"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
 msgid "Image Converter"
-msgstr ""
+msgstr "Convertor de images"
 
 #: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "Rotar e redimensionar images"
 
 #: ../open-terminal/caja-open-terminal.c:459
 #: ../open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Aperter in li _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
-msgstr "વર્તમાનમાં પસંદ કરેલ ફોલ્ડર ટર્મિનલમાં ખોલો"
+msgstr "Aperter li selectet fólder in un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:463
 #: ../open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
-msgstr "વર્તમાનમાં ખોલેલ ફોલ્ડર ટર્મિનલમાં ખોલો"
+msgstr "Aperter li actual apertet fólder in un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
-msgstr "ટર્મિનલ ખોલો (_T)"
+msgstr "Aperter li _Terminal"
 
 #: ../open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
-msgstr "ટર્મિનલ ખોલો"
+msgstr "Aperter un terminal"
 
 #: ../open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
@@ -251,29 +253,29 @@ msgstr ""
 
 #: ../open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr ""
+msgstr "Application del terminal:"
 
 #: ../open-terminal/caja-open-terminal.c:586
 msgid "Close"
-msgstr "બંધ કરો"
+msgstr "Cluder"
 
 #: ../open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
-msgstr ""
+msgstr "Configuration de open-terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
 msgid "Open terminal"
-msgstr ""
+msgstr "Aperter un terminal"
 
 #: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
 msgid "Open terminals from folders"
-msgstr ""
+msgstr "Aperter terminales ex fólders"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Ca aperter un terminal in li hem-fólder in vice del fólder de Pupitre"
 
 #: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
 msgid ""
@@ -282,143 +284,146 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
+"Si terminal es apertet sur li Pupitre, in vice de to aperter it in li hem-"
+"fólder. Altrimen, aperter it in li fólder del Pupitre. Remarca que ti-ci "
+"clave ne es efectiv si li fólder del Pupitre es identic al hem-fólder."
 
 #: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
 msgid "Send to..."
-msgstr ""
+msgstr "In_viar a..."
 
 #: ../sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
-msgstr "મેઇલ દ્રારા ફાઇલને મોકલો, તત્કાલ સંદેશ..."
+msgstr "Inviar per li e-post, missage ínmediat..."
 
 #: ../sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
-msgstr "મેઇલ દ્દારા ફાઇલોને મોકલો, તત્કાલ સંદેશ..."
+msgstr "Inviar per li e-post, missage ínmediat..."
 
 #: ../sendto/caja-sendto-command.c:578
 msgid "Files"
-msgstr "ફાઇલો"
+msgstr "Files"
 
 #: ../sendto/caja-sendto-command.c:790
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "વિકલ્પો તરીકે પસાર કરવા માટે URIs અથવા ફાઇલનામો આશા રાખે છે\n"
+msgstr "Expecta URIs o fil-nómines a esser passat quam optiones\n"
 
 #: ../sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "આદેશ-વાક્ય વિકલ્પોને પદચ્છેદન કરી શકાયુ નહિં: %s\n"
+msgstr "Ne successat analisar parametres de linea de comandes: %s\n"
 
 #: ../sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
-msgstr "કોઇપણ પ્લગઇનોને લોડ કરી શકાયુ નહિં."
+msgstr "Ne posset chargear quelcunc plugin."
 
 #: ../sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
-msgstr "મહેરબાની કરીને તમારા સ્થાપનને ચકાસો"
+msgstr "Ples controlar vor installation"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
 msgid "Send To"
-msgstr ""
+msgstr "Inviar a"
 
 #: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Integra clientes de e-post e Pidgin"
 
 #: ../sendto/caja-sendto.ui.h:1
 msgid "Send To..."
-msgstr "માં મોકલો..."
+msgstr "Inviar a..."
 
 #: ../sendto/caja-sendto.ui.h:2
 msgid "_Send"
-msgstr "મોકલો (_S)"
+msgstr "_Inviar"
 
 #: ../sendto/caja-sendto.ui.h:3
 msgid "<b>Destination</b>"
-msgstr "<b>લક્ષ્ય</b>"
+msgstr "<b>Destination</b>"
 
 #: ../sendto/caja-sendto.ui.h:4
 msgid "Send _as:"
-msgstr "આ તરીકે મોકલો (_a):"
+msgstr "Inviar _quam:"
 
 #: ../sendto/caja-sendto.ui.h:5
 msgid "Send t_o:"
-msgstr "માં મોકલો (_o):"
+msgstr "Invi_ar a:"
 
 #: ../sendto/caja-sendto.ui.h:6
 msgid "<b>Compression</b>"
-msgstr "<b>સંકોચાવુ</b>"
+msgstr "<b>Compression</b>"
 
 #: ../sendto/caja-sendto.ui.h:7
 msgid "Send _packed in:"
-msgstr "માં પેક થયેલ ને મોકલો (_p):"
+msgstr "Inviar _paccat a:"
 
 #: ../sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "ઇમેઇલ"
+msgstr "Post electronic"
 
 #: ../sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr "ફાઇલને મોકલવાનું અસમર્થ"
+msgstr "Ne successat inviar un file"
 
 #: ../sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr "gajim દૂરસ્થ સેવાને જોડાણ નથી."
+msgstr "Ne es conexet al servicie lontan de gajim."
 
 #: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr "ફાઇલને મોકલવામાં નિષ્ફળ"
+msgstr "Ne posset inviar un file"
 
 #: ../sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr "પ્રાપ્તકર્તા ગુમ થયેલ છે."
+msgstr "Recipiente es mancant."
 
 #: ../sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr "અજ્ઞાત પ્રાપ્તકર્તા."
+msgstr "Ínconosset recipiente."
 
 #: ../sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr "Instant Message (Gajim)"
+msgstr "Missage ínmediat (Gajim)"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
-msgstr "નવું CD/DVD"
+msgstr "Nov CD/DVD"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
-msgstr "હાલની CD/DVD"
+msgstr "CD/DVD existent"
 
 #: ../sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "CD/DVD બનાવનાર"
+msgstr "Creator de CD/DVD"
 
 #: ../sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr "Instant Message (Pidgin)"
+msgstr "Missage ínmediat (Pidgin)"
 
 #: ../sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
-msgstr "દૂર કરી શકાય તેવી ડિસ્કો અને હિસ્સાઓ"
+msgstr "Removibil discos e partes"
 
 #: ../sendto/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr "UPnP મીડિયા સર્વર"
+msgstr "Medie-servitore UPnP"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
 msgid "Share"
-msgstr "વહેંચો"
+msgstr "Partite"
 
 #: ../share/libcaja-share.caja-extension.in.in.h:2
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "Permisse partir un fólder rapidmen"
 
 #: ../share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "Caja deve adjunter alcun permissiones al fólder «%s» por partir it"
 
 #: ../share/caja-share.c:131
 #, c-format
@@ -426,147 +431,149 @@ msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
+"Li fólder «%s» besona li sequent extra permissiones por esser partit:\n"
+"%s%s%sEsque vu vole que Caja adjunte ti permissiones al fólder automaticmen?"
 
 #: ../share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr " - permission de letion del altris\n"
 
 #: ../share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr " - permission de scrition del altris\n"
 
 #: ../share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr " - permission de execution del altris\n"
 
 #: ../share/caja-share.c:141
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "Adjunter li permissiones automaticmen"
 
 #: ../share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr ""
+msgstr "Ne successat alterar li permissiones del fólder «%s»"
 
 #: ../share/caja-share.c:451
 msgid "Share name is too long"
-msgstr ""
+msgstr "Li nómine del partite es tro long"
 
 #: ../share/caja-share.c:493
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "Li nómine del partite ne posse esser vacui"
 
 #: ../share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Errore evenit obtenente li information pri partite: %s"
 
 #: ../share/caja-share.c:516
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Un altri partite have li sam nómine"
 
 #: ../share/caja-share.c:563 ../share/caja-share.c:799
 msgid "Modify _Share"
-msgstr ""
+msgstr "Modificar li p_artite"
 
 #: ../share/caja-share.c:563 ../share/caja-share.c:801
 msgid "Create _Share"
-msgstr ""
+msgstr "Crear un p_artite"
 
 #: ../share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Un errore evenit obtenente li information pri partition"
 
 #: ../share/caja-share.c:1123
 msgid "Folder Sharing"
-msgstr ""
+msgstr "Partition del fólder"
 
 #: ../share/caja-share.c:1164
 msgid "Sharing Options"
-msgstr ""
+msgstr "Partition del fólder"
 
 #: ../share/caja-share.c:1165
 msgid "Share this Folder"
-msgstr ""
+msgstr "Partir ti-ci folder"
 
 #: ../share/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Partition del fólder</b></big>"
 
 #: ../share/share-dialog.ui.h:2
 msgid "Share _name:"
-msgstr ""
+msgstr "_Nómine de partite:"
 
 #: ../share/share-dialog.ui.h:3
 msgid "Share this _folder"
-msgstr ""
+msgstr "Partir ti-ci _folder"
 
 #: ../share/share-dialog.ui.h:4
 msgid "Co_mment:"
-msgstr "ટિપ્પણી (_m):"
+msgstr "N_ota:"
 
 #: ../share/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "Per_misser altris crear e deleter files in ti-ci fólder"
 
 #: ../share/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "Acesse _gast (por tis sin un conto existent)"
 
 #: ../share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s retornat con signal %d"
 
 #: ../share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s ne successat por un ínconosset cause"
 
 #: ../share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' retrodat un errore %d: %s"
 
 #: ../share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' retrodat un errore %d"
 
 #: ../share/shares.c:185
 #, c-format
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "li production de 'net usershare' ne es in un codification UTF-8 valid"
 
 #: ../share/shares.c:439 ../share/shares.c:613
 #, c-format
 msgid "Failed"
-msgstr "નિષ્ફળ"
+msgstr "Ne successat"
 
 #: ../share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "testparm de Samba retornat con signal %d"
 
 #: ../share/shares.c:553
 #, c-format
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "testparm de Samba ne successat por un ínconosset cause"
 
 #: ../share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "testparm de Samba retrodat un errore %d: %s"
 
 #: ../share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "testparm de Samba retrodat un errore %d"
 
 #: ../share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
+msgstr "Ne successat remover li partite con rute %s: ta rute ne es partit"
 
 #: ../share/shares.c:727
 #, c-format
@@ -574,26 +581,28 @@ msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
+"Ne posse modificar li rute de un existent partite; ples remover li anteyan "
+"partite e crear un nov"
 
 #: ../wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "Assignar quam li Tapete"
 
 #: ../wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr ""
+msgstr "Assignar un image quam li Tapete"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Tapete"
 
 #: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Permisse plazzar li tapete rapidmen"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr "નિશાનીઓ"
+msgstr "Tags"
 
 #: ../xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
