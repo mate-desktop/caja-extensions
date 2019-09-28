@@ -3,6 +3,6 @@ Icon=system
 _Name=Gksu
 _Description=Privilege granting extension
 Author=Gustavo Noronha Silva
-Copyright=Copyright (C) 2002-2005 Gustavo Noronha Silva
+_Copyright=Copyright (C) 2002-2005 Gustavo Noronha Silva
 Version=@VERSION@
 Website=https://mate-desktop.org/
