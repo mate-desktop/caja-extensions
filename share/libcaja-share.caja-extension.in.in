@@ -3,6 +3,6 @@ Icon=folder-remote
 _Name=Share
 _Description=Allows to quickly share a folder
 Author=Sebastien Estienne <sebastien.estienne@gmail.com>
-Copyright=Copyright 2005 Ethium, Inc.
+_Copyright=Copyright (C) 2005 Ethium, Inc.
 Version=@VERSION@
 Website=https://mate-desktop.org/
