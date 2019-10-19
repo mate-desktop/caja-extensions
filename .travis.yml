@@ -59,11 +59,9 @@ requires:
     - libdbus-1-dev
     - libdbus-glib-1-dev
     - libdconf-dev
-    - libgail-3-dev # for caja build
     - libgtk-3-dev
     - libgupnp-1.0-dev
     - libmate-desktop-dev
-    - libnotify-dev # for caja build
     - libstartup-notification0-dev
     - make
     - mate-common
@@ -79,8 +77,6 @@ requires:
     - git
     - gtk3-devel
     - gupnp-devel
-    - libSM-devel #for caja build
-    - libnotify-devel # for caja build
     - make
     - mate-common
     - mate-desktop-devel
@@ -92,11 +88,9 @@ requires:
     - libdbus-1-dev
     - libdbus-glib-1-dev
     - libdconf-dev
-    - libgail-3-dev # for caja build
     - libgtk-3-dev
     - libgupnp-1.0-dev
     - libmate-desktop-dev
-    - libnotify-dev # for caja build
     - libstartup-notification0-dev
     - make
     - mate-common
@@ -104,24 +98,6 @@ requires:
 
 variables:
   - CFLAGS="-Wall -Werror=format-security"
-
-before_scripts:
-  - cd ${START_DIR}
-  - if [ ! -f caja-1.21.4.tar.xz ];then
-  -     curl -Ls -o caja-1.21.4.tar.xz http://pub.mate-desktop.org/releases/1.21/caja-1.21.4.tar.xz
-  - fi
-  - tar xf caja-1.21.4.tar.xz
-  - cd caja-1.21.4
-  - if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
-  -     ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
-  - else
-  -     ./configure --prefix=/usr
-  - fi
-  - if [ ${TRAVIS} == "false" ]; then
-  -     make clean
-  - fi
-  - make
-  - make install
 
 after_scripts:
   - make distcheck
