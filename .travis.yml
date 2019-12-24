@@ -71,7 +71,6 @@ requires:
     - git
     - gupnp
     - imagemagick
-    - intltool
     - make
     - mate-common
     - python
@@ -81,6 +80,7 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/caja-extensions
+    - autopoint
     - clang
     - clang-tools
     - cppcheck
@@ -117,6 +117,7 @@ requires:
     - redhat-rpm-config
 
   ubuntu:
+    - autopoint
     - clang
     - clang-tools
     - git
