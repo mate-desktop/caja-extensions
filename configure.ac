@@ -306,22 +306,25 @@ fi
 AC_MSG_NOTICE([Installing caja plugins in ${ac_with_cajadir}])
 AC_SUBST([CAJA_EXTENSION_DIR],[${ac_with_cajadir}])
 
-# intltool stuff
-IT_PROG_INTLTOOL(0.18)
+# gettext
+AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_GNU_GETTEXT([external])
+
 GETTEXT_PACKAGE=caja-extensions
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [gettext package])
-AM_GLIB_GNU_GETTEXT
 
 AC_OUTPUT([
   Makefile
-  gksu/libcaja-gksu.caja-extension.in
+  sendto/org.mate.Caja.Sendto.gschema.xml
+  open-terminal/org.mate.caja-open-terminal.gschema.xml
+  gksu/libcaja-gksu.caja-extension.desktop.in
   gksu/Makefile
-  image-converter/libcaja-image-converter.caja-extension.in
+  image-converter/libcaja-image-converter.caja-extension.desktop.in
   image-converter/Makefile
-  open-terminal/libcaja-open-terminal.caja-extension.in
+  open-terminal/libcaja-open-terminal.caja-extension.desktop.in
   open-terminal/Makefile
-  sendto/libcaja-sendto.caja-extension.in
+  sendto/libcaja-sendto.caja-extension.desktop.in
   sendto/Makefile
   sendto/caja-sendto.pc
   sendto/docs/Makefile
@@ -333,11 +336,11 @@ AC_OUTPUT([
   sendto/plugins/pidgin/Makefile
   sendto/plugins/removable-devices/Makefile
   sendto/plugins/upnp/Makefile
-  share/libcaja-share.caja-extension.in
+  share/libcaja-share.caja-extension.desktop.in
   share/Makefile
-  wallpaper/libcaja-wallpaper.caja-extension.in
+  wallpaper/libcaja-wallpaper.caja-extension.desktop.in
   wallpaper/Makefile
-  xattr-tags/libcaja-xattr-tags.caja-extension.in
+  xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in
   xattr-tags/Makefile
   po/Makefile.in
 ])

@@ -30,17 +30,9 @@ if ENABLE_XATTR_TAGS
 SUBDIRS += xattr-tags
 endif
 
-EXTRA_DIST = \
-	autogen.sh \
-	intltool-extract.in \
-	intltool-update.in \
-	intltool-merge.in
+EXTRA_DIST = autogen.sh
 
-DISTCLEANFILES = \
-	intltool-extract \
-	intltool-update \
-	intltool-merge \
-	po/.intltool-merge-cache
+DISTCLEANFILES =
 
 DISTCHECK_CONFIGURE_FLAGS =   \
 	--enable-gtk-doc \

@@ -1,0 +1,9 @@
+[Caja Extension]
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=desktop
+Name=xattr Tags
+Description=View tags stored in extended attributes
+Author=Felipe Barriga Richards
+Copyright=Copyright (C) 2016 Felipe Barriga Richards
+Version=@VERSION@
+Website=https://mate-desktop.org/

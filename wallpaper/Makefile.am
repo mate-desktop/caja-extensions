@@ -12,8 +12,9 @@ libcaja_wallpaper_la_LDFLAGS = -module -avoid-version
 libcaja_wallpaper_la_LIBADD = $(CAJA_LIBS)
 
 extensiondir = $(datadir)/caja/extensions
-extension_in_files = libcaja-wallpaper.caja-extension.in
-extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
-%.caja-extension: %.caja-extension.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(AM_V_GEN) LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)/po/.intltool-merge-cache $(top_srcdir)/po $< $@
+extension_in_files = libcaja-wallpaper.caja-extension.desktop.in
+extension_DATA = $(extension_in_files:.caja-extension.desktop.in=.caja-extension)
+$(extension_DATA): $(extension_in_files)
+	$(AM_V_GEN) $(MSGFMT) --desktop --keyword=Copyright --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
 CLEANFILES = $(extension_DATA)
