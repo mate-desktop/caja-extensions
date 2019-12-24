@@ -1,0 +1,9 @@
+[Caja Extension]
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=mail-send
+Name=Send To
+Description=Integrates email clients and Pidgin
+Author=Roberto Majadas <roberto.majadas@openshine.com>
+Copyright=Copyright (C) 2004 Roberto Majadas
+Version=@VERSION@
+Website=https://mate-desktop.org/

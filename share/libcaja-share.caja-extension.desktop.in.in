@@ -1,0 +1,9 @@
+[Caja Extension]
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=folder-remote
+Name=Share
+Description=Allows to quickly share a folder
+Author=Sebastien Estienne <sebastien.estienne@gmail.com>
+Copyright=Copyright (C) 2005 Ethium, Inc.
+Version=@VERSION@
+Website=https://mate-desktop.org/

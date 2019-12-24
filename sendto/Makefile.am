@@ -70,15 +70,15 @@ nst-enum-types.c: $(nst_headers_to_scan_for_enums) Makefile nst-enum-types.h
 
 gsettingsschema_in_files = org.mate.Caja.Sendto.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
-@INTLTOOL_XML_NOMERGE_RULE@
 @GSETTINGS_RULES@
 
 man_MANS = caja-sendto.1
 
 extensiondir = $(datadir)/caja/extensions
-extension_in_files = libcaja-sendto.caja-extension.in
-extension_DATA = $(extension_in_files:.caja-extension.in=.caja-extension)
-%.caja-extension: %.caja-extension.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)/po/*.po) ; $(AM_V_GEN) LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)/po/.intltool-merge-cache $(top_srcdir)/po $< $@
+extension_in_files = libcaja-sendto.caja-extension.desktop.in
+extension_DATA = $(extension_in_files:.caja-extension.desktop.in=.caja-extension)
+$(extension_DATA): $(extension_in_files)
+	$(AM_V_GEN) $(MSGFMT) --desktop --keyword=Copyright --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST = \
 	$(ui_DATA) \
@@ -90,4 +90,5 @@ CLEANFILES = \
 	$(nst_built_headers) \
 	$(nst_built_cfiles) \
 	$(gsettings_SCHEMAS) \
-	$(extension_DATA)
+	$(extension_DATA)	\
+	*.gschema.valid
