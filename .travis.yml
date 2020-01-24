@@ -60,7 +60,7 @@ requires:
     - libdbus-glib-1-dev
     - libdconf-dev
     - libgtk-3-dev
-    - libgupnp-1.0-dev
+    - libgupnp-1.2-dev
     - libmate-desktop-dev
     - libstartup-notification0-dev
     - make
