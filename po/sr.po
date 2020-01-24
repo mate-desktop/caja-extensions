@@ -1,19 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the caja-extensions package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2018
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"Project-Id-Version: caja-extensions 1.23.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
+"POT-Creation-Date: 2019-12-24 15:05+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2018\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2019\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +20,15 @@ msgstr ""
 "Language: sr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../gksu/libcaja-gksu.c:135
+#: gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
 msgstr "Отвори као администратор"
 
-#: ../gksu/libcaja-gksu.c:136
+#: gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
 msgstr "Отворите датотеку са овлашћењима администратора"
 
-#: ../gksu/libcaja-gksu.c:223
+#: gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -39,239 +38,270 @@ msgstr ""
 "\n"
 "Ставка коју сте изабрали не може бити отворена са администраторским овлашћењима зато што одговарајући програм не може бити одређен."
 
-#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
+msgid "system"
+msgstr ""
+
+#: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
 msgstr "Гксу"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
+#: gksu/libcaja-gksu.caja-extension.desktop.in.in:6
 msgid "Privilege granting extension"
 msgstr "Проширење које обезбеђује овлашћења"
 
-#: ../image-converter/caja-image-converter.c:120
+#: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
+msgstr ""
+
+#: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
 msgstr "_Промени величину слика..."
 
-#: ../image-converter/caja-image-converter.c:121
+#: image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
 msgstr "Промените величину сваке изабране слике"
 
-#: ../image-converter/caja-image-converter.c:130
+#: image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
 msgstr "_Окрени слике..."
 
-#: ../image-converter/caja-image-converter.c:131
+#: image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
 msgstr "Окрените сваку изабрану слику"
 
-#: ../image-converter/caja-image-resize.ui.h:1
+#: image-converter/caja-image-resize.ui:55
 msgid "Resize Images"
 msgstr "Промените величину сликама"
 
-#: ../image-converter/caja-image-resize.ui.h:2
+#: image-converter/caja-image-resize.ui:73
 msgid "<b>Image Size</b>"
 msgstr "<b>Величина слике</b>"
 
-#: ../image-converter/caja-image-resize.ui.h:3
+#: image-converter/caja-image-resize.ui:110
 msgid "Select a size:"
 msgstr "Изаберите величину:"
 
-#: ../image-converter/caja-image-resize.ui.h:4
+#: image-converter/caja-image-resize.ui:131
 msgid "96x96"
 msgstr "96x96"
 
-#: ../image-converter/caja-image-resize.ui.h:5
+#: image-converter/caja-image-resize.ui:132
 msgid "128x128"
 msgstr "128x128"
 
-#: ../image-converter/caja-image-resize.ui.h:6
+#: image-converter/caja-image-resize.ui:133
 msgid "640x480"
 msgstr "640x480"
 
-#: ../image-converter/caja-image-resize.ui.h:7
+#: image-converter/caja-image-resize.ui:134
 msgid "800x600"
 msgstr "800x600"
 
-#: ../image-converter/caja-image-resize.ui.h:8
+#: image-converter/caja-image-resize.ui:135
 msgid "1024x768"
 msgstr "1024x768"
 
-#: ../image-converter/caja-image-resize.ui.h:9
+#: image-converter/caja-image-resize.ui:136
 msgid "1280x960"
 msgstr "1280x960"
 
-#: ../image-converter/caja-image-resize.ui.h:10
+#: image-converter/caja-image-resize.ui:155
+#: image-converter/caja-image-resize.ui:301
 msgid "pixels"
 msgstr "тачкица"
 
-#: ../image-converter/caja-image-resize.ui.h:11
+#: image-converter/caja-image-resize.ui:177
 msgid "Scale:"
 msgstr "Размера:"
 
-#: ../image-converter/caja-image-resize.ui.h:12
+#: image-converter/caja-image-resize.ui:210
 msgid "percent"
 msgstr "процената"
 
-#: ../image-converter/caja-image-resize.ui.h:13
+#: image-converter/caja-image-resize.ui:232
 msgid "Custom size:"
 msgstr "Произвољна величина:"
 
-#: ../image-converter/caja-image-resize.ui.h:14
+#: image-converter/caja-image-resize.ui:251
 msgid "Width:"
 msgstr "Ширина:"
 
-#: ../image-converter/caja-image-resize.ui.h:15
+#: image-converter/caja-image-resize.ui:276
 msgid "Height:"
 msgstr "Висина:"
 
-#: ../image-converter/caja-image-resize.ui.h:16
-#: ../image-converter/caja-image-rotate.ui.h:6
+#: image-converter/caja-image-resize.ui:335
+#: image-converter/caja-image-rotate.ui:172
 msgid "<b>Filename</b>"
 msgstr "<b>Назив датотеке</b>"
 
-#: ../image-converter/caja-image-resize.ui.h:17
-#: ../image-converter/caja-image-rotate.ui.h:7
+#: image-converter/caja-image-resize.ui:372
+#: image-converter/caja-image-rotate.ui:206
 msgid "Append"
 msgstr "Додај"
 
-#: ../image-converter/caja-image-resize.ui.h:18
+#: image-converter/caja-image-resize.ui:390
 msgid ".resized"
 msgstr ".resized"
 
-#: ../image-converter/caja-image-resize.ui.h:19
-#: ../image-converter/caja-image-rotate.ui.h:9
+#: image-converter/caja-image-resize.ui:402
+#: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
 msgstr "на назив датотеке"
 
-#: ../image-converter/caja-image-resize.ui.h:20
+#: image-converter/caja-image-resize.ui:419
 msgid "Resize in place"
 msgstr "Промените величину на месту"
 
-#: ../image-converter/caja-image-resize.ui.h:21
+#: image-converter/caja-image-resize.ui:478
 msgid "_Resize"
 msgstr "_Промени величину"
 
-#: ../image-converter/caja-image-resizer.c:211
-#: ../image-converter/caja-image-rotator.c:208
+#: image-converter/caja-image-resizer.c:207
+#: image-converter/caja-image-rotator.c:204
 msgid "_Skip"
 msgstr "_Прескочи"
 
-#: ../image-converter/caja-image-resizer.c:213
-#: ../image-converter/caja-image-rotator.c:210
+#: image-converter/caja-image-resizer.c:209
+#: image-converter/caja-image-rotator.c:206
 msgid "_Retry"
 msgstr "_Пробај поново"
 
-#: ../image-converter/caja-image-resizer.c:291
+#: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "Мењам величину слике: %d од %d"
 
-#: ../image-converter/caja-image-resizer.c:296
+#: image-converter/caja-image-resizer.c:292
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>Мењам величину „%s“</i>"
 
-#: ../image-converter/caja-image-resizer.c:314
-#: ../image-converter/caja-image-rotator.c:313
+#: image-converter/caja-image-resizer.c:310
+#: image-converter/caja-image-rotator.c:309
 msgid "Please enter a valid filename suffix!"
 msgstr "Унесите исправан суфикс назива датотеке!"
 
-#: ../image-converter/caja-image-rotate.ui.h:1
+#: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
 msgstr "Окрените слике"
 
-#: ../image-converter/caja-image-rotate.ui.h:2
+#: image-converter/caja-image-rotate.ui:46
 msgid "<b>Image Rotation</b>"
 msgstr "<b>Окретање слике</b>"
 
-#: ../image-converter/caja-image-rotate.ui.h:3
+#: image-converter/caja-image-rotate.ui:79
 msgid "Select an angle:"
 msgstr "Изаберите угао:"
 
-#: ../image-converter/caja-image-rotate.ui.h:4
+#: image-converter/caja-image-rotate.ui:117
 msgid "Custom angle:"
 msgstr "Произвољни угао:"
 
-#: ../image-converter/caja-image-rotate.ui.h:5
+#: image-converter/caja-image-rotate.ui:143
 msgid "degrees clockwise"
 msgstr "степена у смеру казаљке на сату"
 
-#: ../image-converter/caja-image-rotate.ui.h:8
+#: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
 msgstr ".rotated"
 
-#: ../image-converter/caja-image-rotate.ui.h:10
+#: image-converter/caja-image-rotate.ui:242
 msgid "Rotate in place"
 msgstr "Окрените на месту"
 
-#: ../image-converter/caja-image-rotate.ui.h:11
+#: image-converter/caja-image-rotate.ui:288
 msgid "_Rotate"
 msgstr "_Окрени"
 
-#: ../image-converter/caja-image-rotator.c:290
+#: image-converter/caja-image-rotator.c:286
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Окрећем слику: %d од %d"
 
-#: ../image-converter/caja-image-rotator.c:295
+#: image-converter/caja-image-rotator.c:291
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Окрећем „%s“</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
+msgid "image"
+msgstr ""
+
+#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
 msgstr "Претварач слика"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
+#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:6
 msgid "Rotate and resize images"
 msgstr "Окрените и промените величину сликама"
 
-#: ../open-terminal/caja-open-terminal.c:459
-#: ../open-terminal/caja-open-terminal.c:472
+#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2004-2005 Jürg Billeter"
+msgstr ""
+
+#: open-terminal/caja-open-terminal.c:459
+#: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Отвори у _терминалу"
 
-#: ../open-terminal/caja-open-terminal.c:461
+#: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Отворите тренутно изабрану фасциклу у терминалу"
 
-#: ../open-terminal/caja-open-terminal.c:463
-#: ../open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:463
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Отворите тренутно отворену фасциклу у терминалу"
 
-#: ../open-terminal/caja-open-terminal.c:469
+#: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Отвори _терминал"
 
-#: ../open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Отворите терминал"
 
-#: ../open-terminal/caja-open-terminal.c:563
+#: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:566
+#: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:586
+#: open-terminal/caja-open-terminal.c:586
 msgid "Close"
 msgstr "Затвори"
 
-#: ../open-terminal/caja-open-terminal.c:592
+#: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
 msgstr ""
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
+msgid "terminal"
+msgstr ""
+
+#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr "Отворите терминал"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
+#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:6
 msgid "Open terminals from folders"
 msgstr "Отворите терминале из фасцикли"
 
-#: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
+#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
+msgstr ""
+
+#: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
@@ -279,7 +309,7 @@ msgstr ""
 "Да ли отварање терминала на радној површи отвара терминал у личном "
 "директоријуму"
 
-#: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
+#: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:6
 msgid ""
 "If set to true, then opening a terminal on the desktop will open a terminal "
 "in the home directory. Otherwise, it will be opened in the desktop "
@@ -291,137 +321,180 @@ msgstr ""
 "површи. Знајте да је овај кључ небитан ако је директоријум радне површи исти"
 " као и лични директоријум."
 
-#: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
+#: sendto/caja-nste.c:78 sendto/caja-nste.c:83
 msgid "Send to..."
 msgstr "Пошаљи..."
 
-#: ../sendto/caja-nste.c:79
+#: sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
 msgstr "Пошаљи датотеку ел. поштом, брзом поруком..."
 
-#: ../sendto/caja-nste.c:84
+#: sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
 msgstr "Пошаљите датотеке ел. поштом, брзим порукама..."
 
-#: ../sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "Датотеке"
 
-#: ../sendto/caja-sendto-command.c:790
-#, c-format
+#: sendto/caja-sendto-command.c:790
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Очекујем да путање или називи датотека буду прослеђени као опције\n"
 
-#: ../sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Не могу да обрадим опције линије наредби: %s\n"
 
-#: ../sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "Не могу да учитам ниједан прикључак."
 
-#: ../sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "Проверите вашу инсталацију"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
+msgid "mail-send"
+msgstr ""
+
+#: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
 msgstr "Пошаљи"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
+#: sendto/libcaja-sendto.caja-extension.desktop.in.in:6
 msgid "Integrates email clients and Pidgin"
 msgstr "Обједињује програме ел. поште и Голупка"
 
-#: ../sendto/caja-sendto.ui.h:1
+#: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2004 Roberto Majadas"
+msgstr ""
+
+#: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
+msgid "Last plugin used to send"
+msgstr "Последњи прикључак коришћен за слање"
+
+#: sendto/org.mate.Caja.Sendto.gschema.xml.in:7
+msgid ""
+"Used to store which plugin was used the last time files were sent using "
+"caja-sendto."
+msgstr ""
+"Који прикључак је био коришћен последњи пут за слање датотека помоћу „caja-"
+"sendto“."
+
+#: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
+msgid "Last type of archive used"
+msgstr "Последња коришћена врста архиве"
+
+#: sendto/org.mate.Caja.Sendto.gschema.xml.in:15
+msgid ""
+"Used to store which type of archive was used the last time (0: zip, 1: "
+"tar.gz, 2: tar.bz2)."
+msgstr ""
+"Која врста архиве је била коришћена последњи пут (0: zip, 1: tar.gz, 2: "
+"tar.bz2)."
+
+#: sendto/caja-sendto.ui:24
 msgid "Send To..."
 msgstr "Пошаљи..."
 
-#: ../sendto/caja-sendto.ui.h:2
+#: sendto/caja-sendto.ui:100
 msgid "_Send"
 msgstr "_Пошаљи"
 
-#: ../sendto/caja-sendto.ui.h:3
+#: sendto/caja-sendto.ui:149
 msgid "<b>Destination</b>"
 msgstr "<b>Одредиште</b>"
 
-#: ../sendto/caja-sendto.ui.h:4
+#: sendto/caja-sendto.ui:192
 msgid "Send _as:"
 msgstr "Пошаљи _као:"
 
-#: ../sendto/caja-sendto.ui.h:5
+#: sendto/caja-sendto.ui:234
 msgid "Send t_o:"
 msgstr "Пошаљи _на:"
 
-#: ../sendto/caja-sendto.ui.h:6
+#: sendto/caja-sendto.ui:300
 msgid "<b>Compression</b>"
 msgstr "<b>Сажимање</b>"
 
-#: ../sendto/caja-sendto.ui.h:7
+#: sendto/caja-sendto.ui:341
 msgid "Send _packed in:"
 msgstr "Пошаљи _запаковано у:"
 
-#: ../sendto/plugins/emailclient/emailclient.c:263
+#: sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
 msgstr "Ел. пошти"
 
-#: ../sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Не могу да пошаљем датотеку"
 
-#: ../sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Не постоји веза са удаљеном услугом гајима."
 
-#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Слање датотеке није успело"
 
-#: ../sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Недостаје прималац."
 
-#: ../sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Непознат прималац."
 
-#: ../sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Брза порука (Гајим)"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
 msgstr "Нови ЦД/ДВД"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
 msgstr "Постојећи ЦД/ДВД"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "ЦД/ДВД Творац"
 
-#: ../sendto/plugins/pidgin/pidgin.c:462
+#: sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "Брзе поруке (Голупко)"
 
-#: ../sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
 msgstr "Уклоњиви дискови и дељења"
 
-#: ../sendto/plugins/upnp/upnp.c:309
+#: sendto/plugins/upnp/upnp.c:313
 msgid "UPnP Media Server"
 msgstr "УПнП медијски сервер"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: share/libcaja-share.caja-extension.desktop.in.in:4
+msgid "folder-remote"
+msgstr ""
+
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
 msgid "Share"
 msgstr "Дели"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:2
+#: share/libcaja-share.caja-extension.desktop.in.in:6
 msgid "Allows to quickly share a folder"
 msgstr "Допушта брзо дељење фасцикле"
 
-#: ../share/caja-share.c:123
+#: share/libcaja-share.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2005 Ethium, Inc."
+msgstr ""
+
+#: share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -429,7 +502,7 @@ msgid ""
 msgstr ""
 "Цаја мора да дода нека овлашћења вашој фасцикли „%s“ да би могао да је дели"
 
-#: ../share/caja-share.c:131
+#: share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -438,149 +511,145 @@ msgstr ""
 "Фасцикли „%s“ су потребна следећа посебна овлашћења да би дељење радило:\n"
 "%s%s%sДа ли желите да Цаја самостално дода та овлашћења фасцикли?"
 
-#: ../share/caja-share.c:135
+#: share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "  — чита овлашћења другима\n"
 
-#: ../share/caja-share.c:136
+#: share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "  — пише овлашћења другима\n"
 
-#: ../share/caja-share.c:137
+#: share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "  — извршава овлашћења другима\n"
 
-#: ../share/caja-share.c:141
+#: share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Додајте овлашћења самостално"
 
-#: ../share/caja-share.c:167
+#: share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Не могу да променим овлашћења за фасциклу „%s“"
 
-#: ../share/caja-share.c:451
+#: share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "Назив дељења је предуг"
 
-#: ../share/caja-share.c:493
+#: share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "Назив дељења не може бити празан"
 
-#: ../share/caja-share.c:506
+#: share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Грешка приликом добављања података дељења: %s"
 
-#: ../share/caja-share.c:516
+#: share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "Још једно дељење има исти назив"
 
-#: ../share/caja-share.c:563 ../share/caja-share.c:799
+#: share/caja-share.c:563 share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "Измени _дељење"
 
-#: ../share/caja-share.c:563 ../share/caja-share.c:801
+#: share/caja-share.c:563 share/caja-share.c:801
 msgid "Create _Share"
 msgstr "Направи _дељење"
 
-#: ../share/caja-share.c:691
+#: share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "Дошло је до грешке приликом добављања података о дељењу"
 
-#: ../share/caja-share.c:1123
+#: share/caja-share.c:1123
 msgid "Folder Sharing"
 msgstr "Дељење фасцикле"
 
-#: ../share/caja-share.c:1164
+#: share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "Опције дељења"
 
-#: ../share/caja-share.c:1165
+#: share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "Дели ову фасциклу"
 
-#: ../share/share-dialog.ui.h:1
+#: share/share-dialog.ui:27
 msgid "<big><b>Folder Sharing</b></big>"
 msgstr "<big><b>Дељење фасцикли</b></big>"
 
-#: ../share/share-dialog.ui.h:2
+#: share/share-dialog.ui:75
 msgid "Share _name:"
 msgstr "_Назив дељења:"
 
-#: ../share/share-dialog.ui.h:3
+#: share/share-dialog.ui:108
 msgid "Share this _folder"
 msgstr "Дели ову _фасциклу"
 
-#: ../share/share-dialog.ui.h:4
+#: share/share-dialog.ui:139
 msgid "Co_mment:"
 msgstr "_Напомена:"
 
-#: ../share/share-dialog.ui.h:5
+#: share/share-dialog.ui:170
 msgid "_Allow others to create and delete files in this folder"
 msgstr "_Допусти другима да праве и бришу датотеке у овој фасцикли"
 
-#: ../share/share-dialog.ui.h:6
+#: share/share-dialog.ui:187
 msgid "_Guest access (for people without a user account)"
 msgstr "_Приступ госта (за људе који немају кориснички налог)"
 
-#: ../share/shares.c:123
+#: share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s је враћено са сигналом %d"
 
-#: ../share/shares.c:132
+#: share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s није успело из непознатог разлога"
 
-#: ../share/shares.c:152
+#: share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "„мрежно корисничко дељење“ је вратило грешку %d: %s"
 
-#: ../share/shares.c:154
+#: share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "„мрежно корисничко дељење“ је вратило грешку %d"
 
-#: ../share/shares.c:185
-#, c-format
+#: share/shares.c:185
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "излаз „мрежног корисничког дељења“ није исправно УТФ-8 кодирање"
 
-#: ../share/shares.c:439 ../share/shares.c:613
-#, c-format
+#: share/shares.c:439 share/shares.c:613
 msgid "Failed"
 msgstr "Није успело"
 
-#: ../share/shares.c:547
+#: share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Самбин тестпарм је враћен са сигналом %d"
 
-#: ../share/shares.c:553
-#, c-format
+#: share/shares.c:553
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Самбин тестпарм није успео због непознатог разлога"
 
-#: ../share/shares.c:568
+#: share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Самбин тестпарм је вратио грешку %d: %s"
 
-#: ../share/shares.c:570
+#: share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Самбин тестпарм је вратио грешку %d"
 
-#: ../share/shares.c:681
+#: share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Не могу да уклоним дељење за путању „%s“: та путања није дељена"
 
-#: ../share/shares.c:727
-#, c-format
+#: share/shares.c:727
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -588,34 +657,49 @@ msgstr ""
 "Не могу да изменим путању постојећег дељења; прво уклоните старо дељење а "
 "затим додајте ново"
 
-#: ../wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
 msgstr "Постави као позадину"
 
-#: ../wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
 msgstr "Поставите слику као текућу позадину"
 
-#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
+#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
+msgid "desktop"
+msgstr "радна станица"
+
+#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
 msgstr "Позадина"
 
-#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:6
 msgid "Allows to quickly set wallpaper"
 msgstr "Омогућава брзо постављање позадине"
 
-#: ../xattr-tags/caja-xattr-tags-extension.c:177
+#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2014 Stefano Karapetsas"
+msgstr ""
+
+#: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
 msgstr "Ознаке"
 
-#: ../xattr-tags/caja-xattr-tags-extension.c:178
+#: xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
 msgstr "Ознаке смештене у проширеним атрибутима"
 
-#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:5
 msgid "xattr Tags"
 msgstr "„xattr“ ознаке"
 
-#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
 msgstr "Прегледајте ознаке смештене у проширеним атрибутима"
+
+#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2016 Felipe Barriga Richards"
+msgstr ""

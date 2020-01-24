@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the caja-extensions package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -10,15 +10,15 @@
 # Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>, 2018
 # Angelos Chraniotis <chraniotis@gmail.com>, 2018
 # Efstathios Iosifidis <iefstathios@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-11 14:12+0100\n"
+"Project-Id-Version: caja-extensions 1.23.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
+"POT-Creation-Date: 2019-12-24 15:05+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>, 2018\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Greek (https://www.transifex.com/mate/teams/13566/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,15 +26,15 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../gksu/libcaja-gksu.c:135
+#: gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
 msgstr "Άνοιγμα ως διαχειριστής"
 
-#: ../gksu/libcaja-gksu.c:136
+#: gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
 msgstr "Άνοιγμα του αρχείου με δικαιώματα διαχειριστή"
 
-#: ../gksu/libcaja-gksu.c:223
+#: gksu/libcaja-gksu.c:223
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -44,239 +44,270 @@ msgstr ""
 "\n"
 "Το αντικείμενο που επιλέξατε δεν μπορεί να ανοιχτεί με δικαιώματα διαχειριστή, διότι δεν μπόρεσε να προσδιοριστεί η σωστή  εφαρμογή για το άνοιγμα."
 
-#: ../gksu/libcaja-gksu.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
+msgid "system"
+msgstr ""
+
+#: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
 msgstr "Gksu"
 
-#: ../gksu/libcaja-gksu.caja-extension.in.in.h:2
+#: gksu/libcaja-gksu.caja-extension.desktop.in.in:6
 msgid "Privilege granting extension"
 msgstr "Χορήγηση επέκτασης"
 
-#: ../image-converter/caja-image-converter.c:120
+#: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
+msgstr ""
+
+#: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
 msgstr "_Αλλαγή μεγέθους εικόνων..."
 
-#: ../image-converter/caja-image-converter.c:121
+#: image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
 msgstr "Αλλαγή μεγέθους κάθε επιλεγμένης εικόνας"
 
-#: ../image-converter/caja-image-converter.c:130
+#: image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
 msgstr "_Περιστροφή εικόνων..."
 
-#: ../image-converter/caja-image-converter.c:131
+#: image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
 msgstr "Περιστροφή κάθε επιλεγμένης εικόνας"
 
-#: ../image-converter/caja-image-resize.ui.h:1
+#: image-converter/caja-image-resize.ui:55
 msgid "Resize Images"
 msgstr "Αλλαγή μεγέθους εικόνων"
 
-#: ../image-converter/caja-image-resize.ui.h:2
+#: image-converter/caja-image-resize.ui:73
 msgid "<b>Image Size</b>"
 msgstr "<b>Μέγεθος εικόνας</b>"
 
-#: ../image-converter/caja-image-resize.ui.h:3
+#: image-converter/caja-image-resize.ui:110
 msgid "Select a size:"
 msgstr "Επιλέξτε ένα μέγεθος:"
 
-#: ../image-converter/caja-image-resize.ui.h:4
+#: image-converter/caja-image-resize.ui:131
 msgid "96x96"
 msgstr "96x96"
 
-#: ../image-converter/caja-image-resize.ui.h:5
+#: image-converter/caja-image-resize.ui:132
 msgid "128x128"
 msgstr "128x128"
 
-#: ../image-converter/caja-image-resize.ui.h:6
+#: image-converter/caja-image-resize.ui:133
 msgid "640x480"
 msgstr "640x480"
 
-#: ../image-converter/caja-image-resize.ui.h:7
+#: image-converter/caja-image-resize.ui:134
 msgid "800x600"
 msgstr "800x600"
 
-#: ../image-converter/caja-image-resize.ui.h:8
+#: image-converter/caja-image-resize.ui:135
 msgid "1024x768"
 msgstr "1024x768"
 
-#: ../image-converter/caja-image-resize.ui.h:9
+#: image-converter/caja-image-resize.ui:136
 msgid "1280x960"
 msgstr "1280x960"
 
-#: ../image-converter/caja-image-resize.ui.h:10
+#: image-converter/caja-image-resize.ui:155
+#: image-converter/caja-image-resize.ui:301
 msgid "pixels"
 msgstr "pixels"
 
-#: ../image-converter/caja-image-resize.ui.h:11
+#: image-converter/caja-image-resize.ui:177
 msgid "Scale:"
 msgstr "Κλίμακα:"
 
-#: ../image-converter/caja-image-resize.ui.h:12
+#: image-converter/caja-image-resize.ui:210
 msgid "percent"
 msgstr "ποσοστό"
 
-#: ../image-converter/caja-image-resize.ui.h:13
+#: image-converter/caja-image-resize.ui:232
 msgid "Custom size:"
 msgstr "Προσαρμοσμένο μέγεθος:"
 
-#: ../image-converter/caja-image-resize.ui.h:14
+#: image-converter/caja-image-resize.ui:251
 msgid "Width:"
 msgstr "Πλάτος:"
 
-#: ../image-converter/caja-image-resize.ui.h:15
+#: image-converter/caja-image-resize.ui:276
 msgid "Height:"
 msgstr "Ύψος:"
 
-#: ../image-converter/caja-image-resize.ui.h:16
-#: ../image-converter/caja-image-rotate.ui.h:6
+#: image-converter/caja-image-resize.ui:335
+#: image-converter/caja-image-rotate.ui:172
 msgid "<b>Filename</b>"
 msgstr "<b>Όνομα αρχείου</b>"
 
-#: ../image-converter/caja-image-resize.ui.h:17
-#: ../image-converter/caja-image-rotate.ui.h:7
+#: image-converter/caja-image-resize.ui:372
+#: image-converter/caja-image-rotate.ui:206
 msgid "Append"
 msgstr "Προσάρτηση"
 
-#: ../image-converter/caja-image-resize.ui.h:18
+#: image-converter/caja-image-resize.ui:390
 msgid ".resized"
 msgstr ".αλλαγή μεγέθους"
 
-#: ../image-converter/caja-image-resize.ui.h:19
-#: ../image-converter/caja-image-rotate.ui.h:9
+#: image-converter/caja-image-resize.ui:402
+#: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
 msgstr "στον τίτλο του αρχείου"
 
-#: ../image-converter/caja-image-resize.ui.h:20
+#: image-converter/caja-image-resize.ui:419
 msgid "Resize in place"
 msgstr "Αλλαγή μεγέθους στην τοποθεσία"
 
-#: ../image-converter/caja-image-resize.ui.h:21
+#: image-converter/caja-image-resize.ui:478
 msgid "_Resize"
 msgstr "Αλλαγή με_γέθους"
 
-#: ../image-converter/caja-image-resizer.c:211
-#: ../image-converter/caja-image-rotator.c:208
+#: image-converter/caja-image-resizer.c:207
+#: image-converter/caja-image-rotator.c:204
 msgid "_Skip"
 msgstr "_Παράβλεψη"
 
-#: ../image-converter/caja-image-resizer.c:213
-#: ../image-converter/caja-image-rotator.c:210
+#: image-converter/caja-image-resizer.c:209
+#: image-converter/caja-image-rotator.c:206
 msgid "_Retry"
 msgstr "_Επαναπροσπάθεια"
 
-#: ../image-converter/caja-image-resizer.c:291
+#: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "Αλλαγή μεγέθους εικόνας: %d από %d"
 
-#: ../image-converter/caja-image-resizer.c:296
+#: image-converter/caja-image-resizer.c:292
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>Γίνεται αλλαγή μεγέθους \"%s\"</i>"
 
-#: ../image-converter/caja-image-resizer.c:314
-#: ../image-converter/caja-image-rotator.c:313
+#: image-converter/caja-image-resizer.c:310
+#: image-converter/caja-image-rotator.c:309
 msgid "Please enter a valid filename suffix!"
 msgstr "Παρακαλώ δώστε μια έγκυρη κατάληξη αρχείου!"
 
-#: ../image-converter/caja-image-rotate.ui.h:1
+#: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
 msgstr "Περιστροφή εικόνων"
 
-#: ../image-converter/caja-image-rotate.ui.h:2
+#: image-converter/caja-image-rotate.ui:46
 msgid "<b>Image Rotation</b>"
 msgstr "<b>Περιστροφή εικόνας</b>"
 
-#: ../image-converter/caja-image-rotate.ui.h:3
+#: image-converter/caja-image-rotate.ui:79
 msgid "Select an angle:"
 msgstr "Επιλέξτε μια γωνία:"
 
-#: ../image-converter/caja-image-rotate.ui.h:4
+#: image-converter/caja-image-rotate.ui:117
 msgid "Custom angle:"
 msgstr "Προσαρμοσμένη γωνία:"
 
-#: ../image-converter/caja-image-rotate.ui.h:5
+#: image-converter/caja-image-rotate.ui:143
 msgid "degrees clockwise"
 msgstr "Μοίρες δεξιόστροφα"
 
-#: ../image-converter/caja-image-rotate.ui.h:8
+#: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
 msgstr ".περιστραμένο"
 
-#: ../image-converter/caja-image-rotate.ui.h:10
+#: image-converter/caja-image-rotate.ui:242
 msgid "Rotate in place"
 msgstr "Περιστροφή στην τοποθεσία"
 
-#: ../image-converter/caja-image-rotate.ui.h:11
+#: image-converter/caja-image-rotate.ui:288
 msgid "_Rotate"
 msgstr "_Περιστροφή"
 
-#: ../image-converter/caja-image-rotator.c:290
+#: image-converter/caja-image-rotator.c:286
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Περιστροφή εικόνας: %d από %d"
 
-#: ../image-converter/caja-image-rotator.c:295
+#: image-converter/caja-image-rotator.c:291
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Περιστροφή \"%s\"</i>"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
+msgid "image"
+msgstr ""
+
+#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
 msgstr "Μετατροπέας εικόνας"
 
-#: ../image-converter/libcaja-image-converter.caja-extension.in.in.h:2
+#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:6
 msgid "Rotate and resize images"
 msgstr "Περιστροφή και αλλαγή μεγέθους εικόνων"
 
-#: ../open-terminal/caja-open-terminal.c:459
-#: ../open-terminal/caja-open-terminal.c:472
+#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2004-2005 Jürg Billeter"
+msgstr ""
+
+#: open-terminal/caja-open-terminal.c:459
+#: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Άνοιγμα σε _Τερματικό"
 
-#: ../open-terminal/caja-open-terminal.c:461
+#: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Άνοιγμα του τρέχοντος επιλεγμένου φακέλου σε τερματικό"
 
-#: ../open-terminal/caja-open-terminal.c:463
-#: ../open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:463
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Άνοιγμα του τρέχοντος ανοικτού φακέλου σε τερματικό"
 
-#: ../open-terminal/caja-open-terminal.c:469
+#: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Άνοιγμα _τερματικού"
 
-#: ../open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Άνοιγμα ενός τερματικού"
 
-#: ../open-terminal/caja-open-terminal.c:563
+#: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:566
+#: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
 msgstr ""
 
-#: ../open-terminal/caja-open-terminal.c:586
+#: open-terminal/caja-open-terminal.c:586
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: ../open-terminal/caja-open-terminal.c:592
+#: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
 msgstr ""
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
+msgid "terminal"
+msgstr ""
+
+#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr "Άνοιγμα τερματικού"
 
-#: ../open-terminal/libcaja-open-terminal.caja-extension.in.in.h:2
+#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:6
 msgid "Open terminals from folders"
 msgstr "Άνοιγμα τερματικών από φακέλους"
 
-#: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:1
+#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
+msgstr ""
+
+#: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
@@ -284,7 +315,7 @@ msgstr ""
 "Όποτε ανοίγετε ένα τερματικό στην επιφάνεια εργασίας, ανοίγετε ένα τερματικό"
 " στον προσωπικό φάκελο"
 
-#: ../open-terminal/org.mate.caja-open-terminal.gschema.xml.in.h:2
+#: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:6
 msgid ""
 "If set to true, then opening a terminal on the desktop will open a terminal "
 "in the home directory. Otherwise, it will be opened in the desktop "
@@ -297,137 +328,176 @@ msgstr ""
 "κλειδί είναι ανεξάρτητο με το αν ο φάκελος της επιφάνειας εργασίας είναι "
 "ίδιος με τον φάκελο home."
 
-#: ../sendto/caja-nste.c:78 ../sendto/caja-nste.c:83
+#: sendto/caja-nste.c:78 sendto/caja-nste.c:83
 msgid "Send to..."
 msgstr "Αποστολή προς…"
 
-#: ../sendto/caja-nste.c:79
+#: sendto/caja-nste.c:79
 msgid "Send file by mail, instant message..."
 msgstr "Αποστολή αρχείου μέσω ηλεκτρονικού ταχυδρομείου, άμεσου μηνύματος…"
 
-#: ../sendto/caja-nste.c:84
+#: sendto/caja-nste.c:84
 msgid "Send files by mail, instant message..."
 msgstr "Αποστολή αρχείων μέσω ηλεκτρονικού ταχυδρομείου, άμεσου μηνύματος…"
 
-#: ../sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:578
 msgid "Files"
 msgstr "Αρχεία"
 
-#: ../sendto/caja-sendto-command.c:790
-#, c-format
+#: sendto/caja-sendto-command.c:790
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Αναμένει URIs ή ονόματα αρχείων ως επιλογές\n"
 
-#: ../sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Δεν μπορούν να αναλυθούν οι επιλογές γραμμής εντολών: %s\n"
 
-#: ../sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
 msgstr "Δεν είναι δυνατή η φόρτωση των προσθέτων."
 
-#: ../sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:828
 msgid "Please verify your installation"
 msgstr "Παρακαλώ ελέγξτε την εγκατάσταση σας"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
+msgid "mail-send"
+msgstr ""
+
+#: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
 msgstr "Αποστολή προς"
 
-#: ../sendto/libcaja-sendto.caja-extension.in.in.h:2
+#: sendto/libcaja-sendto.caja-extension.desktop.in.in:6
 msgid "Integrates email clients and Pidgin"
 msgstr "Ενσωματώνει πελάτες ηλεκτονικού ταχυδρομίου και Pidgin"
 
-#: ../sendto/caja-sendto.ui.h:1
+#: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2004 Roberto Majadas"
+msgstr ""
+
+#: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
+msgid "Last plugin used to send"
+msgstr ""
+
+#: sendto/org.mate.Caja.Sendto.gschema.xml.in:7
+msgid ""
+"Used to store which plugin was used the last time files were sent using "
+"caja-sendto."
+msgstr ""
+
+#: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
+msgid "Last type of archive used"
+msgstr ""
+
+#: sendto/org.mate.Caja.Sendto.gschema.xml.in:15
+msgid ""
+"Used to store which type of archive was used the last time (0: zip, 1: "
+"tar.gz, 2: tar.bz2)."
+msgstr ""
+
+#: sendto/caja-sendto.ui:24
 msgid "Send To..."
 msgstr "Αποστολή προς…"
 
-#: ../sendto/caja-sendto.ui.h:2
+#: sendto/caja-sendto.ui:100
 msgid "_Send"
 msgstr "Απο_στολή"
 
-#: ../sendto/caja-sendto.ui.h:3
+#: sendto/caja-sendto.ui:149
 msgid "<b>Destination</b>"
 msgstr "<b>Προορισμός</b>"
 
-#: ../sendto/caja-sendto.ui.h:4
+#: sendto/caja-sendto.ui:192
 msgid "Send _as:"
 msgstr "Αποστολή _ως:"
 
-#: ../sendto/caja-sendto.ui.h:5
+#: sendto/caja-sendto.ui:234
 msgid "Send t_o:"
 msgstr "Αποστολή _προς:"
 
-#: ../sendto/caja-sendto.ui.h:6
+#: sendto/caja-sendto.ui:300
 msgid "<b>Compression</b>"
 msgstr "<b>Συμπίεση</b>"
 
-#: ../sendto/caja-sendto.ui.h:7
+#: sendto/caja-sendto.ui:341
 msgid "Send _packed in:"
 msgstr "Αποστολή με _συμπίεση ως:"
 
-#: ../sendto/plugins/emailclient/emailclient.c:263
+#: sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
 msgstr "Ηλεκτρονικό ταχυδρομείο"
 
-#: ../sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Δεν είναι δυνατή η αποστολή του αρχείου"
 
-#: ../sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Δεν υπάρχει σύνδεση με την απομακρυσμένη υπηρεσία gajim."
 
-#: ../sendto/plugins/gajim/gajim.c:444 ../sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Απέτυχε η αποστολή του αρχείου"
 
-#: ../sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Ο παραλήπτης απουσιάζει."
 
-#: ../sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Άγνωστος παραλήπτης."
 
-#: ../sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Άμεσο μήνυμα (Gajim)"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:92
 msgid "New CD/DVD"
 msgstr "Νέο CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:99
 msgid "Existing CD/DVD"
 msgstr "Υπάρχον CD/DVD"
 
-#: ../sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Δημιουργός CD/DVD"
 
-#: ../sendto/plugins/pidgin/pidgin.c:462
+#: sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
 msgstr "Άμεσο μήνυμα (Pidgin)"
 
-#: ../sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:248
 msgid "Removable disks and shares"
 msgstr "Αφαιρούμενοι δίσκοι και κοινόχρηστοι φάκελοι"
 
-#: ../sendto/plugins/upnp/upnp.c:309
+#: sendto/plugins/upnp/upnp.c:313
 msgid "UPnP Media Server"
 msgstr "Εξυπηρετητής πολυμέσων UPnP"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:1 ../share/caja-share.c:1063
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: share/libcaja-share.caja-extension.desktop.in.in:4
+msgid "folder-remote"
+msgstr ""
+
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
 msgid "Share"
 msgstr "Κοινή χρήση"
 
-#: ../share/libcaja-share.caja-extension.in.in.h:2
+#: share/libcaja-share.caja-extension.desktop.in.in:6
 msgid "Allows to quickly share a folder"
 msgstr "Επιτρέπει τη γρήγορη κοινοποίηση ενός φακέλου"
 
-#: ../share/caja-share.c:123
+#: share/libcaja-share.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2005 Ethium, Inc."
+msgstr ""
+
+#: share/caja-share.c:123
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -436,7 +506,7 @@ msgstr ""
 "Ο Caja χρειάζεται να προσθέσει κάποιες ρυθμίσεις πρόσβασης στον φάκελο "
 "\"%s\" για να μπορεί να τον μοιραστεί"
 
-#: ../share/caja-share.c:131
+#: share/caja-share.c:131
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -445,154 +515,150 @@ msgstr ""
 "Ο φάκελος \"%s\" χρειάζεται τις ακόλουθες επιπλέον ρυθμίσεις πρόσβασης για να λειτουργήσει ο διαμοιρασμός:\n"
 "%s%s%sΘέλετε ο Caja να προσθέσει τις ρυθμίσεις αυτές στον φάκελο αυτόματα;"
 
-#: ../share/caja-share.c:135
+#: share/caja-share.c:135
 msgid "  - read permission by others\n"
 msgstr "- Δικαιώματα ανάγνωσης από άλλους\n"
 
-#: ../share/caja-share.c:136
+#: share/caja-share.c:136
 msgid "  - write permission by others\n"
 msgstr "- Δικαιώματα εγγραφής σε άλλους\n"
 
-#: ../share/caja-share.c:137
+#: share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr "- Δικαιώματα εκτέλεσης σε άλλους\n"
 
-#: ../share/caja-share.c:141
+#: share/caja-share.c:141
 msgid "Add the permissions automatically"
 msgstr "Αυτόματη προσθήκη δικαιωμάτων"
 
-#: ../share/caja-share.c:167
+#: share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Αδυναμία αλλαγής δικαιωμάτων του φακέλου \"%s\""
 
-#: ../share/caja-share.c:451
+#: share/caja-share.c:451
 msgid "Share name is too long"
 msgstr "Υπερβολικά μεγάλο όνομα κοινόχρηστου αρχείου"
 
-#: ../share/caja-share.c:493
+#: share/caja-share.c:493
 msgid "The share name cannot be empty"
 msgstr "Το κοινόχρηστο όνομα δεν μπορεί να είναι κενό"
 
-#: ../share/caja-share.c:506
+#: share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Σφάλμα κατά τη λήψη πληροφοριών διαμοιρασμού: %s"
 
-#: ../share/caja-share.c:516
+#: share/caja-share.c:516
 msgid "Another share has the same name"
 msgstr "Κάποιο άλλο κοινόχρηστο αρχείο έχει το ίδιο όνομα"
 
-#: ../share/caja-share.c:563 ../share/caja-share.c:799
+#: share/caja-share.c:563 share/caja-share.c:799
 msgid "Modify _Share"
 msgstr "Τροποποίηση_Κοινόχρηστου Φακέλου"
 
-#: ../share/caja-share.c:563 ../share/caja-share.c:801
+#: share/caja-share.c:563 share/caja-share.c:801
 msgid "Create _Share"
 msgstr "Δημιουργία_Κοινόχρηστου Φακέλου"
 
-#: ../share/caja-share.c:691
+#: share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
 msgstr "Παρουσιάστηκε σφάλμα κατά τη λήψη πληροφοριών διαμοιρασμού"
 
-#: ../share/caja-share.c:1123
+#: share/caja-share.c:1123
 msgid "Folder Sharing"
 msgstr "Κοινή Χρήση Φακέλων"
 
-#: ../share/caja-share.c:1164
+#: share/caja-share.c:1164
 msgid "Sharing Options"
 msgstr "Επιλογές Κοινόχρηστου"
 
-#: ../share/caja-share.c:1165
+#: share/caja-share.c:1165
 msgid "Share this Folder"
 msgstr "Κοινή χρήση φακέλου"
 
-#: ../share/share-dialog.ui.h:1
+#: share/share-dialog.ui:27
 msgid "<big><b>Folder Sharing</b></big>"
 msgstr "<big><b>Διαμοιρασμός Φακέλων</b></big>"
 
-#: ../share/share-dialog.ui.h:2
+#: share/share-dialog.ui:75
 msgid "Share _name:"
 msgstr "Κοινόχρηστο _όνομα:"
 
-#: ../share/share-dialog.ui.h:3
+#: share/share-dialog.ui:108
 msgid "Share this _folder"
 msgstr "Κοινοποίηση αυτού του _φακέλου"
 
-#: ../share/share-dialog.ui.h:4
+#: share/share-dialog.ui:139
 msgid "Co_mment:"
 msgstr "_Σχόλιο:"
 
-#: ../share/share-dialog.ui.h:5
+#: share/share-dialog.ui:170
 msgid "_Allow others to create and delete files in this folder"
 msgstr ""
 "_Επιτρέπεται σε άλλους να δημιουργούν και να διαγράφουν αρχεία σε αυτόν το "
 "φάκελο"
 
-#: ../share/share-dialog.ui.h:6
+#: share/share-dialog.ui:187
 msgid "_Guest access (for people without a user account)"
 msgstr "_Πρόσβαση επισκέπτη (για άτομα χωρίς λογαριασμό χρήστη)"
 
-#: ../share/shares.c:123
+#: share/shares.c:123
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s επέστρεψε με σήμα %d"
 
-#: ../share/shares.c:132
+#: share/shares.c:132
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s Απέτυχε για άγνωστο λόγο"
 
-#: ../share/shares.c:152
+#: share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' επέστρεψε σφάλμα %d: %s"
 
-#: ../share/shares.c:154
+#: share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' επέστρεψε σφάλμα %d"
 
-#: ../share/shares.c:185
-#, c-format
+#: share/shares.c:185
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr ""
 "Το παράγωγο του 'net usershare' δεν είναι σε έγκυρη κωδικοποίηση UTF-8"
 
-#: ../share/shares.c:439 ../share/shares.c:613
-#, c-format
+#: share/shares.c:439 share/shares.c:613
 msgid "Failed"
 msgstr "Αποτυχία"
 
-#: ../share/shares.c:547
+#: share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Το testparm του Samba επέστρεψε με σήμα %d"
 
-#: ../share/shares.c:553
-#, c-format
+#: share/shares.c:553
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Το testparm του Samba απέτυχε για άγνωστο λόγο"
 
-#: ../share/shares.c:568
+#: share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Το testparm του Samba επέστρεψε σφάλμα %d: %s"
 
-#: ../share/shares.c:570
+#: share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Το testparm του Samba επέστρεψε σφάλμα %d"
 
-#: ../share/shares.c:681
+#: share/shares.c:681
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 "Δεν μπορεί να αφαιρεθεί το κοινόχρηστο για τη διαδρομή %s: αυτή η διαδρομή "
 "δεν διαμοιράζεται"
 
-#: ../share/shares.c:727
-#, c-format
+#: share/shares.c:727
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -600,34 +666,49 @@ msgstr ""
 "Δεν μπορεί να αλλαχθεί η διαδρομή ενός ήδη υπάρχοντος κοινόχρηστου: Παρακαλώ"
 " αφαιρέστε το παλιό κοινόχρηστο πρώτα και μετά προσθέστε ένα καινούργιο"
 
-#: ../wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
 msgstr "Ορισμός ως ταπετσαρίας"
 
-#: ../wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
 msgstr "Ορισμός εικόνας ως ταπετσαρίας"
 
-#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
+#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
+msgid "desktop"
+msgstr "επιφάνεια εργασίας"
+
+#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
 msgstr "Ταπετσαρία"
 
-#: ../wallpaper/libcaja-wallpaper.caja-extension.in.in.h:2
+#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:6
 msgid "Allows to quickly set wallpaper"
 msgstr "Επιτρέπει το γρήγορο ορισμό ταπετσαρίας"
 
-#: ../xattr-tags/caja-xattr-tags-extension.c:177
+#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2014 Stefano Karapetsas"
+msgstr ""
+
+#: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
 msgstr "Ετικέτες"
 
-#: ../xattr-tags/caja-xattr-tags-extension.c:178
+#: xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
 msgstr "Ετικέτες αποθηκευμένες σε διευρυμένα χαρακτηριστικά"
 
-#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:1
+#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:5
 msgid "xattr Tags"
 msgstr "ετικέτες xattr"
 
-#: ../xattr-tags/libcaja-xattr-tags.caja-extension.in.in.h:2
+#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
 msgstr "Προβολή ετικετών που είναι αποθηκευμένες σε εκτεταμένα χαρακτηριστικά"
+
+#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
+msgid "Copyright (C) 2016 Felipe Barriga Richards"
+msgstr ""
