@@ -1,3 +1,13 @@
+### caja-extensions 1.23.1
+
+  * Translations update
+  * migrate from intltool to gettext
+  * caja-image-resizer: avoid 'g_type_class_add_private'
+  * caja-image-rotator: avoid 'g_type_class_add_private'
+  * i18n caja extension copyright
+  * Build either with gupnp version 1.0 or 1.2.
+  * image-converter: don't use non-existing icons in context menu
+
 ### caja-extensions 1.23.0
 
   * Translations update
