@@ -7,13 +7,19 @@
     </columns>
     <data>
       <row>
-        <col id="0">.zip</col>
+        <col id="0">.7z</col>
+      </row>
+      <row>
+        <col id="0">.tar.bz2</col>
       </row>
       <row>
         <col id="0">.tar.gz</col>
       </row>
       <row>
-        <col id="0">.tar.bz2</col>
+        <col id="0">.tar.xz</col>
+      </row>
+      <row>
+        <col id="0">.zip</col>
       </row>
     </data>
   </object>
@@ -392,6 +398,7 @@
                                     <property name="add_tearoffs">False</property>
                                     <property name="focus_on_click">True</property>
                                     <property name="model">model1</property>
+                                    <property name="active">4</property>
                                     <child>
                                       <object class="GtkCellRendererText" id="renderer1"/>
                                       <attributes>

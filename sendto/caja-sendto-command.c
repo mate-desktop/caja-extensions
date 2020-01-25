@@ -203,13 +203,19 @@ pack_files (NS_ui *ui)
 	switch (gtk_combo_box_get_active (GTK_COMBO_BOX(ui->pack_combobox)))
 	{
 	case 0:
-		pack_type = g_strdup (".zip");
+		pack_type = g_strdup (".7z");
 		break;
 	case 1:
-		pack_type = g_strdup (".tar.gz");
+		pack_type = g_strdup (".tar.bz2");
 		break;
 	case 2:
-		pack_type = g_strdup (".tar.bz2");
+		pack_type = g_strdup (".tar.gz");
+		break;
+	case 3:
+		pack_type = g_strdup (".tar.xz");
+		break;
+	case 4:
+		pack_type = g_strdup (".zip");
 		break;
 	default:
 		pack_type = NULL;
