@@ -15,13 +15,13 @@
     </columns>
     <data>
       <row>
-        <col id="0">90&#xB0; clockwise</col>
+        <col id="0" translatable="yes">90&#xB0; clockwise</col>
       </row>
       <row>
-        <col id="0">90&#xB0; counter-clockwise</col>
+        <col id="0" translatable="yes">90&#xB0; counter-clockwise</col>
       </row>
       <row>
-        <col id="0">180&#xB0;</col>
+        <col id="0" translatable="yes">180&#xB0;</col>
       </row>
     </data>
   </object>
