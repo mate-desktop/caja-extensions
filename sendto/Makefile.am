@@ -1,3 +1,5 @@
+NULL=
+
 SUBDIRS = . docs plugins
 
 AM_CPPFLAGS =					\
@@ -5,7 +7,6 @@ AM_CPPFLAGS =					\
 	-DPLUGINDIR=\"$(libdir)/caja-sendto/plugins\"	\
 	-I$(top_srcdir)				\
 	-I$(top_builddir)			\
-	-DUIDIR=\""$(uidir)"\"		\
 	-DLOCALEDIR="\"$(datadir)/locale\""	\
 	$(SENDTO_CFLAGS)		\
 	$(CAJA_CFLAGS)		\
@@ -18,9 +19,6 @@ caja_sendto_include_HEADERS = caja-sendto-plugin.h
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = caja-sendto.pc
 
-ui_DATA = caja-sendto.ui
-uidir = $(datadir)/caja-extensions
-
 noinst_LTLIBRARIES = libnstplugin.la
 libnstplugin_la_SOURCES =			\
 	caja-sendto-plugin.h		\
@@ -30,7 +28,11 @@ libnstplugin_la_LIBADD = $(SENDTO_LIBS)
 
 bin_PROGRAMS = caja-sendto
 
-caja_sendto_SOURCES = caja-sendto-command.c
+resources_built_sources = caja-sendto-resources.h caja-sendto-resources.c
+$(resources_built_sources): org.mate.caja.extensions.sendto.gresource.xml Makefile $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies --sourcedir $(srcdir) $(srcdir)/org.mate.caja.extensions.sendto.gresource.xml)
+	$(AM_V_GEN) XMLLINT=$(XMLLINT) $(GLIB_COMPILE_RESOURCES) --target $@ --sourcedir $(srcdir) --generate --c-name sendto $<
+
+caja_sendto_SOURCES = caja-sendto-command.c $(resources_built_sources)
 caja_sendto_LDADD = $(SENDTO_LIBS) libnstplugin.la
 
 caja_extensiondir = $(CAJA_EXTENSION_DIR)
@@ -81,14 +83,18 @@ $(extension_DATA): $(extension_in_files)
 	$(AM_V_GEN) $(MSGFMT) --desktop --keyword=Copyright --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST = \
-	$(ui_DATA) \
 	$(man_MANS) \
 	caja-sendto.pc.in \
-	$(gsettingsschema_in_files)
+	caja-sendto.ui \
+	$(gsettingsschema_in_files) \
+	org.mate.caja.extensions.sendto.gresource.xml \
+	$(NULL)
 
 CLEANFILES = \
 	$(nst_built_headers) \
 	$(nst_built_cfiles) \
 	$(gsettings_SCHEMAS) \
-	$(extension_DATA)	\
-	*.gschema.valid
+	$(extension_DATA) \
+	*.gschema.valid \
+	$(resources_built_sources) \
+	$(NULL)

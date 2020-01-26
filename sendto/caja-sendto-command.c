@@ -540,8 +540,8 @@ caja_sendto_create_ui (void)
 	GtkWidget *button_image;
 
 	app = gtk_builder_new ();
-	if (!gtk_builder_add_from_file (app, UIDIR "/" "caja-sendto.ui", &error))	{
-		g_warning ("Couldn't load builder file: %s", error->message);
+	if (gtk_builder_add_from_resource (app, "/org/mate/caja/extensions/sendto/caja-sendto.ui", &error) == 0) {
+		g_warning ("Could not parse UI definition: %s", error->message);
 		g_error_free (error);
 	}
 
