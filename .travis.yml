@@ -94,6 +94,7 @@ requires:
     - libgupnp-1.2-dev
     - libmate-desktop-dev
     - libstartup-notification0-dev
+    - libxml2-utils
     - make
     - mate-common
     - pkg-config
@@ -129,6 +130,7 @@ requires:
     - libgupnp-1.2-dev
     - libmate-desktop-dev
     - libstartup-notification0-dev
+    - libxml2-utils
     - make
     - mate-common
     - pkg-config
