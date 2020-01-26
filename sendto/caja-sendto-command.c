@@ -200,24 +200,9 @@ pack_files (NS_ui *ui)
 	g_mkdir (tmp_work_dir, 0700);
 	g_free (tmp_dir);
 
-	switch (gtk_combo_box_get_active (GTK_COMBO_BOX(ui->pack_combobox)))
-	{
-	case 0:
-		pack_type = g_strdup (".7z");
-		break;
-	case 1:
-		pack_type = g_strdup (".tar.bz2");
-		break;
-	case 2:
-		pack_type = g_strdup (".tar.gz");
-		break;
-	case 3:
-		pack_type = g_strdup (".tar.xz");
-		break;
-	case 4:
-		pack_type = g_strdup (".zip");
-		break;
-	default:
+	if (gtk_combo_box_get_active (GTK_COMBO_BOX(ui->pack_combobox)) != 0) {
+		pack_type = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT(ui->pack_combobox));
+	} else {
 		pack_type = NULL;
 		g_assert_not_reached ();
 	}
