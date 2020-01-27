@@ -1,6 +1,7 @@
 AC_INIT([caja-extensions], 1.23.1, [https://github.com/mate-desktop/caja-extensions])
 
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
+m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])
 
