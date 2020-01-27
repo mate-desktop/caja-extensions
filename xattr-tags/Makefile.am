@@ -1,11 +1,31 @@
-AM_CPPFLAGS = $(CAJA_CFLAGS)
+NULL =
+
+AM_CPPFLAGS =					\
+	$(DISABLE_DEPRECATED_CPPFLAGS)		\
+	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
+	-I$(top_builddir)			\
+	$(NULL)
+
+AM_CFLAGS =					\
+	$(WARN_CFLAGS)				\
+	$(NULL)
 
 caja_extensiondir = $(CAJA_EXTENSION_DIR)
+
 caja_extension_LTLIBRARIES = libcaja-xattr-tags.la
 
-libcaja_xattr_tags_la_SOURCES = \
-	caja-xattr-tags-extension.c \
-	caja-xattr-tags-extension.h
+libcaja_xattr_tags_la_SOURCES =			\
+	caja-xattr-tags-extension.c		\
+	caja-xattr-tags-extension.h		\
+	$(NULL)
+libcaja_xattr_tags_la_CPPFLAGS =		\
+	$(AM_CPPFLAGS)				\
+	-I$(top_srcdir)				\
+	$(NULL)
+libcaja_xattr_tags_la_CFLAGS =			\
+	$(AM_CFLAGS)				\
+	$(CAJA_CFLAGS)				\
+	$(NULL)
 
 libcaja_xattr_tags_la_LDFLAGS = -module -avoid-version
 libcaja_xattr_tags_la_LIBADD = $(CAJA_LIBS)

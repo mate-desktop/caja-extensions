@@ -1,28 +1,39 @@
+NULL =
+
 interfacesdir = $(datadir)/caja-extensions
 interfaces_DATA = share-dialog.ui
 
-libcaja_share_la_CFLAGS =				\
-	-Wall						\
+AM_CPPFLAGS =					\
+	$(DISABLE_DEPRECATED_CPPFLAGS)		\
+	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
+	-I$(top_builddir)			\
+	$(NULL)
+
+AM_CFLAGS =					\
+	$(WARN_CFLAGS)				\
+	$(NULL)
+
+caja_extensiondir = $(CAJA_EXTENSION_DIR)
+
+caja_extension_LTLIBRARIES = libcaja-share.la
+
+libcaja_share_la_SOURCES =			\
+	caja-share.c				\
+	caja-share.h				\
+	shares.c				\
+	shares.h				\
+	$(NULL)
+libcaja_share_la_CPPFLAGS =			\
+	$(AM_CPPFLAGS)				\
 	-DG_LOG_DOMAIN=\"Caja-Share\"		\
-	-DINTERFACES_DIR=\"$(interfacesdir)\"		\
-	-DDATADIR=\"$(datadir)\"			\
-	-DMATELOCALEDIR=\""$(datadir)/locale"\" 	\
-	-I$(top_srcdir)					\
-	-I$(top_builddir)				\
-	$(WARN_CFLAGS)                                  \
-	$(DISABLE_DEPRECATED_CFLAGS)			\
+	-DINTERFACES_DIR=\"$(interfacesdir)\"	\
+	-DDATADIR=\"$(datadir)\"		\
+	$(NULL)
+libcaja_share_la_CFLAGS =			\
+	$(AM_CFLAGS)				\
 	$(CAJA_CFLAGS)				\
-	$(SHARE_CFLAGS)
-
-caja_extensiondir=$(CAJA_EXTENSION_DIR)
-caja_extension_LTLIBRARIES=libcaja-share.la
-
-libcaja_share_la_SOURCES =  \
-	caja-share.c        \
-	caja-share.h	\
-	shares.c		\
-	shares.h
-
+	$(SHARE_CFLAGS)				\
+	$(NULL)
 libcaja_share_la_LDFLAGS = -module -avoid-version
 libcaja_share_la_LIBADD  = $(SHARE_LIBS) $(CAJA_LIBS)
 
