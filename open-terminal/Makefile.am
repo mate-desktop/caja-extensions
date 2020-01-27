@@ -1,23 +1,34 @@
-AM_CPPFLAGS =						\
+NULL =
+
+AM_CPPFLAGS =					\
+	$(DISABLE_DEPRECATED_CPPFLAGS)		\
+	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
+	-I$(top_builddir)			\
+	$(NULL)
+
+AM_CFLAGS =					\
+	$(WARN_CFLAGS)				\
+	$(NULL)
+
+caja_extensiondir = $(CAJA_EXTENSION_DIR)
+
+caja_extension_LTLIBRARIES = libcaja-open-terminal.la
+
+libcaja_open_terminal_la_SOURCES =		\
+	caja-open-terminal.c			\
+	caja-open-terminal.h			\
+	open-terminal.c				\
+	$(NULL)
+libcaja_open_terminal_la_CPPFLAGS =		\
+	$(AM_CPPFLAGS)				\
 	-DG_LOG_DOMAIN=\"Caja-Open-Terminal\"	\
-	-DDATADIR=\"$(datadir)\"			\
-	-DMATELOCALEDIR=\""$(datadir)/locale"\" 	\
-	-I$(top_srcdir)					\
-	-I$(top_builddir)				\
-	$(WARN_CFLAGS)                                  \
-	$(DISABLE_DEPRECATED_CFLAGS)			\
+	-DDATADIR=\"$(datadir)\"		\
+	$(NULL)
+libcaja_open_terminal_la_CFLAGS =		\
+	$(AM_CFLAGS)				\
 	$(CAJA_CFLAGS)				\
-	$(OPENTERMINAL_CFLAGS)
-
-caja_extensiondir=$(CAJA_EXTENSION_DIR)
-
-caja_extension_LTLIBRARIES=libcaja-open-terminal.la
-
-libcaja_open_terminal_la_SOURCES = \
-	caja-open-terminal.c       \
-	caja-open-terminal.h       \
-	open-terminal.c
-
+	$(OPENTERMINAL_CFLAGS)			\
+	$(NULL)
 libcaja_open_terminal_la_LDFLAGS = -module -avoid-version
 libcaja_open_terminal_la_LIBADD  = $(CAJA_LIBS) $(OPENTERMINAL_LIBS)
 

@@ -1,17 +1,20 @@
-NULL=
-
+NULL =
 SUBDIRS = . docs plugins
 
 AM_CPPFLAGS =					\
+	$(DISABLE_DEPRECATED_CPPFLAGS)		\
 	-DDATADIR=\"$(datadir)\"		\
 	-DPLUGINDIR=\"$(libdir)/caja-sendto/plugins\"	\
+	-DMATELOCALEDIR="\"$(datadir)/locale\""	\
 	-I$(top_srcdir)				\
 	-I$(top_builddir)			\
-	-DLOCALEDIR="\"$(datadir)/locale\""	\
-	$(SENDTO_CFLAGS)		\
-	$(CAJA_CFLAGS)		\
-	$(DISABLE_DEPRECATED)			\
-	$(WARN_CFLAGS)
+	$(NULL)
+
+AM_CFLAGS =					\
+	$(WARN_CFLAGS)				\
+	$(SENDTO_CFLAGS)			\
+	$(CAJA_CFLAGS)				\
+	$(NULL)
 
 caja_sendto_includedir = $(includedir)/caja-sendto/
 caja_sendto_include_HEADERS = caja-sendto-plugin.h
@@ -21,7 +24,7 @@ pkgconfig_DATA = caja-sendto.pc
 
 noinst_LTLIBRARIES = libnstplugin.la
 libnstplugin_la_SOURCES =			\
-	caja-sendto-plugin.h		\
+	caja-sendto-plugin.h			\
 	nst-enum-types.c			\
 	nst-enum-types.h
 libnstplugin_la_LIBADD = $(SENDTO_LIBS)

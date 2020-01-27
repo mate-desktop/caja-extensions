@@ -1,13 +1,31 @@
-AM_CPPFLAGS = $(CAJA_CFLAGS)
+NULL =
+
+AM_CPPFLAGS =					\
+	$(DISABLE_DEPRECATED_CPPFLAGS)		\
+	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
+	-I$(top_builddir)			\
+	$(NULL)
+
+AM_CFLAGS =					\
+	$(WARN_CFLAGS)				\
+	$(NULL)
 
 caja_extensiondir = $(CAJA_EXTENSION_DIR)
+
 caja_extension_LTLIBRARIES = libcaja-wallpaper.la
 
-libcaja_wallpaper_la_SOURCES = \
-	caja-wallpaper-extension.c\
-	caja-wallpaper-extension.h\
-	caja-wallpaper-command.c
-
+libcaja_wallpaper_la_SOURCES =			\
+	caja-wallpaper-extension.c		\
+	caja-wallpaper-extension.h		\
+	caja-wallpaper-command.c		\
+	$(NULL)
+libcaja_wallpaper_la_CPPFLAGS =			\
+	$(AM_CPPFLAGS)				\
+	$(NULL)
+libcaja_wallpaper_la_CFLAGS =			\
+	$(AM_CFLAGS)				\
+	$(CAJA_CFLAGS)				\
+	$(NULL)
 libcaja_wallpaper_la_LDFLAGS = -module -avoid-version
 libcaja_wallpaper_la_LIBADD = $(CAJA_LIBS)
 

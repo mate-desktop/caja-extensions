@@ -79,7 +79,7 @@ init (NstPlugin *plugin)
 
 	g_print ("Init pidgin plugin\n");
 
-	bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
+	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 
 	error = NULL;
