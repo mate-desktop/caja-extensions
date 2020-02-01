@@ -638,21 +638,27 @@ caja_sendto_plugin_dir_process (const char *plugindir)
 	} else {
 		while ((item = g_dir_read_name(dir))) {
 			if (g_str_has_suffix (item, SOEXT)) {
-				char *module_path;
+				g_autofree gchar *module_path = NULL;
 
 				p = g_new0(NstPlugin, 1);
+
 				module_path = g_module_build_path (plugindir, item);
+				if (!module_path) {
+					g_free (p);
+					continue;
+				}
+
 				p->module = g_module_open (module_path, 0);
 			        if (!p->module) {
                 			g_warning ("error opening %s: %s", module_path, g_module_error ());
-					g_free (module_path);
+					g_free (p);
 					continue;
 				}
-				g_free (module_path);
 
 				if (!g_module_symbol (p->module, "nst_init_plugin", (gpointer *) &nst_init_plugin)) {
 			                g_warning ("error: %s", g_module_error ());
 					g_module_close (p->module);
+					g_free (p);
 					continue;
 				}
 
