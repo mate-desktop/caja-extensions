@@ -85,6 +85,9 @@ caja_image_resizer_finalize(GObject *object)
 
 	g_free (priv->suffix);
 
+	if (priv->size)
+		g_free (priv->size);
+
 	G_OBJECT_CLASS(caja_image_resizer_parent_class)->finalize(object);
 }
 
