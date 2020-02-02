@@ -66,15 +66,12 @@ set_wallpaper_callback (CajaMenuItem *item,
 static gboolean
 is_image (CajaFileInfo *file)
 {
-    gchar *mimeType;
+    gchar   *mimeType;
     gboolean isImage;
 
     mimeType = caja_file_info_get_mime_type (file);
-
-    isImage = g_str_has_prefix (caja_file_info_get_mime_type (file), "image/");
-
+    isImage = g_str_has_prefix (mimeType, "image/");
     g_free (mimeType);
-
     return isImage;
 }
 
