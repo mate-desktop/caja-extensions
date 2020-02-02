@@ -68,8 +68,7 @@ typedef struct {
   GtkWidget *main; /* Widget that holds all the rest.  Its "PropertyPage" GObject-data points to this PropertyPage structure */
 
   GtkWidget *checkbutton_share_folder;
-  GtkWidget *hbox_share_name;
-  GtkWidget *hbox_share_comment;
+  GtkWidget *box_share_content;
   GtkWidget *entry_share_name;
   GtkWidget *checkbutton_share_rw_ro;
   GtkWidget *checkbutton_share_guest_ok;
@@ -528,11 +527,7 @@ static void
 property_page_set_controls_sensitivity (PropertyPage *page,
 					gboolean      sensitive)
 {
-  gtk_widget_set_sensitive (page->entry_share_name, sensitive);
-  gtk_widget_set_sensitive (page->entry_share_comment, sensitive);
-  gtk_widget_set_sensitive (page->hbox_share_comment, sensitive);
-  gtk_widget_set_sensitive (page->hbox_share_name, sensitive);
-  gtk_widget_set_sensitive (page->checkbutton_share_rw_ro, sensitive);
+  gtk_widget_set_sensitive (page->box_share_content, sensitive);
 
   if (sensitive)
     {
@@ -712,8 +707,7 @@ create_property_page (CajaFileInfo *fileinfo)
 			  free_property_page_cb);
 
   page->checkbutton_share_folder = GTK_WIDGET (gtk_builder_get_object (page->ui,"checkbutton_share_folder"));
-  page->hbox_share_comment = GTK_WIDGET (gtk_builder_get_object (page->ui,"hbox_share_comment"));
-  page->hbox_share_name = GTK_WIDGET (gtk_builder_get_object (page->ui,"hbox_share_name"));
+  page->box_share_content = GTK_WIDGET (gtk_builder_get_object (page->ui,"box_share_content"));
   page->checkbutton_share_rw_ro = GTK_WIDGET (gtk_builder_get_object (page->ui,"checkbutton_share_rw_ro"));
   page->checkbutton_share_guest_ok = GTK_WIDGET (gtk_builder_get_object (page->ui,"checkbutton_share_guest_ok"));
   page->entry_share_name = GTK_WIDGET (gtk_builder_get_object (page->ui,"entry_share_name"));
@@ -724,8 +718,7 @@ create_property_page (CajaFileInfo *fileinfo)
 
   /* Sanity check so that we don't screw up the Glade file */
   g_assert (page->checkbutton_share_folder != NULL
-	    && page->hbox_share_comment != NULL
-	    && page->hbox_share_name != NULL
+	    && page->box_share_content != NULL
 	    && page->checkbutton_share_rw_ro != NULL
 	    && page->checkbutton_share_guest_ok != NULL
 	    && page->entry_share_name != NULL
