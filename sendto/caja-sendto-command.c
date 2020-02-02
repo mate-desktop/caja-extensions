@@ -522,7 +522,7 @@ update_button_image (GtkSettings *settings,
 static void
 caja_sendto_create_ui (void)
 {
-	GtkBuilder *app;
+	GtkBuilder *builder;
 	GError* error = NULL;
 	NS_ui *ui;
 	gboolean one_file = FALSE;
@@ -530,29 +530,29 @@ caja_sendto_create_ui (void)
 	GtkSettings *gtk_settings;
 	GtkWidget *button_image;
 
-	app = gtk_builder_new ();
-	if (gtk_builder_add_from_resource (app, "/org/mate/caja/extensions/sendto/caja-sendto.ui", &error) == 0) {
+	builder = gtk_builder_new ();
+	if (gtk_builder_add_from_resource (builder, "/org/mate/caja/extensions/sendto/caja-sendto.ui", &error) == 0) {
 		g_warning ("Could not parse UI definition: %s", error->message);
 		g_error_free (error);
 	}
 
 	ui = g_new0 (NS_ui, 1);
 
-	ui->hbox_contacts_ws = GTK_WIDGET (gtk_builder_get_object (app, "hbox_contacts_widgets"));
-	ui->send_to_label = GTK_WIDGET (gtk_builder_get_object (app, "send_to_label"));
-	ui->options_combobox = GTK_WIDGET (gtk_builder_get_object (app, "options_combobox"));
-	ui->dialog = GTK_WIDGET (gtk_builder_get_object (app, "caja_sendto_dialog"));
-	ui->cancel_button = GTK_WIDGET (gtk_builder_get_object (app, "cancel_button"));
-	ui->send_button = GTK_WIDGET (gtk_builder_get_object (app, "send_button"));
-	ui->pack_combobox = GTK_WIDGET (gtk_builder_get_object (app, "pack_combobox"));
-	ui->pack_entry = GTK_WIDGET (gtk_builder_get_object (app, "pack_entry"));
-	ui->pack_checkbutton = GTK_WIDGET (gtk_builder_get_object (app, "pack_checkbutton"));
-	ui->status_box = GTK_WIDGET (gtk_builder_get_object (app, "status_box"));
-	ui->status_label = GTK_WIDGET (gtk_builder_get_object (app, "status_label"));
-	ui->status_image = GTK_WIDGET (gtk_builder_get_object (app, "status_image"));
+	ui->hbox_contacts_ws = GTK_WIDGET (gtk_builder_get_object (builder, "hbox_contacts_widgets"));
+	ui->send_to_label = GTK_WIDGET (gtk_builder_get_object (builder, "send_to_label"));
+	ui->options_combobox = GTK_WIDGET (gtk_builder_get_object (builder, "options_combobox"));
+	ui->dialog = GTK_WIDGET (gtk_builder_get_object (builder, "caja_sendto_dialog"));
+	ui->cancel_button = GTK_WIDGET (gtk_builder_get_object (builder, "cancel_button"));
+	ui->send_button = GTK_WIDGET (gtk_builder_get_object (builder, "send_button"));
+	ui->pack_combobox = GTK_WIDGET (gtk_builder_get_object (builder, "pack_combobox"));
+	ui->pack_entry = GTK_WIDGET (gtk_builder_get_object (builder, "pack_entry"));
+	ui->pack_checkbutton = GTK_WIDGET (gtk_builder_get_object (builder, "pack_checkbutton"));
+	ui->status_box = GTK_WIDGET (gtk_builder_get_object (builder, "status_box"));
+	ui->status_label = GTK_WIDGET (gtk_builder_get_object (builder, "status_label"));
+	ui->status_image = GTK_WIDGET (gtk_builder_get_object (builder, "status_image"));
 
 	gtk_settings = gtk_settings_get_default ();
-	button_image = GTK_WIDGET (gtk_builder_get_object (app, "image1"));
+	button_image = GTK_WIDGET (gtk_builder_get_object (builder, "image1"));
 	g_signal_connect (G_OBJECT (gtk_settings), "notify::gtk-button-images",
 			  G_CALLBACK (update_button_image), button_image);
 	update_button_image (gtk_settings, NULL, button_image);
@@ -604,6 +604,8 @@ caja_sendto_create_ui (void)
 			  G_CALLBACK (pack_entry_changed_cb), ui);
 	g_signal_connect (G_OBJECT (ui->pack_checkbutton), "toggled",
 			  G_CALLBACK (toggle_pack_check), ui);
+
+	g_object_unref (builder);
 
 	if (has_dirs == FALSE || supports_dirs != FALSE) {
 		gboolean toggle;
