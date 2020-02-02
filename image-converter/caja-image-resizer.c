@@ -336,35 +336,33 @@ caja_image_resizer_init(CajaImageResizer *resizer)
 {
 	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (resizer);
 
-	GtkBuilder *ui;
+	GtkBuilder *builder;
 	GError     *err = NULL;
 
-	/* Let's create our gtkbuilder and load the xml file */
-	ui = gtk_builder_new ();
-	gtk_builder_set_translation_domain (ui, GETTEXT_PACKAGE);
-
+	builder = gtk_builder_new ();
+	gtk_builder_set_translation_domain (builder, GETTEXT_PACKAGE);
 	/* If we're unable to load the xml file */
-	if (gtk_builder_add_from_resource (ui, "/org/mate/caja/extensions/imageconverter/caja-image-resize.ui", &err) == 0) {
+	if (gtk_builder_add_from_resource (builder, "/org/mate/caja/extensions/imageconverter/caja-image-resize.ui", &err) == 0) {
 		g_warning ("%s", err->message);
 		g_error_free (err);
 		return;
 	}
 
 	/* Grab some widgets */
-	priv->resize_dialog = GTK_DIALOG (gtk_builder_get_object (ui, "resize_dialog"));
+	priv->resize_dialog = GTK_DIALOG (gtk_builder_get_object (builder, "resize_dialog"));
 	priv->default_size_radiobutton =
-		GTK_RADIO_BUTTON (gtk_builder_get_object (ui, "default_size_radiobutton"));
-	priv->size_combobox = GTK_COMBO_BOX_TEXT (gtk_builder_get_object (ui, "comboboxtext_size"));
+		GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "default_size_radiobutton"));
+	priv->size_combobox = GTK_COMBO_BOX_TEXT (gtk_builder_get_object (builder, "comboboxtext_size"));
 	priv->custom_pct_radiobutton =
-		GTK_RADIO_BUTTON (gtk_builder_get_object (ui, "custom_pct_radiobutton"));
-	priv->pct_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (ui, "pct_spinbutton"));
+		GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "custom_pct_radiobutton"));
+	priv->pct_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "pct_spinbutton"));
 	priv->custom_size_radiobutton =
-		GTK_RADIO_BUTTON (gtk_builder_get_object (ui, "custom_size_radiobutton"));
-	priv->width_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (ui, "width_spinbutton"));
-	priv->height_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (ui, "height_spinbutton"));
-	priv->append_radiobutton = GTK_RADIO_BUTTON (gtk_builder_get_object (ui, "append_radiobutton"));
-	priv->name_entry = GTK_ENTRY (gtk_builder_get_object (ui, "name_entry"));
-	priv->inplace_radiobutton = GTK_RADIO_BUTTON (gtk_builder_get_object (ui, "inplace_radiobutton"));
+		GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "custom_size_radiobutton"));
+	priv->width_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "width_spinbutton"));
+	priv->height_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "height_spinbutton"));
+	priv->append_radiobutton = GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "append_radiobutton"));
+	priv->name_entry = GTK_ENTRY (gtk_builder_get_object (builder, "name_entry"));
+	priv->inplace_radiobutton = GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "inplace_radiobutton"));
 
 	/* Set default item in combo box */
 	/* gtk_combo_box_set_active  (priv->size_combobox, 4);  1024x768 */
@@ -373,6 +371,8 @@ caja_image_resizer_init(CajaImageResizer *resizer)
 	g_signal_connect (G_OBJECT (priv->resize_dialog), "response",
 			  (GCallback) caja_image_resizer_response_cb,
 			  resizer);
+
+	g_object_unref (builder);
 }
 
 CajaImageResizer *
