@@ -42,7 +42,6 @@ set_wallpaper_callback (CajaMenuItem *item,
 {
     GList *files;
     GSettings *settings;
-    GError *err;
     CajaFileInfo *file;
     gchar *uri;
     gchar *filename;
