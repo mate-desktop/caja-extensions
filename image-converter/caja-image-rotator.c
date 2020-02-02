@@ -82,6 +82,9 @@ caja_image_rotator_finalize(GObject *object)
 
 	g_free (priv->suffix);
 
+	if (priv->angle)
+		g_free (priv->angle);
+
 	G_OBJECT_CLASS(caja_image_rotator_parent_class)->finalize(object);
 }
 
