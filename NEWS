@@ -1,3 +1,15 @@
+### caja-extensions 1.24.0
+
+  * Translations update
+  * caja-sendto: rewrite caja-sendto.ui from scratch fixing deprecations
+  * caja-sendto-command: add .7z,.tar.xz to packed type drop-down list
+  * caja-wallpaper-extension: remove unused pointer 'GError *err'
+  * caja-wallpaper-extension: fix memory leak
+  * image-converter: i18n select an angle drop-down list
+  * image-converter: rewrite caja-image-resize.ui from scratch fixing deprecations
+  * sendto: value stored to 'file' is never read
+  * configure: get quieter output from make
+
 ### caja-extensions 1.23.1
 
   * Translations update
