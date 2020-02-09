@@ -12,16 +12,17 @@
 # yoplait <yoplait@tememe.org>, 2018
 # Étienne Deparis <etienne@depar.is>, 2018
 # Laurent Napias, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Nicolas Roelandt (Personnel), 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# clefebvre <clement.lefebvre@linuxmint.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.0\n"
+"Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2019-12-24 15:05+0100\n"
+"POT-Creation-Date: 2020-02-01 13:01+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2019\n"
+"Last-Translator: clefebvre <clement.lefebvre@linuxmint.com>, 2020\n"
 "Language-Team: French (https://www.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,93 +82,72 @@ msgstr "Pivo_ter les images..."
 msgid "Rotate each selected image"
 msgstr "Pivote chacune des images sélectionnées"
 
-#: image-converter/caja-image-resize.ui:55
+#: image-converter/caja-image-resize.ui:33
 msgid "Resize Images"
 msgstr "Redimensionnement des images"
 
-#: image-converter/caja-image-resize.ui:73
-msgid "<b>Image Size</b>"
-msgstr "<b>Taille de l'image</b>"
+#: image-converter/caja-image-resize.ui:53
+msgid "_Cancel"
+msgstr "_Annuler"
 
-#: image-converter/caja-image-resize.ui:110
+#: image-converter/caja-image-resize.ui:69
+msgid "_Resize"
+msgstr "_Redimensionner"
+
+#: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
 msgstr "Sélectionner une taille:"
 
-#: image-converter/caja-image-resize.ui:131
-msgid "96x96"
-msgstr "96x96"
-
-#: image-converter/caja-image-resize.ui:132
-msgid "128x128"
-msgstr "128x128"
-
-#: image-converter/caja-image-resize.ui:133
-msgid "640x480"
-msgstr "640x480"
-
-#: image-converter/caja-image-resize.ui:134
-msgid "800x600"
-msgstr "800x600"
-
-#: image-converter/caja-image-resize.ui:135
-msgid "1024x768"
-msgstr "1024x768"
-
-#: image-converter/caja-image-resize.ui:136
-msgid "1280x960"
-msgstr "1280x960"
-
-#: image-converter/caja-image-resize.ui:155
-#: image-converter/caja-image-resize.ui:301
+#: image-converter/caja-image-resize.ui:165
+#: image-converter/caja-image-resize.ui:307
 msgid "pixels"
 msgstr "pixels"
 
-#: image-converter/caja-image-resize.ui:177
+#: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
 msgstr "Echelle:"
 
-#: image-converter/caja-image-resize.ui:210
+#: image-converter/caja-image-resize.ui:218
 msgid "percent"
 msgstr "pourcent"
 
-#: image-converter/caja-image-resize.ui:232
+#: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
 msgstr "Taille personnalisée:"
 
-#: image-converter/caja-image-resize.ui:251
+#: image-converter/caja-image-resize.ui:259
 msgid "Width:"
 msgstr "Largeur:"
 
-#: image-converter/caja-image-resize.ui:276
+#: image-converter/caja-image-resize.ui:283
 msgid "Height:"
 msgstr "Hauteur :"
 
-#: image-converter/caja-image-resize.ui:335
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Nom du fichier</b>"
+#: image-converter/caja-image-resize.ui:330
+msgid "Image Size"
+msgstr ""
 
-#: image-converter/caja-image-resize.ui:372
+#: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
 msgid "Append"
 msgstr "Ajouter"
 
-#: image-converter/caja-image-resize.ui:390
+#: image-converter/caja-image-resize.ui:386
 msgid ".resized"
 msgstr ".redimensionné"
 
-#: image-converter/caja-image-resize.ui:402
+#: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
 msgstr "au titre du fichier"
 
-#: image-converter/caja-image-resize.ui:419
+#: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
 msgstr "Redimensionner manuellement"
 
-#: image-converter/caja-image-resize.ui:478
-msgid "_Resize"
-msgstr "_Redimensionner"
+#: image-converter/caja-image-resize.ui:438
+msgid "Filename"
+msgstr "Nom de fichier"
 
 #: image-converter/caja-image-resizer.c:207
 #: image-converter/caja-image-rotator.c:204
@@ -194,6 +174,18 @@ msgstr "<i>Redimensionnement de \"%s\"</i>"
 msgid "Please enter a valid filename suffix!"
 msgstr "Veuillez entrer une extension valide!"
 
+#: image-converter/caja-image-rotate.ui:18
+msgid "90° clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:21
+msgid "90° counter-clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:24
+msgid "180°"
+msgstr ""
+
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
 msgstr "Pivoter des images"
@@ -213,6 +205,10 @@ msgstr "Angle personnalisée:"
 #: image-converter/caja-image-rotate.ui:143
 msgid "degrees clockwise"
 msgstr "degrés en sens horaire"
+
+#: image-converter/caja-image-rotate.ui:172
+msgid "<b>Filename</b>"
+msgstr "<b>Nom du fichier</b>"
 
 #: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
@@ -330,15 +326,15 @@ msgstr ""
 " bureau. Notez que cette option est inutile dans le cas où le dossier du "
 "bureau est identique au dossier personnel."
 
-#: sendto/caja-nste.c:78 sendto/caja-nste.c:83
+#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
 msgid "Send to..."
 msgstr "Envoyer à..."
 
-#: sendto/caja-nste.c:79
+#: sendto/caja-nste.c:77
 msgid "Send file by mail, instant message..."
 msgstr "Envoyer le fichier par courriel, messagerie instantanée..."
 
-#: sendto/caja-nste.c:84
+#: sendto/caja-nste.c:82
 msgid "Send files by mail, instant message..."
 msgstr "Envoyer les fichiers par courriel, messagerie instantanée..."
 

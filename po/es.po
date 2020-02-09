@@ -10,19 +10,19 @@
 # Emiliano Fascetti, 2018
 # ZenWalker <scow@riseup.net>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Joel Barrios <darkshram@gmail.com>, 2018
 # Adolfo Jayme-Barrientos, 2019
 # Benjamin Perez Carrillo <benperezc@gmail.com>, 2019
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Toni Estévez <toni.estevez@gmail.com>, 2019
+# Joel Barrios <darkshram@gmail.com>, 2020
+# Toni Estévez <toni.estevez@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.0\n"
+"Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2019-12-24 15:05+0100\n"
+"POT-Creation-Date: 2020-02-01 13:01+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2019\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,93 +82,72 @@ msgstr "_Girar imágenes…"
 msgid "Rotate each selected image"
 msgstr "Girar cada imagen seleccionada"
 
-#: image-converter/caja-image-resize.ui:55
+#: image-converter/caja-image-resize.ui:33
 msgid "Resize Images"
 msgstr "Redimensionar imágenes"
 
-#: image-converter/caja-image-resize.ui:73
-msgid "<b>Image Size</b>"
-msgstr "<b>Tamaño de la imagen</b>"
+#: image-converter/caja-image-resize.ui:53
+msgid "_Cancel"
+msgstr "_Cancelar"
 
-#: image-converter/caja-image-resize.ui:110
+#: image-converter/caja-image-resize.ui:69
+msgid "_Resize"
+msgstr "_Redimensionar"
+
+#: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
 msgstr "Seleccione un tamaño:"
 
-#: image-converter/caja-image-resize.ui:131
-msgid "96x96"
-msgstr "96 x 96"
-
-#: image-converter/caja-image-resize.ui:132
-msgid "128x128"
-msgstr "128 × 128"
-
-#: image-converter/caja-image-resize.ui:133
-msgid "640x480"
-msgstr "640 × 480"
-
-#: image-converter/caja-image-resize.ui:134
-msgid "800x600"
-msgstr "800 × 600"
-
-#: image-converter/caja-image-resize.ui:135
-msgid "1024x768"
-msgstr "1024 × 768"
-
-#: image-converter/caja-image-resize.ui:136
-msgid "1280x960"
-msgstr "1280 × 960"
-
-#: image-converter/caja-image-resize.ui:155
-#: image-converter/caja-image-resize.ui:301
+#: image-converter/caja-image-resize.ui:165
+#: image-converter/caja-image-resize.ui:307
 msgid "pixels"
 msgstr "píxeles"
 
-#: image-converter/caja-image-resize.ui:177
+#: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
 msgstr "Escala:"
 
-#: image-converter/caja-image-resize.ui:210
+#: image-converter/caja-image-resize.ui:218
 msgid "percent"
 msgstr "por ciento"
 
-#: image-converter/caja-image-resize.ui:232
+#: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
 msgstr "Tamaño personalizado:"
 
-#: image-converter/caja-image-resize.ui:251
+#: image-converter/caja-image-resize.ui:259
 msgid "Width:"
 msgstr "Anchura:"
 
-#: image-converter/caja-image-resize.ui:276
+#: image-converter/caja-image-resize.ui:283
 msgid "Height:"
 msgstr "Altura:"
 
-#: image-converter/caja-image-resize.ui:335
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Nombre del archivo</b>"
+#: image-converter/caja-image-resize.ui:330
+msgid "Image Size"
+msgstr "Tamaño de la imagen"
 
-#: image-converter/caja-image-resize.ui:372
+#: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
 msgid "Append"
 msgstr "Adjuntar"
 
-#: image-converter/caja-image-resize.ui:390
+#: image-converter/caja-image-resize.ui:386
 msgid ".resized"
 msgstr ".redimensionada"
 
-#: image-converter/caja-image-resize.ui:402
+#: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
 msgstr "al nombre de archivo"
 
-#: image-converter/caja-image-resize.ui:419
+#: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
 msgstr "Redimensionar y sobreescribir"
 
-#: image-converter/caja-image-resize.ui:478
-msgid "_Resize"
-msgstr "_Redimensionar"
+#: image-converter/caja-image-resize.ui:438
+msgid "Filename"
+msgstr "Nombre del archivo"
 
 #: image-converter/caja-image-resizer.c:207
 #: image-converter/caja-image-rotator.c:204
@@ -195,6 +174,18 @@ msgstr "<i>Redimensionando «%s»</i>"
 msgid "Please enter a valid filename suffix!"
 msgstr "Escriba un sufijo de nombre de archivo válido."
 
+#: image-converter/caja-image-rotate.ui:18
+msgid "90° clockwise"
+msgstr "90° en sentido horario"
+
+#: image-converter/caja-image-rotate.ui:21
+msgid "90° counter-clockwise"
+msgstr "90° en sentido antihorario"
+
+#: image-converter/caja-image-rotate.ui:24
+msgid "180°"
+msgstr "180°"
+
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
 msgstr "Girar imágenes"
@@ -214,6 +205,10 @@ msgstr "Ángulo personalizado:"
 #: image-converter/caja-image-rotate.ui:143
 msgid "degrees clockwise"
 msgstr "grados a la derecha"
+
+#: image-converter/caja-image-rotate.ui:172
+msgid "<b>Filename</b>"
+msgstr "<b>Nombre del archivo</b>"
 
 #: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
@@ -330,15 +325,15 @@ msgstr ""
 "cuenta que esta clave es irrelevante si la carpeta del escritorio es "
 "idéntica a la carpeta personal."
 
-#: sendto/caja-nste.c:78 sendto/caja-nste.c:83
+#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
 msgid "Send to..."
 msgstr "Enviar a..."
 
-#: sendto/caja-nste.c:79
+#: sendto/caja-nste.c:77
 msgid "Send file by mail, instant message..."
 msgstr "Enviar un archivo por correo, por mensaje instantáneo..."
 
-#: sendto/caja-nste.c:84
+#: sendto/caja-nste.c:82
 msgid "Send files by mail, instant message..."
 msgstr "Enviar archivos por correo, por mensaje instantáneo..."
 

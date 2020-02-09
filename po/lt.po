@@ -7,15 +7,16 @@
 # brennus <jonas.ska@gmail.com>, 2018
 # Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2019
 # Audrius Meskauskas, 2019
-# Moo, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Moo, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.0\n"
+"Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2019-12-24 15:05+0100\n"
+"POT-Creation-Date: 2020-02-01 13:01+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Moo, 2019\n"
+"Last-Translator: Moo, 2020\n"
 "Language-Team: Lithuanian (https://www.transifex.com/mate/teams/13566/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,93 +76,72 @@ msgstr "Sukti paveikslus..."
 msgid "Rotate each selected image"
 msgstr "Sukti kiekvieną pasirinktą paveikslą"
 
-#: image-converter/caja-image-resize.ui:55
+#: image-converter/caja-image-resize.ui:33
 msgid "Resize Images"
 msgstr "Keisti paveikslų dydį"
 
-#: image-converter/caja-image-resize.ui:73
-msgid "<b>Image Size</b>"
-msgstr "<b>Paveikslo dydis</b>"
+#: image-converter/caja-image-resize.ui:53
+msgid "_Cancel"
+msgstr "_Atsisakyti"
 
-#: image-converter/caja-image-resize.ui:110
+#: image-converter/caja-image-resize.ui:69
+msgid "_Resize"
+msgstr "_Keisti dydį"
+
+#: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
 msgstr "Pasirinkite dydį:"
 
-#: image-converter/caja-image-resize.ui:131
-msgid "96x96"
-msgstr "96×96"
-
-#: image-converter/caja-image-resize.ui:132
-msgid "128x128"
-msgstr "128×128"
-
-#: image-converter/caja-image-resize.ui:133
-msgid "640x480"
-msgstr "640×480"
-
-#: image-converter/caja-image-resize.ui:134
-msgid "800x600"
-msgstr "800×600"
-
-#: image-converter/caja-image-resize.ui:135
-msgid "1024x768"
-msgstr "1024×768"
-
-#: image-converter/caja-image-resize.ui:136
-msgid "1280x960"
-msgstr "1280×960"
-
-#: image-converter/caja-image-resize.ui:155
-#: image-converter/caja-image-resize.ui:301
+#: image-converter/caja-image-resize.ui:165
+#: image-converter/caja-image-resize.ui:307
 msgid "pixels"
 msgstr "pikselių"
 
-#: image-converter/caja-image-resize.ui:177
+#: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
 msgstr "Mastelis:"
 
-#: image-converter/caja-image-resize.ui:210
+#: image-converter/caja-image-resize.ui:218
 msgid "percent"
 msgstr "proc."
 
-#: image-converter/caja-image-resize.ui:232
+#: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
 msgstr "Pasirinktas dydis:"
 
-#: image-converter/caja-image-resize.ui:251
+#: image-converter/caja-image-resize.ui:259
 msgid "Width:"
 msgstr "Plotis:"
 
-#: image-converter/caja-image-resize.ui:276
+#: image-converter/caja-image-resize.ui:283
 msgid "Height:"
 msgstr "Aukštis:"
 
-#: image-converter/caja-image-resize.ui:335
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Failo vardas</b>"
+#: image-converter/caja-image-resize.ui:330
+msgid "Image Size"
+msgstr "Paveikslo dydis"
 
-#: image-converter/caja-image-resize.ui:372
+#: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
 msgid "Append"
 msgstr "Papildymas"
 
-#: image-converter/caja-image-resize.ui:390
+#: image-converter/caja-image-resize.ui:386
 msgid ".resized"
 msgstr ".resized"
 
-#: image-converter/caja-image-resize.ui:402
+#: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
 msgstr "į failo pavadinimą"
 
-#: image-converter/caja-image-resize.ui:419
+#: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
 msgstr "Pakeisti dydį vietoje"
 
-#: image-converter/caja-image-resize.ui:478
-msgid "_Resize"
-msgstr "_Keisti dydį"
+#: image-converter/caja-image-resize.ui:438
+msgid "Filename"
+msgstr "Failo pavadinimas"
 
 #: image-converter/caja-image-resizer.c:207
 #: image-converter/caja-image-rotator.c:204
@@ -188,6 +168,18 @@ msgstr "<i>Keičiamas „%s“ dydis</i>"
 msgid "Please enter a valid filename suffix!"
 msgstr "Įveskite tinkamą failo pavadinimo pabaigą!"
 
+#: image-converter/caja-image-rotate.ui:18
+msgid "90° clockwise"
+msgstr "90° pagal laikrodžio rodyklę"
+
+#: image-converter/caja-image-rotate.ui:21
+msgid "90° counter-clockwise"
+msgstr "90° prieš laikrodžio rodyklę"
+
+#: image-converter/caja-image-rotate.ui:24
+msgid "180°"
+msgstr "180°"
+
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
 msgstr "Paversti paveikslus"
@@ -207,6 +199,10 @@ msgstr "Pasirinktas kampas:"
 #: image-converter/caja-image-rotate.ui:143
 msgid "degrees clockwise"
 msgstr "laipsnių pagal laikrodžio rodyklę"
+
+#: image-converter/caja-image-rotate.ui:172
+msgid "<b>Filename</b>"
+msgstr "<b>Failo vardas</b>"
 
 #: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
@@ -321,15 +317,15 @@ msgstr ""
 "Kitu atveju jis bus atvertas darbalaukio kataloge. Šis punktas nereikšmingas"
 " darbalaukio katalogui esant tapačiam naudotojo namų aplankui."
 
-#: sendto/caja-nste.c:78 sendto/caja-nste.c:83
+#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
 msgid "Send to..."
 msgstr "Siųsti į..."
 
-#: sendto/caja-nste.c:79
+#: sendto/caja-nste.c:77
 msgid "Send file by mail, instant message..."
 msgstr "Siųsti failą paštu, žinute..."
 
-#: sendto/caja-nste.c:84
+#: sendto/caja-nste.c:82
 msgid "Send files by mail, instant message..."
 msgstr "Siųsti failus paštu, žinute..."
 

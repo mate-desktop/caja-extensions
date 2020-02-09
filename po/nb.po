@@ -5,16 +5,17 @@
 # 
 # Translators:
 # Kenneth Jenssen <kennethjenssen@yahoo.com>, 2018
-# Allan Nordhøy <epost@anotheragency.no>, 2019
 # Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Allan Nordhøy <epost@anotheragency.no>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.0\n"
+"Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2019-12-24 15:05+0100\n"
+"POT-Creation-Date: 2020-02-01 13:01+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2019\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,93 +74,72 @@ msgstr "Ro_ter bilder …"
 msgid "Rotate each selected image"
 msgstr "Roter alle valgte bilder"
 
-#: image-converter/caja-image-resize.ui:55
+#: image-converter/caja-image-resize.ui:33
 msgid "Resize Images"
 msgstr "Endre bildestørrelser"
 
-#: image-converter/caja-image-resize.ui:73
-msgid "<b>Image Size</b>"
-msgstr "<b>Bildestørrelse</b>"
+#: image-converter/caja-image-resize.ui:53
+msgid "_Cancel"
+msgstr "_Avbryt"
 
-#: image-converter/caja-image-resize.ui:110
+#: image-converter/caja-image-resize.ui:69
+msgid "_Resize"
+msgstr "_Endre størrelse"
+
+#: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
 msgstr "Velg størrelse:"
 
-#: image-converter/caja-image-resize.ui:131
-msgid "96x96"
-msgstr "96 × 96"
-
-#: image-converter/caja-image-resize.ui:132
-msgid "128x128"
-msgstr "128 × 128"
-
-#: image-converter/caja-image-resize.ui:133
-msgid "640x480"
-msgstr "640 × 480"
-
-#: image-converter/caja-image-resize.ui:134
-msgid "800x600"
-msgstr "800 × 600"
-
-#: image-converter/caja-image-resize.ui:135
-msgid "1024x768"
-msgstr "1024 × 768"
-
-#: image-converter/caja-image-resize.ui:136
-msgid "1280x960"
-msgstr "1280 × 960"
-
-#: image-converter/caja-image-resize.ui:155
-#: image-converter/caja-image-resize.ui:301
+#: image-converter/caja-image-resize.ui:165
+#: image-converter/caja-image-resize.ui:307
 msgid "pixels"
 msgstr "piksler"
 
-#: image-converter/caja-image-resize.ui:177
+#: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
 msgstr "Skala:"
 
-#: image-converter/caja-image-resize.ui:210
+#: image-converter/caja-image-resize.ui:218
 msgid "percent"
 msgstr "prosent"
 
-#: image-converter/caja-image-resize.ui:232
+#: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
 msgstr "Tilpasset størrelse:"
 
-#: image-converter/caja-image-resize.ui:251
+#: image-converter/caja-image-resize.ui:259
 msgid "Width:"
 msgstr "Bredde:"
 
-#: image-converter/caja-image-resize.ui:276
+#: image-converter/caja-image-resize.ui:283
 msgid "Height:"
 msgstr "Høyde:"
 
-#: image-converter/caja-image-resize.ui:335
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Filnavn</b>"
+#: image-converter/caja-image-resize.ui:330
+msgid "Image Size"
+msgstr ""
 
-#: image-converter/caja-image-resize.ui:372
+#: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
 msgid "Append"
 msgstr "Legg til"
 
-#: image-converter/caja-image-resize.ui:390
+#: image-converter/caja-image-resize.ui:386
 msgid ".resized"
 msgstr ".endret_størrelse"
 
-#: image-converter/caja-image-resize.ui:402
+#: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
 msgstr "til filnavn"
 
-#: image-converter/caja-image-resize.ui:419
+#: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
 msgstr "Størrelsesendring uten plasseringsendring"
 
-#: image-converter/caja-image-resize.ui:478
-msgid "_Resize"
-msgstr "_Endre størrelse"
+#: image-converter/caja-image-resize.ui:438
+msgid "Filename"
+msgstr "Filnavn"
 
 #: image-converter/caja-image-resizer.c:207
 #: image-converter/caja-image-rotator.c:204
@@ -186,6 +166,18 @@ msgstr "<i>Endrer størrelse på «%s»</i>"
 msgid "Please enter a valid filename suffix!"
 msgstr "Tast inn en gyldig filnavnsendelse!"
 
+#: image-converter/caja-image-rotate.ui:18
+msgid "90° clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:21
+msgid "90° counter-clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:24
+msgid "180°"
+msgstr ""
+
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
 msgstr "Roter bilder"
@@ -205,6 +197,10 @@ msgstr "Tilpasset vinkel:"
 #: image-converter/caja-image-rotate.ui:143
 msgid "degrees clockwise"
 msgstr "grader med klokka"
+
+#: image-converter/caja-image-rotate.ui:172
+msgid "<b>Filename</b>"
+msgstr "<b>Filnavn</b>"
 
 #: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
@@ -322,15 +318,15 @@ msgstr ""
 " Merk at denne nøkkelen er irrelevant hvis skrivebordsmappen er den samme "
 "som hjemmemappen."
 
-#: sendto/caja-nste.c:78 sendto/caja-nste.c:83
+#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
 msgid "Send to..."
 msgstr "Send til …"
 
-#: sendto/caja-nste.c:79
+#: sendto/caja-nste.c:77
 msgid "Send file by mail, instant message..."
 msgstr "Send fil med e-post, lynmelding …"
 
-#: sendto/caja-nste.c:84
+#: sendto/caja-nste.c:82
 msgid "Send files by mail, instant message..."
 msgstr "Send filer med e-post, lynmelding …"
 
