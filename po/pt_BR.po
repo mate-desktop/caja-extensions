@@ -16,8 +16,8 @@
 # 710a500dd1d5560bb05c8b24814b8c26, 2018
 # Iuri Suzano <isuzano@netkings.cc>, 2018
 # 18ab4449a00621534598e84a949423ea, 2018
+# Marcus Vinícius Marques, 2018
 # Marcio Andre Padula <padula1000@gmail.com>, 2019
-# Marcus Vinícius Marques, 2019
 # Wilson Flávio Rodrigues <wfr@cin.ufpe.br>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2020
@@ -682,7 +682,7 @@ msgstr "Definir imagem como papel de parede atual"
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
 msgid "desktop"
-msgstr "área de trabalho"
+msgstr ""
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
