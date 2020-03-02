@@ -4,11 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2018
-# Rui <xymarior@yandex.com>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Carlos Moreira, 2020
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Rui <xymarior@yandex.com>, 2020
 # José Vieira <jvieira33@sapo.pt>, 2020
 # 
 msgid ""
@@ -16,7 +15,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
 "Last-Translator: José Vieira <jvieira33@sapo.pt>, 2020\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +95,7 @@ msgstr "Escolha o tamanho:"
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "pixeis"
+msgstr "píxeis"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
@@ -671,7 +670,7 @@ msgstr "Guardar imagem como papel de parede atual"
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
 msgid "desktop"
-msgstr "área de trabalho"
+msgstr ""
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
