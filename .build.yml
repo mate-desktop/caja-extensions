@@ -60,6 +60,7 @@ requires:
     - autopoint
     - clang
     - clang-tools
+    - gcc
     - git
     - libcaja-extension-dev
     - libdbus-1-dev
