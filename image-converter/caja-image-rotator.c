@@ -345,19 +345,14 @@ caja_image_rotator_init(CajaImageRotator *rotator)
 	CajaImageRotatorPrivate *priv = caja_image_rotator_get_instance_private (rotator);
 
 	GtkBuilder *ui;
-	gchar      *path;
-	guint       result;
 	GError     *err = NULL;
 
 	/* Let's create our gtkbuilder and load the xml file */
 	ui = gtk_builder_new ();
 	gtk_builder_set_translation_domain (ui, GETTEXT_PACKAGE);
-	path = g_build_filename (DATADIR, PACKAGE, "caja-image-rotate.ui", NULL);
-	result = gtk_builder_add_from_file (ui, path, &err);
-	g_free (path);
 
 	/* If we're unable to load the xml file */
-	if (result == 0) {
+	if (gtk_builder_add_from_resource (ui, "/org/mate/caja/extensions/imageconverter/caja-image-rotate.ui", &err) == 0) {
 		g_warning ("%s", err->message);
 		g_error_free (err);
 		return;

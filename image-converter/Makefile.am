@@ -1,7 +1,6 @@
 NULL =
 AM_CPPFLAGS =						\
 	$(DISABLE_DEPRECATED_CPPFLAGS)			\
-	-DDATADIR=\"$(datadir)\"			\
 	-DMATELOCALEDIR=\""$(datadir)/locale"\"		\
 	-I$(top_srcdir)					\
 	-I$(top_builddir)				\
@@ -15,6 +14,10 @@ caja_extensiondir=$(CAJA_EXTENSION_DIR)
 
 caja_extension_LTLIBRARIES=libcaja-image-converter.la
 
+resources_built_sources = caja-image-converter-resources.h caja-image-converter-resources.c
+$(resources_built_sources): org.mate.caja.extensions.imageconverter.gresource.xml Makefile $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies --sourcedir $(srcdir) $(srcdir)/org.mate.caja.extensions.imageconverter.gresource.xml)
+	$(AM_V_GEN) XMLLINT=$(XMLLINT) $(GLIB_COMPILE_RESOURCES) --target $@ --sourcedir $(srcdir) --generate --c-name imageconverter $<
+
 libcaja_image_converter_la_SOURCES =			\
 	image-converter.c				\
 	caja-image-converter.c				\
@@ -23,6 +26,7 @@ libcaja_image_converter_la_SOURCES =			\
 	caja-image-resizer.h				\
 	caja-image-rotator.c				\
 	caja-image-rotator.h				\
+	$(resources_built_sources)			\
 	$(NULL)
 libcaja_image_converter_la_CPPFLAGS =			\
 	$(AM_CPPFLAGS)					\
@@ -39,17 +43,19 @@ libcaja_image_converter_la_LIBADD =			\
 	$(IMAGE_CONVERTER_LIBS)				\
 	$(NULL)
 
-builderdir = $(datadir)/caja-extensions
-builder_DATA = 				\
-	caja-image-resize.ui	\
-	caja-image-rotate.ui
-
 extensiondir = $(datadir)/caja/extensions
 extension_in_files = libcaja-image-converter.caja-extension.desktop.in
 extension_DATA = $(extension_in_files:.caja-extension.desktop.in=.caja-extension)
 $(extension_DATA): $(extension_in_files)
 	$(AM_V_GEN) $(MSGFMT) --desktop --keyword= --keyword=Copyright --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
-EXTRA_DIST = $(builder_DATA)
+EXTRA_DIST =						\
+	caja-image-resize.ui				\
+	caja-image-rotate.ui				\
+	org.mate.caja.extensions.imageconverter.gresource.xml \
+	$(NULL)
 
-CLEANFILES = $(extension_DATA)
+CLEANFILES =						\
+	$(extension_DATA)				\
+	$(resources_built_sources)			\
+	$(NULL)
