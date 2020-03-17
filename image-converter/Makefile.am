@@ -52,6 +52,7 @@ $(extension_DATA): $(extension_in_files)
 EXTRA_DIST =						\
 	caja-image-resize.ui				\
 	caja-image-rotate.ui				\
+	error-dialog.ui					\
 	org.mate.caja.extensions.imageconverter.gresource.xml \
 	$(NULL)
 

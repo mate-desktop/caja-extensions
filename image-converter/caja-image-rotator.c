@@ -195,21 +195,24 @@ op_finished (GPid pid, gint status, gpointer data)
 
 	if (status != 0) {
 		/* rotating failed */
-		char *name = caja_file_info_get_name (file);
+		GtkBuilder *builder;
+		GtkWidget  *msg_dialog;
+		GObject    *dialog_text;
+		int         response_id;
+		char       *msg;
+		char       *name;
 
-		GtkWidget *msg_dialog = gtk_message_dialog_new (GTK_WINDOW (priv->progress_dialog),
-			GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_ERROR,
-			GTK_BUTTONS_NONE,
-			"'%s' cannot be rotated. Check whether you have permission to write to this folder.",
-			name);
-		g_free (name);
+		name  = caja_file_info_get_name (file);
 
-		gtk_dialog_add_button (GTK_DIALOG (msg_dialog), _("_Skip"), 1);
-		gtk_dialog_add_button (GTK_DIALOG (msg_dialog), GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL);
-		gtk_dialog_add_button (GTK_DIALOG (msg_dialog), _("_Retry"), 0);
-		gtk_dialog_set_default_response (GTK_DIALOG (msg_dialog), 0);
+		builder = gtk_builder_new_from_resource ("/org/mate/caja/extensions/imageconverter/error-dialog.ui");
+		msg_dialog = GTK_WIDGET (gtk_builder_get_object (builder, "error_dialog"));
+		dialog_text = gtk_builder_get_object (builder, "error_text");
+		msg = g_strdup_printf ("'%s' cannot be rotated. Check whether you have permission to write to this folder.", name);
+		gtk_label_set_text (GTK_LABEL (dialog_text), msg);
+		g_free (msg);
+		g_object_unref (builder);
 
-		int response_id = gtk_dialog_run (GTK_DIALOG (msg_dialog));
+		response_id = gtk_dialog_run (GTK_DIALOG (msg_dialog));
 		gtk_widget_destroy (msg_dialog);
 		if (response_id == 0) {
 			retry = TRUE;
