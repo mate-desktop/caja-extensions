@@ -19,5 +19,6 @@
   <gresource prefix="/org/mate/caja/extensions/imageconverter">
     <file compressed="true">caja-image-resize.ui</file>
     <file compressed="true">caja-image-rotate.ui</file>
+    <file compressed="true">error-dialog.ui</file>
   </gresource>
 </gresources>
