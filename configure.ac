@@ -21,6 +21,7 @@ GLIB_GSETTINGS
 GTK_DOC_CHECK(1.9)
 
 MATE_COMMON_INIT
+MATE_COMPILE_WARNINGS
 
 # Check for pkgconfig first
 AC_CHECK_PROG(HAVE_PKGCONFIG, pkg-config, yes, no)
@@ -363,17 +364,20 @@ AC_OUTPUT([
 ])
 
 echo "
-caja-extensions-$VERSION:
-        prefix:                 ${prefix}
-        compiler:               ${CC}
-        caja-extension dir      ${ac_with_cajadir}
+      caja-extensions $VERSION
+      `echo caja-extensions $VERSION | sed "s/./=/g"`
+      prefix:                 ${prefix}
+      compiler:               ${CC}
+      cflags:                 ${CFLAGS}
+      warning flags:          ${WARN_CFLAGS}
+      caja-extension dir      ${ac_with_cajadir}
 
-Plugins to be built:
-        Image Converter:        $enable_image_converter
-        Open Terminal:          $enable_open_terminal
-        Sendto:                 $enable_sendto
-        Share:                  $enable_share
-        Gksu:                   $enable_gksu
-        Wallpaper:              $enable_wallpaper
-        xattr Tags:             $enable_xattr_tags
+      Plugins to be built:
+      Image Converter:        $enable_image_converter
+      Open Terminal:          $enable_open_terminal
+      Sendto:                 $enable_sendto
+      Share:                  $enable_share
+      Gksu:                   $enable_gksu
+      Wallpaper:              $enable_wallpaper
+      xattr Tags:             $enable_xattr_tags
 "
