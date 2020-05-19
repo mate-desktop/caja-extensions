@@ -108,8 +108,12 @@ init (NstPlugin *plugin)
 			g_strfreev (strv);
 		} else if (strstr (mail_cmd, "sylpheed") || strstr (mail_cmd, "claws"))
 			type = MAILER_SYLPHEED;
-		else if (strstr (mail_cmd, "anjal"))
+		else if (strstr (mail_cmd, "anjal") || strstr (mail_cmd, "evolution")) {
+			char *mail_cmd_aux = mail_cmd;
+			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
+			g_free (mail_cmd_aux);
 			type = MAILER_EVO;
+		}
 	}
 
 	if (mail_cmd == NULL)
