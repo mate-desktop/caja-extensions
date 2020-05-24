@@ -28,3 +28,5 @@ libnstremovable_devices_la_CFLAGS =		\
 	$(NULL)
 libnstremovable_devices_la_LDFLAGS = -module -avoid-version
 libnstremovable_devices_la_LIBADD = $(GIO_LIBS) $(SENDTO_LIBS) $(builddir)/../libnstcommon.la
+
+-include $(top_srcdir)/git.mk

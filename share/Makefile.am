@@ -46,3 +46,5 @@ $(extension_DATA): $(extension_in_files)
 EXTRA_DIST = share-dialog.ui
 
 CLEANFILES = $(extension_DATA)
+
+-include $(top_srcdir)/git.mk

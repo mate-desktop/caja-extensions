@@ -60,3 +60,5 @@ CLEANFILES =						\
 	$(extension_DATA)				\
 	$(resources_built_sources)			\
 	$(NULL)
+
+-include $(top_srcdir)/git.mk

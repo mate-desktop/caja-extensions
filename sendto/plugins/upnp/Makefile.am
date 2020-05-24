@@ -28,3 +28,5 @@ libnstupnp_la_CFLAGS =				\
 	$(NULL)
 libnstupnp_la_LDFLAGS = -module -avoid-version
 libnstupnp_la_LIBADD = $(UPNP_LIBS) $(SENDTO_LIBS)
+
+-include $(top_srcdir)/git.mk

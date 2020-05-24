@@ -11,3 +11,5 @@ libnstcommon_la_LIBADD = $(SENDTO_LIBS)
 endif
 
 EXTRA_DIST = $(NST_COMMON_SOURCES)
+
+-include $(top_srcdir)/git.mk
