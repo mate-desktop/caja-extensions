@@ -29,3 +29,5 @@ libnstburn_la_CFLAGS =				\
 	$(NULL)
 libnstburn_la_LDFLAGS = -module -avoid-version
 libnstburn_la_LIBADD = $(GIO_LIBS) $(SENDTO_LIBS) $(builddir)/../libnstcommon.la
+
+-include $(top_srcdir)/git.mk

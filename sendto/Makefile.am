@@ -101,3 +101,5 @@ CLEANFILES = \
 	*.gschema.valid \
 	$(resources_built_sources) \
 	$(NULL)
+
+-include $(top_srcdir)/git.mk

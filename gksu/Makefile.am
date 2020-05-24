@@ -34,3 +34,5 @@ $(extension_DATA): $(extension_in_files)
 	$(AM_V_GEN) $(MSGFMT) --desktop --keyword= --keyword=Copyright --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
 
 CLEANFILES = $(extension_DATA)
+
+-include $(top_srcdir)/git.mk

@@ -29,3 +29,4 @@ libnstgajim_la_CFLAGS =				\
 libnstgajim_la_LDFLAGS = -module -avoid-version
 libnstgajim_la_LIBADD = $(DBUS_LIBS) $(SENDTO_LIBS)
 
+-include $(top_srcdir)/git.mk

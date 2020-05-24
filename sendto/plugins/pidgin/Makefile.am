@@ -32,3 +32,5 @@ libnstpidgin_la_LIBADD =			\
 	$(PIDGIN_LIBS)				\
 	$(SENDTO_LIBS)				\
 	$(NUll)
+
+-include $(top_srcdir)/git.mk

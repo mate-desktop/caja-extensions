@@ -52,3 +52,5 @@ CLEANFILES = \
 
 EXTRA_DIST = \
 	$(gsettings_schemas_in_files)
+
+-include $(top_srcdir)/git.mk

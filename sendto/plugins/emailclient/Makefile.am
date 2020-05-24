@@ -28,3 +28,5 @@ libnstemailclient_la_CFLAGS =			\
 	$(NULL)
 libnstemailclient_la_LDFLAGS = -module -avoid-version
 libnstemailclient_la_LIBADD = $(SENDTO_LIBS) $(EMAILCLIENT_LIBS)
+
+-include $(top_srcdir)/git.mk
