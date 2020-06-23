@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.24.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2020-06-23 13:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,11 +30,6 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the "
 "correct application cannot be determined."
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
 msgstr ""
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
@@ -70,6 +65,8 @@ msgid "Resize Images"
 msgstr ""
 
 #: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
+#: share/share-dialog.ui:249
 msgid "_Cancel"
 msgstr ""
 
@@ -111,7 +108,7 @@ msgid "Image Size"
 msgstr ""
 
 #: image-converter/caja-image-resize.ui:368
-#: image-converter/caja-image-rotate.ui:206
+#: image-converter/caja-image-rotate.ui:242
 msgid "Append"
 msgstr ""
 
@@ -120,7 +117,7 @@ msgid ".resized"
 msgstr ""
 
 #: image-converter/caja-image-resize.ui:398
-#: image-converter/caja-image-rotate.ui:228
+#: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
 msgstr ""
 
@@ -129,95 +126,77 @@ msgid "Resize in place"
 msgstr ""
 
 #: image-converter/caja-image-resize.ui:438
+#: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
 msgstr ""
 
-#: image-converter/caja-image-resizer.c:207
-#: image-converter/caja-image-rotator.c:204
-msgid "_Skip"
-msgstr ""
-
-#: image-converter/caja-image-resizer.c:209
-#: image-converter/caja-image-rotator.c:206
-msgid "_Retry"
-msgstr ""
-
-#: image-converter/caja-image-resizer.c:287
+#: image-converter/caja-image-resizer.c:293
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr ""
 
-#: image-converter/caja-image-resizer.c:292
+#: image-converter/caja-image-resizer.c:298
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr ""
 
-#: image-converter/caja-image-resizer.c:310
-#: image-converter/caja-image-rotator.c:309
+#: image-converter/caja-image-resizer.c:316
+#: image-converter/caja-image-rotator.c:315
 msgid "Please enter a valid filename suffix!"
 msgstr ""
 
-#: image-converter/caja-image-rotate.ui:18
-msgid "90° clockwise"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:21
-msgid "90° counter-clockwise"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:24
-msgid "180°"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:31
+#: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
 msgstr ""
 
-#: image-converter/caja-image-rotate.ui:46
-msgid "<b>Image Rotation</b>"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:79
-msgid "Select an angle:"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:117
-msgid "Custom angle:"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:143
-msgid "degrees clockwise"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:219
-msgid ".rotated"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:242
-msgid "Rotate in place"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:288
+#: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
 msgstr ""
 
-#: image-converter/caja-image-rotator.c:286
+#: image-converter/caja-image-rotate.ui:104
+msgid "Select an angle:"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:124
+msgid "90° clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:125
+msgid "90° counter-clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:126
+msgid "180°"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:149
+msgid "Custom angle:"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:181
+msgid "degrees clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:204
+msgid "Image Rotation"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:260
+msgid ".rotated"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:290
+msgid "Rotate in place"
+msgstr ""
+
+#: image-converter/caja-image-rotator.c:292
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr ""
 
-#: image-converter/caja-image-rotator.c:291
+#: image-converter/caja-image-rotator.c:297
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
 msgstr ""
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
@@ -270,11 +249,6 @@ msgstr ""
 msgid "open-terminal Configuration"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr ""
-
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr ""
@@ -313,30 +287,25 @@ msgstr ""
 msgid "Send files by mail, instant message..."
 msgstr ""
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:569
 msgid "Files"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:789
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:809
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:824
 msgid "Could not load any plugins."
 msgstr ""
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:827
 msgid "Please verify your installation"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
 msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
@@ -371,35 +340,39 @@ msgid ""
 "gz, 2: tar.bz2)."
 msgstr ""
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr ""
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
 msgstr ""
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr ""
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr ""
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr ""
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
 msgstr ""
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr ""
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr ""
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr ""
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr ""
 
@@ -451,12 +424,7 @@ msgstr ""
 msgid "UPnP Media Server"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
-msgstr ""
-
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
 msgid "Share"
 msgstr ""
 
@@ -468,13 +436,13 @@ msgstr ""
 msgid "Copyright (C) 2005 Ethium, Inc."
 msgstr ""
 
-#: share/caja-share.c:123
+#: share/caja-share.c:122
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr ""
 
-#: share/caja-share.c:131
+#: share/caja-share.c:130
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to "
@@ -482,90 +450,90 @@ msgid ""
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - read permission by others\n"
 msgstr ""
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - write permission by others\n"
 msgstr ""
 
-#: share/caja-share.c:137
+#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr ""
 
-#: share/caja-share.c:141
+#: share/caja-share.c:140
 msgid "Add the permissions automatically"
 msgstr ""
 
-#: share/caja-share.c:167
+#: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr ""
 
-#: share/caja-share.c:451
+#: share/caja-share.c:450
 msgid "Share name is too long"
 msgstr ""
 
-#: share/caja-share.c:493
+#: share/caja-share.c:492
 msgid "The share name cannot be empty"
 msgstr ""
 
-#: share/caja-share.c:506
+#: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr ""
 
-#: share/caja-share.c:516
+#: share/caja-share.c:515
 msgid "Another share has the same name"
 msgstr ""
 
-#: share/caja-share.c:563 share/caja-share.c:799
+#: share/caja-share.c:558 share/caja-share.c:792
 msgid "Modify _Share"
 msgstr ""
 
-#: share/caja-share.c:563 share/caja-share.c:801
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Create _Share"
 msgstr ""
 
-#: share/caja-share.c:691
+#: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr ""
 
-#: share/caja-share.c:1123
+#: share/caja-share.c:1116 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr ""
 
-#: share/caja-share.c:1164
+#: share/caja-share.c:1157
 msgid "Sharing Options"
 msgstr ""
 
-#: share/caja-share.c:1165
+#: share/caja-share.c:1158
 msgid "Share this Folder"
 msgstr ""
 
-#: share/share-dialog.ui:27
-msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
-
-#: share/share-dialog.ui:75
-msgid "Share _name:"
-msgstr ""
-
-#: share/share-dialog.ui:108
+#: share/share-dialog.ui:85
 msgid "Share this _folder"
 msgstr ""
 
-#: share/share-dialog.ui:139
+#: share/share-dialog.ui:119
+msgid "Share _name:"
+msgstr ""
+
+#: share/share-dialog.ui:133
 msgid "Co_mment:"
 msgstr ""
 
-#: share/share-dialog.ui:170
+#: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr ""
 
-#: share/share-dialog.ui:187
+#: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
+msgstr ""
+
+#: share/share-dialog.ui:264
+msgid "_Save"
 msgstr ""
 
 #: share/shares.c:123
@@ -626,18 +594,12 @@ msgid ""
 "first and add a new one"
 msgstr ""
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
 msgstr ""
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
 msgstr ""
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
