@@ -1,3 +1,23 @@
+### caja-extensions 1.25.0
+
+  * Translations update
+  * update resource for transifex
+  * add git.mk to generate .gitignore
+  * Require gtk+ 3.22 in glade files
+  * sendto: Fix evolution command for sending an email
+  * build: silent build warnings for distcheck
+  * image-converter: Add error-dialog.ui
+  * use MATE_COMPILE_WARNINGS from mate-common
+  * Fix memory leak allocated with 'gtk_builder_new ()'
+  * caja-image-rotator: fix memory leak pointed to by 'angle'
+  * caja-image-resizer: fix memory leak pointed to by 'size'
+  * image-converter: use gresources for UI files
+  * share: rewrite share-dialog.ui from scratch
+  * caja-sendto-command: fix memory leak pointed to by 'p'
+  * image-converter: rewrite caja-image-rotate.ui from scratch
+  * Do not collect the translation for Icon
+  * automake: do not include CFLAGS in CPPFLAGS
+
 ### caja-extensions 1.24.0
 
   * Translations update
