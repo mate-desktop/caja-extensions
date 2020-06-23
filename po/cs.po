@@ -6,13 +6,13 @@
 # Translators:
 # Michal <sinope@seznam.cz>, 2018
 # huskyviking <husky.viking@seznam.cz>, 2018
-# jakubtalich, 2018
+# 1e6459e9b1241af8afa03d508d281c17_dbe0d8b, 2018
 # Roman Horník <roman.hornik@debian-linux.cz>, 2018
-# Lucas Lommer <drom@kdyne.net>, 2019
-# Stanislav Kučera <inactive+kacernator@transifex.com>, 2019
-# ToMáš Marný, 2020
+# 6e833d5535e2fe0dd9dfa7fe5bf473f2_d78f422 <64c38a0ff10419c64e8e03d54c72b3bd_352524>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # LiberteCzech <liberte.czech@gmail.com>, 2020
+# Lucas Lommer <drom@kdyne.net>, 2020
+# ToMáš Marný, 2020
 # 
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: LiberteCzech <liberte.czech@gmail.com>, 2020\n"
+"Last-Translator: ToMáš Marný, 2020\n"
 "Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,7 +99,7 @@ msgstr "Vyberte velikost:"
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "pixelů"
+msgstr "bodů"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
@@ -123,7 +123,7 @@ msgstr "Výška:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr ""
+msgstr "Velikost obrázku"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
@@ -174,15 +174,15 @@ msgstr "Prosím vložte správnou příponu souboru!"
 
 #: image-converter/caja-image-rotate.ui:18
 msgid "90° clockwise"
-msgstr ""
+msgstr "90° doprava"
 
 #: image-converter/caja-image-rotate.ui:21
 msgid "90° counter-clockwise"
-msgstr ""
+msgstr "90° doleva"
 
 #: image-converter/caja-image-rotate.ui:24
 msgid "180°"
-msgstr ""
+msgstr "180°"
 
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
@@ -206,7 +206,7 @@ msgstr "stupňů doprava"
 
 #: image-converter/caja-image-rotate.ui:172
 msgid "<b>Filename</b>"
-msgstr "<b>Jméno souboru</b>"
+msgstr "<b>Název souboru</b>"
 
 #: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
@@ -417,7 +417,7 @@ msgstr "Odeslat j_ako:"
 
 #: sendto/caja-sendto.ui:234
 msgid "Send t_o:"
-msgstr "Odeslat d_o"
+msgstr "Odeslat _do:"
 
 #: sendto/caja-sendto.ui:300
 msgid "<b>Compression</b>"
@@ -517,15 +517,15 @@ msgstr ""
 
 #: share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr "- oprávnění pro čtení pro ostatní⏎\n"
+msgstr "  - oprávnění pro čtení pro ostatní\n"
 
 #: share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr "- oprávnění pro zápis pro ostatní⏎\n"
+msgstr "  - oprávnění pro zápis pro ostatní\n"
 
 #: share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "- oprávnění pro spuštění pro ostatní⏎\n"
+msgstr "  - oprávnění pro spuštění pro ostatní\n"
 
 #: share/caja-share.c:141
 msgid "Add the permissions automatically"
@@ -538,20 +538,20 @@ msgstr "Nelze změnit oprávnění u složky \"%s\""
 
 #: share/caja-share.c:451
 msgid "Share name is too long"
-msgstr "Sdílené jméno je příliš dlouhé"
+msgstr "Název sdílení je příliš dlouhý"
 
 #: share/caja-share.c:493
 msgid "The share name cannot be empty"
-msgstr "Sdílené jméno nemůže být prázdné"
+msgstr "Název sdílení nemůže zůstat nevyplněný"
 
 #: share/caja-share.c:506
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Chyba při získávání sdílené informace: %s"
+msgstr "Chyba při získávání informací o sdílení: %s"
 
 #: share/caja-share.c:516
 msgid "Another share has the same name"
-msgstr "Další sdílené má stejný název"
+msgstr "Tento název je už používán pro jiné sdílení"
 
 #: share/caja-share.c:563 share/caja-share.c:799
 msgid "Modify _Share"
@@ -563,7 +563,7 @@ msgstr "Vytvořit _Sdílení"
 
 #: share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
-msgstr "Došlo k chybě při získávání sdílení informací"
+msgstr "Došlo k chybě při získávání informací o sdílení"
 
 #: share/caja-share.c:1123
 msgid "Folder Sharing"
@@ -583,11 +583,11 @@ msgstr "<big><b>Sdílená složka</b></big>"
 
 #: share/share-dialog.ui:75
 msgid "Share _name:"
-msgstr "Sdílený _název:"
+msgstr "_Název sdílení:"
 
 #: share/share-dialog.ui:108
 msgid "Share this _folder"
-msgstr "Sdílet _složku"
+msgstr "Sdílet tuto slož_ku"
 
 #: share/share-dialog.ui:139
 msgid "Co_mment:"

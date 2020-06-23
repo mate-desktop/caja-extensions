@@ -7,7 +7,7 @@
 # Enrico Nicoletto <enrico.BR@gmx.co.uk>, 2018
 # Aldo Oliveira <america103@gmail.com>, 2018
 # Filipe Oliveira <contato@fmoliveira.com.br>, 2018
-# André Moreira <inactive+arm332@transifex.com>, 2018
+# f5bfbbe59ae74d72aa8f60d6b507fdb3_744c1a4 <36f18fbd600deae71db7384d7a975d29_153661>, 2018
 # Willian Nunes de Oliveira <williangd@yahoo.com.br>, 2018
 # Lucas Mezêncio <lucas.mezencio@gmail.com>, 2018
 # Leandro “Lê Corſetti van Utrecht” Guimarães Faria Corcete DUTRA <l@dutras.org>, 2018
@@ -16,7 +16,7 @@
 # 710a500dd1d5560bb05c8b24814b8c26, 2018
 # Iuri Suzano <isuzano@netkings.cc>, 2018
 # 18ab4449a00621534598e84a949423ea, 2018
-# Marcus Vinícius Marques, 2018
+# 65f2af3cfa184c075942a0418b98d2de_d688669, 2018
 # Marcio Andre Padula <padula1000@gmail.com>, 2019
 # Wilson Flávio Rodrigues <wfr@cin.ufpe.br>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020

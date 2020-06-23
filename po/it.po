@@ -9,11 +9,11 @@
 # Marco Bartolucci <nap.84@live.it>, 2018
 # Emanuele Antonio Faraone <emanueleant03@gmail.com>, 2018
 # l3nn4rt, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Enrico B. <enricobe@hotmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Giuseppe Pignataro <rogepix@gmail.com>, 2020
 # Alessandro Volturno <alelvb@inwind.it>, 2020
+# Enrico B. <enricobe@hotmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2020\n"
+"Last-Translator: Enrico B. <enricobe@hotmail.com>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,7 +51,7 @@ msgstr ""
 #. file name)!
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
 msgid "system"
-msgstr "system"
+msgstr "sistema"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -67,15 +67,15 @@ msgstr "Copyright (C) 2002-2005 Gustavo Noronha Silva"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Ridimensionare le Immagini.."
+msgstr "_Ridimensiona le immagini.."
 
 #: image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Ridimensionare tutte le immagini selezionate"
+msgstr "Ridimensiona tutte le immagini selezionate"
 
 #: image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "Ruo_ta immagini..."
+msgstr "Ruo_ta le immagini..."
 
 #: image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
@@ -83,7 +83,7 @@ msgstr "Ruota ogni immagine selezionata"
 
 #: image-converter/caja-image-resize.ui:33
 msgid "Resize Images"
-msgstr "Ridimensiona immagini"
+msgstr "Ridimensiona le immagini"
 
 #: image-converter/caja-image-resize.ui:53
 msgid "_Cancel"
@@ -124,12 +124,12 @@ msgstr "Altezza:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr "Dimensione Immagine"
+msgstr "Dimensione immagine"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
 msgid "Append"
-msgstr "Appendi"
+msgstr "Aggiungi"
 
 #: image-converter/caja-image-resize.ui:386
 msgid ".resized"
@@ -138,15 +138,15 @@ msgstr ".ridimensionato"
 #: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
-msgstr "al nome file"
+msgstr "al nome del file"
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
-msgstr "Ridimensiona sul posto"
+msgstr "Ridimensiona e sovrascrivi"
 
 #: image-converter/caja-image-resize.ui:438
 msgid "Filename"
-msgstr "Nome file"
+msgstr "Nome del file"
 
 #: image-converter/caja-image-resizer.c:207
 #: image-converter/caja-image-rotator.c:204
@@ -171,7 +171,7 @@ msgstr "<i>Ridimensionamento di \"%s\"</i>"
 #: image-converter/caja-image-resizer.c:310
 #: image-converter/caja-image-rotator.c:309
 msgid "Please enter a valid filename suffix!"
-msgstr "Inserire un suffisso valido al nome file!"
+msgstr "Inserire un suffisso valido al nome del file!"
 
 #: image-converter/caja-image-rotate.ui:18
 msgid "90° clockwise"
@@ -187,7 +187,7 @@ msgstr "180°"
 
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
-msgstr "Ruota immagini"
+msgstr "Ruota le immagini"
 
 #: image-converter/caja-image-rotate.ui:46
 msgid "<b>Image Rotation</b>"
@@ -207,7 +207,7 @@ msgstr "gradi orari"
 
 #: image-converter/caja-image-rotate.ui:172
 msgid "<b>Filename</b>"
-msgstr "<b>Nome file</b>"
+msgstr "<b>Nome del file</b>"
 
 #: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
@@ -215,7 +215,7 @@ msgstr ".ruotata"
 
 #: image-converter/caja-image-rotate.ui:242
 msgid "Rotate in place"
-msgstr "Ruota sul posto"
+msgstr "Ruota e sovrascrivi"
 
 #: image-converter/caja-image-rotate.ui:288
 msgid "_Rotate"
@@ -235,15 +235,15 @@ msgstr "<i>Rotazione di \"%s\"</i>"
 #. file name)!
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
 msgid "image"
-msgstr "image"
+msgstr "immagine"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
-msgstr "Convertitore immagini"
+msgstr "Convertitore di immagini"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:6
 msgid "Rotate and resize images"
-msgstr "Ruota e ridimensiona immagini"
+msgstr "Ruota e ridimensiona le immagini"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004-2005 Jürg Billeter"
@@ -273,7 +273,7 @@ msgstr "Apri un terminale"
 
 #: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
-msgstr "Apre sulla home se si prova ad aprire sul desktop"
+msgstr "Apri nella Home se si effettua sulla Scrivania"
 
 #: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
@@ -291,7 +291,7 @@ msgstr "Configurazione apri-terminale"
 #. file name)!
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
 msgid "terminal"
-msgstr "terminal"
+msgstr "terminale"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -310,8 +310,8 @@ msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
 msgstr ""
-"Determina se l'apertura di un terminale sul desktop apre un terminale nella "
-"home"
+"Determina se l'apertura di un terminale sulla Scrivania lo apre nella "
+"cartella Home"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:6
 msgid ""
@@ -320,7 +320,7 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
-"Se impostata su VERO, aprire un terminale sulla scrivania aprirà un "
+"Se impostata su \"vero\", aprire un terminale sulla scrivania aprirà un "
 "terminale sulla cartella home. Altrimenti, aprirà il terminale nella "
 "cartella della scrivania. Nota che questa chiave non è rilevante se la "
 "cartella della scrivania corrisponde alla cartella home."
@@ -343,7 +343,7 @@ msgstr "File"
 
 #: sendto/caja-sendto-command.c:790
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Attesi degli URI o nomi file da essere passati come opzioni\n"
+msgstr "Attesi degli URI o nomi di file per essere passati come opzioni\n"
 
 #: sendto/caja-sendto-command.c:810
 #, c-format
@@ -362,7 +362,7 @@ msgstr "Verificare l'installazione"
 #. file name)!
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
 msgid "mail-send"
-msgstr "mail-send"
+msgstr "invia-mail"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -434,7 +434,7 @@ msgstr "Email"
 
 #: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr "Impossibile inviare file"
+msgstr "Impossibile inviare il file"
 
 #: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
@@ -505,7 +505,7 @@ msgid ""
 "it"
 msgstr ""
 "Caja deve aggiungere alcuni permessi alla cartella \"%s\" per poterla "
-"condividere"
+"condividere."
 
 #: share/caja-share.c:131
 #, c-format
@@ -514,19 +514,19 @@ msgid ""
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
 "La cartella \"%s\" ha bisogno dei seguenti permessi extra per essere condivisa:\n"
-"%s%s%sSi desidera che Caja aggiunga questi permessi automaticamente?"
+"%s%s%s Vuoi che Caja aggiunga questi permessi automaticamente?"
 
 #: share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr "  - permessi di lettura da altri\n"
+msgstr "- permesso di lettura da altri\n"
 
 #: share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr "  - permessi di scrittura da altri\n"
+msgstr "  - permesso di scrittura da altri\n"
 
 #: share/caja-share.c:137
 msgid "  - execute permission by others\n"
-msgstr "  - permessi di esecuzione da altri\n"
+msgstr "  - permesso di esecuzione da altri\n"
 
 #: share/caja-share.c:141
 msgid "Add the permissions automatically"
@@ -585,7 +585,7 @@ msgstr "<big><b>Condivisione cartella</b></big>"
 
 #: share/share-dialog.ui:75
 msgid "Share _name:"
-msgstr "_Nome condivisione:"
+msgstr "_Nome della condivisione:"
 
 #: share/share-dialog.ui:108
 msgid "Share this _folder"
@@ -616,12 +616,12 @@ msgstr "%s %s %s fallito per un motivo sconosciuto"
 #: share/shares.c:152
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "'net usershare' è ritornato con l'errore %d: %s"
+msgstr "'net usershare' ha restituito l'errore %d: %s"
 
 #: share/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "'net usershare' è ritornato con l'errore %d"
+msgstr "'net usershare' ha restituito l'errore %d"
 
 #: share/shares.c:185
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
@@ -634,7 +634,7 @@ msgstr "Fallito"
 #: share/shares.c:547
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "Testparm di samba è ritornato con il segnale %d"
+msgstr "Testparm di samba ha restituito il segnale %d"
 
 #: share/shares.c:553
 msgid "Samba's testparm failed for an unknown reason"
@@ -643,12 +643,12 @@ msgstr "Testparm di samba fallito per un motivo sconosciuto"
 #: share/shares.c:568
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "Testparm di samba è ritornato con l'errore %d: %s"
+msgstr "Testparm di samba ha restituito l'errore %d: %s"
 
 #: share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "Testparm di samba è ritornato con l'errore %d"
+msgstr "Testparm di samba ha restituito l'errore %d"
 
 #: share/shares.c:681
 #, c-format

@@ -42,7 +42,7 @@ msgstr ""
 #. file name)!
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
 msgid "system"
-msgstr ""
+msgstr "sistem"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -54,7 +54,7 @@ msgstr "Sambungan pemberian kelayakan"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
-msgstr ""
+msgstr "Hak Cipta (C) 2002-2005 Gustavo Noronha Silva"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -115,7 +115,7 @@ msgstr "Tinggi:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr ""
+msgstr "Saiz Imej"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
@@ -166,15 +166,15 @@ msgstr "Sila masukkan akhiran nama fail yang sah!"
 
 #: image-converter/caja-image-rotate.ui:18
 msgid "90° clockwise"
-msgstr ""
+msgstr "90° ikut jam"
 
 #: image-converter/caja-image-rotate.ui:21
 msgid "90° counter-clockwise"
-msgstr ""
+msgstr "90° lawan-jam"
 
 #: image-converter/caja-image-rotate.ui:24
 msgid "180°"
-msgstr ""
+msgstr "180°"
 
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
@@ -238,7 +238,7 @@ msgstr "Putar dan saiz semula imej"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004-2005 Jürg Billeter"
-msgstr ""
+msgstr "Hak Cipta (C) 2004-2005 Jürg Billeter"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
@@ -282,7 +282,7 @@ msgstr "Konfigurasi open-terminal"
 #. file name)!
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
 msgid "terminal"
-msgstr ""
+msgstr "terminal"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -294,7 +294,7 @@ msgstr "Buka terminal dari folder"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
-msgstr ""
+msgstr "Hak Cipta (C) 2004, 2005 Free Software Foundation, Inc."
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -353,7 +353,7 @@ msgstr "Sila sahkan pemasangan anda"
 #. file name)!
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
 msgid "mail-send"
-msgstr ""
+msgstr "mail-send"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -365,7 +365,7 @@ msgstr "Sepadukan klien emel dan Pidgin"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr ""
+msgstr "Hak Cipta (C) 2004 Roberto Majadas"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -487,7 +487,7 @@ msgstr "Membolehkan perkongsian pantas folder"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2005 Ethium, Inc."
-msgstr ""
+msgstr "Hak Cipta (C) 2005 Ethium, Inc."
 
 #: share/caja-share.c:123
 #, c-format
@@ -680,7 +680,7 @@ msgstr "Benarkan untuk tetapkan kertas dinding secara pantas"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2014 Stefano Karapetsas"
-msgstr ""
+msgstr "Hak Cipta (C) 2014 Stefano Karapetsas"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
@@ -700,4 +700,4 @@ msgstr "Lihat tag tersimpan dalam atribut lanjutan"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2016 Felipe Barriga Richards"
-msgstr ""
+msgstr "Hak Cipta (C) 2016 Felipe Barriga Richards"

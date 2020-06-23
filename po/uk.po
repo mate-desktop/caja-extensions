@@ -4,13 +4,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Oleh, 2018
+# 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2018
 # Bohdan Kovalchuk <neostanniy@gmail.com>, 2018
 # dsafsadf <heneral@gmail.com>, 2019
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Микола Ткач <chistomov@gmail.com>, 2020
+# Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -18,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2020\n"
+"Last-Translator: Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2020\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -109,7 +110,7 @@ msgstr "відсоток"
 
 #: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
-msgstr "Инший розмір:"
+msgstr "Інший розмір:"
 
 #: image-converter/caja-image-resize.ui:259
 msgid "Width:"
@@ -282,7 +283,7 @@ msgstr "Закрити"
 
 #: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
-msgstr ""
+msgstr "Налаштування втулка open-terminal"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon
 #. file name)!
@@ -513,16 +514,16 @@ msgstr ""
 
 #: share/caja-share.c:135
 msgid "  - read permission by others\n"
-msgstr "- дозволити иншим для перегляду\n"
+msgstr "- дозволити іншим для перегляду\n"
 
 #: share/caja-share.c:136
 msgid "  - write permission by others\n"
-msgstr "- дозволити иншим писати\n"
+msgstr "- дозволити іншим писати\n"
 
 #: share/caja-share.c:137
 msgid "  - execute permission by others\n"
 msgstr ""
-"- дозволити иншим працювати\n"
+"- дозволити іншим працювати\n"
 "\n"
 
 #: share/caja-share.c:141
@@ -549,7 +550,7 @@ msgstr "Помилка при отриманні загальної інформ
 
 #: share/caja-share.c:516
 msgid "Another share has the same name"
-msgstr "Инше оголошення з тим самим ім’ям"
+msgstr "Інше оголошення з тим самим ім’ям"
 
 #: share/caja-share.c:563 share/caja-share.c:799
 msgid "Modify _Share"
@@ -593,7 +594,7 @@ msgstr "Ко_ментар:"
 
 #: share/share-dialog.ui:170
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_Дозволити иншим створювати та вилучати файли у цій теці"
+msgstr "_Дозволити іншим створювати та вилучати файли у цій теці"
 
 #: share/share-dialog.ui:187
 msgid "_Guest access (for people without a user account)"
