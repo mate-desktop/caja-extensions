@@ -34,10 +34,9 @@
 #define CAJA_SENDTO_STATUS_LABEL_TIMEOUT_SECONDS 10
 
 #define UNINSTALLED_PLUGINDIR "plugins/removable-devices"
-#define UNINSTALLED_SOURCE "caja-sendto-command.c"
 
 #define SOEXT           ("." G_MODULE_SUFFIX)
-#define SOEXT_LEN       (strlen (SOEXT))
+
 
 enum {
 	COLUMN_ICON,

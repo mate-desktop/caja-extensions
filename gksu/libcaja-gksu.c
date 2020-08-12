@@ -16,7 +16,7 @@
 #define _(x) dgettext (GETTEXT_PACKAGE, x)
 
 #define GKSU_TYPE_CONTEXT_MENU (gksu_context_menu_get_type ())
-#define GKSU_CONTEXT_MENU(o)   (G_TYPE_CHECK_INSTANCE_CAST ((o), GKSU_TYPE_CONTEXT_MENU))
+
 
 typedef struct {
     GObject parent;
