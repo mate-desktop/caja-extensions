@@ -25,8 +25,7 @@ static time_t refresh_timestamp;
 #define KEY_COMMENT "comment"
 #define KEY_ACL "usershare_acl"
 #define KEY_GUEST_OK "guest_ok"
-#define GROUP_ALLOW_GUESTS "global"
-#define KEY_ALLOW_GUESTS "usershare allow guests"
+
 
 /* Debugging flags */
 static gboolean throw_error_on_refresh;
