@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.24.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2020-08-15 18:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,11 +30,6 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the "
 "correct application cannot be determined."
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
 msgstr ""
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
@@ -69,7 +64,7 @@ msgstr ""
 msgid "Resize Images"
 msgstr ""
 
-#: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-resize.ui:53 sendto/caja-sendto.ui:38
 msgid "_Cancel"
 msgstr ""
 
@@ -215,11 +210,6 @@ msgstr ""
 msgid "<i>Rotating \"%s\"</i>"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
-msgstr ""
-
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
 msgstr ""
@@ -270,11 +260,6 @@ msgstr ""
 msgid "open-terminal Configuration"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr ""
-
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr ""
@@ -313,30 +298,25 @@ msgstr ""
 msgid "Send files by mail, instant message..."
 msgstr ""
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:569
 msgid "Files"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:781
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:801
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:816
 msgid "Could not load any plugins."
 msgstr ""
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:819
 msgid "Please verify your installation"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
 msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
@@ -371,35 +351,39 @@ msgid ""
 "gz, 2: tar.bz2)."
 msgstr ""
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr ""
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
 msgstr ""
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr ""
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr ""
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr ""
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
 msgstr ""
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr ""
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr ""
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr ""
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr ""
 
@@ -449,11 +433,6 @@ msgstr ""
 
 #: sendto/plugins/upnp/upnp.c:313
 msgid "UPnP Media Server"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
 msgstr ""
 
 #: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
@@ -626,18 +605,12 @@ msgid ""
 "first and add a new one"
 msgstr ""
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
 msgstr ""
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
 msgstr ""
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
