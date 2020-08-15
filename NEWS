@@ -1,3 +1,9 @@
+### caja-extensions 1.24.1
+
+  * Translations update
+  * sendto: Fix evolution command for sending an email
+  * build: silent build warnings for distcheck
+
 ### caja-extensions 1.24.0
 
   * Translations update
