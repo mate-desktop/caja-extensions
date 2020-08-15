@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ivica  Kolić <ikoli@yahoo.com>, 2018
+# Ivica  Kolić <ikoli@yahoo.com>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Elvis M. Lukšić <meluksic@yahoo.com>, 2020
 # 
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
 "Last-Translator: Elvis M. Lukšić <meluksic@yahoo.com>, 2020\n"
 "Language-Team: Croatian (https://www.transifex.com/mate/teams/13566/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgstr "Odaberi veličinu:"
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "pikseli"
+msgstr "piksela"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"

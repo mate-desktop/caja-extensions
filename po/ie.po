@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
 "Last-Translator: Caarmi, 2020\n"
 "Language-Team: Interlingue (https://www.transifex.com/mate/teams/13566/ie/)\n"
 "MIME-Version: 1.0\n"
@@ -273,7 +273,7 @@ msgstr "Application del terminal:"
 
 #: open-terminal/caja-open-terminal.c:586
 msgid "Close"
-msgstr "Cluder"
+msgstr "Cludet"
 
 #: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"

@@ -4,11 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Anh Phan <vietnamesel10n@gmail.com>, 2018
-# Duy Truong Nguyen <truongap.ars@gmail.com>, 2018
-# Meongu Ng. <meongu@gmail.com>, 2018
-# Brian P. Dung <brianp.dung@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Anh Phan <vietnamesel10n@gmail.com>, 2020
+# Duy Truong Nguyen <truongap.ars@gmail.com>, 2020
+# Meongu Ng. <meongu@gmail.com>, 2020
+# Brian P. Dung <brianp.dung@gmail.com>, 2020
 # Horazone Detex <thmmt2017d@gmail.com>, 2020
 # 
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
 "Last-Translator: Horazone Detex <thmmt2017d@gmail.com>, 2020\n"
 "Language-Team: Vietnamese (https://www.transifex.com/mate/teams/13566/vi/)\n"
 "MIME-Version: 1.0\n"

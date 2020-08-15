@@ -4,19 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# בר בוכובזה <bokovzabox@gmail.com>, 2018
-# Edward Sawyer <saoded@gmail.com>, 2018
-# haxoc c11 <haxoc112@disroot.org>, 2018
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2019
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# בר בוכובזה <bokovzabox@gmail.com>, 2020
+# Omer, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2020\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
+"Last-Translator: Omer, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +25,7 @@ msgstr ""
 
 #: gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "פתיחה כמנהל"
+msgstr "פתיחה בתור מנהל"
 
 #: gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
@@ -46,7 +45,7 @@ msgstr ""
 #. file name)!
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
 msgid "system"
-msgstr ""
+msgstr "מערכת"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -54,7 +53,7 @@ msgstr ""
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:6
 msgid "Privilege granting extension"
-msgstr ""
+msgstr "הרחבת הענקת הרשאות"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
@@ -62,7 +61,7 @@ msgstr ""
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "שינוי גודל ה_תמונות..."
+msgstr "שינוי _גודל התמונות..."
 
 #: image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
@@ -86,7 +85,7 @@ msgstr "_בטל"
 
 #: image-converter/caja-image-resize.ui:69
 msgid "_Resize"
-msgstr "ש_נה גודל"
+msgstr "_שינוי גודל"
 
 #: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
@@ -119,7 +118,7 @@ msgstr "גובה:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr ""
+msgstr "גודל התמונה"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
@@ -133,7 +132,7 @@ msgstr ".בגודל־שונה"
 #: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
-msgstr "לקובץ בשם"
+msgstr "אל קובץ בשם"
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
@@ -170,7 +169,7 @@ msgstr "נא להזין סיומת תקנית לשם הקובץ!"
 
 #: image-converter/caja-image-rotate.ui:18
 msgid "90° clockwise"
-msgstr ""
+msgstr "90° עם כיוון השעון"
 
 #: image-converter/caja-image-rotate.ui:21
 msgid "90° counter-clockwise"
@@ -178,7 +177,7 @@ msgstr ""
 
 #: image-converter/caja-image-rotate.ui:24
 msgid "180°"
-msgstr ""
+msgstr "180°"
 
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
@@ -230,7 +229,7 @@ msgstr "<b>\"%s\" מסובבת</b>"
 #. file name)!
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
 msgid "image"
-msgstr ""
+msgstr "תמונה"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -247,16 +246,16 @@ msgstr ""
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "פתיחה ב_מסוף"
 
 #: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
-msgstr "פתח את התיקייה שנבחרה במסוף"
+msgstr "פתיחת התיקיה שנבחרה במסוף"
 
 #: open-terminal/caja-open-terminal.c:463
 #: open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
-msgstr "פתח את התיקייה שפתוחה במסוף"
+msgstr "פתיחת התיקיה שפתוחה כעת במסוף"
 
 #: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
@@ -286,11 +285,11 @@ msgstr ""
 #. file name)!
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
 msgid "terminal"
-msgstr ""
+msgstr "מסוף"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
-msgstr ""
+msgstr "פתיחת המסוף"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:6
 msgid "Open terminals from folders"
@@ -305,8 +304,6 @@ msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
 msgstr ""
-"Whether opening a terminal on the desktop opens a terminal in the home "
-"directory"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:6
 msgid ""
@@ -315,22 +312,18 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
-"If set to true, then opening a terminal on the desktop will open a terminal "
-"in the home directory. Otherwise, it will be opened in the desktop "
-"directory. Note that this key is irrelevant if the desktop directory is "
-"identical to the home directory."
 
 #: sendto/caja-nste.c:76 sendto/caja-nste.c:81
 msgid "Send to..."
-msgstr ""
+msgstr "שליחה אל..."
 
 #: sendto/caja-nste.c:77
 msgid "Send file by mail, instant message..."
-msgstr "שלח קובץ בדוא\"ל, מסרים מידיים..."
+msgstr "שליחת קובץ באמצעות דוא״ל, מסרים מיידיים..."
 
 #: sendto/caja-nste.c:82
 msgid "Send files by mail, instant message..."
-msgstr "שלח קבצים בדוא\"ל, מסרים מידיים..."
+msgstr "שליחת קבצים באמצעות דוא״ל, מסרים מיידיים..."
 
 #: sendto/caja-sendto-command.c:578
 msgid "Files"
@@ -338,12 +331,12 @@ msgstr "קבצים"
 
 #: sendto/caja-sendto-command.c:790
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Expects URIs or filenames to be passed as options\n"
+msgstr ""
 
 #: sendto/caja-sendto-command.c:810
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Could not parse command-line options: %s\n"
+msgstr ""
 
 #: sendto/caja-sendto-command.c:825
 msgid "Could not load any plugins."
@@ -357,7 +350,7 @@ msgstr "נא לוודא את תקינות ההתקנה"
 #. file name)!
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
 msgid "mail-send"
-msgstr ""
+msgstr "mail-send"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -369,7 +362,7 @@ msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr ""
+msgstr "זכויות יוצרים (C) 2004 Roberto Majadas"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -393,11 +386,11 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:24
 msgid "Send To..."
-msgstr "שלח אל..."
+msgstr "שליחה אל..."
 
 #: sendto/caja-sendto.ui:100
 msgid "_Send"
-msgstr "_שלח"
+msgstr "_שליחה"
 
 #: sendto/caja-sendto.ui:149
 msgid "<b>Destination</b>"
@@ -405,15 +398,15 @@ msgstr "<b>יעד</b>"
 
 #: sendto/caja-sendto.ui:192
 msgid "Send _as:"
-msgstr "שלח _כ:"
+msgstr "שליחה _בתור:"
 
 #: sendto/caja-sendto.ui:234
 msgid "Send t_o:"
-msgstr "שלח _אל:"
+msgstr "שליחה א_ל:"
 
 #: sendto/caja-sendto.ui:300
 msgid "<b>Compression</b>"
-msgstr "<b>כיווץ</b>"
+msgstr "<b>דחיסה</b>"
 
 #: sendto/caja-sendto.ui:341
 msgid "Send _packed in:"
@@ -421,7 +414,7 @@ msgstr "שלח ארוז _ב:"
 
 #: sendto/plugins/emailclient/emailclient.c:263
 msgid "Email"
-msgstr "דואר אלקטרוני"
+msgstr "דוא״ל"
 
 #: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
@@ -475,7 +468,7 @@ msgstr "שרת מדיה UPnP"
 #. file name)!
 #: share/libcaja-share.caja-extension.desktop.in.in:4
 msgid "folder-remote"
-msgstr ""
+msgstr "folder-remote"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
 msgid "Share"
@@ -487,7 +480,7 @@ msgstr ""
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2005 Ethium, Inc."
-msgstr ""
+msgstr "זכויות יוצרים (C) 2005 Ethium, Inc."
 
 #: share/caja-share.c:123
 #, c-format
@@ -555,7 +548,7 @@ msgstr ""
 
 #: share/caja-share.c:1123
 msgid "Folder Sharing"
-msgstr ""
+msgstr "שיתוף תיקיות"
 
 #: share/caja-share.c:1164
 msgid "Sharing Options"
@@ -649,7 +642,7 @@ msgstr ""
 
 #: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "קביעה כרקע"
 
 #: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
@@ -660,11 +653,11 @@ msgstr ""
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
 msgid "desktop"
-msgstr "שולחן עבודה"
+msgstr "desktop"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
-msgstr ""
+msgstr "רקע"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:6
 msgid "Allows to quickly set wallpaper"
@@ -672,11 +665,11 @@ msgstr ""
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2014 Stefano Karapetsas"
-msgstr ""
+msgstr "זכויות יוצרים (C) 2014 Stefano Karapetsas"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr "תג"
+msgstr "תגים"
 
 #: xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
@@ -692,4 +685,4 @@ msgstr ""
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2016 Felipe Barriga Richards"
-msgstr ""
+msgstr "זכויות יוצרים (C) 2016 Felipe Barriga Richards"

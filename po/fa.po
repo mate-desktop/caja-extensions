@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Goudarz Jafari <goudarz.jafari@gmail.com>, 2018
-# royaniva <royaniva@outlook.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Goudarz Jafari <goudarz.jafari@gmail.com>, 2020
+# royaniva <royaniva@outlook.com>, 2020
 # sir_hawell <arash.cordi@gmail.com>, 2020
 # 
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
 "Last-Translator: sir_hawell <arash.cordi@gmail.com>, 2020\n"
 "Language-Team: Persian (https://www.transifex.com/mate/teams/13566/fa/)\n"
 "MIME-Version: 1.0\n"

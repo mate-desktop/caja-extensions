@@ -9,6 +9,7 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Rui <xymarior@yandex.com>, 2020
 # José Vieira <jvieira33@sapo.pt>, 2020
+# Guilherme Campos <guilhermemiguel97@hotmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
 "PO-Revision-Date: 2020-02-14 11:51+0000\n"
-"Last-Translator: José Vieira <jvieira33@sapo.pt>, 2020\n"
+"Last-Translator: Guilherme Campos <guilhermemiguel97@hotmail.com>, 2020\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +47,7 @@ msgstr ""
 #. file name)!
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
 msgid "system"
-msgstr ""
+msgstr "system"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -58,7 +59,7 @@ msgstr "Extensão que garante privilégio"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
-msgstr ""
+msgstr "Direitos de Autor (C) 2002-2005 Gustavo Noronha Silva"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -119,7 +120,7 @@ msgstr "Altura:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr ""
+msgstr "Tamanho da Imagem"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
@@ -170,15 +171,15 @@ msgstr "Por favor indique um sufixo válido!"
 
 #: image-converter/caja-image-rotate.ui:18
 msgid "90° clockwise"
-msgstr ""
+msgstr "90º no sentido horário"
 
 #: image-converter/caja-image-rotate.ui:21
 msgid "90° counter-clockwise"
-msgstr ""
+msgstr "90º no sentido anti-horário"
 
 #: image-converter/caja-image-rotate.ui:24
 msgid "180°"
-msgstr ""
+msgstr "180°"
 
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
@@ -230,7 +231,7 @@ msgstr "<i>Rodar \"%s\"</i>"
 #. file name)!
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
 msgid "image"
-msgstr ""
+msgstr "image"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -242,7 +243,7 @@ msgstr "Rodar e redimensionar imagens"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004-2005 Jürg Billeter"
-msgstr ""
+msgstr "Direitos de Autor (C) 2004-2005 Jürg Billeter"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
@@ -280,13 +281,13 @@ msgstr "Fechar"
 
 #: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
-msgstr ""
+msgstr "Configuração open-terminal"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon
 #. file name)!
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
 msgid "terminal"
-msgstr ""
+msgstr "terminal"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -298,7 +299,7 @@ msgstr "Abrir consolas de pastas"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
-msgstr ""
+msgstr "Direitos de Autor (C) 2004, 2005 Free Software Foundation, Inc."
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -356,7 +357,7 @@ msgstr "Por favor verifique a sua instalação"
 #. file name)!
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
 msgid "mail-send"
-msgstr ""
+msgstr "mail-send"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -368,7 +369,7 @@ msgstr "Integra clientes de correio eletrónico e Pidgin"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr ""
+msgstr "Direitos de Autor (C) 2004 Roberto Majadas"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -478,7 +479,7 @@ msgstr "Servidor de Media UPnP"
 #. file name)!
 #: share/libcaja-share.caja-extension.desktop.in.in:4
 msgid "folder-remote"
-msgstr ""
+msgstr "folder-remote"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
 msgid "Share"
@@ -490,7 +491,7 @@ msgstr "Permite partilhar rapidamente uma pasta"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2005 Ethium, Inc."
-msgstr ""
+msgstr "Direitos de Autor (C) 2005 Ethium, Inc."
 
 #: share/caja-share.c:123
 #, c-format
@@ -670,7 +671,7 @@ msgstr "Guardar imagem como papel de parede atual"
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
 msgid "desktop"
-msgstr ""
+msgstr "desktop"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -682,7 +683,7 @@ msgstr "Permite definir rapidamente papel de parede"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2014 Stefano Karapetsas"
-msgstr ""
+msgstr "Direitos de Autor (C) 2014 Stefano Karapetsas"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
@@ -702,4 +703,4 @@ msgstr "Visualizar etiquetas armazenadas em atributos estendidos"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2016 Felipe Barriga Richards"
-msgstr ""
+msgstr "Direitos de Autor (C) 2016 Felipe Barriga Richards"

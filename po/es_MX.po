@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Luis Medina <luis.medina@sacc.com.mx>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
 # jorge becerril <jrbecster@gmail.com>, 2020
+# Wolfgang Ulbrich <mate@raveit.de>, 2020
+# Luis Medina <luis.medina@sacc.com.mx>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: jorge becerril <jrbecster@gmail.com>, 2020\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
+"Last-Translator: Luis Medina <luis.medina@sacc.com.mx>, 2020\n"
 "Language-Team: Spanish (Mexico) (https://www.transifex.com/mate/teams/13566/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

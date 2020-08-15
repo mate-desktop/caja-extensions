@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>, 2020\n"
 "Language-Team: Amharic (https://www.transifex.com/mate/teams/13566/am/)\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "መጠን ይምረጡ:"
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "ፒክስልስ"
+msgstr "ፒክስሎች"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
@@ -133,7 +133,7 @@ msgstr "ወደ ፋይል አርእስት "
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
-msgstr "እንደ ገና በመመጠን ላይ"
+msgstr "እንደ ገና በ መመጠን ላይ"
 
 #: image-converter/caja-image-resize.ui:438
 msgid "Filename"
@@ -152,12 +152,12 @@ msgstr "_እንደገና መሞከሪያ"
 #: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "ምስል እንደ ገና በመመጠን ላይ: %d ከ %d"
+msgstr "ምስል እንደ ገና በ መመጠን ላይ: %d ከ %d"
 
 #: image-converter/caja-image-resizer.c:292
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>እንደ ገና በመመጠን ላይ \"%s\"</i>"
+msgstr "<i>እንደ ገና በ መመጠን ላይ \"%s\"</i>"
 
 #: image-converter/caja-image-resizer.c:310
 #: image-converter/caja-image-rotator.c:309
@@ -190,7 +190,7 @@ msgstr "አንግል ይምረጡ:"
 
 #: image-converter/caja-image-rotate.ui:117
 msgid "Custom angle:"
-msgstr "Custom angle:"
+msgstr "አንግል ማስተካከያ:"
 
 #: image-converter/caja-image-rotate.ui:143
 msgid "degrees clockwise"
@@ -198,7 +198,7 @@ msgstr "ዲግሪዎች ከ ግራ ወደ ቀኝ"
 
 #: image-converter/caja-image-rotate.ui:172
 msgid "<b>Filename</b>"
-msgstr "<b>የፋይል ስም</b>"
+msgstr "<b>የ ፋይል ስም</b>"
 
 #: image-converter/caja-image-rotate.ui:219
 msgid ".rotated"
@@ -206,7 +206,7 @@ msgstr ".ዞሯል"
 
 #: image-converter/caja-image-rotate.ui:242
 msgid "Rotate in place"
-msgstr "በማዞር ላይ"
+msgstr "በ ማዞር ላይ"
 
 #: image-converter/caja-image-rotate.ui:288
 msgid "_Rotate"
@@ -215,7 +215,7 @@ msgstr "_ማዞሪያ"
 #: image-converter/caja-image-rotator.c:286
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "ምስል በማዞር ላይ: %d ከ %d"
+msgstr "ምስል በ ማዞር ላይ: %d ከ %d"
 
 #: image-converter/caja-image-rotator.c:291
 #, c-format
@@ -243,7 +243,7 @@ msgstr ""
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
-msgstr "_በተርሚናል ውስጥ መክፈቻ "
+msgstr "በ _ተርሚናል ውስጥ መክፈቻ "
 
 #: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
@@ -684,7 +684,7 @@ msgstr "xattr Tags"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "በ ተስፋፋ መለያዎች ውስጥ የ ተቀመጡ Tags መመልከቻ"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2016 Felipe Barriga Richards"

@@ -6,14 +6,15 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Cédric Valmary <cvalmary@yahoo.fr>, 2020
+# Quentin PAGÈS, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.23.1\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2020-02-01 13:01+0100\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Cédric Valmary <cvalmary@yahoo.fr>, 2020\n"
+"PO-Revision-Date: 2020-02-14 11:51+0000\n"
+"Last-Translator: Quentin PAGÈS, 2020\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr ""
+msgstr "Dobrir coma administrator"
 
 #: gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
@@ -52,7 +53,7 @@ msgstr ""
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
-msgstr ""
+msgstr "Copyright (C) 2002-2005 Gustavo Noronha Silva"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -72,7 +73,7 @@ msgstr ""
 
 #: image-converter/caja-image-resize.ui:33
 msgid "Resize Images"
-msgstr ""
+msgstr "Retalhar imatges"
 
 #: image-converter/caja-image-resize.ui:53
 msgid "_Cancel"
@@ -84,7 +85,7 @@ msgstr "_Redimensionar"
 
 #: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
-msgstr ""
+msgstr "Seleccionar una talha :"
 
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
@@ -97,7 +98,7 @@ msgstr "Escala :"
 
 #: image-converter/caja-image-resize.ui:218
 msgid "percent"
-msgstr ""
+msgstr "percentatge"
 
 #: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
@@ -113,25 +114,25 @@ msgstr "Nautor :"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr ""
+msgstr "Talha de l’imatge"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:206
 msgid "Append"
-msgstr ""
+msgstr "Ajustar"
 
 #: image-converter/caja-image-resize.ui:386
 msgid ".resized"
-msgstr ""
+msgstr ".retalhat"
 
 #: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:228
 msgid "to file title"
-msgstr ""
+msgstr "al títol del fichièr"
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
-msgstr ""
+msgstr "Retalhar a la plaça"
 
 #: image-converter/caja-image-resize.ui:438
 msgid "Filename"
@@ -150,12 +151,12 @@ msgstr "_Tornar ensajar"
 #: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Redimencion de l’imatge : %d sus %d"
 
 #: image-converter/caja-image-resizer.c:292
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Redimencion de « %s »</i>"
 
 #: image-converter/caja-image-resizer.c:310
 #: image-converter/caja-image-rotator.c:309
@@ -176,11 +177,11 @@ msgstr ""
 
 #: image-converter/caja-image-rotate.ui:31
 msgid "Rotate Images"
-msgstr ""
+msgstr "Pivotar los imatges"
 
 #: image-converter/caja-image-rotate.ui:46
 msgid "<b>Image Rotation</b>"
-msgstr ""
+msgstr "<b>Rotacion de l’imatge</b>"
 
 #: image-converter/caja-image-rotate.ui:79
 msgid "Select an angle:"
@@ -218,13 +219,13 @@ msgstr ""
 #: image-converter/caja-image-rotator.c:291
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr ""
+msgstr "<i>Rotacion de « %s »</i>"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon
 #. file name)!
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
 msgid "image"
-msgstr ""
+msgstr "image"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -236,12 +237,12 @@ msgstr ""
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004-2005 Jürg Billeter"
-msgstr ""
+msgstr "Copyright (C) 2004-2005 Jürg Billeter"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
-msgstr ""
+msgstr "Dobrir dins un _Terminal"
 
 #: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
@@ -266,7 +267,7 @@ msgstr ""
 
 #: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr ""
+msgstr "Aplicacion de terminal :"
 
 #: open-terminal/caja-open-terminal.c:586
 msgid "Close"
@@ -280,7 +281,7 @@ msgstr ""
 #. file name)!
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
 msgid "terminal"
-msgstr ""
+msgstr "terminal"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -292,7 +293,7 @@ msgstr ""
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
-msgstr ""
+msgstr "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -357,7 +358,7 @@ msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr ""
+msgstr "Copyright (C) 2004 Roberto Majadas"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -371,7 +372,7 @@ msgstr ""
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
 msgid "Last type of archive used"
-msgstr ""
+msgstr "Darrièr tipe d’archiu utilizat"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:15
 msgid ""
@@ -463,7 +464,7 @@ msgstr "Servidor mèdia UPnP"
 #. file name)!
 #: share/libcaja-share.caja-extension.desktop.in.in:4
 msgid "folder-remote"
-msgstr ""
+msgstr "folder-remote"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
 msgid "Share"
@@ -471,11 +472,11 @@ msgstr "Partejar"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:6
 msgid "Allows to quickly share a folder"
-msgstr ""
+msgstr "Permet de partejar un repertòri rapidament"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2005 Ethium, Inc."
-msgstr ""
+msgstr "Copyright (C) 2005 Ethium, Inc."
 
 #: share/caja-share.c:123
 #, c-format
@@ -510,11 +511,11 @@ msgstr ""
 #: share/caja-share.c:167
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr ""
+msgstr "Impossible de modificar las autorizacion del repertòri « %s »"
 
 #: share/caja-share.c:451
 msgid "Share name is too long"
-msgstr ""
+msgstr "Lo nom del partatge es tròp long"
 
 #: share/caja-share.c:493
 msgid "The share name cannot be empty"
@@ -531,11 +532,11 @@ msgstr ""
 
 #: share/caja-share.c:563 share/caja-share.c:799
 msgid "Modify _Share"
-msgstr ""
+msgstr "Modificar _un partatge"
 
 #: share/caja-share.c:563 share/caja-share.c:801
 msgid "Create _Share"
-msgstr ""
+msgstr "Crear un _partatge"
 
 #: share/caja-share.c:691
 msgid "There was an error while getting the sharing information"
@@ -543,27 +544,27 @@ msgstr ""
 
 #: share/caja-share.c:1123
 msgid "Folder Sharing"
-msgstr ""
+msgstr "Partatge de repertòris"
 
 #: share/caja-share.c:1164
 msgid "Sharing Options"
-msgstr ""
+msgstr "Opcions de partatge"
 
 #: share/caja-share.c:1165
 msgid "Share this Folder"
-msgstr ""
+msgstr "Partejar aqueste repertòri"
 
 #: share/share-dialog.ui:27
 msgid "<big><b>Folder Sharing</b></big>"
-msgstr ""
+msgstr "<big><b>Partatge de repertòris</b></big>"
 
 #: share/share-dialog.ui:75
 msgid "Share _name:"
-msgstr ""
+msgstr "No_m de partatge :"
 
 #: share/share-dialog.ui:108
 msgid "Share this _folder"
-msgstr ""
+msgstr "Partejar aqueste _repertòri"
 
 #: share/share-dialog.ui:139
 msgid "Co_mment:"
@@ -637,11 +638,11 @@ msgstr ""
 
 #: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr ""
+msgstr "Definir coma rèire-plan"
 
 #: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr ""
+msgstr "Definir coma rèire-plan actuala"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon
 #. file name)!
@@ -656,15 +657,15 @@ msgstr "Rèireplan"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:6
 msgid "Allows to quickly set wallpaper"
-msgstr ""
+msgstr "Permetre de definir rapidament un rèire-plan"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2014 Stefano Karapetsas"
-msgstr ""
+msgstr "Copyright (C) 2014 Stefano Karapetsas"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 #: xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
@@ -680,4 +681,4 @@ msgstr ""
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid "Copyright (C) 2016 Felipe Barriga Richards"
-msgstr ""
+msgstr "Copyright (C) 2016 Felipe Barriga Richards"
