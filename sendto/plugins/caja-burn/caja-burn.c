@@ -21,7 +21,8 @@
  * Author:  Jader Henrique da Silva <vovozito@gmail.com>
  */
 
-#include "config.h"
+#include <config.h>
+
 #include <string.h>
 #include <glib/gi18n-lib.h>
 #include "nst-common.h"

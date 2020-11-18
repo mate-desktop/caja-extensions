@@ -10,7 +10,7 @@
 #include <libcaja-extension/caja-extension-types.h>
 #include <libcaja-extension/caja-menu-provider.h>
 
-#include "../config.h"
+#include <config.h>
 
 #include <libintl.h>
 #define _(x) dgettext (GETTEXT_PACKAGE, x)

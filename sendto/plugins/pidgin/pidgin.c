@@ -25,7 +25,8 @@
  * Author:  Roberto Majadas <roberto.majadas@openshine.com>
  */
 
-#include "config.h"
+#include <config.h>
+
 #include <glib/gi18n-lib.h>
 #include <dbus/dbus.h>
 #include <dbus/dbus-glib.h>
