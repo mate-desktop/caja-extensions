@@ -91,7 +91,7 @@ get_terminal_file_info (CajaFileInfo *file_info)
 	return ret;
 }
 
-char *
+static char *
 lookup_in_data_dir (const char *basename,
                     const char *data_dir)
 {
@@ -520,7 +520,7 @@ caja_open_terminal_get_background_items (CajaMenuProvider *provider,
 	}
 }
 
-GList *
+static GList *
 caja_open_terminal_get_file_items (CajaMenuProvider *provider,
                                    GtkWidget        *window,
                                    GList            *files)
