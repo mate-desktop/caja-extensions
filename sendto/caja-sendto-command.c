@@ -315,8 +315,7 @@ send_button_cb (GtkWidget *widget, NS_ui *ui)
 		g_free (f);
 	} else {
 		if (!p->info->send_files (p, w, file_list)) {
-			g_list_foreach (file_list, (GFunc) g_free, NULL);
-			g_list_free (file_list);
+			g_list_free_full (file_list, g_free);
 			file_list = NULL;
 			return;
 		}
