@@ -25,9 +25,12 @@
  * Author:  Roberto Majadas <roberto.majadas@openshine.com>
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
 
 #include <glib/gi18n-lib.h>
+
 #include <dbus/dbus.h>
 #include <dbus/dbus-glib.h>
 #include "caja-sendto-plugin.h"

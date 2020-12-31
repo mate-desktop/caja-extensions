@@ -22,10 +22,14 @@
  *           Stefano Karapetsas <stefano@karapetsas.com>
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
+
+#include <glib/gi18n-lib.h>
+
 #include <string.h>
 #include <gio/gio.h>
-#include <glib/gi18n-lib.h>
 #include <libcaja-extension/caja-extension-types.h>
 #include <libcaja-extension/caja-file-info.h>
 #include <libcaja-extension/caja-menu-provider.h>

@@ -1,9 +1,14 @@
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
+
+#include <glib/gi18n-lib.h>
+
 #include <string.h>
 #include <time.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include <glib/gi18n-lib.h>
+
 #include "shares.h"
 
 #undef DEBUG_SHARES

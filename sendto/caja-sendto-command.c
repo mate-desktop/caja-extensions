@@ -21,10 +21,13 @@
  * Author:  Roberto Majadas <roberto.majadas@openshine.com>
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
 
 #include <string.h>
 #include <stdlib.h>
+#include <glib.h>
 #include <glib/gi18n.h>
 #include <glib/gstdio.h>
 #include <gtk/gtk.h>
@@ -37,7 +40,6 @@
 #define UNINSTALLED_PLUGINDIR "plugins/removable-devices"
 
 #define SOEXT           ("." G_MODULE_SUFFIX)
-
 
 enum {
 	COLUMN_ICON,

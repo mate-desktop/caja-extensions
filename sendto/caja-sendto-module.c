@@ -21,12 +21,16 @@
  *
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
+
+#include <glib/gi18n-lib.h>
+
 #include <libcaja-extension/caja-extension-types.h>
 #include <libcaja-extension/caja-column-provider.h>
-#include <glib/gi18n-lib.h>
-#include "caja-nste.h"
 
+#include "caja-nste.h"
 
 void
 caja_module_initialize (GTypeModule*module)
@@ -37,12 +41,10 @@ caja_module_initialize (GTypeModule*module)
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 }
 
-
 void
 caja_module_shutdown (void)
 {
 }
-
 
 void
 caja_module_list_types (const GType **types,
@@ -55,6 +57,3 @@ caja_module_list_types (const GType **types,
 
 	*num_types = 1;
 }
-
-
-

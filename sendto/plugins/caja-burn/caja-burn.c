@@ -21,10 +21,13 @@
  * Author:  Jader Henrique da Silva <vovozito@gmail.com>
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
+
+#include <glib/gi18n-lib.h>
 
 #include <string.h>
-#include <glib/gi18n-lib.h>
 #include "nst-common.h"
 #include "caja-sendto-plugin.h"
 
@@ -164,12 +167,11 @@ gboolean send_files (NstPlugin *plugin,
 }
 
 static
-gboolean destroy (NstPlugin *plugin){
-
+gboolean destroy (NstPlugin *plugin)
+{
 	g_object_unref (burn);
 	burn = NULL;
 	return TRUE;
-
 }
 
 static
@@ -187,4 +189,3 @@ NstPluginInfo plugin_info = {
 };
 
 NST_INIT_PLUGIN (plugin_info)
-

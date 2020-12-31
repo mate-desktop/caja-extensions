@@ -22,12 +22,12 @@
  */
 
 #ifdef HAVE_CONFIG_H
- #include <config.h>
+#include <config.h>
 #endif
 
-#include "caja-image-converter.h"
+#include <glib/gi18n-lib.h>
 
-#include <libintl.h>
+#include "caja-image-converter.h"
 
 static GType type_list[1];
 

@@ -19,10 +19,13 @@
  *           Bastien Nocera <hadess@hadess.net>
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
+
+#include <glib/gi18n-lib.h>
 
 #include <string.h>
-#include <glib/gi18n-lib.h>
 #include <gio/gio.h>
 #include "nst-common.h"
 #include "caja-sendto-plugin.h"
@@ -257,4 +260,3 @@ NstPluginInfo plugin_info = {
 };
 
 NST_INIT_PLUGIN (plugin_info)
-

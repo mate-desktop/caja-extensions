@@ -22,12 +22,12 @@
  */
 
 #ifdef HAVE_CONFIG_H
- #include <config.h>
+#include <config.h>
 #endif
 
-#include "caja-open-terminal.h"
+#include <glib/gi18n-lib.h>
 
-#include <libintl.h>
+#include "caja-open-terminal.h"
 
 static GType type_list[1];
 

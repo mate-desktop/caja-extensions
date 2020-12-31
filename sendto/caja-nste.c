@@ -21,14 +21,17 @@
  *
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
-#include <string.h>
+#endif
+
 #include <glib/gi18n-lib.h>
+
+#include <string.h>
 #include <libcaja-extension/caja-extension-types.h>
 #include <libcaja-extension/caja-file-info.h>
 #include <libcaja-extension/caja-menu-provider.h>
 #include "caja-nste.h"
-
 
 static GObjectClass *parent_class;
 

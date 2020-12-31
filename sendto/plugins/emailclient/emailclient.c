@@ -23,9 +23,12 @@
  *           Stefano Karapetsas <stefano@karapetsas.com>
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
 
 #include <glib/gi18n-lib.h>
+
 #include <string.h>
 #include "caja-sendto-plugin.h"
 #include <gio/gio.h>
@@ -275,4 +278,3 @@ NstPluginInfo plugin_info = {
 };
 
 NST_INIT_PLUGIN (plugin_info)
-

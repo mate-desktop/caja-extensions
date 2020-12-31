@@ -20,13 +20,19 @@
  *  Authors: Felipe Barriga Richards <spam@felipebarriga.cl>
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
+
+#include <glib/gi18n-lib.h>
+
 #include <string.h>
 #include <gio/gio.h>
-#include <glib/gi18n-lib.h>
+
 #include <libcaja-extension/caja-file-info.h>
 #include <libcaja-extension/caja-info-provider.h>
 #include <libcaja-extension/caja-column-provider.h>
+
 #include "caja-xattr-tags-extension.h"
 
 #define XATTR_TAGS_NAME "Xattr::Tags"
