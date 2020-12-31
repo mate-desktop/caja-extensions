@@ -35,9 +35,9 @@
 
 #include <libcaja-extension/caja-file-info.h>
 
-typedef struct _CajaImageResizerPrivate CajaImageResizerPrivate;
+struct _CajaImageResizer {
+	GObject parent_instance;
 
-struct _CajaImageResizerPrivate {
 	GList *files;
 
 	gchar *suffix;
@@ -65,7 +65,7 @@ struct _CajaImageResizerPrivate {
 	GtkWidget *progress_label;
 };
 
-G_DEFINE_TYPE_WITH_PRIVATE (CajaImageResizer, caja_image_resizer, G_TYPE_OBJECT)
+G_DEFINE_TYPE (CajaImageResizer, caja_image_resizer, G_TYPE_OBJECT)
 
 enum {
 	PROP_FILES = 1,
@@ -78,62 +78,55 @@ typedef enum {
 } CajaImageResizerSignalType;
 
 static void
-caja_image_resizer_finalize(GObject *object)
+caja_image_resizer_finalize (GObject *object)
 {
-	CajaImageResizer *dialog = CAJA_IMAGE_RESIZER (object);
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (dialog);
+	CajaImageResizer *resizer = CAJA_IMAGE_RESIZER (object);
 
-	g_free (priv->suffix);
+	g_free (resizer->suffix);
 
-	if (priv->size)
-		g_free (priv->size);
+	if (resizer->size)
+		g_free (resizer->size);
 
 	G_OBJECT_CLASS(caja_image_resizer_parent_class)->finalize(object);
 }
 
 static void
 caja_image_resizer_set_property (GObject      *object,
-                        guint         property_id,
-                        const GValue *value,
-                        GParamSpec   *pspec)
+                                 guint         property_id,
+                                 const GValue *value,
+                                 GParamSpec   *pspec)
 {
-	CajaImageResizer *dialog = CAJA_IMAGE_RESIZER (object);
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (dialog);
+	CajaImageResizer *resizer = CAJA_IMAGE_RESIZER (object);
 
 	switch (property_id) {
-	case PROP_FILES:
-		priv->files = g_value_get_pointer (value);
-		priv->images_total = g_list_length (priv->files);
-		break;
-	default:
-		/* We don't have any other property... */
-		G_OBJECT_WARN_INVALID_PROPERTY_ID(object,property_id,pspec);
-		break;
+		case PROP_FILES:
+			resizer->files = g_value_get_pointer (value);
+			resizer->images_total = g_list_length (resizer->files);
+			break;
+		default:
+			G_OBJECT_WARN_INVALID_PROPERTY_ID (object, property_id, pspec);
 	}
 }
 
 static void
 caja_image_resizer_get_property (GObject      *object,
-                        guint         property_id,
-                        GValue       *value,
-                        GParamSpec   *pspec)
+                                 guint         property_id,
+                                 GValue       *value,
+                                 GParamSpec   *pspec)
 {
-	CajaImageResizer *self = CAJA_IMAGE_RESIZER (object);
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (self);
+	CajaImageResizer *resizer = CAJA_IMAGE_RESIZER (object);
 
 	switch (property_id) {
-	case PROP_FILES:
-		g_value_set_pointer (value, priv->files);
-		break;
-	default:
-		/* We don't have any other property... */
-		G_OBJECT_WARN_INVALID_PROPERTY_ID(object,property_id,pspec);
-		break;
+		case PROP_FILES:
+			g_value_set_pointer (value, resizer->files);
+			break;
+		default:
+			G_OBJECT_WARN_INVALID_PROPERTY_ID (object, property_id, pspec);
 	}
 }
 
 static void
-caja_image_resizer_class_init(CajaImageResizerClass *klass)
+caja_image_resizer_class_init (CajaImageResizerClass *klass)
 {
 	GObjectClass *object_class = G_OBJECT_CLASS(klass);
 	GParamSpec *files_param_spec;
@@ -155,10 +148,9 @@ caja_image_resizer_class_init(CajaImageResizerClass *klass)
 static void run_op (CajaImageResizer *resizer);
 
 static GFile *
-caja_image_resizer_transform_filename (CajaImageResizer *resizer, GFile *orig_file)
+caja_image_resizer_transform_filename (CajaImageResizer *resizer,
+                                       GFile            *orig_file)
 {
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (resizer);
-
 	GFile *parent_file, *new_file;
 	char *basename, *extension, *new_basename;
 
@@ -173,8 +165,8 @@ caja_image_resizer_transform_filename (CajaImageResizer *resizer, GFile *orig_fi
 		basename[strlen (basename) - strlen (extension)] = '\0';
 
 	new_basename = g_strdup_printf ("%s%s%s", basename,
-		priv->suffix == NULL ? ".tmp" : priv->suffix,
-		extension == NULL ? "" : extension);
+	                                resizer->suffix == NULL ? ".tmp" : resizer->suffix,
+	                                extension == NULL ? "" : extension);
 	g_free (basename);
 	g_free (extension);
 
@@ -187,14 +179,13 @@ caja_image_resizer_transform_filename (CajaImageResizer *resizer, GFile *orig_fi
 }
 
 static void
-op_finished (GPid pid, gint status, gpointer data)
+op_finished (GPid              pid,
+             gint              status,
+             gpointer          data)
 {
 	CajaImageResizer *resizer = CAJA_IMAGE_RESIZER (data);
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (resizer);
-
-	gboolean retry = TRUE;
-
-	CajaFileInfo *file = CAJA_FILE_INFO (priv->files->data);
+	gboolean          retry = TRUE;
+	CajaFileInfo     *file = CAJA_FILE_INFO (resizer->files->data);
 
 	if (status != 0) {
 		/* resizing failed */
@@ -205,7 +196,7 @@ op_finished (GPid pid, gint status, gpointer data)
 		char       *msg;
 		char       *name;
 
-		name  = caja_file_info_get_name (file);
+		name = caja_file_info_get_name (file);
 
 		builder = gtk_builder_new_from_resource ("/org/mate/caja/extensions/imageconverter/error-dialog.ui");
 		msg_dialog = GTK_WIDGET (gtk_builder_get_object (builder, "error_dialog"));
@@ -220,12 +211,12 @@ op_finished (GPid pid, gint status, gpointer data)
 		if (response_id == 0) {
 			retry = TRUE;
 		} else if (response_id == GTK_RESPONSE_CANCEL) {
-			priv->cancelled = TRUE;
+			resizer->cancelled = TRUE;
 		} else if (response_id == 1) {
 			retry = FALSE;
 		}
 
-	} else if (priv->suffix == NULL) {
+	} else if (resizer->suffix == NULL) {
 		/* resize image in place */
 		GFile *orig_location = caja_file_info_get_location (file);
 		GFile *new_location = caja_image_resizer_transform_filename (resizer, orig_location);
@@ -236,27 +227,25 @@ op_finished (GPid pid, gint status, gpointer data)
 
 	if (status == 0 || !retry) {
 		/* image has been successfully resized (or skipped) */
-		priv->images_resized++;
-		priv->files = priv->files->next;
+		resizer->images_resized++;
+		resizer->files = resizer->files->next;
 	}
 
-	if (!priv->cancelled && priv->files != NULL) {
+	if (!resizer->cancelled && resizer->files != NULL) {
 		/* process next image */
 		run_op (resizer);
 	} else {
 		/* cancel/terminate operation */
-		gtk_widget_destroy (priv->progress_dialog);
+		gtk_widget_destroy (resizer->progress_dialog);
 	}
 }
 
 static void
 run_op (CajaImageResizer *resizer)
 {
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (resizer);
+	g_return_if_fail (resizer->files != NULL);
 
-	g_return_if_fail (priv->files != NULL);
-
-	CajaFileInfo *file = CAJA_FILE_INFO (priv->files->data);
+	CajaFileInfo *file = CAJA_FILE_INFO (resizer->files->data);
 
 	GFile *orig_location = caja_file_info_get_location (file);
 	char *filename = g_file_get_path (orig_location);
@@ -271,7 +260,7 @@ run_op (CajaImageResizer *resizer)
 	argv[0] = "/usr/bin/convert";
 	argv[1] = filename;
 	argv[2] = "-resize";
-	argv[3] = priv->size;
+	argv[3] = resizer->size;
 	argv[4] = new_filename;
 	argv[5] = NULL;
 
@@ -289,43 +278,53 @@ run_op (CajaImageResizer *resizer)
 
 	char *tmp;
 
-	gtk_progress_bar_set_fraction (GTK_PROGRESS_BAR (priv->progress_bar), (double) (priv->images_resized + 1) / priv->images_total);
-	tmp = g_strdup_printf (_("Resizing image: %d of %d"), priv->images_resized + 1, priv->images_total);
-	gtk_progress_bar_set_text (GTK_PROGRESS_BAR (priv->progress_bar), tmp);
+	gtk_progress_bar_set_fraction (GTK_PROGRESS_BAR (resizer->progress_bar),
+	                               (double) (resizer->images_resized + 1) / resizer->images_total);
+	tmp = g_strdup_printf (_("Resizing image: %d of %d"),
+	                       resizer->images_resized + 1,
+	                       resizer->images_total);
+	gtk_progress_bar_set_text (GTK_PROGRESS_BAR (resizer->progress_bar), tmp);
 	g_free (tmp);
 
 	char *name = caja_file_info_get_name (file);
 	tmp = g_strdup_printf (_("<i>Resizing \"%s\"</i>"), name);
 	g_free (name);
-	gtk_label_set_markup (GTK_LABEL (priv->progress_label), tmp);
+	gtk_label_set_markup (GTK_LABEL (resizer->progress_label), tmp);
 	g_free (tmp);
 
 }
 
 static void
-caja_image_resizer_response_cb (GtkDialog *dialog, gint response_id, gpointer user_data)
+caja_image_resizer_response_cb (GtkDialog *dialog,
+                                gint       response_id,
+                                gpointer   user_data)
 {
 	CajaImageResizer *resizer = CAJA_IMAGE_RESIZER (user_data);
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (resizer);
 
 	if (response_id == GTK_RESPONSE_OK) {
-		if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (priv->append_radiobutton))) {
-			if (strlen (gtk_entry_get_text (priv->name_entry)) == 0) {
-				GtkWidget *msg_dialog = gtk_message_dialog_new (GTK_WINDOW (dialog),
-					GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_ERROR,
-					GTK_BUTTONS_OK, _("Please enter a valid filename suffix!"));
+		if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (resizer->append_radiobutton))) {
+			if (strlen (gtk_entry_get_text (resizer->name_entry)) == 0) {
+				GtkWidget *msg_dialog;
+				msg_dialog = gtk_message_dialog_new (GTK_WINDOW (dialog),
+				                                     GTK_DIALOG_DESTROY_WITH_PARENT,
+				                                     GTK_MESSAGE_ERROR,
+				                                     GTK_BUTTONS_OK,
+				                                     _("Please enter a valid filename suffix!"));
 				gtk_dialog_run (GTK_DIALOG (msg_dialog));
 				gtk_widget_destroy (msg_dialog);
 				return;
 			}
-			priv->suffix = g_strdup (gtk_entry_get_text (priv->name_entry));
+			resizer->suffix = g_strdup (gtk_entry_get_text (resizer->name_entry));
 		}
-		if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (priv->default_size_radiobutton))) {
-			priv->size = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (priv->size_combobox));
-		} else if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (priv->custom_pct_radiobutton))) {
-			priv->size = g_strdup_printf ("%d%%", (int) gtk_spin_button_get_value (priv->pct_spinbutton));
+		if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (resizer->default_size_radiobutton))) {
+			resizer->size = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (resizer->size_combobox));
+		} else if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (resizer->custom_pct_radiobutton))) {
+			resizer->size = g_strdup_printf ("%d%%",
+			                                 gtk_spin_button_get_value_as_int (resizer->pct_spinbutton));
 		} else {
-			priv->size = g_strdup_printf ("%dx%d", (int) gtk_spin_button_get_value (priv->width_spinbutton), (int) gtk_spin_button_get_value (priv->height_spinbutton));
+			resizer->size = g_strdup_printf ("%dx%d",
+			                                 gtk_spin_button_get_value_as_int (resizer->width_spinbutton),
+			                                 gtk_spin_button_get_value_as_int (resizer->height_spinbutton));
 		}
 
 		run_op (resizer);
@@ -335,10 +334,8 @@ caja_image_resizer_response_cb (GtkDialog *dialog, gint response_id, gpointer us
 }
 
 static void
-caja_image_resizer_init(CajaImageResizer *resizer)
+caja_image_resizer_init (CajaImageResizer *resizer)
 {
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (resizer);
-
 	GtkBuilder *builder;
 	GError     *err = NULL;
 
@@ -352,28 +349,28 @@ caja_image_resizer_init(CajaImageResizer *resizer)
 	}
 
 	/* Grab some widgets */
-	priv->resize_dialog = GTK_DIALOG (gtk_builder_get_object (builder, "resize_dialog"));
-	priv->default_size_radiobutton =
+	resizer->resize_dialog = GTK_DIALOG (gtk_builder_get_object (builder, "resize_dialog"));
+	resizer->default_size_radiobutton =
 		GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "default_size_radiobutton"));
-	priv->size_combobox = GTK_COMBO_BOX_TEXT (gtk_builder_get_object (builder, "comboboxtext_size"));
-	priv->custom_pct_radiobutton =
+	resizer->size_combobox = GTK_COMBO_BOX_TEXT (gtk_builder_get_object (builder, "comboboxtext_size"));
+	resizer->custom_pct_radiobutton =
 		GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "custom_pct_radiobutton"));
-	priv->pct_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "pct_spinbutton"));
-	priv->custom_size_radiobutton =
+	resizer->pct_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "pct_spinbutton"));
+	resizer->custom_size_radiobutton =
 		GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "custom_size_radiobutton"));
-	priv->width_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "width_spinbutton"));
-	priv->height_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "height_spinbutton"));
-	priv->append_radiobutton = GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "append_radiobutton"));
-	priv->name_entry = GTK_ENTRY (gtk_builder_get_object (builder, "name_entry"));
-	priv->inplace_radiobutton = GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "inplace_radiobutton"));
+	resizer->width_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "width_spinbutton"));
+	resizer->height_spinbutton = GTK_SPIN_BUTTON (gtk_builder_get_object (builder, "height_spinbutton"));
+	resizer->append_radiobutton = GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "append_radiobutton"));
+	resizer->name_entry = GTK_ENTRY (gtk_builder_get_object (builder, "name_entry"));
+	resizer->inplace_radiobutton = GTK_RADIO_BUTTON (gtk_builder_get_object (builder, "inplace_radiobutton"));
 
 	/* Set default item in combo box */
-	/* gtk_combo_box_set_active  (priv->size_combobox, 4);  1024x768 */
+	/* gtk_combo_box_set_active  (resizer->size_combobox, 4);  1024x768 */
 
 	/* Connect signal */
-	g_signal_connect (G_OBJECT (priv->resize_dialog), "response",
-			  (GCallback) caja_image_resizer_response_cb,
-			  resizer);
+	g_signal_connect (resizer->resize_dialog, "response",
+	                  G_CALLBACK (caja_image_resizer_response_cb),
+	                  resizer);
 
 	g_object_unref (builder);
 }
@@ -387,7 +384,5 @@ caja_image_resizer_new (GList *files)
 void
 caja_image_resizer_show_dialog (CajaImageResizer *resizer)
 {
-	CajaImageResizerPrivate *priv = caja_image_resizer_get_instance_private (resizer);
-
-	gtk_widget_show (GTK_WIDGET (priv->resize_dialog));
+	gtk_widget_show (GTK_WIDGET (resizer->resize_dialog));
 }
