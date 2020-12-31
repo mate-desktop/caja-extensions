@@ -167,7 +167,7 @@ device_proxy_unavailable_cb (GUPnPControlPoint *cp,
 }
 
 static void
-on_context_available (GUPnPContextManager *context_manager,
+on_context_available (GUPnPContextManager *manager,
                       GUPnPContext        *context,
                       gpointer             user_data)
 {
@@ -187,7 +187,7 @@ on_context_available (GUPnPContextManager *context_manager,
 	gssdp_resource_browser_set_active (GSSDP_RESOURCE_BROWSER (cp), TRUE);
 
 	/* Let context manager take care of the control point life cycle */
-	gupnp_context_manager_manage_control_point (context_manager, cp);
+	gupnp_context_manager_manage_control_point (manager, cp);
 	g_object_unref (cp);
 }
 
