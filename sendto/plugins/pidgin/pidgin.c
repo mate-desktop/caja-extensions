@@ -231,22 +231,21 @@ add_pidgin_contacts_to_model (GtkTreeStore *store,
 
 	g_hash_table_iter_init (&hiter, contact_hash);
 	while (g_hash_table_iter_next (&hiter, NULL, (gpointer)&contacts_group)) {
-		gint accounts;
+		gint num_accounts;
 
 		dat = g_ptr_array_index (contacts_group, 0);
 
-		accounts = contacts_group->len;
+		num_accounts = contacts_group->len;
 
 		gtk_tree_store_append (store, parent, NULL);
 		gtk_tree_store_set (store, parent, COL_ICON, NULL, COL_ALIAS, dat->alias, -1);
 
-		gint i;
-		for (i = 0; i < accounts; ++i) {
+		for (i = 0; i < num_accounts; ++i) {
 			dat = g_ptr_array_index (contacts_group, i);
 
 			icon = get_buddy_icon(dat->id);
 
-			if (accounts == 1) {
+			if (num_accounts == 1) {
 				g_value_init(&val, GDK_TYPE_PIXBUF);
 				g_value_set_object (&val, (gpointer)icon);
 				gtk_tree_store_set_value (store, parent, COL_ICON, &val);

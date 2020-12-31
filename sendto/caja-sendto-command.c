@@ -505,13 +505,13 @@ pack_entry_changed_cb (GObject *object, GParamSpec *spec, NS_ui *ui)
 }
 
 static void
-update_button_image (GtkSettings *settings,
-		     GParamSpec *spec,
-		     GtkWidget *widget)
+update_button_image (GtkSettings *gtk_settings,
+                     GParamSpec  *spec,
+                     GtkWidget   *widget)
 {
 	gboolean show_images;
 
-	g_object_get (settings, "gtk-button-images", &show_images, NULL);
+	g_object_get (gtk_settings, "gtk-button-images", &show_images, NULL);
 	if (show_images == FALSE)
 		gtk_widget_hide (widget);
 	else
