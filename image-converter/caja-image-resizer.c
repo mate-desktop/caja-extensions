@@ -295,12 +295,10 @@ run_op (CajaImageResizer *resizer)
 }
 
 static void
-caja_image_resizer_response_cb (GtkDialog *dialog,
-                                gint       response_id,
-                                gpointer   user_data)
+on_caja_image_resizer_response (GtkDialog        *dialog,
+                                gint              response_id,
+                                CajaImageResizer *resizer)
 {
-	CajaImageResizer *resizer = CAJA_IMAGE_RESIZER (user_data);
-
 	if (response_id == GTK_RESPONSE_OK) {
 		if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (resizer->append_radiobutton))) {
 			if (strlen (gtk_entry_get_text (resizer->name_entry)) == 0) {
@@ -362,7 +360,7 @@ caja_image_resizer_init (CajaImageResizer *resizer)
 
 	/* Connect signal */
 	g_signal_connect (resizer->resize_dialog, "response",
-	                  G_CALLBACK (caja_image_resizer_response_cb),
+	                  G_CALLBACK (on_caja_image_resizer_response),
 	                  resizer);
 
 	g_object_unref (builder);
