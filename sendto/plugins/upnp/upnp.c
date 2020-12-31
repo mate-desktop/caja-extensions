@@ -201,9 +201,6 @@ init (NstPlugin *plugin)
 	GtkCellRenderer *renderer;
 	char *upload_cmd;
 
-	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-
 	upload_cmd = g_find_program_in_path ("gupnp-upload");
 	if (upload_cmd == NULL)
 		return FALSE;

@@ -38,9 +38,6 @@ caja_module_initialize (GTypeModule *module)
 
 	caja_image_converter_register_type (module);
 	type_list[0] = CAJA_TYPE_IMAGE_CONVERTER;
-
-	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 }
 
 void

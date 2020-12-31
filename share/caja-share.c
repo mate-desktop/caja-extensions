@@ -1260,9 +1260,6 @@ caja_module_initialize (GTypeModule  *module)
 {
   g_print ("Initializing caja-share extension\n");
 
-  bindtextdomain(GETTEXT_PACKAGE, MATELOCALEDIR);
-  bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
-
   caja_share_register_type (module);
 }
 
