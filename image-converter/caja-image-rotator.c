@@ -290,10 +290,10 @@ run_op (CajaImageRotator *rotator)
 }
 
 static void
-caja_image_rotator_response_cb (GtkDialog *dialog, gint response_id, gpointer user_data)
+on_caja_image_rotator_response (GtkDialog        *dialog,
+                                gint              response_id,
+                                CajaImageRotator *rotator)
 {
-	CajaImageRotator *rotator = CAJA_IMAGE_ROTATOR (user_data);
-
 	if (response_id == GTK_RESPONSE_OK) {
 		if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (rotator->append_radiobutton))) {
 			if (strlen (gtk_entry_get_text (rotator->name_entry)) == 0) {
@@ -361,7 +361,7 @@ caja_image_rotator_init (CajaImageRotator *rotator)
 
 	/* Connect the signal */
 	g_signal_connect (rotator->rotate_dialog, "response",
-	                  G_CALLBACK (caja_image_rotator_response_cb),
+	                  G_CALLBACK (on_caja_image_rotator_response),
 			  rotator);
 
 	g_object_unref (builder);
