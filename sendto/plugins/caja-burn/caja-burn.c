@@ -50,9 +50,6 @@ gboolean init (NstPlugin *plugin)
 
 	g_print ("Init caja burn plugin\n");
 
-	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-
 	it = gtk_icon_theme_get_default ();
 	gtk_icon_theme_append_search_path (it, DATADIR "/brasero/icons");
 

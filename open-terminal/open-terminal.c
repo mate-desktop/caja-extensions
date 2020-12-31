@@ -38,9 +38,6 @@ caja_module_initialize (GTypeModule *module)
 
 	caja_open_terminal_register_type (module);
 	type_list[0] = CAJA_TYPE_OPEN_TERMINAL;
-
-	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 }
 
 void

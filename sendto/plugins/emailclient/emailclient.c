@@ -81,9 +81,6 @@ init (NstPlugin *plugin)
 
 	g_print ("Init email client plugin\n");
 
-	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-
 	app_info = g_app_info_get_default_for_uri_scheme ("mailto");
 	if (app_info) {
 		mail_cmd = g_strdup(g_app_info_get_executable (app_info));

@@ -83,9 +83,6 @@ init (NstPlugin *plugin)
 
 	g_print ("Init pidgin plugin\n");
 
-	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-
 	error = NULL;
 	connection = dbus_g_bus_get (DBUS_BUS_SESSION, &error);
 	if(error != NULL) {
