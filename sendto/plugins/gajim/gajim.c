@@ -22,9 +22,12 @@
  *
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
 
 #include <glib/gi18n-lib.h>
+
 #include <dbus/dbus.h>
 #include <dbus/dbus-glib.h>
 #include "caja-sendto-plugin.h"
@@ -37,7 +40,6 @@ const gchar *COMPLETION_PROPS[] = {"name", "jid"};
 /* list of contacts, which are not offline */
 static GHashTable *jid_table = NULL;
 static gchar *iconset;
-
 
 DBusGProxy *proxy = NULL;
 
@@ -516,4 +518,3 @@ NstPluginInfo plugin_info = {
 };
 
 NST_INIT_PLUGIN (plugin_info)
-

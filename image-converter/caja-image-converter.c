@@ -22,8 +22,10 @@
  */
 
 #ifdef HAVE_CONFIG_H
- #include <config.h> /* for GETTEXT_PACKAGE */
+#include <config.h>
 #endif
+
+#include <glib/gi18n-lib.h>
 
 #include "caja-image-converter.h"
 #include "caja-image-resizer.h"
@@ -31,7 +33,6 @@
 
 #include <libcaja-extension/caja-menu-provider.h>
 
-#include <glib/gi18n-lib.h>
 #include <gtk/gtk.h>
 
 #include <string.h> /* for strcmp */

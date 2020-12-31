@@ -1,3 +1,9 @@
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+#include <glib/gi18n-lib.h>
+
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
@@ -10,13 +16,7 @@
 #include <libcaja-extension/caja-extension-types.h>
 #include <libcaja-extension/caja-menu-provider.h>
 
-#include <config.h>
-
-#include <libintl.h>
-#define _(x) dgettext (GETTEXT_PACKAGE, x)
-
 #define GKSU_TYPE_CONTEXT_MENU (gksu_context_menu_get_type ())
-
 
 typedef struct {
     GObject parent;

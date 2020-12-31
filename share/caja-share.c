@@ -23,6 +23,8 @@
 #include <config.h>
 #endif
 
+#include <glib/gi18n-lib.h>
+
 #include <libcaja-extension/caja-extension-types.h>
 #include <libcaja-extension/caja-column-provider.h>
 #include <libcaja-extension/caja-extension-types.h>
@@ -32,8 +34,6 @@
 #include <libcaja-extension/caja-property-page-provider.h>
 
 #include "caja-share.h"
-
-#include <glib/gi18n-lib.h>
 
 #include <gio/gio.h>
 

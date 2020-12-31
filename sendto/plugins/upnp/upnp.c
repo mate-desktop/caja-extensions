@@ -25,9 +25,12 @@
  *
  */
 
+#ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
 
 #include <glib/gi18n-lib.h>
+
 #include <libgupnp/gupnp.h>
 #include "caja-sendto-plugin.h"
 

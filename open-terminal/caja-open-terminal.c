@@ -22,15 +22,16 @@
  */
 
 #ifdef HAVE_CONFIG_H
- #include <config.h> /* for GETTEXT_PACKAGE */
+#include <config.h>
 #endif
+
+#include <glib/gi18n-lib.h>
 
 #include "caja-open-terminal.h"
 
 #include <libcaja-extension/caja-menu-provider.h>
 #include <libcaja-extension/caja-configurable.h>
 
-#include <glib/gi18n-lib.h>
 #include <gtk/gtkicontheme.h>
 #include <gtk/gtkwidget.h>
 #include <gtk/gtkmain.h>
