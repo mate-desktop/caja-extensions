@@ -21,36 +21,19 @@
  *
  */
 
-#ifndef CAJA_IMAGE_RESIZER_H
-#define CAJA_IMAGE_RESIZER_H
+#ifndef __CAJA_IMAGE_RESIZER_H__
+#define __CAJA_IMAGE_RESIZER_H__
 
 #include <glib-object.h>
 
 G_BEGIN_DECLS
 
 #define CAJA_TYPE_IMAGE_RESIZER         (caja_image_resizer_get_type ())
-#define CAJA_IMAGE_RESIZER(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), CAJA_TYPE_IMAGE_RESIZER, CajaImageResizer))
-#define CAJA_IMAGE_RESIZER_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), CAJA_TYPE_IMAGE_RESIZER, CajaImageResizerClass))
-#define CAJA_IS_IMAGE_RESIZER(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), CAJA_TYPE_IMAGE_RESIZER))
-#define CAJA_IS_IMAGE_RESIZER_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE ((k), CAJA_TYPE_IMAGE_RESIZER))
-#define CAJA_IMAGE_RESIZER_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS ((o), CAJA_TYPE_IMAGE_RESIZER, CajaImageResizerClass))
+G_DECLARE_FINAL_TYPE (CajaImageResizer, caja_image_resizer, CAJA, IMAGE_RESIZER, GObject)
 
-typedef struct _CajaImageResizer CajaImageResizer;
-typedef struct _CajaImageResizerClass CajaImageResizerClass;
-
-struct _CajaImageResizer {
-	GObject parent;
-};
-
-struct _CajaImageResizerClass {
-	GObjectClass parent_class;
-	/* Add Signal Functions Here */
-};
-
-GType caja_image_resizer_get_type (void);
 CajaImageResizer *caja_image_resizer_new (GList *files);
 void caja_image_resizer_show_dialog (CajaImageResizer *dialog);
 
 G_END_DECLS
 
-#endif /* CAJA_IMAGE_RESIZER_H */
+#endif /* __CAJA_IMAGE_RESIZER_H__ */
