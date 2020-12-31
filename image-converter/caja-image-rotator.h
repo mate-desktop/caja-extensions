@@ -21,36 +21,19 @@
  *
  */
 
-#ifndef CAJA_IMAGE_ROTATOR_H
-#define CAJA_IMAGE_ROTATOR_H
+#ifndef __CAJA_IMAGE_ROTATOR_H__
+#define __CAJA_IMAGE_ROTATOR_H__
 
 #include <glib-object.h>
 
 G_BEGIN_DECLS
 
 #define CAJA_TYPE_IMAGE_ROTATOR         (caja_image_rotator_get_type ())
-#define CAJA_IMAGE_ROTATOR(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), CAJA_TYPE_IMAGE_ROTATOR, CajaImageRotator))
-#define CAJA_IMAGE_ROTATOR_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), CAJA_TYPE_IMAGE_ROTATOR, CajaImageRotatorClass))
-#define CAJA_IS_IMAGE_ROTATOR(o)        (G_TYPE_CHECK_INSTANCE_TYPE ((o), CAJA_TYPE_IMAGE_ROTATOR))
-#define CAJA_IS_IMAGE_ROTATOR_CLASS(k)  (G_TYPE_CHECK_CLASS_TYPE ((k), CAJA_TYPE_IMAGE_ROTATOR))
-#define CAJA_IMAGE_ROTATOR_GET_CLASS(o) (G_TYPE_INSTANCE_GET_CLASS ((o), CAJA_TYPE_IMAGE_ROTATOR, CajaImageRotatorClass))
+G_DECLARE_FINAL_TYPE (CajaImageRotator, caja_image_rotator, CAJA, IMAGE_ROTATOR, GObject)
 
-typedef struct _CajaImageRotator CajaImageRotator;
-typedef struct _CajaImageRotatorClass CajaImageRotatorClass;
-
-struct _CajaImageRotator {
-	GObject parent;
-};
-
-struct _CajaImageRotatorClass {
-	GObjectClass parent_class;
-	/* Add Signal Functions Here */
-};
-
-GType caja_image_rotator_get_type (void);
 CajaImageRotator *caja_image_rotator_new (GList *files);
 void caja_image_rotator_show_dialog (CajaImageRotator *dialog);
 
 G_END_DECLS
 
-#endif /* CAJA_IMAGE_ROTATOR_H */
+#endif /* __CAJA_IMAGE_ROTATOR_H__ */
