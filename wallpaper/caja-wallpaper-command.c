@@ -31,12 +31,14 @@
 void
 caja_module_initialize (GTypeModule*module)
 {
+    g_print ("Initializing caja-wallpaper extension\n");
     caja_cwe_register_type (module);
 }
 
 void
 caja_module_shutdown (void)
 {
+    g_print ("Shutting down caja-wallpaper extension\n");
 }
 
 void
