@@ -261,13 +261,13 @@ void
 caja_module_initialize (GTypeModule  *module)
 {
     g_print ("Initializing caja-xattr-tags extension\n");
-
     caja_xattr_tags_register_type (module);
 }
 
 void
 caja_module_shutdown (void)
 {
+    g_print ("Shutting down caja-xattr-tags extension\n");
 }
 
 /* List all the extension types.  */

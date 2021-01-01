@@ -1258,7 +1258,7 @@ caja_share_register_type (GTypeModule *module)
 void
 caja_module_initialize (GTypeModule  *module)
 {
-  /*g_print ("Initializing caja-share extension\n");*/
+  g_print ("Initializing caja-share extension\n");
 
   bindtextdomain(GETTEXT_PACKAGE, MATELOCALEDIR);
   bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
@@ -1270,7 +1270,7 @@ caja_module_initialize (GTypeModule  *module)
 void
 caja_module_shutdown   (void)
 {
-  /*g_print ("Shutting down caja-share extension\n");*/
+  g_print ("Shutting down caja-share extension\n");
   /* FIXME freeing */
 }
 

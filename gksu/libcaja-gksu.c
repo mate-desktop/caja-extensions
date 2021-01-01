@@ -261,12 +261,14 @@ gksu_context_menu_activate (CajaMenuItem *item,
 void
 caja_module_initialize (GTypeModule *module)
 {
+    g_print ("Initializing caja-gksu extension\n");
     gksu_context_menu_register_type (module);
 }
 
 void
 caja_module_shutdown (void)
 {
+    g_print ("Shutting down caja-gksu extension\n");
 }
 
 void

@@ -31,6 +31,7 @@
 void
 caja_module_initialize (GTypeModule*module)
 {
+	g_print ("Initializing caja-sendto extension\n");
 	caja_nste_register_type (module);
 
 	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
@@ -41,6 +42,7 @@ caja_module_initialize (GTypeModule*module)
 void
 caja_module_shutdown (void)
 {
+	g_print ("Shutting down caja-sendto extension\n");
 }
 
 
