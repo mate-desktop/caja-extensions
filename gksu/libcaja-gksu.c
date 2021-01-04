@@ -1,9 +1,6 @@
 #include <stdlib.h>
 #include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
 #include <string.h>
-#include <pthread.h>
 #include <glib.h>
 #include <gtk/gtk.h>
 #include <gio/gio.h>
@@ -143,41 +140,11 @@ gksu_context_menu_get_file_items (CajaMenuProvider *provider,
     return items;
 }
 
-gboolean
-is_gksu_dead (gpointer data)
-{
-  GPid pid = GPOINTER_TO_INT(data);
-  if (waitpid (pid, NULL, WNOHANG) > 0)
-    return FALSE;
-  return TRUE;
-}
-
-static void*
-start_gksu_thread (void *data)
-{
-  GPid pid;
-  gchar **argv = (gchar**) g_malloc (sizeof (gchar*) * 3);
-  gchar *full_cmd = (gchar*) data;
-
-  argv[0] = g_strdup ("gksu");
-  argv[1] = full_cmd;
-  argv[2] = NULL;
-
-  g_spawn_async (NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL,
-		 &pid, NULL);
-  g_timeout_add (5000, is_gksu_dead, GINT_TO_POINTER(pid));
-
-  g_free (argv[0]);
-  g_free (full_cmd);
-  g_free (argv);
-
-  return NULL;
-}
-
 static void
 gksu_context_menu_activate (CajaMenuItem *item,
 			    CajaFileInfo *file)
 {
+  gchar *exec_path;
   gchar *uri = NULL;
   gchar *mime_type = NULL;
   gchar *cmd = NULL;
@@ -247,12 +214,55 @@ gksu_context_menu_activate (CajaMenuItem *item,
       g_free (cmd);
     }
 
-  {
-    pthread_t new_thread;
-    pthread_create (&new_thread, NULL, start_gksu_thread, (void*)full_cmd);
-  }
+  if ((exec_path = g_find_program_in_path ("gksu")) == NULL)
+    {
+       if ((exec_path = g_find_program_in_path ("beesu")) == NULL)
+         {
+           GtkWidget *dialog;
 
-  /* full_cmd is freed by start_gksu_thread */
+           dialog = gtk_message_dialog_new_with_markup (NULL, 0,
+                                                        GTK_MESSAGE_ERROR,
+                                                        GTK_BUTTONS_CLOSE,
+                                                        _("<big><b>"
+                                                          "Unable to determine the graphical wrapper for su"
+                                                           "</b></big>\n\n"
+                                                           "The item you selected cannot be open with "
+                                                           "administrator powers because the graphical wrapper "
+                                                           "for su cannot be determined, such as gtksu or beesu."));
+           gtk_dialog_run (GTK_DIALOG (dialog));
+           gtk_widget_destroy (dialog);
+         }
+    }
+
+  if (exec_path != NULL)
+    {
+      GError *error = NULL;
+      gchar **argv = (gchar**) g_malloc (sizeof (gchar*) * 3);
+
+      argv[0] = exec_path;
+      argv[1] = full_cmd;
+      argv[2] = NULL;
+
+      if (!g_spawn_async (NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL, NULL, &error))
+        {
+           GtkWidget *dialog;
+
+           dialog = gtk_message_dialog_new (NULL, 0,
+                                            GTK_MESSAGE_ERROR,
+                                            GTK_BUTTONS_CLOSE,
+                                            _("Error: %s"),
+                                            error->message);
+           gtk_dialog_run (GTK_DIALOG (dialog));
+           gtk_widget_destroy (dialog);
+           g_error_free (error);
+        }
+      g_strfreev (argv);
+    }
+  else
+    {
+      g_free (full_cmd);
+    }
+
   g_free (uri);
   g_free (mime_type);
 }
