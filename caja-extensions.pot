@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.24.0\n"
+"Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-06-23 13:18+0200\n"
+"POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,10 @@ msgid "Privilege granting extension"
 msgstr ""
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
+msgid ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: image-converter/caja-image-converter.c:120
@@ -208,7 +211,10 @@ msgid "Rotate and resize images"
 msgstr ""
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004-2005 Jürg Billeter"
+msgid ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: open-terminal/caja-open-terminal.c:459
@@ -258,7 +264,10 @@ msgid "Open terminals from folders"
 msgstr ""
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
+msgid ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
@@ -287,24 +296,24 @@ msgstr ""
 msgid "Send files by mail, instant message..."
 msgstr ""
 
-#: sendto/caja-sendto-command.c:569
+#: sendto/caja-sendto-command.c:568
 msgid "Files"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:789
+#: sendto/caja-sendto-command.c:788
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:809
+#: sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr ""
 
-#: sendto/caja-sendto-command.c:824
+#: sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr ""
 
-#: sendto/caja-sendto-command.c:827
+#: sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr ""
 
@@ -317,7 +326,10 @@ msgid "Integrates email clients and Pidgin"
 msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004 Roberto Majadas"
+msgid ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
@@ -376,39 +388,39 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:420
 msgid "Unable to send file"
 msgstr ""
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:421
 msgid "There is no connection to gajim remote service."
 msgstr ""
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
 msgid "Sending file failed"
 msgstr ""
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:446
 msgid "Recipient is missing."
 msgstr ""
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:485
 msgid "Unknown recipient."
 msgstr ""
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:508
 msgid "Instant Message (Gajim)"
 msgstr ""
 
-#: sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
 msgstr ""
 
-#: sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
 msgstr ""
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:179
 msgid "CD/DVD Creator"
 msgstr ""
 
@@ -416,7 +428,7 @@ msgstr ""
 msgid "Instant Message (Pidgin)"
 msgstr ""
 
-#: sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
 msgstr ""
 
@@ -433,7 +445,10 @@ msgid "Allows to quickly share a folder"
 msgstr ""
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2005 Ethium, Inc."
+msgid ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: share/caja-share.c:122
@@ -536,59 +551,59 @@ msgstr ""
 msgid "_Save"
 msgstr ""
 
-#: share/shares.c:123
+#: share/shares.c:122
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr ""
 
-#: share/shares.c:132
+#: share/shares.c:131
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr ""
 
-#: share/shares.c:152
+#: share/shares.c:151
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr ""
 
-#: share/shares.c:154
+#: share/shares.c:153
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr ""
 
-#: share/shares.c:185
+#: share/shares.c:184
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr ""
 
-#: share/shares.c:439 share/shares.c:613
+#: share/shares.c:438 share/shares.c:612
 msgid "Failed"
 msgstr ""
 
-#: share/shares.c:547
+#: share/shares.c:546
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr ""
 
-#: share/shares.c:553
+#: share/shares.c:552
 msgid "Samba's testparm failed for an unknown reason"
 msgstr ""
 
-#: share/shares.c:568
+#: share/shares.c:567
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr ""
 
-#: share/shares.c:570
+#: share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr ""
 
-#: share/shares.c:681
+#: share/shares.c:680
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 
-#: share/shares.c:727
+#: share/shares.c:726
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -611,7 +626,9 @@ msgid "Allows to quickly set wallpaper"
 msgstr ""
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2014 Stefano Karapetsas"
+msgid ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
@@ -631,5 +648,7 @@ msgid "View tags stored in extended attributes"
 msgstr ""
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2016 Felipe Barriga Richards"
+msgid ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"
 msgstr ""
