@@ -4,6 +4,6 @@ Icon=mail-send
 Name=Send To
 Description=Integrates email clients and Pidgin
 Author=Roberto Majadas <roberto.majadas@openshine.com>
-Copyright=Copyright (C) 2004 Roberto Majadas
+Copyright=Copyright (C) 2004 Roberto Majadas\nCopyright (C) 2013-2014 Stefano Karapetsas\nCopyright (C) 2015-2021 MATE developers
 Version=@VERSION@
 Website=https://mate-desktop.org/

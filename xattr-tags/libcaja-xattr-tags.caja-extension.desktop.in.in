@@ -4,6 +4,6 @@ Icon=desktop
 Name=xattr Tags
 Description=View tags stored in extended attributes
 Author=Felipe Barriga Richards
-Copyright=Copyright (C) 2016 Felipe Barriga Richards
+Copyright=Copyright (C) 2016 Felipe Barriga Richards\nCopyright (C) 2017-2021 MATE developers
 Version=@VERSION@
 Website=https://mate-desktop.org/
