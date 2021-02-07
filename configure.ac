@@ -325,12 +325,13 @@ AC_MSG_NOTICE([Installing caja plugins in ${ac_with_cajadir}])
 AC_SUBST([CAJA_EXTENSION_DIR],[${ac_with_cajadir}])
 
 # gettext
-AM_GNU_GETTEXT_VERSION([0.19.8])
-AM_GNU_GETTEXT([external])
-
 GETTEXT_PACKAGE=AC_PACKAGE_NAME
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [gettext package])
+
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_CONDITIONAL([USE_NLS], [test "x${USE_NLS}" = "xyes"])
 
 DISABLE_DEPRECATED_CPPFLAGS="-DG_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_DEPRECATED"
 AC_SUBST(DISABLE_DEPRECATED_CPPFLAGS)
@@ -367,20 +368,24 @@ AC_OUTPUT([
 ])
 
 echo "
-      caja-extensions $VERSION
-      `echo caja-extensions $VERSION | sed "s/./=/g"`
-      prefix:                 ${prefix}
-      compiler:               ${CC}
-      cflags:                 ${CFLAGS}
-      warning flags:          ${WARN_CFLAGS}
-      caja-extension dir      ${ac_with_cajadir}
+Configure summary:
 
-      Plugins to be built:
-      Image Converter:        $enable_image_converter
-      Open Terminal:          $enable_open_terminal
-      Sendto:                 $enable_sendto
-      Share:                  $enable_share
-      Gksu:                   $enable_gksu
-      Wallpaper:              $enable_wallpaper
-      xattr Tags:             $enable_xattr_tags
+      ${PACKAGE_STRING}
+      `echo $PACKAGE_STRING | sed "s/./=/g"`
+      prefix:                     ${prefix}
+      compiler:                   ${CC}
+      cflags:                     ${CFLAGS}
+      warning flags:              ${WARN_CFLAGS}
+      caja-extension dir:         ${ac_with_cajadir}
+      Native Language support:    ${USE_NLS}
+
+      Plugins to be built
+      `echo "Plugins to be built" | sed "s/./=/g"`
+      Image Converter:            $enable_image_converter
+      Open Terminal:              $enable_open_terminal
+      Sendto:                     $enable_sendto
+      Share:                      $enable_share
+      Gksu:                       $enable_gksu
+      Wallpaper:                  $enable_wallpaper
+      xattr Tags:                 $enable_xattr_tags
 "

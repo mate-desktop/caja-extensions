@@ -445,9 +445,13 @@ set_model_for_options_combobox (NS_ui *ui)
 						   GTK_ICON_LOOKUP_USE_BUILTIN, NULL);
 		gtk_list_store_append (model, &iter);
 		gtk_list_store_set (model, &iter,
-					COLUMN_ICON, pixbuf,
-					COLUMN_DESCRIPTION, dgettext(p->info->gettext_package, p->info->description),
-					-1);
+		                    COLUMN_ICON, pixbuf,
+#ifdef ENABLE_NLS
+		                    COLUMN_DESCRIPTION, g_dgettext (p->info->gettext_package, p->info->description),
+#else
+		                    COLUMN_DESCRIPTION, p->info->description,
+#endif /* ENABLE_NLS */
+		                    -1);
 		if (last_used != NULL && !strcmp(last_used, p->info->id)) {
 			option = i;
 			last_used_support_dirs = (p->info->capabilities & CAJA_CAPS_SEND_DIRECTORIES);
@@ -799,9 +803,11 @@ int main (int argc, char **argv)
 	GOptionContext *context;
 	GError *error = NULL;
 
+#ifdef ENABLE_NLS
 	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 	textdomain (GETTEXT_PACKAGE);
+#endif /* ENABLE_NLS */
 
 	context = g_option_context_new ("");
 	g_option_context_add_main_entries (context, entries, GETTEXT_PACKAGE);
