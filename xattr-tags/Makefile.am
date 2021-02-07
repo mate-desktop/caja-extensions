@@ -34,7 +34,11 @@ extensiondir = $(datadir)/caja/extensions
 extension_in_files = libcaja-xattr-tags.caja-extension.desktop.in
 extension_DATA = $(extension_in_files:.caja-extension.desktop.in=.caja-extension)
 $(extension_DATA): $(extension_in_files)
+if USE_NLS
 	$(AM_V_GEN) $(MSGFMT) --desktop --keyword= --keyword=Copyright --keyword=Name --keyword=Description --template $< -d $(top_srcdir)/po -o $@
+else
+	$(AM_V_GEN) cp $< $@
+endif
 
 CLEANFILES = $(extension_DATA)
 

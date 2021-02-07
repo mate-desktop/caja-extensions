@@ -1,6 +1,10 @@
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-SUBDIRS = po
+SUBDIRS =
+
+if USE_NLS
+SUBDIRS += po
+endif
 
 if ENABLE_OPEN_TERMINAL
 SUBDIRS += open-terminal

@@ -694,7 +694,9 @@ create_property_page (CajaFileInfo *fileinfo)
 
 
   page->ui = gtk_builder_new ();
+#ifdef ENABLE_NLS
   gtk_builder_set_translation_domain (page->ui, GETTEXT_PACKAGE);
+#endif /* ENABLE_NLS */
   g_assert (gtk_builder_add_from_file (page->ui,
               INTERFACES_DIR"/share-dialog.ui", &error));
 
