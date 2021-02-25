@@ -254,7 +254,7 @@ run_op (CajaImageRotator *rotator)
 	/* FIXME: check whether new_uri already exists and provide "Replace _All", "_Skip", and "_Replace" options */
 
 	gchar *argv[8];
-	argv[0] = "/usr/bin/convert";
+	argv[0] = "convert";
 	argv[1] = filename;
 	argv[2] = "-rotate";
 	argv[3] = rotator->angle;
@@ -265,8 +265,11 @@ run_op (CajaImageRotator *rotator)
 
 	pid_t pid;
 
-	if (!g_spawn_async (NULL, argv, NULL, G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL)) {
+	if (filename == NULL || new_filename == NULL ||
+	    !g_spawn_async (NULL, argv, NULL, G_SPAWN_DO_NOT_REAP_CHILD | G_SPAWN_SEARCH_PATH, NULL, NULL, &pid, NULL)) {
 		// FIXME: error handling
+		g_free (filename);
+		g_free (new_filename);
 		return;
 	}
 
