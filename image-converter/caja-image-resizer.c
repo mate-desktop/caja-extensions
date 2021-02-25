@@ -258,7 +258,7 @@ run_op (CajaImageResizer *resizer)
 	/* FIXME: check whether new_uri already exists and provide "Replace _All", "_Skip", and "_Replace" options */
 
 	gchar *argv[6];
-	argv[0] = "/usr/bin/convert";
+	argv[0] = "convert";
 	argv[1] = filename;
 	argv[2] = "-resize";
 	argv[3] = resizer->size;
@@ -267,8 +267,11 @@ run_op (CajaImageResizer *resizer)
 
 	pid_t pid;
 
-	if (!g_spawn_async (NULL, argv, NULL, G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL)) {
+	if (filename == NULL || new_filename == NULL ||
+	    !g_spawn_async (NULL, argv, NULL, G_SPAWN_SEARCH_PATH | G_SPAWN_DO_NOT_REAP_CHILD, NULL, NULL, &pid, NULL)) {
 		// FIXME: error handling
+		g_free (filename);
+		g_free (new_filename);
 		return;
 	}
 
