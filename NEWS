@@ -1,3 +1,28 @@
+### caja-extensions 1.25.1
+
+  * Translations update
+    image-converter: remove hardcoded filepath to convert (portability)
+    build: allow users to disable gettext support (--disable-nls)
+    build: set GETTEXT_PACKAGE=AC_PACKAGE_NAME
+    gksu: do not run the command on a new thread
+    Do not call bindtextdomain/bind_textdomain_codeset in libraries
+    Include i18n header after defining GETTEXT_PACKAGE macro
+    caja-image-rotator: remove user_data cast on signal handler
+    caja-image-resizer: remove user_data cast on signal handler
+    caja-image-resizer: use gtk_builder_new_from_resource
+    caja-image-rotator: use gtk_builder_new_from_resource
+    caja-image-resizer: promote to final class
+    caja-image-rotator: promote to final class
+    build: Use PACKAGE_URL variable
+    Print status messages
+    Update copyright
+    Remove warning -Wshadow
+    caja-sendto-command: use g_list_free_full
+    lookup_in_data_dir, caja_open_terminal_get_file_items are static
+    Use `#include <config.h>`
+    Remove USE_MATE2_MACROS from autogen.sh (legacy)
+    Remove unused macros
+
 ### caja-extensions 1.25.0
 
   * Translations update
