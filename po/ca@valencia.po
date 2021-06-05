@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Pilar Embid <embid.mar@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Pilar Embid <embid.mar@gmail.com>, 2020\n"
+"Last-Translator: Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2020\n"
 "Language-Team: Catalan (Valencian) (https://www.transifex.com/mate/teams/13566/ca@valencia/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,12 +40,6 @@ msgstr ""
 "\n"
 "L'element que heu seleccionat no es pot obrir amb privilegis d'administrador perquè no es pot determinar quina és l'aplicació correcta."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
-msgstr ""
-
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
 msgstr "Gksu"
@@ -55,7 +49,10 @@ msgid "Privilege granting extension"
 msgstr "Extensió de concessió de privilegis"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
+msgid ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: image-converter/caja-image-converter.c:120
@@ -79,6 +76,8 @@ msgid "Resize Images"
 msgstr "Redimensiona les imatges"
 
 #: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
+#: share/share-dialog.ui:249
 msgid "_Cancel"
 msgstr "_Cancel·la"
 
@@ -120,7 +119,7 @@ msgid "Image Size"
 msgstr ""
 
 #: image-converter/caja-image-resize.ui:368
-#: image-converter/caja-image-rotate.ui:206
+#: image-converter/caja-image-rotate.ui:242
 msgid "Append"
 msgstr "Annexa"
 
@@ -129,7 +128,7 @@ msgid ".resized"
 msgstr ".redimensionada"
 
 #: image-converter/caja-image-resize.ui:398
-#: image-converter/caja-image-rotate.ui:228
+#: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
 msgstr "al títol del fitxer"
 
@@ -138,97 +137,78 @@ msgid "Resize in place"
 msgstr "Sobreescriu els fitxers existents amb la seua versió redimensionada"
 
 #: image-converter/caja-image-resize.ui:438
+#: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
 msgstr "Nom del fitxer"
 
-#: image-converter/caja-image-resizer.c:207
-#: image-converter/caja-image-rotator.c:204
-msgid "_Skip"
-msgstr "_Omet"
-
-#: image-converter/caja-image-resizer.c:209
-#: image-converter/caja-image-rotator.c:206
-msgid "_Retry"
-msgstr "_Torna-ho a intentar"
-
-#: image-converter/caja-image-resizer.c:287
+#: image-converter/caja-image-resizer.c:293
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "S'està redimensionant la imatge %d de %d"
 
-#: image-converter/caja-image-resizer.c:292
+#: image-converter/caja-image-resizer.c:298
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>S'està redimensionant «%s»</i>"
 
-#: image-converter/caja-image-resizer.c:310
-#: image-converter/caja-image-rotator.c:309
+#: image-converter/caja-image-resizer.c:316
+#: image-converter/caja-image-rotator.c:315
 msgid "Please enter a valid filename suffix!"
 msgstr "Introduïu un sufix vàlid per al nom del fitxer."
 
-#: image-converter/caja-image-rotate.ui:18
-msgid "90° clockwise"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:21
-msgid "90° counter-clockwise"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:24
-msgid "180°"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:31
+#: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
 msgstr "Gira les imatges"
 
-#: image-converter/caja-image-rotate.ui:46
-msgid "<b>Image Rotation</b>"
-msgstr "<b>Rotació de la imatge</b>"
-
-#: image-converter/caja-image-rotate.ui:79
-msgid "Select an angle:"
-msgstr "Selecciona un angle:"
-
-#: image-converter/caja-image-rotate.ui:117
-msgid "Custom angle:"
-msgstr "Angle personalitzat:"
-
-#: image-converter/caja-image-rotate.ui:143
-msgid "degrees clockwise"
-msgstr "graus en sentit horari"
-
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Nom del fitxer</b>"
-
-#: image-converter/caja-image-rotate.ui:219
-msgid ".rotated"
-msgstr ".girada"
-
-#: image-converter/caja-image-rotate.ui:242
-msgid "Rotate in place"
-msgstr "Sobreescriu els fitxers existents amb la seua versió girada"
-
-#: image-converter/caja-image-rotate.ui:288
+#: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
 msgstr "_Gira"
 
-#: image-converter/caja-image-rotator.c:286
+#: image-converter/caja-image-rotate.ui:104
+msgid "Select an angle:"
+msgstr "Selecciona un angle:"
+
+#: image-converter/caja-image-rotate.ui:124
+msgid "90° clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:125
+msgid "90° counter-clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:126
+msgid "180°"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:149
+msgid "Custom angle:"
+msgstr "Angle personalitzat:"
+
+#: image-converter/caja-image-rotate.ui:181
+msgid "degrees clockwise"
+msgstr "graus en sentit horari"
+
+#: image-converter/caja-image-rotate.ui:204
+msgid "Image Rotation"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:260
+msgid ".rotated"
+msgstr ".girada"
+
+#: image-converter/caja-image-rotate.ui:290
+msgid "Rotate in place"
+msgstr "Sobreescriu els fitxers existents amb la seua versió girada"
+
+#: image-converter/caja-image-rotator.c:292
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "S'està girant la imatge %d de %d"
 
-#: image-converter/caja-image-rotator.c:291
+#: image-converter/caja-image-rotator.c:297
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>S'està girant «%s»</i>"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
-msgstr ""
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -239,7 +219,10 @@ msgid "Rotate and resize images"
 msgstr "Gira i redimensiona les imatges"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004-2005 Jürg Billeter"
+msgid ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: open-terminal/caja-open-terminal.c:459
@@ -280,12 +263,6 @@ msgstr "Tanca"
 msgid "open-terminal Configuration"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr ""
-
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr "Obri un terminal"
@@ -295,7 +272,10 @@ msgid "Open terminals from folders"
 msgstr "Obri els terminals des de les carpetes"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
+msgid ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
@@ -330,32 +310,26 @@ msgstr "Envia el fitxer per correu electrònic, missatgeria instantània..."
 msgid "Send files by mail, instant message..."
 msgstr "Envia els fitxers per correu electrònic, missatgeria instantània..."
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:568
 msgid "Files"
 msgstr "Fitxers"
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:788
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Espera que es passen com a opcions els URI o els noms dels fitxers\n"
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "No s'han pogut analitzar les opcions de línia d'ordres: %s\n"
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "No s'ha pogut carregar cap connector."
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Comproveu la vostra instal·lació"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
-msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -366,7 +340,10 @@ msgid "Integrates email clients and Pidgin"
 msgstr "Integra els clients de correu electrònic i del Pidgin"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004 Roberto Majadas"
+msgid ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
@@ -389,71 +366,75 @@ msgid ""
 "tar.gz, 2: tar.bz2)."
 msgstr ""
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr "Envia a..."
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
-msgstr "En_via"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
+msgstr ""
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr "<b>Destinació</b>"
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr "Envia com _a:"
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr "E_nvia a:"
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
-msgstr "<b>Compressió</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
+msgstr ""
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr "Envia em_paquetat a:"
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr ""
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr "etiqueta"
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr "Correu electrònic"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:420
 msgid "Unable to send file"
 msgstr "No s'ha pogut enviar el fitxer"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:421
 msgid "There is no connection to gajim remote service."
 msgstr "No hi ha connexió amb el servei remot de gajim."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
 msgid "Sending file failed"
 msgstr "No s'ha pogut enviar el fitxer"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:446
 msgid "Recipient is missing."
 msgstr "Falta el destinatari."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:485
 msgid "Unknown recipient."
 msgstr "Destinatari desconegut."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:508
 msgid "Instant Message (Gajim)"
 msgstr "Missatge instantani (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
 msgstr "CD/DVD nou"
 
-#: sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
 msgstr "CD/DVD existent"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:179
 msgid "CD/DVD Creator"
 msgstr "Creador de CD o DVD"
 
@@ -461,7 +442,7 @@ msgstr "Creador de CD o DVD"
 msgid "Instant Message (Pidgin)"
 msgstr "Missatge instantani (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
 msgstr "Discos extraïbles i comparticions"
 
@@ -469,13 +450,7 @@ msgstr "Discos extraïbles i comparticions"
 msgid "UPnP Media Server"
 msgstr "Servidor de mitjans UPnP"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
-msgstr ""
-
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
 msgid "Share"
 msgstr "Comparteix"
 
@@ -484,10 +459,13 @@ msgid "Allows to quickly share a folder"
 msgstr "Permet compartir ràpidament una carpeta"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2005 Ethium, Inc."
+msgid ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: share/caja-share.c:123
+#: share/caja-share.c:122
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -496,7 +474,7 @@ msgstr ""
 "El Caja necessita afegir alguns permisos a la carpeta «%s» per tal de "
 "compartir-la"
 
-#: share/caja-share.c:131
+#: share/caja-share.c:130
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -505,148 +483,148 @@ msgstr ""
 "La carpeta «%s» necessita permisos addicionals per a compartir la faena:\n"
 "%s%s%sVoleu que els permisos s'afigen automàticament?"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - read permission by others\n"
 msgstr "  - permisos de lectura per als altres\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - write permission by others\n"
 msgstr "  - permisos d'escriptura per als altres\n"
 
-#: share/caja-share.c:137
+#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr "  - permisos d'execució per als altres\n"
 
-#: share/caja-share.c:141
+#: share/caja-share.c:140
 msgid "Add the permissions automatically"
 msgstr "Afig automàticament els permisos"
 
-#: share/caja-share.c:167
+#: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "No s'han pogut canviar els permisos de la carpeta «%s»"
 
-#: share/caja-share.c:451
+#: share/caja-share.c:450
 msgid "Share name is too long"
 msgstr "El nom de la compartició és massa llarg"
 
-#: share/caja-share.c:493
+#: share/caja-share.c:492
 msgid "The share name cannot be empty"
 msgstr "El nom de la compartició no pot estar buit"
 
-#: share/caja-share.c:506
+#: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "S'ha produït un error en obtindre la informació de la compartició: %s"
 
-#: share/caja-share.c:516
+#: share/caja-share.c:515
 msgid "Another share has the same name"
 msgstr "Una altra compartició té el mateix nom"
 
-#: share/caja-share.c:563 share/caja-share.c:799
+#: share/caja-share.c:558 share/caja-share.c:792
 msgid "Modify _Share"
 msgstr "Modifica la _compartició"
 
-#: share/caja-share.c:563 share/caja-share.c:801
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Create _Share"
 msgstr "Crea la _compartició"
 
-#: share/caja-share.c:691
+#: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr "S'ha produït un error en obtindre la informació de la compartició"
 
-#: share/caja-share.c:1123
+#: share/caja-share.c:1116 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Compartició de carpetes"
 
-#: share/caja-share.c:1164
+#: share/caja-share.c:1157
 msgid "Sharing Options"
 msgstr "Opcions de compartició"
 
-#: share/caja-share.c:1165
+#: share/caja-share.c:1158
 msgid "Share this Folder"
 msgstr "Comparteix aquesta carpeta"
 
-#: share/share-dialog.ui:27
-msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Compartició de carpetes</b></big>"
-
-#: share/share-dialog.ui:75
-msgid "Share _name:"
-msgstr "_Nom de la compartició:"
-
-#: share/share-dialog.ui:108
+#: share/share-dialog.ui:85
 msgid "Share this _folder"
 msgstr "Co_mparteix aquesta carpeta"
 
-#: share/share-dialog.ui:139
+#: share/share-dialog.ui:119
+msgid "Share _name:"
+msgstr "_Nom de la compartició:"
+
+#: share/share-dialog.ui:133
 msgid "Co_mment:"
 msgstr "Co_mentari:"
 
-#: share/share-dialog.ui:170
+#: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr ""
 "Permet que _altres usuaris creen i suprimisquen fitxers en aquesta carpeta."
 
-#: share/share-dialog.ui:187
+#: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
 msgstr "Accés de convidats (per a la _gent sense un compte d'usuari)"
 
-#: share/shares.c:123
+#: share/share-dialog.ui:264
+msgid "_Save"
+msgstr "_Guarda"
+
+#: share/shares.c:122
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s va retornar amb el senyal %d"
 
-#: share/shares.c:132
+#: share/shares.c:131
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s va fallar per un motiu desconegut"
 
-#: share/shares.c:152
+#: share/shares.c:151
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "«net usershare» va retornar l'error %d: %s"
 
-#: share/shares.c:154
+#: share/shares.c:153
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "«net usershare» va retornar l'error %d"
 
-#: share/shares.c:185
+#: share/shares.c:184
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "l'eixida de «net usershare» no té una codificació vàlida UTF-8"
 
-#: share/shares.c:439 share/shares.c:613
+#: share/shares.c:438 share/shares.c:612
 msgid "Failed"
 msgstr "Ha fallat"
 
-#: share/shares.c:547
+#: share/shares.c:546
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "testparm de Samba va retornar amb el senyal %d"
 
-#: share/shares.c:553
+#: share/shares.c:552
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "testparm de Samba va fallar per un motiu desconegut"
 
-#: share/shares.c:568
+#: share/shares.c:567
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "testparm de Samba va retornar l'error %d: %s"
 
-#: share/shares.c:570
+#: share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "testparm de Samba va retornar l'error %d"
 
-#: share/shares.c:681
+#: share/shares.c:680
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 "No es pot eliminar la compartició per al camí %s: aquest camí no està "
 "compartit"
 
-#: share/shares.c:727
+#: share/shares.c:726
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -654,20 +632,13 @@ msgstr ""
 "No es pot canviar el camí a una compartició existent; primer elimineu la "
 "compartició antiga i afegiu-ne un de nou"
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
 msgstr "Estableix com a fons de pantalla"
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
 msgstr "Estableix la imatge com a l'actual fons de pantalla"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
-msgstr "escriptori"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -678,7 +649,9 @@ msgid "Allows to quickly set wallpaper"
 msgstr "Permet establir ràpidament el fons de pantalla"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2014 Stefano Karapetsas"
+msgid ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
@@ -698,5 +671,7 @@ msgid "View tags stored in extended attributes"
 msgstr "Visualitza les etiquetes emmagatzemades als atributs ampliats"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2016 Felipe Barriga Richards"
+msgid ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"
 msgstr ""

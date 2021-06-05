@@ -5,26 +5,25 @@
 # 
 # Translators:
 # Kristoffer Grundström <lovaren@gmail.com>, 2018
-# Luna Jernberg <bittin@cafe8bitar.se>, 2018
 # 6a42dd6e7ca9a813693714b0d9aa1ad8, 2018
 # Henrik Mattsson-Mårn <h@reglage.net>, 2018
 # Marcus Larborg, 2018
 # cb445fb3dfd1fe3c2b9f58ac5638f478, 2018
-# Jonatan Nyberg <jonatan.nyberg.karl@gmail.com>, 2018
+# efef6ec5b435a041fce803c7f8af77d2_2341d43, 2018
 # 8385e6e60a22e18cd347a1f6e4685fb9, 2018
 # Patrik Nilsson <asavartzeth@gmail.com>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Tobias Lekare <lekare@linux.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Philip Andersen <renegadevi@codeofmagi.net>, 2020
+# Luna Jernberg <bittin@cafe8bitar.se>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Philip Andersen <renegadevi@codeofmagi.net>, 2020\n"
+"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>, 2021\n"
 "Language-Team: Swedish (https://www.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,12 +49,6 @@ msgstr ""
 "\n"
 "Objektet du valde kan inte öppnas med administratörsrättigheter eftersom det rätt program inte kunde fastställas."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
-msgstr ""
-
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
 msgstr "Gksu"
@@ -65,8 +58,14 @@ msgid "Privilege granting extension"
 msgstr "Privilegium beviljande extension"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
-msgstr "Copyright (C) 2002-2005 Gustavo Noronha Silva"
+msgid ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE utvecklarna"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -89,6 +88,8 @@ msgid "Resize Images"
 msgstr "Ändra storlek på bilder"
 
 #: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
+#: share/share-dialog.ui:249
 msgid "_Cancel"
 msgstr "_Avbryt"
 
@@ -130,7 +131,7 @@ msgid "Image Size"
 msgstr "Bildstorlek"
 
 #: image-converter/caja-image-resize.ui:368
-#: image-converter/caja-image-rotate.ui:206
+#: image-converter/caja-image-rotate.ui:242
 msgid "Append"
 msgstr "Fästa"
 
@@ -139,7 +140,7 @@ msgid ".resized"
 msgstr ".storleksförändrad"
 
 #: image-converter/caja-image-resize.ui:398
-#: image-converter/caja-image-rotate.ui:228
+#: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
 msgstr "till filens titel"
 
@@ -148,97 +149,78 @@ msgid "Resize in place"
 msgstr "Storleksförändring pågår"
 
 #: image-converter/caja-image-resize.ui:438
+#: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
 msgstr "Filnamn"
 
-#: image-converter/caja-image-resizer.c:207
-#: image-converter/caja-image-rotator.c:204
-msgid "_Skip"
-msgstr "_Hoppa över"
-
-#: image-converter/caja-image-resizer.c:209
-#: image-converter/caja-image-rotator.c:206
-msgid "_Retry"
-msgstr "_Försök igen"
-
-#: image-converter/caja-image-resizer.c:287
+#: image-converter/caja-image-resizer.c:293
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "Ändrar storlek på bild: %d av %d"
 
-#: image-converter/caja-image-resizer.c:292
+#: image-converter/caja-image-resizer.c:298
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>Ändrar storlek på \"%s\"</i>"
 
-#: image-converter/caja-image-resizer.c:310
-#: image-converter/caja-image-rotator.c:309
+#: image-converter/caja-image-resizer.c:316
+#: image-converter/caja-image-rotator.c:315
 msgid "Please enter a valid filename suffix!"
 msgstr "Ange en giltig filnamnsändelse!"
 
-#: image-converter/caja-image-rotate.ui:18
-msgid "90° clockwise"
-msgstr "90° medurs"
-
-#: image-converter/caja-image-rotate.ui:21
-msgid "90° counter-clockwise"
-msgstr "90° moturs"
-
-#: image-converter/caja-image-rotate.ui:24
-msgid "180°"
-msgstr "180°"
-
-#: image-converter/caja-image-rotate.ui:31
+#: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
 msgstr "Rotera bilder"
 
-#: image-converter/caja-image-rotate.ui:46
-msgid "<b>Image Rotation</b>"
-msgstr "<b>Bildrotering</b>"
-
-#: image-converter/caja-image-rotate.ui:79
-msgid "Select an angle:"
-msgstr "Välj vinkel:"
-
-#: image-converter/caja-image-rotate.ui:117
-msgid "Custom angle:"
-msgstr "Anpassad vinkel:"
-
-#: image-converter/caja-image-rotate.ui:143
-msgid "degrees clockwise"
-msgstr "grader medsols"
-
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Filnamn</b>"
-
-#: image-converter/caja-image-rotate.ui:219
-msgid ".rotated"
-msgstr ".roterad"
-
-#: image-converter/caja-image-rotate.ui:242
-msgid "Rotate in place"
-msgstr "Rotera på plats"
-
-#: image-converter/caja-image-rotate.ui:288
+#: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
 msgstr "_Rotera"
 
-#: image-converter/caja-image-rotator.c:286
+#: image-converter/caja-image-rotate.ui:104
+msgid "Select an angle:"
+msgstr "Välj vinkel:"
+
+#: image-converter/caja-image-rotate.ui:124
+msgid "90° clockwise"
+msgstr "90° medurs"
+
+#: image-converter/caja-image-rotate.ui:125
+msgid "90° counter-clockwise"
+msgstr "90° moturs"
+
+#: image-converter/caja-image-rotate.ui:126
+msgid "180°"
+msgstr "180°"
+
+#: image-converter/caja-image-rotate.ui:149
+msgid "Custom angle:"
+msgstr "Anpassad vinkel:"
+
+#: image-converter/caja-image-rotate.ui:181
+msgid "degrees clockwise"
+msgstr "grader medsols"
+
+#: image-converter/caja-image-rotate.ui:204
+msgid "Image Rotation"
+msgstr "Bildrotering"
+
+#: image-converter/caja-image-rotate.ui:260
+msgid ".rotated"
+msgstr ".roterad"
+
+#: image-converter/caja-image-rotate.ui:290
+msgid "Rotate in place"
+msgstr "Rotera på plats"
+
+#: image-converter/caja-image-rotator.c:292
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Roterar bild: %d av %d"
 
-#: image-converter/caja-image-rotator.c:291
+#: image-converter/caja-image-rotator.c:297
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Roterar \"%s\"</i>"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
-msgstr ""
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -249,8 +231,14 @@ msgid "Rotate and resize images"
 msgstr "Rotera och storleksförändra bilder"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004-2005 Jürg Billeter"
-msgstr "Copyright (C) 2004-2005 Jürg Billeter"
+msgid ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE utvecklarna"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
@@ -290,12 +278,6 @@ msgstr "Stäng"
 msgid "open-terminal Configuration"
 msgstr "Öppna terminalkonfiguration"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr ""
-
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr "Öppna terminal"
@@ -305,8 +287,14 @@ msgid "Open terminals from folders"
 msgstr "Öppna terminaler från mappar"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
-msgstr "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
+msgid ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE utvecklarna"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -340,32 +328,26 @@ msgstr "Skicka fil med e-post, snabbmeddelande..."
 msgid "Send files by mail, instant message..."
 msgstr "Skicka filer med e-post, snabbmeddelande..."
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:568
 msgid "Files"
 msgstr "Filer"
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:788
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Förväntar URI:er eller filnamn att skickas som flaggor\n"
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Kunde inte tolka kommandoradsflaggor: %s\n"
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Kunde inte ladda in några insticksmoduler."
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Kontrollera din installation"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
-msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -376,94 +358,108 @@ msgid "Integrates email clients and Pidgin"
 msgstr "Integrerar e-postklienter och Pidgin"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr "Copyright (C) 2004 Roberto Majadas"
+msgid ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE utvecklarna"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
-msgstr ""
+msgstr "Senaste plugin som användes att skicka"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:7
 msgid ""
 "Used to store which plugin was used the last time files were sent using "
 "caja-sendto."
 msgstr ""
+"Används för att lagra vilket plugin som användes förra gången filer "
+"skickades med caja-sendto."
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
 msgid "Last type of archive used"
-msgstr ""
+msgstr "Senast använda arkivtyp"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:15
 msgid ""
 "Used to store which type of archive was used the last time (0: zip, 1: "
 "tar.gz, 2: tar.bz2)."
 msgstr ""
+"Används för att lagra vilken typ av arkiv som användes förra gången (0: zip,"
+" 1: tar.gz, 2: tar.bz2)."
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr "Skicka till..."
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
-msgstr "_Skicka"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
+msgstr "Skicka"
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr "<b>Destination</b>"
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr "Skicka _som:"
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr "Skicka t_ill:"
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
-msgstr "<b>Komprimering</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
+msgstr "Destination"
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr "Skicka _paketerat i:"
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr "Komprimering"
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr "etikett"
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr "E-post"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:420
 msgid "Unable to send file"
 msgstr "Kan inte skicka fil"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:421
 msgid "There is no connection to gajim remote service."
 msgstr "Det finns ingen anslutning till gajims fjärrtjänst."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
 msgid "Sending file failed"
 msgstr "Skicka fil misslyckades"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:446
 msgid "Recipient is missing."
 msgstr "Mottagare saknas."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:485
 msgid "Unknown recipient."
 msgstr "Okänd mottagare."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:508
 msgid "Instant Message (Gajim)"
 msgstr "Snabbmeddelande (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
 msgstr "Ny cd/dvd"
 
-#: sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
 msgstr "Befintlig cd/dvd"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:179
 msgid "CD/DVD Creator"
 msgstr "Cd/dvd-skapare"
 
@@ -471,7 +467,7 @@ msgstr "Cd/dvd-skapare"
 msgid "Instant Message (Pidgin)"
 msgstr "Snabbmeddelande (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
 msgstr "Flyttbara diskar och utdelningar"
 
@@ -479,13 +475,7 @@ msgstr "Flyttbara diskar och utdelningar"
 msgid "UPnP Media Server"
 msgstr "UPnP-mediaserver"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
-msgstr ""
-
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
 msgid "Share"
 msgstr "Dela ut"
 
@@ -494,10 +484,16 @@ msgid "Allows to quickly share a folder"
 msgstr "Tillåter att snabbt dela en mapp"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2005 Ethium, Inc."
+msgid ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE utvecklarna"
 
-#: share/caja-share.c:123
+#: share/caja-share.c:122
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -506,7 +502,7 @@ msgstr ""
 "Caja måste lägga till några rättigheter till din mapp \"%s\" för att kunna "
 "dela ut den"
 
-#: share/caja-share.c:131
+#: share/caja-share.c:130
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -515,146 +511,146 @@ msgstr ""
 "Mappen \"%s\" behöver ges följande rättigheter för att den ska kunna delas ut:\n"
 "%s%s%sVill du att Caja ska lägga till dessa behörigheter automatiskt?"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - read permission by others\n"
 msgstr "- läsrättigheter för övriga\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - write permission by others\n"
 msgstr "skrivrättigheter för övriga\n"
 
-#: share/caja-share.c:137
+#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr "- kör rättigheter från andra\n"
 
-#: share/caja-share.c:141
+#: share/caja-share.c:140
 msgid "Add the permissions automatically"
 msgstr "Lägg till behörighet automatiskt"
 
-#: share/caja-share.c:167
+#: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Det gick inte att ändra behörighet för mappen \"%s\""
 
-#: share/caja-share.c:451
+#: share/caja-share.c:450
 msgid "Share name is too long"
 msgstr "Utdelningens namn är för långt"
 
-#: share/caja-share.c:493
+#: share/caja-share.c:492
 msgid "The share name cannot be empty"
 msgstr "Utdelningens namn får inte vara tomt"
 
-#: share/caja-share.c:506
+#: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Fel medan delningsinformationen togs emot: %s"
 
-#: share/caja-share.c:516
+#: share/caja-share.c:515
 msgid "Another share has the same name"
 msgstr "En annan utdelning har samma namn"
 
-#: share/caja-share.c:563 share/caja-share.c:799
+#: share/caja-share.c:558 share/caja-share.c:792
 msgid "Modify _Share"
 msgstr "Modifiera _utdelning"
 
-#: share/caja-share.c:563 share/caja-share.c:801
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Create _Share"
 msgstr "Skapa _utdelning"
 
-#: share/caja-share.c:691
+#: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr "Det uppstod ett fel när utdelningsinformationen togs emot"
 
-#: share/caja-share.c:1123
+#: share/caja-share.c:1116 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Dela ut mappar"
 
-#: share/caja-share.c:1164
+#: share/caja-share.c:1157
 msgid "Sharing Options"
 msgstr "Inställningar för utdelning"
 
-#: share/caja-share.c:1165
+#: share/caja-share.c:1158
 msgid "Share this Folder"
 msgstr "Dela ut den här mappen"
 
-#: share/share-dialog.ui:27
-msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Dela ut mappar</b></big>"
-
-#: share/share-dialog.ui:75
-msgid "Share _name:"
-msgstr "_Namn på utdelning:"
-
-#: share/share-dialog.ui:108
+#: share/share-dialog.ui:85
 msgid "Share this _folder"
 msgstr "Dela ut den här _mappen"
 
-#: share/share-dialog.ui:139
+#: share/share-dialog.ui:119
+msgid "Share _name:"
+msgstr "_Namn på utdelning:"
+
+#: share/share-dialog.ui:133
 msgid "Co_mment:"
 msgstr "Ko_mmentera:"
 
-#: share/share-dialog.ui:170
+#: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr "_Tillåt andra att skapa och radera filer i den här mappen"
 
-#: share/share-dialog.ui:187
+#: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
 msgstr "Gäst_behörighet (för personer utan ett användarkonto)"
 
-#: share/shares.c:123
+#: share/share-dialog.ui:264
+msgid "_Save"
+msgstr "_Spara"
+
+#: share/shares.c:122
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s svarade tillbaka med signalen %d"
 
-#: share/shares.c:132
+#: share/shares.c:131
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s misslyckades av okänd anledning"
 
-#: share/shares.c:152
+#: share/shares.c:151
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net userdata' returnerade fel %d %s"
 
-#: share/shares.c:154
+#: share/shares.c:153
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net userdata' returnerade fel %d"
 
-#: share/shares.c:185
+#: share/shares.c:184
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "utdata från 'net usershare' är inte giltig UTF-8-kodning"
 
-#: share/shares.c:439 share/shares.c:613
+#: share/shares.c:438 share/shares.c:612
 msgid "Failed"
 msgstr "Misslyckades"
 
-#: share/shares.c:547
+#: share/shares.c:546
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Sambas testparm svarade tillbaka med signalen %d"
 
-#: share/shares.c:553
+#: share/shares.c:552
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Sambas testparam misslyckades av okänd anledning"
 
-#: share/shares.c:568
+#: share/shares.c:567
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Sambas testparam svarade tillbaka med felet %d: %s"
 
-#: share/shares.c:570
+#: share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Sambas testparam svarade tillbaka med felet %d"
 
-#: share/shares.c:681
+#: share/shares.c:680
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 "Det går inte att ta bort utdelningen för sökväg %s: sökvägen är inte utdelad"
 
-#: share/shares.c:727
+#: share/shares.c:726
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -662,20 +658,13 @@ msgstr ""
 "Det går inte att ändra sökväg på en befintlig utdelning; ta bort den gamla "
 "utdelningen först och lägg sedan till en ny"
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
 msgstr "Ange som bakgrundsbild"
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
 msgstr "Ange som bakgrundsbild"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
-msgstr "skrivbord"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -686,8 +675,12 @@ msgid "Allows to quickly set wallpaper"
 msgstr "Gör det möjligt att snabbt byta bakgrundsbild"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2014 Stefano Karapetsas"
+msgid ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE utvecklarna"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
@@ -706,5 +699,9 @@ msgid "View tags stored in extended attributes"
 msgstr "Visa taggar lagrade i utökade attribut"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2016 Felipe Barriga Richards"
+msgid ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE utvecklarna"

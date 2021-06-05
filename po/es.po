@@ -4,25 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Adolfo Jayme-Barrientos, 2018
 # Lluís Tusquellas <lutusq@gmail.com>, 2018
 # Andres Sanchez <blackatze93@gmail.com>, 2018
 # ebray187 <ebray187@gmail.com>, 2018
 # Emiliano Fascetti, 2018
 # ZenWalker <scow@riseup.net>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Adolfo Jayme-Barrientos, 2019
 # Benjamin Perez Carrillo <benperezc@gmail.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Joel Barrios <darkshram@gmail.com>, 2020
-# Toni Estévez <toni.estevez@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Toni Estévez <toni.estevez@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2020\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +35,7 @@ msgstr "Abrir como administrador"
 
 #: gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
-msgstr "Abre el archivo con privilegios administrativos"
+msgstr "Abre el archivo con privilegios de administrador"
 
 #: gksu/libcaja-gksu.c:223
 msgid ""
@@ -46,13 +45,7 @@ msgid ""
 msgstr ""
 "<big><b>No se puede determinar el programa que ejecutar.</b></big>\n"
 "\n"
-"El elemento que ha seleccionado no se puede abrir con privilegios de administrador debido a que no se puede determinar la aplicación correcta."
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
-msgstr "system"
+"El elemento que ha seleccionado no se puede abrir con privilegios de administrador porque que no se puede determinar la aplicación correcta."
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -63,8 +56,14 @@ msgid "Privilege granting extension"
 msgstr "Extensión que otorga privilegios"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
-msgstr "Copyright (C) 2002-2005 Gustavo Noronha Silva"
+msgid ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2002-2005 Gustavo Noronha Silva\n"
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Los desarrolladores de MATE"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -87,6 +86,8 @@ msgid "Resize Images"
 msgstr "Redimensionar imágenes"
 
 #: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
+#: share/share-dialog.ui:249
 msgid "_Cancel"
 msgstr "_Cancelar"
 
@@ -128,7 +129,7 @@ msgid "Image Size"
 msgstr "Tamaño de la imagen"
 
 #: image-converter/caja-image-resize.ui:368
-#: image-converter/caja-image-rotate.ui:206
+#: image-converter/caja-image-rotate.ui:242
 msgid "Append"
 msgstr "Adjuntar"
 
@@ -137,106 +138,87 @@ msgid ".resized"
 msgstr ".redimensionada"
 
 #: image-converter/caja-image-resize.ui:398
-#: image-converter/caja-image-rotate.ui:228
+#: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
-msgstr "al nombre de archivo"
+msgstr "al nombre del archivo"
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
 msgstr "Redimensionar y sobreescribir"
 
 #: image-converter/caja-image-resize.ui:438
+#: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
 msgstr "Nombre del archivo"
 
-#: image-converter/caja-image-resizer.c:207
-#: image-converter/caja-image-rotator.c:204
-msgid "_Skip"
-msgstr "_Omitir"
-
-#: image-converter/caja-image-resizer.c:209
-#: image-converter/caja-image-rotator.c:206
-msgid "_Retry"
-msgstr "_Reintentar"
-
-#: image-converter/caja-image-resizer.c:287
+#: image-converter/caja-image-resizer.c:293
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Redimensionando imagen: %d de %d"
+msgstr "Redimensionando imágenes: %d de %d"
 
-#: image-converter/caja-image-resizer.c:292
+#: image-converter/caja-image-resizer.c:298
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>Redimensionando «%s»</i>"
 
-#: image-converter/caja-image-resizer.c:310
-#: image-converter/caja-image-rotator.c:309
+#: image-converter/caja-image-resizer.c:316
+#: image-converter/caja-image-rotator.c:315
 msgid "Please enter a valid filename suffix!"
 msgstr "Escriba un sufijo de nombre de archivo válido."
 
-#: image-converter/caja-image-rotate.ui:18
-msgid "90° clockwise"
-msgstr "90° en sentido horario"
-
-#: image-converter/caja-image-rotate.ui:21
-msgid "90° counter-clockwise"
-msgstr "90° en sentido antihorario"
-
-#: image-converter/caja-image-rotate.ui:24
-msgid "180°"
-msgstr "180°"
-
-#: image-converter/caja-image-rotate.ui:31
+#: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
 msgstr "Girar imágenes"
 
-#: image-converter/caja-image-rotate.ui:46
-msgid "<b>Image Rotation</b>"
-msgstr "<b>Giro de imagen</b>"
-
-#: image-converter/caja-image-rotate.ui:79
-msgid "Select an angle:"
-msgstr "Seleccionar un ángulo:"
-
-#: image-converter/caja-image-rotate.ui:117
-msgid "Custom angle:"
-msgstr "Ángulo personalizado:"
-
-#: image-converter/caja-image-rotate.ui:143
-msgid "degrees clockwise"
-msgstr "grados a la derecha"
-
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Nombre del archivo</b>"
-
-#: image-converter/caja-image-rotate.ui:219
-msgid ".rotated"
-msgstr ".girada"
-
-#: image-converter/caja-image-rotate.ui:242
-msgid "Rotate in place"
-msgstr "Rotar y sobreescribir"
-
-#: image-converter/caja-image-rotate.ui:288
+#: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
 msgstr "_Girar"
 
-#: image-converter/caja-image-rotator.c:286
+#: image-converter/caja-image-rotate.ui:104
+msgid "Select an angle:"
+msgstr "Seleccione un ángulo:"
+
+#: image-converter/caja-image-rotate.ui:124
+msgid "90° clockwise"
+msgstr "90° en sentido horario"
+
+#: image-converter/caja-image-rotate.ui:125
+msgid "90° counter-clockwise"
+msgstr "90° en sentido antihorario"
+
+#: image-converter/caja-image-rotate.ui:126
+msgid "180°"
+msgstr "180°"
+
+#: image-converter/caja-image-rotate.ui:149
+msgid "Custom angle:"
+msgstr "Ángulo personalizado:"
+
+#: image-converter/caja-image-rotate.ui:181
+msgid "degrees clockwise"
+msgstr "grados a la derecha"
+
+#: image-converter/caja-image-rotate.ui:204
+msgid "Image Rotation"
+msgstr "Giro de la imagen"
+
+#: image-converter/caja-image-rotate.ui:260
+msgid ".rotated"
+msgstr ".girada"
+
+#: image-converter/caja-image-rotate.ui:290
+msgid "Rotate in place"
+msgstr "Girar y sobreescribir"
+
+#: image-converter/caja-image-rotator.c:292
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Girando la imagen: %d de %d"
 
-#: image-converter/caja-image-rotator.c:291
+#: image-converter/caja-image-rotator.c:297
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Girando «%s»</i>"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
-msgstr "image"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -247,8 +229,14 @@ msgid "Rotate and resize images"
 msgstr "Girar y redimensionar imágenes"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004-2005 Jürg Billeter"
-msgstr "Copyright (C) 2004-2005 Jürg Billeter"
+msgid ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2004-2005 Jürg Billeter\n"
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Los desarrolladores de MATE"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
@@ -274,11 +262,11 @@ msgstr "Abrir un terminal"
 
 #: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
-msgstr "Abrir en la carpeta de inicio si se intenta abrir en el escritorio"
+msgstr "Abrir en la carpeta personal si se intenta abrir en el escritorio"
 
 #: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr "Aplicación de terminal:"
+msgstr "Aplicación del terminal:"
 
 #: open-terminal/caja-open-terminal.c:586
 msgid "Close"
@@ -286,13 +274,7 @@ msgstr "Cerrar"
 
 #: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
-msgstr "Configuración de abrir-terminal"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr "terminal"
+msgstr "Configuración de abrir el terminal"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -303,8 +285,14 @@ msgid "Open terminals from folders"
 msgstr "Abrir terminales desde las carpetas"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
-msgstr "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
+msgid ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Los desarrolladores de MATE"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -321,9 +309,9 @@ msgid ""
 "identical to the home directory."
 msgstr ""
 "Si se activa, al abrir un terminal en el escritorio se abrirá en la carpeta "
-"personal. De otra manera se abrirá en la carpeta del escritorio. Tenga en "
-"cuenta que esta clave es irrelevante si la carpeta del escritorio es "
-"idéntica a la carpeta personal."
+"personal. De lo contrario, se abrirá en la carpeta del escritorio. Tenga en "
+"cuenta que esta clave es irrelevante si la carpeta del escritorio es la "
+"carpeta personal."
 
 #: sendto/caja-nste.c:76 sendto/caja-nste.c:81
 msgid "Send to..."
@@ -331,38 +319,32 @@ msgstr "Enviar a..."
 
 #: sendto/caja-nste.c:77
 msgid "Send file by mail, instant message..."
-msgstr "Enviar un archivo por correo, por mensaje instantáneo..."
+msgstr "Enviar un archivo por correo, por mensajería instantánea..."
 
 #: sendto/caja-nste.c:82
 msgid "Send files by mail, instant message..."
-msgstr "Enviar archivos por correo, por mensaje instantáneo..."
+msgstr "Enviar archivos por correo, por mensajería instantánea..."
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:568
 msgid "Files"
 msgstr "Archivos"
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:788
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Espera que se pasen como opciones los URI o los nombres de archivo\n"
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "No se han podido analizar las opciones de la línea de órdenes: %s\n"
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "No se ha podido cargar ningún complemento."
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Compruebe su instalación"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
-msgstr "mail-send"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -370,11 +352,17 @@ msgstr "Enviar a"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:6
 msgid "Integrates email clients and Pidgin"
-msgstr "Integra clientes de correo electrónico con Pidgin"
+msgstr "Integra clientes de correo electrónico y Pidgin"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr "Copyright (C) 2004 Roberto Majadas"
+msgid ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2004 Roberto Majadas\n"
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Los desarrolladores de MATE"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -385,108 +373,106 @@ msgid ""
 "Used to store which plugin was used the last time files were sent using "
 "caja-sendto."
 msgstr ""
-"Se  acostumbra guardar aquel complemento usado por ultima vez que se "
-"enviaron archivos usando caja-sendto."
+"Se usa para almacenar el complemento que se usó la última vez que se "
+"enviaron archivos con caja-sendto."
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
 msgid "Last type of archive used"
-msgstr "Último tipo de archivador utilizado"
+msgstr "El último tipo de archivador usado"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:15
 msgid ""
 "Used to store which type of archive was used the last time (0: zip, 1: "
 "tar.gz, 2: tar.bz2)."
 msgstr ""
-"Se acostumbra guardar el tipo de archivo usado por ultima vez (0:-zip, "
-"1:tar.gz, 2:tar.bz2)."
+"Se usa para almacenar el tipo de archivador que se usó la última vez  "
+"(0:-zip, 1:tar.gz, 2:tar.bz2)."
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr "Enviar a..."
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
-msgstr "_Enviar"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
+msgstr "Enviar"
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr "<b>Destino</b>"
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr "Enviar co_mo:"
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr "Enviar _a:"
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
-msgstr "<b>Compresión</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
+msgstr "Destino"
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr "Enviar em_paquetado en:"
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr "Comprensión"
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr "etiqueta"
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:420
 msgid "Unable to send file"
 msgstr "No se puede enviar el archivo"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:421
 msgid "There is no connection to gajim remote service."
-msgstr "No hay ninguna conexión con el servicio remoto de gajim."
+msgstr "No hay conexión con el servicio remoto de Gajim."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
 msgid "Sending file failed"
 msgstr "Ha fallado el envío del archivo"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:446
 msgid "Recipient is missing."
 msgstr "Falta el destinatario."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:485
 msgid "Unknown recipient."
 msgstr "Destinatario desconocido."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:508
 msgid "Instant Message (Gajim)"
-msgstr "Mensaje instantáneo (Gajim)"
+msgstr "Mensajeria instantánea (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
 msgstr "CD/DVD nuevo"
 
-#: sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
 msgstr "CD/DVD existente"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:179
 msgid "CD/DVD Creator"
 msgstr "Creador de CD/DVD"
 
 #: sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr "Mensaje instantáneo (Pidgin)"
+msgstr "Mensajería instantánea (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
-msgstr "Soportes extraíbles y comparticiones"
+msgstr "Soportes extraíbles y recursos compartidos"
 
 #: sendto/plugins/upnp/upnp.c:313
 msgid "UPnP Media Server"
 msgstr "Servidor multimedia UPnP"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
-msgstr "folder-remote"
-
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
 msgid "Share"
 msgstr "Compartir"
 
@@ -495,10 +481,16 @@ msgid "Allows to quickly share a folder"
 msgstr "Permite compartir una carpeta rápidamente"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2005 Ethium, Inc."
-msgstr "Copyright (C) 2005 Ethium, Inc."
+msgid ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2005 Ethium, Inc.\n"
+"Copyright © 2013-2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Los desarrolladores de MATE"
 
-#: share/caja-share.c:123
+#: share/caja-share.c:122
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -507,7 +499,7 @@ msgstr ""
 "Caja necesita añadir algunos permisos a su carpeta «%s» para poder "
 "compartirla"
 
-#: share/caja-share.c:131
+#: share/caja-share.c:130
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -516,170 +508,163 @@ msgstr ""
 "La carpeta «%s» necesita los permisos adicionales siguientes para poder compartirla:\n"
 "%s%s%s¿Quiere que Caja añada automáticamente estos permisos a la carpeta?"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - read permission by others\n"
 msgstr "  - permisos de lectura por otros\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - write permission by others\n"
 msgstr "  - permisos de escritura por otros\n"
 
-#: share/caja-share.c:137
+#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr "  - permisos de ejecución por otros\n"
 
-#: share/caja-share.c:141
+#: share/caja-share.c:140
 msgid "Add the permissions automatically"
 msgstr "Añadir los permisos automáticamente"
 
-#: share/caja-share.c:167
+#: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "No se ha podido cambiar los permisos de la carpeta «%s»"
+msgstr "No se han podido cambiar los permisos de la carpeta «%s»"
 
-#: share/caja-share.c:451
+#: share/caja-share.c:450
 msgid "Share name is too long"
 msgstr "El nombre del recurso compartido es demasiado largo"
 
-#: share/caja-share.c:493
+#: share/caja-share.c:492
 msgid "The share name cannot be empty"
-msgstr "El nombre del recurso compartido no puede estar vacío"
+msgstr "No se puede dejar en blanco el nombre del recurso compartido"
 
-#: share/caja-share.c:506
+#: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr ""
-"Se ha producido un error al recibir información del recurso compartido: %s"
+"Se ha producido un error al obtener información del recurso compartido: %s"
 
-#: share/caja-share.c:516
+#: share/caja-share.c:515
 msgid "Another share has the same name"
 msgstr "Otro recurso compartido tiene el mismo nombre"
 
-#: share/caja-share.c:563 share/caja-share.c:799
+#: share/caja-share.c:558 share/caja-share.c:792
 msgid "Modify _Share"
-msgstr "Modificar _recurso compartido"
+msgstr "Modificar el _recurso compartido"
 
-#: share/caja-share.c:563 share/caja-share.c:801
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Create _Share"
-msgstr "Crear _recurso compartido"
+msgstr "Crear el _recurso compartido"
 
-#: share/caja-share.c:691
+#: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr ""
-"Se ha producido un error al recibir la información del recurso compartido"
+"Se ha producido un error al obtener información del recurso compartido"
 
-#: share/caja-share.c:1123
+#: share/caja-share.c:1116 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Compartición de carpetas"
 
-#: share/caja-share.c:1164
+#: share/caja-share.c:1157
 msgid "Sharing Options"
 msgstr "Opciones de compartición"
 
-#: share/caja-share.c:1165
+#: share/caja-share.c:1158
 msgid "Share this Folder"
 msgstr "Compartir esta carpeta"
 
-#: share/share-dialog.ui:27
-msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Compartición de carpeta</b></big>"
-
-#: share/share-dialog.ui:75
-msgid "Share _name:"
-msgstr "_Nombre del recurso compartido:"
-
-#: share/share-dialog.ui:108
+#: share/share-dialog.ui:85
 msgid "Share this _folder"
 msgstr "Compartir esta _carpeta"
 
-#: share/share-dialog.ui:139
+#: share/share-dialog.ui:119
+msgid "Share _name:"
+msgstr "_Nombre del recurso compartido:"
+
+#: share/share-dialog.ui:133
 msgid "Co_mment:"
 msgstr "Co_mentario:"
 
-#: share/share-dialog.ui:170
+#: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr "_Permitir a otros crear y eliminar archivos en esta carpeta"
 
-#: share/share-dialog.ui:187
+#: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
-msgstr "-Acceso de invitado (para personas sin cuenta de usuario)"
+msgstr "_Acceso de invitado (para personas sin cuenta de usuario)"
 
-#: share/shares.c:123
+#: share/share-dialog.ui:264
+msgid "_Save"
+msgstr "_Guardar"
+
+#: share/shares.c:122
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s devolvió con señal %d"
+msgstr "%s %s %s ha devuelto la señal %d"
 
-#: share/shares.c:132
+#: share/shares.c:131
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr "%s %s %s fallló por una razón desconocida"
+msgstr "%s %s %s ha fallado por una razón desconocida"
 
-#: share/shares.c:152
+#: share/shares.c:151
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "'compartición de red' devolvió error %d: %s"
+msgstr " «net usershare» ha devuelto el error %d: %s"
 
-#: share/shares.c:154
+#: share/shares.c:153
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr "'compartición de red' devolvió error %d"
+msgstr "«net usershare» ha devuelto el error %d"
 
-#: share/shares.c:185
+#: share/shares.c:184
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "la salida de 'compartición de red' no es válida para código UTF-8"
+msgstr "la salida de «net usershare» no tiene una codificación UTF-8 válida"
 
-#: share/shares.c:439 share/shares.c:613
+#: share/shares.c:438 share/shares.c:612
 msgid "Failed"
 msgstr "Ha fallado"
 
-#: share/shares.c:547
+#: share/shares.c:546
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr "El testparm de Samba devolvió una señal %d"
+msgstr "El testparm de Samba ha devuelto la señal %d"
 
-#: share/shares.c:553
+#: share/shares.c:552
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "El testparm de Samba ha fallado por una razón desconocida"
 
-#: share/shares.c:568
+#: share/shares.c:567
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr "El testparm de Samba devolvió error %d: %s"
+msgstr "El testparm de Samba ha devuelto el error %d: %s"
 
-#: share/shares.c:570
+#: share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr "El testparm de Samba devolvió error %d"
+msgstr "El testparm de Samba ha devuelto el error %d"
 
-#: share/shares.c:681
+#: share/shares.c:680
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
-"No se puede eliminar el recurso compartido para la ruta %s: esa ruta no se "
-"comparte"
+"No se puede eliminar el recurso compartido con la ruta %s: no se ha "
+"compartido esa ruta"
 
-#: share/shares.c:727
+#: share/shares.c:726
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
-"No se puede cambiar la ruta de un recurso compartido existente; elimine el "
-"recurso anterior primero y añada uno nuevo"
+"No se puede cambiar la ruta de un recurso compartido existente; elimine "
+"primero el recurso existente y luego añada uno nuevo"
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
-msgstr "Establecer como fondo de pantalla"
+msgstr "Configurar como el fondo de pantalla"
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
-msgstr "Establecer imagen como fondo de pantalla actual"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
-msgstr "escritorio"
+msgstr "Configurar la imagen como el fondo de pantalla"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -687,11 +672,15 @@ msgstr "Fondo de pantalla"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:6
 msgid "Allows to quickly set wallpaper"
-msgstr "Permite establecer fondos de pantalla rápidamente"
+msgstr "Permite configurar rápidamente el fondo de pantalla"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2014 Stefano Karapetsas"
-msgstr "Copyright (C) 2014 Stefano Karapetsas"
+msgid ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright © 2014 Stefano Karapetsas\n"
+"Copyright © 2015-2021 Los desarrolladores de MATE"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
@@ -699,7 +688,7 @@ msgstr "Etiquetas"
 
 #: xattr-tags/caja-xattr-tags-extension.c:178
 msgid "Tags stored in extended attributes"
-msgstr "Etiquetas almacenadas en atributos extendidos"
+msgstr "Etiquetas almacenadas en los atributos extendidos"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:5
 msgid "xattr Tags"
@@ -707,8 +696,12 @@ msgstr "Etiquetas xattr"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
-msgstr "Ver etiquetas almacenadas en atributos extendidos"
+msgstr "Mostrar las etiquetas almacenadas en los atributos extendidos"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2016 Felipe Barriga Richards"
-msgstr "Copyright (C) 2016 Felipe Barriga Richards"
+msgid ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"
+msgstr ""
+"Copyright © 2016 Felipe Barriga Richards\n"
+"Copyright © 2017-2021 Los desarrolladores de MATE"

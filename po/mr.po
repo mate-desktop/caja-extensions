@@ -4,14 +4,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2019
+# Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2020\n"
 "Language-Team: Marathi (https://www.transifex.com/mate/teams/13566/mr/)\n"
@@ -39,12 +39,6 @@ msgstr ""
 "\n"
 "तुम्ही निवडलेला घटक प्रशासकाच्या अधिकारांनी उघडू शकत नाही कारण संबंधित अनुप्रयोग ठरवू शकले नाही."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
-msgstr ""
-
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
 msgstr ""
@@ -54,7 +48,10 @@ msgid "Privilege granting extension"
 msgstr ""
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
+msgid ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: image-converter/caja-image-converter.c:120
@@ -78,6 +75,8 @@ msgid "Resize Images"
 msgstr "चित्रांचा आकार बदला"
 
 #: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
+#: share/share-dialog.ui:249
 msgid "_Cancel"
 msgstr "रद्द करा(_C)"
 
@@ -119,7 +118,7 @@ msgid "Image Size"
 msgstr ""
 
 #: image-converter/caja-image-resize.ui:368
-#: image-converter/caja-image-rotate.ui:206
+#: image-converter/caja-image-rotate.ui:242
 msgid "Append"
 msgstr "ला जोडा"
 
@@ -128,7 +127,7 @@ msgid ".resized"
 msgstr ".resized"
 
 #: image-converter/caja-image-resize.ui:398
-#: image-converter/caja-image-rotate.ui:228
+#: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
 msgstr "फाईलच्या शीर्षकाला "
 
@@ -137,97 +136,78 @@ msgid "Resize in place"
 msgstr "इथेच पुन्ह आकार द्या"
 
 #: image-converter/caja-image-resize.ui:438
+#: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
 msgstr "फाइलनाव"
 
-#: image-converter/caja-image-resizer.c:207
-#: image-converter/caja-image-rotator.c:204
-msgid "_Skip"
-msgstr "वगळा (_S)"
-
-#: image-converter/caja-image-resizer.c:209
-#: image-converter/caja-image-rotator.c:206
-msgid "_Retry"
-msgstr "पुन्हा प्रयत्न करा (_R)"
-
-#: image-converter/caja-image-resizer.c:287
+#: image-converter/caja-image-resizer.c:293
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "प्रतिमा पुनःआकारीत करत आहे : %d, %d पैकी"
 
-#: image-converter/caja-image-resizer.c:292
+#: image-converter/caja-image-resizer.c:298
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>\"%s\" पुनःआकारीत करत आहे</i>"
 
-#: image-converter/caja-image-resizer.c:310
-#: image-converter/caja-image-rotator.c:309
+#: image-converter/caja-image-resizer.c:316
+#: image-converter/caja-image-rotator.c:315
 msgid "Please enter a valid filename suffix!"
 msgstr "फाईलच्या शीर्षकाला पुढे लावायचा वैध प्रत्यय द्या"
 
-#: image-converter/caja-image-rotate.ui:18
-msgid "90° clockwise"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:21
-msgid "90° counter-clockwise"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:24
-msgid "180°"
-msgstr ""
-
-#: image-converter/caja-image-rotate.ui:31
+#: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
 msgstr "चित्र वाटोळे फिरवा"
 
-#: image-converter/caja-image-rotate.ui:46
-msgid "<b>Image Rotation</b>"
-msgstr "<b>चित्र परिभ्रमण</b>"
-
-#: image-converter/caja-image-rotate.ui:79
-msgid "Select an angle:"
-msgstr "कोन निवडा:"
-
-#: image-converter/caja-image-rotate.ui:117
-msgid "Custom angle:"
-msgstr "ऐच्छिक कोन:"
-
-#: image-converter/caja-image-rotate.ui:143
-msgid "degrees clockwise"
-msgstr "डिग्री घड्याळाच्या काट्यानुसार"
-
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>फाईल नाव</b>"
-
-#: image-converter/caja-image-rotate.ui:219
-msgid ".rotated"
-msgstr ".rotated"
-
-#: image-converter/caja-image-rotate.ui:242
-msgid "Rotate in place"
-msgstr "इथेच वाटोळे फिरवा"
-
-#: image-converter/caja-image-rotate.ui:288
+#: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
 msgstr "वाटोळे फिरवा (_R)"
 
-#: image-converter/caja-image-rotator.c:286
+#: image-converter/caja-image-rotate.ui:104
+msgid "Select an angle:"
+msgstr "कोन निवडा:"
+
+#: image-converter/caja-image-rotate.ui:124
+msgid "90° clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:125
+msgid "90° counter-clockwise"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:126
+msgid "180°"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:149
+msgid "Custom angle:"
+msgstr "ऐच्छिक कोन:"
+
+#: image-converter/caja-image-rotate.ui:181
+msgid "degrees clockwise"
+msgstr "डिग्री घड्याळाच्या काट्यानुसार"
+
+#: image-converter/caja-image-rotate.ui:204
+msgid "Image Rotation"
+msgstr ""
+
+#: image-converter/caja-image-rotate.ui:260
+msgid ".rotated"
+msgstr ".rotated"
+
+#: image-converter/caja-image-rotate.ui:290
+msgid "Rotate in place"
+msgstr "इथेच वाटोळे फिरवा"
+
+#: image-converter/caja-image-rotator.c:292
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "प्रतिमेला वाटोळे फिरवत आहे: %d, %d पैकी"
 
-#: image-converter/caja-image-rotator.c:291
+#: image-converter/caja-image-rotator.c:297
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>\"%s\" ला वाटोळे फिरवत आहे</i>"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
-msgstr ""
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -238,7 +218,10 @@ msgid "Rotate and resize images"
 msgstr ""
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004-2005 Jürg Billeter"
+msgid ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: open-terminal/caja-open-terminal.c:459
@@ -279,12 +262,6 @@ msgstr "बंद करा"
 msgid "open-terminal Configuration"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr ""
-
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr ""
@@ -294,7 +271,10 @@ msgid "Open terminals from folders"
 msgstr ""
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
+msgid ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
@@ -326,36 +306,30 @@ msgstr "मेल, ताबडतोब संदेश द्वारे फ�
 msgid "Send files by mail, instant message..."
 msgstr "मेल, ताबडतोब संदेश द्वारे फाइल पाठवा..."
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:568
 msgid "Files"
 msgstr "फाइलस्"
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:788
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 "URIs किंवा फाइलनाव यांस पर्याय नुरूप पुरविण्याची अपेक्षा ठेवतो\n"
 "\n"
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr ""
 "आदेश-ओळ पर्याय वाचण्यास अशक्य: %s\n"
 "\n"
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "कुठलेही प्लगइन दाखल करण्यास अशक्य."
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "कृपया तुमचे प्रतिष्ठापन तपासा"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
-msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -366,7 +340,10 @@ msgid "Integrates email clients and Pidgin"
 msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004 Roberto Majadas"
+msgid ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
@@ -389,71 +366,75 @@ msgid ""
 "tar.gz, 2: tar.bz2)."
 msgstr ""
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr "यांस पाठवा..."
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
-msgstr "पाठवा (_S)"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
+msgstr ""
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr "<b>लक्ष्य</b>"
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr "यानुरूप पाठवा (_a):"
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr "यांस पाठवा (_o):"
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
-msgstr "<b>संकोचन</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
+msgstr ""
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr "संकोचीl पाठवा (_p):"
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr ""
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr "लेबल"
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr "ईमेल"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:420
 msgid "Unable to send file"
 msgstr "फाइल पाठविण्यास अपयशी"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:421
 msgid "There is no connection to gajim remote service."
 msgstr "gajim दूरस्थ सेवा करीता जुळवणी आढळली नाही."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
 msgid "Sending file failed"
 msgstr "फाइल पाठविणे अपयशी"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:446
 msgid "Recipient is missing."
 msgstr "भोक्ता आढळले नाही."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:485
 msgid "Unknown recipient."
 msgstr "अपरिचीत भोक्ता."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:508
 msgid "Instant Message (Gajim)"
 msgstr "ताबडतोब संदेश (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
 msgstr "नवीन CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
 msgstr "अस्तित्वातील CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:179
 msgid "CD/DVD Creator"
 msgstr "CD/DVD निर्माणकर्ता"
 
@@ -461,7 +442,7 @@ msgstr "CD/DVD निर्माणकर्ता"
 msgid "Instant Message (Pidgin)"
 msgstr "ताबडतोब संदेश (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
 msgstr "काढूणटाकण्याजोगी डिस्क व साठा"
 
@@ -469,13 +450,7 @@ msgstr "काढूणटाकण्याजोगी डिस्क व स
 msgid "UPnP Media Server"
 msgstr "UPnP मिडीया सर्वर"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
-msgstr ""
-
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
 msgid "Share"
 msgstr "शेअर"
 
@@ -484,10 +459,13 @@ msgid "Allows to quickly share a folder"
 msgstr ""
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2005 Ethium, Inc."
+msgid ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: share/caja-share.c:123
+#: share/caja-share.c:122
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -495,7 +473,7 @@ msgid ""
 msgstr ""
 "फोल्डर \"%s\" शेअर करण्यासाठी Caja ला फोल्डरला परवानग्या द्याव्या लागत आहेत"
 
-#: share/caja-share.c:131
+#: share/caja-share.c:130
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -504,164 +482,157 @@ msgstr ""
 "फोल्डर \"%s\"ला शेअरिंग वापरण्यासाठी खालील ज्यादा परवानग्या पाहिजेत:\n"
 "%s%s%s Caja ने फोल्डरला या परवानग्या आपोआप द्यायच्या का?"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - read permission by others\n"
 msgstr "  - इतरांसाठी वाचन परवानगी\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - write permission by others\n"
 msgstr "  - इतरांसाठी लिखाण परवानगी\n"
 
-#: share/caja-share.c:137
+#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr "  - इतरांसाठी आज्ञा चालवण्यास परवानगी\n"
 
-#: share/caja-share.c:141
+#: share/caja-share.c:140
 msgid "Add the permissions automatically"
 msgstr "परवानग्या आपोआप जोडा"
 
-#: share/caja-share.c:167
+#: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "\"%s\" च्या परवानगींमध्ये बदल करू शकत नाही"
 
-#: share/caja-share.c:451
+#: share/caja-share.c:450
 msgid "Share name is too long"
 msgstr "शेअर नाव खूपच लांब आहे"
 
-#: share/caja-share.c:493
+#: share/caja-share.c:492
 msgid "The share name cannot be empty"
 msgstr "शेअर नाव रिकामे असू शकत नाही"
 
-#: share/caja-share.c:506
+#: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "शेअर माहिती घेताना चूक झाली: %s"
 
-#: share/caja-share.c:516
+#: share/caja-share.c:515
 msgid "Another share has the same name"
 msgstr "समान नावाचा शेअर आधीच अस्तित्वात आहे "
 
-#: share/caja-share.c:563 share/caja-share.c:799
+#: share/caja-share.c:558 share/caja-share.c:792
 msgid "Modify _Share"
 msgstr "सहभाग बदला (_S):"
 
-#: share/caja-share.c:563 share/caja-share.c:801
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Create _Share"
 msgstr "शेअर बनवा (_S)"
 
-#: share/caja-share.c:691
+#: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr "शेअर माहिती घेताना चूक झाली"
 
-#: share/caja-share.c:1123
+#: share/caja-share.c:1116 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "फोल्डर सहभाग"
 
-#: share/caja-share.c:1164
+#: share/caja-share.c:1157
 msgid "Sharing Options"
 msgstr " शेअरींग पर्याय"
 
-#: share/caja-share.c:1165
+#: share/caja-share.c:1158
 msgid "Share this Folder"
 msgstr "फोल्डर शेअर करा"
 
-#: share/share-dialog.ui:27
-msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>फोल्डर सहभाग</b></big>"
-
-#: share/share-dialog.ui:75
-msgid "Share _name:"
-msgstr " शेअर नाव (_n):"
-
-#: share/share-dialog.ui:108
+#: share/share-dialog.ui:85
 msgid "Share this _folder"
 msgstr "फोल्डर  शेअर करा (_f):"
 
-#: share/share-dialog.ui:139
+#: share/share-dialog.ui:119
+msgid "Share _name:"
+msgstr " शेअर नाव (_n):"
+
+#: share/share-dialog.ui:133
 msgid "Co_mment:"
 msgstr "टिप्पणी (_m):"
 
-#: share/share-dialog.ui:170
+#: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr "या संचयीकेमध्ये इतरांना फ़ाइल बनवू आणि नष्ट करण्यास परवानगी द्या (_A)"
 
-#: share/share-dialog.ui:187
+#: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
 msgstr "पाहुण्यांना प्रवेश ( वापरकर्ता खाते नसलेल्या लोकांसाठी ) (_G)"
 
-#: share/shares.c:123
+#: share/share-dialog.ui:264
+msgid "_Save"
+msgstr "संचयीत करा (_S)"
+
+#: share/shares.c:122
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s, %d खुणेबरोबर परत आलेले आहे"
 
-#: share/shares.c:132
+#: share/shares.c:131
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s अनाहूत कारणामुळे अपयशी झालेले आहे"
 
-#: share/shares.c:152
+#: share/shares.c:151
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' मध्ये चूक  झाली %d: %s"
 
-#: share/shares.c:154
+#: share/shares.c:153
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' मध्ये चूक  झाली %d"
 
-#: share/shares.c:185
+#: share/shares.c:184
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "'net usershare' चा आउटपुट अवैध UTF-8 एन्कोडिंग आहे"
 
-#: share/shares.c:439 share/shares.c:613
+#: share/shares.c:438 share/shares.c:612
 msgid "Failed"
 msgstr "अपयशी"
 
-#: share/shares.c:547
+#: share/shares.c:546
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba चे testparm %d खुणेबरोबर परत आले"
 
-#: share/shares.c:553
+#: share/shares.c:552
 msgid "Samba's testparm failed for an unknown reason"
 msgstr ""
 
-#: share/shares.c:568
+#: share/shares.c:567
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr ""
 
-#: share/shares.c:570
+#: share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr ""
 
-#: share/shares.c:681
+#: share/shares.c:680
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 
-#: share/shares.c:727
+#: share/shares.c:726
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
 msgstr ""
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
 msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
-msgstr "डेस्कटॉप"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -672,7 +643,9 @@ msgid "Allows to quickly set wallpaper"
 msgstr ""
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2014 Stefano Karapetsas"
+msgid ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
@@ -692,5 +665,7 @@ msgid "View tags stored in extended attributes"
 msgstr ""
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2016 Felipe Barriga Richards"
+msgid ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"
 msgstr ""

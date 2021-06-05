@@ -5,15 +5,15 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
-# 黃柏諺 <s8321414@gmail.com>, 2020
+# 黃柏諺 <s8321414@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2020\n"
+"Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2021\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/mate/teams/13566/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,12 +39,6 @@ msgstr ""
 "\n"
 "您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
-msgstr "system"
-
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
 msgstr "Gksu"
@@ -54,8 +48,14 @@ msgid "Privilege granting extension"
 msgstr "授予權限擴充套件"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
-msgstr "Copyright (C) 2002-2005 Gustavo Noronha Silva"
+msgid ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE 開發者"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -78,6 +78,8 @@ msgid "Resize Images"
 msgstr "調整圖片大小"
 
 #: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
+#: share/share-dialog.ui:249
 msgid "_Cancel"
 msgstr "取消(_C)"
 
@@ -119,7 +121,7 @@ msgid "Image Size"
 msgstr "圖片大小"
 
 #: image-converter/caja-image-resize.ui:368
-#: image-converter/caja-image-rotate.ui:206
+#: image-converter/caja-image-rotate.ui:242
 msgid "Append"
 msgstr "附加"
 
@@ -128,7 +130,7 @@ msgid ".resized"
 msgstr ".resized"
 
 #: image-converter/caja-image-resize.ui:398
-#: image-converter/caja-image-rotate.ui:228
+#: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
 msgstr "目標檔案名稱"
 
@@ -137,97 +139,78 @@ msgid "Resize in place"
 msgstr "適當地調整大小"
 
 #: image-converter/caja-image-resize.ui:438
+#: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
 msgstr "檔案名稱"
 
-#: image-converter/caja-image-resizer.c:207
-#: image-converter/caja-image-rotator.c:204
-msgid "_Skip"
-msgstr "跳過(_S)"
-
-#: image-converter/caja-image-resizer.c:209
-#: image-converter/caja-image-rotator.c:206
-msgid "_Retry"
-msgstr "重試(_R)"
-
-#: image-converter/caja-image-resizer.c:287
+#: image-converter/caja-image-resizer.c:293
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "調整圖像大小：%d 中的 %d"
 
-#: image-converter/caja-image-resizer.c:292
+#: image-converter/caja-image-resizer.c:298
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>正在調整大小「%s」</i>"
 
-#: image-converter/caja-image-resizer.c:310
-#: image-converter/caja-image-rotator.c:309
+#: image-converter/caja-image-resizer.c:316
+#: image-converter/caja-image-rotator.c:315
 msgid "Please enter a valid filename suffix!"
 msgstr "請輸入有效的副檔名！"
 
-#: image-converter/caja-image-rotate.ui:18
-msgid "90° clockwise"
-msgstr "順時針旋轉 90°"
-
-#: image-converter/caja-image-rotate.ui:21
-msgid "90° counter-clockwise"
-msgstr "逆時針旋轉 90°"
-
-#: image-converter/caja-image-rotate.ui:24
-msgid "180°"
-msgstr "180°"
-
-#: image-converter/caja-image-rotate.ui:31
+#: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
 msgstr "旋轉圖片"
 
-#: image-converter/caja-image-rotate.ui:46
-msgid "<b>Image Rotation</b>"
-msgstr "<b>圖片旋轉</b>"
-
-#: image-converter/caja-image-rotate.ui:79
-msgid "Select an angle:"
-msgstr "選取角度："
-
-#: image-converter/caja-image-rotate.ui:117
-msgid "Custom angle:"
-msgstr "自訂角度："
-
-#: image-converter/caja-image-rotate.ui:143
-msgid "degrees clockwise"
-msgstr "順時針角度"
-
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>檔名</b>"
-
-#: image-converter/caja-image-rotate.ui:219
-msgid ".rotated"
-msgstr ".rotated"
-
-#: image-converter/caja-image-rotate.ui:242
-msgid "Rotate in place"
-msgstr "適當地旋轉"
-
-#: image-converter/caja-image-rotate.ui:288
+#: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
 msgstr "旋轉(_R)"
 
-#: image-converter/caja-image-rotator.c:286
+#: image-converter/caja-image-rotate.ui:104
+msgid "Select an angle:"
+msgstr "選取角度："
+
+#: image-converter/caja-image-rotate.ui:124
+msgid "90° clockwise"
+msgstr "順時針旋轉 90°"
+
+#: image-converter/caja-image-rotate.ui:125
+msgid "90° counter-clockwise"
+msgstr "逆時針旋轉 90°"
+
+#: image-converter/caja-image-rotate.ui:126
+msgid "180°"
+msgstr "180°"
+
+#: image-converter/caja-image-rotate.ui:149
+msgid "Custom angle:"
+msgstr "自訂角度："
+
+#: image-converter/caja-image-rotate.ui:181
+msgid "degrees clockwise"
+msgstr "順時針角度"
+
+#: image-converter/caja-image-rotate.ui:204
+msgid "Image Rotation"
+msgstr "圖片旋轉"
+
+#: image-converter/caja-image-rotate.ui:260
+msgid ".rotated"
+msgstr ".rotated"
+
+#: image-converter/caja-image-rotate.ui:290
+msgid "Rotate in place"
+msgstr "適當地旋轉"
+
+#: image-converter/caja-image-rotator.c:292
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "旋轉圖像：%d 在 %d 中"
 
-#: image-converter/caja-image-rotator.c:291
+#: image-converter/caja-image-rotator.c:297
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>正在旋轉「%s」</i>"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
-msgstr "image"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -238,8 +221,14 @@ msgid "Rotate and resize images"
 msgstr "旋轉及調整圖片大小"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004-2005 Jürg Billeter"
-msgstr "Copyright (C) 2004-2005 Jürg Billeter"
+msgid ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE 開發者"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
@@ -279,12 +268,6 @@ msgstr "關閉"
 msgid "open-terminal Configuration"
 msgstr "開啟終端機設定"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr "terminal"
-
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr "開啟終端機"
@@ -294,8 +277,14 @@ msgid "Open terminals from folders"
 msgstr "從資料夾中開啟終端機"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
-msgstr "Copyright (C) 2004, 2005 自由軟體基金會"
+msgid ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2004-2005 自由軟體基金會\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE 開發者"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -323,32 +312,26 @@ msgstr "經電子郵件、即時訊息等等途徑傳送檔案"
 msgid "Send files by mail, instant message..."
 msgstr "經電子郵件、即時訊息等等途徑傳送檔案"
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:568
 msgid "Files"
 msgstr "檔案"
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:788
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "應使用 URI 或檔案名稱做為選項\n"
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "無法分析命令列選項：%s\n"
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "無法載入任何外掛程式。"
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "請檢查安裝是否正確"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
-msgstr "mail-send"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -359,8 +342,14 @@ msgid "Integrates email clients and Pidgin"
 msgstr "將電子郵件客戶端與 Pidgin 整合"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr "Copyright (C) 2004 Roberto Majadas"
+msgid ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE 開發者"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -382,71 +371,75 @@ msgid ""
 "tar.gz, 2: tar.bz2)."
 msgstr "用於儲存上次使用的壓縮檔類型（0：zip、1：tar.gz、2：tar.bz2）。"
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr "傳送到..."
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
-msgstr "傳送(_S)"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
+msgstr "傳送"
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr "<b>目的端</b>"
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr "傳送為(_A):"
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr "傳送到(_O):"
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
-msgstr "<b>壓縮</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
+msgstr "目的地"
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr "傳送時封裝於(_P):"
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr "壓縮"
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr "標籤"
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr "電子郵件"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:420
 msgid "Unable to send file"
 msgstr "無法傳送檔案"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:421
 msgid "There is no connection to gajim remote service."
 msgstr "並未連線至 gajim 遠端服務。"
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
 msgid "Sending file failed"
 msgstr "傳送檔案失敗"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:446
 msgid "Recipient is missing."
 msgstr "缺少收件者。"
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:485
 msgid "Unknown recipient."
 msgstr "不明的收件者。"
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:508
 msgid "Instant Message (Gajim)"
 msgstr "即時訊息 (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
 msgstr "新的 CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
 msgstr "既存的 CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:179
 msgid "CD/DVD Creator"
 msgstr "CD/DVD 製作程式"
 
@@ -454,7 +447,7 @@ msgstr "CD/DVD 製作程式"
 msgid "Instant Message (Pidgin)"
 msgstr "即時訊息 (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
 msgstr "卸除式磁碟與分享"
 
@@ -462,13 +455,7 @@ msgstr "卸除式磁碟與分享"
 msgid "UPnP Media Server"
 msgstr "UPnP 媒體伺服器"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
-msgstr "folder-remote"
-
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
 msgid "Share"
 msgstr "共用"
 
@@ -477,17 +464,23 @@ msgid "Allows to quickly share a folder"
 msgstr "允許快速分享資料夾"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2005 Ethium, Inc."
-msgstr "Copyright (C) 2005 Ethium, Inc."
+msgid ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE 開發者"
 
-#: share/caja-share.c:123
+#: share/caja-share.c:122
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "為了共用，Caja 需要加入一些權限到您的資料夾「 %s 」中"
 
-#: share/caja-share.c:131
+#: share/caja-share.c:130
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -496,164 +489,157 @@ msgstr ""
 "資料夾「 %s 」需要下列額外的權限以便共用：\n"
 "%s%s%s 您想要讓 Caja 自動新增這些權限到資料夾嗎？"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - read permission by others\n"
 msgstr "  ─ 讓其他人讀取的權限\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - write permission by others\n"
 msgstr "   ─ 讓其他人寫入的權限\n"
 
-#: share/caja-share.c:137
+#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr "   ─ 讓其他人執行的權限\n"
 
-#: share/caja-share.c:141
+#: share/caja-share.c:140
 msgid "Add the permissions automatically"
 msgstr "自動加入權限"
 
-#: share/caja-share.c:167
+#: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "無法更改資料夾「%s」的權限"
 
-#: share/caja-share.c:451
+#: share/caja-share.c:450
 msgid "Share name is too long"
 msgstr "共用名稱太長"
 
-#: share/caja-share.c:493
+#: share/caja-share.c:492
 msgid "The share name cannot be empty"
 msgstr "共用名稱不能為空"
 
-#: share/caja-share.c:506
+#: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "取得共用資訊時發生錯誤： %s"
 
-#: share/caja-share.c:516
+#: share/caja-share.c:515
 msgid "Another share has the same name"
 msgstr "其他共用有同樣的名稱"
 
-#: share/caja-share.c:563 share/caja-share.c:799
+#: share/caja-share.c:558 share/caja-share.c:792
 msgid "Modify _Share"
 msgstr "修改共用(_S)"
 
-#: share/caja-share.c:563 share/caja-share.c:801
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Create _Share"
 msgstr "新增共用(_S)"
 
-#: share/caja-share.c:691
+#: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr "取得共用資訊時發生一個錯誤"
 
-#: share/caja-share.c:1123
+#: share/caja-share.c:1116 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "資料夾共用"
 
-#: share/caja-share.c:1164
+#: share/caja-share.c:1157
 msgid "Sharing Options"
 msgstr "共用選項"
 
-#: share/caja-share.c:1165
+#: share/caja-share.c:1158
 msgid "Share this Folder"
 msgstr "共用此資料夾"
 
-#: share/share-dialog.ui:27
-msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b> 資料夾共用 </b></big>"
-
-#: share/share-dialog.ui:75
-msgid "Share _name:"
-msgstr "共用名稱(_N):"
-
-#: share/share-dialog.ui:108
+#: share/share-dialog.ui:85
 msgid "Share this _folder"
 msgstr "共用此資料夾(_F):"
 
-#: share/share-dialog.ui:139
+#: share/share-dialog.ui:119
+msgid "Share _name:"
+msgstr "共用名稱(_N):"
+
+#: share/share-dialog.ui:133
 msgid "Co_mment:"
 msgstr "備註(_M):"
 
-#: share/share-dialog.ui:170
+#: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr "允許其他人創建及刪除這個資料夾的檔案 (_A)"
 
-#: share/share-dialog.ui:187
+#: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
 msgstr "訪客使用(供沒有使用者帳號的人使用) (_G)"
 
-#: share/shares.c:123
+#: share/share-dialog.ui:264
+msgid "_Save"
+msgstr "儲存(_S)"
+
+#: share/shares.c:122
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s 傳回訊號 %d"
 
-#: share/shares.c:132
+#: share/shares.c:131
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s 因為未知的原因失敗"
 
-#: share/shares.c:152
+#: share/shares.c:151
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'網路使用者共用' 傳回錯誤 %d ： %s"
 
-#: share/shares.c:154
+#: share/shares.c:153
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'網路使用者共用' 傳回錯誤 %d"
 
-#: share/shares.c:185
+#: share/shares.c:184
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "在 UTF-8 編碼中不被允許的'網路使用者共用'輸出"
 
-#: share/shares.c:439 share/shares.c:613
+#: share/shares.c:438 share/shares.c:612
 msgid "Failed"
 msgstr "失敗"
 
-#: share/shares.c:547
+#: share/shares.c:546
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba 的 testparm 傳回訊號 %d"
 
-#: share/shares.c:553
+#: share/shares.c:552
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba 的 testparm 因為未知的原因失敗"
 
-#: share/shares.c:568
+#: share/shares.c:567
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba 的 testparm 傳回錯誤 %d ： %s"
 
-#: share/shares.c:570
+#: share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba 的 testparm 傳回錯誤 %d"
 
-#: share/shares.c:681
+#: share/shares.c:680
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "無法移除路徑 %s 的共用：該路徑無法共用"
 
-#: share/shares.c:727
+#: share/shares.c:726
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "無法改變已共用的路徑；請先移除舊的共用再新增一個新的"
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
 msgstr "設定為桌布"
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
 msgstr "將圖片設定為目前的桌布"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
-msgstr "桌上型電腦"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -664,8 +650,12 @@ msgid "Allows to quickly set wallpaper"
 msgstr "允許快速設定桌布"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2014 Stefano Karapetsas"
-msgstr "Copyright (C) 2014 Stefano Karapetsas"
+msgid ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE 開發者"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
@@ -684,5 +674,9 @@ msgid "View tags stored in extended attributes"
 msgstr "檢視儲存在延伸屬性中的標籤"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2016 Felipe Barriga Richards"
-msgstr "Copyright (C) 2016 Felipe Barriga Richards"
+msgid ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"
+msgstr ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE 開發者"

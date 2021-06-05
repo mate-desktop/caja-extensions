@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# abuyop <abuyop@gmail.com>, 2020
+# abuyop <abuyop@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>, 2020\n"
+"Last-Translator: abuyop <abuyop@gmail.com>, 2021\n"
 "Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,12 +38,6 @@ msgstr ""
 "\n"
 "Item yang anda pilih tidak boleh dibuka dengan kuasa pentadbir kerana aplikasi yang betul tidak dapat ditentukan."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
-msgstr "sistem"
-
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
 msgstr "Gksu"
@@ -53,8 +47,14 @@ msgid "Privilege granting extension"
 msgstr "Sambungan pemberian kelayakan"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
-msgstr "Hak Cipta (C) 2002-2005 Gustavo Noronha Silva"
+msgid ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Hak Cipta (C) 2002-2005 Gustavo Noronha Silva\n"
+"Hak Cipta (C) 2013-2014 Stefano Karapetsas\n"
+"Hak Cipta (C) 2015-2021 Pembangun MATE"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
@@ -77,6 +77,8 @@ msgid "Resize Images"
 msgstr "Saiz Semula Imej"
 
 #: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
+#: share/share-dialog.ui:249
 msgid "_Cancel"
 msgstr "_Batal"
 
@@ -118,7 +120,7 @@ msgid "Image Size"
 msgstr "Saiz Imej"
 
 #: image-converter/caja-image-resize.ui:368
-#: image-converter/caja-image-rotate.ui:206
+#: image-converter/caja-image-rotate.ui:242
 msgid "Append"
 msgstr "Tambah"
 
@@ -127,7 +129,7 @@ msgid ".resized"
 msgstr ".disaiz semula"
 
 #: image-converter/caja-image-resize.ui:398
-#: image-converter/caja-image-rotate.ui:228
+#: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
 msgstr "ke tajuk fail"
 
@@ -136,97 +138,78 @@ msgid "Resize in place"
 msgstr "Saizkan semula di sini"
 
 #: image-converter/caja-image-resize.ui:438
+#: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
 msgstr "Nama fail"
 
-#: image-converter/caja-image-resizer.c:207
-#: image-converter/caja-image-rotator.c:204
-msgid "_Skip"
-msgstr "_Langkau"
-
-#: image-converter/caja-image-resizer.c:209
-#: image-converter/caja-image-rotator.c:206
-msgid "_Retry"
-msgstr "_Cuba lagi"
-
-#: image-converter/caja-image-resizer.c:287
+#: image-converter/caja-image-resizer.c:293
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "Saizkan imej: %d dari %d"
 
-#: image-converter/caja-image-resizer.c:292
+#: image-converter/caja-image-resizer.c:298
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>Saizkan \"%s\"</i>"
 
-#: image-converter/caja-image-resizer.c:310
-#: image-converter/caja-image-rotator.c:309
+#: image-converter/caja-image-resizer.c:316
+#: image-converter/caja-image-rotator.c:315
 msgid "Please enter a valid filename suffix!"
 msgstr "Sila masukkan akhiran nama fail yang sah!"
 
-#: image-converter/caja-image-rotate.ui:18
-msgid "90° clockwise"
-msgstr "90° ikut jam"
-
-#: image-converter/caja-image-rotate.ui:21
-msgid "90° counter-clockwise"
-msgstr "90° lawan-jam"
-
-#: image-converter/caja-image-rotate.ui:24
-msgid "180°"
-msgstr "180°"
-
-#: image-converter/caja-image-rotate.ui:31
+#: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
 msgstr "Putar Imej"
 
-#: image-converter/caja-image-rotate.ui:46
-msgid "<b>Image Rotation</b>"
-msgstr "<b>Putaran Imej</b>"
-
-#: image-converter/caja-image-rotate.ui:79
-msgid "Select an angle:"
-msgstr "Pilih sudut:"
-
-#: image-converter/caja-image-rotate.ui:117
-msgid "Custom angle:"
-msgstr "Sudut suai:"
-
-#: image-converter/caja-image-rotate.ui:143
-msgid "degrees clockwise"
-msgstr "darjah arah jam"
-
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Nama fail</b>"
-
-#: image-converter/caja-image-rotate.ui:219
-msgid ".rotated"
-msgstr ".diputar"
-
-#: image-converter/caja-image-rotate.ui:242
-msgid "Rotate in place"
-msgstr "Putarkan di sini"
-
-#: image-converter/caja-image-rotate.ui:288
+#: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
 msgstr "_Putar"
 
-#: image-converter/caja-image-rotator.c:286
+#: image-converter/caja-image-rotate.ui:104
+msgid "Select an angle:"
+msgstr "Pilih sudut:"
+
+#: image-converter/caja-image-rotate.ui:124
+msgid "90° clockwise"
+msgstr "90° ikut jam"
+
+#: image-converter/caja-image-rotate.ui:125
+msgid "90° counter-clockwise"
+msgstr "90° lawan-jam"
+
+#: image-converter/caja-image-rotate.ui:126
+msgid "180°"
+msgstr "180°"
+
+#: image-converter/caja-image-rotate.ui:149
+msgid "Custom angle:"
+msgstr "Sudut suai:"
+
+#: image-converter/caja-image-rotate.ui:181
+msgid "degrees clockwise"
+msgstr "darjah arah jam"
+
+#: image-converter/caja-image-rotate.ui:204
+msgid "Image Rotation"
+msgstr "Putaran Imej"
+
+#: image-converter/caja-image-rotate.ui:260
+msgid ".rotated"
+msgstr ".diputar"
+
+#: image-converter/caja-image-rotate.ui:290
+msgid "Rotate in place"
+msgstr "Putarkan di sini"
+
+#: image-converter/caja-image-rotator.c:292
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Putarkan imej: %d dari %d"
 
-#: image-converter/caja-image-rotator.c:291
+#: image-converter/caja-image-rotator.c:297
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Memutar \"%s\"</i>"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
-msgstr "image"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -237,8 +220,14 @@ msgid "Rotate and resize images"
 msgstr "Putar dan saiz semula imej"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004-2005 Jürg Billeter"
-msgstr "Hak Cipta (C) 2004-2005 Jürg Billeter"
+msgid ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Hak Cipta (C) 2004-2005 Jürg Billeter\n"
+"Hak Cipta (C) 2013-2014 Stefano Karapetsas\n"
+"Hak Cipta (C) 2015-2021 Pembangun MATE"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
@@ -278,12 +267,6 @@ msgstr "Tutup"
 msgid "open-terminal Configuration"
 msgstr "Konfigurasi open-terminal"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr "terminal"
-
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
 msgstr "Buka terminal"
@@ -293,8 +276,14 @@ msgid "Open terminals from folders"
 msgstr "Buka terminal dari folder"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
-msgstr "Hak Cipta (C) 2004, 2005 Free Software Foundation, Inc."
+msgid ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Hak Cipta (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Hak Cipta (C) 2013-2014 Stefano Karapetsas\n"
+"Hak Cipta (C) 2015-2021 Pembangun MATE"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -328,32 +317,26 @@ msgstr "Hantar fail melalui mel, mesej segera..."
 msgid "Send files by mail, instant message..."
 msgstr "Hantar fail melalui mel, mesej segera..."
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:568
 msgid "Files"
 msgstr "Fail"
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:788
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Jangkakan URI atau nama fail yang dilulus sebagai pilihan \n"
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Tidak dapat hurai pilihan baris-perintah: %s\n"
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
-msgstr "Tidak dapat muat mana-mana pemalam."
+msgstr "Tidak dapat muat mana-mana palam."
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Sila sahkan pemasangan anda"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
-msgstr "mail-send"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -364,19 +347,25 @@ msgid "Integrates email clients and Pidgin"
 msgstr "Sepadukan klien emel dan Pidgin"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr "Hak Cipta (C) 2004 Roberto Majadas"
+msgid ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Hak Cipta (C) 2004 Roberto Majadas\n"
+"Hak Cipta (C) 2013-2014 Stefano Karapetsas\n"
+"Hak Cipta (C) 2015-2021 Pembangun MATE"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
-msgstr "Pemalam diguna terakhir yang dihantar"
+msgstr "Palam diguna terakhir yang dihantar"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:7
 msgid ""
 "Used to store which plugin was used the last time files were sent using "
 "caja-sendto."
 msgstr ""
-"Digunakan untuk simpan pemalam yang guna fail kali terakhir dihantar "
+"Digunakan untuk simpan palam yang guna fail kali terakhir dihantar "
 "menggunakan caja-sendto."
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
@@ -391,71 +380,75 @@ msgstr ""
 "Digunakan untuk simpan jenis arkib yang guna fail kali terakhir (0: zip, 1: "
 "tar.gz, 2: tar.bz2)."
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr "Hantar Ke..."
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
-msgstr "_Hantar"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
+msgstr "Hantar"
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr "<b>Destinasi</b>"
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr "Hantar _sebagai:"
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr "Hantar k_e:"
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
-msgstr "<b>Pemampatan</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
+msgstr "Destinasi"
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr "Hantar _dalam paket:"
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr "Pemampatan"
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr "label"
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr "Emel"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:420
 msgid "Unable to send file"
 msgstr "Tidak boleh hantar fail"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:421
 msgid "There is no connection to gajim remote service."
 msgstr "Tiada sambungan ke perkhidmatan jauh gajim."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
 msgid "Sending file failed"
 msgstr "Penghantaran fail gagal"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:446
 msgid "Recipient is missing."
 msgstr "Penerima tiada."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:485
 msgid "Unknown recipient."
 msgstr "Penerima tidak diketahui."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:508
 msgid "Instant Message (Gajim)"
 msgstr "Mesej Segera (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
 msgstr "CD/DVD Baru"
 
-#: sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
 msgstr "CD/DVD Sedia ada"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:179
 msgid "CD/DVD Creator"
 msgstr "Pencipta CD/DVD"
 
@@ -463,7 +456,7 @@ msgstr "Pencipta CD/DVD"
 msgid "Instant Message (Pidgin)"
 msgstr "Mesej Segera (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
 msgstr "Cakera boleh tanggal dan perkongsian"
 
@@ -471,13 +464,7 @@ msgstr "Cakera boleh tanggal dan perkongsian"
 msgid "UPnP Media Server"
 msgstr "Pelayan Media UPnP"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
-msgstr "folder-remote"
-
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
 msgid "Share"
 msgstr "Kongsi"
 
@@ -486,10 +473,16 @@ msgid "Allows to quickly share a folder"
 msgstr "Membolehkan perkongsian pantas folder"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2005 Ethium, Inc."
-msgstr "Hak Cipta (C) 2005 Ethium, Inc."
+msgid ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Hak Cipta (C) 2005 Ethium, Inc.\n"
+"Hak Cipta (C) 2013-2014 Stefano Karapetsas\n"
+"Hak Cipta (C) 2015-2021 Pembangun MATE"
 
-#: share/caja-share.c:123
+#: share/caja-share.c:122
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -498,7 +491,7 @@ msgstr ""
 "Caja perlu tambah beberapa keizinan ke dalam folder \"%s\" anda supaya dapat"
 " dikongsi"
 
-#: share/caja-share.c:131
+#: share/caja-share.c:130
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -507,147 +500,147 @@ msgstr ""
 "Folder \"%s\" perlukan keizinan tambahan berikut supaya perkongsian berjaya:\n"
 "%s%s%sAnda mahu Caja menambah keizinan ini ke folder secara automatik?"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - read permission by others\n"
 msgstr "- keizinan baca oleh orang lain\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - write permission by others\n"
 msgstr "- keizinan tulis oleh orang lain\n"
 
-#: share/caja-share.c:137
+#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr "- keizinan lakukan oleh orang lain\n"
 
-#: share/caja-share.c:141
+#: share/caja-share.c:140
 msgid "Add the permissions automatically"
 msgstr "Tambah keizinan secara automatik"
 
-#: share/caja-share.c:167
+#: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Tidak dapat ubah keizinan bagi folder \"%s\""
 
-#: share/caja-share.c:451
+#: share/caja-share.c:450
 msgid "Share name is too long"
 msgstr "Nama kongsi terlalu panjang"
 
-#: share/caja-share.c:493
+#: share/caja-share.c:492
 msgid "The share name cannot be empty"
 msgstr "Nama kongsi tidak boleh kosong"
 
-#: share/caja-share.c:506
+#: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "RaLat semasa mendapatkan maklumat kongsi: %s"
 
-#: share/caja-share.c:516
+#: share/caja-share.c:515
 msgid "Another share has the same name"
 msgstr "Pekongsian lain telah mempunyai nama yang serupa"
 
-#: share/caja-share.c:563 share/caja-share.c:799
+#: share/caja-share.c:558 share/caja-share.c:792
 msgid "Modify _Share"
 msgstr "Ubahsuai Pe_rkongsian"
 
-#: share/caja-share.c:563 share/caja-share.c:801
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Create _Share"
 msgstr "Cipta Pe_rkongsian"
 
-#: share/caja-share.c:691
+#: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr "Terdapat ralat semasa mendapatkan maklumat perkongsian"
 
-#: share/caja-share.c:1123
+#: share/caja-share.c:1116 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Perkongsian folder"
 
-#: share/caja-share.c:1164
+#: share/caja-share.c:1157
 msgid "Sharing Options"
 msgstr "Pilihan Perkongsian"
 
-#: share/caja-share.c:1165
+#: share/caja-share.c:1158
 msgid "Share this Folder"
 msgstr "Kongsi Folder ini"
 
-#: share/share-dialog.ui:27
-msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Perkongsian Folder</b></big>"
-
-#: share/share-dialog.ui:75
-msgid "Share _name:"
-msgstr "_Nama kongsi:"
-
-#: share/share-dialog.ui:108
+#: share/share-dialog.ui:85
 msgid "Share this _folder"
 msgstr "Kongsi _folder ini"
 
-#: share/share-dialog.ui:139
+#: share/share-dialog.ui:119
+msgid "Share _name:"
+msgstr "_Nama kongsi:"
+
+#: share/share-dialog.ui:133
 msgid "Co_mment:"
 msgstr "_Ulasan:"
 
-#: share/share-dialog.ui:170
+#: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr "_Benarkan orang lain cipta dan padam fail didalam folder ini"
 
-#: share/share-dialog.ui:187
+#: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
 msgstr "Capaian _tetamu (untuk individu tanpa akaun pengguna)"
 
-#: share/shares.c:123
+#: share/share-dialog.ui:264
+msgid "_Save"
+msgstr "_Simpan"
+
+#: share/shares.c:122
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s dikembalikan dengan isyarat %d"
 
-#: share/shares.c:132
+#: share/shares.c:131
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s gagal atas sebab tidak diketahui"
 
-#: share/shares.c:152
+#: share/shares.c:151
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' kembalikan ralat %d: %s"
 
-#: share/shares.c:154
+#: share/shares.c:153
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' kembalikan ralat %d"
 
-#: share/shares.c:185
+#: share/shares.c:184
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "output 'net usershare' bukanlah pengekodan UTF-8 yang sah"
 
-#: share/shares.c:439 share/shares.c:613
+#: share/shares.c:438 share/shares.c:612
 msgid "Failed"
 msgstr "Gagal"
 
-#: share/shares.c:547
+#: share/shares.c:546
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "testparm  Samba kembalikan dengan isyarat %d"
 
-#: share/shares.c:553
+#: share/shares.c:552
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "testparm  Samba gagal atas sebab yang tidak diketahui"
 
-#: share/shares.c:568
+#: share/shares.c:567
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "testparm  Samba kembalikan ralat %d: %s"
 
-#: share/shares.c:570
+#: share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "testparm  Samba kembalikan ralat %d"
 
-#: share/shares.c:681
+#: share/shares.c:680
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 "Tidak dapat buang perkongsian untuk laluan %s: laluan tersebut tidak boleh "
 "dikongsi"
 
-#: share/shares.c:727
+#: share/shares.c:726
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -655,20 +648,13 @@ msgstr ""
 "Tidak dapat ubah laluan bagi perkongsian sedia ada; sila buang perkongsian "
 "lama dahulu dan tambah yang baharu"
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
 msgstr "Tetapkan sebagai kertas dinding"
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
 msgstr "Tetapkan imej sebagai kertas dinding semasa"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
-msgstr "dekstop"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -679,8 +665,12 @@ msgid "Allows to quickly set wallpaper"
 msgstr "Benarkan untuk tetapkan kertas dinding secara pantas"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2014 Stefano Karapetsas"
-msgstr "Hak Cipta (C) 2014 Stefano Karapetsas"
+msgid ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Hak Cipta (C) 2014 Stefano Karapetsas\n"
+"Hak Cipta (C) 2015-2021 Pembangun MATE"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
@@ -699,5 +689,9 @@ msgid "View tags stored in extended attributes"
 msgstr "Lihat tag tersimpan dalam atribut lanjutan"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2016 Felipe Barriga Richards"
-msgstr "Hak Cipta (C) 2016 Felipe Barriga Richards"
+msgid ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"
+msgstr ""
+"Hak Cipta (C) 2016 Felipe Barriga Richards\n"
+"Hak Cipta (C) 2015-2021 Pembangun MATE"

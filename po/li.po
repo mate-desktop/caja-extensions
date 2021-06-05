@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Rasti K5 <rasti.khdhr@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -12,17 +12,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Rasti K5 <rasti.khdhr@gmail.com>, 2020\n"
-"Language-Team: Kurdish (Iraq) (https://www.transifex.com/mate/teams/13566/ku_IQ/)\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2020\n"
+"Language-Team: Limburgian (https://www.transifex.com/mate/teams/13566/li/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ku_IQ\n"
+"Language: li\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gksu/libcaja-gksu.c:135
 msgid "Open as administrator"
-msgstr "کردنەوە وەک بەڕێوەبەر"
+msgstr ""
 
 #: gksu/libcaja-gksu.c:136
 msgid "Opens the file with administrator privileges"
@@ -74,28 +74,28 @@ msgstr ""
 #: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
 #: share/share-dialog.ui:249
 msgid "_Cancel"
-msgstr "_هەڵوەشاندنەوە"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:69
 msgid "_Resize"
-msgstr "_قەبارەپێدانەوە"
+msgstr "Aafmaetinge _verangere"
 
 #: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
-msgstr "قەبارەیەک دیاربکە:"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "وێنەخاڵ"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
-msgstr "پێوەر:"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:218
 msgid "percent"
-msgstr "سەدی"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
@@ -103,11 +103,11 @@ msgstr ""
 
 #: image-converter/caja-image-resize.ui:259
 msgid "Width:"
-msgstr "پانی:"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:283
 msgid "Height:"
-msgstr "بەرزی:"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
@@ -134,7 +134,7 @@ msgstr ""
 #: image-converter/caja-image-resize.ui:438
 #: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
-msgstr ""
+msgstr "Besjtandjnaam"
 
 #: image-converter/caja-image-resizer.c:293
 #, c-format
@@ -153,11 +153,11 @@ msgstr ""
 
 #: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
-msgstr "سوڕاندنی وێنە"
+msgstr ""
 
 #: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
-msgstr "_سوڕاندن"
+msgstr ""
 
 #: image-converter/caja-image-rotate.ui:104
 msgid "Select an angle:"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
-msgstr "کردنەوەی _تێرمیناڵ"
+msgstr ""
 
 #: open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
@@ -252,7 +252,7 @@ msgstr ""
 
 #: open-terminal/caja-open-terminal.c:586
 msgid "Close"
-msgstr "داخستن"
+msgstr ""
 
 #: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
-msgstr "کردنەوەی تێرمینال"
+msgstr ""
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:6
 msgid "Open terminals from folders"
@@ -322,7 +322,7 @@ msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
-msgstr "ناردن بۆ"
+msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:6
 msgid "Integrates email clients and Pidgin"
@@ -357,7 +357,7 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:17
 msgid "Send To..."
-msgstr "ناردن بۆ..."
+msgstr ""
 
 #: sendto/caja-sendto.ui:54
 msgid "Send"
@@ -540,7 +540,7 @@ msgstr ""
 
 #: share/share-dialog.ui:133
 msgid "Co_mment:"
-msgstr "سە_رنج:"
+msgstr ""
 
 #: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
@@ -552,7 +552,7 @@ msgstr ""
 
 #: share/share-dialog.ui:264
 msgid "_Save"
-msgstr "_پاشەکەوتکردن"
+msgstr "Op_sjlaon"
 
 #: share/shares.c:122
 #, c-format

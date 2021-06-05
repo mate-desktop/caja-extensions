@@ -12,19 +12,21 @@
 # Wiktor Jezioro <wikjezioro@op.pl>, 2018
 # Marcin GTriderXC <gtriderxc@yahoo.com>, 2018
 # Piotr Drąg <piotrdrag@gmail.com>, 2018
+# Dominik Adrian Grzywak, 2018
 # Jan Bońkowski <bonkowskijan@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Przemek P <ppjg@dami.pl>, 2020
 # Daniel Tokarzewski <bezimo@gmail.com>, 2020
-# Dominik Adrian Grzywak, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# piedrap <piedrap@wp.pl>, 2020
+# No Ne, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.23.1\n"
+"Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2020-02-01 13:01+0100\n"
+"POT-Creation-Date: 2021-01-16 11:30+0100\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Dominik Adrian Grzywak, 2020\n"
+"Last-Translator: No Ne, 2021\n"
 "Language-Team: Polish (https://www.transifex.com/mate/teams/13566/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,12 +52,6 @@ msgstr ""
 "\n"
 "Wybrany element nie może zostać otwarty z uprawnieniami administratora ponieważ nie można odnaleźć właściwej aplikacji."
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: gksu/libcaja-gksu.caja-extension.desktop.in.in:4
-msgid "system"
-msgstr "system"
-
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
 msgstr "Gksu"
@@ -65,30 +61,38 @@ msgid "Privilege granting extension"
 msgstr "Rozszerzenie przyznawania uprawnień"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2002-2005 Gustavo Noronha Silva"
-msgstr "Prawa autorskie (C) 2002-2005 Gustavo Noronha Silva"
+msgid ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Prawa autorskie (C) 2002-2005 Gustavo Noronha Silva\n"
+"Prawa autorskie (C) 2013-2014 Stefano Karapetsas\n"
+"Prawa autorskie (C) 2015-2021 programiści MATE"
 
 #: image-converter/caja-image-converter.c:120
 msgid "_Resize Images..."
-msgstr "_Zmień rozmiar obrazków…"
+msgstr "_Zmień rozmiar obrazów…"
 
 #: image-converter/caja-image-converter.c:121
 msgid "Resize each selected image"
-msgstr "Zmień rozmiar każdego z wybranych obrazków"
+msgstr "Zmień rozmiar każdego z wybranych obrazów"
 
 #: image-converter/caja-image-converter.c:130
 msgid "Ro_tate Images..."
-msgstr "_Obróć obrazki..."
+msgstr "_Obróć obrazy..."
 
 #: image-converter/caja-image-converter.c:131
 msgid "Rotate each selected image"
-msgstr "Obróć każdy zaznaczony obrazek"
+msgstr "Obróć każdy zaznaczony obraz"
 
 #: image-converter/caja-image-resize.ui:33
 msgid "Resize Images"
-msgstr "Zmień rozmiar obrazków"
+msgstr "Zmień rozmiar obrazów"
 
 #: image-converter/caja-image-resize.ui:53
+#: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
+#: share/share-dialog.ui:249
 msgid "_Cancel"
 msgstr "_Anuluj"
 
@@ -130,7 +134,7 @@ msgid "Image Size"
 msgstr "Rozmiar obrazu"
 
 #: image-converter/caja-image-resize.ui:368
-#: image-converter/caja-image-rotate.ui:206
+#: image-converter/caja-image-rotate.ui:242
 msgid "Append"
 msgstr "Dołącz"
 
@@ -139,7 +143,7 @@ msgid ".resized"
 msgstr ".resized"
 
 #: image-converter/caja-image-resize.ui:398
-#: image-converter/caja-image-rotate.ui:228
+#: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
 msgstr "do nazwy pliku"
 
@@ -148,97 +152,78 @@ msgid "Resize in place"
 msgstr "Zmień rozmiar oryginału"
 
 #: image-converter/caja-image-resize.ui:438
+#: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
 msgstr "Nazwa pliku"
 
-#: image-converter/caja-image-resizer.c:207
-#: image-converter/caja-image-rotator.c:204
-msgid "_Skip"
-msgstr "_Pomiń"
-
-#: image-converter/caja-image-resizer.c:209
-#: image-converter/caja-image-rotator.c:206
-msgid "_Retry"
-msgstr "_Ponów"
-
-#: image-converter/caja-image-resizer.c:287
+#: image-converter/caja-image-resizer.c:293
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "Zmienianie rozmiaru: %d z %d"
 
-#: image-converter/caja-image-resizer.c:292
+#: image-converter/caja-image-resizer.c:298
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>Zmiana rozmiaru \"%s\"</i>"
 
-#: image-converter/caja-image-resizer.c:310
-#: image-converter/caja-image-rotator.c:309
+#: image-converter/caja-image-resizer.c:316
+#: image-converter/caja-image-rotator.c:315
 msgid "Please enter a valid filename suffix!"
 msgstr "Wprowadź poprawne rozszerzenie pliku!"
 
-#: image-converter/caja-image-rotate.ui:18
-msgid "90° clockwise"
-msgstr "90° w prawo"
-
-#: image-converter/caja-image-rotate.ui:21
-msgid "90° counter-clockwise"
-msgstr "90° w lewo"
-
-#: image-converter/caja-image-rotate.ui:24
-msgid "180°"
-msgstr "180°"
-
-#: image-converter/caja-image-rotate.ui:31
+#: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
-msgstr "Obróć obrazki"
+msgstr "Obróć obrazy"
 
-#: image-converter/caja-image-rotate.ui:46
-msgid "<b>Image Rotation</b>"
-msgstr "<b>Obrót obrazka</b>"
-
-#: image-converter/caja-image-rotate.ui:79
-msgid "Select an angle:"
-msgstr "Wybierz kąt:"
-
-#: image-converter/caja-image-rotate.ui:117
-msgid "Custom angle:"
-msgstr "Dostosuj kąt:"
-
-#: image-converter/caja-image-rotate.ui:143
-msgid "degrees clockwise"
-msgstr "stopni w kierunku ruchu wskazówek zegara"
-
-#: image-converter/caja-image-rotate.ui:172
-msgid "<b>Filename</b>"
-msgstr "<b>Nazwa pliku</b>"
-
-#: image-converter/caja-image-rotate.ui:219
-msgid ".rotated"
-msgstr ".rotated"
-
-#: image-converter/caja-image-rotate.ui:242
-msgid "Rotate in place"
-msgstr "Obracaj w miejscu"
-
-#: image-converter/caja-image-rotate.ui:288
+#: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
 msgstr "_Obróć"
 
-#: image-converter/caja-image-rotator.c:286
+#: image-converter/caja-image-rotate.ui:104
+msgid "Select an angle:"
+msgstr "Wybierz kąt:"
+
+#: image-converter/caja-image-rotate.ui:124
+msgid "90° clockwise"
+msgstr "90° w prawo"
+
+#: image-converter/caja-image-rotate.ui:125
+msgid "90° counter-clockwise"
+msgstr "90° w lewo"
+
+#: image-converter/caja-image-rotate.ui:126
+msgid "180°"
+msgstr "180°"
+
+#: image-converter/caja-image-rotate.ui:149
+msgid "Custom angle:"
+msgstr "Dostosuj kąt:"
+
+#: image-converter/caja-image-rotate.ui:181
+msgid "degrees clockwise"
+msgstr "stopni w kierunku ruchu wskazówek zegara"
+
+#: image-converter/caja-image-rotate.ui:204
+msgid "Image Rotation"
+msgstr "Obrót obrazu"
+
+#: image-converter/caja-image-rotate.ui:260
+msgid ".rotated"
+msgstr ".rotated"
+
+#: image-converter/caja-image-rotate.ui:290
+msgid "Rotate in place"
+msgstr "Obracaj w miejscu"
+
+#: image-converter/caja-image-rotator.c:292
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Obracanie obrazu: %d z %d"
 
-#: image-converter/caja-image-rotator.c:291
+#: image-converter/caja-image-rotator.c:297
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Obracanie \"%s\"</i>"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:4
-msgid "image"
-msgstr "image"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -249,8 +234,14 @@ msgid "Rotate and resize images"
 msgstr "Obróć i zmień rozmiar obrazów"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004-2005 Jürg Billeter"
-msgstr "Prawa autorskie (C) 2004-2005 Jürg Billeter"
+msgid ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Prawa autorskie (C) 2004-2005 Jürg Billeter\n"
+"Prawa autorskie (C) 2013-2014 Stefano Karapetsas\n"
+"Prawa autorskie (C) 2015-2021 programiści MATE"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
@@ -276,11 +267,11 @@ msgstr "Otwiera terminal"
 
 #: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
-msgstr "Otwórz w Katalogu Domowym jeśli próbuje otworzyć na pulpicie"
+msgstr "Otwórz w Katalogu domowym, jeśli próbuje otworzyć na pulpicie"
 
 #: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr "Aplikacja Terminala:"
+msgstr "Aplikacja terminala:"
 
 #: open-terminal/caja-open-terminal.c:586
 msgid "Close"
@@ -289,12 +280,6 @@ msgstr "Zamknij"
 #: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
 msgstr "Konfiguracja open-terminal"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:4
-msgid "terminal"
-msgstr "terminal"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -305,8 +290,14 @@ msgid "Open terminals from folders"
 msgstr "Otwórz terminal z katalogów"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004, 2005 Free Software Foundation, Inc."
-msgstr "Prawa autorskie (C) 2004, 2005 Free Software Foundation, Inc"
+msgid ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Prawa autorskie (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Prawa autorskie (C) 2013-2014 Stefano Karapetsas\n"
+"Prawa autorskie (C) 2015-2021 programiści MATE"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -340,32 +331,26 @@ msgstr "Wysyła plik poprzez e-mail, komunikator..."
 msgid "Send files by mail, instant message..."
 msgstr "Wysyła pliki poprzez e-mail, komunikator..."
 
-#: sendto/caja-sendto-command.c:578
+#: sendto/caja-sendto-command.c:568
 msgid "Files"
 msgstr "Pliki"
 
-#: sendto/caja-sendto-command.c:790
+#: sendto/caja-sendto-command.c:788
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Oczekiwane adresy URI lub nazwy plików wywoływanych jako opcje\n"
 
-#: sendto/caja-sendto-command.c:810
+#: sendto/caja-sendto-command.c:808
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nie można przetworzyć opcji z wiersza poleceń: %s\n"
 
-#: sendto/caja-sendto-command.c:825
+#: sendto/caja-sendto-command.c:823
 msgid "Could not load any plugins."
 msgstr "Nie można wczytać żadnych wtyczek."
 
-#: sendto/caja-sendto-command.c:828
+#: sendto/caja-sendto-command.c:826
 msgid "Please verify your installation"
 msgstr "Proszę sprawdzić poprawność instalacji"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: sendto/libcaja-sendto.caja-extension.desktop.in.in:4
-msgid "mail-send"
-msgstr "mail-send"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -376,8 +361,14 @@ msgid "Integrates email clients and Pidgin"
 msgstr "Integruje klienta e-mail i Pidgina"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2004 Roberto Majadas"
-msgstr "Prawa autorskie (C) 2004 Roberto Majadas"
+msgid ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Prawa autorskie (C) 2004 Roberto Majadas\n"
+"Prawa autorskie (C) 2013-2014 Stefano Karapetsas\n"
+"Prawa autorskie (C) 2015-2021 programiści MATE"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -403,71 +394,75 @@ msgstr ""
 "Używane do przechowywania informacji jaki typ archiwum został użyty ostatnio"
 " (0: zip, 1: tar.gz, 2: tar.bz2)."
 
-#: sendto/caja-sendto.ui:24
+#: sendto/caja-sendto.ui:17
 msgid "Send To..."
 msgstr "Wyślij do..."
 
-#: sendto/caja-sendto.ui:100
-msgid "_Send"
-msgstr "_Wyślij"
+#: sendto/caja-sendto.ui:54
+msgid "Send"
+msgstr "Wyślij"
 
-#: sendto/caja-sendto.ui:149
-msgid "<b>Destination</b>"
-msgstr "<b>Miejsce docelowe</b>"
-
-#: sendto/caja-sendto.ui:192
+#: sendto/caja-sendto.ui:116
 msgid "Send _as:"
 msgstr "Wyślij ja_ko:"
 
-#: sendto/caja-sendto.ui:234
+#: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
 msgstr "Wyślij d_o:"
 
-#: sendto/caja-sendto.ui:300
-msgid "<b>Compression</b>"
-msgstr "<b>Kompresja</b>"
+#: sendto/caja-sendto.ui:160
+msgid "Destination"
+msgstr "Miejsce docelowe"
 
-#: sendto/caja-sendto.ui:341
+#: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
 msgstr "Wyślij _spakowane:"
 
-#: sendto/plugins/emailclient/emailclient.c:263
+#: sendto/caja-sendto.ui:258
+msgid "Compression"
+msgstr "Kompresja"
+
+#: sendto/caja-sendto.ui:300
+msgid "label"
+msgstr "etykieta"
+
+#: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
 msgstr "E-mail"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:420
 msgid "Unable to send file"
 msgstr "Nie można wysłać pliku"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:421
 msgid "There is no connection to gajim remote service."
 msgstr "Brak połączenia ze zdalną usługą gajim."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
 msgid "Sending file failed"
 msgstr "Wysyłanie pliku nie powiodło się"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:446
 msgid "Recipient is missing."
 msgstr "Brak odbiorcy."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:485
 msgid "Unknown recipient."
 msgstr "Nieznany odbiorca."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:508
 msgid "Instant Message (Gajim)"
 msgstr "Wiadomość (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:92
+#: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
 msgstr "Nowa płyta CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:99
+#: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
 msgstr "Istniejąca płyta CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:179
 msgid "CD/DVD Creator"
 msgstr "Asystent CD/DVD"
 
@@ -475,7 +470,7 @@ msgstr "Asystent CD/DVD"
 msgid "Instant Message (Pidgin)"
 msgstr "Wiadomość (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:248
+#: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
 msgstr "Dyski wymienne i zasoby sieciowe"
 
@@ -483,13 +478,7 @@ msgstr "Dyski wymienne i zasoby sieciowe"
 msgid "UPnP Media Server"
 msgstr "Serwer multimediów UPnP"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: share/libcaja-share.caja-extension.desktop.in.in:4
-msgid "folder-remote"
-msgstr "folder-remote"
-
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1063
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
 msgid "Share"
 msgstr "Udostępnij"
 
@@ -498,10 +487,16 @@ msgid "Allows to quickly share a folder"
 msgstr "Pozwala na szybkie udostępnianie katalogu"
 
 #: share/libcaja-share.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2005 Ethium, Inc."
-msgstr "Prawa autorskie (C) 2005 Ethium, Inc."
+msgid ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Prawa autorskie (C) 2005 Ethium, Inc.\n"
+"Prawa autorskie (C) 2013-2014 Stefano Karapetsas\n"
+"Prawa autorskie (C) 2015-2021 programiści MATE"
 
-#: share/caja-share.c:123
+#: share/caja-share.c:122
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -510,7 +505,7 @@ msgstr ""
 "Caja potrzebuje dodać kilka uprawnień do twojego folderu \"%s\", aby "
 "umożliwić udostępnianie go"
 
-#: share/caja-share.c:131
+#: share/caja-share.c:130
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -519,146 +514,146 @@ msgstr ""
 "Folder \"%s\" potrzebuje następujących dodatkowych uprawnień dla udostępniania, aby funkcjonować:\n"
 "%s%s%sCzy chcesz, aby Caja dodała te uprawnienia do folderu automatycznie?"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - read permission by others\n"
 msgstr "- uprawnienia odczytu przez innych\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - write permission by others\n"
 msgstr "- uprawnienia zapisu przez innych\n"
 
-#: share/caja-share.c:137
+#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr "- uprawnienia wykonywania przez innych\n"
 
-#: share/caja-share.c:141
+#: share/caja-share.c:140
 msgid "Add the permissions automatically"
 msgstr "Dodawaj uprawnienia automatycznie"
 
-#: share/caja-share.c:167
+#: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Nie można zmienić uprawnień folderu \"%s\""
 
-#: share/caja-share.c:451
+#: share/caja-share.c:450
 msgid "Share name is too long"
 msgstr "Nazwa udziału jest zbyt długa"
 
-#: share/caja-share.c:493
+#: share/caja-share.c:492
 msgid "The share name cannot be empty"
 msgstr "Nazwa udziału nie może być pusta"
 
-#: share/caja-share.c:506
+#: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Błąd podczas otrzymywania informacji o udziale: %s"
 
-#: share/caja-share.c:516
+#: share/caja-share.c:515
 msgid "Another share has the same name"
 msgstr "Inny udział posiada taką samą nazwę"
 
-#: share/caja-share.c:563 share/caja-share.c:799
+#: share/caja-share.c:558 share/caja-share.c:792
 msgid "Modify _Share"
 msgstr "Modyfikuj _udział"
 
-#: share/caja-share.c:563 share/caja-share.c:801
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Create _Share"
 msgstr "Utwórz _udział"
 
-#: share/caja-share.c:691
+#: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr "Wystąpił błąd podczas otrzymywania informacji o udziałach"
 
-#: share/caja-share.c:1123
+#: share/caja-share.c:1116 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Udostępnij folder"
 
-#: share/caja-share.c:1164
+#: share/caja-share.c:1157
 msgid "Sharing Options"
 msgstr "Opcje udostępniania"
 
-#: share/caja-share.c:1165
+#: share/caja-share.c:1158
 msgid "Share this Folder"
 msgstr "Udostępnij ten folder"
 
-#: share/share-dialog.ui:27
-msgid "<big><b>Folder Sharing</b></big>"
-msgstr "<big><b>Udostępnianie folderu</b></big>"
-
-#: share/share-dialog.ui:75
-msgid "Share _name:"
-msgstr "_Nazwa udziału:"
-
-#: share/share-dialog.ui:108
+#: share/share-dialog.ui:85
 msgid "Share this _folder"
 msgstr "Udostępnij ten _folder"
 
-#: share/share-dialog.ui:139
+#: share/share-dialog.ui:119
+msgid "Share _name:"
+msgstr "_Nazwa udziału:"
+
+#: share/share-dialog.ui:133
 msgid "Co_mment:"
 msgstr "_Komentarz:"
 
-#: share/share-dialog.ui:170
+#: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr "_Pozwól innym tworzyć i usuwać pliki w tym folderze"
 
-#: share/share-dialog.ui:187
+#: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
 msgstr "Dostęp _gościa (dla osób bez kont użytkowników)"
 
-#: share/shares.c:123
+#: share/share-dialog.ui:264
+msgid "_Save"
+msgstr "_Zapisz"
+
+#: share/shares.c:122
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s wrócił z sygnałem %d"
 
-#: share/shares.c:132
+#: share/shares.c:131
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s nie powiodło się z nieznanej przyczyny"
 
-#: share/shares.c:152
+#: share/shares.c:151
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' zwrócił błąd %d: %s"
 
-#: share/shares.c:154
+#: share/shares.c:153
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' zwrócił błąd %d"
 
-#: share/shares.c:185
+#: share/shares.c:184
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "wyjście 'net usershare' nie jest poprawnym kodowaniem UTF-8"
 
-#: share/shares.c:439 share/shares.c:613
+#: share/shares.c:438 share/shares.c:612
 msgid "Failed"
 msgstr "Nieudane"
 
-#: share/shares.c:547
+#: share/shares.c:546
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "testparm Samby wrócił z sygnałem %d"
 
-#: share/shares.c:553
+#: share/shares.c:552
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "testparm Samby nie powiódł się z nieznanej przyczyny"
 
-#: share/shares.c:568
+#: share/shares.c:567
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "testparam Samby zwrócił błąd %d: %s"
 
-#: share/shares.c:570
+#: share/shares.c:569
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "testparam Samby zwrócił błąd %d"
 
-#: share/shares.c:681
+#: share/shares.c:680
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 "Nie można usunąć udziału dla ścieżki %s: ta ścieżka nie jest udostępniana"
 
-#: share/shares.c:727
+#: share/shares.c:726
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -666,20 +661,13 @@ msgstr ""
 "Nie można zmienić ścieżki istniejącego udziału; proszę najpierw usunąć stary"
 " udział i dodać nowy"
 
-#: wallpaper/caja-wallpaper-extension.c:109
+#: wallpaper/caja-wallpaper-extension.c:105
 msgid "Set as wallpaper"
 msgstr "Ustaw jako tapetę"
 
-#: wallpaper/caja-wallpaper-extension.c:110
+#: wallpaper/caja-wallpaper-extension.c:106
 msgid "Set image as the current wallpaper"
 msgstr "Ustaw obraz jako aktualną tapetę"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:4
-#: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:4
-msgid "desktop"
-msgstr "pulpit"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -690,8 +678,12 @@ msgid "Allows to quickly set wallpaper"
 msgstr "Pozwala na szybkie ustawienie tapety"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2014 Stefano Karapetsas"
-msgstr "Prawa autorskie (C) 2014 Stefano Karapetsas"
+msgid ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
+msgstr ""
+"Prawa autorskie (C) 2014 Stefano Karapetsas\n"
+"Prawa autorskie (C) 2015-2021 programiści MATE"
 
 #: xattr-tags/caja-xattr-tags-extension.c:177
 msgid "Tags"
@@ -710,5 +702,9 @@ msgid "View tags stored in extended attributes"
 msgstr "Wyświetl etykiety przechowywane w rozszerzonych atrybutach"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
-msgid "Copyright (C) 2016 Felipe Barriga Richards"
-msgstr "Prawa autorskie (C) 2016 Felipe Barriga Richards"
+msgid ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"
+msgstr ""
+"Prawa autorskie (C) 2016 Felipe Barriga Richards\n"
+"Prawa autorskie (C) 2017-2021 programiści MATE"
