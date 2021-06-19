@@ -2,6 +2,7 @@
  *  Caja xattr tags extension
  *
  *  Copyright (C) 2016 Felipe Barriga Richards
+ *  Copyright (C) 2016-2021 MATE developers.
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by

@@ -3,6 +3,7 @@
  *
  *  Copyright (C) 2005 Adam Israel
  *  Copyright (C) 2014 Stefano Karapetsas
+ *  Copyright (C) 2014-2021 MATE developers.
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
