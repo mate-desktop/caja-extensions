@@ -11,16 +11,17 @@
 # Mingcong Bai <jeffbai@aosc.xyz>, 2019
 # clefebvre <clement.lefebvre@linuxmint.com>, 2020
 # 玉堂白鹤 <yjwork@qq.com>, 2020
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # liulitchi <xingzuo88@qq.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Wenbin Lv <wenbin816@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-01-16 11:30+0100\n"
+"POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: liulitchi <xingzuo88@qq.com>, 2020\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,15 +29,15 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: gksu/libcaja-gksu.c:135
+#: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
 msgstr "以管理员身份打开"
 
-#: gksu/libcaja-gksu.c:136
+#: gksu/libcaja-gksu.c:133
 msgid "Opens the file with administrator privileges"
 msgstr "以管理员权限打开文件"
 
-#: gksu/libcaja-gksu.c:223
+#: gksu/libcaja-gksu.c:190
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -45,6 +46,21 @@ msgstr ""
 "<big><b>无法确定待运行的程序。</b></big>\n"
 "\n"
 "由于无法确定正确的应用程序，您选择的项无法以管理员身份打开。"
+
+#: gksu/libcaja-gksu.c:226
+msgid ""
+"<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
+msgstr ""
+"<big><b>无法确定 su 的图形化前端</b></big>\n"
+"\n"
+"您选择的项目无法使用管理员权限打开，因为无法确定 su 的图形化前端，例如 gtksu 或 beesu。"
+
+#: gksu/libcaja-gksu.c:253
+#, c-format
+msgid "Error: %s"
+msgstr "错误：%s"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -60,20 +76,23 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"版权所有 (C) 2002-2005 Gustavo Noronha Silva\n"
+"版权所有 (C) 2013-2014 Stefano Karapetsas\n"
+"版权所有 (C) 2015-2021 MATE 开发者"
 
-#: image-converter/caja-image-converter.c:120
+#: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
 msgstr "调整图像大小(_R)..."
 
-#: image-converter/caja-image-converter.c:121
+#: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
 msgstr "调整每个选中图像的大小"
 
-#: image-converter/caja-image-converter.c:130
+#: image-converter/caja-image-converter.c:131
 msgid "Ro_tate Images..."
 msgstr "旋转图像(_T)..."
 
-#: image-converter/caja-image-converter.c:131
+#: image-converter/caja-image-converter.c:132
 msgid "Rotate each selected image"
 msgstr "旋转每个选中的图像"
 
@@ -147,18 +166,18 @@ msgstr "就地调整大小"
 msgid "Filename"
 msgstr "文件名"
 
-#: image-converter/caja-image-resizer.c:293
+#: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "正在调整图像大小：%d/%d"
 
-#: image-converter/caja-image-resizer.c:298
+#: image-converter/caja-image-resizer.c:294
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>正在调整 \"%s\" 大小</i>"
 
-#: image-converter/caja-image-resizer.c:316
-#: image-converter/caja-image-rotator.c:315
+#: image-converter/caja-image-resizer.c:314
+#: image-converter/caja-image-rotator.c:306
 msgid "Please enter a valid filename suffix!"
 msgstr "请输入一个有效的文件名后缀！"
 
@@ -196,7 +215,7 @@ msgstr "度-顺时针"
 
 #: image-converter/caja-image-rotate.ui:204
 msgid "Image Rotation"
-msgstr ""
+msgstr "图像旋转"
 
 #: image-converter/caja-image-rotate.ui:260
 msgid ".rotated"
@@ -206,12 +225,12 @@ msgstr ".rotated"
 msgid "Rotate in place"
 msgstr "就地旋转"
 
-#: image-converter/caja-image-rotator.c:292
+#: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "正在旋转图像：%d/%d"
 
-#: image-converter/caja-image-rotator.c:297
+#: image-converter/caja-image-rotator.c:289
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>图像旋转进度 \"%s\"</i>"
@@ -230,42 +249,45 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"版权所有 (C) 2004-2005 Jürg Billeter\n"
+"版权所有 (C) 2013-2014 Stefano Karapetsas\n"
+"版权所有 (C) 2015-2021 MATE 开发者"
 
-#: open-terminal/caja-open-terminal.c:459
-#: open-terminal/caja-open-terminal.c:472
+#: open-terminal/caja-open-terminal.c:460
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open in _Terminal"
 msgstr "在终端中打开(_T)"
 
-#: open-terminal/caja-open-terminal.c:461
+#: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
 msgstr "在终端中打开目前选中的文件夹"
 
-#: open-terminal/caja-open-terminal.c:463
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:464
+#: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
 msgstr "在终端中打开当前文件夹"
 
-#: open-terminal/caja-open-terminal.c:469
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
 msgstr "打开终端(_T)"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
 msgstr "打开终端"
 
-#: open-terminal/caja-open-terminal.c:563
+#: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
 msgstr "在桌面启动终端时，打开主目录"
 
-#: open-terminal/caja-open-terminal.c:566
+#: open-terminal/caja-open-terminal.c:567
 msgid "Terminal application:"
 msgstr "终端应用程序："
 
-#: open-terminal/caja-open-terminal.c:586
+#: open-terminal/caja-open-terminal.c:587
 msgid "Close"
 msgstr "关闭"
 
-#: open-terminal/caja-open-terminal.c:592
+#: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"
 msgstr "open-terminal配置"
 
@@ -283,6 +305,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"版权所有 (C) 2004-2005 自由软件基金会\n"
+"版权所有 (C) 2013-2014 Stefano Karapetsas\n"
+"版权所有 (C) 2015-2021 MATE 开发者"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -299,36 +324,36 @@ msgid ""
 msgstr ""
 "如果设置为 true，在桌面上打开终端时将会在主目录中打开终端。否则会在桌面目录打开终端。注意如果桌面目录与主目录相同，则怎么设置没什么关系。"
 
-#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
+#: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
 msgstr "发送到..."
 
-#: sendto/caja-nste.c:77
+#: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
 msgstr "通过邮件、即时通讯发送文件..."
 
-#: sendto/caja-nste.c:82
+#: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
 msgstr "通过邮件、即时通讯发送文件..."
 
-#: sendto/caja-sendto-command.c:568
+#: sendto/caja-sendto-command.c:574
 msgid "Files"
 msgstr "文件"
 
-#: sendto/caja-sendto-command.c:788
+#: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "需要网址或者文件名称来作为选项\n"
 
-#: sendto/caja-sendto-command.c:808
+#: sendto/caja-sendto-command.c:816
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "不能够解析命令行选项：%s\n"
 
-#: sendto/caja-sendto-command.c:823
+#: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
 msgstr "不能够加载任何插件。"
 
-#: sendto/caja-sendto-command.c:826
+#: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
 msgstr "请确认你的安装。"
 
@@ -346,6 +371,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"版权所有 (C) 2004 Roberto Majadas\n"
+"版权所有 (C) 2013-2014 Stefano Karapetsas\n"
+"版权所有 (C) 2015-2021 MATE 开发者"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -403,27 +431,27 @@ msgstr "标签"
 msgid "Email"
 msgstr "电子邮件"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "无法发送文件"
 
-#: sendto/plugins/gajim/gajim.c:421
+#: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "不存在到 gajim 远程服务的连接。"
 
-#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "发送文件失败"
 
-#: sendto/plugins/gajim/gajim.c:446
+#: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "缺少接收者。"
 
-#: sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "未知接收者。"
 
-#: sendto/plugins/gajim/gajim.c:508
+#: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "即时消息 (Gajim)"
 
@@ -435,7 +463,7 @@ msgstr "新建 CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "现有的 CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:179
+#: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD 创建器"
 
@@ -451,7 +479,7 @@ msgstr "可移动磁盘和共享"
 msgid "UPnP Media Server"
 msgstr "UPnP 媒体服务器"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
 msgid "Share"
 msgstr "共享"
 
@@ -465,6 +493,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"版权所有 (C) 2005 Ethium, Inc.\n"
+"版权所有 (C) 2013-2014 Stefano Karapetsas\n"
+"版权所有 (C) 2015-2021 MATE 开发者"
 
 #: share/caja-share.c:122
 #, c-format
@@ -520,11 +551,11 @@ msgstr "获取共享信息出错：%s"
 msgid "Another share has the same name"
 msgstr "与另一共享重名"
 
-#: share/caja-share.c:558 share/caja-share.c:792
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Modify _Share"
 msgstr "修改共享(_S)"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:558 share/caja-share.c:796
 msgid "Create _Share"
 msgstr "创建共享(_S)"
 
@@ -532,15 +563,15 @@ msgstr "创建共享(_S)"
 msgid "There was an error while getting the sharing information"
 msgstr "获取共享信息时出错"
 
-#: share/caja-share.c:1116 share/share-dialog.ui:48
+#: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "文件夹共享"
 
-#: share/caja-share.c:1157
+#: share/caja-share.c:1159
 msgid "Sharing Options"
 msgstr "共享选项"
 
-#: share/caja-share.c:1158
+#: share/caja-share.c:1160
 msgid "Share this Folder"
 msgstr "共享此文件夹"
 
@@ -568,69 +599,69 @@ msgstr "游客访问(针对没有账户的人)(_G)"
 msgid "_Save"
 msgstr "保存(_S)"
 
-#: share/shares.c:122
+#: share/shares.c:127
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s 以 %d 信号返回"
 
-#: share/shares.c:131
+#: share/shares.c:136
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s 失败，原因未知"
 
-#: share/shares.c:151
+#: share/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "“net usershare”返回错误 %d：%s"
 
-#: share/shares.c:153
+#: share/shares.c:158
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "“net usershare”返回了错误 %d"
 
-#: share/shares.c:184
+#: share/shares.c:189
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "“net usershare”的输出不是有效的 UTF-8 编码"
 
-#: share/shares.c:438 share/shares.c:612
+#: share/shares.c:443 share/shares.c:617
 msgid "Failed"
 msgstr "失败"
 
-#: share/shares.c:546
+#: share/shares.c:551
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba 的 testparm 以信号 %d 返回"
 
-#: share/shares.c:552
+#: share/shares.c:557
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba 的 testparm 失败，原因未知"
 
-#: share/shares.c:567
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba 的 testparm 返回了错误 %d：%s"
 
-#: share/shares.c:569
+#: share/shares.c:574
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba 的 testparm 返回了错误 %d"
 
-#: share/shares.c:680
+#: share/shares.c:685
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "无法移除路径 %s 的共享：该路径未共享"
 
-#: share/shares.c:726
+#: share/shares.c:731
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "无法更改现有共享的路径；请先移除旧的共享，再添加一个新的"
 
-#: wallpaper/caja-wallpaper-extension.c:105
+#: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
 msgstr "设置为壁纸"
 
-#: wallpaper/caja-wallpaper-extension.c:106
+#: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
 msgstr "设置图像为当前的壁纸"
 
@@ -647,12 +678,14 @@ msgid ""
 "Copyright (C) 2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"版权所有 (C) 2014 Stefano Karapetsas\n"
+"版权所有 (C) 2015-2021 MATE 开发者"
 
-#: xattr-tags/caja-xattr-tags-extension.c:177
+#: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
 msgstr "标签"
 
-#: xattr-tags/caja-xattr-tags-extension.c:178
+#: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"
 msgstr "保存在扩展属性中的标记"
 
@@ -669,3 +702,5 @@ msgid ""
 "Copyright (C) 2016 Felipe Barriga Richards\n"
 "Copyright (C) 2017-2021 MATE developers"
 msgstr ""
+"版权所有 (C) 2016 Felipe Barriga Richards\n"
+"版权所有 (C) 2017-2021 MATE 开发者"

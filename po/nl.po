@@ -8,14 +8,14 @@
 # 8c3c560621f92e66455793da7b85eff0_8989672 <0e181aafae430e5c919398b6a7bba462_109266>, 2018
 # Nathan Follens, 2018
 # Kees Lijkendijk <clkndk@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Pjotr <pjotrvertaalt@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-01-16 11:30+0100\n"
+"POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/mate/teams/13566/nl/)\n"
@@ -25,15 +25,15 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: gksu/libcaja-gksu.c:135
+#: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
 msgstr "Als beheerder openen"
 
-#: gksu/libcaja-gksu.c:136
+#: gksu/libcaja-gksu.c:133
 msgid "Opens the file with administrator privileges"
 msgstr "Opent het bestand met beheerdersrechten"
 
-#: gksu/libcaja-gksu.c:223
+#: gksu/libcaja-gksu.c:190
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -42,6 +42,21 @@ msgstr ""
 "<big><b>Kan het te gebruiken programma niet bepalen.</b></big>\n"
 "\n"
 "Het door u geselecteerde element kan niet worden geopend met beheerdersrechten omdat het juiste programma ervoor niet kan worden bepaald."
+
+#: gksu/libcaja-gksu.c:226
+msgid ""
+"<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
+msgstr ""
+"<big><b>Kan de grafische schil voor su niet vaststellen</b></big>\n"
+"\n"
+"Het element dat u hebt gekozen kan niet worden geopend met beheerdersrechten omdat de grafische schil voor su niet kan worden vastgesteld, zoals gtksu of beesu."
+
+#: gksu/libcaja-gksu.c:253
+#, c-format
+msgid "Error: %s"
+msgstr "Fout: %s"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -61,19 +76,19 @@ msgstr ""
 "Auteursrecht (C) 2013-2014 Stefano Karapetsas\n"
 "Auteursrecht (C) 2015-2021 MATE-ontwikkelaars"
 
-#: image-converter/caja-image-converter.c:120
+#: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
 msgstr "Afbeeldingen he_rschalen..."
 
-#: image-converter/caja-image-converter.c:121
+#: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
 msgstr "Elke geselecteerde afbeelding herschalen"
 
-#: image-converter/caja-image-converter.c:130
+#: image-converter/caja-image-converter.c:131
 msgid "Ro_tate Images..."
 msgstr "Afbeeldingen _draaien..."
 
-#: image-converter/caja-image-converter.c:131
+#: image-converter/caja-image-converter.c:132
 msgid "Rotate each selected image"
 msgstr "Elke geselecteerde afbeelding draaien"
 
@@ -147,18 +162,18 @@ msgstr "Bestaand bestand overschrijven"
 msgid "Filename"
 msgstr "Bestandsnaam"
 
-#: image-converter/caja-image-resizer.c:293
+#: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "Bezig met herschalen van afbeelding %d van %d"
 
-#: image-converter/caja-image-resizer.c:298
+#: image-converter/caja-image-resizer.c:294
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>Bezig met herschalen van '%s'</i>"
 
-#: image-converter/caja-image-resizer.c:316
-#: image-converter/caja-image-rotator.c:315
+#: image-converter/caja-image-resizer.c:314
+#: image-converter/caja-image-rotator.c:306
 msgid "Please enter a valid filename suffix!"
 msgstr "Voer a.u.b. een geldig achtervoegsel in voor de bestandsnaam."
 
@@ -206,12 +221,12 @@ msgstr ".gedraaid"
 msgid "Rotate in place"
 msgstr "Bestaand bestand overschrijven"
 
-#: image-converter/caja-image-rotator.c:292
+#: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Bezig met draaien van afbeeldingen %d van %d"
 
-#: image-converter/caja-image-rotator.c:297
+#: image-converter/caja-image-rotator.c:289
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Bezig met draaien van '%s'</i>"
@@ -234,41 +249,41 @@ msgstr ""
 "Auteursrecht (C) 2013-2014 Stefano Karapetsas\n"
 "Auteursrecht (C) 2015-2021 MATE-ontwikkelaars"
 
-#: open-terminal/caja-open-terminal.c:459
-#: open-terminal/caja-open-terminal.c:472
+#: open-terminal/caja-open-terminal.c:460
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open in _Terminal"
 msgstr "In _terminalvenster openen"
 
-#: open-terminal/caja-open-terminal.c:461
+#: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
 msgstr "Open de thans geselecteerde map in een terminalvenster"
 
-#: open-terminal/caja-open-terminal.c:463
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:464
+#: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
 msgstr "Open de thans geopende map in een terminalvenster"
 
-#: open-terminal/caja-open-terminal.c:469
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
 msgstr "_Terminalvenster openen"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
 msgstr "Een terminalvenster openen"
 
-#: open-terminal/caja-open-terminal.c:563
+#: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
 msgstr "Open in thuismap indien getracht wordt om te openen op bureaublad"
 
-#: open-terminal/caja-open-terminal.c:566
+#: open-terminal/caja-open-terminal.c:567
 msgid "Terminal application:"
 msgstr "Terminalvenster:"
 
-#: open-terminal/caja-open-terminal.c:586
+#: open-terminal/caja-open-terminal.c:587
 msgid "Close"
 msgstr "Sluiten"
 
-#: open-terminal/caja-open-terminal.c:592
+#: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"
 msgstr "Instellingen van open-terminal"
 
@@ -310,36 +325,36 @@ msgstr ""
 "gebruiker. Zo niet, dan begint het venster in de bureaubladmap. Deze sleutel"
 " heeft geen effect als de bureaubladmap en de gebruikersmap dezelfde zijn."
 
-#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
+#: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
 msgstr "Verzenden naar..."
 
-#: sendto/caja-nste.c:77
+#: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
 msgstr "Een bestand versturen via e-mail, instantbericht..."
 
-#: sendto/caja-nste.c:82
+#: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
 msgstr "Bestanden versturen via e-mail, instantbericht..."
 
-#: sendto/caja-sendto-command.c:568
+#: sendto/caja-sendto-command.c:574
 msgid "Files"
 msgstr "Bestanden"
 
-#: sendto/caja-sendto-command.c:788
+#: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Verwacht dat URI's of bestandsnamen worden meegegeven als opties\n"
 
-#: sendto/caja-sendto-command.c:808
+#: sendto/caja-sendto-command.c:816
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Kon de volgende opdrachtregel-opties niet lezen: %s\n"
 
-#: sendto/caja-sendto-command.c:823
+#: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
 msgstr "Kon geen invoegtoepassingen laden."
 
-#: sendto/caja-sendto-command.c:826
+#: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
 msgstr "Controleer a.u.b. uw installatie"
 
@@ -421,27 +436,27 @@ msgstr "etiket"
 msgid "Email"
 msgstr "E-mail"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Kan het bestand niet verzenden"
 
-#: sendto/plugins/gajim/gajim.c:421
+#: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Er is geen verbinding met de gajim remote service."
 
-#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Verzenden van bestand mislukt"
 
-#: sendto/plugins/gajim/gajim.c:446
+#: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Ontvanger ontbreekt."
 
-#: sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Onbekende ontvanger."
 
-#: sendto/plugins/gajim/gajim.c:508
+#: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Instantbericht (Gajim)"
 
@@ -453,7 +468,7 @@ msgstr "Nieuwe CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Bestaande CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:179
+#: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD maken"
 
@@ -469,7 +484,7 @@ msgstr "Verwijderbare en gedeelde schijven"
 msgid "UPnP Media Server"
 msgstr "UPnP-mediaserver"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
 msgid "Share"
 msgstr "Gedeelde map"
 
@@ -544,11 +559,11 @@ msgstr ""
 msgid "Another share has the same name"
 msgstr "Een andere gedeelde map heeft dezelfde naam"
 
-#: share/caja-share.c:558 share/caja-share.c:792
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Modify _Share"
 msgstr "Gedeelde map aanpa_ssen"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:558 share/caja-share.c:796
 msgid "Create _Share"
 msgstr "Gedeelde map aanmaken"
 
@@ -558,15 +573,15 @@ msgstr ""
 "Er is een fout opgetreden bij het ophalen van informatie over de gedeelde "
 "map"
 
-#: share/caja-share.c:1116 share/share-dialog.ui:48
+#: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Delen van mappen"
 
-#: share/caja-share.c:1157
+#: share/caja-share.c:1159
 msgid "Sharing Options"
 msgstr "Deelopties"
 
-#: share/caja-share.c:1158
+#: share/caja-share.c:1160
 msgid "Share this Folder"
 msgstr "Deze map delen"
 
@@ -595,61 +610,61 @@ msgstr "_Gasttoegang (voor mensen zonder gebruikersaccount)"
 msgid "_Save"
 msgstr "Op_slaan"
 
-#: share/shares.c:122
+#: share/shares.c:127
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s gaf het signaal %d terug"
 
-#: share/shares.c:131
+#: share/shares.c:136
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s mislukte om een onbekende reden"
 
-#: share/shares.c:151
+#: share/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' gaf de volgende foutmelding terug: %d: %s"
 
-#: share/shares.c:153
+#: share/shares.c:158
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' gaf de volgende foutmelding terug: %d"
 
-#: share/shares.c:184
+#: share/shares.c:189
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "De uitvoer van 'net usershare' is geen geldige UTF-8"
 
-#: share/shares.c:438 share/shares.c:612
+#: share/shares.c:443 share/shares.c:617
 msgid "Failed"
 msgstr "Mislukt"
 
-#: share/shares.c:546
+#: share/shares.c:551
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba's testparm gaf het signaal %d terug"
 
-#: share/shares.c:552
+#: share/shares.c:557
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba's testparm mislukt om een onbekende reden"
 
-#: share/shares.c:567
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba's testparm gaf de volgende foutmelding terug: %d: %s"
 
-#: share/shares.c:569
+#: share/shares.c:574
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba's testparm gaf de volgende foutmelding terug: %d"
 
-#: share/shares.c:680
+#: share/shares.c:685
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 "Kan de gedeelde map van het pad %s niet verwijderen: het  pad is niet "
 "gedeeld"
 
-#: share/shares.c:726
+#: share/shares.c:731
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -657,11 +672,11 @@ msgstr ""
 "Kan het pad van een bestaande gedeelde map niet wijzigen; verwijder a.u.b. "
 "eerst de oude gedeelde map alvorens een nieuwe aan te maken"
 
-#: wallpaper/caja-wallpaper-extension.c:105
+#: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
 msgstr "Instellen als bureaubladachtergrond"
 
-#: wallpaper/caja-wallpaper-extension.c:106
+#: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
 msgstr "Afbeelding instellen als de huidige bureaubladachtergrond"
 
@@ -681,11 +696,11 @@ msgstr ""
 "Auteursrecht (C) 2014 Stefano Karapetsas\n"
 "Auteursrecht (C) 2015-2021 MATE-ontwikkelaars"
 
-#: xattr-tags/caja-xattr-tags-extension.c:177
+#: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
 msgstr "Markeringen"
 
-#: xattr-tags/caja-xattr-tags-extension.c:178
+#: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"
 msgstr "Markeringen opgeslagen in uitgebreide attributen"
 

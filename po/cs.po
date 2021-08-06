@@ -9,18 +9,18 @@
 # 1e6459e9b1241af8afa03d508d281c17_dbe0d8b, 2018
 # 6e833d5535e2fe0dd9dfa7fe5bf473f2_d78f422 <64c38a0ff10419c64e8e03d54c72b3bd_352524>, 2019
 # LiberteCzech <liberte.czech@gmail.com>, 2020
-# Lucas Lommer <drom@kdyne.net>, 2020
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # ToMáš Marný, 2020
 # Roman Horník <roman.hornik@debian-linux.cz>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Lukáš Lommer <drom@kdyne.net>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-01-16 11:30+0100\n"
+"POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Roman Horník <roman.hornik@debian-linux.cz>, 2021\n"
+"Last-Translator: Lukáš Lommer <drom@kdyne.net>, 2021\n"
 "Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,15 +28,15 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-#: gksu/libcaja-gksu.c:135
+#: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
 msgstr "Otevřít jako správce"
 
-#: gksu/libcaja-gksu.c:136
+#: gksu/libcaja-gksu.c:133
 msgid "Opens the file with administrator privileges"
 msgstr "Otevřete soubor s oprávněními správce"
 
-#: gksu/libcaja-gksu.c:223
+#: gksu/libcaja-gksu.c:190
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -45,6 +45,18 @@ msgstr ""
 "<big><b>Nemohu určit program, který se má spustit.</b></big>⏎\n"
 "⏎\n"
 "Vybrané položky nelze otevřít s administrátorským oprávněním, protože nelze určit správnou aplikaci."
+
+#: gksu/libcaja-gksu.c:226
+msgid ""
+"<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
+msgstr ""
+
+#: gksu/libcaja-gksu.c:253
+#, c-format
+msgid "Error: %s"
+msgstr "Chyba: %s"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -64,19 +76,19 @@ msgstr ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 vývojáři MATE"
 
-#: image-converter/caja-image-converter.c:120
+#: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
 msgstr "_Změnit velikost obrázků..."
 
-#: image-converter/caja-image-converter.c:121
+#: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
 msgstr "Změnit velikost každého vybraného obrázku"
 
-#: image-converter/caja-image-converter.c:130
+#: image-converter/caja-image-converter.c:131
 msgid "Ro_tate Images..."
 msgstr "_Otočit obrázky..."
 
-#: image-converter/caja-image-converter.c:131
+#: image-converter/caja-image-converter.c:132
 msgid "Rotate each selected image"
 msgstr "Otočit každý vybraný obrázek"
 
@@ -150,18 +162,18 @@ msgstr "Změnit velikost v místě"
 msgid "Filename"
 msgstr "Název souboru"
 
-#: image-converter/caja-image-resizer.c:293
+#: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "Mění se velikost obrázku: %d z %d"
 
-#: image-converter/caja-image-resizer.c:298
+#: image-converter/caja-image-resizer.c:294
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>Mění se velikost u \"%s\"</i>"
 
-#: image-converter/caja-image-resizer.c:316
-#: image-converter/caja-image-rotator.c:315
+#: image-converter/caja-image-resizer.c:314
+#: image-converter/caja-image-rotator.c:306
 msgid "Please enter a valid filename suffix!"
 msgstr "Prosím vložte správnou příponu souboru!"
 
@@ -209,12 +221,12 @@ msgstr ".otočené"
 msgid "Rotate in place"
 msgstr "Otočit na místě"
 
-#: image-converter/caja-image-rotator.c:292
+#: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Otočit obrázek: %d z %d"
 
-#: image-converter/caja-image-rotator.c:297
+#: image-converter/caja-image-rotator.c:289
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>Otáčí se \"%s\"</i>"
@@ -237,41 +249,41 @@ msgstr ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 vývojáři MATE"
 
-#: open-terminal/caja-open-terminal.c:459
-#: open-terminal/caja-open-terminal.c:472
+#: open-terminal/caja-open-terminal.c:460
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open in _Terminal"
 msgstr "Otevřít v _Terminálu"
 
-#: open-terminal/caja-open-terminal.c:461
+#: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
 msgstr "Otevřít aktuálně označený adresář v terminálu"
 
-#: open-terminal/caja-open-terminal.c:463
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:464
+#: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
 msgstr "Otevřít aktuálně otevřený adresář v terminálu"
 
-#: open-terminal/caja-open-terminal.c:469
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
 msgstr "Otevřít _terminál"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
 msgstr "Otevřít terminál"
 
-#: open-terminal/caja-open-terminal.c:563
+#: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
 msgstr "Otevřít Domov při pokusu o otevření pracovní plochy"
 
-#: open-terminal/caja-open-terminal.c:566
+#: open-terminal/caja-open-terminal.c:567
 msgid "Terminal application:"
 msgstr "Aplikace terminálu:"
 
-#: open-terminal/caja-open-terminal.c:586
+#: open-terminal/caja-open-terminal.c:587
 msgid "Close"
 msgstr "Zavřené"
 
-#: open-terminal/caja-open-terminal.c:592
+#: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"
 msgstr "Konfigurace open-terminal"
 
@@ -306,43 +318,43 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
-"Pokud je nastavení povoleno, pak otevření terminálu na ploše bude otevírat "
-"terminál v domovském adresáři. V opačném případě bude otevřen v adresáři "
-"plochy. Všimněte si, že tento klíč je irelevantní pokud je adresář plochy "
-"totožný s domovským adresářem."
+"Pokud je „true”, pak otevření terminálu na ploše bude otevírat terminál v "
+"domovském adresáři. V opačném případě bude otevřen v adresáři plochy. "
+"Všimněte si, že tento klíč je irelevantní, pokud je adresář plochy totožný s"
+" domovským adresářem."
 
-#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
+#: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
 msgstr "Poslat..."
 
-#: sendto/caja-nste.c:77
+#: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
 msgstr "Odeslat soubor e-mailem, rychlou zprávou..."
 
-#: sendto/caja-nste.c:82
+#: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
 msgstr "Odeslat soubory e-mailem, rychlou zprávou..."
 
-#: sendto/caja-sendto-command.c:568
+#: sendto/caja-sendto-command.c:574
 msgid "Files"
 msgstr "Soubory"
 
-#: sendto/caja-sendto-command.c:788
+#: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
 "Jako možnosti očekává zadané URI tzn. jednotné identifikátory zdroje nebo "
 "názvy souborů⏎\n"
 
-#: sendto/caja-sendto-command.c:808
+#: sendto/caja-sendto-command.c:816
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nelze zpracovat volby příkazové řádky: %s⏎\n"
 
-#: sendto/caja-sendto-command.c:823
+#: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
 msgstr "Nelze nahrát žádné zásuvné moduly."
 
-#: sendto/caja-sendto-command.c:826
+#: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
 msgstr "Prosím zkontrolujte svoji instalaci"
 
@@ -424,27 +436,27 @@ msgstr "popisek"
 msgid "Email"
 msgstr "E-mail"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Nelze odeslat soubor"
 
-#: sendto/plugins/gajim/gajim.c:421
+#: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Neexistuje spojení ke vzdálené službě gajim."
 
-#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Odesílání souboru selhalo"
 
-#: sendto/plugins/gajim/gajim.c:446
+#: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Chybí příjemce."
 
-#: sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Neznámý příjemce."
 
-#: sendto/plugins/gajim/gajim.c:508
+#: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Rychlá zpráva (Gajim)"
 
@@ -456,7 +468,7 @@ msgstr "Nové CD/DVD"
 msgid "Existing CD/DVD"
 msgstr "Existující CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:179
+#: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "Tvůrce CD/DVD"
 
@@ -472,7 +484,7 @@ msgstr "Výměnné disky a sdílené složky"
 msgid "UPnP Media Server"
 msgstr "Multimediální server UPnP"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
 msgid "Share"
 msgstr "Sdílet"
 
@@ -546,11 +558,11 @@ msgstr "Chyba při získávání informací o sdílení: %s"
 msgid "Another share has the same name"
 msgstr "Tento název je už používán pro jiné sdílení"
 
-#: share/caja-share.c:558 share/caja-share.c:792
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Modify _Share"
 msgstr "Upravit _Sdílení"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:558 share/caja-share.c:796
 msgid "Create _Share"
 msgstr "Vytvořit _Sdílení"
 
@@ -558,15 +570,15 @@ msgstr "Vytvořit _Sdílení"
 msgid "There was an error while getting the sharing information"
 msgstr "Došlo k chybě při získávání informací o sdílení"
 
-#: share/caja-share.c:1116 share/share-dialog.ui:48
+#: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Sdílená složka"
 
-#: share/caja-share.c:1157
+#: share/caja-share.c:1159
 msgid "Sharing Options"
 msgstr "Možnosti sdílení"
 
-#: share/caja-share.c:1158
+#: share/caja-share.c:1160
 msgid "Share this Folder"
 msgstr "Sdílet složku"
 
@@ -594,59 +606,59 @@ msgstr "_Přístup pro hosta (pro lidi bez uživatelského účtu)"
 msgid "_Save"
 msgstr "_Uložit"
 
-#: share/shares.c:122
+#: share/shares.c:127
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s se vrátil se signálem %d"
 
-#: share/shares.c:131
+#: share/shares.c:136
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s selhal z neznámého důvodu"
 
-#: share/shares.c:151
+#: share/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' vrátil chybu %d: %s"
 
-#: share/shares.c:153
+#: share/shares.c:158
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' vrátil chybu %d"
 
-#: share/shares.c:184
+#: share/shares.c:189
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "výstup z 'net usershare' není v kódování UTF-8"
 
-#: share/shares.c:438 share/shares.c:612
+#: share/shares.c:443 share/shares.c:617
 msgid "Failed"
 msgstr "Nepodařilo se"
 
-#: share/shares.c:546
+#: share/shares.c:551
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba's testparm vrátil signál %d"
 
-#: share/shares.c:552
+#: share/shares.c:557
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba's testparm z neznámého důvodu selhal"
 
-#: share/shares.c:567
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba's testparm vrátil chybu %d: %s"
 
-#: share/shares.c:569
+#: share/shares.c:574
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba's testparm vrátil chybu %d"
 
-#: share/shares.c:680
+#: share/shares.c:685
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Nelze odstranit sdílení pro cestu %s: tato cesta není sdílena"
 
-#: share/shares.c:726
+#: share/shares.c:731
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -654,11 +666,11 @@ msgstr ""
 "Nelze změnit cestu stávajícího sdílení; prosím odstraňte nejprve původní "
 "sdílení a pak přidejte nové"
 
-#: wallpaper/caja-wallpaper-extension.c:105
+#: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
 msgstr "Nastavit jako pozadí plochy"
 
-#: wallpaper/caja-wallpaper-extension.c:106
+#: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
 msgstr "Nastavit jako pozadí plochy"
 
@@ -678,11 +690,11 @@ msgstr ""
 "Copyright (C) 2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 vývojáři MATE"
 
-#: xattr-tags/caja-xattr-tags-extension.c:177
+#: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
 msgstr "Štítky"
 
-#: xattr-tags/caja-xattr-tags-extension.c:178
+#: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"
 msgstr "Štítky uložené v rozšířených atributech"
 

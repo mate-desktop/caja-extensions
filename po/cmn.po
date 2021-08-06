@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 趙惟倫 <bluebat@member.fsf.org>, 2020
+# 趙惟倫 <bluebat@member.fsf.org>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-01-16 11:30+0100\n"
+"POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: 趙惟倫 <bluebat@member.fsf.org>, 2020\n"
+"Last-Translator: 趙惟倫 <bluebat@member.fsf.org>, 2021\n"
 "Language-Team: Chinese (Mandarin) (https://www.transifex.com/mate/teams/13566/cmn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,15 +20,15 @@ msgstr ""
 "Language: cmn\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: gksu/libcaja-gksu.c:135
+#: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
 msgstr "以管理員身分開啟"
 
-#: gksu/libcaja-gksu.c:136
+#: gksu/libcaja-gksu.c:133
 msgid "Opens the file with administrator privileges"
 msgstr "以管理員權限開啟檔案"
 
-#: gksu/libcaja-gksu.c:223
+#: gksu/libcaja-gksu.c:190
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -37,6 +37,18 @@ msgstr ""
 "<big><b>無法決定要運行的程式。</b></big>\n"
 "\n"
 "您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
+
+#: gksu/libcaja-gksu.c:226
+msgid ""
+"<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
+msgstr ""
+
+#: gksu/libcaja-gksu.c:253
+#, c-format
+msgid "Error: %s"
+msgstr "錯誤：%s"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -53,19 +65,19 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: image-converter/caja-image-converter.c:120
+#: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
 msgstr "調整圖像大小(_R)…"
 
-#: image-converter/caja-image-converter.c:121
+#: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
 msgstr "調整每個已選圖像的大小"
 
-#: image-converter/caja-image-converter.c:130
+#: image-converter/caja-image-converter.c:131
 msgid "Ro_tate Images..."
 msgstr "旋轉圖像(_T)…"
 
-#: image-converter/caja-image-converter.c:131
+#: image-converter/caja-image-converter.c:132
 msgid "Rotate each selected image"
 msgstr "旋轉每個已選圖像"
 
@@ -139,18 +151,18 @@ msgstr "適當調整大小"
 msgid "Filename"
 msgstr "檔案名稱"
 
-#: image-converter/caja-image-resizer.c:293
+#: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "調整圖像大小：%2$d 中的 %1$d"
 
-#: image-converter/caja-image-resizer.c:298
+#: image-converter/caja-image-resizer.c:294
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>正在調整「%s」的大小</i>"
 
-#: image-converter/caja-image-resizer.c:316
-#: image-converter/caja-image-rotator.c:315
+#: image-converter/caja-image-resizer.c:314
+#: image-converter/caja-image-rotator.c:306
 msgid "Please enter a valid filename suffix!"
 msgstr "請輸入有效的檔名字尾！"
 
@@ -198,12 +210,12 @@ msgstr ".rotated"
 msgid "Rotate in place"
 msgstr "適當旋轉"
 
-#: image-converter/caja-image-rotator.c:292
+#: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "旋轉圖像：%2$d 中的 %1$d"
 
-#: image-converter/caja-image-rotator.c:297
+#: image-converter/caja-image-rotator.c:289
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>正在旋轉「%s」</i>"
@@ -223,41 +235,41 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:459
-#: open-terminal/caja-open-terminal.c:472
+#: open-terminal/caja-open-terminal.c:460
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open in _Terminal"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:461
+#: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
 msgstr "在終端機中開啟目前已選資料夾"
 
-#: open-terminal/caja-open-terminal.c:463
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:464
+#: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
 msgstr "在終端機中開啟目前開啟資料夾"
 
-#: open-terminal/caja-open-terminal.c:469
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
 msgstr "開啟終端機(_T)"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
 msgstr "開啟一個終端機視窗"
 
-#: open-terminal/caja-open-terminal.c:563
+#: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:566
+#: open-terminal/caja-open-terminal.c:567
 msgid "Terminal application:"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:586
+#: open-terminal/caja-open-terminal.c:587
 msgid "Close"
 msgstr "關閉"
 
-#: open-terminal/caja-open-terminal.c:592
+#: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"
 msgstr ""
 
@@ -291,36 +303,36 @@ msgid ""
 msgstr ""
 "如果設定為真，那麼在桌面上開啟終端機時，終端機將於使用者家目錄開啟；否則，它將於桌面目錄開啟。要注意的是，如果桌面目錄與主目錄相同，這個鍵值則是無關緊要的。"
 
-#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
+#: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
 msgstr ""
 
-#: sendto/caja-nste.c:77
+#: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
 msgstr "藉由郵件、即時訊息…發送檔案"
 
-#: sendto/caja-nste.c:82
+#: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
 msgstr "藉由郵件、即時訊息…發送多個檔案"
 
-#: sendto/caja-sendto-command.c:568
+#: sendto/caja-sendto-command.c:574
 msgid "Files"
 msgstr "檔案"
 
-#: sendto/caja-sendto-command.c:788
+#: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "預期是 URIs 或檔名以做為傳遞選項\n"
 
-#: sendto/caja-sendto-command.c:808
+#: sendto/caja-sendto-command.c:816
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "無法剖析命令列選項：%s\n"
 
-#: sendto/caja-sendto-command.c:823
+#: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
 msgstr "無法載入任何外掛程式。"
 
-#: sendto/caja-sendto-command.c:826
+#: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
 msgstr "請驗證您的安裝"
 
@@ -395,27 +407,27 @@ msgstr "標籤"
 msgid "Email"
 msgstr "電子郵件"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "無法發送檔案"
 
-#: sendto/plugins/gajim/gajim.c:421
+#: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "沒有任何連線到 gajim 遠端服務。"
 
-#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "發送檔案失敗"
 
-#: sendto/plugins/gajim/gajim.c:446
+#: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "缺少收件者。"
 
-#: sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "不明收件者。"
 
-#: sendto/plugins/gajim/gajim.c:508
+#: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "即時訊息 (Gajim)"
 
@@ -427,7 +439,7 @@ msgstr "新的光碟"
 msgid "Existing CD/DVD"
 msgstr "現有光碟"
 
-#: sendto/plugins/caja-burn/caja-burn.c:179
+#: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "光碟建立者"
 
@@ -443,7 +455,7 @@ msgstr "抽取式磁碟與共享資料"
 msgid "UPnP Media Server"
 msgstr "UPnP 媒體伺服器"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
 msgid "Share"
 msgstr "共享"
 
@@ -512,11 +524,11 @@ msgstr "提取共享資訊時發生錯誤：%s"
 msgid "Another share has the same name"
 msgstr "與另一個共享同名"
 
-#: share/caja-share.c:558 share/caja-share.c:792
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Modify _Share"
 msgstr "修改共享(_S)"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:558 share/caja-share.c:796
 msgid "Create _Share"
 msgstr "建立共享(_S)"
 
@@ -524,15 +536,15 @@ msgstr "建立共享(_S)"
 msgid "There was an error while getting the sharing information"
 msgstr "提取共享資訊時出現了錯誤"
 
-#: share/caja-share.c:1116 share/share-dialog.ui:48
+#: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "資料夾共享"
 
-#: share/caja-share.c:1157
+#: share/caja-share.c:1159
 msgid "Sharing Options"
 msgstr "共享選項"
 
-#: share/caja-share.c:1158
+#: share/caja-share.c:1160
 msgid "Share this Folder"
 msgstr "共享這個資料夾"
 
@@ -560,69 +572,69 @@ msgstr "訪客存取 (用於不具使用帳號者)(_G)"
 msgid "_Save"
 msgstr "儲存(_S)"
 
-#: share/shares.c:122
+#: share/shares.c:127
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s 回傳了信號 %d"
 
-#: share/shares.c:131
+#: share/shares.c:136
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s 由於不明原因而失敗"
 
-#: share/shares.c:151
+#: share/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "net usershare 回傳了錯誤 %d：%s"
 
-#: share/shares.c:153
+#: share/shares.c:158
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "net usershare 回傳了錯誤 %d"
 
-#: share/shares.c:184
+#: share/shares.c:189
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "net usershare 的輸出不是有效的 UTF-8 編碼"
 
-#: share/shares.c:438 share/shares.c:612
+#: share/shares.c:443 share/shares.c:617
 msgid "Failed"
 msgstr "失敗"
 
-#: share/shares.c:546
+#: share/shares.c:551
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba 的 testparm 回傳了信號 %d"
 
-#: share/shares.c:552
+#: share/shares.c:557
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba 的 testparm 由於不明原因而失敗"
 
-#: share/shares.c:567
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba 的 testparm 回傳了錯誤 %d：%s"
 
-#: share/shares.c:569
+#: share/shares.c:574
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba 的 testparm 回傳了錯誤 %d"
 
-#: share/shares.c:680
+#: share/shares.c:685
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "無法移除共享路徑 %s：該路徑並未共享"
 
-#: share/shares.c:726
+#: share/shares.c:731
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr "無法變更現有共享的路徑；請先移除舊的共享並加入一個新的"
 
-#: wallpaper/caja-wallpaper-extension.c:105
+#: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
 msgstr ""
 
-#: wallpaper/caja-wallpaper-extension.c:106
+#: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
 msgstr ""
 
@@ -640,11 +652,11 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: xattr-tags/caja-xattr-tags-extension.c:177
+#: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
 msgstr "標籤"
 
-#: xattr-tags/caja-xattr-tags-extension.c:178
+#: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"
 msgstr ""
 

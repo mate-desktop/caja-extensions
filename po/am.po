@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# samson <sambelet@yahoo.com>, 2020
+# samson <sambelet@yahoo.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-01-16 11:30+0100\n"
+"POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: samson <sambelet@yahoo.com>, 2020\n"
+"Last-Translator: samson <sambelet@yahoo.com>, 2021\n"
 "Language-Team: Amharic (https://www.transifex.com/mate/teams/13566/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,15 +20,15 @@ msgstr ""
 "Language: am\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: gksu/libcaja-gksu.c:135
+#: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
 msgstr "እንደ አስተዳዳሪ መክፈቻ"
 
-#: gksu/libcaja-gksu.c:136
+#: gksu/libcaja-gksu.c:133
 msgid "Opens the file with administrator privileges"
 msgstr "በ አስተዳዳሪ ልዩ መብት መክፈቻ"
 
-#: gksu/libcaja-gksu.c:223
+#: gksu/libcaja-gksu.c:190
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -37,6 +37,18 @@ msgstr ""
 "<big><b>ማስኬድ የሚያስፈልገውን ፕሮግራም መወሰን አልተቻለም</b></big>\n"
 "\n"
 "የመረጡትን እቃ በአስተዳዳሪ ሀይል መክፈት አልተቻለም ምክንያቱም ትክክለኛውን መተግበሪያ መወሰን አልተቻለም "
+
+#: gksu/libcaja-gksu.c:226
+msgid ""
+"<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
+msgstr ""
+
+#: gksu/libcaja-gksu.c:253
+#, c-format
+msgid "Error: %s"
+msgstr "ስህተት : %s"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -53,19 +65,19 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: image-converter/caja-image-converter.c:120
+#: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
 msgstr "_እንደገና መመጠኛ ምስሎች..."
 
-#: image-converter/caja-image-converter.c:121
+#: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
 msgstr "የተመረጠውን ምስል እንደገና መመጠኛ"
 
-#: image-converter/caja-image-converter.c:130
+#: image-converter/caja-image-converter.c:131
 msgid "Ro_tate Images..."
 msgstr "ምስሎችን ማዞ_ሪያ..."
 
-#: image-converter/caja-image-converter.c:131
+#: image-converter/caja-image-converter.c:132
 msgid "Rotate each selected image"
 msgstr "የተመረጡትን ምስሎችን ማዞሪያ"
 
@@ -139,18 +151,18 @@ msgstr "እንደ ገና በመመጠን ላይ"
 msgid "Filename"
 msgstr "የፋይል ስም "
 
-#: image-converter/caja-image-resizer.c:293
+#: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "ምስል እንደ ገና በመመጠን ላይ: %d ከ %d"
 
-#: image-converter/caja-image-resizer.c:298
+#: image-converter/caja-image-resizer.c:294
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>እንደ ገና በመመጠን ላይ \"%s\"</i>"
 
-#: image-converter/caja-image-resizer.c:316
-#: image-converter/caja-image-rotator.c:315
+#: image-converter/caja-image-resizer.c:314
+#: image-converter/caja-image-rotator.c:306
 msgid "Please enter a valid filename suffix!"
 msgstr "እባክዎን ዋጋ ያለው የ ፋይል ስም መድረሻ ያስገቡ"
 
@@ -198,12 +210,12 @@ msgstr ".ዞሯል"
 msgid "Rotate in place"
 msgstr "በማዞር ላይ"
 
-#: image-converter/caja-image-rotator.c:292
+#: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "ምስል በማዞር ላይ: %d ከ %d"
 
-#: image-converter/caja-image-rotator.c:297
+#: image-converter/caja-image-rotator.c:289
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>በ ማዞር ላይ \"%s\"</i>"
@@ -223,41 +235,41 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:459
-#: open-terminal/caja-open-terminal.c:472
+#: open-terminal/caja-open-terminal.c:460
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open in _Terminal"
 msgstr "_በተርሚናል ውስጥ መክፈቻ "
 
-#: open-terminal/caja-open-terminal.c:461
+#: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
 msgstr "አሁን የተመረጠውን ፎልደር በ ተርሚናል ውስጥ መክፈቻ"
 
-#: open-terminal/caja-open-terminal.c:463
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:464
+#: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
 msgstr "አሁን የተከፈተውን ፎልደር በ ተርሚናል ውስጥ መክፈቻ"
 
-#: open-terminal/caja-open-terminal.c:469
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
 msgstr "ተርሚናል _መክፈቻ"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
 msgstr "ተርሚናል _መክፈቻ"
 
-#: open-terminal/caja-open-terminal.c:563
+#: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:566
+#: open-terminal/caja-open-terminal.c:567
 msgid "Terminal application:"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:586
+#: open-terminal/caja-open-terminal.c:587
 msgid "Close"
 msgstr "መዝጊያ"
 
-#: open-terminal/caja-open-terminal.c:592
+#: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"
 msgstr ""
 
@@ -293,36 +305,36 @@ msgstr ""
 "ዴስክቶፕ ዳይሬክቶሪ ውስጥ ይከፍታል: ማስታወሻ: ይህ ቁልፍ ዋጋ አይኖረውም የ ዴስክቶፕ ዳይሬክቶሪ ተመሳሳይ ከሆነ ከ "
 "ቤት ዳይሬክቶሪ ጋር"
 
-#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
+#: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
 msgstr "መላኪያ ወደ..."
 
-#: sendto/caja-nste.c:77
+#: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
 msgstr "ፋይል በ ደብዳቤ መላኪያ በ አስቸኳይ መልእክት..."
 
-#: sendto/caja-nste.c:82
+#: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
 msgstr "ፋይል በ ደብዳቤ መላኪያ በ አስቸኳይ መልእክት..."
 
-#: sendto/caja-sendto-command.c:568
+#: sendto/caja-sendto-command.c:574
 msgid "Files"
 msgstr "ፋይሎች"
 
-#: sendto/caja-sendto-command.c:788
+#: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "ይጠብቃል URIs ወይንም የ ፋይል ስሞች እንደ ምርጫ እስኪያልፉ ድረስ\n"
 
-#: sendto/caja-sendto-command.c:808
+#: sendto/caja-sendto-command.c:816
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "የትእዛዝ - መስመር ምርጫዎችን መተንተን አልተቻለም : %s\n"
 
-#: sendto/caja-sendto-command.c:823
+#: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
 msgstr "ተሰኪዎችን መጫን አልተቻለም"
 
-#: sendto/caja-sendto-command.c:826
+#: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
 msgstr "እባክዎን አገጣጠሞን ይመርምሩ"
 
@@ -397,27 +409,27 @@ msgstr "ምልክት"
 msgid "Email"
 msgstr "ኢሜይል"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "ፋይሉን መላክ አልተቻለም"
 
-#: sendto/plugins/gajim/gajim.c:421
+#: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "ግንኙነት የለም ወደ ጋጂም የርቀት አገልግሎት"
 
-#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "ፋይሉን መላክ አልተሳካም"
 
-#: sendto/plugins/gajim/gajim.c:446
+#: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "ተቀባይ አልተገኘም"
 
-#: sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "ያልታወቀ ተቀባይ"
 
-#: sendto/plugins/gajim/gajim.c:508
+#: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "  አስቸኳይ መልእክተኛ (ጋጂም)"
 
@@ -429,7 +441,7 @@ msgstr "አዲስ ሲዲ/ዲቪዲ"
 msgid "Existing CD/DVD"
 msgstr "ነባር ሲዲ/ዲቪዲ"
 
-#: sendto/plugins/caja-burn/caja-burn.c:179
+#: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "ሲዲ/ዲቪዲ መፍጠሪያ"
 
@@ -445,7 +457,7 @@ msgstr "የሚወልቁ ዲስኮች እና የሚካፈሉዋቸው"
 msgid "UPnP Media Server"
 msgstr "UPnP Media Server"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
 msgid "Share"
 msgstr "ማካፈያ"
 
@@ -514,11 +526,11 @@ msgstr "የ ማካፈያ መረጃ በማግኘት ላይ እንዳለ ስህተ
 msgid "Another share has the same name"
 msgstr "ሌ ማካፈያ በዚህ ስም አለ"
 
-#: share/caja-share.c:558 share/caja-share.c:792
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Modify _Share"
 msgstr "_ማካፈያ ማሻሻያ"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:558 share/caja-share.c:796
 msgid "Create _Share"
 msgstr "_ማካፈያ መፍጠሪያ"
 
@@ -526,15 +538,15 @@ msgstr "_ማካፈያ መፍጠሪያ"
 msgid "There was an error while getting the sharing information"
 msgstr "የ ማካፈያ መረጃ በማግኘት ላይ እንዳለ ስህተተ ተፈጥሯል"
 
-#: share/caja-share.c:1116 share/share-dialog.ui:48
+#: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "ፎልደር ማካፈያ"
 
-#: share/caja-share.c:1157
+#: share/caja-share.c:1159
 msgid "Sharing Options"
 msgstr "የማካፈያ ምርጫዎች"
 
-#: share/caja-share.c:1158
+#: share/caja-share.c:1160
 msgid "Share this Folder"
 msgstr "ይህን ፎልደር ማካፈያ"
 
@@ -562,70 +574,70 @@ msgstr "ለ _እንግዳ መድረሻ (የተጠቃሚ መግለጫ ለሌላ�
 msgid "_Save"
 msgstr "_ማስቀመጫ"
 
-#: share/shares.c:122
+#: share/shares.c:127
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s የተመለሰው በ ምልክት %d"
 
-#: share/shares.c:131
+#: share/shares.c:136
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s ባልታወቀ ምክንያት ወድቋል"
 
-#: share/shares.c:151
+#: share/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' ስህተት መልሷል %d: %s"
 
-#: share/shares.c:153
+#: share/shares.c:158
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' ስህተት መልሷል %d"
 
-#: share/shares.c:184
+#: share/shares.c:189
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "ውጤቱ የ 'ኔት ተጠቃሚዎች ማካፈያ' ዋጋ ያለው የ UTF-8 encoding አይደለም"
 
-#: share/shares.c:438 share/shares.c:612
+#: share/shares.c:443 share/shares.c:617
 msgid "Failed"
 msgstr "አልተሳካም"
 
-#: share/shares.c:546
+#: share/shares.c:551
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba's testparm returned with signal %d"
 
-#: share/shares.c:552
+#: share/shares.c:557
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba's testparm failed for an unknown reason"
 
-#: share/shares.c:567
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba's testparm returned error %d: %s"
 
-#: share/shares.c:569
+#: share/shares.c:574
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba's testparm returned error %d"
 
-#: share/shares.c:680
+#: share/shares.c:685
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "ማስወገድ አይቻልም ማካፈያ ለ %s: ይህ መንገድ የሚካፈሉት አይደለም"
 
-#: share/shares.c:726
+#: share/shares.c:731
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
 "የ ነበረውን ማካፈያ መንገድ መቀየር አይቻልም: እባክዎን አሮጌውን ማካፈያ ያጥፉ በ መጀመሪያ እና አዲስ ይጨምሩ"
 
-#: wallpaper/caja-wallpaper-extension.c:105
+#: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
 msgstr "እንደ ግድግዳ ወረቀት ማሰናጃ"
 
-#: wallpaper/caja-wallpaper-extension.c:106
+#: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
 msgstr "ምስሉን እንደ ግድግዳ ወረቀት አሁን ማሰናጃ..."
 
@@ -643,11 +655,11 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: xattr-tags/caja-xattr-tags-extension.c:177
+#: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
 msgstr "Tags"
 
-#: xattr-tags/caja-xattr-tags-extension.c:178
+#: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"
 msgstr "በ ተስፋፋ መለያዎች ውስጥ የ ተቀመጡ Tags"
 

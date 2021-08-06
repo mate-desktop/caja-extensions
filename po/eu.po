@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2020
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # David García-Abad <dgarciabad@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-01-16 11:30+0100\n"
+"POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: David García-Abad <dgarciabad@gmail.com>, 2020\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
 "Language-Team: Basque (https://www.transifex.com/mate/teams/13566/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,15 +22,15 @@ msgstr ""
 "Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: gksu/libcaja-gksu.c:135
+#: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
 msgstr "Ireki administratzaile bezala"
 
-#: gksu/libcaja-gksu.c:136
+#: gksu/libcaja-gksu.c:133
 msgid "Opens the file with administrator privileges"
 msgstr "Fitxategia administratzaile baimenekin irekitzen du"
 
-#: gksu/libcaja-gksu.c:223
+#: gksu/libcaja-gksu.c:190
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -39,6 +39,18 @@ msgstr ""
 "<big><b>Ezin izan da erabaki exekutatu beharreko programa.</b></big>\n"
 "\n"
 "Hautatu duzun elementua ezin da administratzaile baimenekin ireki aplikazio egokia zein den ezin izan delako erabaki."
+
+#: gksu/libcaja-gksu.c:226
+msgid ""
+"<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
+"\n"
+"The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
+msgstr ""
+
+#: gksu/libcaja-gksu.c:253
+#, c-format
+msgid "Error: %s"
+msgstr "Errorea: %s"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -55,19 +67,19 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: image-converter/caja-image-converter.c:120
+#: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
 msgstr "_Aldatu tamainaz irudiak..."
 
-#: image-converter/caja-image-converter.c:121
+#: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
 msgstr "Aldatu tamainaz hautatutako irudi bakoitza"
 
-#: image-converter/caja-image-converter.c:130
+#: image-converter/caja-image-converter.c:131
 msgid "Ro_tate Images..."
 msgstr "_Biratu irudiak..."
 
-#: image-converter/caja-image-converter.c:131
+#: image-converter/caja-image-converter.c:132
 msgid "Rotate each selected image"
 msgstr "Biratu hautatutako irudi bakoitza"
 
@@ -141,18 +153,18 @@ msgstr "Gainidatzi jatorrizkoa tamainaz aldatutakoarekin"
 msgid "Filename"
 msgstr "Fitxategia"
 
-#: image-converter/caja-image-resizer.c:293
+#: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
 msgstr "Irudia tamainaz aldatzen: %d / %d"
 
-#: image-converter/caja-image-resizer.c:298
+#: image-converter/caja-image-resizer.c:294
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
 msgstr "<i>\"%s\" tamainaz aldatzen</i>"
 
-#: image-converter/caja-image-resizer.c:316
-#: image-converter/caja-image-rotator.c:315
+#: image-converter/caja-image-resizer.c:314
+#: image-converter/caja-image-rotator.c:306
 msgid "Please enter a valid filename suffix!"
 msgstr "Mesedez, sartu baliozko fitxategi-izen atzizki bat!"
 
@@ -200,12 +212,12 @@ msgstr ".biratua"
 msgid "Rotate in place"
 msgstr "Gainidatzi jatorrizkoa biratutakoarekin"
 
-#: image-converter/caja-image-rotator.c:292
+#: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
 msgstr "Irudia biratzen: %d / %d"
 
-#: image-converter/caja-image-rotator.c:297
+#: image-converter/caja-image-rotator.c:289
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
 msgstr "<i>\"%s\" biratzen</i>"
@@ -225,41 +237,41 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:459
-#: open-terminal/caja-open-terminal.c:472
+#: open-terminal/caja-open-terminal.c:460
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open in _Terminal"
 msgstr "Ireki _terminalean"
 
-#: open-terminal/caja-open-terminal.c:461
+#: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
 msgstr "Ireki unean hautatutako karpeta terminal batean"
 
-#: open-terminal/caja-open-terminal.c:463
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:464
+#: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
 msgstr "Ireki unean irekitako karpeta terminalean"
 
-#: open-terminal/caja-open-terminal.c:469
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
 msgstr "Ireki _terminala"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
 msgstr "Ireki terminal bat"
 
-#: open-terminal/caja-open-terminal.c:563
+#: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
 msgstr "Ireki Hasieran idazmahaian irekitzen saiatuz gero"
 
-#: open-terminal/caja-open-terminal.c:566
+#: open-terminal/caja-open-terminal.c:567
 msgid "Terminal application:"
 msgstr "Terminal gisa erabiltzeko aplikazioa:"
 
-#: open-terminal/caja-open-terminal.c:586
+#: open-terminal/caja-open-terminal.c:587
 msgid "Close"
 msgstr "Itxi"
 
-#: open-terminal/caja-open-terminal.c:592
+#: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"
 msgstr ""
 
@@ -298,36 +310,36 @@ msgstr ""
 "Kontutan izan honek ez duela zentzurik mahaigaineko direktorioa eta "
 "direktorio nagusia bat datozenean."
 
-#: sendto/caja-nste.c:76 sendto/caja-nste.c:81
+#: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
 msgstr "Bidali honi..."
 
-#: sendto/caja-nste.c:77
+#: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
 msgstr "Bidali fitxategia posta elektrikoz, berehalako mezularitzaz..."
 
-#: sendto/caja-nste.c:82
+#: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
 msgstr "Bidali fitxategiak posta elektrikoz, berehalako mezularitzaz..."
 
-#: sendto/caja-sendto-command.c:568
+#: sendto/caja-sendto-command.c:574
 msgid "Files"
 msgstr "Fitxategiak"
 
-#: sendto/caja-sendto-command.c:788
+#: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "URIak edo fitxategi-izenak aukera gisa pasatzea espero da\n"
 
-#: sendto/caja-sendto-command.c:808
+#: sendto/caja-sendto-command.c:816
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Ezin izan dira komando-lerroko aukerak analizatu: %s\n"
 
-#: sendto/caja-sendto-command.c:823
+#: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
 msgstr "Ezin izan da pluginik kargatu."
 
-#: sendto/caja-sendto-command.c:826
+#: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
 msgstr "Mesedez egiaztatu instalazioa"
 
@@ -406,27 +418,27 @@ msgstr "etiketa"
 msgid "Email"
 msgstr "Helb. el."
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
 msgstr "Ezin da fitxategia bidali"
 
-#: sendto/plugins/gajim/gajim.c:421
+#: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
 msgstr "Ez dago konexiorik urruneko gajim zerbitzuarekin."
 
-#: sendto/plugins/gajim/gajim.c:445 sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
 msgstr "Huts egin du fitxategia bidaltzean"
 
-#: sendto/plugins/gajim/gajim.c:446
+#: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
 msgstr "Hartzailea falta da."
 
-#: sendto/plugins/gajim/gajim.c:485
+#: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
 msgstr "Hartzaile ezezaguna."
 
-#: sendto/plugins/gajim/gajim.c:508
+#: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
 msgstr "Berehalako mezularitza (Gajim)"
 
@@ -438,7 +450,7 @@ msgstr "CD/DVD berria"
 msgid "Existing CD/DVD"
 msgstr "Existitzen den CD/DVDa"
 
-#: sendto/plugins/caja-burn/caja-burn.c:179
+#: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
 msgstr "CD/DVD sortzailea"
 
@@ -454,7 +466,7 @@ msgstr "Unitate eta euskarri aldagarriak"
 msgid "UPnP Media Server"
 msgstr "UPnP multimedia zerbitzaria"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1056
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
 msgid "Share"
 msgstr "Partekatu"
 
@@ -525,11 +537,11 @@ msgstr "Errorea partekatze informazioa eskuratzean: %s"
 msgid "Another share has the same name"
 msgstr "Beste partekatze batek izen bera dauka"
 
-#: share/caja-share.c:558 share/caja-share.c:792
+#: share/caja-share.c:558 share/caja-share.c:794
 msgid "Modify _Share"
 msgstr "Aldatu _partekatzea"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:558 share/caja-share.c:796
 msgid "Create _Share"
 msgstr "Sortu _partekatzea"
 
@@ -537,15 +549,15 @@ msgstr "Sortu _partekatzea"
 msgid "There was an error while getting the sharing information"
 msgstr "Errore bat gertatu da partekatzearen informazioa eskuratzean"
 
-#: share/caja-share.c:1116 share/share-dialog.ui:48
+#: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Karpetak partekatzea"
 
-#: share/caja-share.c:1157
+#: share/caja-share.c:1159
 msgid "Sharing Options"
 msgstr "Partekatze aukerak"
 
-#: share/caja-share.c:1158
+#: share/caja-share.c:1160
 msgid "Share this Folder"
 msgstr "Partekatu karpeta hau"
 
@@ -573,59 +585,59 @@ msgstr "_Gonbidatu sarbidea (erabiltzaile konturik ez dutenentzat)"
 msgid "_Save"
 msgstr "_Gorde"
 
-#: share/shares.c:122
+#: share/shares.c:127
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s itzuli da %d seinalearekin"
 
-#: share/shares.c:131
+#: share/shares.c:136
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s(e)k huts egin du arrazoi ezezagun batengatik"
 
-#: share/shares.c:151
+#: share/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare'-k %d errorea itzuli du: %s"
 
-#: share/shares.c:153
+#: share/shares.c:158
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare'-k %d errorea itzuli du"
 
-#: share/shares.c:184
+#: share/shares.c:189
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "'net usershare'-ren irteera ez dago baliozko UTF-8 kodeketan"
 
-#: share/shares.c:438 share/shares.c:612
+#: share/shares.c:443 share/shares.c:617
 msgid "Failed"
 msgstr "Huts egin du"
 
-#: share/shares.c:546
+#: share/shares.c:551
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Sambaren testparm %d seinalearekin itzuli da"
 
-#: share/shares.c:552
+#: share/shares.c:557
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Sambaren testparm-ek huts egin du arrazoi ezezagun batengatik"
 
-#: share/shares.c:567
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Sambaren testparm-ek %d errorea itzuli du: %s"
 
-#: share/shares.c:569
+#: share/shares.c:574
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Sambaren testparm-ek %d errorea itzuli du"
 
-#: share/shares.c:680
+#: share/shares.c:685
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "Ezin izan da %s partekatzearen bidea kendu: bidea ez dago partekatuta"
 
-#: share/shares.c:726
+#: share/shares.c:731
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -633,11 +645,11 @@ msgstr ""
 "Ezin da existitzen den partekatzearen bidea aldatu; mesedez kendu partekatze"
 " zaharra lehenik eta ondoren gehitu berria"
 
-#: wallpaper/caja-wallpaper-extension.c:105
+#: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
 msgstr "Ezarri horma-paper bezala"
 
-#: wallpaper/caja-wallpaper-extension.c:106
+#: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
 msgstr "Ezarri irudia uneko horma-paper bezala"
 
@@ -655,11 +667,11 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: xattr-tags/caja-xattr-tags-extension.c:177
+#: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
 msgstr "Etiketak"
 
-#: xattr-tags/caja-xattr-tags-extension.c:178
+#: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"
 msgstr "Atributu hedatuetan gordetako etiketak"
 

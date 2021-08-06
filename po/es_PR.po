@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Yogesh K S <yogesh@karnatakaeducation.org.in>, 2018
-# karthik holla <karthikholla87@gmail.com>, 2018
+# Neverest <happytoast27@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # 
 msgid ""
@@ -15,12 +14,12 @@ msgstr ""
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
-"Language-Team: Kannada (https://www.transifex.com/mate/teams/13566/kn/)\n"
+"Language-Team: Spanish (Puerto Rico) (https://www.transifex.com/mate/teams/13566/es_PR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: es_PR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
@@ -47,7 +46,7 @@ msgstr ""
 #: gksu/libcaja-gksu.c:253
 #, c-format
 msgid "Error: %s"
-msgstr "ದೋಷ: %s"
+msgstr "Error: %s"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -88,11 +87,11 @@ msgstr ""
 #: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
 #: share/share-dialog.ui:249
 msgid "_Cancel"
-msgstr "ರದ್ದು ಮಾಡಲಾಗಿದೆ(_C)"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:69
 msgid "_Resize"
-msgstr "ಗಾತ್ರ ಬದಲಾಯಿಸು"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
@@ -101,7 +100,7 @@ msgstr ""
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "ಪಿಕ್ಸೆಲ್‍ಗಳು"
+msgstr "píxeles"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
@@ -117,11 +116,11 @@ msgstr ""
 
 #: image-converter/caja-image-resize.ui:259
 msgid "Width:"
-msgstr "ಅಗಲ:"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:283
 msgid "Height:"
-msgstr "ಎತ್ತರ:"
+msgstr "Alto:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
@@ -148,7 +147,7 @@ msgstr ""
 #: image-converter/caja-image-resize.ui:438
 #: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
-msgstr "ಕಡತದ ಹೆಸರು"
+msgstr ""
 
 #: image-converter/caja-image-resizer.c:287
 #, c-format
@@ -250,7 +249,7 @@ msgstr ""
 
 #: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
-msgstr "ಟರ್ಮಿನಲ್ ಅನ್ನು ತೆರೆ(_T)"
+msgstr ""
 
 #: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
@@ -266,7 +265,7 @@ msgstr ""
 
 #: open-terminal/caja-open-terminal.c:587
 msgid "Close"
-msgstr "ಮುಚ್ಚು"
+msgstr ""
 
 #: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"
@@ -307,36 +306,36 @@ msgstr ""
 
 #: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
-msgstr "ಕಡತವನ್ನು ಮೇಲ್‌ನ ಮೂಲಕ, ಕ್ಷಿಪ್ರ ಸಂದೇಶದ ಮೂಲಕ ಕಳುಹಿಸಿ..."
+msgstr ""
 
 #: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
-msgstr "ಕಡತಗಳನ್ನು ಮೇಲ್‌ನ ಮೂಲಕ, ಕ್ಷಿಪ್ರ ಸಂದೇಶದ ಮೂಲಕ ಕಳುಹಿಸಿ..."
+msgstr ""
 
 #: sendto/caja-sendto-command.c:574
 msgid "Files"
-msgstr "ಕಡತಗಳು"
+msgstr ""
 
 #: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "URIಗಳ ಅಥವ ಕಡತದ ಹೆಸರುಗಳನ್ನು ಆಯ್ಕೆಗಳಾಗಿ ನೀಡುವಂತೆ ಅಪೇಕ್ಷಿಸುತ್ತದೆ\n"
+msgstr ""
 
 #: sendto/caja-sendto-command.c:816
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "ಆಜ್ಞಾ-ಸಾಲಿನ ಆಯ್ಕೆಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡಲಾಗಿಲ್ಲ: %s\n"
+msgstr ""
 
 #: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
-msgstr "ಯಾವುದೆ ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ."
+msgstr ""
 
 #: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
-msgstr "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಅನುಸ್ಥಾಪನೆಯನ್ನು ಪರಿಶೀಲಿಸಿ"
+msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
-msgstr "ಇಲ್ಲಿಗೆ ಕಳುಹಿಸು"
+msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:6
 msgid "Integrates email clients and Pidgin"
@@ -371,7 +370,7 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:17
 msgid "Send To..."
-msgstr "ಇಲ್ಲಿಗೆ ಕಳುಹಿಸು..."
+msgstr ""
 
 #: sendto/caja-sendto.ui:54
 msgid "Send"
@@ -379,11 +378,11 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:116
 msgid "Send _as:"
-msgstr "ಹೀಗೆ ಕಳುಹಿಸು(_a):"
+msgstr ""
 
 #: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
-msgstr "ಇಲ್ಲಿಗೆ ಕಳುಹಿಸು(_o):"
+msgstr ""
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
@@ -391,7 +390,7 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
-msgstr "ಪ್ಯಾಕ್‌ ಮಾಡಿದ್ದನ್ನು ಇಲ್ಲಿ ಕಳುಹಿಸು(_p):"
+msgstr ""
 
 #: sendto/caja-sendto.ui:258
 msgid "Compression"
@@ -399,59 +398,59 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:300
 msgid "label"
-msgstr "ಲೇಬಲ್"
+msgstr ""
 
 #: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
-msgstr "ಇಮೇಲ್"
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr "ಕಡತವನ್ನು ಕಳುಹಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr "gajim ದೂರಸ್ಥ ಸೇವೆಗೆ ಯಾವುದೆ ಸಂಪರ್ಕವಿಲ್ಲ."
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr "ಕಡತವನ್ನು ಕಳುಹಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr "ಸ್ವೀಕರಿಸುವವರ ವಿಳಾಸವಿಲ್ಲ."
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr "ಸ್ವೀಕರಿಸುವವರ ಬಗೆಗೆ ತಿಳಿದಿಲ್ಲ."
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr "ಕ್ಷಿಪ್ರ ಸಂದೇಶ (Gajim)"
+msgstr ""
 
 #: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
-msgstr "ಹೊಸ CD/DVD"
+msgstr ""
 
 #: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
-msgstr "ಈಗಿರುವ CD/DVD"
+msgstr ""
 
 #: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "CD/DVD ನಿರ್ಮಾಣಗಾರ"
+msgstr ""
 
 #: sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr "ಕ್ಷಿಪ್ರ ಸಂದೇಶ (Pidgin)"
+msgstr ""
 
 #: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
-msgstr "ತೆಗೆಯಬಹುದಾದ ಡಿಸ್ಕುಗಳು ಹಾಗು ಹಂಚಿಕೆಗಳು"
+msgstr ""
 
 #: sendto/plugins/upnp/upnp.c:313
 msgid "UPnP Media Server"
-msgstr "UPnP ಮಾಧ್ಯಮ ಪರಿಚಾರಕ"
+msgstr ""
 
 #: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
 msgid "Share"
@@ -554,7 +553,7 @@ msgstr ""
 
 #: share/share-dialog.ui:133
 msgid "Co_mment:"
-msgstr "ಅಭಿಪ್ರಾಯ(_m):"
+msgstr ""
 
 #: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
@@ -566,7 +565,7 @@ msgstr ""
 
 #: share/share-dialog.ui:264
 msgid "_Save"
-msgstr "ಉಳಿಸು(_S)"
+msgstr ""
 
 #: share/shares.c:127
 #, c-format
@@ -594,7 +593,7 @@ msgstr ""
 
 #: share/shares.c:443 share/shares.c:617
 msgid "Failed"
-msgstr "ವಿಫಲವಾಗಿದೆ"
+msgstr ""
 
 #: share/shares.c:551
 #, c-format
@@ -650,7 +649,7 @@ msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
-msgstr "ಟ್ಯಾಗ್‍ಗಳು"
+msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"
