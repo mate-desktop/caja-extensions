@@ -154,7 +154,6 @@ caja_xattr_tags_update_file_info(CajaInfoProvider *provider,
     return CAJA_OPERATION_COMPLETE;
 }
 
-
 static void
 caja_xattr_tags_cancel_update(CajaInfoProvider *provider,
                          CajaOperationHandle *handle)
@@ -171,7 +170,6 @@ caja_xattr_tags_info_provider_iface_init(CajaInfoProviderIface *iface)
     iface->update_file_info = caja_xattr_tags_update_file_info;
     iface->cancel_update = caja_xattr_tags_cancel_update;
 }
-
 
 static GList *
 caja_xattr_tags_get_columns(CajaColumnProvider *provider)
@@ -194,12 +192,10 @@ caja_xattr_tags_column_provider_iface_init(CajaColumnProviderIface *iface)
     iface->get_columns = caja_xattr_tags_get_columns;
 }
 
-
 static void
 caja_xattr_tags_instance_init(CajaXattrTags *cajaXattrTags)
 {
 }
-
 
 static void
 caja_xattr_tags_class_init(CajaXattrTagsClass *class)
@@ -207,16 +203,13 @@ caja_xattr_tags_class_init(CajaXattrTagsClass *class)
     parent_class = g_type_class_peek_parent (class);
 }
 
-
 static GType caja_xattr_tags_type = 0;
-
 
 GType
 caja_xattr_tags_get_type(void)
 {
     return caja_xattr_tags_type;
 }
-
 
 void
 caja_xattr_tags_register_type(GTypeModule *module)
@@ -232,7 +225,6 @@ caja_xattr_tags_register_type(GTypeModule *module)
         0,
         (GInstanceInitFunc) caja_xattr_tags_instance_init,
     };
-
 
     caja_xattr_tags_type = g_type_module_register_type (module,
                                             G_TYPE_OBJECT,
@@ -255,7 +247,6 @@ caja_xattr_tags_register_type(GTypeModule *module)
             NULL,
             NULL
     };
-
 
     g_type_module_add_interface (module,
                                  CAJA_TYPE_XATTR_TAGS,

@@ -60,7 +60,6 @@ get_evo_cmd (void)
 		NULL};
 	guint i;
 
-
 	for (i = 0; cmds[i] != NULL; i++) {
 		tmp = g_find_program_in_path (cmds[i]);
 		if (tmp != NULL)

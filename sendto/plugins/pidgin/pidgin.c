@@ -385,7 +385,6 @@ gboolean send_files (NstPlugin *plugin, GtkWidget *contact_widget,
 	ContactData *dat;
 	GValue val = {0,};
 
-
 	if (proxy == NULL)
 		return FALSE;
 

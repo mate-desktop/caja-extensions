@@ -261,7 +261,6 @@ append_sftp_info (char **terminal_exec,
 	g_assert (terminal_exec != NULL);
 	g_assert (file_info != NULL);
 
-
 	vfs_uri = g_file_new_for_uri (caja_file_info_get_activation_uri (file_info));
 	g_assert (vfs_uri != NULL);
 

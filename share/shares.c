@@ -31,7 +31,6 @@ static time_t refresh_timestamp;
 #define KEY_ACL "usershare_acl"
 #define KEY_GUEST_OK "guest_ok"
 
-
 /* Debugging flags */
 static gboolean throw_error_on_refresh;
 static gboolean throw_error_on_add;
@@ -218,7 +217,6 @@ net_usershare_run (int argc, char **argv, GKeyFile **ret_key_file, GError **erro
 
 	return retval;
 }
-
 
 /* Internals */
 
@@ -756,7 +754,6 @@ modify_share (const char *old_path, ShareInfo *info, GError **error)
 	/* g_message ("modify_share() end: will call add_share() with the new share info"); */
 	return add_share (info, error);
 }
-
 
 /* Public API */
 

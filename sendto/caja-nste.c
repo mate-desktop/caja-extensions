@@ -99,19 +99,16 @@ caja_nste_get_file_items (CajaMenuProvider *provider,
 	return items;
 }
 
-
 static void
 caja_nste_menu_provider_iface_init (CajaMenuProviderIface *iface)
 {
 	iface->get_file_items = caja_nste_get_file_items;
 }
 
-
 static void
 caja_nste_instance_init (CajaNste *nste)
 {
 }
-
 
 static void
 caja_nste_class_init (CajaNsteClass *class)
@@ -119,16 +116,13 @@ caja_nste_class_init (CajaNsteClass *class)
 	parent_class = g_type_class_peek_parent (class);
 }
 
-
 static GType nste_type = 0;
-
 
 GType
 caja_nste_get_type (void)
 {
 	return nste_type;
 }
-
 
 void
 caja_nste_register_type (GTypeModule *module)

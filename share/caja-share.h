@@ -30,7 +30,6 @@ G_BEGIN_DECLS
  * instantiated by caja.  It implements the GInterfaces
  * exported by libcaja. */
 
-
 typedef struct _CajaShare      CajaShare;
 typedef struct _CajaShareClass CajaShareClass;
 
@@ -43,7 +42,6 @@ struct _CajaShareClass {
 
 	/* No extra class members */
 };
-
 
 typedef struct _CajaShareData      CajaShareData;
 

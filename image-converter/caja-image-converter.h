@@ -32,7 +32,6 @@ G_BEGIN_DECLS
  * instantiated by caja.  It implements the GInterfaces
  * exported by libcaja. */
 
-
 #define CAJA_TYPE_IMAGE_CONVERTER	  (caja_image_converter_get_type ())
 #define CAJA_IMAGE_CONVERTER(o)		  (G_TYPE_CHECK_INSTANCE_CAST ((o), CAJA_TYPE_IMAGE_CONVERTER, CajaImageConverter))
 #define CAJA_IS_IMAGE_CONVERTER(o)	  (G_TYPE_CHECK_INSTANCE_TYPE ((o), CAJA_TYPE_IMAGE_CONVERTER))
