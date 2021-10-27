@@ -79,7 +79,6 @@ is_image (CajaFileInfo *file)
     return isImage;
 }
 
-
 static GList *
 caja_cwe_get_file_items (CajaMenuProvider *provider,
                   GtkWidget            *window,
@@ -123,19 +122,16 @@ caja_cwe_get_file_items (CajaMenuProvider *provider,
     return items;
 }
 
-
 static void
 caja_cwe_menu_provider_iface_init (CajaMenuProviderIface *iface)
 {
     iface->get_file_items = caja_cwe_get_file_items;
 }
 
-
 static void
 caja_cwe_instance_init (CajaCwe *cwe)
 {
 }
-
 
 static void
 caja_cwe_class_init (CajaCweClass *class)
@@ -143,16 +139,13 @@ caja_cwe_class_init (CajaCweClass *class)
     parent_class = g_type_class_peek_parent (class);
 }
 
-
 static GType cwe_type = 0;
-
 
 GType
 caja_cwe_get_type (void)
 {
     return cwe_type;
 }
-
 
 void
 caja_cwe_register_type (GTypeModule *module)

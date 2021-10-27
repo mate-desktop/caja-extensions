@@ -32,7 +32,6 @@ G_BEGIN_DECLS
  * instantiated by caja.  It implements the GInterfaces
  * exported by libcaja. */
 
-
 #define CAJA_TYPE_OPEN_TERMINAL	  (caja_open_terminal_get_type ())
 #define CAJA_OPEN_TERMINAL(o)	  (G_TYPE_CHECK_INSTANCE_CAST ((o), CAJA_TYPE_OPEN_TERMINAL, CajaOpenTerminal))
 #define CAJA_IS_OPEN_TERMINAL(o)	  (G_TYPE_CHECK_INSTANCE_TYPE ((o), CAJA_TYPE_OPEN_TERMINAL))

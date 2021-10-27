@@ -49,7 +49,6 @@
 
 #include "shares.h"
 
-
 #define NEED_IF_GUESTOK_MASK (S_IRGRP | S_IXGRP | S_IROTH | S_IXOTH) /* need go+rx for guest enabled usershares */
 #define NEED_IF_WRITABLE_MASK (S_IWGRP | S_IWOTH)			/* writable usershares need go+w additionally*/
 #define NEED_ALL_MASK         (NEED_IF_GUESTOK_MASK | NEED_IF_WRITABLE_MASK)
@@ -435,7 +434,6 @@ get_fullpath_from_fileinfo(CajaFileInfo *fileinfo)
   return(fullpath);
 }
 
-
 /*--------------------------------------------------------------------------*/
 static void
 property_page_set_warning (PropertyPage *page)
@@ -692,7 +690,6 @@ create_property_page (CajaFileInfo *fileinfo)
       error = NULL;
     }
 
-
   page->ui = gtk_builder_new ();
 #ifdef ENABLE_NLS
   gtk_builder_set_translation_domain (page->ui, GETTEXT_PACKAGE);
@@ -885,7 +882,6 @@ get_share_status_and_free_share_info (ShareInfo *share_info)
   return result;
 }
 
-
 /*--------------------------------------------------------------------------*/
 static void
 get_share_info_for_file_info (CajaFileInfo *file, ShareInfo **share_info, gboolean *is_shareable)
@@ -993,7 +989,6 @@ caja_share_update_file_info (CajaInfoProvider *provider,
 /* 					   share_status); */
   return CAJA_OPERATION_COMPLETE;
 }
-
 
 static void
 caja_share_cancel_update (CajaInfoProvider *provider,
@@ -1223,7 +1218,6 @@ caja_share_register_type (GTypeModule *module)
 			       share_type,
 			       CAJA_TYPE_PROPERTY_PAGE_PROVIDER,
 			       &property_page_provider_iface_info);
-
 
   static const GInterfaceInfo info_provider_iface_info = {
     (GInterfaceInitFunc) caja_share_info_provider_iface_init,

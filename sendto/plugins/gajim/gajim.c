@@ -270,7 +270,6 @@ init (NstPlugin *plugin)
 	return TRUE;
 }
 
-
 static void
 _set_pixbuf_from_status (const gchar *show, GdkPixbuf **pixbuf)
 {
@@ -367,7 +366,6 @@ get_contacts_widget (NstPlugin *plugin)
 					FALSE);
 	gtk_cell_layout_set_attributes (GTK_CELL_LAYOUT (completion), renderer,
 					"pixbuf", 0, NULL);
-
 
 	store = gtk_list_store_new (2, GDK_TYPE_PIXBUF, G_TYPE_STRING);
 	if(!add_gajim_contacts_to_model (store)) {
