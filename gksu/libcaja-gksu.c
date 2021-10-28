@@ -59,7 +59,8 @@ gksu_context_menu_register_type (GTypeModule *module)
 	NULL,
 	sizeof (GksuContextMenu),
 	0,
-	(GInstanceInitFunc) gksu_context_menu_init
+	(GInstanceInitFunc) gksu_context_menu_init,
+	NULL
     };
     static const GInterfaceInfo menu_provider_iface_info = {
 	(GInterfaceInitFunc)menu_provider_iface_init,

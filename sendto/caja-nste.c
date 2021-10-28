@@ -143,6 +143,7 @@ caja_nste_register_type (GTypeModule *module)
 		sizeof (CajaNste),
 		0,
 		(GInstanceInitFunc) caja_nste_instance_init,
+		NULL
 	};
 
 	static const GInterfaceInfo menu_provider_iface_info = {

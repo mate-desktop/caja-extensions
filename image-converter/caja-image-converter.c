@@ -182,6 +182,7 @@ caja_image_converter_register_type (GTypeModule *module)
 		sizeof (CajaImageConverter),
 		0,
 		(GInstanceInitFunc) caja_image_converter_instance_init,
+		NULL
 	};
 
 	static const GInterfaceInfo menu_provider_iface_info = {
