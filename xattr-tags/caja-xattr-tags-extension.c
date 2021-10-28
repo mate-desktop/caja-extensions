@@ -224,6 +224,7 @@ caja_xattr_tags_register_type(GTypeModule *module)
         sizeof (CajaXattrTags),
         0,
         (GInstanceInitFunc) caja_xattr_tags_instance_init,
+        NULL
     };
 
     caja_xattr_tags_type = g_type_module_register_type (module,

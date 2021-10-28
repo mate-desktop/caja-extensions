@@ -1201,6 +1201,7 @@ caja_share_register_type (GTypeModule *module)
     sizeof (CajaShare),
     0,
     (GInstanceInitFunc) caja_share_instance_init,
+    NULL
   };
 
   share_type = g_type_module_register_type (module,

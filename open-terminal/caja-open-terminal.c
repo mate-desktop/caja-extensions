@@ -640,6 +640,7 @@ caja_open_terminal_register_type (GTypeModule *module)
 		sizeof (CajaOpenTerminal),
 		0,
 		(GInstanceInitFunc) caja_open_terminal_instance_init,
+		NULL
 	};
 
 	static const GInterfaceInfo menu_provider_iface_info = {
