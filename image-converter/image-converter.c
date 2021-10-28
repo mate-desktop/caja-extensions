@@ -27,6 +27,8 @@
 
 #include <glib/gi18n-lib.h>
 
+#include <libcaja-extension/caja-extension-types.h>
+
 #include "caja-image-converter.h"
 
 static GType type_list[1];
