@@ -336,7 +336,7 @@ AM_CONDITIONAL([USE_NLS], [test "x${USE_NLS}" = "xyes"])
 DISABLE_DEPRECATED_CPPFLAGS="-DG_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_DEPRECATED"
 AC_SUBST(DISABLE_DEPRECATED_CPPFLAGS)
 
-AC_OUTPUT([
+AC_CONFIG_FILES([
   Makefile
   sendto/org.mate.Caja.Sendto.gschema.xml
   open-terminal/org.mate.caja-open-terminal.gschema.xml
@@ -366,6 +366,7 @@ AC_OUTPUT([
   xattr-tags/Makefile
   po/Makefile.in
 ])
+AC_OUTPUT
 
 echo "
 Configure summary:
