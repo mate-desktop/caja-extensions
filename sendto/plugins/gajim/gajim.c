@@ -262,6 +262,11 @@ init (NstPlugin *plugin)
 {
 	g_print ("Init gajim plugin\n");
 
+#ifdef ENABLE_NLS
+	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
+	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+#endif /* ENABLE_NLS */
+
 	/* connect to gajim dbus service */
 	jid_table = g_hash_table_new (g_str_hash, g_str_equal);
 	if (!init_dbus()) {
