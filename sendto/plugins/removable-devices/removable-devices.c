@@ -151,6 +151,11 @@ init (NstPlugin *plugin)
 {
 	g_print ("Init removable-devices plugin\n");
 
+#ifdef ENABLE_NLS
+	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
+	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+#endif /* ENABLE_NLS */
+
 	vol_monitor = g_volume_monitor_get ();
 	cb = gtk_combo_box_new ();
 

@@ -261,6 +261,10 @@ caja_module_initialize (GTypeModule  *module)
 {
     g_print ("Initializing caja-xattr-tags extension\n");
     caja_xattr_tags_register_type (module);
+#ifdef ENABLE_NLS
+    bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
+    bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+#endif /* ENABLE_NLS */
 }
 
 void
