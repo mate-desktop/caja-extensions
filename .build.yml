@@ -10,6 +10,7 @@ requires:
     - dbus-glib
     - gcc
     - git
+    - gstreamer-plugins-base
     - gupnp
     - imagemagick
     - make
@@ -40,6 +41,7 @@ requires:
     - make
     - mate-common
     - pkg-config
+    - libgstreamer-plugins-base1.0-dev
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/caja-extensions.git
@@ -53,6 +55,7 @@ requires:
     - gajim
     - gcc
     - git
+    - gstreamer1-plugins-base-devel
     - gtk3-devel
     - gupnp-devel
     - make
@@ -79,6 +82,7 @@ requires:
     - make
     - mate-common
     - pkg-config
+    - libgstreamer-plugins-base1.0-dev
 
 variables:
   - 'CHECKERS="

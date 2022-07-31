@@ -1,5 +1,10 @@
 # List of source files containing translatable strings.
 # Please keep this list in alphabetic order.
+audio-video-properties/bacon-video-widget-properties.c
+audio-video-properties/libcaja-av.caja-extension.desktop.in.in
+audio-video-properties/totem-gst-helpers.c
+audio-video-properties/totem-properties-main.c
+audio-video-properties/totem-properties-view.c
 gksu/libcaja-gksu.c
 gksu/libcaja-gksu.caja-extension.desktop.in.in
 image-converter/caja-image-converter.c
