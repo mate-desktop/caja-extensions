@@ -6,6 +6,10 @@ if USE_NLS
 SUBDIRS += po
 endif
 
+if ENABLE_TOTEM_PROPERTIES
+SUBDIRS += audio-video-properties
+endif
+
 if ENABLE_OPEN_TERMINAL
 SUBDIRS += open-terminal
 endif

@@ -57,6 +57,25 @@ PKG_CHECK_MODULES(CAJA,
 AC_SUBST(CAJA_CFLAGS)
 AC_SUBST(CAJA_LIBS)
 
+# av extension
+AC_ARG_ENABLE([av],
+        AS_HELP_STRING([--enable-totem-properties], [Enable AV plugin]),
+        [enable_totem_properties=$enableval],
+        [enable_totem_properties=yes])
+
+if test "x$enable_totem_properties" = "xyes"; then
+        PKG_CHECK_MODULES(TOTEM_PROPERTIES,
+		gstreamer-tag-1.0
+		gstreamer-pbutils-1.0
+                gtk+-3.0  >= $GTK_REQUIRED
+                glib-2.0  >= $GLIB_REQUIRED
+                gio-2.0   >= $GLIB_REQUIRED)
+        AC_SUBST(TOTEM_PROPERTIES_CFLAGS)
+        AC_SUBST(TOTEM_PROPERTIES_LIBS)
+fi
+
+AM_CONDITIONAL(ENABLE_TOTEM_PROPERTIES, test x"$enable_totem_properties" = "xyes")
+
 # image-converter extension
 AC_ARG_ENABLE([image-converter],
         AS_HELP_STRING([--enable-image-converter], [Enable image-converter plugin]),
@@ -338,6 +357,8 @@ AC_SUBST(DISABLE_DEPRECATED_CPPFLAGS)
 
 AC_CONFIG_FILES([
   Makefile
+  audio-video-properties/Makefile
+  audio-video-properties/libcaja-av.caja-extension.desktop.in
   sendto/org.mate.Caja.Sendto.gschema.xml
   open-terminal/org.mate.caja-open-terminal.gschema.xml
   gksu/libcaja-gksu.caja-extension.desktop.in
@@ -382,6 +403,7 @@ Configure summary:
 
       Plugins to be built
       `echo "Plugins to be built" | sed "s/./=/g"`
+      Audio Video Properties:     $enable_totem_properties
       Image Converter:            $enable_image_converter
       Open Terminal:              $enable_open_terminal
       Sendto:                     $enable_sendto
