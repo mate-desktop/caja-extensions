@@ -36,16 +36,12 @@ struct BaconVideoWidgetPropertiesPrivate {
 	int time;
 };
 
-#define BACON_VIDEO_WIDGET_PROPERTIES_GET_PRIVATE(obj) (G_TYPE_INSTANCE_GET_PRIVATE ((obj), BACON_TYPE_VIDEO_WIDGET_PROPERTIES, BaconVideoWidgetPropertiesPrivate))
-
-G_DEFINE_TYPE (BaconVideoWidgetProperties, bacon_video_widget_properties, GTK_TYPE_BOX)
+G_DEFINE_TYPE_WITH_PRIVATE (BaconVideoWidgetProperties, bacon_video_widget_properties, GTK_TYPE_BOX)
 
 static void
 bacon_video_widget_properties_class_init (BaconVideoWidgetPropertiesClass *klass)
 {
 	GObjectClass *object_class = G_OBJECT_CLASS (klass);
-
-	g_type_class_add_private (klass, sizeof (BaconVideoWidgetPropertiesPrivate));
 
 	object_class->dispose = bacon_video_widget_properties_dispose;
 }
@@ -53,7 +49,7 @@ bacon_video_widget_properties_class_init (BaconVideoWidgetPropertiesClass *klass
 static void
 bacon_video_widget_properties_init (BaconVideoWidgetProperties *props)
 {
-	props->priv = G_TYPE_INSTANCE_GET_PRIVATE (props, BACON_TYPE_VIDEO_WIDGET_PROPERTIES, BaconVideoWidgetPropertiesPrivate);
+	props->priv = bacon_video_widget_properties_get_instance_private (props);
 
 	gtk_orientable_set_orientation (GTK_ORIENTABLE (props), GTK_ORIENTATION_VERTICAL);
 }
@@ -61,11 +57,14 @@ bacon_video_widget_properties_init (BaconVideoWidgetProperties *props)
 static void
 bacon_video_widget_properties_dispose (GObject *object)
 {
-	BaconVideoWidgetPropertiesPrivate *priv = BACON_VIDEO_WIDGET_PROPERTIES_GET_PRIVATE (object);
+	BaconVideoWidgetProperties *props;
 
-	if (priv->xml != NULL)
-		g_object_unref (priv->xml);
-	priv->xml = NULL;
+	g_return_if_fail (object != NULL);
+	g_return_if_fail (BACON_IS_VIDEO_WIDGET_PROPERTIES (object));
+
+	props = BACON_VIDEO_WIDGET_PROPERTIES (object);
+
+	g_clear_object (&props->priv->xml);
 
 	G_OBJECT_CLASS (bacon_video_widget_properties_parent_class)->dispose (object);
 }
