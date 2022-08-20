@@ -1,4 +1,4 @@
-AC_INIT([caja-extensions], 1.26.0, [https://github.com/mate-desktop/caja-extensions], [caja-extensions], [https://mate-desktop.org])
+AC_INIT([caja-extensions], 1.26.1, [https://github.com/mate-desktop/caja-extensions], [caja-extensions], [https://mate-desktop.org])
 
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz tar-ustar check-news])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])

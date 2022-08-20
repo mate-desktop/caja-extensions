@@ -1,3 +1,9 @@
+### caja-extensions 1.26.1
+
+  * Translations update
+  * Fix resolving the path to caja-extensions.mo on guix system
+  * Fixed caja-share not working under Arch Linux
+
 ### caja-extensions 1.26.0
 
   * Translations update
