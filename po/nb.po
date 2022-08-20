@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kenneth Jenssen <kennethjenssen@yahoo.com>, 2018
-# Allan Nordhøy <epost@anotheragency.no>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Allan Nordhøy <epost@anotheragency.no>, 2021
+# Kenneth Jenssen <kennethjenssen@yahoo.com>, 2021
 # heskjestad <cato@heskjestad.xyz>, 2021
 # 
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
 "Last-Translator: heskjestad <cato@heskjestad.xyz>, 2021\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -531,12 +531,12 @@ msgstr "- rettighet til å kjøre av andre\n"
 
 #: share/caja-share.c:140
 msgid "Add the permissions automatically"
-msgstr "Legg till rettigheter automatisk"
+msgstr "Legg til rettigheter automatisk"
 
 #: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Kunne ikke endre rettigheter for mappen \"%s\""
+msgstr "Klarte ikke endre rettigheter for mappen «%s»"
 
 #: share/caja-share.c:450
 msgid "Share name is too long"
@@ -569,7 +569,7 @@ msgstr "Det oppsto en feil under innhenting av delingsinformasjon"
 
 #: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"
-msgstr "Mappe deling"
+msgstr "Mappedeling"
 
 #: share/caja-share.c:1159
 msgid "Sharing Options"
@@ -638,7 +638,7 @@ msgstr "Sambas testparm returnerte med signalet %d"
 
 #: share/shares.c:557
 msgid "Samba's testparm failed for an unknown reason"
-msgstr "Sambas testparm mislyktes uvisst av hvilken grunn"
+msgstr "Sambas testparm mislyktes av ukjent årsak"
 
 #: share/shares.c:572
 #, c-format

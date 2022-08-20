@@ -4,24 +4,26 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Aleksey Kabanov <ak099@mail.ru>, 2018
-# Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2018
-# AlexL <loginov.alex.valer@gmail.com>, 2018
-# monsta <monsta@inbox.ru>, 2018
-# Павел Щербаков <terrorizmo@yandex.ru>, 2018
-# Alex Putz, 2018
-# Дмитрий Михирев, 2019
-# Alexei Sorokin, 2020
-# Anna Vyalkova <cybertailor@gmail.com>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# XRevan86, 2021
+# Дмитрий Михирев, 2021
+# Aleksey Kabanov <ak099@mail.ru>, 2021
+# Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2021
+# AlexL <loginov.alex.valer@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Cyber Tailor <cyber@sysrq.in>, 2021
+# monsta <monsta@inbox.ru>, 2021
+# Павел Щербаков <terrorizmo@yandex.ru>, 2021
+# Alex Putz, 2021
+# Дмитрий Астанков <mornie@basealt.ru>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Дмитрий Астанков <mornie@basealt.ru>, 2021\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,7 +113,7 @@ msgstr "Выберите размер:"
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "пикселей"
+msgstr "пикселов"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
@@ -331,7 +333,7 @@ msgstr "Отправить файлы по почте, в мгновенном �
 
 #: sendto/caja-sendto-command.c:574
 msgid "Files"
-msgstr "Файлы"
+msgstr "файлы"
 
 #: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
@@ -678,15 +680,15 @@ msgstr "Метки"
 
 #: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"
-msgstr "Метки, хранящиеся в расширенных аттрибутах"
+msgstr "Теги, хранящиеся в расширенных аттрибутах"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:5
 msgid "xattr Tags"
-msgstr "xattr Метки"
+msgstr "xattr Теги"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
-msgstr "Просмотреть метки, хранящиеся в расширенных аттрибутах"
+msgstr "Просмотреть теги, хранящиеся в расширенных аттрибутах"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid ""

@@ -4,21 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# בר בוכובזה <bokovzabox@gmail.com>, 2018
-# Edward Sawyer <saoded@gmail.com>, 2018
-# haxoc c11 <haxoc112@disroot.org>, 2018
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018
-# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
-# shy tzedaka <shaytzedaka123@gmail.com>, 2020
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# בר בוכובזה <bokovzabox@gmail.com>, 2021
+# shy tzedaka <shaytzedaka123@gmail.com>, 2021
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>, 2021\n"
 "Language-Team: Hebrew (https://www.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +26,7 @@ msgstr ""
 
 #: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
-msgstr "פתיחה כמנהל"
+msgstr "פתיחה בתור מנהל"
 
 #: gksu/libcaja-gksu.c:133
 msgid "Opens the file with administrator privileges"
@@ -73,7 +71,7 @@ msgstr ""
 
 #: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
-msgstr "שינוי גודל ה_תמונות..."
+msgstr "שינוי _גודל התמונות..."
 
 #: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
@@ -99,7 +97,7 @@ msgstr "_ביטול"
 
 #: image-converter/caja-image-resize.ui:69
 msgid "_Resize"
-msgstr "ש_נה גודל"
+msgstr "_שינוי גודל"
 
 #: image-converter/caja-image-resize.ui:119
 msgid "Select a size:"
@@ -146,7 +144,7 @@ msgstr ".בגודל־שונה"
 #: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
-msgstr "לקובץ בשם"
+msgstr "אל קובץ בשם"
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
@@ -244,16 +242,16 @@ msgstr ""
 #: open-terminal/caja-open-terminal.c:460
 #: open-terminal/caja-open-terminal.c:473
 msgid "Open in _Terminal"
-msgstr "פתח במסוף"
+msgstr "פתיחה ב_מסוף"
 
 #: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
-msgstr "פתח את התיקייה שנבחרה במסוף"
+msgstr "פתיחת התיקיה שנבחרה במסוף"
 
 #: open-terminal/caja-open-terminal.c:464
 #: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
-msgstr "פתח את התיקייה שפתוחה במסוף"
+msgstr "פתיחת התיקיה שפתוחה כעת במסוף"
 
 #: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
@@ -320,11 +318,11 @@ msgstr "שליחה אל..."
 
 #: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
-msgstr "שלח קובץ בדוא\"ל, מסרים מידיים..."
+msgstr "שליחת קובץ באמצעות דוא״ל, מסרים מיידיים..."
 
 #: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
-msgstr "שלח קבצים בדוא\"ל, מסרים מידיים..."
+msgstr "שליחת קבצים באמצעות דוא״ל, מסרים מיידיים..."
 
 #: sendto/caja-sendto-command.c:574
 msgid "Files"
@@ -384,7 +382,7 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:17
 msgid "Send To..."
-msgstr "שלח אל..."
+msgstr "שליחה אל..."
 
 #: sendto/caja-sendto.ui:54
 msgid "Send"
@@ -392,11 +390,11 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:116
 msgid "Send _as:"
-msgstr "שלח _כ:"
+msgstr "שליחה _בתור:"
 
 #: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
-msgstr "שלח _אל:"
+msgstr "שליחה א_ל:"
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
@@ -416,7 +414,7 @@ msgstr "תוית"
 
 #: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
-msgstr "דואר אלקטרוני"
+msgstr "דוא״ל"
 
 #: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
@@ -663,7 +661,7 @@ msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
-msgstr "תג"
+msgstr "תגיות"
 
 #: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"

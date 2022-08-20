@@ -4,17 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Yogesh K S <yogesh@karnatakaeducation.org.in>, 2018
-# karthik holla <karthikholla87@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Yogesh K S <yogesh@karnatakaeducation.org.in>, 2021
+# karthik holla <karthikholla87@gmail.com>, 2021
+# Sai Vinoba <saivinoba@sumati.net>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Sai Vinoba <saivinoba@sumati.net>, 2021\n"
 "Language-Team: Kannada (https://www.transifex.com/mate/teams/13566/kn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,7 +89,7 @@ msgstr ""
 #: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
 #: share/share-dialog.ui:249
 msgid "_Cancel"
-msgstr "ರದ್ದು ಮಾಡಲಾಗಿದೆ(_C)"
+msgstr "ನೀಗು (_C)"
 
 #: image-converter/caja-image-resize.ui:69
 msgid "_Resize"

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# mauron, 2021
+# Christopher Patrick <cpatrick08@rocketmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -12,21 +12,21 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2021-09-18 16:53+0000\n"
-"Last-Translator: mauron, 2021\n"
-"Language-Team: Urdu (https://www.transifex.com/mate/teams/13566/ur/)\n"
+"Last-Translator: Christopher Patrick <cpatrick08@rocketmail.com>, 2021\n"
+"Language-Team: English (United States) (https://www.transifex.com/mate/teams/13566/en_US/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ur\n"
+"Language: en_US\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
-msgstr "بطور منتظم کھولیں"
+msgstr ""
 
 #: gksu/libcaja-gksu.c:133
 msgid "Opens the file with administrator privileges"
-msgstr "فائل منتظم کے استحقاق سے کھولیں"
+msgstr ""
 
 #: gksu/libcaja-gksu.c:190
 msgid ""
@@ -34,9 +34,6 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the correct application cannot be determined."
 msgstr ""
-"<big><b>چلانے کے لیے پروگرام متعین کرنے سے قاصر.</b></big>\n"
-"\n"
-"آپ نے جو عنصر منتخب کیا ہے اسے منتظم کے استحقاق سے نہیں چلایا جاسکتا کیونکہ درست اطلاقیے کا تعین نہیں ہوسکتا."
 
 #: gksu/libcaja-gksu.c:226
 msgid ""
@@ -48,7 +45,7 @@ msgstr ""
 #: gksu/libcaja-gksu.c:253
 #, c-format
 msgid "Error: %s"
-msgstr "غلطی: %s"
+msgstr ""
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
@@ -89,7 +86,7 @@ msgstr ""
 #: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
 #: share/share-dialog.ui:249
 msgid "_Cancel"
-msgstr "_ملتوی"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:69
 msgid "_Resize"
@@ -102,7 +99,7 @@ msgstr ""
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "پکسل"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
@@ -118,11 +115,11 @@ msgstr ""
 
 #: image-converter/caja-image-resize.ui:259
 msgid "Width:"
-msgstr ""
+msgstr "Width:"
 
 #: image-converter/caja-image-resize.ui:283
 msgid "Height:"
-msgstr ""
+msgstr "Height:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
@@ -149,7 +146,7 @@ msgstr ""
 #: image-converter/caja-image-resize.ui:438
 #: image-converter/caja-image-rotate.ui:313
 msgid "Filename"
-msgstr "فائل کا نام"
+msgstr ""
 
 #: image-converter/caja-image-resizer.c:287
 #, c-format
@@ -242,20 +239,20 @@ msgstr ""
 
 #: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
-msgstr "حالیہ منتخب کردہ فولڈر ٹرمنل میں کھولیں"
+msgstr ""
 
 #: open-terminal/caja-open-terminal.c:464
 #: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
-msgstr "حالیہ کھلا فولڈر ٹرمنل میں کھولیں"
+msgstr ""
 
 #: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
-msgstr "_ٹرمنل کھولیں"
+msgstr ""
 
 #: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
-msgstr "ٹرمنل کھولیں"
+msgstr ""
 
 #: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
@@ -292,7 +289,7 @@ msgstr ""
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "کیا ڈیسک ٹاپ پر ٹرمنل کھولنے سے یہ گھر کے فولڈر میں کھلے"
+msgstr ""
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:6
 msgid ""
@@ -301,9 +298,6 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
-"اگر فعال کیا گیا، تو ڈیسک ٹاپ میں ٹرمنل کھولنے پر وہ گھر کے فولڈر میں کھلے "
-"گا. بصورتِ دیگر یہ ڈیسک ٹاپ کی ڈائریکٹری میں کھلے گا. نوٹ کریں کہ اگر گھر کی"
-" ڈائریکٹری اور ڈیسک ٹاپ باہم مدغم ہوں تو یہ کلید بے مقصد ہے."
 
 #: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
@@ -311,15 +305,15 @@ msgstr ""
 
 #: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
-msgstr "فائل بذریعہ ڈاک، فوری پیغام رساں کے ذریعے ارسال کریں..."
+msgstr ""
 
 #: sendto/caja-nste.c:85
 msgid "Send files by mail, instant message..."
-msgstr "فائلیں بذریعہ ڈاک، فوری پیغام رساں کے ذریعے ارسال کریں..."
+msgstr ""
 
 #: sendto/caja-sendto-command.c:574
 msgid "Files"
-msgstr "فائلیں"
+msgstr ""
 
 #: sendto/caja-sendto-command.c:794
 msgid "Expects URIs or filenames to be passed as options\n"
@@ -328,15 +322,15 @@ msgstr ""
 #: sendto/caja-sendto-command.c:816
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "کمانڈ لائن اختیارات کی تصریف نہیں ہوسکتی: %s\n"
+msgstr ""
 
 #: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
-msgstr "کوئی دخیلہ نہیں لادا جاسکتا."
+msgstr ""
 
 #: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
-msgstr "ازراہِ کرم اپنی تنصیف کی تصدیق کریں"
+msgstr ""
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -375,7 +369,7 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:17
 msgid "Send To..."
-msgstr "ارسال کریں تا..."
+msgstr ""
 
 #: sendto/caja-sendto.ui:54
 msgid "Send"
@@ -383,11 +377,11 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:116
 msgid "Send _as:"
-msgstr "ارسال کریں _بطور:"
+msgstr ""
 
 #: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
-msgstr "ارسال کریں _تا:"
+msgstr ""
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
@@ -395,7 +389,7 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
-msgstr "_دبا کر ارسال کریں:"
+msgstr ""
 
 #: sendto/caja-sendto.ui:258
 msgid "Compression"
@@ -403,63 +397,63 @@ msgstr ""
 
 #: sendto/caja-sendto.ui:300
 msgid "label"
-msgstr "لیبل"
+msgstr ""
 
 #: sendto/plugins/emailclient/emailclient.c:267
 msgid "Email"
-msgstr "ای میل"
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:419
 msgid "Unable to send file"
-msgstr "فائل ارسال کرنے سے قاصر"
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr "گاجم gajim بعید سروس سے کوئی اتصال نہیں ہے."
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
-msgstr "فائل ارسال کرنے میں ناکامی"
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:445
 msgid "Recipient is missing."
-msgstr "وصولندہ مفقود ہے."
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:484
 msgid "Unknown recipient."
-msgstr "نامعلوم وصولندہ."
+msgstr ""
 
 #: sendto/plugins/gajim/gajim.c:507
 msgid "Instant Message (Gajim)"
-msgstr "فوری پیغام رساں (گاجم)"
+msgstr ""
 
 #: sendto/plugins/caja-burn/caja-burn.c:93
 msgid "New CD/DVD"
-msgstr "نئی سی ڈی/ڈی وی ڈی"
+msgstr ""
 
 #: sendto/plugins/caja-burn/caja-burn.c:100
 msgid "Existing CD/DVD"
-msgstr "سابقہ سی ڈی/ڈی وی ڈی"
+msgstr ""
 
 #: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "سی ڈی/ڈی وی ڈی تخلیق کار"
+msgstr ""
 
 #: sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
-msgstr "فوری پیغام رساں (پجن)"
+msgstr ""
 
 #: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
-msgstr "قابلِ فصل ڈسکیں اور شیئر"
+msgstr ""
 
 #: sendto/plugins/upnp/upnp.c:313
 msgid "UPnP Media Server"
-msgstr "UPnP میڈیا سرور"
+msgstr ""
 
 #: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
 msgid "Share"
-msgstr "شیئر کریں"
+msgstr ""
 
 #: share/libcaja-share.caja-extension.desktop.in.in:6
 msgid "Allows to quickly share a folder"
@@ -558,7 +552,7 @@ msgstr ""
 
 #: share/share-dialog.ui:133
 msgid "Co_mment:"
-msgstr "_تبصرہ:"
+msgstr ""
 
 #: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
@@ -570,7 +564,7 @@ msgstr ""
 
 #: share/share-dialog.ui:264
 msgid "_Save"
-msgstr "_محفوظ کریں"
+msgstr "Save"
 
 #: share/shares.c:127
 #, c-format
@@ -654,7 +648,7 @@ msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
-msgstr "ٹیگ"
+msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"

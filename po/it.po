@@ -4,14 +4,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# luca123 <l_moscato1@hotmail.it>, 2018
-# Dario Di Nucci <linkin88mail@gmail.com>, 2018
-# Marco Bartolucci <nap.84@live.it>, 2018
-# Emanuele Antonio Faraone <emanueleant03@gmail.com>, 2018
-# l3nn4rt, 2018
-# Giuseppe Pignataro <rogepix@gmail.com>, 2020
-# Enrico B. <enricobe@hotmail.com>, 2020
+# luca123 <l_moscato1@hotmail.it>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Dario Di Nucci <linkin88mail@gmail.com>, 2021
+# Giuseppe Pignataro <rogepix@gmail.com>, 2021
+# Enrico B. <enricobe@hotmail.com>, 2021
+# Marco Bartolucci, 2021
+# Emanuele Antonio Faraone <emanueleant03@gmail.com>, 2021
+# l3nn4rt, 2021
 # Alessandro Volturno <alelvb@inwind.it>, 2021
 # 
 msgid ""
@@ -19,14 +19,14 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
 "Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
@@ -103,7 +103,7 @@ msgstr "Ridimensiona le immagini"
 #: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
 #: share/share-dialog.ui:249
 msgid "_Cancel"
-msgstr "A_nnulla"
+msgstr "Annulla"
 
 #: image-converter/caja-image-resize.ui:69
 msgid "_Resize"
@@ -682,7 +682,7 @@ msgstr "Imposta immagine come sfondo corrente"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
-msgstr "Sfondo"
+msgstr "Wallpaper"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:6
 msgid "Allows to quickly set wallpaper"

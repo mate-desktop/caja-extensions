@@ -4,21 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# worm <thewormhole@gmail.com>, 2018
-# Damir Mevkić <damir.mevkic@gmail.com>, 2018
-# Marko Šterman <marko.chamillionaire@gmail.com>, 2018
-# Arnold Marko <arnold.marko@gmail.com>, 2019
-# Damir Jerovšek <jierro@windowslive.com>, 2020
-# Helena S <ele@tutamail.com>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Marko Šterman <marko.chamillionaire@gmail.com>, 2021
+# Damir Jerovšek <jierro@windowslive.com>, 2021
+# worm <thewormhole@gmail.com>, 2021
+# Damir Mevkić <damir.mevkic@gmail.com>, 2021
+# Helena S <ele@tutamail.com>, 2021
+# Arnold Marko <arnold.marko@gmail.com>, 2021
+# Martin Srebotnjak <miles@filmsi.net>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>, 2021\n"
 "Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,6 +51,9 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
 msgstr ""
+"<big><b>Ni mogoče določiti grafične ovojnice za su </b></big>\n"
+"\n"
+"Izbranega predmeta ni mogoče odpreti s skrbniškimi pravicami, ker grafične ovojnice za su (kot sta gtksu ali beesu) ni mogoče določiti."
 
 #: gksu/libcaja-gksu.c:253
 #, c-format
@@ -70,6 +74,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Avtorske pravice (C) 2002-2005 Gustavo Noronha Silva\n"
+"Avtorske pravice (C) 2013-2014 Stefano Karapetsas\n"
+"Avtorske pravice (C) 2015-2021 razvijalci MATE"
 
 #: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
@@ -206,7 +213,7 @@ msgstr "stopinj v smeri urinega kazalca"
 
 #: image-converter/caja-image-rotate.ui:204
 msgid "Image Rotation"
-msgstr ""
+msgstr "Vrtenje slike"
 
 #: image-converter/caja-image-rotate.ui:260
 msgid ".rotated"
@@ -240,6 +247,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Avtorske pravice © 2005-2005 Jürg Billeter\n"
+"Avtorske pravice © 2013-2014 Stefano Karapetsas\n"
+"Avtorske pravice © 2015-2021 razvijalci MATE"
 
 #: open-terminal/caja-open-terminal.c:460
 #: open-terminal/caja-open-terminal.c:473
@@ -293,6 +303,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Avtorske pravice (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Avtorske pravice (C) 2013-2014 Stefano Karapetsas\n"
+"Avtorske pravice (C) 2015-2021 razvijalci MATE"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -360,6 +373,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Avtorske pravice (c) 2004 Roberto Majadas\n"
+"Avtorske pravice (c) 2013-2014 Stefano Karapetsas\n"
+"Avtorske pravice (c) 2015-2021 razvijalci MATE"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -391,7 +407,7 @@ msgstr "Pošlji na ..."
 
 #: sendto/caja-sendto.ui:54
 msgid "Send"
-msgstr ""
+msgstr "Pošlji"
 
 #: sendto/caja-sendto.ui:116
 msgid "Send _as:"
@@ -403,7 +419,7 @@ msgstr "_Pošlji:"
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
-msgstr ""
+msgstr "Cilj"
 
 #: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
@@ -411,7 +427,7 @@ msgstr "Pošlji _stisnjeno v:"
 
 #: sendto/caja-sendto.ui:258
 msgid "Compression"
-msgstr ""
+msgstr "Stiskanje"
 
 #: sendto/caja-sendto.ui:300
 msgid "label"
@@ -483,6 +499,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Avtorske pravice (C) 2005 Ethium, Inc.\n"
+"Avtorske pravice (C) 2013-2014 Stefano Karapetsas\n"
+"Avtorske pravice (C) 2015-2021 razvijalci MATE"
 
 #: share/caja-share.c:122
 #, c-format
@@ -667,6 +686,8 @@ msgid ""
 "Copyright (C) 2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Avtorske pravice (C) 2014 Stefano Karapetsas\n"
+"Avtorske pravice (C) 2015-2021 razvijalci MATE"
 
 #: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
@@ -689,3 +710,5 @@ msgid ""
 "Copyright (C) 2016 Felipe Barriga Richards\n"
 "Copyright (C) 2017-2021 MATE developers"
 msgstr ""
+"Avtorske pravice (C) 2016 Felipe Barriga Richards\n"
+"Avtorske pravice (C) 2017-2021 razvijalci MATE"

@@ -4,17 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Francesc Famadas, 2018
 # Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Francesc Famadas, 2021
+# Santiago Mauleon, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Santiago Mauleon, 2022\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +47,9 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
 msgstr ""
+"<big><b>No es pot determinar l'embolcall gràfic per la comanda su</b></big>\n"
+"\n"
+"L'element que heu seleccionat no es pot obrir amb privilegis d'administrador perquè l'embolcall gràfic per a su, com pot ser gtksu o beesu, no es pot determinat."
 
 #: gksu/libcaja-gksu.c:253
 #, c-format
@@ -689,7 +693,7 @@ msgstr ""
 
 #: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
-msgstr "Etiquetes"
+msgstr "Marcadors"
 
 #: xattr-tags/caja-xattr-tags-extension.c:184
 msgid "Tags stored in extended attributes"

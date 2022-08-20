@@ -4,21 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# tarakbumba <tarakbumba@gmail.com>, 2018
-# Mehmet, 2018
-# Sabri Ünal <yakushabb@gmail.com>, 2019
-# 0d1bdb3b9a0d4e8f77bc854af8bf3dfc_e6913f4, 2019
-# mauron, 2020
-# Butterfly <gokhanlnx@gmail.com>, 2021
+# tarakbumba <tarakbumba@gmail.com>, 2021
+# mauron, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Mehmet, 2021
+# Butterfly <gokhanlnx@gmail.com>, 2021
+# Sabri Ünal <yakushabb@gmail.com>, 2021
+# 0d1bdb3b9a0d4e8f77bc854af8bf3dfc_e6913f4, 2021
+# Sabri Ünal <libreajans@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +43,7 @@ msgid ""
 msgstr ""
 "<big><b>Çalıştırılacak program tespit edilemedi</b></big>\n"
 "\n"
-"Seçtiğiniz unsur yönetici yetkileriyle açılamaz çünkü doğru uygulama tespit edilemedi."
+"Seçtiğiniz öğe yönetici yetkileriyle açılamaz çünkü doğru uygulama tespit edilemedi."
 
 #: gksu/libcaja-gksu.c:226
 msgid ""
@@ -50,6 +51,8 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
 msgstr ""
+"Seçtiğiniz öğe yönetici yetkileriyle açılamıyor çünkü su için gtksu veya "
+"beesu gibi grafik sarmalayıcı belirlenemiyor."
 
 #: gksu/libcaja-gksu.c:253
 #, c-format
@@ -70,6 +73,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Telif Hakkı (C) 2002-2005 Gustavo Noronha Silva\n"
+"Telif Hakkı (C) 2013-2014 Stefano Karapetsas\n"
+"Telif Hakkı (C) 2015-2021 MATE geliştiricileri"
 
 #: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
@@ -206,7 +212,7 @@ msgstr "derece saat yönünde"
 
 #: image-converter/caja-image-rotate.ui:204
 msgid "Image Rotation"
-msgstr ""
+msgstr "Resim Döndürme"
 
 #: image-converter/caja-image-rotate.ui:260
 msgid ".rotated"
@@ -240,6 +246,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Telif Hakkı (C) 2004-2005 Jürg Billeter\n"
+"Telif Hakkı (C) 2013-2014 Stefano Karapetsas\n"
+"Telif Hakkı (C) 2015-2021 MATE geliştiricileri"
 
 #: open-terminal/caja-open-terminal.c:460
 #: open-terminal/caja-open-terminal.c:473
@@ -293,6 +302,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Telif Hakkı (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Telif Hakkı (C) 2013-2014 Stefano Karapetsas\n"
+"Telif Hakkı (C) 2015-2021 MATE geliştiricileri"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -360,6 +372,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Telif Hakkı (C) 2004 Roberto Majadas\n"
+"Telif Hakkı (C) 2013-2014 Stefano Karapetsas\n"
+"Telif Hakkı (C) 2015-2021 MATE geliştiricileri"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -483,6 +498,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Telif Hakkı (C) 2005 Ethium, Inc.\n"
+"Telif Hakkı (C) 2013-2014 Stefano Karapetsas\n"
+"Telif Hakkı (C) 2015-2021 MATE geliştiricileri"
 
 #: share/caja-share.c:122
 #, c-format
@@ -669,6 +687,8 @@ msgid ""
 "Copyright (C) 2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Telif Hakkı (C) 2014 Stefano Karapetsas\n"
+"Telif Hakkı (C) 2015-2021 MATE geliştiricileri"
 
 #: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
@@ -691,3 +711,5 @@ msgid ""
 "Copyright (C) 2016 Felipe Barriga Richards\n"
 "Copyright (C) 2017-2021 MATE developers"
 msgstr ""
+"Telif Hakkı (C) 2016 Felipe Barriga Richards\n"
+"Telif Hakkı (C) 2017-2021 MATE geliştiricileri"

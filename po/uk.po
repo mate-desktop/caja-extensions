@@ -4,19 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2018
-# Bohdan Kovalchuk <neostanniy@gmail.com>, 2018
-# dsafsadf <heneral@gmail.com>, 2019
-# Микола Ткач <chistomov@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Микола Ткач <chistomov@gmail.com>, 2021
+# 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2021
+# dsafsadf <heneral@gmail.com>, 2021
+# Bohdan Kovalchuk <neostanniy@gmail.com>, 2021
+# Taras Panchenko <top39@ukr.net>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Taras Panchenko <top39@ukr.net>, 2022\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,6 +49,9 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
 msgstr ""
+"<big><b>Не вдалося визначити графічну оболонку для su </b></big>\n"
+"\n"
+"Вибраний вами елемент не можливо відкрити з правами адміністратора, оскільки графічну оболонку для su неможливо визначити, наприклад gtksu або beesu."
 
 #: gksu/libcaja-gksu.c:253
 #, c-format
@@ -161,7 +165,7 @@ msgstr "Назва файлу"
 #: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Зміна розміру світлини: %d з %d"
+msgstr "Зміна розміру зображення: %d з %d"
 
 #: image-converter/caja-image-resizer.c:294
 #, c-format
@@ -414,7 +418,7 @@ msgstr "Надіслати д_о:"
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
-msgstr ""
+msgstr "Місце призначення"
 
 #: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
@@ -530,7 +534,7 @@ msgstr ""
 
 #: share/caja-share.c:140
 msgid "Add the permissions automatically"
-msgstr "Додавати права автоматично"
+msgstr "Додавати права самочинно"
 
 #: share/caja-share.c:166
 #, c-format
@@ -548,7 +552,7 @@ msgstr "Ім’я оголошення не може бути порожнім"
 #: share/caja-share.c:505
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Помилка при отриманні загальної інформації: %s"
+msgstr "Помилка при отриманні спільної інформації: %s"
 
 #: share/caja-share.c:515
 msgid "Another share has the same name"
@@ -556,7 +560,7 @@ msgstr "Инше оголошення з тим самим ім’ям"
 
 #: share/caja-share.c:558 share/caja-share.c:794
 msgid "Modify _Share"
-msgstr "Модифікувати _оголошення"
+msgstr "Змінити _оголошення"
 
 #: share/caja-share.c:558 share/caja-share.c:796
 msgid "Create _Share"
@@ -564,7 +568,7 @@ msgstr "Створити _оголошення"
 
 #: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
-msgstr "Відбулася помилка при отриманні публічної інформації"
+msgstr "Трапилася помилка при отриманні публічної інформації"
 
 #: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# clefebvre <clement.lefebvre@linuxmint.com>, 2020
+# clefebvre <clement.lefebvre@linuxmint.com>, 2021
 # Caarmi, 2021
 # 
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
 "Last-Translator: Caarmi, 2021\n"
 "Language-Team: Interlingue (https://www.transifex.com/mate/teams/13566/ie/)\n"
 "MIME-Version: 1.0\n"
@@ -268,7 +268,7 @@ msgstr "Application del terminal:"
 
 #: open-terminal/caja-open-terminal.c:587
 msgid "Close"
-msgstr "Cluder"
+msgstr "Cludet"
 
 #: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"

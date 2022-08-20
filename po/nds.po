@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Benedikt Straub <benedikt-straub@web.de>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Benedikt Straub <benedikt-straub@web.de>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2020\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2021\n"
 "Language-Team: Low German (https://www.transifex.com/mate/teams/13566/nds/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,11 +72,11 @@ msgstr "_Grött vun Billers ännern…"
 
 #: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
-msgstr "De Grött vun elkeen utkört Bild ännern"
+msgstr "De Grött vun elkeen utköört Bild ännern"
 
 #: image-converter/caja-image-converter.c:131
 msgid "Ro_tate Images..."
-msgstr "Billers _dreihen…"
+msgstr "Billers drei_hen…"
 
 #: image-converter/caja-image-converter.c:132
 msgid "Rotate each selected image"
@@ -132,7 +132,7 @@ msgstr ""
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:242
 msgid "Append"
-msgstr "Anfögen"
+msgstr "Föög"
 
 #: image-converter/caja-image-resize.ui:386
 msgid ".resized"
@@ -295,7 +295,7 @@ msgid ""
 "directory"
 msgstr ""
 "Of dat Openmaken vun eenem Terminal up'm Schrievdisk dat Terminal im "
-"Heimaad-verteeknis openmaakt"
+"Heimaad-Verteeknis openmaakt"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:6
 msgid ""
@@ -306,12 +306,11 @@ msgid ""
 msgstr ""
 "Wenn jau, word een Terminal, dat vum Schrievdisk openmaakt word, im Heimaad-"
 "Verteeknis openmaakt. Sünst word 't im Schrievdisk-Verteeknis openmaakt. "
-"Deeser Slötel is egaal, wenn dat Heimaad- un dat Schrievdisk-Verteeknis "
-"gliek sünd."
+"Deeser Slötel is egaal, wenn dat Schrievdisk- dat Heimaad-Verteeknis is."
 
 #: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
-msgstr "Schicken an…"
+msgstr "_Schicken an…"
 
 #: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
@@ -455,7 +454,7 @@ msgstr "Futtnaricht (Pidgin)"
 
 #: sendto/plugins/removable-devices/removable-devices.c:249
 msgid "Removable disks and shares"
-msgstr "Ofmaakbare Spiekers un gedeelte Verteknisse"
+msgstr "Ofmaakbare Spiekers un deelte Verteknisse"
 
 #: sendto/plugins/upnp/upnp.c:313
 msgid "UPnP Media Server"
@@ -593,7 +592,7 @@ msgstr "%s%s%s hett nich klappt, un 't is nich bekannt, um wat"
 #: share/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr "»net-usershare« hett de Fehler %d torügggeven: %s"
+msgstr "»net-usershare« hett Fehler %d torügggeven: %s"
 
 #: share/shares.c:158
 #, c-format
@@ -640,7 +639,7 @@ msgstr ""
 
 #: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr "As Achtergrund setten"
+msgstr "As _Achtergrund setten"
 
 #: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
@@ -674,7 +673,7 @@ msgstr "xattr-Tekens"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
-msgstr "Tekens mit verwiederten Eegenskuppen ankieken"
+msgstr "Tekens in verwiederten Eegenskuppen ankieken"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid ""

@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Cédric Valmary <cvalmary@yahoo.fr>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Cédric Valmary <cvalmary@yahoo.fr>, 2021
 # Quentin PAGÈS, 2021
 # 
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
 "Last-Translator: Quentin PAGÈS, 2021\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
@@ -264,7 +264,7 @@ msgstr "Dobrir un terminal"
 
 #: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
-msgstr "Dobrir lo Repertòri personal s’òm ensajar de dobrir lo burèu"
+msgstr "Dobrir lo Repertòri personal s’òm ensaja de dobrir lo burèu"
 
 #: open-terminal/caja-open-terminal.c:567
 msgid "Terminal application:"
@@ -644,11 +644,11 @@ msgstr ""
 
 #: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
-msgstr "Definir coma rèire-plan"
+msgstr "Definir coma rèireplan"
 
 #: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr "Definir coma rèire-plan actuala"
+msgstr "Definir coma rèireplan actual"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -656,7 +656,7 @@ msgstr "Rèireplan"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:6
 msgid "Allows to quickly set wallpaper"
-msgstr "Permetre de definir rapidament un rèire-plan"
+msgstr "Permetre de definir rapidament un rèireplan"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:8
 msgid ""

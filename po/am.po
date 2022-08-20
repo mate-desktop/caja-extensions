@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>, 2021\n"
 "Language-Team: Amharic (https://www.transifex.com/mate/teams/13566/am/)\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "መጠን ይምረጡ:"
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "ፒክስልስ"
+msgstr "ፒክስሎች"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
@@ -144,7 +144,7 @@ msgstr "ወደ ፋይል አርእስት "
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
-msgstr "እንደ ገና በመመጠን ላይ"
+msgstr "እንደ ገና በ መመጠን ላይ"
 
 #: image-converter/caja-image-resize.ui:438
 #: image-converter/caja-image-rotate.ui:313
@@ -154,12 +154,12 @@ msgstr "የፋይል ስም "
 #: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "ምስል እንደ ገና በመመጠን ላይ: %d ከ %d"
+msgstr "ምስል እንደ ገና በ መመጠን ላይ: %d ከ %d"
 
 #: image-converter/caja-image-resizer.c:294
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>እንደ ገና በመመጠን ላይ \"%s\"</i>"
+msgstr "<i>እንደ ገና በ መመጠን ላይ \"%s\"</i>"
 
 #: image-converter/caja-image-resizer.c:314
 #: image-converter/caja-image-rotator.c:306
@@ -192,7 +192,7 @@ msgstr ""
 
 #: image-converter/caja-image-rotate.ui:149
 msgid "Custom angle:"
-msgstr "Custom angle:"
+msgstr "አንግል ማስተካከያ:"
 
 #: image-converter/caja-image-rotate.ui:181
 msgid "degrees clockwise"
@@ -208,12 +208,12 @@ msgstr ".ዞሯል"
 
 #: image-converter/caja-image-rotate.ui:290
 msgid "Rotate in place"
-msgstr "በማዞር ላይ"
+msgstr "በ ማዞር ላይ"
 
 #: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "ምስል በማዞር ላይ: %d ከ %d"
+msgstr "ምስል በ ማዞር ላይ: %d ከ %d"
 
 #: image-converter/caja-image-rotator.c:289
 #, c-format
@@ -238,7 +238,7 @@ msgstr ""
 #: open-terminal/caja-open-terminal.c:460
 #: open-terminal/caja-open-terminal.c:473
 msgid "Open in _Terminal"
-msgstr "_በተርሚናል ውስጥ መክፈቻ "
+msgstr "በ _ተርሚናል ውስጥ መክፈቻ "
 
 #: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
@@ -669,7 +669,7 @@ msgstr "xattr Tags"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "በ ተስፋፋ መለያዎች ውስጥ የ ተቀመጡ Tags መመልከቻ"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid ""

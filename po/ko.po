@@ -4,20 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Youngbin Han <sukso96100@gmail.com>, 2018
-# jaekwon.park <jaekwon.park@rockplace.co.kr>, 2018
-# Seong-ho Cho <darkcircle.0426@gmail.com>, 2018
-# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2020
-# JungHee Lee <daemul72@gmail.com>, 2021
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2021
+# Youngbin Han <sukso96100@gmail.com>, 2021
+# jaekwon.park <jaekwon.park@rockplace.co.kr>, 2021
+# Junghee Lee <daemul72@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Junghee Lee <daemul72@gmail.com>, 2021\n"
 "Language-Team: Korean (https://www.transifex.com/mate/teams/13566/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -188,7 +188,7 @@ msgstr "각도 선택:"
 
 #: image-converter/caja-image-rotate.ui:124
 msgid "90° clockwise"
-msgstr "시계방향으로 회전"
+msgstr "시계 방향으로 90° 회전"
 
 #: image-converter/caja-image-rotate.ui:125
 msgid "90° counter-clockwise"

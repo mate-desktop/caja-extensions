@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Elvis M. Lukšić <meluksic@yahoo.com>, 2020
-# Ivica  Kolić <ikoli@yahoo.com>, 2020
+# Ivica  Kolić <ikoli@yahoo.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Elvis M. Lukšić <meluksic@yahoo.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"PO-Revision-Date: 2021-09-18 16:53+0000\n"
+"Last-Translator: Elvis M. Lukšić <meluksic@yahoo.com>, 2021\n"
 "Language-Team: Croatian (https://www.transifex.com/mate/teams/13566/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,7 +54,7 @@ msgstr "Greška: %s"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:5
 msgid "Gksu"
-msgstr "Gsku"
+msgstr "Gksu"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:6
 msgid "Privilege granting extension"
@@ -104,7 +104,7 @@ msgstr "Odaberi veličinu:"
 #: image-converter/caja-image-resize.ui:165
 #: image-converter/caja-image-resize.ui:307
 msgid "pixels"
-msgstr "pikseli"
+msgstr "piksela"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
