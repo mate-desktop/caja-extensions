@@ -50,6 +50,16 @@ typedef struct {
     GClosure *update_complete;
 } CajaXattrTagsHandle;
 
+/* List of protocols that don't support xattr retriving,
+ * so we can skip it safetely
+ */
+static gchar *protocols_blacklist[] = {
+    "mtp://",
+    "gphoto2://",
+
+    NULL
+};
+
 /* Stolen code: why they didn't expose it!?
  * file: glocalfileinfo.c
  * function: hex_unescape_string
@@ -107,8 +117,21 @@ static gchar *caja_xattr_tags_get_xdg_tags(CajaFileInfo *file)
     gchar *tags = NULL, *uri;
     GFile *location;
     GFileInfo *info;
+    int i;
 
     uri = caja_file_info_get_activation_uri (file);
+    for (i = 0 ; protocols_blacklist[i] ; i++) {
+        int l = strlen(protocols_blacklist[i]);
+
+        if (strlen(uri) < l)
+            continue;
+        if (strncasecmp(uri, protocols_blacklist[i], l))
+            continue;
+
+        g_free (uri);
+        return NULL;
+    }
+
     location = g_file_new_for_uri (uri);
     info = g_file_query_info (location,
                               G_FILE_ATTRIBUTE_XATTR_XDG_TAGS,
