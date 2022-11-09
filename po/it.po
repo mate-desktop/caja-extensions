@@ -6,7 +6,6 @@
 # Translators:
 # luca123 <l_moscato1@hotmail.it>, 2018
 # Dario Di Nucci <linkin88mail@gmail.com>, 2018
-# Marco Bartolucci <nap.84@live.it>, 2018
 # Emanuele Antonio Faraone <emanueleant03@gmail.com>, 2018
 # l3nn4rt, 2018
 # Giuseppe Pignataro <rogepix@gmail.com>, 2020
@@ -26,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"
@@ -54,7 +53,7 @@ msgid ""
 msgstr ""
 "<big><b>Non è stato possibile determinare il wrapper grafico per su</b></big>\n"
 "\n"
-"L'elemento che è stato selezionato per essere aperto con privilegi di amministratore non può essere gestito perché non è possibile stabilire quale wrapper grafico per su utilizzare, ad esempio gtksu o beesu."
+"L'elemento che è stato selezionato per essere aperto con privilegi di amministratore non può essere gestito perché non è possibile stabilire quale wrapper grafico di su utilizzare, ad esempio gtksu o beesu."
 
 #: gksu/libcaja-gksu.c:253
 #, c-format
@@ -67,7 +66,7 @@ msgstr "Gksu"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:6
 msgid "Privilege granting extension"
-msgstr "Estensione che concede permessi"
+msgstr "Estensione che concede privilegi"
 
 #: gksu/libcaja-gksu.caja-extension.desktop.in.in:8
 msgid ""
@@ -124,7 +123,7 @@ msgstr "Scala:"
 
 #: image-converter/caja-image-resize.ui:218
 msgid "percent"
-msgstr "percentuale"
+msgstr "percento"
 
 #: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
@@ -140,7 +139,7 @@ msgstr "Altezza:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr "Dimensione immagine"
+msgstr "Dimensione dell'immagine"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:242
@@ -158,7 +157,7 @@ msgstr "al nome del file"
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
-msgstr "Ridimensiona e sovrascrivi"
+msgstr "Ridimensiona sul posto"
 
 #: image-converter/caja-image-resize.ui:438
 #: image-converter/caja-image-rotate.ui:313
@@ -168,7 +167,7 @@ msgstr "Nome del file"
 #: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Ridimensionamento immagine: %d di %d"
+msgstr "Ridimensionamento dell'immagine: %d di %d"
 
 #: image-converter/caja-image-resizer.c:294
 #, c-format
@@ -210,11 +209,11 @@ msgstr "Angolo personalizzato:"
 
 #: image-converter/caja-image-rotate.ui:181
 msgid "degrees clockwise"
-msgstr "gradi orari"
+msgstr "gradi in senso orario"
 
 #: image-converter/caja-image-rotate.ui:204
 msgid "Image Rotation"
-msgstr "Rotazione Immagine"
+msgstr "Rotazione dell'immagine"
 
 #: image-converter/caja-image-rotate.ui:260
 msgid ".rotated"
@@ -222,12 +221,12 @@ msgstr ".ruotata"
 
 #: image-converter/caja-image-rotate.ui:290
 msgid "Rotate in place"
-msgstr "Ruota e sovrascrivi"
+msgstr "Ruota sul posto"
 
 #: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr "Rotazione immagine: %d di %d"
+msgstr "Rotazione dell'immagine: %d di %d"
 
 #: image-converter/caja-image-rotator.c:289
 #, c-format
@@ -259,12 +258,12 @@ msgstr "Apri nel _terminale"
 
 #: open-terminal/caja-open-terminal.c:462
 msgid "Open the currently selected folder in a terminal"
-msgstr "Apri la cartella selezionata in un terminale"
+msgstr "Apre la cartella selezionata in un terminale"
 
 #: open-terminal/caja-open-terminal.c:464
 #: open-terminal/caja-open-terminal.c:474
 msgid "Open the currently open folder in a terminal"
-msgstr "Apri l'attuale cartella aperta in un terminale"
+msgstr "Apre l'attuale cartella aperta in un terminale"
 
 #: open-terminal/caja-open-terminal.c:470
 msgid "Open _Terminal"
@@ -272,15 +271,15 @@ msgstr "Apri _terminale"
 
 #: open-terminal/caja-open-terminal.c:471
 msgid "Open a terminal"
-msgstr "Apri un terminale"
+msgstr "Apre un terminale"
 
 #: open-terminal/caja-open-terminal.c:564
 msgid "Open at Home if trying to open on desktop"
-msgstr "Apri nella Home se si effettua sulla Scrivania"
+msgstr "Apri in Home se si effettua l'apertura sulla Scrivania"
 
 #: open-terminal/caja-open-terminal.c:567
 msgid "Terminal application:"
-msgstr "Applicazione terminale:"
+msgstr "Applicazione di terminale:"
 
 #: open-terminal/caja-open-terminal.c:587
 msgid "Close"
@@ -288,7 +287,7 @@ msgstr "Chiudi"
 
 #: open-terminal/caja-open-terminal.c:593
 msgid "open-terminal Configuration"
-msgstr "Configurazione apri-terminale"
+msgstr "Configurazione di apri-terminale"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -313,8 +312,8 @@ msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
 msgstr ""
-"Determina se l'apertura di un terminale sulla Scrivania lo apre nella "
-"cartella Home"
+"Determina se l'apertura di un terminale sulla Scrivania apre il terminale "
+"nella cartella Home"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:6
 msgid ""
@@ -323,10 +322,10 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
-"Se impostata su \"vero\", aprire un terminale sulla scrivania aprirà un "
-"terminale sulla cartella home. Altrimenti, aprirà il terminale nella "
-"cartella della scrivania. Nota che questa chiave non è rilevante se la "
-"cartella della scrivania corrisponde alla cartella home."
+"Se impostato su \"vero\", quando si apre un terminale sulla scrivania, si "
+"aprirà un terminale nella cartella home. Altrimenti, si aprirà il terminale "
+"nella cartella della scrivania. Nota che questa chiave non è rilevante se la"
+" cartella della scrivania corrisponde alla cartella home."
 
 #: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
@@ -355,11 +354,11 @@ msgstr "Impossibile analizzare le opzioni della riga di comando: %s\n"
 
 #: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
-msgstr "Impossibile caricare alcun plugin."
+msgstr "Non è possibile caricare alcun plugin."
 
 #: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
-msgstr "Verificare l'installazione"
+msgstr "Prego, verificare la vostra installazione"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -388,8 +387,8 @@ msgid ""
 "Used to store which plugin was used the last time files were sent using "
 "caja-sendto."
 msgstr ""
-"Usato per memorizzare quale plugin è stato usato l'ultima volta che i file "
-"son stati inviati usando caja-sendto"
+"Utilizzato per memorizzare quale plugin è stato usato l'ultima volta che i "
+"file son stati inviati con caja-sendto"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
 msgid "Last type of archive used"
@@ -400,8 +399,8 @@ msgid ""
 "Used to store which type of archive was used the last time (0: zip, 1: "
 "tar.gz, 2: tar.bz2)."
 msgstr ""
-"Usato per memorizzare quale tipo di archivio è stato utilizzato l'ultima "
-"volta  (0: zip, 1: tar.gz, 2: tar.bz2)."
+"Impiegato per memorizzare quale tipo di archivio è stato utilizzato l'ultima"
+" volta  (0: zip, 1: tar.gz, 2: tar.bz2)."
 
 #: sendto/caja-sendto.ui:17
 msgid "Send To..."
@@ -417,7 +416,7 @@ msgstr "Invia _come:"
 
 #: sendto/caja-sendto.ui:130
 msgid "Send t_o:"
-msgstr "Invia _a:"
+msgstr "Invia a:"
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
@@ -425,7 +424,7 @@ msgstr "Destinazione"
 
 #: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
-msgstr "Invia _archiviato in:"
+msgstr "Invia archiviato in:"
 
 #: sendto/caja-sendto.ui:258
 msgid "Compression"
@@ -445,7 +444,7 @@ msgstr "Impossibile inviare il file"
 
 #: sendto/plugins/gajim/gajim.c:420
 msgid "There is no connection to gajim remote service."
-msgstr "Nessuna connessione al servizio remoto di gajim."
+msgstr "Non c'è nessuna connessione al servizio remoto di gajim."
 
 #: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
 msgid "Sending file failed"
@@ -473,7 +472,7 @@ msgstr "CD/DVD esistente"
 
 #: sendto/plugins/caja-burn/caja-burn.c:178
 msgid "CD/DVD Creator"
-msgstr "Creazione CD/DVD"
+msgstr "Creatore di CD/DVD"
 
 #: sendto/plugins/pidgin/pidgin.c:462
 msgid "Instant Message (Pidgin)"
@@ -511,8 +510,8 @@ msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr ""
-"Caja deve aggiungere alcuni permessi alla cartella \"%s\" per poterla "
-"condividere."
+"Caja deve aggiungere alcuni permessi alla vostra cartella \"%s\" per poterla"
+" condividere."
 
 #: share/caja-share.c:130
 #, c-format
@@ -521,7 +520,7 @@ msgid ""
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
 "La cartella \"%s\" ha bisogno dei seguenti permessi extra per essere condivisa:\n"
-"%s%s%s Vuoi che Caja aggiunga questi permessi automaticamente?"
+"%s%s%s Volete che Caja aggiunga questi permessi automaticamente?"
 
 #: share/caja-share.c:134
 msgid "  - read permission by others\n"
@@ -542,11 +541,11 @@ msgstr "Aggiungi i permessi automaticamente"
 #: share/caja-share.c:166
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr "Impossibile cambiare i permessi per la cartella \"%s\""
+msgstr "Non è stato possibile modificare i permessi della cartella \"%s\""
 
 #: share/caja-share.c:450
 msgid "Share name is too long"
-msgstr "Il nome della condivisione è troppo corto"
+msgstr "Il nome della condivisione è troppo lungo"
 
 #: share/caja-share.c:492
 msgid "The share name cannot be empty"
@@ -563,24 +562,24 @@ msgstr "Esiste un'altra condivisione con lo stesso nome"
 
 #: share/caja-share.c:558 share/caja-share.c:794
 msgid "Modify _Share"
-msgstr "Modifica _condivisione"
+msgstr "Modifica condivi_sione"
 
 #: share/caja-share.c:558 share/caja-share.c:796
 msgid "Create _Share"
-msgstr "Crea _condivisione"
+msgstr "Crea condivi_sione"
 
 #: share/caja-share.c:686
 msgid "There was an error while getting the sharing information"
 msgstr ""
-"Si è verificato un errore nel recupero delle informazioni di condivisione"
+"Si è verificato un errore nel recuperare delle informazioni di condivisione"
 
 #: share/caja-share.c:1118 share/share-dialog.ui:48
 msgid "Folder Sharing"
-msgstr "Condivisione cartella"
+msgstr "Condivisione di una cartella"
 
 #: share/caja-share.c:1159
 msgid "Sharing Options"
-msgstr "Opzioni condivisione"
+msgstr "Opzioni di condivisione"
 
 #: share/caja-share.c:1160
 msgid "Share this Folder"
@@ -588,7 +587,7 @@ msgstr "Condividi questa cartella"
 
 #: share/share-dialog.ui:85
 msgid "Share this _folder"
-msgstr "Condividi questa _cartella"
+msgstr "Condivide questa _cartella"
 
 #: share/share-dialog.ui:119
 msgid "Share _name:"
@@ -613,7 +612,7 @@ msgstr "_Salva"
 #: share/shares.c:127
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr "%s %s %s è ritornato con segnale %d"
+msgstr "%s %s %s è ritornato con il segnale %d"
 
 #: share/shares.c:136
 #, c-format
@@ -632,7 +631,7 @@ msgstr "'net usershare' ha restituito l'errore %d"
 
 #: share/shares.c:189
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr "l'output di 'net usershare' non è in una codifica UTF-8 valida"
+msgstr "l'output di 'net usershare' non è nella codifica UTF-8 valida"
 
 #: share/shares.c:443 share/shares.c:617
 msgid "Failed"
@@ -661,8 +660,8 @@ msgstr "Testparm di samba ha restituito l'errore %d"
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
-"Impossibile rimuovere la condivisione per il percorso %s: il percorso non è "
-"condiviso"
+"Impossibile rimuovere la condivisione per il percorso %s: quel percorso non "
+"è condiviso"
 
 #: share/shares.c:731
 msgid ""
@@ -678,7 +677,7 @@ msgstr "Imposta come sfondo"
 
 #: wallpaper/caja-wallpaper-extension.c:110
 msgid "Set image as the current wallpaper"
-msgstr "Imposta immagine come sfondo corrente"
+msgstr "Imposta un'immagine come sfondo corrente"
 
 #: wallpaper/libcaja-wallpaper.caja-extension.desktop.in.in:5
 msgid "Wallpaper"
@@ -706,7 +705,7 @@ msgstr "Tag salvati negli attributi estesi"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:5
 msgid "xattr Tags"
-msgstr "Tag negli attributi estesi"
+msgstr "Tag di xattr"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"

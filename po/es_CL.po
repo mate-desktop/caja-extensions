@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# prflr88 <prflr88@gmail.com>, 2020
+# Pablo Lezaeta Reyes <prflr88@gmail.com>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # 
 msgid ""
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_CL\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: gksu/libcaja-gksu.c:132
 msgid "Open as administrator"

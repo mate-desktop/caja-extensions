@@ -9,11 +9,11 @@
 # AlexL <loginov.alex.valer@gmail.com>, 2018
 # monsta <monsta@inbox.ru>, 2018
 # Павел Щербаков <terrorizmo@yandex.ru>, 2018
-# Alex Putz, 2018
 # Дмитрий Михирев, 2019
-# Alexei Sorokin, 2020
-# Anna Vyalkova <cybertailor@gmail.com>, 2020
+# XRevan86, 2020
+# Cyber Tailor <cyber@sysrq.in>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Alex Puts, 2022
 # 
 msgid ""
 msgstr ""
@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2021-06-05 10:50+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Last-Translator: Alex Puts, 2022\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,6 +53,9 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
 msgstr ""
+"<big><b>Невозможно определить графическую обёртку для su</b>\n"
+"\n"
+"Выбранный пункт не может быть открыт с административными привилегиями потому что графическая обёртка su (такая как gtksu или beesu) не может быть определена."
 
 #: gksu/libcaja-gksu.c:253
 #, c-format
@@ -73,6 +76,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Авторское право (C) 2002-2005 Густаво Норонья Сильва\n"
+"Авторское право (C) 2013-2014 Стефано Карапетсас\n"
+"Авторское право (C) 2015-2021 Разработчики MATE"
 
 #: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
@@ -209,7 +215,7 @@ msgstr "градусов по часовой"
 
 #: image-converter/caja-image-rotate.ui:204
 msgid "Image Rotation"
-msgstr ""
+msgstr "Поворот Изображения"
 
 #: image-converter/caja-image-rotate.ui:260
 msgid ".rotated"
@@ -243,6 +249,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Авторское право (C) 2004-2005 Юрг Биллетер\n"
+"Авторское право (C) 2013-2014 Стефано Карапетсас\n"
+"Авторское право (C) 2015-2021 Разарботчики MATE"
 
 #: open-terminal/caja-open-terminal.c:460
 #: open-terminal/caja-open-terminal.c:473
@@ -296,6 +305,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Авторское право (C) 2004-2005 Фри Софтваре Фоундейшн, Инк.\n"
+"Авторское право (C) 2013-2014 Стефано Карапетсас\n"
+"Авторское право (C) 2015-2021 Разработчики MATE"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
@@ -364,6 +376,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Авторское право (C) 2004 Роберто Майдас\n"
+"Авторское право (C) 2013-2014 Стефано Карапетсас\n"
+"Авторское право (C) 2015-2021 Разработчики MATE"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
@@ -395,7 +410,7 @@ msgstr "Отправить…"
 
 #: sendto/caja-sendto.ui:54
 msgid "Send"
-msgstr ""
+msgstr "Отправить"
 
 #: sendto/caja-sendto.ui:116
 msgid "Send _as:"
@@ -407,7 +422,7 @@ msgstr "К_уда:"
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
-msgstr ""
+msgstr "Место назначения"
 
 #: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
@@ -415,7 +430,7 @@ msgstr "_Запаковать в архив:"
 
 #: sendto/caja-sendto.ui:258
 msgid "Compression"
-msgstr ""
+msgstr "Сжатие"
 
 #: sendto/caja-sendto.ui:300
 msgid "label"
@@ -487,6 +502,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Авторское право (C) 2005 Этиум, Инк.\n"
+"Авторское право (C) 2013-2014 Стефано Карапетсас\n"
+"Авторское право (C) 2015-2021 Разработчики MATE"
 
 #: share/caja-share.c:122
 #, c-format
@@ -671,6 +689,8 @@ msgid ""
 "Copyright (C) 2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Авторское право (C) 2014 Стефано Карапетсас\n"
+"Авторское право (C) 2015-2021 Разработчики MATE"
 
 #: xattr-tags/caja-xattr-tags-extension.c:183
 msgid "Tags"
@@ -693,3 +713,5 @@ msgid ""
 "Copyright (C) 2016 Felipe Barriga Richards\n"
 "Copyright (C) 2017-2021 MATE developers"
 msgstr ""
+"Авторское право (C) 2016 Филип Баррига Ричардс\n"
+"Авторское право (C) 2017-2021 Разработчики MATE"

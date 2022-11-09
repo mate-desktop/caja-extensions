@@ -6,8 +6,8 @@
 # Translators:
 # Vinzenz Vietzke <vinz@vinzv.de>, 2018
 # Ettore Atalan <atalanttore@googlemail.com>, 2018
-# Almin <GermannenMarkus@googlemail.com>, 2018
-# kæde, 2018
+# 3261a07739204bf5849eea93616073d1_53c6965 <b1ea2db32bd1373eeb3c68e80f73c6f3_123491>, 2018
+# 1f56a852cffb5e0335eb985ca79c72b1_38bd0cd, 2018
 # bambuhle <politik@philippoi.de>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Julian Rüger <jr98@gmx.net>, 2018

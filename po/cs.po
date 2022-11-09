@@ -8,7 +8,7 @@
 # huskyviking <husky.viking@seznam.cz>, 2018
 # 1e6459e9b1241af8afa03d508d281c17_dbe0d8b, 2018
 # 6e833d5535e2fe0dd9dfa7fe5bf473f2_d78f422 <64c38a0ff10419c64e8e03d54c72b3bd_352524>, 2019
-# LiberteCzech <liberte.czech@gmail.com>, 2020
+# LiberteCzech <martin.kriz.czech@gmail.com>, 2020
 # ToMáš Marný, 2020
 # Roman Horník <roman.hornik@debian-linux.cz>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
@@ -52,6 +52,9 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
 msgstr ""
+"<big><b>Nelze nalézy žádné grafické rozhraní pro příkaz su</b></big>\n"
+"\n"
+"Zvolenou položku nelze otevřít s oprávněním administrátora, protože grafické rozhraní pro příkaz su, jako například gtksu nebo beesu, nelze nalézt."
 
 #: gksu/libcaja-gksu.c:253
 #, c-format
