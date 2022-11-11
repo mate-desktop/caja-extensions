@@ -1,3 +1,18 @@
+### caja-extensions 1.27.0
+
+  * tx: sync with transifex
+  * travis-CI: update build dependencies for debian:testing
+  * tx: migrate config file
+  * Failed to resolve the path to caja-extensions.mo on guix system
+  * bacon-video-widget-properties: fix warning 'g_type_class_add_private' is deprecated
+  * add audio-video-properties plugin
+  * build warning: AC_OUTPUT should be used without arguments
+  * Fixed caja-share not working under Arch Linux
+  * Fix build warnings about missing field initializer
+  * Fix build warning -Wmissing-prototypes
+  * ci: drop -Wunused-parameter compiler cflag from debian build
+  * Use a blank line at most
+
 ### caja-extensions 1.26.0
 
   * Translations update
