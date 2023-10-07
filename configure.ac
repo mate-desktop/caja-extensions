@@ -130,7 +130,7 @@ if test "x$enable_sendto" = "xyes"; then
         AC_SUBST(SENDTO_LIBS)
 
     # The full list of plugins
-    allowed_sendto_plugins="emailclient gajim caja-burn pidgin removable-devices upnp"
+    allowed_sendto_plugins="emailclient caja-burn pidgin removable-devices upnp"
 
     sendto_plugin_error_or_ignore()
     {
@@ -186,25 +186,6 @@ if test "x$enable_sendto" = "xyes"; then
                     enable_emailclient=yes, enable_emailclient=no)
                 if test "${enable_emailclient}" != "yes" ; then
                     sendto_plugin_error_or_ignore "you need gio-2.0 to build the emailclient plugin"
-                    add_sendto_plugin="0"
-                fi
-            ;;
-            gajim)
-                AC_ARG_WITH(sendto_gajim,
-                    [AS_HELP_STRING(--with-sendto-gajim,[Path to Gajim install prefix])],
-                    [GAJIM_PATH="$withval"],[GAJIM_PATH="$prefix"])
-
-                GAJIM_SHARE_DIR="$GAJIM_PATH"/share/gajim
-
-                PKG_CHECK_MODULES(DBUS, dbus-1 >= $DBUS_REQUIRED dbus-glib-1 >= $DBUS_GLIB_REQUIRED,
-                    [AC_SUBST(DBUS_CFLAGS)
-                    AC_SUBST(DBUS_LIBS)
-                    enable_gajim=yes
-                    AC_DEFINE_UNQUOTED(GAJIM_SHARE_DIR, "$GAJIM_SHARE_DIR", [path to gajim share dir])],
-                    [enable_gajim=no])
-
-                if test "${enable_gajim}" != "yes" ; then
-                    sendto_plugin_error_or_ignore "you need dbus-glib installed to build the gajim plugin"
                     add_sendto_plugin="0"
                 fi
             ;;
@@ -374,7 +355,6 @@ AC_CONFIG_FILES([
   sendto/docs/version.xml
   sendto/plugins/Makefile
   sendto/plugins/emailclient/Makefile
-  sendto/plugins/gajim/Makefile
   sendto/plugins/caja-burn/Makefile
   sendto/plugins/pidgin/Makefile
   sendto/plugins/removable-devices/Makefile

@@ -24,7 +24,6 @@ sendto/libcaja-sendto.caja-extension.desktop.in.in
 sendto/org.mate.Caja.Sendto.gschema.xml.in
 sendto/caja-sendto.ui
 sendto/plugins/emailclient/emailclient.c
-sendto/plugins/gajim/gajim.c
 sendto/plugins/caja-burn/caja-burn.c
 sendto/plugins/pidgin/pidgin.c
 sendto/plugins/removable-devices/removable-devices.c
