@@ -119,7 +119,7 @@ if test "x$enable_sendto" = "xyes"; then
         GTHREAD_REQUIRED=2.6.0
         DBUS_REQUIRED=1.0
         DBUS_GLIB_REQUIRED=0.60
-        GUPNP_REQUIRED=0.13
+        GUPNP_REQUIRED=1.6
         PKG_CHECK_MODULES(SENDTO,
                 glib-2.0    >= $GLIB_REQUIRED
                 gthread-2.0 >= $GTHREAD_REQUIRED
@@ -233,9 +233,7 @@ if test "x$enable_sendto" = "xyes"; then
             fi
             ;;
             upnp)
-                PKG_CHECK_MODULES(UPNP, gupnp-1.2 >= $GUPNP_REQUIRED,
-                    enable_upnp=yes AC_DEFINE([HAS_GUPNP_VERSION_1_2], 1, ["Version is at least 1.2"]), enable_upnp=no)
-                PKG_CHECK_MODULES(UPNP, gupnp-1.0 >= $GUPNP_REQUIRED,
+                PKG_CHECK_MODULES(UPNP, gupnp-1.6 >= $GUPNP_REQUIRED,
                     enable_upnp=yes, enable_upnp=no)
                 if test "${enable_upnp}" != "yes" ; then
                     sendto_plugin_error_or_ignore "you need gupnp installed to build the upnp plugin"
