@@ -1,6 +1,13 @@
+### caja-extensions 1.27.1
+
+  * Translations update
+  * sendto: require gupnp-1.6
+  * xattr-tags-extension: avoid check xattr for mtp:// and gphoto2://
+  * Fix missing GtkRadioButton id
+
 ### caja-extensions 1.27.0
 
-  * tx: sync with transifex
+  * Translations update
   * travis-CI: update build dependencies for debian:testing
   * tx: migrate config file
   * Failed to resolve the path to caja-extensions.mo on guix system
