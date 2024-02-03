@@ -4,31 +4,210 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 趙惟倫 <bluebat@member.fsf.org>, 2021
+# 趙惟倫 <bluebat@member.fsf.org>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.25.0\n"
+"Project-Id-Version: caja-extensions 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-06-05 10:50+0200\n"
+"POT-Creation-Date: 2023-08-31 19:45+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: 趙惟倫 <bluebat@member.fsf.org>, 2021\n"
-"Language-Team: Chinese (Mandarin) (https://www.transifex.com/mate/teams/13566/cmn/)\n"
+"Last-Translator: 趙惟倫 <bluebat@member.fsf.org>, 2023\n"
+"Language-Team: Chinese (Mandarin) (https://app.transifex.com/mate/teams/13566/cmn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cmn\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: gksu/libcaja-gksu.c:132
+#: audio-video-properties/bacon-video-widget-properties.c:104
+msgctxt "Title"
+msgid "Unknown"
+msgstr "不明"
+
+#: audio-video-properties/bacon-video-widget-properties.c:106
+msgctxt "Artist"
+msgid "Unknown"
+msgstr "不明"
+
+#: audio-video-properties/bacon-video-widget-properties.c:108
+msgctxt "Album"
+msgid "Unknown"
+msgstr "不明"
+
+#: audio-video-properties/bacon-video-widget-properties.c:110
+msgctxt "Year"
+msgid "Unknown"
+msgstr "不明"
+
+#: audio-video-properties/bacon-video-widget-properties.c:116
+msgctxt "Media container"
+msgid "Unknown"
+msgstr "不明"
+
+#: audio-video-properties/bacon-video-widget-properties.c:119
+msgctxt "Dimensions"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/bacon-video-widget-properties.c:121
+msgctxt "Video codec"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/bacon-video-widget-properties.c:124
+msgctxt "Video bit rate"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/bacon-video-widget-properties.c:127
+#: audio-video-properties/bacon-video-widget-properties.c:235
+msgctxt "Frame rate"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/bacon-video-widget-properties.c:131
+msgctxt "Audio bit rate"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/bacon-video-widget-properties.c:133
+msgctxt "Audio codec"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/bacon-video-widget-properties.c:135
+msgid "0 Hz"
+msgstr ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:137
+msgid "0 Channels"
+msgstr ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:153
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:155
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:158
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:164
+#, c-format
+msgctxt "time"
+msgid "%s %s %s"
+msgstr "%s %s %s"
+
+#: audio-video-properties/bacon-video-widget-properties.c:167
+#, c-format
+msgctxt "time"
+msgid "%s %s"
+msgstr "%s %s"
+
+#: audio-video-properties/bacon-video-widget-properties.c:173
+msgid "0 seconds"
+msgstr ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:233
+#, c-format
+msgid "%0.2f frame per second"
+msgid_plural "%0.2f frames per second"
+msgstr[0] ""
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:5
+msgid "Audio/Video Properties"
+msgstr ""
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:6
+msgid "Display audio/video properties"
+msgstr ""
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:8
+msgid ""
+"Copyright (C) 2005 Bastien Nocera\n"
+"Copyright (C) 2005-2019 Totem Media Player developers\n"
+"Copyright (C) 2019-2021 Nautilus developers\n"
+"Copyright (C) 2021 MATE developers"
+msgstr ""
+
+#: audio-video-properties/totem-properties-main.c:118
+#: audio-video-properties/totem-properties-view.c:275
+msgid "Audio/Video"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:133
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/totem-properties-view.c:162
+msgctxt "Stream bit rate"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/totem-properties-view.c:165
+#, c-format
+msgid "%d kbps"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:182
+#, c-format
+msgid "%d × %d"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:214
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#: audio-video-properties/totem-properties-view.c:222
+msgctxt "Sample rate"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/totem-properties-view.c:230
+msgid "Surround"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:232
+msgid "Mono"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:234
+msgid "Stereo"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:245
+msgctxt "Number of audio channels"
+msgid "N/A"
+msgstr "不適用"
+
+#: audio-video-properties/totem-properties-view.c:277
+msgid "Audio"
+msgstr "音效檔"
+
+#: audio-video-properties/totem-properties-view.c:279
+msgid "Video"
+msgstr "影音檔"
+
+#: gksu/libcaja-gksu.c:133
 msgid "Open as administrator"
 msgstr "以管理員身分開啟"
 
-#: gksu/libcaja-gksu.c:133
+#: gksu/libcaja-gksu.c:134
 msgid "Opens the file with administrator privileges"
 msgstr "以管理員權限開啟檔案"
 
-#: gksu/libcaja-gksu.c:190
+#: gksu/libcaja-gksu.c:191
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -38,14 +217,14 @@ msgstr ""
 "\n"
 "您所選的項目無法以管理員的權限開啟，因為無法決定正確的應用程式。"
 
-#: gksu/libcaja-gksu.c:226
+#: gksu/libcaja-gksu.c:227
 msgid ""
 "<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
 "\n"
 "The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
 msgstr ""
 
-#: gksu/libcaja-gksu.c:253
+#: gksu/libcaja-gksu.c:254
 #, c-format
 msgid "Error: %s"
 msgstr "錯誤：%s"
@@ -235,41 +414,41 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:460
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:459
+#: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:462
+#: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "在終端機中開啟目前已選資料夾"
 
-#: open-terminal/caja-open-terminal.c:464
-#: open-terminal/caja-open-terminal.c:474
+#: open-terminal/caja-open-terminal.c:463
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "在終端機中開啟目前開啟資料夾"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "開啟終端機(_T)"
 
-#: open-terminal/caja-open-terminal.c:471
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "開啟一個終端機視窗"
 
-#: open-terminal/caja-open-terminal.c:564
+#: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:567
+#: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
 msgstr ""
 
-#: open-terminal/caja-open-terminal.c:587
+#: open-terminal/caja-open-terminal.c:586
 msgid "Close"
 msgstr "關閉"
 
-#: open-terminal/caja-open-terminal.c:593
+#: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
 msgstr ""
 
@@ -403,59 +582,59 @@ msgstr ""
 msgid "label"
 msgstr "標籤"
 
-#: sendto/plugins/emailclient/emailclient.c:267
+#: sendto/plugins/emailclient/emailclient.c:272
 msgid "Email"
 msgstr "電子郵件"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:422
 msgid "Unable to send file"
 msgstr "無法發送檔案"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:423
 msgid "There is no connection to gajim remote service."
 msgstr "沒有任何連線到 gajim 遠端服務。"
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:447 sendto/plugins/gajim/gajim.c:487
 msgid "Sending file failed"
 msgstr "發送檔案失敗"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:448
 msgid "Recipient is missing."
 msgstr "缺少收件者。"
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:487
 msgid "Unknown recipient."
 msgstr "不明收件者。"
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:510
 msgid "Instant Message (Gajim)"
 msgstr "即時訊息 (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:93
+#: sendto/plugins/caja-burn/caja-burn.c:98
 msgid "New CD/DVD"
 msgstr "新的光碟"
 
-#: sendto/plugins/caja-burn/caja-burn.c:100
+#: sendto/plugins/caja-burn/caja-burn.c:105
 msgid "Existing CD/DVD"
 msgstr "現有光碟"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:183
 msgid "CD/DVD Creator"
 msgstr "光碟建立者"
 
-#: sendto/plugins/pidgin/pidgin.c:462
+#: sendto/plugins/pidgin/pidgin.c:466
 msgid "Instant Message (Pidgin)"
 msgstr "即時訊息 (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:249
+#: sendto/plugins/removable-devices/removable-devices.c:254
 msgid "Removable disks and shares"
 msgstr "抽取式磁碟與共享資料"
 
-#: sendto/plugins/upnp/upnp.c:313
+#: sendto/plugins/upnp/upnp.c:318
 msgid "UPnP Media Server"
 msgstr "UPnP 媒體伺服器"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1053
 msgid "Share"
 msgstr "共享"
 
@@ -470,14 +649,14 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: share/caja-share.c:122
+#: share/caja-share.c:121
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "Caja 需要加入某些權限到您的資料夾「%s」以便共享它"
 
-#: share/caja-share.c:130
+#: share/caja-share.c:129
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -486,65 +665,65 @@ msgstr ""
 "資料夾「%s」需要下列額外權限才能啟用共享：\n"
 "%s%s%s 您想要 Caja 自動加入這些權限到資料夾嗎？"
 
-#: share/caja-share.c:134
+#: share/caja-share.c:133
 msgid "  - read permission by others\n"
 msgstr "  - 其他人的讀取權限\n"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - write permission by others\n"
 msgstr "  - 其他人的寫入權限\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - execute permission by others\n"
 msgstr "  - 其他人的執行權限\n"
 
-#: share/caja-share.c:140
+#: share/caja-share.c:139
 msgid "Add the permissions automatically"
 msgstr "自動加入權限"
 
-#: share/caja-share.c:166
+#: share/caja-share.c:165
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "無法變更資料夾「%s」的權限"
 
-#: share/caja-share.c:450
+#: share/caja-share.c:448
 msgid "Share name is too long"
 msgstr "共享名稱太長"
 
-#: share/caja-share.c:492
+#: share/caja-share.c:490
 msgid "The share name cannot be empty"
 msgstr "共享名稱不可為空"
 
-#: share/caja-share.c:505
+#: share/caja-share.c:503
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "提取共享資訊時發生錯誤：%s"
 
-#: share/caja-share.c:515
+#: share/caja-share.c:513
 msgid "Another share has the same name"
 msgstr "與另一個共享同名"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:556 share/caja-share.c:791
 msgid "Modify _Share"
 msgstr "修改共享(_S)"
 
-#: share/caja-share.c:558 share/caja-share.c:796
+#: share/caja-share.c:556 share/caja-share.c:793
 msgid "Create _Share"
 msgstr "建立共享(_S)"
 
-#: share/caja-share.c:686
+#: share/caja-share.c:684
 msgid "There was an error while getting the sharing information"
 msgstr "提取共享資訊時出現了錯誤"
 
-#: share/caja-share.c:1118 share/share-dialog.ui:48
+#: share/caja-share.c:1113 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "資料夾共享"
 
-#: share/caja-share.c:1159
+#: share/caja-share.c:1154
 msgid "Sharing Options"
 msgstr "共享選項"
 
-#: share/caja-share.c:1160
+#: share/caja-share.c:1155
 msgid "Share this Folder"
 msgstr "共享這個資料夾"
 
@@ -572,59 +751,59 @@ msgstr "訪客存取 (用於不具使用帳號者)(_G)"
 msgid "_Save"
 msgstr "儲存(_S)"
 
-#: share/shares.c:127
+#: share/shares.c:126
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s 回傳了信號 %d"
 
-#: share/shares.c:136
+#: share/shares.c:135
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s 由於不明原因而失敗"
 
-#: share/shares.c:156
+#: share/shares.c:155
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "net usershare 回傳了錯誤 %d：%s"
 
-#: share/shares.c:158
+#: share/shares.c:157
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "net usershare 回傳了錯誤 %d"
 
-#: share/shares.c:189
+#: share/shares.c:188
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "net usershare 的輸出不是有效的 UTF-8 編碼"
 
-#: share/shares.c:443 share/shares.c:617
+#: share/shares.c:441 share/shares.c:615
 msgid "Failed"
 msgstr "失敗"
 
-#: share/shares.c:551
+#: share/shares.c:549
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Samba 的 testparm 回傳了信號 %d"
 
-#: share/shares.c:557
+#: share/shares.c:555
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Samba 的 testparm 由於不明原因而失敗"
 
-#: share/shares.c:572
+#: share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Samba 的 testparm 回傳了錯誤 %d：%s"
 
-#: share/shares.c:574
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Samba 的 testparm 回傳了錯誤 %d"
 
-#: share/shares.c:685
+#: share/shares.c:683
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr "無法移除共享路徑 %s：該路徑並未共享"
 
-#: share/shares.c:731
+#: share/shares.c:729
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -652,11 +831,11 @@ msgid ""
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
 
-#: xattr-tags/caja-xattr-tags-extension.c:183
+#: xattr-tags/caja-xattr-tags-extension.c:205
 msgid "Tags"
 msgstr "標籤"
 
-#: xattr-tags/caja-xattr-tags-extension.c:184
+#: xattr-tags/caja-xattr-tags-extension.c:206
 msgid "Tags stored in extended attributes"
 msgstr ""
 

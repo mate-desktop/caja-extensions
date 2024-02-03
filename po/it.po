@@ -5,37 +5,228 @@
 # 
 # Translators:
 # luca123 <l_moscato1@hotmail.it>, 2018
-# Dario Di Nucci <linkin88mail@gmail.com>, 2018
 # Emanuele Antonio Faraone <emanueleant03@gmail.com>, 2018
 # l3nn4rt, 2018
-# Giuseppe Pignataro <rogepix@gmail.com>, 2020
 # Enrico B. <enricobe@hotmail.com>, 2020
-# Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Alessandro Volturno <alelvb@inwind.it>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2023
+# Dario Di Nucci <linkin88mail@gmail.com>, 2023
+# Giuseppe Pignataro (Fastbyte01) <rogepix@gmail.com>, 2023
+# Alessandro Volturno <alelvb@inwind.it>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.25.0\n"
+"Project-Id-Version: caja-extensions 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-06-05 10:50+0200\n"
+"POT-Creation-Date: 2023-08-31 19:45+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: gksu/libcaja-gksu.c:132
+#: audio-video-properties/bacon-video-widget-properties.c:104
+msgctxt "Title"
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: audio-video-properties/bacon-video-widget-properties.c:106
+msgctxt "Artist"
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: audio-video-properties/bacon-video-widget-properties.c:108
+msgctxt "Album"
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: audio-video-properties/bacon-video-widget-properties.c:110
+msgctxt "Year"
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: audio-video-properties/bacon-video-widget-properties.c:116
+msgctxt "Media container"
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: audio-video-properties/bacon-video-widget-properties.c:119
+msgctxt "Dimensions"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/bacon-video-widget-properties.c:121
+msgctxt "Video codec"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/bacon-video-widget-properties.c:124
+msgctxt "Video bit rate"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/bacon-video-widget-properties.c:127
+#: audio-video-properties/bacon-video-widget-properties.c:235
+msgctxt "Frame rate"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/bacon-video-widget-properties.c:131
+msgctxt "Audio bit rate"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/bacon-video-widget-properties.c:133
+msgctxt "Audio codec"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/bacon-video-widget-properties.c:135
+msgid "0 Hz"
+msgstr "0 Hz"
+
+#: audio-video-properties/bacon-video-widget-properties.c:137
+msgid "0 Channels"
+msgstr "0 Canali"
+
+#: audio-video-properties/bacon-video-widget-properties.c:153
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d ora"
+msgstr[1] "%d ore"
+msgstr[2] "%d ore"
+
+#: audio-video-properties/bacon-video-widget-properties.c:155
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minuti"
+msgstr[2] "%d minuti"
+
+#: audio-video-properties/bacon-video-widget-properties.c:158
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d secondo"
+msgstr[1] "%d secondi"
+msgstr[2] "%d secondi"
+
+#: audio-video-properties/bacon-video-widget-properties.c:164
+#, c-format
+msgctxt "time"
+msgid "%s %s %s"
+msgstr "%s %s %s"
+
+#: audio-video-properties/bacon-video-widget-properties.c:167
+#, c-format
+msgctxt "time"
+msgid "%s %s"
+msgstr "%s %s"
+
+#: audio-video-properties/bacon-video-widget-properties.c:173
+msgid "0 seconds"
+msgstr "0 secondi"
+
+#: audio-video-properties/bacon-video-widget-properties.c:233
+#, c-format
+msgid "%0.2f frame per second"
+msgid_plural "%0.2f frames per second"
+msgstr[0] "%0.2f frame al secondo"
+msgstr[1] "%0.2f frame al secondo"
+msgstr[2] "%0.2f frame al secondo"
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:5
+msgid "Audio/Video Properties"
+msgstr "Proprietà Audio/Video"
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:6
+msgid "Display audio/video properties"
+msgstr "Mostra le proprietà audio/video"
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:8
+msgid ""
+"Copyright (C) 2005 Bastien Nocera\n"
+"Copyright (C) 2005-2019 Totem Media Player developers\n"
+"Copyright (C) 2019-2021 Nautilus developers\n"
+"Copyright (C) 2021 MATE developers"
+msgstr ""
+"Copyright (C) 2005 Bastien Nocera\n"
+"Copyright (C) 2005-2019 gli sviluppatori di Totem Media Player\n"
+"Copyright (C) 2019-2021 gli sviluppatori di Nautilus\n"
+"Copyright (C) 2021 gli sviluppatori di MATE"
+
+#: audio-video-properties/totem-properties-main.c:118
+#: audio-video-properties/totem-properties-view.c:275
+msgid "Audio/Video"
+msgstr "Audio/Video"
+
+#: audio-video-properties/totem-properties-view.c:133
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/totem-properties-view.c:162
+msgctxt "Stream bit rate"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/totem-properties-view.c:165
+#, c-format
+msgid "%d kbps"
+msgstr "%d kbps"
+
+#: audio-video-properties/totem-properties-view.c:182
+#, c-format
+msgid "%d × %d"
+msgstr "%d × %d"
+
+#: audio-video-properties/totem-properties-view.c:214
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#: audio-video-properties/totem-properties-view.c:222
+msgctxt "Sample rate"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/totem-properties-view.c:230
+msgid "Surround"
+msgstr "Surround"
+
+#: audio-video-properties/totem-properties-view.c:232
+msgid "Mono"
+msgstr "Mono"
+
+#: audio-video-properties/totem-properties-view.c:234
+msgid "Stereo"
+msgstr "Stereo"
+
+#: audio-video-properties/totem-properties-view.c:245
+msgctxt "Number of audio channels"
+msgid "N/A"
+msgstr "N/D"
+
+#: audio-video-properties/totem-properties-view.c:277
+msgid "Audio"
+msgstr "Audio"
+
+#: audio-video-properties/totem-properties-view.c:279
+msgid "Video"
+msgstr "Video"
+
+#: gksu/libcaja-gksu.c:133
 msgid "Open as administrator"
 msgstr "Apri come amministratore"
 
-#: gksu/libcaja-gksu.c:133
+#: gksu/libcaja-gksu.c:134
 msgid "Opens the file with administrator privileges"
 msgstr "Apre il file con i privilegi di amministratore"
 
-#: gksu/libcaja-gksu.c:190
+#: gksu/libcaja-gksu.c:191
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -45,7 +236,7 @@ msgstr ""
 "\n"
 "L'elemento selezionato non può essere aperto con i privilegi di amministratore perché non può essere determinata l'applicazione corretta."
 
-#: gksu/libcaja-gksu.c:226
+#: gksu/libcaja-gksu.c:227
 msgid ""
 "<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
 "\n"
@@ -55,7 +246,7 @@ msgstr ""
 "\n"
 "L'elemento che è stato selezionato per essere aperto con privilegi di amministratore non può essere gestito perché non è possibile stabilire quale wrapper grafico di su utilizzare, ad esempio gtksu o beesu."
 
-#: gksu/libcaja-gksu.c:253
+#: gksu/libcaja-gksu.c:254
 #, c-format
 msgid "Error: %s"
 msgstr "Errore: %s"
@@ -251,41 +442,41 @@ msgstr ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 Gli sviluppatori di MATE"
 
-#: open-terminal/caja-open-terminal.c:460
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:459
+#: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Apri nel _terminale"
 
-#: open-terminal/caja-open-terminal.c:462
+#: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Apre la cartella selezionata in un terminale"
 
-#: open-terminal/caja-open-terminal.c:464
-#: open-terminal/caja-open-terminal.c:474
+#: open-terminal/caja-open-terminal.c:463
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Apre l'attuale cartella aperta in un terminale"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Apri _terminale"
 
-#: open-terminal/caja-open-terminal.c:471
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Apre un terminale"
 
-#: open-terminal/caja-open-terminal.c:564
+#: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
 msgstr "Apri in Home se si effettua l'apertura sulla Scrivania"
 
-#: open-terminal/caja-open-terminal.c:567
+#: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
 msgstr "Applicazione di terminale:"
 
-#: open-terminal/caja-open-terminal.c:587
+#: open-terminal/caja-open-terminal.c:586
 msgid "Close"
 msgstr "Chiudi"
 
-#: open-terminal/caja-open-terminal.c:593
+#: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
 msgstr "Configurazione di apri-terminale"
 
@@ -434,59 +625,59 @@ msgstr "Compressione"
 msgid "label"
 msgstr "etichetta"
 
-#: sendto/plugins/emailclient/emailclient.c:267
+#: sendto/plugins/emailclient/emailclient.c:272
 msgid "Email"
 msgstr "Email"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:422
 msgid "Unable to send file"
 msgstr "Impossibile inviare il file"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:423
 msgid "There is no connection to gajim remote service."
 msgstr "Non c'è nessuna connessione al servizio remoto di gajim."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:447 sendto/plugins/gajim/gajim.c:487
 msgid "Sending file failed"
 msgstr "Invio del file non riuscito"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:448
 msgid "Recipient is missing."
 msgstr "Manca Il destinatario."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:487
 msgid "Unknown recipient."
 msgstr "Destinatario sconosciuto."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:510
 msgid "Instant Message (Gajim)"
 msgstr "Messaggio istantaneo (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:93
+#: sendto/plugins/caja-burn/caja-burn.c:98
 msgid "New CD/DVD"
 msgstr "Nuovo CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:100
+#: sendto/plugins/caja-burn/caja-burn.c:105
 msgid "Existing CD/DVD"
 msgstr "CD/DVD esistente"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:183
 msgid "CD/DVD Creator"
 msgstr "Creatore di CD/DVD"
 
-#: sendto/plugins/pidgin/pidgin.c:462
+#: sendto/plugins/pidgin/pidgin.c:466
 msgid "Instant Message (Pidgin)"
 msgstr "Messaggio istantaneo (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:249
+#: sendto/plugins/removable-devices/removable-devices.c:254
 msgid "Removable disks and shares"
 msgstr "Condivisioni e dischi rimovibili"
 
-#: sendto/plugins/upnp/upnp.c:313
+#: sendto/plugins/upnp/upnp.c:318
 msgid "UPnP Media Server"
 msgstr "Server multimediale UPnP"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1053
 msgid "Share"
 msgstr "Condivisione"
 
@@ -504,7 +695,7 @@ msgstr ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 Gli sviluppatori di MATE"
 
-#: share/caja-share.c:122
+#: share/caja-share.c:121
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -513,7 +704,7 @@ msgstr ""
 "Caja deve aggiungere alcuni permessi alla vostra cartella \"%s\" per poterla"
 " condividere."
 
-#: share/caja-share.c:130
+#: share/caja-share.c:129
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -522,66 +713,66 @@ msgstr ""
 "La cartella \"%s\" ha bisogno dei seguenti permessi extra per essere condivisa:\n"
 "%s%s%s Volete che Caja aggiunga questi permessi automaticamente?"
 
-#: share/caja-share.c:134
+#: share/caja-share.c:133
 msgid "  - read permission by others\n"
 msgstr "- permesso di lettura da altri\n"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - write permission by others\n"
 msgstr "  - permesso di scrittura da altri\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - execute permission by others\n"
 msgstr "  - permesso di esecuzione da altri\n"
 
-#: share/caja-share.c:140
+#: share/caja-share.c:139
 msgid "Add the permissions automatically"
 msgstr "Aggiungi i permessi automaticamente"
 
-#: share/caja-share.c:166
+#: share/caja-share.c:165
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Non è stato possibile modificare i permessi della cartella \"%s\""
 
-#: share/caja-share.c:450
+#: share/caja-share.c:448
 msgid "Share name is too long"
 msgstr "Il nome della condivisione è troppo lungo"
 
-#: share/caja-share.c:492
+#: share/caja-share.c:490
 msgid "The share name cannot be empty"
 msgstr "Il nome della condivisione non può essere vuoto"
 
-#: share/caja-share.c:505
+#: share/caja-share.c:503
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Errore nel recupero delle informazioni di condivisione: %s"
 
-#: share/caja-share.c:515
+#: share/caja-share.c:513
 msgid "Another share has the same name"
 msgstr "Esiste un'altra condivisione con lo stesso nome"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:556 share/caja-share.c:791
 msgid "Modify _Share"
 msgstr "Modifica condivi_sione"
 
-#: share/caja-share.c:558 share/caja-share.c:796
+#: share/caja-share.c:556 share/caja-share.c:793
 msgid "Create _Share"
 msgstr "Crea condivi_sione"
 
-#: share/caja-share.c:686
+#: share/caja-share.c:684
 msgid "There was an error while getting the sharing information"
 msgstr ""
 "Si è verificato un errore nel recuperare delle informazioni di condivisione"
 
-#: share/caja-share.c:1118 share/share-dialog.ui:48
+#: share/caja-share.c:1113 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Condivisione di una cartella"
 
-#: share/caja-share.c:1159
+#: share/caja-share.c:1154
 msgid "Sharing Options"
 msgstr "Opzioni di condivisione"
 
-#: share/caja-share.c:1160
+#: share/caja-share.c:1155
 msgid "Share this Folder"
 msgstr "Condividi questa cartella"
 
@@ -609,61 +800,61 @@ msgstr "Accesso _ospite (per persone senza un account utente)"
 msgid "_Save"
 msgstr "_Salva"
 
-#: share/shares.c:127
+#: share/shares.c:126
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s è ritornato con il segnale %d"
 
-#: share/shares.c:136
+#: share/shares.c:135
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s fallito per un motivo sconosciuto"
 
-#: share/shares.c:156
+#: share/shares.c:155
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' ha restituito l'errore %d: %s"
 
-#: share/shares.c:158
+#: share/shares.c:157
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' ha restituito l'errore %d"
 
-#: share/shares.c:189
+#: share/shares.c:188
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "l'output di 'net usershare' non è nella codifica UTF-8 valida"
 
-#: share/shares.c:443 share/shares.c:617
+#: share/shares.c:441 share/shares.c:615
 msgid "Failed"
 msgstr "Fallito"
 
-#: share/shares.c:551
+#: share/shares.c:549
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Testparm di samba ha restituito il segnale %d"
 
-#: share/shares.c:557
+#: share/shares.c:555
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Testparm di samba fallito per un motivo sconosciuto"
 
-#: share/shares.c:572
+#: share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Testparm di samba ha restituito l'errore %d: %s"
 
-#: share/shares.c:574
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Testparm di samba ha restituito l'errore %d"
 
-#: share/shares.c:685
+#: share/shares.c:683
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 "Impossibile rimuovere la condivisione per il percorso %s: quel percorso non "
 "è condiviso"
 
-#: share/shares.c:731
+#: share/shares.c:729
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -695,11 +886,11 @@ msgstr ""
 "Copyright (C) 2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 Gli sviluppatori di MATE"
 
-#: xattr-tags/caja-xattr-tags-extension.c:183
+#: xattr-tags/caja-xattr-tags-extension.c:205
 msgid "Tags"
 msgstr "Tag"
 
-#: xattr-tags/caja-xattr-tags-extension.c:184
+#: xattr-tags/caja-xattr-tags-extension.c:206
 msgid "Tags stored in extended attributes"
 msgstr "Tag salvati negli attributi estesi"
 

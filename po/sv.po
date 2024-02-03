@@ -4,8 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 6a42dd6e7ca9a813693714b0d9aa1ad8, 2018
-# Henrik Mattsson-Mårn <h@reglage.net>, 2018
 # Marcus Larborg, 2018
 # cb445fb3dfd1fe3c2b9f58ac5638f478, 2018
 # efef6ec5b435a041fce803c7f8af77d2_2341d43, 2018
@@ -13,33 +11,218 @@
 # Patrik Nilsson <asavartzeth@gmail.com>, 2018
 # Tobias Lekare <lekare@linux.com>, 2020
 # Philip Andersen <renegadevi@codeofmagi.net>, 2020
-# Luna Jernberg <bittin@cafe8bitar.se>, 2021
-# Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Kristoffer Grundström <lovaren@gmail.com>, 2022
+# Kristoffer Grundström <lovaren@gmail.com>, 2023
+# Luna Jernberg <bittin@cafe8bitar.se>, 2023
+# 6a42dd6e7ca9a813693714b0d9aa1ad8, 2023
+# Stefano Karapetsas <stefano@karapetsas.com>, 2023
+# Henrik Mattsson-Mårn <h@reglage.net>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.25.0\n"
+"Project-Id-Version: caja-extensions 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-06-05 10:50+0200\n"
+"POT-Creation-Date: 2023-08-31 19:45+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Kristoffer Grundström <lovaren@gmail.com>, 2022\n"
-"Language-Team: Swedish (https://www.transifex.com/mate/teams/13566/sv/)\n"
+"Last-Translator: Henrik Mattsson-Mårn <h@reglage.net>, 2023\n"
+"Language-Team: Swedish (https://app.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: gksu/libcaja-gksu.c:132
+#: audio-video-properties/bacon-video-widget-properties.c:104
+msgctxt "Title"
+msgid "Unknown"
+msgstr "Okänt"
+
+#: audio-video-properties/bacon-video-widget-properties.c:106
+msgctxt "Artist"
+msgid "Unknown"
+msgstr "Okänt"
+
+#: audio-video-properties/bacon-video-widget-properties.c:108
+msgctxt "Album"
+msgid "Unknown"
+msgstr "Okänt"
+
+#: audio-video-properties/bacon-video-widget-properties.c:110
+msgctxt "Year"
+msgid "Unknown"
+msgstr "Okänt"
+
+#: audio-video-properties/bacon-video-widget-properties.c:116
+msgctxt "Media container"
+msgid "Unknown"
+msgstr "Okänt"
+
+#: audio-video-properties/bacon-video-widget-properties.c:119
+msgctxt "Dimensions"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/bacon-video-widget-properties.c:121
+msgctxt "Video codec"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/bacon-video-widget-properties.c:124
+msgctxt "Video bit rate"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/bacon-video-widget-properties.c:127
+#: audio-video-properties/bacon-video-widget-properties.c:235
+msgctxt "Frame rate"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/bacon-video-widget-properties.c:131
+msgctxt "Audio bit rate"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/bacon-video-widget-properties.c:133
+msgctxt "Audio codec"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/bacon-video-widget-properties.c:135
+msgid "0 Hz"
+msgstr ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:137
+msgid "0 Channels"
+msgstr ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:153
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d timme"
+msgstr[1] "%d timmar"
+
+#: audio-video-properties/bacon-video-widget-properties.c:155
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minuter"
+
+#: audio-video-properties/bacon-video-widget-properties.c:158
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekund"
+msgstr[1] "%d sekunder"
+
+#: audio-video-properties/bacon-video-widget-properties.c:164
+#, c-format
+msgctxt "time"
+msgid "%s %s %s"
+msgstr "%s %s %s"
+
+#: audio-video-properties/bacon-video-widget-properties.c:167
+#, c-format
+msgctxt "time"
+msgid "%s %s"
+msgstr "%s %s"
+
+#: audio-video-properties/bacon-video-widget-properties.c:173
+msgid "0 seconds"
+msgstr ""
+
+#: audio-video-properties/bacon-video-widget-properties.c:233
+#, c-format
+msgid "%0.2f frame per second"
+msgid_plural "%0.2f frames per second"
+msgstr[0] ""
+msgstr[1] ""
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:5
+msgid "Audio/Video Properties"
+msgstr ""
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:6
+msgid "Display audio/video properties"
+msgstr ""
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:8
+msgid ""
+"Copyright (C) 2005 Bastien Nocera\n"
+"Copyright (C) 2005-2019 Totem Media Player developers\n"
+"Copyright (C) 2019-2021 Nautilus developers\n"
+"Copyright (C) 2021 MATE developers"
+msgstr ""
+
+#: audio-video-properties/totem-properties-main.c:118
+#: audio-video-properties/totem-properties-view.c:275
+msgid "Audio/Video"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:133
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/totem-properties-view.c:162
+msgctxt "Stream bit rate"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/totem-properties-view.c:165
+#, c-format
+msgid "%d kbps"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:182
+#, c-format
+msgid "%d × %d"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:214
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#: audio-video-properties/totem-properties-view.c:222
+msgctxt "Sample rate"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/totem-properties-view.c:230
+msgid "Surround"
+msgstr ""
+
+#: audio-video-properties/totem-properties-view.c:232
+msgid "Mono"
+msgstr "Mono"
+
+#: audio-video-properties/totem-properties-view.c:234
+msgid "Stereo"
+msgstr "Stereo"
+
+#: audio-video-properties/totem-properties-view.c:245
+msgctxt "Number of audio channels"
+msgid "N/A"
+msgstr "N/A"
+
+#: audio-video-properties/totem-properties-view.c:277
+msgid "Audio"
+msgstr "Ljud"
+
+#: audio-video-properties/totem-properties-view.c:279
+msgid "Video"
+msgstr "Video"
+
+#: gksu/libcaja-gksu.c:133
 msgid "Open as administrator"
 msgstr "Öppna som administratör"
 
-#: gksu/libcaja-gksu.c:133
+#: gksu/libcaja-gksu.c:134
 msgid "Opens the file with administrator privileges"
 msgstr "Öppnar filen med administratörsrättigheter"
 
-#: gksu/libcaja-gksu.c:190
+#: gksu/libcaja-gksu.c:191
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -49,7 +232,7 @@ msgstr ""
 "\n"
 "Objektet du valde kan inte öppnas med administratörsrättigheter eftersom det rätt program inte kunde fastställas."
 
-#: gksu/libcaja-gksu.c:226
+#: gksu/libcaja-gksu.c:227
 msgid ""
 "<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
 "\n"
@@ -59,7 +242,7 @@ msgstr ""
 "\n"
 "Föremålet som du har valt kan inte öppnas med administratörens makt eftersom att den grafiska omslutaren för su inte kan avgöras, så som gtksu eller beesu."
 
-#: gksu/libcaja-gksu.c:253
+#: gksu/libcaja-gksu.c:254
 #, c-format
 msgid "Error: %s"
 msgstr "Fel: %s"
@@ -255,41 +438,41 @@ msgstr ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE utvecklarna"
 
-#: open-terminal/caja-open-terminal.c:460
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:459
+#: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Öppna i _Terminal"
 
-#: open-terminal/caja-open-terminal.c:462
+#: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Öppna den markerade mappen i ett terminalfönster"
 
-#: open-terminal/caja-open-terminal.c:464
-#: open-terminal/caja-open-terminal.c:474
+#: open-terminal/caja-open-terminal.c:463
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Öppna den för tillfället öppna mappen i ett terminalfönster"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Öppna _terminal"
 
-#: open-terminal/caja-open-terminal.c:471
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Öppna ett terminalfönster"
 
-#: open-terminal/caja-open-terminal.c:564
+#: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
 msgstr "Öppna Hemma vid försök att öppna på skrivbordet"
 
-#: open-terminal/caja-open-terminal.c:567
+#: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
 msgstr "Terminal applikation:"
 
-#: open-terminal/caja-open-terminal.c:587
+#: open-terminal/caja-open-terminal.c:586
 msgid "Close"
 msgstr "Stäng"
 
-#: open-terminal/caja-open-terminal.c:593
+#: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
 msgstr "Öppna terminalkonfiguration"
 
@@ -438,59 +621,59 @@ msgstr "Komprimering"
 msgid "label"
 msgstr "etikett"
 
-#: sendto/plugins/emailclient/emailclient.c:267
+#: sendto/plugins/emailclient/emailclient.c:272
 msgid "Email"
 msgstr "E-post"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:422
 msgid "Unable to send file"
 msgstr "Kan inte skicka fil"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:423
 msgid "There is no connection to gajim remote service."
 msgstr "Det finns ingen anslutning till gajims fjärrtjänst."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:447 sendto/plugins/gajim/gajim.c:487
 msgid "Sending file failed"
 msgstr "Skicka fil misslyckades"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:448
 msgid "Recipient is missing."
 msgstr "Mottagare saknas."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:487
 msgid "Unknown recipient."
 msgstr "Okänd mottagare."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:510
 msgid "Instant Message (Gajim)"
 msgstr "Snabbmeddelande (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:93
+#: sendto/plugins/caja-burn/caja-burn.c:98
 msgid "New CD/DVD"
 msgstr "Ny cd/dvd"
 
-#: sendto/plugins/caja-burn/caja-burn.c:100
+#: sendto/plugins/caja-burn/caja-burn.c:105
 msgid "Existing CD/DVD"
 msgstr "Befintlig cd/dvd"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:183
 msgid "CD/DVD Creator"
 msgstr "Cd/dvd-skapare"
 
-#: sendto/plugins/pidgin/pidgin.c:462
+#: sendto/plugins/pidgin/pidgin.c:466
 msgid "Instant Message (Pidgin)"
 msgstr "Snabbmeddelande (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:249
+#: sendto/plugins/removable-devices/removable-devices.c:254
 msgid "Removable disks and shares"
 msgstr "Flyttbara diskar och utdelningar"
 
-#: sendto/plugins/upnp/upnp.c:313
+#: sendto/plugins/upnp/upnp.c:318
 msgid "UPnP Media Server"
 msgstr "UPnP-mediaserver"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1053
 msgid "Share"
 msgstr "Dela ut"
 
@@ -508,7 +691,7 @@ msgstr ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE utvecklarna"
 
-#: share/caja-share.c:122
+#: share/caja-share.c:121
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
@@ -517,7 +700,7 @@ msgstr ""
 "Caja måste lägga till några rättigheter till din mapp \"%s\" för att kunna "
 "dela ut den"
 
-#: share/caja-share.c:130
+#: share/caja-share.c:129
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -526,65 +709,65 @@ msgstr ""
 "Mappen \"%s\" behöver ges följande rättigheter för att den ska kunna delas ut:\n"
 "%s%s%sVill du att Caja ska lägga till dessa behörigheter automatiskt?"
 
-#: share/caja-share.c:134
+#: share/caja-share.c:133
 msgid "  - read permission by others\n"
 msgstr "- läsrättigheter för övriga\n"
 
-#: share/caja-share.c:135
+#: share/caja-share.c:134
 msgid "  - write permission by others\n"
 msgstr "skrivrättigheter för övriga\n"
 
-#: share/caja-share.c:136
+#: share/caja-share.c:135
 msgid "  - execute permission by others\n"
 msgstr "- kör rättigheter från andra\n"
 
-#: share/caja-share.c:140
+#: share/caja-share.c:139
 msgid "Add the permissions automatically"
 msgstr "Lägg till behörighet automatiskt"
 
-#: share/caja-share.c:166
+#: share/caja-share.c:165
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Det gick inte att ändra behörighet för mappen \"%s\""
 
-#: share/caja-share.c:450
+#: share/caja-share.c:448
 msgid "Share name is too long"
 msgstr "Utdelningens namn är för långt"
 
-#: share/caja-share.c:492
+#: share/caja-share.c:490
 msgid "The share name cannot be empty"
 msgstr "Utdelningens namn får inte vara tomt"
 
-#: share/caja-share.c:505
+#: share/caja-share.c:503
 #, c-format
 msgid "Error while getting share information: %s"
 msgstr "Fel medan delningsinformationen togs emot: %s"
 
-#: share/caja-share.c:515
+#: share/caja-share.c:513
 msgid "Another share has the same name"
 msgstr "En annan utdelning har samma namn"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:556 share/caja-share.c:791
 msgid "Modify _Share"
 msgstr "Modifiera _utdelning"
 
-#: share/caja-share.c:558 share/caja-share.c:796
+#: share/caja-share.c:556 share/caja-share.c:793
 msgid "Create _Share"
 msgstr "Skapa _utdelning"
 
-#: share/caja-share.c:686
+#: share/caja-share.c:684
 msgid "There was an error while getting the sharing information"
 msgstr "Det uppstod ett fel när utdelningsinformationen togs emot"
 
-#: share/caja-share.c:1118 share/share-dialog.ui:48
+#: share/caja-share.c:1113 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Dela ut mappar"
 
-#: share/caja-share.c:1159
+#: share/caja-share.c:1154
 msgid "Sharing Options"
 msgstr "Inställningar för utdelning"
 
-#: share/caja-share.c:1160
+#: share/caja-share.c:1155
 msgid "Share this Folder"
 msgstr "Dela ut den här mappen"
 
@@ -612,60 +795,60 @@ msgstr "Gäst_behörighet (för personer utan ett användarkonto)"
 msgid "_Save"
 msgstr "_Spara"
 
-#: share/shares.c:127
+#: share/shares.c:126
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s svarade tillbaka med signalen %d"
 
-#: share/shares.c:136
+#: share/shares.c:135
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s misslyckades av okänd anledning"
 
-#: share/shares.c:156
+#: share/shares.c:155
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net userdata' returnerade fel %d %s"
 
-#: share/shares.c:158
+#: share/shares.c:157
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net userdata' returnerade fel %d"
 
-#: share/shares.c:189
+#: share/shares.c:188
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "utdata från 'net usershare' är inte giltig UTF-8-kodning"
 
-#: share/shares.c:443 share/shares.c:617
+#: share/shares.c:441 share/shares.c:615
 msgid "Failed"
 msgstr "Misslyckades"
 
-#: share/shares.c:551
+#: share/shares.c:549
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "Sambas testparm svarade tillbaka med signalen %d"
 
-#: share/shares.c:557
+#: share/shares.c:555
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "Sambas testparam misslyckades av okänd anledning"
 
-#: share/shares.c:572
+#: share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "Sambas testparam svarade tillbaka med felet %d: %s"
 
-#: share/shares.c:574
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "Sambas testparam svarade tillbaka med felet %d"
 
-#: share/shares.c:685
+#: share/shares.c:683
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
 "Det går inte att ta bort utdelningen för sökväg %s: sökvägen är inte utdelad"
 
-#: share/shares.c:731
+#: share/shares.c:729
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
@@ -697,11 +880,11 @@ msgstr ""
 "Copyright (C) 2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE utvecklarna"
 
-#: xattr-tags/caja-xattr-tags-extension.c:183
+#: xattr-tags/caja-xattr-tags-extension.c:205
 msgid "Tags"
 msgstr "Taggar"
 
-#: xattr-tags/caja-xattr-tags-extension.c:184
+#: xattr-tags/caja-xattr-tags-extension.c:206
 msgid "Tags stored in extended attributes"
 msgstr "Tags lagrade i utökade attribut"
 

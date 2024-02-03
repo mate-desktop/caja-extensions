@@ -6,34 +6,233 @@
 # Translators:
 # 8368efb4263ae7005ba7cc0c0f943bdd_16f29c1, 2018
 # Bohdan Kovalchuk <neostanniy@gmail.com>, 2018
-# dsafsadf <heneral@gmail.com>, 2019
-# Микола Ткач <chistomov@gmail.com>, 2021
-# Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Taras Panchenko <top39@ukr.net>, 2022
+# Anton Gladky <gladk@debian.org>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2023
+# dsafsadf <heneral@gmail.com>, 2023
+# Sergiy <sergiy@gorichenko.com>, 2023
+# Микола Ткач <chistomov@gmail.com>, 2023
+# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2023
+# Gordon Freeman, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-extensions 1.25.0\n"
+"Project-Id-Version: caja-extensions 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
-"POT-Creation-Date: 2021-06-05 10:50+0200\n"
+"POT-Creation-Date: 2023-08-31 19:45+0200\n"
 "PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Taras Panchenko <top39@ukr.net>, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
+"Last-Translator: Gordon Freeman, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-#: gksu/libcaja-gksu.c:132
-msgid "Open as administrator"
-msgstr "Відкрити як розпорядник"
+#: audio-video-properties/bacon-video-widget-properties.c:104
+msgctxt "Title"
+msgid "Unknown"
+msgstr "Невідомий"
+
+#: audio-video-properties/bacon-video-widget-properties.c:106
+msgctxt "Artist"
+msgid "Unknown"
+msgstr "Невідомий"
+
+#: audio-video-properties/bacon-video-widget-properties.c:108
+msgctxt "Album"
+msgid "Unknown"
+msgstr "Невідомий"
+
+#: audio-video-properties/bacon-video-widget-properties.c:110
+msgctxt "Year"
+msgid "Unknown"
+msgstr "Невідомий"
+
+#: audio-video-properties/bacon-video-widget-properties.c:116
+msgctxt "Media container"
+msgid "Unknown"
+msgstr "Невідомий"
+
+#: audio-video-properties/bacon-video-widget-properties.c:119
+msgctxt "Dimensions"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/bacon-video-widget-properties.c:121
+msgctxt "Video codec"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/bacon-video-widget-properties.c:124
+msgctxt "Video bit rate"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/bacon-video-widget-properties.c:127
+#: audio-video-properties/bacon-video-widget-properties.c:235
+msgctxt "Frame rate"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/bacon-video-widget-properties.c:131
+msgctxt "Audio bit rate"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/bacon-video-widget-properties.c:133
+msgctxt "Audio codec"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/bacon-video-widget-properties.c:135
+msgid "0 Hz"
+msgstr "0 Гц"
+
+#: audio-video-properties/bacon-video-widget-properties.c:137
+msgid "0 Channels"
+msgstr "0 каналів"
+
+#: audio-video-properties/bacon-video-widget-properties.c:153
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d година"
+msgstr[1] "%d години"
+msgstr[2] "%d годин"
+msgstr[3] "%d годин"
+
+#: audio-video-properties/bacon-video-widget-properties.c:155
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d хвилина"
+msgstr[1] "%d хвилини"
+msgstr[2] "%d хвилин"
+msgstr[3] "%d хвилин"
+
+#: audio-video-properties/bacon-video-widget-properties.c:158
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d секунда"
+msgstr[1] "%d секунди"
+msgstr[2] "%d секунд"
+msgstr[3] "%d секунд"
+
+#: audio-video-properties/bacon-video-widget-properties.c:164
+#, c-format
+msgctxt "time"
+msgid "%s %s %s"
+msgstr "%s %s %s"
+
+#: audio-video-properties/bacon-video-widget-properties.c:167
+#, c-format
+msgctxt "time"
+msgid "%s %s"
+msgstr "%s %s"
+
+#: audio-video-properties/bacon-video-widget-properties.c:173
+msgid "0 seconds"
+msgstr "0 секунд"
+
+#: audio-video-properties/bacon-video-widget-properties.c:233
+#, c-format
+msgid "%0.2f frame per second"
+msgid_plural "%0.2f frames per second"
+msgstr[0] "%0.2f  кадр в секунду"
+msgstr[1] "%0.2f кадри в секунду"
+msgstr[2] "%0.2f кадрів в секунду"
+msgstr[3] "%0.2f кадрів в секунду"
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:5
+msgid "Audio/Video Properties"
+msgstr "Властивості аудіо/відео"
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:6
+msgid "Display audio/video properties"
+msgstr "Показати властивості аудіо/відео"
+
+#: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:8
+msgid ""
+"Copyright (C) 2005 Bastien Nocera\n"
+"Copyright (C) 2005-2019 Totem Media Player developers\n"
+"Copyright (C) 2019-2021 Nautilus developers\n"
+"Copyright (C) 2021 MATE developers"
+msgstr ""
+"Copyright (C) 2005 Bastien Nocera\n"
+"Copyright (C) 2005-2019 розробники Totem Media Player\n"
+"Copyright (C) 2019-2021 розробники Nautilus\n"
+"Copyright (C) 2021 розробники MATE"
+
+#: audio-video-properties/totem-properties-main.c:118
+#: audio-video-properties/totem-properties-view.c:275
+msgid "Audio/Video"
+msgstr "Аудіо/відео"
+
+#: audio-video-properties/totem-properties-view.c:133
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/totem-properties-view.c:162
+msgctxt "Stream bit rate"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/totem-properties-view.c:165
+#, c-format
+msgid "%d kbps"
+msgstr "%d кбіт/с"
+
+#: audio-video-properties/totem-properties-view.c:182
+#, c-format
+msgid "%d × %d"
+msgstr "%d × %d"
+
+#: audio-video-properties/totem-properties-view.c:214
+#, c-format
+msgid "%d Hz"
+msgstr "%d Гц"
+
+#: audio-video-properties/totem-properties-view.c:222
+msgctxt "Sample rate"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/totem-properties-view.c:230
+msgid "Surround"
+msgstr "Об'єм"
+
+#: audio-video-properties/totem-properties-view.c:232
+msgid "Mono"
+msgstr "Моно"
+
+#: audio-video-properties/totem-properties-view.c:234
+msgid "Stereo"
+msgstr "Стерео"
+
+#: audio-video-properties/totem-properties-view.c:245
+msgctxt "Number of audio channels"
+msgid "N/A"
+msgstr "Н/Д"
+
+#: audio-video-properties/totem-properties-view.c:277
+msgid "Audio"
+msgstr "Звук"
+
+#: audio-video-properties/totem-properties-view.c:279
+msgid "Video"
+msgstr "Відео"
 
 #: gksu/libcaja-gksu.c:133
-msgid "Opens the file with administrator privileges"
-msgstr "Відкриває файл із правами розпорядника"
+msgid "Open as administrator"
+msgstr "Відкрити як адміністратор"
 
-#: gksu/libcaja-gksu.c:190
+#: gksu/libcaja-gksu.c:134
+msgid "Opens the file with administrator privileges"
+msgstr "Відкриває файл з правами адміністратора"
+
+#: gksu/libcaja-gksu.c:191
 msgid ""
 "<big><b>Unable to determine the program to run.</b></big>\n"
 "\n"
@@ -41,9 +240,9 @@ msgid ""
 msgstr ""
 "<big><b>Неможливо визначити програму для запуску.</b></big>\n"
 "\n"
-"Обраний Вами елемент неможливо відкрити з правами розпорядника через те, що коректний застосунок не визначено."
+"Обраний Вами елемент неможливо відкрити з правами адміністратора через те, що коректний застосунок не визначено."
 
-#: gksu/libcaja-gksu.c:226
+#: gksu/libcaja-gksu.c:227
 msgid ""
 "<big><b>Unable to determine the graphical wrapper for su</b></big>\n"
 "\n"
@@ -53,7 +252,7 @@ msgstr ""
 "\n"
 "Вибраний вами елемент не можливо відкрити з правами адміністратора, оскільки графічну оболонку для su неможливо визначити, наприклад gtksu або beesu."
 
-#: gksu/libcaja-gksu.c:253
+#: gksu/libcaja-gksu.c:254
 #, c-format
 msgid "Error: %s"
 msgstr "Помилка: %s"
@@ -82,19 +281,19 @@ msgstr "З_міна розміру зображень..."
 
 #: image-converter/caja-image-converter.c:122
 msgid "Resize each selected image"
-msgstr "Змінити розмір кожного вибраного малюнку"
+msgstr "Змінити розмір кожного вибраного зображення"
 
 #: image-converter/caja-image-converter.c:131
 msgid "Ro_tate Images..."
-msgstr "О_бертання малюнків..."
+msgstr "О_бертати зображення..."
 
 #: image-converter/caja-image-converter.c:132
 msgid "Rotate each selected image"
-msgstr "Обертати кожен обраний малюнок"
+msgstr "Обертати кожне обране зображення"
 
 #: image-converter/caja-image-resize.ui:33
 msgid "Resize Images"
-msgstr "Змінити розмір малюнків"
+msgstr "Змінити розмір зображень"
 
 #: image-converter/caja-image-resize.ui:53
 #: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
@@ -117,7 +316,7 @@ msgstr "пікселів"
 
 #: image-converter/caja-image-resize.ui:187
 msgid "Scale:"
-msgstr "Мірило:"
+msgstr "Масштаб:"
 
 #: image-converter/caja-image-resize.ui:218
 msgid "percent"
@@ -125,7 +324,7 @@ msgstr "відсоток"
 
 #: image-converter/caja-image-resize.ui:240
 msgid "Custom size:"
-msgstr "Инший розмір:"
+msgstr "Інший розмір:"
 
 #: image-converter/caja-image-resize.ui:259
 msgid "Width:"
@@ -146,7 +345,7 @@ msgstr "Додати"
 
 #: image-converter/caja-image-resize.ui:386
 msgid ".resized"
-msgstr ".припасоване"
+msgstr ".масштабоване"
 
 #: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:273
@@ -165,7 +364,7 @@ msgstr "Назва файлу"
 #: image-converter/caja-image-resizer.c:287
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr "Зміна розміру світлини: %d з %d"
+msgstr "Зміна розміру зображення: %d з %d"
 
 #: image-converter/caja-image-resizer.c:294
 #, c-format
@@ -179,7 +378,7 @@ msgstr "Будь ласка, уведіть дійсне розширення д
 
 #: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
-msgstr "Обертати малюнки"
+msgstr "Обертати зображення"
 
 #: image-converter/caja-image-rotate.ui:54
 msgid "_Rotate"
@@ -249,43 +448,43 @@ msgstr ""
 "Авторське право (C) 2013-2014 Стефано Карапецас\n"
 "Авторське право (C) 2015-2021 Розробники MATE"
 
-#: open-terminal/caja-open-terminal.c:460
-#: open-terminal/caja-open-terminal.c:473
+#: open-terminal/caja-open-terminal.c:459
+#: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
 msgstr "Відкрити у _терміналі"
 
-#: open-terminal/caja-open-terminal.c:462
+#: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
 msgstr "Відкрити вибрану теку в терміналі"
 
-#: open-terminal/caja-open-terminal.c:464
-#: open-terminal/caja-open-terminal.c:474
+#: open-terminal/caja-open-terminal.c:463
+#: open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
 msgstr "Відкрити поточну теку в терміналі"
 
-#: open-terminal/caja-open-terminal.c:470
+#: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
 msgstr "Відкрити _термінал"
 
-#: open-terminal/caja-open-terminal.c:471
+#: open-terminal/caja-open-terminal.c:470
 msgid "Open a terminal"
 msgstr "Відкрити термінал"
 
-#: open-terminal/caja-open-terminal.c:564
+#: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
 msgstr "Відкрити у домашній теці, якщо намагаєтеся відкрити на стільниці"
 
-#: open-terminal/caja-open-terminal.c:567
+#: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr "Термінал:"
+msgstr "Програма терміналу"
 
-#: open-terminal/caja-open-terminal.c:587
+#: open-terminal/caja-open-terminal.c:586
 msgid "Close"
 msgstr "Закрити"
 
-#: open-terminal/caja-open-terminal.c:593
+#: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
-msgstr "Налаштування втулка open-terminal"
+msgstr "Налаштування open-terminal"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -327,7 +526,7 @@ msgstr ""
 
 #: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
-msgstr "Надіслати.."
+msgstr "Надіслати до..."
 
 #: sendto/caja-nste.c:80
 msgid "Send file by mail, instant message..."
@@ -352,7 +551,7 @@ msgstr "Не вдається розібрати параметри команд
 
 #: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
-msgstr "Не вдається завантажити втулки"
+msgstr "Не вдається завантажити плагіни"
 
 #: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
@@ -378,14 +577,14 @@ msgstr ""
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
-msgstr "Останній втулок використано для відправки"
+msgstr "Останній плагін використано для відправки"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:7
 msgid ""
 "Used to store which plugin was used the last time files were sent using "
 "caja-sendto."
 msgstr ""
-"Використовується для зберігання втулка, що був використаний для останнього "
+"Використовується для зберігання плагіна, що був використаний для останнього "
 "відправлення файлів через caja-sendto."
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
@@ -432,59 +631,59 @@ msgstr "Стиснення"
 msgid "label"
 msgstr "позначка"
 
-#: sendto/plugins/emailclient/emailclient.c:267
+#: sendto/plugins/emailclient/emailclient.c:272
 msgid "Email"
-msgstr "Ел.пошта"
+msgstr "Електронна пошта"
 
-#: sendto/plugins/gajim/gajim.c:419
+#: sendto/plugins/gajim/gajim.c:422
 msgid "Unable to send file"
 msgstr "Неможливо надіслати файл"
 
-#: sendto/plugins/gajim/gajim.c:420
+#: sendto/plugins/gajim/gajim.c:423
 msgid "There is no connection to gajim remote service."
 msgstr "З'єднання з сервісом gajim відсутнє."
 
-#: sendto/plugins/gajim/gajim.c:444 sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:447 sendto/plugins/gajim/gajim.c:487
 msgid "Sending file failed"
 msgstr "Помилка при надсиланні"
 
-#: sendto/plugins/gajim/gajim.c:445
+#: sendto/plugins/gajim/gajim.c:448
 msgid "Recipient is missing."
 msgstr "Не вказано отримувача."
 
-#: sendto/plugins/gajim/gajim.c:484
+#: sendto/plugins/gajim/gajim.c:487
 msgid "Unknown recipient."
 msgstr "Невідомий отримувач."
 
-#: sendto/plugins/gajim/gajim.c:507
+#: sendto/plugins/gajim/gajim.c:510
 msgid "Instant Message (Gajim)"
 msgstr "Миттєве повідомлення (Gajim)"
 
-#: sendto/plugins/caja-burn/caja-burn.c:93
+#: sendto/plugins/caja-burn/caja-burn.c:98
 msgid "New CD/DVD"
-msgstr "Новий КД/DVD"
+msgstr "Новий CD/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:100
+#: sendto/plugins/caja-burn/caja-burn.c:105
 msgid "Existing CD/DVD"
-msgstr "Наявний КД/DVD"
+msgstr "Наявний CД/DVD"
 
-#: sendto/plugins/caja-burn/caja-burn.c:178
+#: sendto/plugins/caja-burn/caja-burn.c:183
 msgid "CD/DVD Creator"
-msgstr "Створювач КД/DVD"
+msgstr "Створювач CД/DVD"
 
-#: sendto/plugins/pidgin/pidgin.c:462
+#: sendto/plugins/pidgin/pidgin.c:466
 msgid "Instant Message (Pidgin)"
 msgstr "Миттєве повідомлення (Pidgin)"
 
-#: sendto/plugins/removable-devices/removable-devices.c:249
+#: sendto/plugins/removable-devices/removable-devices.c:254
 msgid "Removable disks and shares"
 msgstr "Змінні диски та теки спільного доступу"
 
-#: sendto/plugins/upnp/upnp.c:313
+#: sendto/plugins/upnp/upnp.c:318
 msgid "UPnP Media Server"
-msgstr "Медіясервер UPnP"
+msgstr "Медіасервер UPnP"
 
-#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1058
+#: share/libcaja-share.caja-extension.desktop.in.in:5 share/caja-share.c:1053
 msgid "Share"
 msgstr "Оприлюднити"
 
@@ -502,14 +701,14 @@ msgstr ""
 "Авторське право (C) 2013-2014 Стефано Карапецас\n"
 "Авторське право (C) 2015-2021 Розробники MATE"
 
-#: share/caja-share.c:122
+#: share/caja-share.c:121
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
 msgstr "Caja потрібно надати певні права для оприлюднення теки «%s»"
 
-#: share/caja-share.c:130
+#: share/caja-share.c:129
 #, c-format
 msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
@@ -518,67 +717,67 @@ msgstr ""
 "Тека  «%s» потребує такі додаткові права для оприлюднення у мережі:\n"
 "%s%s%sЧи бажаєте Ви, щоб Caja надав ці права теці автоматично?"
 
-#: share/caja-share.c:134
+#: share/caja-share.c:133
 msgid "  - read permission by others\n"
-msgstr "- дозволити иншим для перегляду\n"
+msgstr "- дозволити іншим для читати\n"
+
+#: share/caja-share.c:134
+msgid "  - write permission by others\n"
+msgstr "- дозволити іншим писати\n"
 
 #: share/caja-share.c:135
-msgid "  - write permission by others\n"
-msgstr "- дозволити иншим писати\n"
-
-#: share/caja-share.c:136
 msgid "  - execute permission by others\n"
 msgstr ""
-"- дозволити иншим працювати\n"
+"- дозволити іншим виконувати\n"
 "\n"
 
-#: share/caja-share.c:140
+#: share/caja-share.c:139
 msgid "Add the permissions automatically"
 msgstr "Додавати права автоматично"
 
-#: share/caja-share.c:166
+#: share/caja-share.c:165
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
 msgstr "Неможливо змінити права для теки «%s»"
 
-#: share/caja-share.c:450
+#: share/caja-share.c:448
 msgid "Share name is too long"
-msgstr "Ім’я оголошення задовге"
+msgstr "Ім’я спільного ресурсу задовге"
 
-#: share/caja-share.c:492
+#: share/caja-share.c:490
 msgid "The share name cannot be empty"
-msgstr "Ім’я оголошення не може бути порожнім"
+msgstr "Ім’я спільного ресурсу не може бути порожнім"
 
-#: share/caja-share.c:505
+#: share/caja-share.c:503
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr "Помилка при отриманні загальної інформації: %s"
+msgstr "Помилка при отриманні інформацію про спільний ресурс: %s"
 
-#: share/caja-share.c:515
+#: share/caja-share.c:513
 msgid "Another share has the same name"
-msgstr "Инше оголошення з тим самим ім’ям"
+msgstr "Інший спільний ресурс має вже таке ім’я"
 
-#: share/caja-share.c:558 share/caja-share.c:794
+#: share/caja-share.c:556 share/caja-share.c:791
 msgid "Modify _Share"
-msgstr "Модифікувати _оголошення"
+msgstr "Модифікувати _спільне"
 
-#: share/caja-share.c:558 share/caja-share.c:796
+#: share/caja-share.c:556 share/caja-share.c:793
 msgid "Create _Share"
-msgstr "Створити _оголошення"
+msgstr "Створити _спільним"
 
-#: share/caja-share.c:686
+#: share/caja-share.c:684
 msgid "There was an error while getting the sharing information"
-msgstr "Відбулася помилка при отриманні публічної інформації"
+msgstr "Відбулася помилка при отриманні спільної інформації"
 
-#: share/caja-share.c:1118 share/share-dialog.ui:48
+#: share/caja-share.c:1113 share/share-dialog.ui:48
 msgid "Folder Sharing"
 msgstr "Спільний доступ до теки"
 
-#: share/caja-share.c:1159
+#: share/caja-share.c:1154
 msgid "Sharing Options"
-msgstr "Параметри оприлюднення"
+msgstr "Параметри спільного ресурсу"
 
-#: share/caja-share.c:1160
+#: share/caja-share.c:1155
 msgid "Share this Folder"
 msgstr "Поділитися цією текою"
 
@@ -606,65 +805,65 @@ msgstr "_Гостьовий доступ (для людей без корист�
 msgid "_Save"
 msgstr "З_берегти"
 
-#: share/shares.c:127
+#: share/shares.c:126
 #, c-format
 msgid "%s %s %s returned with signal %d"
 msgstr "%s %s %s повернувся з сигналом %d"
 
-#: share/shares.c:136
+#: share/shares.c:135
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
 msgstr "%s %s %s не вдався без відомої причини"
 
-#: share/shares.c:156
+#: share/shares.c:155
 #, c-format
 msgid "'net usershare' returned error %d: %s"
 msgstr "'net usershare' повернув помилку %d: %s"
 
-#: share/shares.c:158
+#: share/shares.c:157
 #, c-format
 msgid "'net usershare' returned error %d"
 msgstr "'net usershare' повернув помилку %d"
 
-#: share/shares.c:189
+#: share/shares.c:188
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
 msgstr "вивід 'net usershare' не у коректному UTF-8"
 
-#: share/shares.c:443 share/shares.c:617
+#: share/shares.c:441 share/shares.c:615
 msgid "Failed"
-msgstr "Невдало"
+msgstr "Збій"
 
-#: share/shares.c:551
+#: share/shares.c:549
 #, c-format
 msgid "Samba's testparm returned with signal %d"
 msgstr "testparm Samba повернувся з сигналом %d"
 
-#: share/shares.c:557
+#: share/shares.c:555
 msgid "Samba's testparm failed for an unknown reason"
 msgstr "testparm Samba не вдався без відомої причини"
 
-#: share/shares.c:572
+#: share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
 msgstr "testparm Samba повернув помилку %d: %s"
 
-#: share/shares.c:574
+#: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d"
 msgstr "testparm Samba повернув помилку %d"
 
-#: share/shares.c:685
+#: share/shares.c:683
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr "Не вдається вилучити оголошення шляху %s: цей шлях не оголошено"
+msgstr "Не вдається вилучити спільний доступ до %s: цей шлях не є спільним"
 
-#: share/shares.c:731
+#: share/shares.c:729
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
-"Не вдається змінити шлях наявного оголошення; будь ласка, вилучіть спочатку "
-"старе оголошення, а потім створіть нове"
+"Неможливо змінити шлях до наявного ресурсу; будь ласка, спочатку видаліть "
+"старий спільний доступ і створіть новий"
 
 #: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -690,21 +889,21 @@ msgstr ""
 "Авторське право (C) 2014 Стефано Карапецас\n"
 "Авторське право (C) 2015-2021 Розробники MATE"
 
-#: xattr-tags/caja-xattr-tags-extension.c:183
+#: xattr-tags/caja-xattr-tags-extension.c:205
 msgid "Tags"
-msgstr "Теґи"
+msgstr "Теги"
 
-#: xattr-tags/caja-xattr-tags-extension.c:184
+#: xattr-tags/caja-xattr-tags-extension.c:206
 msgid "Tags stored in extended attributes"
-msgstr "Позначки, що зберігаються у розширених атрибутах"
+msgstr "Теги, що зберігаються у розширених атрибутах"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:5
 msgid "xattr Tags"
-msgstr "xattr Позначки"
+msgstr "Теги xattr"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
-msgstr "Продивитися позначки, що зберігаються у розширених атрибутах"
+msgstr "Продивитися теги, що зберігаються у розширених атрибутах"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid ""
