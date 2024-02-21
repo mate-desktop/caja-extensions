@@ -10,9 +10,9 @@
 # shinmili <rmsk.pl.ur.lpt@gmail.com>, 2018
 # Rockers <sumorock@hotmail.com>, 2018
 # FuRuYa7 <goo.sirocat47@gmail.com>, 2020
+# ABE Tsunehiko, 2023
 # 🎈 BALLOON | FU-SEN, 2023
 # Stefano Karapetsas <stefano@karapetsas.com>, 2023
-# ABE Tsunehiko, 2023
 # Ikuru K <kanumaiku@gmail.com>, 2023
 # Green <usergreen@users.osdn.me>, 2024
 # 
@@ -58,33 +58,33 @@ msgstr "不明"
 #: audio-video-properties/bacon-video-widget-properties.c:119
 msgctxt "Dimensions"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/bacon-video-widget-properties.c:121
 msgctxt "Video codec"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/bacon-video-widget-properties.c:124
 msgctxt "Video bit rate"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/bacon-video-widget-properties.c:127
 #: audio-video-properties/bacon-video-widget-properties.c:235
 msgctxt "Frame rate"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/bacon-video-widget-properties.c:131
 msgctxt "Audio bit rate"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/bacon-video-widget-properties.c:133
 msgctxt "Audio codec"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/bacon-video-widget-properties.c:135
 msgid "0 Hz"
@@ -161,12 +161,12 @@ msgstr "オーディオ/ビデオ"
 
 #: audio-video-properties/totem-properties-view.c:133
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/totem-properties-view.c:162
 msgctxt "Stream bit rate"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/totem-properties-view.c:165
 #, c-format
@@ -186,7 +186,7 @@ msgstr "%d Hz"
 #: audio-video-properties/totem-properties-view.c:222
 msgctxt "Sample rate"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/totem-properties-view.c:230
 msgid "Surround"
@@ -203,7 +203,7 @@ msgstr "ステレオ"
 #: audio-video-properties/totem-properties-view.c:245
 msgctxt "Number of audio channels"
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: audio-video-properties/totem-properties-view.c:277
 msgid "Audio"
@@ -339,11 +339,11 @@ msgstr ".resized"
 #: image-converter/caja-image-resize.ui:398
 #: image-converter/caja-image-rotate.ui:273
 msgid "to file title"
-msgstr "を追加する"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:415
 msgid "Resize in place"
-msgstr "ファイル名を変更しない"
+msgstr ""
 
 #: image-converter/caja-image-resize.ui:438
 #: image-converter/caja-image-rotate.ui:313
@@ -363,7 +363,7 @@ msgstr "<i>\"%s\" の大きさを変更中</i>"
 #: image-converter/caja-image-resizer.c:314
 #: image-converter/caja-image-rotator.c:306
 msgid "Please enter a valid filename suffix!"
-msgstr "正しい拡張子を指定して下さい！"
+msgstr "正しいファイルの拡張子を指定してください！"
 
 #: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
@@ -440,16 +440,16 @@ msgstr ""
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
 msgid "Open in _Terminal"
-msgstr "この場所で端末を開く(_T)"
+msgstr "ここで端末を開く(_T)"
 
 #: open-terminal/caja-open-terminal.c:461
 msgid "Open the currently selected folder in a terminal"
-msgstr "端末の中に現在選択しているフォルダを開きます"
+msgstr "端末で現在選択したフォルダを開きます"
 
 #: open-terminal/caja-open-terminal.c:463
 #: open-terminal/caja-open-terminal.c:473
 msgid "Open the currently open folder in a terminal"
-msgstr "端末の中に現在表示しているフォルダを開きます"
+msgstr "端末で現在表示しているフォルダを開きます"
 
 #: open-terminal/caja-open-terminal.c:469
 msgid "Open _Terminal"
@@ -609,11 +609,11 @@ msgstr "圧縮"
 
 #: sendto/caja-sendto.ui:300
 msgid "label"
-msgstr "銘柄"
+msgstr "ラベル"
 
 #: sendto/plugins/emailclient/emailclient.c:272
 msgid "Email"
-msgstr "メール"
+msgstr "電子メール"
 
 #: sendto/plugins/gajim/gajim.c:422
 msgid "Unable to send file"
