@@ -364,11 +364,12 @@ open_terminal_callback (CajaMenuItem *item,
 
 	screen = g_object_get_data (G_OBJECT (item), "CajaOpenTerminal::screen");
 	display = gdk_screen_get_display (screen);
+	/*Inherit the display name do not set it, so xwayland apps can work
 	if (screen != NULL) {
 		display_str = gdk_display_get_name (display);
 		g_setenv ("DISPLAY", display_str, TRUE);
 	}
-
+	*/
 	if (dfile != NULL) {
 		int orig_cwd = -1;
 
