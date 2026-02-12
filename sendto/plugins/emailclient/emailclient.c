@@ -231,7 +231,11 @@ get_sylpheed_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_lis
 
 	g_string_append_printf (mailto, "--attach");
 	for (l = file_list ; l; l=l->next) {
-		g_string_append_printf (mailto," \"%s\"", (char *)l->data);
+		char *filename_clean = g_filename_from_uri ((char *) l->data, NULL, NULL); // sylpheed doesn't understand URIs
+		char *filename_clean_esc = g_shell_quote (filename_clean); // escape '
+		g_string_append_printf (mailto, " %s", filename_clean_esc);
+		g_free (filename_clean);
+		g_free (filename_clean_esc);
 	}
 }
 
