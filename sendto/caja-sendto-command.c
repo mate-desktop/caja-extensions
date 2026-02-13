@@ -757,6 +757,34 @@ escape_ampersands_and_commas (const char *url)
 	return str;
 }
 
+static char *
+get_target_filename (GFile *file)
+{
+	GFileInfo *info;
+	const char *target;
+	GFile *new_file;
+	char *ret;
+
+	info = g_file_query_info (file, G_FILE_ATTRIBUTE_STANDARD_TARGET_URI, G_FILE_QUERY_INFO_NONE, NULL, NULL);
+	if (info == NULL) {
+		return NULL;
+	}
+
+	target = g_file_info_get_attribute_string (info, G_FILE_ATTRIBUTE_STANDARD_TARGET_URI);
+	if (target == NULL) {
+		g_object_unref (info);
+		return NULL;
+	}
+
+	new_file = g_file_new_for_uri (target);
+	g_object_unref (info);
+
+	ret = g_file_get_path (new_file);
+	g_object_unref (new_file);
+
+	return ret;
+}
+
 static void
 caja_sendto_init (void)
 {
@@ -771,9 +799,14 @@ caja_sendto_init (void)
 
 		file = g_file_new_for_commandline_arg (filenames[i]);
 		filename = g_file_get_path (file);
+		if (filename == NULL) {
+			filename = get_target_filename (file);  // to handle recent:// and trash://
+			if (filename == NULL) {
+				g_object_unref (file);
+				continue;
+			}
+		}
 		g_object_unref (file);
-		if (filename == NULL)
-			continue;
 
 		if (g_file_test (filename, G_FILE_TEST_IS_DIR) != FALSE)
 			has_dirs = TRUE;
