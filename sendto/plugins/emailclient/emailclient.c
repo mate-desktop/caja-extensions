@@ -160,9 +160,13 @@ get_evo_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
 		const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\"", text);
-	else
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // to handle character ?
+		char *text_esc_quote = g_shell_quote (text_esc); // escape '
+		g_string_append_printf (mailto, "%s", text_esc_quote);
+		g_free (text_esc);
+		g_free (text_esc_quote);
+	} else
 		g_string_append (mailto, "\"\"");
 
 	g_string_append_printf (mailto, "?");
@@ -185,9 +189,11 @@ get_balsa_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\"", text);
-	else
+	if (text != NULL && *text != '\0') {
+		char *text_quote = g_shell_quote (text); // escape '
+		g_string_append_printf (mailto, "%s", text_quote);
+		g_free (text_quote);
+	} else
 		g_string_append (mailto, "\"\"");
 
 	for (l = file_list ; l; l=l->next) {
@@ -229,10 +235,14 @@ get_sylpheed_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_lis
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\" ", text);
-	else
-		g_string_append (mailto, "\"\"");
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // to handle character ?
+		char *text_esc_quote = g_shell_quote (text_esc); // escape '
+		g_string_append_printf (mailto, "%s ", text_esc_quote);
+		g_free (text_esc);
+		g_free (text_esc_quote);
+	} else
+		g_string_append (mailto, "\"\" ");
 
 	g_string_append_printf (mailto, "--attach");
 	for (l = file_list ; l; l=l->next) {
@@ -254,10 +264,14 @@ get_clawsmail_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_li
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\" ", text);
-	else
-		g_string_append (mailto, "\"\"");
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // to handle character ?
+		char *text_esc_quote = g_shell_quote (text_esc); // escape '
+		g_string_append_printf (mailto, "%s ", text_esc_quote);
+		g_free (text_esc);
+		g_free (text_esc_quote);
+	} else
+		g_string_append (mailto, "\"\" ");
 
 	g_string_append_printf (mailto, "--attach");
 	for (l = file_list ; l; l=l->next) {
