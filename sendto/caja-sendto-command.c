@@ -202,7 +202,7 @@ pack_files (NS_ui *ui)
 	g_mkdir (tmp_work_dir, 0700);
 	g_free (tmp_dir);
 
-	if (gtk_combo_box_get_active (GTK_COMBO_BOX(ui->pack_combobox)) != 0) {
+	if (gtk_combo_box_get_active (GTK_COMBO_BOX(ui->pack_combobox)) >= 0) {
 		pack_type = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT(ui->pack_combobox));
 	} else {
 		pack_type = NULL;
