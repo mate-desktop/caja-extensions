@@ -105,16 +105,10 @@ init (NstPlugin *plugin)
 			g_free (mail_cmd_aux);
 			type = MAILER_BALSA;
 		} else if (strstr (mail_cmd, "thunder") || strstr (mail_cmd, "seamonkey")) {
-			char **strv;
-
 			type = MAILER_THUNDERBIRD;
-
-			/* Thunderbird sucks, see
-			 * https://bugzilla.gnome.org/show_bug.cgi?id=614222 */
-			strv = g_strsplit (mail_cmd, " ", -1);
-			g_free (mail_cmd);
-			mail_cmd = g_strdup_printf ("%s %%s", strv[0]);
-			g_strfreev (strv);
+			char *mail_cmd_aux = mail_cmd;
+			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
+			g_free (mail_cmd_aux);
 		} else if (strstr (mail_cmd, "sylpheed")) {
 			char *mail_cmd_aux = mail_cmd;
 			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
