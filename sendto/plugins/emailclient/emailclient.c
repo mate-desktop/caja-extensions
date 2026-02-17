@@ -98,33 +98,20 @@ init (NstPlugin *plugin)
 		mail_cmd = get_evo_cmd ();
 		type = MAILER_EVO;
 	} else {
+		char *mail_cmd_aux = mail_cmd;
+		mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
+		g_free (mail_cmd_aux);
 		/* Find what the default mailer is */
-		if (strstr (mail_cmd, "balsa")) {
-			char *mail_cmd_aux = mail_cmd;
-			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
-			g_free (mail_cmd_aux);
+		if (strstr (mail_cmd, "balsa"))
 			type = MAILER_BALSA;
-		} else if (strstr (mail_cmd, "thunder") || strstr (mail_cmd, "seamonkey")) {
+		else if (strstr (mail_cmd, "thunder") || strstr (mail_cmd, "seamonkey"))
 			type = MAILER_THUNDERBIRD;
-			char *mail_cmd_aux = mail_cmd;
-			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
-			g_free (mail_cmd_aux);
-		} else if (strstr (mail_cmd, "sylpheed")) {
-			char *mail_cmd_aux = mail_cmd;
-			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
-			g_free (mail_cmd_aux);
+		else if (strstr (mail_cmd, "sylpheed"))
 			type = MAILER_SYLPHEED;
-		} else if (strstr (mail_cmd, "claws")) {
-			char *mail_cmd_aux = mail_cmd;
-			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
-			g_free (mail_cmd_aux);
+		else if (strstr (mail_cmd, "claws"))
 			type = MAILER_CLAWSMAIL;
-		} else if (strstr (mail_cmd, "anjal") || strstr (mail_cmd, "evolution")) {
-			char *mail_cmd_aux = mail_cmd;
-			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
-			g_free (mail_cmd_aux);
+		else if (strstr (mail_cmd, "anjal") || strstr (mail_cmd, "evolution"))
 			type = MAILER_EVO;
-		}
 	}
 
 	if (mail_cmd == NULL)
