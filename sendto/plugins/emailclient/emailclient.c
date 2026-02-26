@@ -210,7 +210,10 @@ get_thunderbird_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_
 
 	g_string_append_printf (mailto, "attachment='");
 	for (l = file_list ; l; l=l->next) {
-		g_string_append_printf (mailto, "%s,", (char *)l->data);
+		GString *file_esc = g_string_new ((char *) l->data);
+		g_string_replace (file_esc, "\'", "%27", 0); // to handle character ' (needed to handle multiple files)
+		g_string_append_printf (mailto, "%s,", file_esc->str);
+		g_string_free (file_esc, TRUE);
 	}
 	g_string_truncate (mailto, mailto->len - 1); //remove last ,
 	g_string_append (mailto, "'\"");
