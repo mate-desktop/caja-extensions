@@ -211,8 +211,13 @@ get_thunderbird_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "to='%s',", text);
+	if (text != NULL && *text != '\0') {
+		GString *text_esc = g_string_new (text);
+		g_string_replace (text_esc, "\"", "\\\"", 0); // a single " prevent program to start ( because outer quotes are ")
+		g_string_replace (text_esc, "\'", "\\\'", 0); // a single ' prevent program to start
+		g_string_append_printf (mailto, "to='%s',", text_esc->str);
+		g_string_free (text_esc, TRUE);
+	}
 
 	g_string_append_printf (mailto, "attachment='");
 	for (l = file_list ; l; l=l->next) {
