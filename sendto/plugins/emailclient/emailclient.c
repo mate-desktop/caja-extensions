@@ -39,6 +39,7 @@ typedef enum {
 	MAILER_EVO,
 	MAILER_BALSA,
 	MAILER_SYLPHEED,
+	MAILER_CLAWSMAIL,
 	MAILER_THUNDERBIRD,
 } MailerType;
 
@@ -97,28 +98,20 @@ init (NstPlugin *plugin)
 		mail_cmd = get_evo_cmd ();
 		type = MAILER_EVO;
 	} else {
+		char *mail_cmd_aux = mail_cmd;
+		mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
+		g_free (mail_cmd_aux);
 		/* Find what the default mailer is */
 		if (strstr (mail_cmd, "balsa"))
 			type = MAILER_BALSA;
-		else if (strstr (mail_cmd, "thunder") || strstr (mail_cmd, "seamonkey")) {
-			char **strv;
-
+		else if (strstr (mail_cmd, "thunder") || strstr (mail_cmd, "seamonkey"))
 			type = MAILER_THUNDERBIRD;
-
-			/* Thunderbird sucks, see
-			 * https://bugzilla.gnome.org/show_bug.cgi?id=614222 */
-			strv = g_strsplit (mail_cmd, " ", -1);
-			g_free (mail_cmd);
-			mail_cmd = g_strdup_printf ("%s %%s", strv[0]);
-			g_strfreev (strv);
-		} else if (strstr (mail_cmd, "sylpheed") || strstr (mail_cmd, "claws"))
+		else if (strstr (mail_cmd, "sylpheed"))
 			type = MAILER_SYLPHEED;
-		else if (strstr (mail_cmd, "anjal") || strstr (mail_cmd, "evolution")) {
-			char *mail_cmd_aux = mail_cmd;
-			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
-			g_free (mail_cmd_aux);
+		else if (strstr (mail_cmd, "claws"))
+			type = MAILER_CLAWSMAIL;
+		else if (strstr (mail_cmd, "anjal") || strstr (mail_cmd, "evolution"))
 			type = MAILER_EVO;
-		}
 	}
 
 	if (mail_cmd == NULL)
@@ -148,15 +141,22 @@ get_evo_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
 		const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\"", text);
-	else
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // to handle character ?
+		char *text_esc_quote = g_shell_quote (text_esc); // escape '
+		g_string_append_printf (mailto, "%s", text_esc_quote);
+		g_free (text_esc);
+		g_free (text_esc_quote);
+	} else
 		g_string_append (mailto, "\"\"");
 
-	g_string_append_printf (mailto,"?attach=\"%s\"", (char *)file_list->data);
-	for (l = file_list->next ; l; l=l->next){
-		g_string_append_printf (mailto,"&attach=\"%s\"", (char *)l->data);
+	g_string_append_printf (mailto, "?");
+	for (l = file_list ; l; l=l->next) {
+		char *file_esc = g_uri_escape_string ((char *) l->data, NULL, TRUE); // to handle character ? %
+		g_string_append_printf (mailto, "attach=\"%s\"&", file_esc);
+		g_free (file_esc);
 	}
+	g_string_truncate (mailto, mailto->len - 1); //remove last & (is optional)
 }
 
 static void
@@ -170,14 +170,15 @@ get_balsa_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\"", text);
-	else
+	if (text != NULL && *text != '\0') {
+		char *text_quote = g_shell_quote (text); // escape '
+		g_string_append_printf (mailto, "%s", text_quote);
+		g_free (text_quote);
+	} else
 		g_string_append (mailto, "\"\"");
 
-	g_string_append_printf (mailto," --attach=\"%s\"", (char *)file_list->data);
-	for (l = file_list->next ; l; l=l->next){
-		g_string_append_printf (mailto," --attach=\"%s\"", (char *)l->data);
+	for (l = file_list ; l; l=l->next) {
+		g_string_append_printf (mailto, " --attach=\"%s\"", (char *)l->data);
 	}
 }
 
@@ -191,13 +192,22 @@ get_thunderbird_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "to='%s',", text);
-
-	g_string_append_printf (mailto,"attachment='%s", (char *)file_list->data);
-	for (l = file_list->next ; l; l=l->next){
-		g_string_append_printf (mailto,",%s", (char *)l->data);
+	if (text != NULL && *text != '\0') {
+		GString *text_esc = g_string_new (text);
+		g_string_replace (text_esc, "\"", "\\\"", 0); // a single " prevent program to start ( because outer quotes are ")
+		g_string_replace (text_esc, "\'", "\\\'", 0); // a single ' prevent program to start
+		g_string_append_printf (mailto, "to='%s',", text_esc->str);
+		g_string_free (text_esc, TRUE);
 	}
+
+	g_string_append_printf (mailto, "attachment='");
+	for (l = file_list ; l; l=l->next) {
+		GString *file_esc = g_string_new ((char *) l->data);
+		g_string_replace (file_esc, "\'", "%27", 0); // to handle character ' (needed to handle multiple files)
+		g_string_append_printf (mailto, "%s,", file_esc->str);
+		g_string_free (file_esc, TRUE);
+	}
+	g_string_truncate (mailto, mailto->len - 1); //remove last ,
 	g_string_append (mailto, "'\"");
 }
 
@@ -211,13 +221,46 @@ get_sylpheed_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_lis
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\" ", text);
-	else
-		g_string_append (mailto, "\"\"");
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // to handle character ?
+		char *text_esc_quote = g_shell_quote (text_esc); // escape '
+		g_string_append_printf (mailto, "%s ", text_esc_quote);
+		g_free (text_esc);
+		g_free (text_esc_quote);
+	} else
+		g_string_append (mailto, "\"\" ");
 
-	g_string_append_printf (mailto,"--attach \"%s\"", (char *)file_list->data);
-	for (l = file_list->next ; l; l=l->next){
+	g_string_append_printf (mailto, "--attach");
+	for (l = file_list ; l; l=l->next) {
+		char *filename_clean = g_filename_from_uri ((char *) l->data, NULL, NULL); // sylpheed doesn't understand URIs
+		char *filename_clean_esc = g_shell_quote (filename_clean); // escape '
+		g_string_append_printf (mailto, " %s", filename_clean_esc);
+		g_free (filename_clean);
+		g_free (filename_clean_esc);
+	}
+}
+
+static void
+get_clawsmail_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
+{
+	GList *l;
+
+	g_string_append (mailto, "--compose ");
+
+	const char *text;
+
+	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // to handle character ?
+		char *text_esc_quote = g_shell_quote (text_esc); // escape '
+		g_string_append_printf (mailto, "%s ", text_esc_quote);
+		g_free (text_esc);
+		g_free (text_esc_quote);
+	} else
+		g_string_append (mailto, "\"\" ");
+
+	g_string_append_printf (mailto, "--attach");
+	for (l = file_list ; l; l=l->next) {
 		g_string_append_printf (mailto," \"%s\"", (char *)l->data);
 	}
 }
@@ -237,6 +280,9 @@ send_files (NstPlugin *plugin,
 		break;
 	case MAILER_SYLPHEED:
 		get_sylpheed_mailto (contact_widget, mailto, file_list);
+		break;
+	case MAILER_CLAWSMAIL:
+		get_clawsmail_mailto (contact_widget, mailto, file_list);
 		break;
 	case MAILER_THUNDERBIRD:
 		get_thunderbird_mailto (contact_widget, mailto, file_list);
