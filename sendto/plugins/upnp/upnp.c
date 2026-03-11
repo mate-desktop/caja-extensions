@@ -273,8 +273,11 @@ send_files (NstPlugin *plugin,
 			    &interface, -1);
 
 	upload_cmd = g_find_program_in_path ("gupnp-upload");
-	if (upload_cmd == NULL)
+	if (upload_cmd == NULL) {
+		g_free (udn);
+		g_free (interface);
 		return FALSE;
+	}
 
 	argv = g_ptr_array_new ();
 	g_ptr_array_add (argv, upload_cmd);
@@ -304,6 +307,7 @@ send_files (NstPlugin *plugin,
 	g_ptr_array_free (argv, TRUE);
 	g_free (upload_cmd);
 	g_free (udn);
+	g_free (interface);
 
 	return ret;
 }

@@ -198,6 +198,7 @@ get_contacts_widget (NstPlugin *plugin)
 
 	gtk_cell_layout_clear (GTK_CELL_LAYOUT (cb));
 	gtk_combo_box_set_model (GTK_COMBO_BOX (cb), GTK_TREE_MODEL (store));
+	g_object_unref (store);
 
 	text_renderer = gtk_cell_renderer_text_new ();
 	icon_renderer = gtk_cell_renderer_pixbuf_new ();
