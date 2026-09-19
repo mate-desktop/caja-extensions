@@ -729,49 +729,6 @@ caja_sendto_plugin_init (void)
 }
 
 static char *
-escape_ampersands_and_commas (const char *url)
-{
-	int i;
-	char *str, *ptr;
-
-	/* Count the number of ampersands & commas */
-	i = 0;
-	ptr = (char *) url;
-	while ((ptr = strchr (ptr, '&')) != NULL) {
-		i++;
-		ptr++;
-	}
-	ptr = (char *) url;
-	while ((ptr = strchr (ptr, ',')) != NULL) {
-		i++;
-		ptr++;
-	}
-
-	/* No ampersands or commas ? */
-	if (i == 0)
-		return NULL;
-
-	/* Replace the '&' */
-	str = g_malloc0 (strlen (url) - i + 3 * i + 1);
-	ptr = str;
-	for (i = 0; url[i] != '\0'; i++) {
-		if (url[i] == '&') {
-			*ptr++ = '%';
-			*ptr++ = '2';
-			*ptr++ = '6';
-		} else if (url[i] == ',') {
-			*ptr++ = '%';
-			*ptr++ = '2';
-			*ptr++ = 'C';
-		} else {
-			*ptr++ = url[i];
-		}
-	}
-
-	return str;
-}
-
-static char *
 get_target_filename (GFile *file)
 {
 	GFileInfo *info;
@@ -809,7 +766,7 @@ caja_sendto_init (void)
 
 	for (i = 0; filenames != NULL && filenames[i] != NULL; i++) {
 		GFile *file;
-		char *filename, *escaped, *uri;
+		char *filename, *uri;
 
 		file = g_file_new_for_commandline_arg (filenames[i]);
 		filename = g_file_get_path (file);
@@ -827,14 +784,8 @@ caja_sendto_init (void)
 
 		uri = g_filename_to_uri (filename, NULL, NULL);
 		g_free (filename);
-		escaped = escape_ampersands_and_commas (uri);
 
-		if (escaped == NULL) {
-			file_list = g_list_prepend (file_list, uri);
-		} else {
-			file_list = g_list_prepend (file_list, escaped);
-			g_free (uri);
-		}
+		file_list = g_list_prepend (file_list, uri);
 	}
 
 	if (file_list == NULL) {
