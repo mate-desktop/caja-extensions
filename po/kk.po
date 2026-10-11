@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-extensions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2023
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2023
-# 
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2023, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2023-08-31 19:45+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2023\n"
-"Language-Team: Kazakh (https://app.transifex.com/mate/teams/13566/kk/)\n"
+"PO-Revision-Date: 2026-08-26 18:18+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/caja-extensions/kk/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: audio-video-properties/bacon-video-widget-properties.c:104
 msgctxt "Title"
@@ -79,32 +80,32 @@ msgstr "Анықталмаған"
 
 #: audio-video-properties/bacon-video-widget-properties.c:135
 msgid "0 Hz"
-msgstr ""
+msgstr "0 Гц"
 
 #: audio-video-properties/bacon-video-widget-properties.c:137
 msgid "0 Channels"
-msgstr ""
+msgstr "0 арна"
 
 #: audio-video-properties/bacon-video-widget-properties.c:153
 #, c-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d сағат"
+msgstr[1] "%d сағат"
 
 #: audio-video-properties/bacon-video-widget-properties.c:155
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d минут"
+msgstr[1] "%d минут"
 
 #: audio-video-properties/bacon-video-widget-properties.c:158
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d секунд"
+msgstr[1] "%d секунд"
 
 #: audio-video-properties/bacon-video-widget-properties.c:164
 #, c-format
@@ -120,22 +121,22 @@ msgstr "%s %s"
 
 #: audio-video-properties/bacon-video-widget-properties.c:173
 msgid "0 seconds"
-msgstr ""
+msgstr "0 секунд"
 
 #: audio-video-properties/bacon-video-widget-properties.c:233
 #, c-format
 msgid "%0.2f frame per second"
 msgid_plural "%0.2f frames per second"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "секундына %0.2f кадр"
+msgstr[1] "секундына %0.2f кадр"
 
 #: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:5
 msgid "Audio/Video Properties"
-msgstr ""
+msgstr "Аудио/видео қасиеттері"
 
 #: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:6
 msgid "Display audio/video properties"
-msgstr ""
+msgstr "Аудио/видео қасиеттерін көрсету"
 
 #: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:8
 msgid ""
@@ -144,11 +145,15 @@ msgid ""
 "Copyright (C) 2019-2021 Nautilus developers\n"
 "Copyright (C) 2021 MATE developers"
 msgstr ""
+"Copyright (C) 2005 Bastien Nocera\n"
+"Copyright (C) 2005-2019 Totem Media Player developers\n"
+"Copyright (C) 2019-2021 Nautilus developers\n"
+"Copyright (C) 2021 MATE developers"
 
 #: audio-video-properties/totem-properties-main.c:118
 #: audio-video-properties/totem-properties-view.c:275
 msgid "Audio/Video"
-msgstr ""
+msgstr "Аудио/Видео"
 
 #: audio-video-properties/totem-properties-view.c:133
 msgid "N/A"
@@ -162,12 +167,12 @@ msgstr "Анықталмаған"
 #: audio-video-properties/totem-properties-view.c:165
 #, c-format
 msgid "%d kbps"
-msgstr ""
+msgstr "%d кбит/с"
 
 #: audio-video-properties/totem-properties-view.c:182
 #, c-format
 msgid "%d × %d"
-msgstr ""
+msgstr "%d × %d"
 
 #: audio-video-properties/totem-properties-view.c:214
 #, c-format
@@ -181,7 +186,7 @@ msgstr "Анықталмаған"
 
 #: audio-video-properties/totem-properties-view.c:230
 msgid "Surround"
-msgstr ""
+msgstr "Көлемді дыбыс"
 
 #: audio-video-properties/totem-properties-view.c:232
 msgid "Mono"
@@ -228,6 +233,10 @@ msgid ""
 "\n"
 "The item you selected cannot be open with administrator powers because the graphical wrapper for su cannot be determined, such as gtksu or beesu."
 msgstr ""
+"<big><b>su үшін графикалық қабықты анықтау мүмкін емес</b></big>\n"
+"\n"
+"Таңдалған элементті әкімші құқықтарымен ашу мүмкін емес, өйткені gtksu "
+"немесе beesu сияқты su үшін графикалық қабық анықталмады."
 
 #: gksu/libcaja-gksu.c:254
 #, c-format
@@ -248,6 +257,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2002-2005 Gustavo Noronha Silva\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 
 #: image-converter/caja-image-converter.c:121
 msgid "_Resize Images..."
@@ -310,7 +322,7 @@ msgstr "Биіктігі:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr ""
+msgstr "Сурет өлшемі"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:242
@@ -360,57 +372,57 @@ msgstr "Бұру"
 
 #: image-converter/caja-image-rotate.ui:104
 msgid "Select an angle:"
-msgstr ""
+msgstr "Бұрышты таңдаңыз:"
 
 #: image-converter/caja-image-rotate.ui:124
 msgid "90° clockwise"
-msgstr ""
+msgstr "90° сағат тілі бағытымен"
 
 #: image-converter/caja-image-rotate.ui:125
 msgid "90° counter-clockwise"
-msgstr ""
+msgstr "90° сағат тілі бағытына қарсы"
 
 #: image-converter/caja-image-rotate.ui:126
 msgid "180°"
-msgstr ""
+msgstr "180°"
 
 #: image-converter/caja-image-rotate.ui:149
 msgid "Custom angle:"
-msgstr ""
+msgstr "Таңдауыңызша бұрыш:"
 
 #: image-converter/caja-image-rotate.ui:181
 msgid "degrees clockwise"
-msgstr ""
+msgstr "градус сағат тілі бағытымен"
 
 #: image-converter/caja-image-rotate.ui:204
 msgid "Image Rotation"
-msgstr ""
+msgstr "Суретті бұру"
 
 #: image-converter/caja-image-rotate.ui:260
 msgid ".rotated"
-msgstr ""
+msgstr ".бұрылған"
 
 #: image-converter/caja-image-rotate.ui:290
 msgid "Rotate in place"
-msgstr ""
+msgstr "Орнында бұру"
 
 #: image-converter/caja-image-rotator.c:284
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr ""
+msgstr "Сурет бұрылуда: %d, барлығы %d"
 
 #: image-converter/caja-image-rotator.c:289
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr ""
+msgstr "<i>«%s» бұрылуда</i>"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
-msgstr ""
+msgstr "Сурет түрлендіргіші"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:6
 msgid "Rotate and resize images"
-msgstr ""
+msgstr "Суреттерді бұру және өлшемін өзгерту"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:8
 msgid ""
@@ -418,6 +430,9 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2004-2005 Jürg Billeter\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 
 #: open-terminal/caja-open-terminal.c:459
 #: open-terminal/caja-open-terminal.c:472
@@ -443,11 +458,11 @@ msgstr "Терминалды ашу"
 
 #: open-terminal/caja-open-terminal.c:563
 msgid "Open at Home if trying to open on desktop"
-msgstr ""
+msgstr "Жұмыс үстелінде ашу әрекеті жасалса, Үй бумасында ашу"
 
 #: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr ""
+msgstr "Терминал қолданбасы:"
 
 #: open-terminal/caja-open-terminal.c:586
 msgid "Close"
@@ -455,7 +470,7 @@ msgstr "Жабу"
 
 #: open-terminal/caja-open-terminal.c:592
 msgid "open-terminal Configuration"
-msgstr ""
+msgstr "open-terminal конфигурациясы"
 
 #: open-terminal/libcaja-open-terminal.caja-extension.desktop.in.in:5
 msgid "Open terminal"
@@ -471,12 +486,15 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2004-2005 Free Software Foundation, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:5
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Жұмыс үстелінде терминалды ашу әрекеті үй бумасында терминалды аша ма"
 
 #: open-terminal/org.mate.caja-open-terminal.gschema.xml.in:6
 msgid ""
@@ -485,6 +503,9 @@ msgid ""
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
 msgstr ""
+"Ақиқат мәніне орнатылса, жұмыс үстелінде терминалды ашқан кезде ол үй "
+"бумасында ашылады. Әйтпесе, ол жұмыс үстелі бумасында ашылады. Жұмыс үстелі "
+"бумасы үй бумасымен бірдей болса, бұл кілттің әсері болмайтынын ескеріңіз."
 
 #: sendto/caja-nste.c:79 sendto/caja-nste.c:84
 msgid "Send to..."
@@ -513,11 +534,11 @@ msgstr "Командалық жол опцияларын талдау мүмкі
 
 #: sendto/caja-sendto-command.c:831
 msgid "Could not load any plugins."
-msgstr ""
+msgstr "Бірде-бір плагинді жүктеу мүмкін болмады."
 
 #: sendto/caja-sendto-command.c:834
 msgid "Please verify your installation"
-msgstr ""
+msgstr "Орнатуыңызды тексеріңіз"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:5
 msgid "Send To"
@@ -525,7 +546,7 @@ msgstr "Қайда жіберу"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:6
 msgid "Integrates email clients and Pidgin"
-msgstr ""
+msgstr "Эл. пошта клиенттерін және Pidgin-ді біріктіреді"
 
 #: sendto/libcaja-sendto.caja-extension.desktop.in.in:8
 msgid ""
@@ -533,26 +554,33 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2004 Roberto Majadas\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:6
 msgid "Last plugin used to send"
-msgstr ""
+msgstr "Жіберу үшін соңғы пайдаланылған плагин"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:7
 msgid ""
 "Used to store which plugin was used the last time files were sent using "
 "caja-sendto."
 msgstr ""
+"caja-sendto арқылы файлдарды соңғы рет жібергенде қандай плагин "
+"пайдаланылғанын сақтау үшін қолданылады."
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:14
 msgid "Last type of archive used"
-msgstr ""
+msgstr "Соңғы пайдаланылған архив түрі"
 
 #: sendto/org.mate.Caja.Sendto.gschema.xml.in:15
 msgid ""
 "Used to store which type of archive was used the last time (0: zip, 1: "
 "tar.gz, 2: tar.bz2)."
 msgstr ""
+"Соңғы рет қандай архив түрі пайдаланылғанын сақтау үшін қолданылады (0: zip, "
+"1: tar.gz, 2: tar.bz2)."
 
 #: sendto/caja-sendto.ui:17
 msgid "Send To..."
@@ -560,7 +588,7 @@ msgstr "Қайда жіберу…"
 
 #: sendto/caja-sendto.ui:54
 msgid "Send"
-msgstr ""
+msgstr "Жіберу"
 
 #: sendto/caja-sendto.ui:116
 msgid "Send _as:"
@@ -572,7 +600,7 @@ msgstr "Кім_ге жіберу:"
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
-msgstr ""
+msgstr "Мақсатты орын"
 
 #: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
@@ -580,7 +608,7 @@ msgstr "С_ығылған түрінде жіберу:"
 
 #: sendto/caja-sendto.ui:258
 msgid "Compression"
-msgstr ""
+msgstr "Сығу"
 
 #: sendto/caja-sendto.ui:300
 msgid "label"
@@ -596,7 +624,7 @@ msgstr "Файлды жіберу мүмкін емес"
 
 #: sendto/plugins/gajim/gajim.c:423
 msgid "There is no connection to gajim remote service."
-msgstr ""
+msgstr "Қашықтағы gajim қызметімен байланыс жоқ."
 
 #: sendto/plugins/gajim/gajim.c:447 sendto/plugins/gajim/gajim.c:487
 msgid "Sending file failed"
@@ -652,13 +680,16 @@ msgid ""
 "Copyright (C) 2013-2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2005 Ethium, Inc.\n"
+"Copyright (C) 2013-2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 
 #: share/caja-share.c:121
 #, c-format
 msgid ""
 "Caja needs to add some permissions to your folder \"%s\" in order to share "
 "it"
-msgstr ""
+msgstr "Ортақ пайдалану үшін Caja «%s» бумасына кейбір рұқсаттарды қосуы керек"
 
 #: share/caja-share.c:129
 #, c-format
@@ -666,18 +697,21 @@ msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
+"Ортақ пайдалану дұрыс жұмыс істеуі үшін «%s» бумасына келесі қосымша "
+"рұқсаттар қажет:\n"
+"%s%s%sCaja бұл рұқсаттарды бумаға автоматты түрде қоссын ба?"
 
 #: share/caja-share.c:133
 msgid "  - read permission by others\n"
-msgstr ""
+msgstr "  - басқаларға оқу рұқсаты\n"
 
 #: share/caja-share.c:134
 msgid "  - write permission by others\n"
-msgstr ""
+msgstr "  - басқаларға жазу рұқсаты\n"
 
 #: share/caja-share.c:135
 msgid "  - execute permission by others\n"
-msgstr ""
+msgstr "  - басқаларға орындау рұқсаты\n"
 
 #: share/caja-share.c:139
 msgid "Add the permissions automatically"
@@ -686,7 +720,7 @@ msgstr "Рұқсаттарды автоматты түрде қосу"
 #: share/caja-share.c:165
 #, c-format
 msgid "Could not change the permissions of folder \"%s\""
-msgstr ""
+msgstr "«%s» бумасының рұқсаттарын өзгерту мүмкін болмады"
 
 #: share/caja-share.c:448
 msgid "Share name is too long"
@@ -694,28 +728,28 @@ msgstr "Ортақ бумасының аты тым ұзын"
 
 #: share/caja-share.c:490
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "Ортақ ресурс аты бос болмауы керек"
 
 #: share/caja-share.c:503
 #, c-format
 msgid "Error while getting share information: %s"
-msgstr ""
+msgstr "Ортақ ресурс туралы ақпаратты алу кезінде қате орын алды: %s"
 
 #: share/caja-share.c:513
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Басқа ортақ ресурстың атауы дәл осындай"
 
 #: share/caja-share.c:556 share/caja-share.c:791
 msgid "Modify _Share"
-msgstr ""
+msgstr "Ортақ ресурсты ө_згерту"
 
 #: share/caja-share.c:556 share/caja-share.c:793
 msgid "Create _Share"
-msgstr ""
+msgstr "Ортақ ресурсты _жасау"
 
 #: share/caja-share.c:684
 msgid "There was an error while getting the sharing information"
-msgstr ""
+msgstr "Ортақ пайдалану ақпаратын алу кезінде қате орын алды"
 
 #: share/caja-share.c:1113 share/share-dialog.ui:48
 msgid "Folder Sharing"
@@ -743,11 +777,11 @@ msgstr "Тү_сіндірме:"
 
 #: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
+msgstr "Басқаларға осы бумада файлдарды жасауға және өшіруге рұқсат _ету"
 
 #: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "Қ_онақ ретінде қол жеткізу (пайдаланушы тіркелгісі жоқ адамдар үшін)"
 
 #: share/share-dialog.ui:264
 msgid "_Save"
@@ -756,26 +790,26 @@ msgstr "_Сақтау"
 #: share/shares.c:126
 #, c-format
 msgid "%s %s %s returned with signal %d"
-msgstr ""
+msgstr "%s %s %s %d сигналымен қайтарылды"
 
 #: share/shares.c:135
 #, c-format
 msgid "%s %s %s failed for an unknown reason"
-msgstr ""
+msgstr "%s %s %s белгісіз себеппен сәтсіз аяқталды"
 
 #: share/shares.c:155
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "«net usershare» %d қатесін қайтарды: %s"
 
 #: share/shares.c:157
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "«net usershare» %d қатесін қайтарды"
 
 #: share/shares.c:188
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "«net usershare» шығысы дұрыс UTF-8 кодтауында емес"
 
 #: share/shares.c:441 share/shares.c:615
 msgid "Failed"
@@ -784,32 +818,35 @@ msgstr "Жеткізу қатесі"
 #: share/shares.c:549
 #, c-format
 msgid "Samba's testparm returned with signal %d"
-msgstr ""
+msgstr "Samba-ның testparm қызметі %d сигналымен қайтарылды"
 
 #: share/shares.c:555
 msgid "Samba's testparm failed for an unknown reason"
-msgstr ""
+msgstr "Samba-ның testparm қызметі белгісіз себеппен сәтсіз аяқталды"
 
 #: share/shares.c:570
 #, c-format
 msgid "Samba's testparm returned error %d: %s"
-msgstr ""
+msgstr "Samba-ның testparm қызметі %d қатесін қайтарды: %s"
 
 #: share/shares.c:572
 #, c-format
 msgid "Samba's testparm returned error %d"
-msgstr ""
+msgstr "Samba-ның testparm қызметі %d қатесін қайтарды"
 
 #: share/shares.c:683
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
 msgstr ""
+"%s жолы үшін ортақ ресурсты өшіру мүмкін емес: бұл жол ортақ пайдаланылмаған"
 
 #: share/shares.c:729
 msgid ""
 "Cannot change the path of an existing share; please remove the old share "
 "first and add a new one"
 msgstr ""
+"Бар ортақ ресурстың жолын өзгерту мүмкін емес; алдымен ескі ортақ ресурсты "
+"өшіріп, жаңасын қосыңыз"
 
 #: wallpaper/caja-wallpaper-extension.c:109
 msgid "Set as wallpaper"
@@ -832,6 +869,8 @@ msgid ""
 "Copyright (C) 2014 Stefano Karapetsas\n"
 "Copyright (C) 2015-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2014 Stefano Karapetsas\n"
+"Copyright (C) 2015-2021 MATE developers"
 
 #: xattr-tags/caja-xattr-tags-extension.c:205
 msgid "Tags"
@@ -839,18 +878,20 @@ msgstr "Белгілер"
 
 #: xattr-tags/caja-xattr-tags-extension.c:206
 msgid "Tags stored in extended attributes"
-msgstr ""
+msgstr "Кеңейтілген атрибуттарда сақталған тегтер"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:5
 msgid "xattr Tags"
-msgstr ""
+msgstr "xattr тегтері"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:6
 msgid "View tags stored in extended attributes"
-msgstr ""
+msgstr "Кеңейтілген атрибуттарда сақталған тегтерді қарау"
 
 #: xattr-tags/libcaja-xattr-tags.caja-extension.desktop.in.in:8
 msgid ""
 "Copyright (C) 2016 Felipe Barriga Richards\n"
 "Copyright (C) 2017-2021 MATE developers"
 msgstr ""
+"Copyright (C) 2016 Felipe Barriga Richards\n"
+"Copyright (C) 2017-2021 MATE developers"

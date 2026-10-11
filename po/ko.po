@@ -1,29 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-extensions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # 한영빈 (Youngbin Han) <sukso96100@gmail.com>, 2018
 # Junghee Lee <daemul72@gmail.com>, 2021
 # jaekwon.park <jaekwon.park@rockplace.co.kr>, 2023
 # 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2023
 # Stefano Karapetsas <stefano@karapetsas.com>, 2023
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2023
-# 
+# 김인수 <simmon@nplob.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2023-08-31 19:45+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>, 2023\n"
-"Language-Team: Korean (https://app.transifex.com/mate/teams/13566/ko/)\n"
+"PO-Revision-Date: 2026-06-16 15:11+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/mate-"
+"desktop/caja-extensions/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: audio-video-properties/bacon-video-widget-properties.c:104
 msgctxt "Title"
@@ -566,7 +568,9 @@ msgstr "마직막에 사용된 압축 형식"
 msgid ""
 "Used to store which type of archive was used the last time (0: zip, 1: "
 "tar.gz, 2: tar.bz2)."
-msgstr " 마지막에 사용된 압축 형식을 저장하기 (0: zip, 1: tar.gz, 2: tar.bz2)"
+msgstr ""
+"마지막에 사용된 아카이브의 유형으로 저장되어 사용됨 (0: zip, 1: tar.gz, 2: "
+"tar.bz2)."
 
 #: sendto/caja-sendto.ui:17
 msgid "Send To..."
@@ -683,21 +687,20 @@ msgid ""
 "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
 "%s%s%sDo you want Caja to add these permissions to the folder automatically?"
 msgstr ""
-"공유를 하기위해서 \"%s\" 폴더에 여분의 권한이 필요합니다.\n"
-"다음과 같은 권한을 Caja가 자동으로 해당 폴더에 추가하는것을 원하십니까?\n"
-"%s%s%s"
+"폴더 \"%s\" 는 작업 공유를 위해 다음 추가 권한이 필요합니다:\n"
+"%s%s%sCaja가 이들 권한을 자동으로 폴더에 추가할까요?"
 
 #: share/caja-share.c:133
 msgid "  - read permission by others\n"
-msgstr " - 다른 사람의 읽기권한\n"
+msgstr "  - 다른 사람의 읽기 권한\n"
 
 #: share/caja-share.c:134
 msgid "  - write permission by others\n"
-msgstr " - 다른 사람의 쓰기권한\n"
+msgstr "  - 다른 사람의 쓰기 권한\n"
 
 #: share/caja-share.c:135
 msgid "  - execute permission by others\n"
-msgstr " - 다른 사람의 실행 권한\n"
+msgstr "  - 다른 사람의 실행 권한\n"
 
 #: share/caja-share.c:139
 msgid "Add the permissions automatically"
