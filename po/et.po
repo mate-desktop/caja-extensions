@@ -1,26 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-extensions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Mattias Põldaru <mahfiaz@gmail.com>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2023
 # Ivar Smolin <okul@linux.ee>, 2023
-# 
+# Priit Jõerüüt <jrtkbfdr@users.noreply.translate.fedoraproject.org>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2023-08-31 19:45+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>, 2023\n"
-"Language-Team: Estonian (https://app.transifex.com/mate/teams/13566/et/)\n"
+"PO-Revision-Date: 2026-09-27 13:53+0000\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Estonian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/caja-extensions/et/>\n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: et\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: audio-video-properties/bacon-video-widget-properties.c:104
 msgctxt "Title"
@@ -90,15 +93,15 @@ msgstr ""
 #, c-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d tund"
+msgstr[1] "%d tundi"
 
 #: audio-video-properties/bacon-video-widget-properties.c:155
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d minut"
+msgstr[1] "%d minutit"
 
 #: audio-video-properties/bacon-video-widget-properties.c:158
 #, c-format
@@ -274,7 +277,7 @@ msgstr "Piltide suuruse muutmine"
 #: image-converter/caja-image-rotate.ui:39 sendto/caja-sendto.ui:38
 #: share/share-dialog.ui:249
 msgid "_Cancel"
-msgstr "_Tühista"
+msgstr "_Katkesta"
 
 #: image-converter/caja-image-resize.ui:69
 msgid "_Resize"
@@ -344,12 +347,12 @@ msgstr "Pildi suuruse muutmine: %d. %d-st"
 #: image-converter/caja-image-resizer.c:294
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr "<i>Pildi \"%s\" suuruse muutmine<i>"
+msgstr "<i>„%s“ pildi suurus on muutmisel</i>"
 
 #: image-converter/caja-image-resizer.c:314
 #: image-converter/caja-image-rotator.c:306
 msgid "Please enter a valid filename suffix!"
-msgstr "Palun sisesta paikapidav faili nime laiend"
+msgstr "Palun sisesta korrektne failinime laiend!"
 
 #: image-converter/caja-image-rotate.ui:19
 msgid "Rotate Images"
@@ -403,7 +406,7 @@ msgstr "Pildi pööramine: %d (%d-st)"
 #: image-converter/caja-image-rotator.c:289
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr "<i>\"%s\" pööramine</i>"
+msgstr "<i>„%s“ pilt on pööramisel</i>"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
@@ -678,15 +681,15 @@ msgstr ""
 
 #: share/caja-share.c:133
 msgid "  - read permission by others\n"
-msgstr "- teistel lugemisõigus\n"
+msgstr "  - teistel on lugemisõigus\n"
 
 #: share/caja-share.c:134
 msgid "  - write permission by others\n"
-msgstr "- teistel kirjutusõigus\n"
+msgstr "  - teistel on kirjutusõigus\n"
 
 #: share/caja-share.c:135
 msgid "  - execute permission by others\n"
-msgstr "- teistel käivitusõigus\n"
+msgstr "  - teistel on käivitusõigus\n"
 
 #: share/caja-share.c:139
 msgid "Add the permissions automatically"
