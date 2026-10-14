@@ -342,10 +342,11 @@ caja_image_rotator_init (CajaImageRotator *rotator)
 {
 	GtkBuilder *builder;
 
-	builder = gtk_builder_new_from_resource ("/org/mate/caja/extensions/imageconverter/caja-image-rotate.ui");
+	builder = gtk_builder_new ();
 #ifdef ENABLE_NLS
 	gtk_builder_set_translation_domain (builder, GETTEXT_PACKAGE);
 #endif /* ENABLE_NLS */
+	gtk_builder_add_from_resource (builder, "/org/mate/caja/extensions/imageconverter/caja-image-rotate.ui", NULL);
 
 	/* Grab some widgets */
 	rotator->rotate_dialog = GTK_DIALOG (gtk_builder_get_object (builder, "rotate_dialog"));

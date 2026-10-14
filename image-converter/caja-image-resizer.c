@@ -340,10 +340,11 @@ caja_image_resizer_init (CajaImageResizer *resizer)
 {
 	GtkBuilder *builder;
 
-	builder = gtk_builder_new_from_resource ("/org/mate/caja/extensions/imageconverter/caja-image-resize.ui");
+	builder = gtk_builder_new ();
 #ifdef ENABLE_NLS
 	gtk_builder_set_translation_domain (builder, GETTEXT_PACKAGE);
 #endif /* ENABLE_NLS */
+	gtk_builder_add_from_resource (builder, "/org/mate/caja/extensions/imageconverter/caja-image-resize.ui", NULL);
 
 	/* Grab some widgets */
 	resizer->resize_dialog = GTK_DIALOG (gtk_builder_get_object (builder, "resize_dialog"));
