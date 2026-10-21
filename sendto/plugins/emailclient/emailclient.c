@@ -36,9 +36,10 @@
 
 typedef enum {
 	MAILER_UNKNOWN,
-	MAILER_EVO,
+	MAILER_DEFAULT,
 	MAILER_BALSA,
 	MAILER_SYLPHEED,
+	MAILER_KMAIL,
 	MAILER_THUNDERBIRD,
 } MailerType;
 
@@ -80,30 +81,22 @@ init (NstPlugin *plugin)
 	if (mail_cmd == NULL || *mail_cmd == '\0') {
 		g_free (mail_cmd);
 		mail_cmd = get_evo_cmd ();
-		type = MAILER_EVO;
+		type = MAILER_DEFAULT;
 	} else {
+		char *mail_cmd_aux = mail_cmd;
+		mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
+		g_free (mail_cmd_aux);
 		/* Find what the default mailer is */
 		if (strstr (mail_cmd, "balsa"))
 			type = MAILER_BALSA;
-		else if (strstr (mail_cmd, "thunder") || strstr (mail_cmd, "seamonkey")) {
-			char **strv;
-
+		else if (strstr (mail_cmd, "thunder") || strstr (mail_cmd, "seamonkey"))
 			type = MAILER_THUNDERBIRD;
-
-			/* Thunderbird sucks, see
-			 * https://bugzilla.gnome.org/show_bug.cgi?id=614222 */
-			strv = g_strsplit (mail_cmd, " ", -1);
-			g_free (mail_cmd);
-			mail_cmd = g_strdup_printf ("%s %%s", strv[0]);
-			g_strfreev (strv);
-		} else if (strstr (mail_cmd, "sylpheed") || strstr (mail_cmd, "claws"))
+		else if (strstr (mail_cmd, "sylpheed") || strstr (mail_cmd, "claws"))
 			type = MAILER_SYLPHEED;
-		else if (strstr (mail_cmd, "anjal") || strstr (mail_cmd, "evolution")) {
-			char *mail_cmd_aux = mail_cmd;
-			mail_cmd = g_strdup_printf ("%s %%s", mail_cmd_aux);
-			g_free (mail_cmd_aux);
-			type = MAILER_EVO;
-		}
+		else if (strstr (mail_cmd, "kmail"))
+			type = MAILER_KMAIL;
+		else if (strstr (mail_cmd, "anjal") || strstr (mail_cmd, "evolution") || strstr (mail_cmd, "geary"))
+			type = MAILER_DEFAULT;
 	}
 
 	if (mail_cmd == NULL)
@@ -124,24 +117,42 @@ GtkWidget* get_contacts_widget (NstPlugin *plugin)
 }
 
 static void
-get_evo_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
+get_default_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
 {
+  // Works with:
+  //  - Evolution
+  //  - Geary
+  //  - KMail
+  //  - ...
+
 	GList *l;
 
 	g_string_append (mailto, "mailto:");
 
-		const char *text;
+	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\"", text);
-	else
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // to handle character ?
+		g_string_append_printf (mailto, "\"%s\"", text_esc);
+		g_free (text_esc);
+	} else
 		g_string_append (mailto, "\"\"");
 
-	g_string_append_printf (mailto,"?attach=\"%s\"", (char *)file_list->data);
-	for (l = file_list->next ; l; l=l->next){
-		g_string_append_printf (mailto,"&attach=\"%s\"", (char *)l->data);
+	g_string_append_printf (mailto, "?");
+	for (l = file_list ; l; l=l->next) {
+		// The filename must be full %-encoded;
+		// otherwise, we'll have problems with these characters: ? % & #
+		char *filename_clean = g_filename_from_uri ((char *) l->data, NULL, NULL);
+		if (filename_clean != NULL)
+		{
+			char *file_esc = g_uri_escape_string (filename_clean, NULL, TRUE);
+			g_string_append_printf (mailto, "attach=\"%s\"&", file_esc); // the " around the %s are optional here (at least for clients Evolution and Geary)
+			g_free (file_esc);
+		}
+		g_free (filename_clean);
 	}
+	if (mailto->str [mailto->len - 1] == '&') g_string_truncate (mailto, mailto->len - 1); //remove last & (at least for clients Evolution and Geary)
 }
 
 static void
@@ -155,14 +166,15 @@ get_balsa_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\"", text);
-	else
+	if (text != NULL && *text != '\0') {
+		char *text_quote = g_shell_quote (text);
+		g_string_append_printf (mailto, "%s", text_quote);
+		g_free (text_quote);
+	} else
 		g_string_append (mailto, "\"\"");
 
-	g_string_append_printf (mailto," --attach=\"%s\"", (char *)file_list->data);
-	for (l = file_list->next ; l; l=l->next){
-		g_string_append_printf (mailto," --attach=\"%s\"", (char *)l->data);
+	for (l = file_list ; l; l=l->next) {
+		g_string_append_printf (mailto, " --attach=\"%s\"", (char *)l->data);
 	}
 }
 
@@ -176,13 +188,21 @@ get_thunderbird_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "to='%s',", text);
-
-	g_string_append_printf (mailto,"attachment='%s", (char *)file_list->data);
-	for (l = file_list->next ; l; l=l->next){
-		g_string_append_printf (mailto,",%s", (char *)l->data);
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // escape characters ? " '
+		g_string_append_printf (mailto, "to=%s,", text_esc);  // Don't use outer quotation here (='%s'), because then it wouldn't be interpreted as percent-encoded text
+		g_free (text_esc);
 	}
+
+	g_string_append_printf (mailto, "attachment='");
+	for (l = file_list ; l; l=l->next) {
+		GString *file_esc = g_string_new ((char *) l->data);
+		g_string_replace (file_esc, "\'", "%27", 0); // escape ' (this is only for a very rare problem: e.g. attach this two filenames, in this exact order: a' and abc )
+		g_string_replace (file_esc, ",", "%2C", 0); // escape , (needed to handle multiple files)
+		g_string_append_printf (mailto, "%s,", file_esc->str);
+		g_string_free (file_esc, TRUE);
+	}
+	if (mailto->str [mailto->len - 1] == ',') g_string_truncate (mailto, mailto->len - 1); //remove last ,
 	g_string_append (mailto, "'\"");
 }
 
@@ -196,14 +216,48 @@ get_sylpheed_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_lis
 	const char *text;
 
 	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
-	if (text != NULL && *text != '\0')
-		g_string_append_printf (mailto, "\"%s\" ", text);
-	else
-		g_string_append (mailto, "\"\"");
+	if (text != NULL && *text != '\0') {
+		char *text_esc = g_uri_escape_string (text, NULL, TRUE); // to handle character ?
+		g_string_append_printf (mailto, "%s ", text_esc);
+		g_free (text_esc);
+	}
+	// Don't insert empty text ("") as email-adress, because it's not supported by Claws.
 
-	g_string_append_printf (mailto,"--attach \"%s\"", (char *)file_list->data);
-	for (l = file_list->next ; l; l=l->next){
-		g_string_append_printf (mailto," \"%s\"", (char *)l->data);
+	g_string_append_printf (mailto, "--attach");
+	for (l = file_list ; l; l=l->next) {
+		char *filename_clean = g_filename_from_uri ((char *) l->data, NULL, NULL); // Sylpheed doesn't understand URIs
+		if (filename_clean != NULL)
+		{
+			char *filename_clean_esc = g_shell_quote (filename_clean);
+			g_string_append_printf (mailto, " %s", filename_clean_esc);
+			g_free (filename_clean_esc);
+		}
+		g_free (filename_clean);
+	}
+}
+
+static void
+get_kmail_mailto (GtkWidget *contact_widget, GString *mailto, GList *file_list)
+{
+	// Alternatively: KMail would also supports mailto
+
+	GList *l;
+
+	g_string_append (mailto, "--composer ");
+
+	const char *text;
+
+	text = gtk_entry_get_text (GTK_ENTRY (contact_widget));
+	if (text != NULL && *text != '\0') {
+		char *text_quote = g_shell_quote (text);
+		g_string_append_printf (mailto, "%s ", text_quote);
+		g_free (text_quote);
+	}
+
+	for (l = file_list ; l; l=l->next){
+		char *filename_esc = g_shell_quote ((char *) l->data);
+		g_string_append_printf (mailto," --attach %s", filename_esc);
+		g_free (filename_esc);
 	}
 }
 
@@ -223,12 +277,15 @@ send_files (NstPlugin *plugin,
 	case MAILER_SYLPHEED:
 		get_sylpheed_mailto (contact_widget, mailto, file_list);
 		break;
+	case MAILER_KMAIL:
+		get_kmail_mailto (contact_widget, mailto, file_list);
+		break;
 	case MAILER_THUNDERBIRD:
 		get_thunderbird_mailto (contact_widget, mailto, file_list);
 		break;
-	case MAILER_EVO:
+	case MAILER_DEFAULT:
 	default:
-		get_evo_mailto (contact_widget, mailto, file_list);
+		get_default_mailto (contact_widget, mailto, file_list);
 	}
 
 	cmd = g_strdup_printf (mail_cmd, mailto->str);
