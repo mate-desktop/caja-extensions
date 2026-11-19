@@ -1,9 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-extensions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Assalat3 <assalat3@gmail.com>, 2018
 # Eslam Ali <talvikahvi@gmail.com>, 2018
 # Ammuu5, 2020
@@ -12,20 +9,25 @@
 # Lasse Liehu-Inui <larso@gmx.com>, 2023
 # Tommi Nieminen <translator@legisign.org>, 2026
 # Transifex Bot <>, 2026
-# 
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-extensions 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-extensions\n"
 "POT-Creation-Date: 2023-08-31 19:45+0200\n"
-"PO-Revision-Date: 2018-03-11 15:02+0000\n"
-"Last-Translator: Transifex Bot <>, 2026\n"
-"Language-Team: Finnish (https://app.transifex.com/mate/teams/13566/fi/)\n"
+"PO-Revision-Date: 2026-07-02 09:17+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/caja-extensions/fi/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.7\n"
 
 #: audio-video-properties/bacon-video-widget-properties.c:104
 msgctxt "Title"
@@ -85,11 +87,11 @@ msgstr "N/A"
 
 #: audio-video-properties/bacon-video-widget-properties.c:135
 msgid "0 Hz"
-msgstr ""
+msgstr "0 Hz"
 
 #: audio-video-properties/bacon-video-widget-properties.c:137
 msgid "0 Channels"
-msgstr ""
+msgstr "0 kanavaa"
 
 #: audio-video-properties/bacon-video-widget-properties.c:153
 #, c-format
@@ -126,7 +128,7 @@ msgstr "%s, %s"
 
 #: audio-video-properties/bacon-video-widget-properties.c:173
 msgid "0 seconds"
-msgstr ""
+msgstr "0 sekuntia"
 
 #: audio-video-properties/bacon-video-widget-properties.c:233
 #, c-format
@@ -137,11 +139,11 @@ msgstr[1] ""
 
 #: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:5
 msgid "Audio/Video Properties"
-msgstr ""
+msgstr "Äänen/videon ominaisuudet"
 
 #: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:6
 msgid "Display audio/video properties"
-msgstr ""
+msgstr "Näytä äänen/videon ominaisuudet"
 
 #: audio-video-properties/libcaja-av.caja-extension.desktop.in.in:8
 msgid ""
@@ -154,7 +156,7 @@ msgstr ""
 #: audio-video-properties/totem-properties-main.c:118
 #: audio-video-properties/totem-properties-view.c:275
 msgid "Audio/Video"
-msgstr ""
+msgstr "Ääni/video"
 
 #: audio-video-properties/totem-properties-view.c:133
 msgid "N/A"
@@ -168,12 +170,12 @@ msgstr "N/A"
 #: audio-video-properties/totem-properties-view.c:165
 #, c-format
 msgid "%d kbps"
-msgstr ""
+msgstr "%d kbps"
 
 #: audio-video-properties/totem-properties-view.c:182
 #, c-format
 msgid "%d × %d"
-msgstr ""
+msgstr "%d × %d"
 
 #: audio-video-properties/totem-properties-view.c:214
 #, c-format
@@ -313,7 +315,7 @@ msgstr "Korkeus:"
 
 #: image-converter/caja-image-resize.ui:330
 msgid "Image Size"
-msgstr ""
+msgstr "Kuvan koko"
 
 #: image-converter/caja-image-resize.ui:368
 #: image-converter/caja-image-rotate.ui:242
@@ -367,15 +369,15 @@ msgstr "Valitse kulma:"
 
 #: image-converter/caja-image-rotate.ui:124
 msgid "90° clockwise"
-msgstr ""
+msgstr "90° myötäpäivään"
 
 #: image-converter/caja-image-rotate.ui:125
 msgid "90° counter-clockwise"
-msgstr ""
+msgstr "90° vastapäivään"
 
 #: image-converter/caja-image-rotate.ui:126
 msgid "180°"
-msgstr ""
+msgstr "180°"
 
 #: image-converter/caja-image-rotate.ui:149
 msgid "Custom angle:"
@@ -387,7 +389,7 @@ msgstr "astetta myötäpäivään"
 
 #: image-converter/caja-image-rotate.ui:204
 msgid "Image Rotation"
-msgstr ""
+msgstr "Kuvan kierto"
 
 #: image-converter/caja-image-rotate.ui:260
 msgid ".rotated"
@@ -409,7 +411,7 @@ msgstr "<i>Kierretään \"%s\"</i>"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:5
 msgid "Image Converter"
-msgstr ""
+msgstr "Kuvamuunnin"
 
 #: image-converter/libcaja-image-converter.caja-extension.desktop.in.in:6
 msgid "Rotate and resize images"
@@ -450,7 +452,7 @@ msgstr ""
 
 #: open-terminal/caja-open-terminal.c:566
 msgid "Terminal application:"
-msgstr ""
+msgstr "Päätesovellus:"
 
 #: open-terminal/caja-open-terminal.c:586
 msgid "Close"
@@ -566,7 +568,7 @@ msgstr "Lähetä…"
 
 #: sendto/caja-sendto.ui:54
 msgid "Send"
-msgstr ""
+msgstr "Lähetä"
 
 #: sendto/caja-sendto.ui:116
 msgid "Send _as:"
@@ -578,7 +580,7 @@ msgstr "Vastaan_ottaja:"
 
 #: sendto/caja-sendto.ui:160
 msgid "Destination"
-msgstr ""
+msgstr "Kohde"
 
 #: sendto/caja-sendto.ui:193
 msgid "Send _packed in:"
@@ -586,7 +588,7 @@ msgstr "Lähetä _paketoituna muotoon:"
 
 #: sendto/caja-sendto.ui:258
 msgid "Compression"
-msgstr ""
+msgstr "Pakkaus"
 
 #: sendto/caja-sendto.ui:300
 msgid "label"
@@ -687,7 +689,7 @@ msgstr ""
 
 #: share/caja-share.c:139
 msgid "Add the permissions automatically"
-msgstr ""
+msgstr "Lisää oikeudet automaattisesti"
 
 #: share/caja-share.c:165
 #, c-format
@@ -696,11 +698,11 @@ msgstr ""
 
 #: share/caja-share.c:448
 msgid "Share name is too long"
-msgstr ""
+msgstr "Jaon nimi on liian pitkä"
 
 #: share/caja-share.c:490
 msgid "The share name cannot be empty"
-msgstr ""
+msgstr "Jaon nimi ei voi olla tyhjä"
 
 #: share/caja-share.c:503
 #, c-format
@@ -709,15 +711,15 @@ msgstr ""
 
 #: share/caja-share.c:513
 msgid "Another share has the same name"
-msgstr ""
+msgstr "Toisella jaolla on jo sama nimi"
 
 #: share/caja-share.c:556 share/caja-share.c:791
 msgid "Modify _Share"
-msgstr ""
+msgstr "Muokkaa _jakoa"
 
 #: share/caja-share.c:556 share/caja-share.c:793
 msgid "Create _Share"
-msgstr ""
+msgstr "_Luo jako"
 
 #: share/caja-share.c:684
 msgid "There was an error while getting the sharing information"
@@ -725,11 +727,11 @@ msgstr ""
 
 #: share/caja-share.c:1113 share/share-dialog.ui:48
 msgid "Folder Sharing"
-msgstr ""
+msgstr "Kansion jakaminen"
 
 #: share/caja-share.c:1154
 msgid "Sharing Options"
-msgstr ""
+msgstr "Jakamisen asetukset"
 
 #: share/caja-share.c:1155
 msgid "Share this Folder"
@@ -737,11 +739,11 @@ msgstr "Jaa tämä kansio"
 
 #: share/share-dialog.ui:85
 msgid "Share this _folder"
-msgstr ""
+msgstr "Jaa _tämä kansio"
 
 #: share/share-dialog.ui:119
 msgid "Share _name:"
-msgstr ""
+msgstr "Jaon _nimi:"
 
 #: share/share-dialog.ui:133
 msgid "Co_mment:"
@@ -750,10 +752,11 @@ msgstr "Ko_mmentti:"
 #: share/share-dialog.ui:173
 msgid "_Allow others to create and delete files in this folder"
 msgstr ""
+"_Salli muiden luoda tiedostoja tähän kansioon ja poistaa tiedostoja kansiosta"
 
 #: share/share-dialog.ui:189
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "_Vieraspääsy (henkilöille, joilla ei ole käyttäjätunnusta)"
 
 #: share/share-dialog.ui:264
 msgid "_Save"
@@ -772,12 +775,12 @@ msgstr ""
 #: share/shares.c:155
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "'net usershare' palautti virheen %d: %s"
 
 #: share/shares.c:157
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' palautti virheen %d"
 
 #: share/shares.c:188
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
